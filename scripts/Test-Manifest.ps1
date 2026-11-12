@@ -32,7 +32,8 @@ foreach ($f in $onDisk) { if ($listed -notcontains $f) { $warns.Add("manifest/mo
 $byId = @{}
 $byNexus = @{}
 $allowed = 'id', 'name', 'nexusId', 'category', 'priority', 'required', 'dependsOn', 'conflictsWith',
-           'testedGameVersion', 'modVersion', 'detect', 'logFiles', 'notes', 'SourceFile'
+           'testedGameVersion', 'modVersion', 'detect', 'logFiles', 'notes', 'SourceFile',
+           'author', 'endorsements', 'nexusCategory', 'compat', 'mainFile', 'summary', 'autoNotes'
 
 foreach ($m in $mods) {
     $where = "$($m.SourceFile)"

@@ -1,0 +1,96 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  scripts:
+    name: Scripts (${{ matrix.shell }})
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shell: [pwsh, powershell]   # PowerShell 7 and Windows PowerShell 5.1
+    defaults:
+      run:
+        shell: ${{ matrix.shell }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse every script
+        run: |
+          $bad = 0
+          foreach ($f in Get-ChildItem scripts -Include *.ps1, *.psm1 -Recurse) {
+            $errs = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($f.FullName, [ref]$null, [ref]$errs) | Out-Null
+            foreach ($e in $errs) { Write-Host "::error file=$($f.Name),line=$($e.Extent.StartLineNumber)::$($e.Message)"; $bad++ }
+          }
+          if ($bad) { exit 1 }
+
+      - name: Test-Manifest
+        run: .\scripts\Test-Manifest.ps1
+
+      - name: Find-MissingDependencies -ManifestOnly
+        run: .\scripts\Find-MissingDependencies.ps1 -ManifestOnly
+
+      - name: Build a fake game folder
+        run: |
+          $g = Join-Path $env:RUNNER_TEMP 'Cyberpunk 2077'
+          New-Item -ItemType Directory -Force "$g\bin\x64\plugins\cyber_engine_tweaks\mods\nativeSettings", "$g\red4ext\plugins\ArchiveXL", "$g\red4ext\plugins\TweakXL", "$g\red4ext\plugins\Codeware", "$g\red4ext\logs", "$g\engine\tools", "$g\r6\logs", "$g\r6\scripts", "$g\archive\pc\mod" | Out-Null
+          Copy-Item "$env:WINDIR\System32\notepad.exe" "$g\bin\x64\Cyberpunk2077.exe"
+          'x' | Set-Content "$g\bin\x64\plugins\cyber_engine_tweaks.asi", "$g\bin\x64\version.dll", "$g\bin\x64\winmm.dll", "$g\red4ext\RED4ext.dll", "$g\engine\tools\scc.exe", "$g\red4ext\plugins\ArchiveXL\ArchiveXL.dll", "$g\red4ext\plugins\TweakXL\TweakXL.dll", "$g\red4ext\plugins\Codeware\Codeware.dll", "$g\bin\x64\plugins\cyber_engine_tweaks\mods\nativeSettings\init.lua", "$g\archive\pc\mod\test.archive"
+          "[info] started`n[error] Failed to compile r6\scripts\BrokenMod\main.reds" | Set-Content "$g\r6\logs\redscript_rCURRENT.log"
+          "[info] RED4ext loaded" | Set-Content "$g\red4ext\logs\red4ext-1.log"
+          "CP2077_DIR=$g" | Out-File -Append -Encoding utf8 $env:GITHUB_ENV
+
+      - name: Test-ModSetup
+        run: |
+          .\scripts\Test-ModSetup.ps1 -GameDir $env:CP2077_DIR
+          if ($LASTEXITCODE -ne 0) { throw "expected a clean result, got exit $LASTEXITCODE" }
+
+      - name: Find-MissingDependencies
+        run: |
+          .\scripts\Find-MissingDependencies.ps1 -GameDir $env:CP2077_DIR
+          if ($LASTEXITCODE -gt 1) { throw "exit $LASTEXITCODE" }
+          $global:LASTEXITCODE = 0
+
+      - name: Get-ModLogs finds the planted error
+        run: |
+          .\scripts\Get-ModLogs.ps1 -GameDir $env:CP2077_DIR -OutDir "$env:RUNNER_TEMP\logs"
+          if ($LASTEXITCODE -ne 1) { throw "expected exit 1 (errors found), got $LASTEXITCODE" }
+          if (-not (Get-ChildItem "$env:RUNNER_TEMP\logs\*.zip")) { throw "no zip written" }
+          $global:LASTEXITCODE = 0
+
+      - name: Backup, then restore
+        run: |
+          .\scripts\Backup-Game.ps1 -GameDir $env:CP2077_DIR -Destination "$env:RUNNER_TEMP\bk" -Label ci -SkipSaves
+          Remove-Item "$env:CP2077_DIR\archive\pc\mod\test.archive"
+          'new' | Set-Content "$env:CP2077_DIR\archive\pc\mod\added-later.archive"
+          .\scripts\Restore-Game.ps1 -GameDir $env:CP2077_DIR -Backup "$env:RUNNER_TEMP\bk" -WhatIf
+          if (-not (Test-Path "$env:CP2077_DIR\archive\pc\mod\added-later.archive")) { throw "-WhatIf changed files" }
+          .\scripts\Restore-Game.ps1 -GameDir $env:CP2077_DIR -Backup "$env:RUNNER_TEMP\bk"
+          if (-not (Test-Path "$env:CP2077_DIR\archive\pc\mod\test.archive")) { throw "restore didn't bring the archive back" }
+          if (Test-Path "$env:CP2077_DIR\archive\pc\mod\added-later.archive") { throw "restore didn't mirror archive/pc/mod" }
+
+      - name: Install-Modpack plan (-WhatIf)
+        run: .\scripts\Install-Modpack.ps1 -Category 00-frameworks.json -WhatIf
+
+  builder:
+    name: Builder (python)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m py_compile tools/nexus/build_modpack.py
+      - name: Manifest JSON is valid
+        run: |
+          python - <<'EOF'
+          import json, pathlib
+          for p in pathlib.Path('manifest').rglob('*.json'):
+              json.loads(p.read_text(encoding='utf-8'))
+          print('ok')
+          EOF
