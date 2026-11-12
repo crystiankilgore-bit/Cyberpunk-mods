@@ -1,5 +1,3220 @@
 {
   "$schema": "../schema/mod-list.schema.json",
   "category": "Graphics, lighting & weather",
-  "mods": []
+  "mods": [
+    {
+      "id": "nova-lut-4-0-agx-new-hdr",
+      "name": "Nova LUT 4.0 (AgX - New HDR)",
+      "nexusId": 11622,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 17625,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 144813,
+        "name": "Nova LUT 4",
+        "version": "4.0.0",
+        "uploaded": "2026-05-10",
+        "variants": 1
+      },
+      "summary": "Crisp visuals with a natural palette, using AgX tonemapping to bring the lifelike luminance and color to Night City with a pop of contrast.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-NovaLUT4.archive"
+        ]
+      },
+      "notes": "Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "cyberpunk-autonomous-reshade-true-hdr",
+      "name": "Cyberpunk Autonomous ReShade - True HDR",
+      "nexusId": 11,
+      "priority": "recommended",
+      "required": false,
+      "author": "Vanguard1776",
+      "endorsements": 15120,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 2999,
+        "name": "Cyberpunk Autonomous ReShade - True HDR v2.FX",
+        "version": "v2.FX",
+        "uploaded": "2021-01-17",
+        "variants": 1
+      },
+      "summary": "Finally, True HDR for Cyberpunk 2077! The Autonomous ReShade is steps ahead of the Corpo-Rat agenda. This is professional Quality and Performance. Enjoy!"
+    },
+    {
+      "id": "weather-probability-rebalance",
+      "name": "Weather Probability Rebalance",
+      "nexusId": 3196,
+      "priority": "recommended",
+      "required": false,
+      "author": "RMK",
+      "endorsements": 11874,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167735,
+        "name": "Weather Probability Rebalance",
+        "version": "2.10",
+        "uploaded": "2026-10-23",
+        "variants": 1
+      },
+      "summary": "Changes weather patterns and durations so that rain and other interesting weather happens more often."
+    },
+    {
+      "id": "blur-begone-clear-materials",
+      "name": "Blur Begone (Clear Materials)",
+      "nexusId": 8105,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 10897,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168960,
+        "name": "Blur Begone",
+        "version": "2.6.0",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Remove unnecessary blur on translucent objects. Enjoy refraction effects through clear, blur-free materials! Enhance the world around you with realistic visuals and brighter reflections.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "ultra-plus-physically-accurate-path-tracing",
+      "name": "Ultra Plus - Physically Accurate Path Tracing",
+      "nexusId": 10490,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext",
+        "loud-noises-fix-audio-pool-fix",
+        "cyberpunk-render-tweaks"
+      ],
+      "author": "SammiLucia",
+      "endorsements": 9485,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173070,
+        "name": "Cyberpunk Ultra Plus X v10.1.0_rtm for 2.5",
+        "version": "v10.1.0.11",
+        "uploaded": "2026-11-03",
+        "variants": 2
+      },
+      "summary": "Ultra+ mods more than 80 games, fixing bugs, visuals, and performance, for as many people/PCs as possible.",
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "preem-scanner-customization-options-for-a-clean",
+      "name": "Preem Scanner (Customization Options for a Clean Minimal Scanner)",
+      "nexusId": 9215,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "clean-voiceovers-while-zoomed-or-scanning"
+      ],
+      "author": "CyanideX",
+      "endorsements": 7919,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 94627,
+        "name": "Preem Scanner - Pure",
+        "version": "1.2.0p",
+        "uploaded": "2024-12-12",
+        "variants": 1
+      },
+      "summary": "Removes the green tint and vignette from the scanner while providing a clean new look! Now with various options!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-PreemScanner-Pure.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "enhanced-weather-v6",
+      "name": "Enhanced Weather V6",
+      "nexusId": 3901,
+      "priority": "recommended",
+      "required": false,
+      "author": "Knochey",
+      "endorsements": 7359,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 99646,
+        "name": "Enhanced Weather V6.1",
+        "version": "6.1",
+        "uploaded": "2025-01-27",
+        "variants": 1
+      },
+      "summary": "Adds more variety to weather in Cyberpunk 2077 and overhauls some of the weathers visuals.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#EnhancedWeatherV6_1.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "preem-scopes-remove-tint-glitches-scanlines-and",
+      "name": "Preem Scopes (Remove Tint Glitches Scanlines and 3D Depth Effect - FOMOD)",
+      "nexusId": 10021,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 7229,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 106354,
+        "name": "Preem Scopes",
+        "version": "0.17.2",
+        "uploaded": "2025-04-11",
+        "variants": 1
+      },
+      "summary": "Removes scope glitches, scanlines, tint, and 3D HUD effects. Also tones down distortion and vignetting.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PreemScopes.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "ultra-enhanced-reshade-performance-friendly",
+      "name": "Ultra Enhanced Reshade (Performance Friendly)",
+      "nexusId": 51,
+      "priority": "recommended",
+      "required": false,
+      "author": "srgamerio",
+      "endorsements": 6925,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 878,
+        "name": "Ultra Enhanced Reshade With No Performance Loss",
+        "version": "1.3",
+        "uploaded": "2020-12-20",
+        "variants": 1
+      },
+      "summary": "Ultra Enhanced Reshade. Get the most details out of a preset with very little performance loss. No over-sharpening. No color alteration. No pitch black contrast.Preserves the vanilla visibility in dark areas."
+    },
+    {
+      "id": "realistic-map",
+      "name": "Realistic Map",
+      "nexusId": 17811,
+      "priority": "recommended",
+      "required": false,
+      "author": "SvenVH",
+      "endorsements": 6902,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 111748,
+        "name": "Realistic Map 32K",
+        "version": "1.0.0",
+        "uploaded": "2025-06-18",
+        "variants": 4
+      },
+      "summary": "Replaces the default map with a Detailed High-Res 2D Render of the actual map. 4k, 8k, 16k, and 32k resolutions",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RealisticMap32K.archive"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "eye-adaptation-complete-overhaul-auto-exposure-f",
+      "name": "Eye Adaptation Complete Overhaul - Auto Exposure Fix - Optional Diverse Weather - Full Rework of Blinding Lighting and Gamma - Toggles for Radial Bloom Sharpening and Vignette",
+      "nexusId": 2375,
+      "priority": "recommended",
+      "required": false,
+      "author": "Dravic",
+      "endorsements": 6527,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169431,
+        "name": "Eye Adaptation Complete Overhaul",
+        "version": "2.02",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "This is a lighting/exposure overhaul across the entire game, unlike the previous versions of my mod which was limited to Night City. I've solved the ever-annoying issue of the game's light blinding you by changing its parameters everywhere."
+    },
+    {
+      "id": "environment-textures-overhaul-eto",
+      "name": "Environment Textures Overhaul - ETO",
+      "nexusId": 13372,
+      "priority": "recommended",
+      "required": false,
+      "author": "nopoPak",
+      "endorsements": 6310,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 162329,
+        "name": "ETO 4K",
+        "version": "1.31",
+        "uploaded": "2026-09-24",
+        "variants": 3
+      },
+      "summary": "Mod replaces a lot of low quality textures to remade higher fidelity ones, while trying to match vanilla look.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ETO_4K.archive"
+        ]
+      },
+      "notes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "v-s-apartment-renovation",
+      "name": "V's Apartment Renovation",
+      "nexusId": 2154,
+      "priority": "recommended",
+      "required": false,
+      "author": "fuxsart",
+      "endorsements": 6133,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 10531,
+        "name": "V's Apartment Renovation",
+        "version": "1.00",
+        "uploaded": "2021-04-02",
+        "variants": 1
+      },
+      "summary": "A few custom color palettes and material combinations to repair V's apartment in megabuilding H10.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/basegame_vs_apartment_beige_brown.archive",
+          "archive/pc/mod/basegame_vs_apartment_blue_purple.archive",
+          "archive/pc/mod/basegame_vs_apartment_blue_sky_blue.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "nova-city-2-custom-weather-and-lighting-exposure",
+      "name": "Nova City 2 (Custom Weather and Lighting - Exposure Overhaul)",
+      "nexusId": 12490,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "conflict-begone-archive-conflict-checker-user-mo",
+        "film-grain-fix",
+        "relux-lighting-redux-accurate-lighting-aio",
+        "the-nullifier",
+        "weather-switcher-change-weather-control-time-cus",
+        "the-grid-custom-street-light-hours-weather-effec"
+      ],
+      "author": "CyanideX",
+      "endorsements": 5840,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 155602,
+        "name": "Nova City 2",
+        "version": "2.3.2",
+        "uploaded": "2026-08-09",
+        "variants": 1
+      },
+      "summary": "Bring Night City to life with a weather system that includes brand new weather states, natural transitions, and overhauled exposure.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#####-NovaCity2.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "lut-switcher-3-realtime-scanner-weather-menu",
+      "name": "LUT Switcher 3 (Realtime - Scanner - Weather - Menu)",
+      "nexusId": 16310,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "redscript",
+        "tweakxl",
+        "window-utils-gui-library-animation-grid-alignmen"
+      ],
+      "author": "CyanideX",
+      "endorsements": 5804,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168476,
+        "name": "LUTSwitcher",
+        "version": "3.5.0",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Realtime, native LUT switching! Features custom packs, categories, favorites, and hotkeys to toggle active LUTs."
+    },
+    {
+      "id": "always-best-quality-ads-map-hud-photo-mode-vendi",
+      "name": "Always Best Quality _ Ads - Map - Hud - Photo Mode - Vending Machines and more",
+      "nexusId": 12700,
+      "priority": "recommended",
+      "required": false,
+      "author": "EmreHQ",
+      "endorsements": 5552,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175339,
+        "name": "Always_Best_Quality For 2.5",
+        "version": "4.1.2.50",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "(˶ᵔ ᵕ ᵔ˶) Ensure everything in most aspects of the game always looks in its best quality.For examle: ads, map, hud, vending machines, photo mode, web sites, and more.⁺˚⋆｡°✩₊✩°｡⋆˚⁺"
+    },
+    {
+      "id": "fx-begone-customized-effects-removal",
+      "name": "FX Begone (Customized Effects Removal)",
+      "nexusId": 9209,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 5384,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168650,
+        "name": "FX Begone",
+        "version": "2.3.0",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Removes any visual effects, including Johnny glitches, fall damage, zoom and scope pixelation, and more!"
+    },
+    {
+      "id": "improved-environment-lods",
+      "name": "Improved Environment LODs",
+      "nexusId": 4923,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript",
+        "mod-settings"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 4998,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 165723,
+        "name": "Improved Environment LODs",
+        "version": "3.5",
+        "uploaded": "2026-10-13",
+        "variants": 1
+      },
+      "summary": "Increases level of detail.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/ImprovedEnvironmentLODs/init.lua",
+          "r6/scripts/ImprovedEnvironmentLODs.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "better-building-windows",
+      "name": "Better Building Windows",
+      "nexusId": 7160,
+      "priority": "recommended",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 4852,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 158333,
+        "name": "Better Windows",
+        "version": "2.1",
+        "uploaded": "2026-08-29",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/BetterWindows.archive"
+        ]
+      }
+    },
+    {
+      "id": "gits-3-x",
+      "name": "GITS 3.X",
+      "nexusId": 9274,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "weathermancer-weather-select-menu"
+      ],
+      "author": "BabaBooey88",
+      "endorsements": 4790,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 68874,
+        "name": "01 GITS FUJI",
+        "version": "3.X",
+        "uploaded": "2024-02-18",
+        "variants": 4
+      },
+      "summary": "Ghost in the Shell.BIG GRAPHICS.READ DESCRIPTION.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/##GITSHDR.archive",
+          "archive/pc/mod/##reLIGHT.xl",
+          "archive/pc/mod/##reLIGHTdeFOG.xl"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "nova-rain-and-improved-ripples",
+      "name": "Nova Rain (and Improved Ripples)",
+      "nexusId": 13483,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 4316,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 71113,
+        "name": "Nova Rain - Raster",
+        "version": "1.0.0r",
+        "uploaded": "2024-03-10",
+        "variants": 2
+      },
+      "summary": "Subtle, realistic rain. No more in-your-face particles and rain that shines in the shadows of the night. Rain that respects the light.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-NovaRain-Raster.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "natural-californian-lighting-mod",
+      "name": "Natural Californian Lighting Mod",
+      "nexusId": 6737,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "dogtown-location-visuals-nulled-a-general-fix-fo",
+        "night-city-visuals-nulled",
+        "the-nullifier"
+      ],
+      "author": "ctxrlsec",
+      "endorsements": 4166,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 155076,
+        "name": "NCLM 2 and 1 for LUT Switcher",
+        "version": "1.91.0",
+        "uploaded": "2026-08-06",
+        "variants": 1
+      },
+      "summary": "Lightweight and Beautiful World Lighting Overhaul",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/LUTSwitcher-Addon-NCLM.archive",
+          "r6/tweaks/LUTSwitcher/NCLM.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "immersive-night-city-fixes",
+      "name": "Immersive Night City Fixes",
+      "nexusId": 20588,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "immersive-night-city-fixes-core",
+        "red4ext",
+        "redscript",
+        "increased-level-of-details-distance-draw-distanc"
+      ],
+      "author": "DBK",
+      "endorsements": 4162,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174541,
+        "name": "Immersive Night City Fixes",
+        "version": "0.37",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "Lets fix Night City together!",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "relux-lighting-redux-accurate-lighting-aio",
+      "name": "ReLUX (Lighting Redux - Accurate Lighting - AIO)",
+      "nexusId": 20808,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "reimagined"
+      ],
+      "author": "CyanideX - robber804",
+      "endorsements": 4072,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175556,
+        "name": "ReLUX",
+        "version": "2.2.1",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "Lighting redux! Bringing back the lighting that should have been with accurate emission from each source, removed fake GI bounces and random sources to bring a more grounded look to Night City. Yes, it removes artistic vision.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "fsr3-frame-gen-for-cyberpunk-2077-dlss-enabler-2",
+      "name": "FSR3 Frame Gen for Cyberpunk 2077 (DLSS Enabler 2077 Edition)",
+      "nexusId": 14726,
+      "priority": "recommended",
+      "required": false,
+      "author": "artur_07305 on discord",
+      "endorsements": 3969,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "native-pre-2.5",
+      "mainFile": {
+        "fileId": 88124,
+        "name": "GTX and RTX package (BETA)",
+        "version": "3.02.000.0",
+        "uploaded": "2024-09-29",
+        "variants": 2
+      },
+      "summary": "Adds FSR 3.1 Frame Generation (replaces DLSS FG) and additional upscaling options to the game. Works with all main GPU vendors (Nvidia, AMD, Intel). Fully compatible with CET, RED4ext and ReShade. Easy and quick installation.",
+      "notes": "Native plugin not updated since 2.5 - check the mod page before launching. 2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "improved-vehicle-lights-draw-distance",
+      "name": "Improved Vehicle Lights Draw Distance",
+      "nexusId": 5082,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 3858,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170713,
+        "name": "Vehicle Lights",
+        "version": "2.8",
+        "uploaded": "2026-10-29",
+        "variants": 1
+      },
+      "summary": "Increases the draw distance for vehicle lights."
+    },
+    {
+      "id": "edge-lut-3-0-reshade-paywall-begone-hdr",
+      "name": "Edge LUT 3.0 (Reshade Paywall Begone - HDR)",
+      "nexusId": 12694,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 3762,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 93592,
+        "name": "Edge LUT 3.0",
+        "version": "3.0.1a",
+        "uploaded": "2024-12-02",
+        "variants": 1
+      },
+      "summary": "Looking for that classic YouTuber look but don't feel like whipping out your wallet to get their custom Reshade preset and modlist? Look no further! Get that Reshade preset look without the need for Reshade.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#####-EdgeLUT3.archive"
+        ]
+      }
+    },
+    {
+      "id": "better-sleeves",
+      "name": "Better Sleeves",
+      "nexusId": 10319,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "render-plane-fix-clothing-sleeves-behind-hands-f"
+      ],
+      "author": "Marco4413",
+      "endorsements": 3475,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168051,
+        "name": "BetterSleeves - CET Only",
+        "version": "2.7",
+        "uploaded": "2026-10-24",
+        "variants": 2
+      },
+      "summary": "This mod enables you to roll up and down sleeves through CET hotkeys and menus. It's highly customizable thanks to blacklists and whitelists that can be managed in-game through CET.",
+      "notes": "2 main-file variants on Nexus - pick one. Also needs (off Nexus): Cyber Engine Tweaks."
+    },
+    {
+      "id": "general-shadows-fixes",
+      "name": "General Shadows Fixes",
+      "nexusId": 20405,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "cet"
+      ],
+      "author": "sosuinepxisuyu",
+      "endorsements": 3305,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174264,
+        "name": "General Shadows Fix",
+        "version": "0.96",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "Read the description.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "preem-rain",
+      "name": "Preem Rain",
+      "nexusId": 11467,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 3022,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 64290,
+        "name": "Preem Rain - Heavy",
+        "version": "1.0.1c",
+        "uploaded": "2024-01-11",
+        "variants": 1
+      },
+      "summary": "Improves rain by hiding the awful near particles, increasing density and spawn rate of distant rain, and modifying material properties.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-PreemRain-Heavy.archive"
+        ]
+      }
+    },
+    {
+      "id": "not-so-good-draw-distance",
+      "name": "Not So Good Draw Distance",
+      "nexusId": 11240,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "streaming-bug-workaround"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 2984,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174704,
+        "name": "Not So Good Draw Distance",
+        "version": "5.3",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "Increases draw distance and level of detail."
+    },
+    {
+      "id": "mango-s-ultra-reshade",
+      "name": "Mango's Ultra Reshade",
+      "nexusId": 3404,
+      "priority": "recommended",
+      "required": false,
+      "author": "FuzzyMangos",
+      "endorsements": 2958,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 49144,
+        "name": "Mango's Ultra Reshade V2",
+        "version": "2.1",
+        "uploaded": "2023-09-22",
+        "variants": 1
+      },
+      "summary": "Now updated for Phantom Liberty! The BEST Reshade preset to fix TAA Blurriness, remove Green Tint, and improve overall image quality with only 0-3 FPS loss! See for yourself!"
+    },
+    {
+      "id": "preem-map",
+      "name": "Preem Map",
+      "nexusId": 18269,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 2896,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 94040,
+        "name": "Preem Map",
+        "version": "1.0.0a",
+        "uploaded": "2024-12-07",
+        "variants": 1
+      },
+      "summary": "A Division-inspired map theme; dark with a touch of orange.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-PreemMap.archive"
+        ]
+      }
+    },
+    {
+      "id": "8k-4k-skin-texture-and-material-for-female-and-m",
+      "name": "8k-4k skin texture and material for female and male",
+      "nexusId": 13537,
+      "priority": "recommended",
+      "required": false,
+      "author": "f80h",
+      "endorsements": 2834,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 159944,
+        "name": "2b) Male Skin textures 8k-4k",
+        "version": "2.0.2",
+        "uploaded": "2026-09-09",
+        "variants": 1
+      },
+      "summary": "- 8k-4k skin textures for female and male- light version and lower res versions- skin material/shader- head mesh replacer where needed",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/00_Skin_male.archive"
+        ]
+      }
+    },
+    {
+      "id": "preem-lut-3-0-aces-new-hdr",
+      "name": "Preem LUT 3.0 (ACES - New HDR)",
+      "nexusId": 11510,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 2816,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 93637,
+        "name": "Preem LUT 3",
+        "version": "3.0.1a",
+        "uploaded": "2024-12-02",
+        "variants": 1
+      },
+      "summary": "Natural tones with a soft highlight roll-off provides visuals that are subtly pleasing without too much chaos.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-PreemLUT3.archive"
+        ]
+      }
+    },
+    {
+      "id": "nova-city-addons-traffic-and-population-density",
+      "name": "Nova City - Addons (Traffic and Population Density - Night Vision)",
+      "nexusId": 13429,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "nova-city-2-custom-weather-and-lighting-exposure"
+      ],
+      "author": "CyanideX",
+      "endorsements": 2781,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 77266,
+        "name": "Nova City - Night Vision",
+        "version": "1.0.0nv",
+        "uploaded": "2024-05-12",
+        "variants": 1
+      },
+      "summary": "Addons for Nova City that can also be used to spice up your own world! Insane traffic and population densities, plus an optional MT28 buspocalypse for fun!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-NovaCity-Addon-NightVision.archive"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "decals-flickering-fix",
+      "name": "Decals Flickering Fix",
+      "nexusId": 16579,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 2667,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170658,
+        "name": "Decals Flickering Fix",
+        "version": "0.3",
+        "uploaded": "2026-10-29",
+        "variants": 1
+      },
+      "summary": "Read the description."
+    },
+    {
+      "id": "nova-traffic-cet-modded-vehicles-in-traffic",
+      "name": "Nova Traffic (CET - Modded Vehicles in Traffic)",
+      "nexusId": 14025,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui",
+        "nova-city-addons-traffic-and-population-density",
+        "psycho-crowds-and-traffic-improvements-ini-tweak",
+        "game-entity-examiner-tool-plus-pseudo-quickhacki"
+      ],
+      "author": "CyanideX and TheManualEnhancer",
+      "endorsements": 2611,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 113240,
+        "name": "Nova Traffic - Customizable Version",
+        "version": "2.0.0cv",
+        "uploaded": "2025-07-08",
+        "variants": 1
+      },
+      "summary": "New category version available! Dynamic traffic replacement, adding new vehicles to traffic, including modded vehicles!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-NovaTraffic-CombatCab.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/NovaTraffic/init.lua"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "qol-higher-tv-quality",
+      "name": "QoL - Higher TV Quality",
+      "nexusId": 13090,
+      "priority": "recommended",
+      "required": false,
+      "author": "Deceptious",
+      "endorsements": 2588,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 68826,
+        "name": "Higher TV Quality",
+        "version": "1.0.0",
+        "uploaded": "2024-02-17",
+        "variants": 1
+      },
+      "summary": "Improves the TV channels texture quality, reducing pixelation and artefacting",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/HigherTvQuality.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "nova-lut-2-pure-agx-hdr-support",
+      "name": "Nova LUT 2 - Pure (AgX - HDR Support)",
+      "nexusId": 13764,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 2463,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 94438,
+        "name": "Nova LUT 2 - Pure (Lux)",
+        "version": "2.2.1l",
+        "uploaded": "2024-12-11",
+        "variants": 1
+      },
+      "summary": "A refined take on the Nova LUT Pure with a brand new HDR version to blow your mind. Includes Nova LUT Vibrant.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#####-NovaLUT-2-Pure-Lux.archive"
+        ]
+      }
+    },
+    {
+      "id": "preem-fixes-pt-shadow-bug-fix-and-hd-textures",
+      "name": "Preem Fixes (PT Shadow Bug Fix and HD Textures)",
+      "nexusId": 15800,
+      "priority": "recommended",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 2442,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 106365,
+        "name": "Preem Fixes - Little China",
+        "version": "1.0.0wlc",
+        "uploaded": "2025-04-11",
+        "variants": 1
+      },
+      "summary": "Fixes the common path tracing shadow bug on cloth mesh. Optional HD textures.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PreemFixes-LittleChina.archive",
+          "archive/pc/mod/preem_fixes_little_china.xl",
+          "archive/pc/mod/preem_fixes_little_china_removals.archive.xl"
+        ]
+      }
+    },
+    {
+      "id": "immersive-night-city-fixes-core",
+      "name": "Immersive Night City Fixes - CORE",
+      "nexusId": 27040,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "red4ext",
+        "redscript",
+        "mod-settings"
+      ],
+      "author": "DBK",
+      "endorsements": 2357,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169648,
+        "name": "Immersive Night City Fixes CORE",
+        "version": "1.5",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "CORE Mod file For Immersive Night City Fixes.",
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "framegen-ghosting-fix-for-fsr-3-1-fg",
+      "name": "FrameGen Ghosting 'Fix' for FSR 3.1 FG",
+      "nexusId": 13029,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "crouch-vignette-effect-remover",
+        "cet",
+        "dlssg-to-fsr3-1-settings-menu-nameplates-for-nuk",
+        "fsr3-frame-gen-for-cyberpunk-2077-dlss-enabler-2",
+        "redscript",
+        "trash-begone-optional-blowing-debris-and-cockroa"
+      ],
+      "author": "gramern and danyalzia",
+      "endorsements": 2320,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168545,
+        "name": "FrameGen Ghosting Fix NonContextual (Preem Comp.)",
+        "version": "5.2.8nc",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Eliminates the most irritating frame generation ghosting for cars and motorcycles. Now with options to limit ghosting in a 1st-person view (for vehicles & on foot). Doesn't require motion blur.",
+      "notes": "Also needs (off Nexus): MrGalBenitezZz's Patch. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "render-plane-fix-clothing-sleeves-behind-hands-f",
+      "name": "Render Plane Fix - Clothing (Sleeves) behind hands fix",
+      "nexusId": 14783,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "red4ext"
+      ],
+      "author": "Marco4413",
+      "endorsements": 2258,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 86468,
+        "name": "RenderPlaneFix",
+        "version": "1.3.5",
+        "uploaded": "2024-09-06",
+        "variants": 1
+      },
+      "summary": "Dynamic (or user-defined) Render Plane fix. Fixes hands being drawn on top of any clothing item.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/RenderPlaneFix/init.lua"
+        ]
+      },
+      "notes": "Also needs (off Nexus): Cyber Engine Tweaks. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "e3-visual-overhaul",
+      "name": "E3 Visual Overhaul",
+      "nexusId": 2170,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "e3-2018-lut"
+      ],
+      "author": "noxide",
+      "endorsements": 2225,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 49510,
+        "name": "E3 Visual Overhaul 5.2",
+        "version": "5.2",
+        "uploaded": "2023-09-26",
+        "variants": 1
+      },
+      "summary": "Love the E3 2018 colors but hate how washed out the game looks with it? Look no further! Better Shadows, Lighting, Colors, see the difference for yourself!",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "improved-distant-shadows-and-reflections",
+      "name": "Improved Distant Shadows and Reflections",
+      "nexusId": 20623,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "inplace-streamingsectors-nulled"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 2207,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 165839,
+        "name": "Improved Distant Shadows",
+        "version": "0.4",
+        "uploaded": "2026-10-13",
+        "variants": 1
+      },
+      "summary": "Read the description.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ImprovedDistantShadows.archive"
+        ]
+      }
+    },
+    {
+      "id": "spawn0-lod-mod",
+      "name": "spawn0 - LOD MOD",
+      "nexusId": 18925,
+      "priority": "recommended",
+      "required": false,
+      "author": "spawn0",
+      "endorsements": 2203,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 97215,
+        "name": "SP0 - LOD",
+        "version": "1.0.1",
+        "uploaded": "2025-01-08",
+        "variants": 1
+      },
+      "summary": "This will extend lod distanceNo npc mesh glitches",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!__SP0_LOD.archive"
+        ]
+      }
+    },
+    {
+      "id": "disappearing-npc-and-vehicle-fix-crowd-lod-spawn",
+      "name": "Disappearing NPC and Vehicle Fix (Crowd LOD spawn distance)",
+      "nexusId": 19628,
+      "priority": "recommended",
+      "required": false,
+      "author": "Valour549",
+      "endorsements": 2194,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 103096,
+        "name": "3. Disappearing NPC and Vehicle Fix (Ultra Light)",
+        "version": "1.0",
+        "uploaded": "2025-03-02",
+        "variants": 1
+      },
+      "summary": "Fixes NPCs and vehicles often vanishing into thin air. High compatibility and minimal impact on performance.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#Disappearing_NPC_and_Vehicle_Fix.archive"
+        ]
+      }
+    },
+    {
+      "id": "increased-level-of-details-distance-draw-distanc",
+      "name": "Increased Level of Details Distance - Draw Distance",
+      "nexusId": 8694,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "native-settings-ui",
+        "cet"
+      ],
+      "author": "DBK",
+      "endorsements": 2147,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141748,
+        "name": "Increased Level of Details Distance",
+        "version": "5.1",
+        "uploaded": "2026-04-09",
+        "variants": 1
+      },
+      "summary": "As there are to many mods of this kind, i am going to be short. The Mod does what it says on the tin!!!",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/DrawDistanceBoost/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "alternative-skin-material",
+      "name": "Alternative Skin Material",
+      "nexusId": 7341,
+      "priority": "recommended",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 2019,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 160715,
+        "name": "Alternative Skin Material",
+        "version": "1.6",
+        "uploaded": "2026-09-13",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/000SkinMaterial.archive"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "disable-fake-lights-with-path-tracing",
+      "name": "Disable Fake Lights with Path Tracing",
+      "nexusId": 16060,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript",
+        "mod-settings"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 2018,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 149994,
+        "name": "Fake Lights No More",
+        "version": "0.5",
+        "uploaded": "2026-06-26",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/FakeLightsNoMore.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "fire-and-explosions-texture-overhaul",
+      "name": "Fire and Explosions Texture Overhaul",
+      "nexusId": 15205,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "smoke-texture-overhaul"
+      ],
+      "author": "Keen",
+      "endorsements": 2008,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 152778,
+        "name": "Fire and Explosions Texture Overhaul (OPTIMIZED)",
+        "version": "3",
+        "uploaded": "2026-07-20",
+        "variants": 1
+      },
+      "summary": "Makes Fire Textures EXCELLENT quality from any viewing distance!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/~!!!! Optimized Fire + BoomBoom.archive"
+        ]
+      },
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "trash-begone-optional-blowing-debris-and-cockroa",
+      "name": "Trash Begone (Optional Blowing Debris and Cockroach Removal)",
+      "nexusId": 12269,
+      "priority": "optional",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 1986,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 95495,
+        "name": "Trash Begone",
+        "version": "1.4.0a",
+        "uploaded": "2024-12-20",
+        "variants": 1
+      },
+      "summary": "Removes trash mesh and effects, including the floating street papers.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-TrashBegone-Basic.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "high-res-surfaces-textures-monstrrmagic-texture",
+      "name": "High Res Surfaces Textures -  MonstrrMagic Texture Series",
+      "nexusId": 10331,
+      "priority": "optional",
+      "required": false,
+      "author": "XilaMonstrr",
+      "endorsements": 1972,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 79988,
+        "name": "High-Res Surfaces  4x-4K LITE",
+        "version": "3.0",
+        "uploaded": "2024-06-13",
+        "variants": 2
+      },
+      "summary": "High-resolution 4K or 2K retexture of Architectural Surfaces via AI upscaling.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Surfaces 2.0.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "smoke-texture-overhaul",
+      "name": "Smoke Texture Overhaul",
+      "nexusId": 15226,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "fire-and-explosions-texture-overhaul",
+        "exploded-vehicles-smoke-overhaul-vfx"
+      ],
+      "author": "Keen",
+      "endorsements": 1940,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 153916,
+        "name": "Smoke Texture Overhaul (OPTIMIZED)",
+        "version": "2",
+        "uploaded": "2026-07-29",
+        "variants": 1
+      },
+      "summary": "Upscales existing and adds custom Smoke and Dust effects.Use alongside with Fire and Explosions Texture Overhaul!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zsmoke overhaul (optimized).archive"
+        ]
+      },
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "alternative-hair-material",
+      "name": "Alternative Hair Material",
+      "nexusId": 12184,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 1932,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 140949,
+        "name": "Alternative Hair Material",
+        "version": "0.31",
+        "uploaded": "2026-03-31",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "jab-begone-arm-injection-removal",
+      "name": "Jab Begone (Arm Injection Removal)",
+      "nexusId": 9065,
+      "priority": "optional",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 1898,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 67277,
+        "name": "Jab Begone - Scar Tissue",
+        "version": "1.1.0b",
+        "uploaded": "2024-02-04",
+        "variants": 2
+      },
+      "summary": "Remove the injection site scarring from your right forearm. Also includes canon scar tissue edition; less visible, but a reminder that you were once human.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-JabBegone-ScarTissue.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "clear-windows",
+      "name": "Clear Windows",
+      "nexusId": 13497,
+      "priority": "optional",
+      "required": false,
+      "author": "DBK",
+      "endorsements": 1757,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167766,
+        "name": "Clear Windows - Little Smearing",
+        "version": "2.5",
+        "uploaded": "2026-10-23",
+        "variants": 1
+      },
+      "summary": "This mod has 2 versions: - one that has squeaky clean windows,  - one that has a little smearing (doesn't break the immersion).  Changes the Glass material/texture.",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "glow-begone-with-variants",
+      "name": "Glow Begone (With variants)",
+      "nexusId": 14932,
+      "priority": "optional",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 1715,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 78659,
+        "name": "C. Glow Begone - Medium",
+        "version": "1.1.0c",
+        "uploaded": "2024-05-26",
+        "variants": 3
+      },
+      "summary": "Reduces the intensity of the simple fog, also known as the fake light pollution, for all distant light \"sources\".",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-GlowBegone.archive"
+        ]
+      },
+      "notes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "e3-2018-lut",
+      "name": "E3 2018 LUT",
+      "nexusId": 5154,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "e3-visual-overhaul"
+      ],
+      "author": "ZAJ",
+      "endorsements": 1667,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 49520,
+        "name": "E3 2018 LUT 2.0",
+        "version": "2.0",
+        "uploaded": "2023-09-26",
+        "variants": 1
+      },
+      "summary": "Changes the color grading to closer resemble the E3 2018 demo",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/E3 2018 LUT 2.0.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "reflash-2-0",
+      "name": "reFlash 2.0",
+      "nexusId": 8233,
+      "priority": "optional",
+      "required": false,
+      "author": "BabaBooey88",
+      "endorsements": 1665,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 64584,
+        "name": "00 Immersive Flash",
+        "version": "2.0",
+        "uploaded": "2024-01-13",
+        "variants": 1
+      },
+      "summary": "Increases the strength of muzzle flashes in game and photomode.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/00Immersive_Flash.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "nova-lut-2-supernova-agx-hdr-support",
+      "name": "Nova LUT 2 - Supernova (AgX - HDR Support)",
+      "nexusId": 14621,
+      "priority": "optional",
+      "required": false,
+      "author": "CyanideX",
+      "endorsements": 1662,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 83403,
+        "name": "1. Nova LUT 2 - Supernova",
+        "version": "2.2.1s",
+        "uploaded": "2024-07-26",
+        "variants": 1
+      },
+      "summary": "Warm, rich color with the luminance curve of Nova LUT; a Preem and Nova lovechild.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/######-NovaLUT-2-Supernova.archive"
+        ]
+      }
+    },
+    {
+      "id": "smart-frames-enhanced",
+      "name": "Smart Frames Enhanced",
+      "nexusId": 19500,
+      "priority": "optional",
+      "required": false,
+      "author": "nutboy",
+      "endorsements": 1629,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 100228,
+        "name": "Optional - Smart Frames Background Replacer",
+        "version": "1.0",
+        "uploaded": "2025-02-02",
+        "variants": 4
+      },
+      "summary": "Removes dirt, blurriness, and other filters from Smart Frames. Options for darker screens, removing scanlines animation, and default background",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/NUT_smartframes_custombackground.archive"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "nova-scanner",
+      "name": "Nova Scanner",
+      "nexusId": 13434,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "toggle-sprint-while-scanning"
+      ],
+      "author": "CyanideX",
+      "endorsements": 1587,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 77145,
+        "name": "Nova Scanner",
+        "version": "1.0.2a",
+        "uploaded": "2024-05-11",
+        "variants": 1
+      },
+      "summary": "A new take on the scanner. Minimal and immersive.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-NovaScanner.archive"
+        ]
+      }
+    },
+    {
+      "id": "faster-rainmap-and-distant-shadows",
+      "name": "Faster Rainmap and Distant Shadows",
+      "nexusId": 8610,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 1554,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 158351,
+        "name": "Rainmap_DistantShadows",
+        "version": "0.2",
+        "uploaded": "2026-08-29",
+        "variants": 1
+      },
+      "summary": "Read the description.",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "no-more-milky-glass-plus-eyes-ao",
+      "name": "No More Milky Glass Plus Eyes AO",
+      "nexusId": 11134,
+      "priority": "optional",
+      "required": false,
+      "author": "Mark666DooM",
+      "endorsements": 1469,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 133259,
+        "name": "No More Milky Glass 2.31",
+        "version": "2.31",
+        "uploaded": "2026-01-19",
+        "variants": 1
+      },
+      "summary": "This mod changes the blending factor of reflections to make materials less milky (white or frosty look) and Add AO on eyes to look less \"lit\" in certain light conditions using Ray Tracing and Path Tracing.This is a Brief part from Cyberpunk",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "nova-lut-ultimate-graphics-reshade",
+      "name": "Nova LUT Ultimate Graphics Reshade",
+      "nexusId": 11869,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "nova-lut-4-0-agx-new-hdr"
+      ],
+      "author": "UltimateGraphics",
+      "endorsements": 1418,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 62695,
+        "name": "Ultimate Nova LUT Graphics 1.0",
+        "version": "1.0",
+        "uploaded": "2023-12-29",
+        "variants": 1
+      },
+      "summary": "Small adjustments for Nova LUT graphics mod."
+    },
+    {
+      "id": "improved-bottles-and-tableware",
+      "name": "Improved Bottles and Tableware",
+      "nexusId": 14672,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 1392,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 81549,
+        "name": "ImprovedBottlesAndTableware",
+        "version": "0.2",
+        "uploaded": "2024-07-02",
+        "variants": 1
+      },
+      "summary": "Read the description.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/0ImprovedBottlesAndTableware.archive"
+        ]
+      }
+    },
+    {
+      "id": "enhanced-air-traffic",
+      "name": "Enhanced Air Traffic",
+      "nexusId": 20208,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "tidusmd",
+      "endorsements": 1384,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171361,
+        "name": "Enhanced Air Traffic",
+        "version": "1.2.0",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "Add new air traffic to Night City. The AVs added by this mod will automatically fly over the city using landing pads in various locations."
+    },
+    {
+      "id": "goodbye-green-tint-no-more-green-filter",
+      "name": "Goodbye Green Tint - No More Green Filter",
+      "nexusId": 5146,
+      "priority": "optional",
+      "required": false,
+      "author": "DIRECREEP",
+      "endorsements": 1368,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 70118,
+        "name": "EX NEUTRAL LUT FX",
+        "version": "1.0",
+        "uploaded": "2024-02-28",
+        "variants": 1
+      },
+      "summary": "removes the green tint with 0(yes, Z-E-R-O o-O) impact on performance (Cyberpunk 2.1 Definitive Edition + Phantom Liberty Ready) Ray Tracing and Path Tracing Compatible and worth it (Check the Images)"
+    },
+    {
+      "id": "improved-vehicle-glass-destruction-effects",
+      "name": "Improved Vehicle Glass Destruction Effects",
+      "nexusId": 17837,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 1286,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 92169,
+        "name": "Improved Vehicle Glass Destruction Effects",
+        "version": "0.1",
+        "uploaded": "2024-11-15",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ImprovedVehicleGlassDestruction.archive"
+        ]
+      }
+    },
+    {
+      "id": "realistic-bullet-hole-textures",
+      "name": "Realistic Bullet Hole Textures",
+      "nexusId": 15309,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "fire-and-explosions-texture-overhaul",
+        "smoke-texture-overhaul",
+        "reflash-2-0"
+      ],
+      "author": "keen",
+      "endorsements": 1252,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 154430,
+        "name": "Realistic Wall Slashes",
+        "version": "5",
+        "uploaded": "2026-08-02",
+        "variants": 2
+      },
+      "summary": "Changes the boring bullet hole textures to REAL and IMMERSIVE bullet hole textures!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!! newslashes.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "preem-mirrors-reflective-mirror-materials",
+      "name": "Preem Mirrors (Reflective Mirror Materials)",
+      "nexusId": 25633,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "inplace-streamingsectors-nulled"
+      ],
+      "author": "CyanideX",
+      "endorsements": 1248,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 128279,
+        "name": "Preem Mirrors (Lite)",
+        "version": "1.3.1",
+        "uploaded": "2025-11-24",
+        "variants": 2
+      },
+      "summary": "Your mirrors are now reflective!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-PreemMirrors.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "instant-eye-adaptation-auto-exposure-cet-compati",
+      "name": "Instant Eye Adaptation - Auto Exposure - CET - Compatible with weather and lighting mods",
+      "nexusId": 9296,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "yakuzadeso",
+      "endorsements": 1224,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173684,
+        "name": "ForceInstantAutoExposure",
+        "version": "1.0.0.9",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "Forces eye adaptation/auto exposure adjustments to be instant! No more squinting. Compatible with weather and lighting mods!"
+    },
+    {
+      "id": "eye-adaptation-complete-overhaul-auto-exposure-f-6282",
+      "name": "Eye Adaptation Complete Overhaul - Auto Exposure Fix - Diverse Weather Variant - Optionally Disable Sharpening and Disable Vignette",
+      "nexusId": 6282,
+      "priority": "optional",
+      "required": false,
+      "author": "Dravic",
+      "endorsements": 1223,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169426,
+        "name": "Eye Adaptation Complete Overhaul",
+        "version": "2.02",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "This is a lighting/exposure overhaul across the entire game, unlike the previous versions of my mod which was limited to Night City. I've solved the ever-annoying issue of the game's light blinding you by changing its parameters everywhere."
+    },
+    {
+      "id": "ultra-fog-steam-smoke-and-bloom-better-and-more",
+      "name": "Ultra Fog Steam Smoke and Bloom... Better and more immersive Cyberpunk",
+      "nexusId": 11811,
+      "priority": "optional",
+      "required": false,
+      "author": "SammiLucia",
+      "endorsements": 1218,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 88318,
+        "name": "Ultra Fog Full v3.1",
+        "version": "3.1",
+        "uploaded": "2024-10-01",
+        "variants": 2
+      },
+      "summary": "Path and ray tracing fixes for smoke, steam, fire, grenades, etc. to make them look visually correct.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!!!_Ultra_Fog_Full.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "microblend-fix",
+      "name": "Microblend Fix",
+      "nexusId": 11971,
+      "priority": "optional",
+      "required": false,
+      "author": "BabaBooey88",
+      "endorsements": 1218,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 63018,
+        "name": "Microblend Fix",
+        "version": "1",
+        "uploaded": "2024-01-01",
+        "variants": 1
+      },
+      "summary": "Fixes a material error with specific glass objects.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/00Microblend_Fix.archive"
+        ]
+      }
+    },
+    {
+      "id": "preem-menu-background-blur-pause-menu-animated-s",
+      "name": "Preem Menu (Background Blur  -  Pause Menu  -  Animated Snow)",
+      "nexusId": 18382,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "hud-painter"
+      ],
+      "author": "CyanideX",
+      "endorsements": 1200,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 126965,
+        "name": "Preem Menu (No Blur)",
+        "version": "1.4.0n",
+        "uploaded": "2025-11-06",
+        "variants": 3
+      },
+      "summary": "A simple mod to remove fluff from the menus and blur the background videos.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-PreemMenu.archive"
+        ]
+      },
+      "notes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "hq-fruits",
+      "name": "HQ Fruits",
+      "nexusId": 8895,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 1198,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 60412,
+        "name": "HQFruits",
+        "version": "1.1",
+        "uploaded": "2023-12-08",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/000HQFruits.archive"
+        ]
+      }
+    },
+    {
+      "id": "blind-begone-first-person-driving-auto-exposure",
+      "name": "Blind Begone (First Person Driving Auto Exposure Fix)",
+      "nexusId": 15725,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "conflict-begone-archive-conflict-checker-user-mo",
+        "the-nullifier"
+      ],
+      "author": "CyanideX",
+      "endorsements": 1186,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 83224,
+        "name": "Blind Begone",
+        "version": "1.2.0",
+        "uploaded": "2024-07-23",
+        "variants": 1
+      },
+      "summary": "Autoexposure adjustments to fix first person driving in all vehicles.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###-BlindBegone.archive"
+        ]
+      }
+    },
+    {
+      "id": "true-next-gen-shadows",
+      "name": "True next-gen shadows",
+      "nexusId": 2651,
+      "priority": "optional",
+      "required": false,
+      "author": "chumichangy",
+      "endorsements": 1185,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 42570,
+        "name": "USER CFG",
+        "version": "4.0",
+        "uploaded": "2023-04-15",
+        "variants": 1
+      },
+      "summary": "Small cfg-tweak for increase graphics quality. For 1.6  TY&Enj =)     ~10 fps hit on 3070ti (2560x1440)"
+    },
+    {
+      "id": "nvflods",
+      "name": "NVFlods",
+      "nexusId": 8440,
+      "priority": "optional",
+      "required": false,
+      "author": "Nvidiaforever",
+      "endorsements": 1184,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 67359,
+        "name": "Nvflods Ultra",
+        "version": "V1",
+        "uploaded": "2024-02-05",
+        "variants": 2
+      },
+      "summary": "Better Lods and Lods distance for NPCs , car ........No more Hair textures popping at mid and close range.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/######nvflods.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "renodx-hdr-fix-bloom-vignette-color-grade-film-g",
+      "name": "RenoDX - HDR Fix - Bloom - Vignette - Color Grade - Film Grain",
+      "nexusId": 13912,
+      "priority": "optional",
+      "required": false,
+      "author": "ShortFuse",
+      "endorsements": 1183,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 93065,
+        "name": "RenoDX for CP2077",
+        "version": "20241124",
+        "uploaded": "2024-11-24",
+        "variants": 1
+      },
+      "summary": "Rewrite of the DirectX12 shaders for HDR, bloom, vignette, LUTs, color grading, and film grain.",
+      "notes": "Also needs (off Nexus): Reshade 6.2 with add-ons."
+    },
+    {
+      "id": "exploded-vehicles-smoke-overhaul-vfx",
+      "name": "Exploded Vehicles Smoke Overhaul VFX",
+      "nexusId": 23861,
+      "priority": "optional",
+      "required": false,
+      "author": "cradilyex",
+      "endorsements": 1159,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173790,
+        "name": "Black Smoke Full v2.02 (Cazanu's revision)",
+        "version": "2.02",
+        "uploaded": "2026-11-05",
+        "variants": 2
+      },
+      "summary": "Cinematic exploded vehicles",
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "better-tree-textures-and-vegetation",
+      "name": "Better Tree Textures (and Vegetation)",
+      "nexusId": 14408,
+      "priority": "optional",
+      "required": false,
+      "author": "shierkbark47",
+      "endorsements": 1135,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 123086,
+        "name": "_Better Tree Textures 2K (Wind Begone Patch)",
+        "version": "2.0.0",
+        "uploaded": "2025-09-29",
+        "variants": 2
+      },
+      "summary": "Texture replacement for all sorts of vegetation.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!!!Better_Tree_Textures.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "elite-screens-ads-holo",
+      "name": "Elite Screens (Ads - Holo)",
+      "nexusId": 22805,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "native-settings-ui",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "EmreHQ",
+      "endorsements": 1123,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 114352,
+        "name": "EliteScreens_All_Realistic",
+        "version": "2.3",
+        "uploaded": "2025-07-20",
+        "variants": 2
+      },
+      "summary": "Removes effects from Screens and Holograms that affect image clarity also makes content look eye-catching with Realistic Mode.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/EliteScreens_All_Realistic.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "evo-lut",
+      "name": "evo LUT",
+      "nexusId": 16161,
+      "priority": "optional",
+      "required": false,
+      "author": "Sevenence",
+      "endorsements": 1111,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 159594,
+        "name": "evoLUT 5",
+        "version": "5.12.1",
+        "uploaded": "2026-09-06",
+        "variants": 1
+      },
+      "summary": "A LUT that offers accurate, pure colours and high contrast with detailed shadows and highlights.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/####_evoLUT_5.archive"
+        ]
+      }
+    },
+    {
+      "id": "env-tuner-weather-and-lighting-control-suite",
+      "name": "ENV Tuner (Weather and Lighting Control Suite)",
+      "nexusId": 23079,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "mod-settings",
+        "redscript"
+      ],
+      "author": "CyanideX  -  MisterChedda",
+      "endorsements": 1109,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168654,
+        "name": "ENV Tuner",
+        "version": "1.14.0",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Take control of Night City's visual atmosphere like never before. ENV Tuner is a dev tool that gives you the power to craft your perfect Cyberpunk 2077 experience."
+    },
+    {
+      "id": "relux-plus-riders-on-the-storm",
+      "name": "ReLUX Plus (Riders on the Storm)",
+      "nexusId": 22129,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "redscript",
+        "reimagined"
+      ],
+      "author": "CyanideX - MisterChedda",
+      "endorsements": 1096,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175609,
+        "name": "ReLUX Plus (Riders on the Storm)",
+        "version": "2.1.0",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "ReLUX+ is a dynamic evolution of the original ReLUX mod, introducing multi-phase lighting that adapts to quest progression, heightening immersion and storytelling."
+    },
+    {
+      "id": "cyberrunner-a-bladerunner-like-reshade",
+      "name": "Cyberrunner - a Bladerunner like Reshade",
+      "nexusId": 138,
+      "priority": "optional",
+      "required": false,
+      "author": "Mangaclub",
+      "endorsements": 1091,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 571,
+        "name": "Cyberrunner - Natural Bright",
+        "version": "1.02",
+        "uploaded": "2020-12-16",
+        "variants": 1
+      },
+      "summary": "This Reshade brings back the darker colder Bladerunner vibe to Cyberpunk 2077"
+    },
+    {
+      "id": "qol-stencil-text-enhanced",
+      "name": "QoL - Stencil Text Enhanced",
+      "nexusId": 15154,
+      "priority": "optional",
+      "required": false,
+      "author": "Deceptious",
+      "endorsements": 1091,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 79521,
+        "name": "Stencil Text Enhanced",
+        "version": "1.0.0",
+        "uploaded": "2024-06-06",
+        "variants": 1
+      },
+      "summary": "Simply replaces the 'Entropy' stencil text decal lettering with a less \"Serif\"y typeface.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/StencilTextEnhanced.archive"
+        ]
+      }
+    },
+    {
+      "id": "better-rain-ripples",
+      "name": "Better Rain Ripples",
+      "nexusId": 17775,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 1049,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 92008,
+        "name": "Better Ripples",
+        "version": "0.1",
+        "uploaded": "2024-11-13",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/BetterRainRipples.archive"
+        ]
+      }
+    },
+    {
+      "id": "disable-quest-weather",
+      "name": "Disable Quest Weather",
+      "nexusId": 21214,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware",
+        "mod-settings"
+      ],
+      "author": "MisterChedda",
+      "endorsements": 1042,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 119197,
+        "name": "DisableQuestWeather-v1.2",
+        "version": "1.2",
+        "uploaded": "2025-08-25",
+        "variants": 1
+      },
+      "summary": "Prevents quests from changing weather states",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/DisableQuestWeather/DisableQuestWeather.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "nova-optics-gameplay-env-tuning-with-vehicle-exp",
+      "name": "Nova Optics (Gameplay ENV Tuning with Vehicle Exposure Fix)",
+      "nexusId": 29190,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "redscript",
+        "red4ext"
+      ],
+      "author": "theCyanideX",
+      "endorsements": 1035,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168673,
+        "name": "Nova Optics",
+        "version": "1.4.2",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Customize exposure, bloom, vignette, chromatic aberration and more! Also includes a one-click vehicle first person exposure fix. Compatible with any weather mod!"
+    },
+    {
+      "id": "metro-glass",
+      "name": "METRO GLASS",
+      "nexusId": 11885,
+      "priority": "optional",
+      "required": false,
+      "author": "BabaBooey88",
+      "endorsements": 966,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 62509,
+        "name": "Metro Glass",
+        "version": "1.0",
+        "uploaded": "2023-12-28",
+        "variants": 1
+      },
+      "summary": "Extra E3 quality Metro Glass. Enables reflections when riding NCART.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/##Metro_Glass.archive"
+        ]
+      }
+    },
+    {
+      "id": "refract-interior-vehicle-reflections-material-re",
+      "name": "ReFRACT (Interior Vehicle Reflections - Material Refractions)",
+      "nexusId": 34858,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "blur-begone-clear-materials",
+        "redscript",
+        "red4ext",
+        "codeware"
+      ],
+      "author": "CyanideX",
+      "endorsements": 955,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171666,
+        "name": "ReFRACT",
+        "version": "1.5.1",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "Adds material rear-side reflections and refraction with other customization options."
+    },
+    {
+      "id": "ray-traced-lighting-fixes",
+      "name": "Ray Traced Lighting Fixes",
+      "nexusId": 29720,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 945,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175816,
+        "name": "Ray Traced Lighting Fixes",
+        "version": "0.5",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Fixes some issues with RT/PT Lighting.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "classic-cigarettes-hd-textures-and-meshes-replac",
+      "name": "Classic Cigarettes (HD Textures and Meshes Replacer)",
+      "nexusId": 12838,
+      "priority": "optional",
+      "required": false,
+      "author": "noha7ers",
+      "endorsements": 904,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 87913,
+        "name": "Classic Cigarettes HD Vanilla Like (Black filter)",
+        "version": "1.3",
+        "uploaded": "2024-09-27",
+        "variants": 2
+      },
+      "summary": "New HD models and textures for Nightcity's cigarettes! Made from scratch.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/######Classic_Cigarette.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "game-world-boundary-removed",
+      "name": "Game World Boundary Removed",
+      "nexusId": 20876,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "DBK",
+      "endorsements": 901,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170605,
+        "name": "Game World Boundary - Removed",
+        "version": "1.1",
+        "uploaded": "2026-10-29",
+        "variants": 1
+      },
+      "summary": "Feel free to visit anything and drive anywhere. No more restrictions, (Except Prologue Lockdown) !",
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "emotional-vision-2077",
+      "name": "Emotional Vision 2077",
+      "nexusId": 14467,
+      "priority": "optional",
+      "required": false,
+      "author": "htanjo",
+      "endorsements": 894,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 95943,
+        "name": "Emotional Vision 2077 Contrast - LUT Only",
+        "version": "1.2.1",
+        "uploaded": "2024-12-26",
+        "variants": 4
+      },
+      "summary": "Replaces in-game LUT and vignette effect to reproduce more expressive colors without affecting performance.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/emotional_vision_contrast_lut_only.archive"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "weather-randomiser",
+      "name": "Weather Randomiser",
+      "nexusId": 4388,
+      "priority": "optional",
+      "required": false,
+      "author": "Halliphax2",
+      "endorsements": 882,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 60753,
+        "name": "Weather Randomisation",
+        "version": "1.4.1",
+        "uploaded": "2023-12-10",
+        "variants": 1
+      },
+      "summary": "Tweaks some weather values and adds new weather transitions to give more variety and a \"random\" feel",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Weather Randomiser 1.4.archive"
+        ]
+      }
+    },
+    {
+      "id": "dlss-mirror-fix-and-dlss-sharpness",
+      "name": "DLSS Mirror Fix and DLSS Sharpness",
+      "nexusId": 511,
+      "priority": "optional",
+      "required": false,
+      "author": "ObviouslyTriggered",
+      "endorsements": 868,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1317,
+        "name": "user.ini",
+        "version": "1.0",
+        "uploaded": "2020-12-25",
+        "variants": 1
+      },
+      "summary": "Fixes the scaling issues in viewport (interactive) mirrors in the game, enables the built-in DLSS sharpness functionality."
+    },
+    {
+      "id": "universal-raytraced-player-shadows",
+      "name": "Universal Raytraced Player Shadows",
+      "nexusId": 16849,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware"
+      ],
+      "author": "KiasuBurger",
+      "endorsements": 852,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 156501,
+        "name": "Universal Raytraced Player Shadows",
+        "version": "1.0.3",
+        "uploaded": "2026-08-16",
+        "variants": 1
+      },
+      "summary": "This script-based mod turns on ray-traced shadows for all meshes in a new way that doesn't require modifying or patching any game files, ensuring that it will not conflict with other mods and can turn on shadows for both base-game and mod",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/kiasu-burger-full-raytraced-shadows.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "photorealistic-reshade-and-modlist",
+      "name": "Photorealistic Reshade and Modlist",
+      "nexusId": 16029,
+      "priority": "optional",
+      "required": false,
+      "author": "DigitalDreams",
+      "endorsements": 834,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 107276,
+        "name": "Modlist April 25",
+        "version": "3.3",
+        "uploaded": "2025-04-21",
+        "variants": 1
+      },
+      "summary": "OG Reshade from Day one which got deleted without a real reason.Updated Modlist with over 100 Mods"
+    },
+    {
+      "id": "ugly-building-removed-e3",
+      "name": "Ugly Building Removed (E3)",
+      "nexusId": 16419,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext",
+        "inplace-streamingsectors-nulled"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 829,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174267,
+        "name": "Ugly Building Removed",
+        "version": "0.16",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "Read the description"
+    },
+    {
+      "id": "draw-distance-reimagined",
+      "name": "Draw Distance ReImagined",
+      "nexusId": 27210,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "better-lanterns",
+        "codeware",
+        "mod-settings",
+        "more-detailed-hd-animated-crosswalks",
+        "redscript",
+        "loud-noises-fix-audio-pool-fix"
+      ],
+      "author": "robber804",
+      "endorsements": 815,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175725,
+        "name": "DrawDistanceReImagined",
+        "version": "0.9.6",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "Draw Distance Increased for selective things around the city to make it seem more alive."
+    },
+    {
+      "id": "hq-holo-travel",
+      "name": "HQ Holo Travel",
+      "nexusId": 21149,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "native-settings-ui",
+        "red4ext",
+        "redscript",
+        "cet"
+      ],
+      "author": "EmreHQ",
+      "endorsements": 807,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 116424,
+        "name": "HQ_HoloTravel",
+        "version": "2.26",
+        "uploaded": "2025-08-05",
+        "variants": 1
+      },
+      "summary": "[◉°] See unique Fast Travel holograms as you tour Night City.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/HQ_HoloTravel.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/HQ_HoloTravel/init.lua",
+          "r6/scripts/HQ_HoloTravel/Addon_HQ_Anime.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "hd-tattoos",
+      "name": "HD Tattoos",
+      "nexusId": 14307,
+      "priority": "optional",
+      "required": false,
+      "author": "f80h",
+      "endorsements": 804,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 75331,
+        "name": "Hd Tattoos",
+        "version": "1.0",
+        "uploaded": "2024-04-20",
+        "variants": 1
+      },
+      "summary": "better Tattoosyou need to set texture quality to high!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/00_tattooos.archive"
+        ]
+      }
+    },
+    {
+      "id": "clear-windows-cars-edition",
+      "name": "Clear Windows - Cars Edition",
+      "nexusId": 13529,
+      "priority": "optional",
+      "required": false,
+      "author": "DBK",
+      "endorsements": 803,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167770,
+        "name": "Clear Windows - Cars Edition",
+        "version": "2.5",
+        "uploaded": "2026-10-23",
+        "variants": 1
+      },
+      "summary": "Removes dirt and smearing from all in game cars windows (including the added ones).",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "judy-s-cone-lights-no-more",
+      "name": "Judy's Cone Lights No More",
+      "nexusId": 12893,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "archivexl"
+      ],
+      "author": "sosuinepsixuyu",
+      "endorsements": 735,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 88839,
+        "name": "Cone Lights",
+        "version": "0.2",
+        "uploaded": "2024-10-09",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/0ConeLights.archive",
+          "archive/pc/mod/0ConeLights.xl"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "ultimate-natural-graphics-for-nova-lut-pure-and",
+      "name": "Ultimate Natural Graphics for Nova LUT Pure and GITS",
+      "nexusId": 12267,
+      "priority": "optional",
+      "required": false,
+      "author": "Ultimate Graphics",
+      "endorsements": 733,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 64358,
+        "name": "Ultimate Natural Graphics 1.0",
+        "version": "1.0",
+        "uploaded": "2024-01-11",
+        "variants": 1
+      },
+      "summary": "Photorealistic reshade preset for Nova LUT Pure + GITS mods."
+    },
+    {
+      "id": "orbital-air-traffic-enhanced",
+      "name": "Orbital Air Traffic Enhanced",
+      "nexusId": 31355,
+      "priority": "optional",
+      "required": false,
+      "author": "Deceptious",
+      "endorsements": 730,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170175,
+        "name": "Orbital Air Traffic Enhanced",
+        "version": "1.1.2",
+        "uploaded": "2026-10-28",
+        "variants": 1
+      },
+      "summary": "Fixes and improvements to the Orbital Air shuttle(s) taking off from [and now landing at!] the spaceport"
+    },
+    {
+      "id": "disable-taa-and-bloom",
+      "name": "Disable TAA and Bloom",
+      "nexusId": 63,
+      "priority": "optional",
+      "required": false,
+      "author": "Jb",
+      "endorsements": 711,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 485,
+        "name": "Disable Bloom",
+        "version": "1.04",
+        "uploaded": "2020-12-15",
+        "variants": 2
+      },
+      "summary": "Disables the game's TAA, this will also disable Screen Space Reflections to get rid of pixel artifacts that would have been blended with TAA. It also recommended to enable FXAA in your NVIDIA Control Panel or use ReShade with this mod.",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "photorealistic-reshade-nova-lut-and-gits-fuji-th",
+      "name": "Photorealistic Reshade (NOVA LUT and GITS FUJI) - The Macho Pixel Reshade",
+      "nexusId": 12337,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "gits-3-x",
+        "nova-lut-4-0-agx-new-hdr",
+        "enhanced-weather-v6"
+      ],
+      "author": "The Macho Pixel",
+      "endorsements": 704,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 64789,
+        "name": "TMP Reshade - Less Vibrant",
+        "version": "1",
+        "uploaded": "2024-01-15",
+        "variants": 1
+      },
+      "summary": "The Reshade preset is made on NOVA LUT and GITS FUJI. If you don't know how both are used then I can tell you here. Copy Nova LUT and GITS FUJI into your archive\\pc\\mod folder, then rename and add ### to Nova LUT. The file will look like"
+    },
+    {
+      "id": "nc-mediascape-enhancer",
+      "name": "NC Mediascape Enhancer",
+      "nexusId": 24453,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet"
+      ],
+      "author": "Proxima Dust",
+      "endorsements": 701,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172817,
+        "name": "NCME - All In One",
+        "version": "1.2",
+        "uploaded": "2026-11-02",
+        "variants": 1
+      },
+      "summary": "Immersion booster for Night City media (fixes and optional enhancements)"
+    },
+    {
+      "id": "more-detailed-hd-animated-crosswalks",
+      "name": "More Detailed HD Animated Crosswalks",
+      "nexusId": 26972,
+      "priority": "optional",
+      "required": false,
+      "author": "curiousrobot",
+      "endorsements": 691,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 133946,
+        "name": "HD Animated Crosswalks - Non-Emissive 4K Vanilla",
+        "version": "2.1",
+        "uploaded": "2026-01-25",
+        "variants": 6
+      },
+      "summary": "A simple texture replacement for Night City's digital crosswalks. Pick between normal texture or emissive glowing screen version.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!!!_HD Crosswalk_4K_Vanilla_No_Emissive.archive"
+        ]
+      },
+      "notes": "6 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "better-lanterns",
+      "name": "Better Lanterns",
+      "nexusId": 23639,
+      "priority": "optional",
+      "required": false,
+      "author": "orangeguy",
+      "endorsements": 661,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 118616,
+        "name": "_Yellow",
+        "version": "v1.0.1",
+        "uploaded": "2025-08-21",
+        "variants": 8
+      },
+      "summary": "Texture replacement for lanterns.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!!!Better_Lanterns_Compatibility_Patch.archive",
+          "archive/pc/mod/!!!Better_Lanterns_Yellow.archive"
+        ]
+      },
+      "notes": "8 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "h10-street-fix",
+      "name": "H10 street fix",
+      "nexusId": 21252,
+      "priority": "optional",
+      "required": false,
+      "author": "NicolasBsst",
+      "endorsements": 652,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 111080,
+        "name": "Road_fix_V2",
+        "version": "2.0",
+        "uploaded": "2025-06-09",
+        "variants": 1
+      },
+      "summary": "This mod fix a tone of texture problem of the ground and walls.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Road_fix_V2.archive",
+          "archive/pc/mod/Road_fix_removal_V2.xl",
+          "archive/pc/mod/road_fix_v2.xl"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "the-emry-project",
+      "name": "The Emry Project",
+      "nexusId": 17582,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "night-city-visuals-nulled",
+        "dogtown-location-visuals-nulled-a-general-fix-fo"
+      ],
+      "author": "Emry",
+      "endorsements": 622,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 101636,
+        "name": "Cytropolis 2.0 NO AUTOEXPOSURE",
+        "version": "2.0",
+        "uploaded": "2025-02-15",
+        "variants": 3
+      },
+      "summary": "TWO full graphics overhauls, including my own LUT, weather, a ReShade preset and more! Pick the one you like the most :)",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Cytropolis_2.0_LUT.archive",
+          "archive/pc/mod/Cytropolis_2.0_NO_AutoExposure.archive"
+        ]
+      },
+      "notes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "canyon-fixes",
+      "name": "Canyon Fixes",
+      "nexusId": 25918,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "native-settings-ui"
+      ],
+      "author": "Kaoziun",
+      "endorsements": 559,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 134113,
+        "name": "Canyon Fixes",
+        "version": "1.2.1",
+        "uploaded": "2026-01-27",
+        "variants": 1
+      },
+      "summary": "Collection of various visual fixes to correct the eastern Badlands canyon and map border. Entirely customizable through Native Settings UI.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/CanyonFixesAIO.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/CanyonFixes/init.lua",
+          "archive/pc/mod/canyonfixes.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "night-city-immersive-debris",
+      "name": "Night City Immersive Debris",
+      "nexusId": 20544,
+      "priority": "optional",
+      "required": false,
+      "author": "Tanzu15",
+      "endorsements": 464,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176661,
+        "name": "Night City Immersive Debris",
+        "version": "1.3.1",
+        "uploaded": "2026-11-10",
+        "variants": 1
+      },
+      "summary": "Removes the annoying busted immersion breaking debris and trash. specially all the annoying pieces of papers that float and clip through things. also removed wasted food on the floor and hot dogs on the ground etc etc. now pictures will",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "spc-tv-screen-silver-pixel-cloud-drive-in-theate",
+      "name": "SPC TV Screen (Silver Pixel Cloud Drive-In Theater)",
+      "nexusId": 14927,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "qol-higher-tv-quality",
+        "spc-open-silver-pixel-cloud-drive-in-theater"
+      ],
+      "author": "dmiitryx",
+      "endorsements": 460,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 79746,
+        "name": "SPC TV Screen",
+        "version": "1.0",
+        "uploaded": "2024-06-09",
+        "variants": 1
+      },
+      "summary": "Mod adds a new screen to the Drive-In Theater, with the ability to watch TV, switch channels, sound works, and tv screen is bulletproof.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/spc_tv_screen.archive",
+          "archive/pc/mod/spc_tv_screen.xl"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "film-grain-fix",
+      "name": "Film Grain Fix",
+      "nexusId": 32899,
+      "priority": "optional",
+      "required": false,
+      "author": "MisterChedda",
+      "endorsements": 445,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "native-pre-2.5",
+      "mainFile": {
+        "fileId": 156994,
+        "name": "FilmGrainFix 1.1.0",
+        "version": "1.1",
+        "uploaded": "2026-08-20",
+        "variants": 1
+      },
+      "summary": "Fixes the film grain bug in 2.31",
+      "detect": {
+        "anyOf": [
+          "red4ext/plugins/FilmGrainFix/FilmGrainFix.dll"
+        ]
+      },
+      "notes": "Native plugin not updated since 2.5 - check the mod page before launching. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "night-city-flooded-water-planes-across-the-map-w",
+      "name": "Night City Flooded - Water Planes Across the Map with Options",
+      "nexusId": 25770,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-settings-ui",
+        "tweakxl",
+        "game-world-boundary-removed"
+      ],
+      "author": "Kaoziun",
+      "endorsements": 409,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141391,
+        "name": "Night City Flooded",
+        "version": "2.3",
+        "uploaded": "2026-04-07",
+        "variants": 1
+      },
+      "summary": "Add various bodies of water across the game world at non-intrusive locations, fully customizable experience through Native Settings UI now !",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/NCFlooded.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/NCFlood/init.lua",
+          "archive/pc/mod/NCFloodedPacificaPools.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "the-grid-custom-street-light-hours-weather-effec",
+      "name": "The Grid (Custom Street Light Hours - Weather Effects - Blackouts)",
+      "nexusId": 34592,
+      "priority": "optional",
+      "required": false,
+      "author": "theCyanideX",
+      "endorsements": 365,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 163740,
+        "name": "TheGrid 1.0.1",
+        "version": "1.0.1",
+        "uploaded": "2026-10-02",
+        "variants": 1
+      },
+      "summary": "Street lamp control, weather events, dynamic audio. A sequel to the Lamp Lighter mod but rewritten in Redscript with new features and AudioXL support.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/TheGrid/GridBlackout.reds",
+          "r6/scripts/TheGrid/GridCLS.reds",
+          "r6/scripts/TheGrid/GridCallbacks.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "cyberpunk-render-tweaks",
+      "name": "Cyberpunk Render Tweaks",
+      "nexusId": 33943,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "cet"
+      ],
+      "author": "dimkatet",
+      "endorsements": 336,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168747,
+        "name": "Cyberpunk Render Tweaks",
+        "version": "1.0.2",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Live shader fixes for Cyberpunk 2077's renderer: reflection fog, sky, wetness, RT trees and grass, puddles, clouds.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "trash-removal-7th-hell-club",
+      "name": "Trash Removal - 7th Hell Club",
+      "nexusId": 15744,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "makethingsclear",
+      "endorsements": 325,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 82312,
+        "name": "Trash Removal - 7th Hell",
+        "version": "1.0",
+        "uploaded": "2024-07-13",
+        "variants": 1
+      },
+      "summary": "This mod simply removes trash (such as cans, cardboard, newspapers, etc.), as well as some dirt, posters and stickers at the club 7th Hell.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Trash Removal - 7th Hell.xl"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "trash-removal-lizzie-s-bar",
+      "name": "Trash Removal - Lizzie's Bar",
+      "nexusId": 15394,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "makethingsclear",
+      "endorsements": 320,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 87279,
+        "name": "Trash Removal - Lizzie's Bar",
+        "version": "2.0",
+        "uploaded": "2024-09-18",
+        "variants": 1
+      },
+      "summary": "This mod simply removes trash (such as cans, cardboard, newspapers, etc.), as well as some dirt, graffiti, posters and stickers at the braindance club Lizzie's Bar.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Trash Removal - Lizzie's Bar [Exterior and Rooftop].xl",
+          "archive/pc/mod/Trash Removal - Lizzie's Bar [Interior].xl"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "tapepunk-vhs-reshade-presets",
+      "name": "TapePunk - VHS Reshade Presets",
+      "nexusId": 26915,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "nova-lut-4-0-agx-new-hdr",
+        "the-emry-project"
+      ],
+      "author": "TapePunk - Tulired",
+      "endorsements": 145,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 141568,
+        "name": "TapePunk-Night City VHS Tapes-For NOVA LUT-Box 1",
+        "version": "1.2.0",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "TapePunk - VHS presets are a Reshade presets focused on a emulation of the VHS aesthetic. It provides a gritty, analog-inspired look for Cyberpunk 2077, avoiding over-the-top effects. A simple tool for those seeking a cinematic, nostalgic",
+      "notes": "Also needs (off Nexus): Dreampunk 3.4.2. Required by 1 mod(s) in this pack."
+    }
+  ]
 }

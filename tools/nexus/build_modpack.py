@@ -317,7 +317,10 @@ def compat_of(main: dict | None, kinds: list[str], cfg: dict) -> str:
         return "script-verify" if day >= cfg["scriptCutoff"] else "script-outdated"
     if kinds:
         return "assets-likely-ok" if day >= cfg["assetCutoff"] else "assets-outdated"
-    return "unknown"
+    # No game files we recognise: standalone tools, or a file Nexus hasn't indexed yet.
+    if main["name"].lower().endswith((".exe", ".msi")):
+        return "external-tool"
+    return "unknown" if day >= cfg["scriptCutoff"] else "unknown-outdated"
 
 
 def slug(name: str) -> str:
@@ -372,7 +375,7 @@ def main() -> int:
     for c in cfg["categories"]:
         cat_file[c["nexus"]] = c["file"]
         quota[c["nexus"]] = c["count"]
-        want = int(c["count"] * 1.4) + 5
+        want = int(c["count"] * 2.2) + 10
         n = 0
         for m in search_category(nx, c["nexus"], want, cfg["minEndorsements"]):
             if m["status"] != "published" or m["adultContent"]:
@@ -424,10 +427,47 @@ def main() -> int:
 
     enrich(candidates)
 
+    # ---- 3b. fetch the whole requirement tree up front, so we can reject mods whose
+    #          requirements are themselves outdated, adult-only or gone.
+    pool = dict(candidates)
+    unresolvable: set[int] = set()
+    while True:
+        need = {d for m in list(pool.values()) for d in requirement_ids(m)} - set(pool) - unresolvable
+        if not need:
+            break
+        print(f"Resolving {len(need)} requirements...")
+        for m in fetch_mods_by_id(nx, sorted(need)):
+            if m["adultContent"] or m["status"] != "published":
+                print(f"  ! requirement {m['name']} ({m['modId']}) is adult-only or not published - mods needing it are skipped")
+                unresolvable.add(m["modId"])
+            else:
+                pool[m["modId"]] = m
+        for d in need:
+            if d not in pool and d not in unresolvable:
+                print(f"  ! requirement {d} not found on Nexus (hidden or removed) - mods needing it are skipped")
+                unresolvable.add(d)
+        enrich({d: pool[d] for d in need if d in pool})
+
     # ---- 4. greedy selection, most endorsed first, with file-conflict checks
-    skip_compat = {"script-outdated", "assets-outdated"}
+    skip_compat = {"script-outdated", "assets-outdated", "unknown-outdated", "external-tool"}
     if cfg.get("excludeOutdatedNative", True):
         skip_compat.add("native-pre-2.5")
+
+    def bad_requirement(mid: int) -> int | None:
+        for d in deps_closure_pool(mid):
+            if d in unresolvable or (d in pool and pool[d]["_compat"] in skip_compat) or (d in pool and pool[d]["_main"] is None):
+                return d
+        return None
+
+    def deps_closure_pool(mid: int) -> set[int]:
+        seen, stack = set(), [mid]
+        while stack:
+            x = stack.pop()
+            for d in (requirement_ids(pool[x]) if x in pool else []):
+                if d not in seen and d != mid:
+                    seen.add(d)
+                    stack.append(d)
+        return seen
 
     picked: dict[int, dict] = {}
     owner: dict[str, int] = {}  # normalized path (lowercase) -> mod id
@@ -471,7 +511,12 @@ def main() -> int:
         if m["_main"] is None:
             skipped["no-main-file"].append(m)
             continue
-        c = claim(m["modId"], m, candidates)
+        bad = bad_requirement(m["modId"])
+        if bad is not None:
+            m["_badreq"] = bad
+            skipped["bad-requirement"].append(m)
+            continue
+        c = claim(m["modId"], m, pool)
         if c is not None:
             m["_conflict"] = c
             skipped["file-conflict"].append(m)
@@ -479,32 +524,14 @@ def main() -> int:
         picked[m["modId"]] = m
         taken[cat] += 1
 
-    # ---- 5. requirements (recursive), regardless of quotas
-    pool = dict(candidates)
+    # ---- 5. requirements (recursive), regardless of quotas - all already vetted in step 3b
     added_deps: set[int] = set()
-    unresolvable: set[int] = set()
-    while True:
-        need = {d for m in list(picked.values()) for d in requirement_ids(m)} - set(picked) - unresolvable
-        if not need:
-            break
-        missing = [d for d in need if d not in pool]
-        if missing:
-            for m in fetch_mods_by_id(nx, missing):
-                pool[m["modId"]] = m
-        enrich({d: pool[d] for d in need if d in pool})
-        for d in need:
-            if d not in pool:
-                print(f"  ! requirement {d} not found on Nexus (hidden or removed)")
-                unresolvable.add(d)
-                continue
-            m = pool[d]
-            if m["adultContent"] or m["status"] != "published":
-                print(f"  ! requirement {m['name']} ({d}) is {m['status']}/adult - left out")
-                unresolvable.add(d)
-                continue
-            claim(d, m, pool)
-            picked[d] = m
-            added_deps.add(d)
+    for mid in list(picked):
+        for d in deps_closure_pool(mid):
+            if d not in picked and d in pool:
+                claim(d, pool[d], pool)
+                picked[d] = pool[d]
+                added_deps.add(d)
 
     # ---- 6. write manifest
     file_of_cat = dict(cat_file)
@@ -610,7 +637,7 @@ def main() -> int:
         out = {"$schema": "../schema/mod-list.schema.json", "category": titles[fname], "mods": mods}
         (MODS_DIR / fname).write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    write_report(picked, skipped, compat_count, by_file, titles, cfg, candidates)
+    write_report(picked, skipped, compat_count, by_file, titles, cfg, pool)
     print(f"Wrote manifest/mods/*.json and manifest/REPORT.md")
     return 0
 
@@ -637,7 +664,7 @@ def write_report(picked, skipped, compat_count, by_file, titles, cfg, pool):
         "assets-likely-ok": "Archive/asset-only mod from before 2.5. Asset mods rarely break on patches.",
         "script-verify": "redscript/CET/TweakXL mod from 2.3-2.4x. Usually fine; check if something misbehaves.",
         "native-pre-2.5": "DLL plugin not updated for 2.5 (only present because another mod needs it). Check its page.",
-        "unknown": "Couldn't read the file list.",
+        "unknown": "Nexus has no file list for it (often a FOMOD installer or a brand-new upload). Recent, so kept; check the page.",
     }
     lines += ["", "## 2.5 compatibility", "", "| Rating | Mods | Meaning |", "|---|---:|---|"]
     for k, v in sorted(compat_count.items(), key=lambda kv: -kv[1]):
@@ -650,6 +677,9 @@ def write_report(picked, skipped, compat_count, by_file, titles, cfg, pool):
         "script-outdated": f"script mod not updated since {cfg['scriptCutoff']}",
         "assets-outdated": f"asset mod not updated since {cfg['assetCutoff']}",
         "no-main-file": "no downloadable main file",
+        "bad-requirement": "needs a mod that's outdated, adult-only or removed",
+        "unknown-outdated": f"no recognisable game files and not updated since {cfg['scriptCutoff']}",
+        "external-tool": "standalone program, not a game mod",
     }
     for k, mods in skipped.items():
         lines.append(f"<details><summary><b>{len(mods)}</b> - {why.get(k, k)}</summary>")
@@ -658,6 +688,9 @@ def write_report(picked, skipped, compat_count, by_file, titles, cfg, pool):
             extra = ""
             if k == "file-conflict" and m.get("_conflict") in pool:
                 extra = f" (overlaps {pool[m['_conflict']]['name']})"
+            if k == "bad-requirement":
+                b = m.get("_badreq")
+                extra = f" (needs {pool[b]['name']} - {pool[b]['_compat']})" if b in pool else f" (needs removed/adult mod {b})"
             lines.append(f"- [{m['name']}](https://www.nexusmods.com/{DOMAIN}/mods/{m['modId']}) - {m['endorsements']} endorsements{extra}")
         if len(mods) > 150:
             lines.append(f"- ... and {len(mods) - 150} more")

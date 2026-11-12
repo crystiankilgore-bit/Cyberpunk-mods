@@ -1,5 +1,2938 @@
 {
   "$schema": "../schema/mod-list.schema.json",
   "category": "Fixes & performance",
-  "mods": []
+  "mods": [
+    {
+      "id": "input-loader",
+      "name": "Input Loader",
+      "nexusId": 4575,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "red4ext"
+      ],
+      "author": "Jack Humbert",
+      "endorsements": 64987,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168737,
+        "name": "Input Loader v0.2.6 for 2.50",
+        "version": "0.2.6",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "This plugin looks for all r6/input/*.xml files and merges them with the appropriate input config file from r6/config/ and saves results to r6/cache/. A configuration file is written to engine/config/platform/pc/input_loader.ini, which tells",
+      "detect": {
+        "anyOf": [
+          "red4ext/plugins/input_loader/input_loader.dll",
+          "red4ext/plugins/input_loader"
+        ]
+      },
+      "notes": "Lets mods add their own key bindings.",
+      "autoNotes": "Required by 34 mod(s) in this pack."
+    },
+    {
+      "id": "material-and-texture-override",
+      "name": "Material and Texture Override",
+      "nexusId": 5266,
+      "priority": "recommended",
+      "required": false,
+      "author": "Nim",
+      "endorsements": 64061,
+      "nexusCategory": "Utilities",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 49947,
+        "name": "Material and Texture Override (REDmod)",
+        "version": "1.2",
+        "uploaded": "2023-09-29",
+        "variants": 2
+      },
+      "summary": "Enables the game to load new materials. Please read the description.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/###_nim_material_override.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one. Required by 9 mod(s) in this pack."
+    },
+    {
+      "id": "save-editor-project-cybercat-simplegui",
+      "name": "Save Editor (Project CyberCAT-SimpleGUI)",
+      "nexusId": 718,
+      "priority": "recommended",
+      "required": false,
+      "author": "DeweySalt and Papayu",
+      "endorsements": 44316,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176949,
+        "name": "Save Editor (Project CyberCAT-SimpleGUI) (AIO)",
+        "version": "0.30.1",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "Save editor for Cyberpunk 2077, including patch 2.5: player stats, perks, cyberware, inventory, appearance, vehicles and quest facts. Requires the .NET 10 Desktop Runtime.",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "simple-menu-an-in-game-ui-including-hotkeys",
+      "name": "Simple Menu - An In-Game UI including Hotkeys",
+      "nexusId": 818,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Dank Rafft and capncoolio2",
+      "endorsements": 32137,
+      "nexusCategory": "Utilities",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 57015,
+        "name": "Simple Menu 50.2",
+        "version": "50.2",
+        "uploaded": "2023-11-09",
+        "variants": 1
+      },
+      "summary": "A user interface that provides gameplay, cheat and utility features to be executed by a press of a button. Also includes hotkey functionality.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/simplemenu/init.lua"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "cyberarms-patch",
+      "name": "Cyberarms Patch",
+      "nexusId": 4393,
+      "priority": "recommended",
+      "required": false,
+      "author": "Aanderz",
+      "endorsements": 18721,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175751,
+        "name": "Cyberarms Patch - REDmod",
+        "version": "1.7",
+        "uploaded": "2026-11-08",
+        "variants": 2
+      },
+      "summary": "Cyberarms mesh patch. Makes male cyberarms use the male meshes, and female cyberarms use female meshes. Affects Mantis blades, Launcher mechanisms, and Monowires. This patch will do nothing noticeable if you're not using any mesh replacers",
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "ragdoll-physics-overhaul",
+      "name": "Ragdoll Physics Overhaul",
+      "nexusId": 3858,
+      "priority": "recommended",
+      "required": false,
+      "author": "SketchCritic",
+      "endorsements": 17218,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175215,
+        "name": "RPO 3.0 HOTFIX - SlowMo-Related Crash",
+        "version": "3.0",
+        "uploaded": "2026-11-07",
+        "variants": 2
+      },
+      "summary": "HUGE UPDATE: Ground up redesign of all PhysX ragdoll parameters, with a scriptable active ragdoll system and an in-game ragdoll suite.",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "categorized-all-in-one-command-list",
+      "name": "Categorized All-In-One Command List",
+      "nexusId": 521,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Silverhandsome",
+      "endorsements": 16658,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173205,
+        "name": "DARK THEME - Categorized AIO Command List",
+        "version": "v10.3",
+        "uploaded": "2026-11-03",
+        "variants": 2
+      },
+      "summary": "Categorized list of commands to be used within Cyber Engine Tweaks console, contains all items, cheats, teleports, vehicles, etc...",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "hide-read-shards",
+      "name": "Hide Read Shards",
+      "nexusId": 2820,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "DJ_Kovrik",
+      "endorsements": 11739,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 132106,
+        "name": "Hide Read Shards",
+        "version": "0.4",
+        "uploaded": "2026-01-08",
+        "variants": 1
+      },
+      "summary": "Just removes world placed shards which you have already read.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/hideReadShards.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "cyberpunk-2077-texture-override",
+      "name": "Cyberpunk 2077 Texture Override",
+      "nexusId": 1572,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "material-and-texture-override"
+      ],
+      "author": "Nim",
+      "endorsements": 10392,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 28349,
+        "name": "DEPRECATED",
+        "version": "X.X",
+        "uploaded": "2022-09-18",
+        "variants": 1
+      },
+      "summary": "DEPRECATED"
+    },
+    {
+      "id": "arasaka-appearance-updater",
+      "name": "Arasaka Appearance Updater",
+      "nexusId": 399,
+      "priority": "recommended",
+      "required": false,
+      "author": "Admiral",
+      "endorsements": 10148,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 2692,
+        "name": "Arasaka Savegame Updater",
+        "version": "2.3.4",
+        "uploaded": "2021-01-14",
+        "variants": 1
+      },
+      "summary": "Simple .exe file which automatically selects your latest save file ready to be changed. This Updater can change hairstyle as well as some facial features.Sadly I'm not able to update it anymore, I know it's missing stuff but most of it is"
+    },
+    {
+      "id": "crouch-vignette-effect-remover",
+      "name": "Crouch vignette effect remover",
+      "nexusId": 535,
+      "priority": "recommended",
+      "required": false,
+      "author": "OREZXX",
+      "endorsements": 8345,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 49847,
+        "name": "Crouch vignette effect remover 2.0",
+        "version": "2.0",
+        "uploaded": "2023-09-28",
+        "variants": 0
+      },
+      "summary": "Removes the  useless Crouch vignette effect",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/remove_Crouch_effect.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "wolvenkit",
+      "name": "WolvenKit",
+      "nexusId": 2201,
+      "priority": "recommended",
+      "required": false,
+      "author": "Red Modding Tools",
+      "endorsements": 7098,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175707,
+        "name": "WolvenKit-9.1.1.zip",
+        "version": "9.1.1",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "WolvenKit is the ultimate modding tool for Witcher 3 and Cyberpunk 2077 allowing you to edit the files of the game and add new ones",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "cyberconsole",
+      "name": "CyberConsole",
+      "nexusId": 147,
+      "priority": "recommended",
+      "required": false,
+      "author": "Avery3R",
+      "endorsements": 6363,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 615,
+        "name": "CyberConsole v1.2 (slightly better install instructions)",
+        "version": "1.2",
+        "uploaded": "2020-12-16",
+        "variants": 2
+      },
+      "summary": "Adds an overlay to the game that allows you to see the built-in command console. Could be used for debugging or cheating.",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "cyberpunk-2077-mod-manager",
+      "name": "Cyberpunk 2077 Mod Manager",
+      "nexusId": 96,
+      "priority": "recommended",
+      "required": false,
+      "author": "LeszekPomian",
+      "endorsements": 5646,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1954,
+        "name": "Cyberpunk 2077 Mod Manager - Framework Depend",
+        "version": "1.1.7674-beta",
+        "uploaded": "2021-01-04",
+        "variants": 1
+      },
+      "summary": "Manage mods for your game or edit its core settings. Manager in beta.",
+      "notes": "Also needs (off Nexus): .NET 5 Runtime (x64)."
+    },
+    {
+      "id": "cpah-breach-protocol-autohacker",
+      "name": "CPAH - Breach Protocol Autohacker",
+      "nexusId": 955,
+      "priority": "recommended",
+      "required": false,
+      "author": "Jsh",
+      "endorsements": 5293,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 13616,
+        "name": "cpah-1.1.4.exe",
+        "version": "1.1.4",
+        "uploaded": "2021-05-22",
+        "variants": 1
+      },
+      "summary": "A breach protocol solver that inputs the solution for you"
+    },
+    {
+      "id": "archive-conflict-checker-tool",
+      "name": "Archive Conflict Checker Tool",
+      "nexusId": 11126,
+      "priority": "recommended",
+      "required": false,
+      "author": "rfuzzo",
+      "endorsements": 5152,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 126669,
+        "name": "red4-conflicts",
+        "version": "0.5.1",
+        "uploaded": "2025-11-01",
+        "variants": 1
+      },
+      "summary": "A conflict-checker and load-order management app for Cyberpunk 2077 mods (archives)."
+    },
+    {
+      "id": "full-the-rvc00n-dumpster-1",
+      "name": "(FULL) The RVC00N Dumpster 1",
+      "nexusId": 5802,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "PinkyDude",
+      "endorsements": 5151,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 155714,
+        "name": "The RVC00N Dumpster 1 - FINAL",
+        "version": "85.0.14",
+        "uploaded": "2026-08-10",
+        "variants": 1
+      },
+      "summary": "FULL | RVC00N Dumpster - First Edition | new releases on The RVC00N Dumpster 3!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PinkyDude_TheRVC00Ndumpster_atelierstore.archive",
+          "r6/scripts/PinkyDude_TheRVC00Ndumpster_atelierstore.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "config-overhaul-for-cyberpunk-2077",
+      "name": "Config Overhaul for Cyberpunk 2077",
+      "nexusId": 183,
+      "priority": "recommended",
+      "required": false,
+      "author": "derplayer",
+      "endorsements": 4949,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 691,
+        "name": "Config Overhaul Cyberpunk",
+        "version": "v1.0",
+        "uploaded": "2020-12-17",
+        "variants": 1
+      },
+      "summary": "This tool allows to configure hidden settings in Cyberpunk 2077 and squeeze more FPS out. It works by generating configration files, and will not modify executables."
+    },
+    {
+      "id": "unified-mods-resources",
+      "name": "Unified Mods Resources",
+      "nexusId": 6390,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "TiGames128",
+      "endorsements": 4942,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173723,
+        "name": "UnifiedModsResources.zip",
+        "version": "1.9.1",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "READ DESCRIPTION.Requires latest ArchiveXL update."
+    },
+    {
+      "id": "fast-launch-skip-intro-startup-videos",
+      "name": "Fast Launch (Skip Intro - Startup Videos)",
+      "nexusId": 5186,
+      "priority": "recommended",
+      "required": false,
+      "author": "instanity",
+      "endorsements": 4851,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 59925,
+        "name": "Fast Launch",
+        "version": "1.1",
+        "uploaded": "2023-12-05",
+        "variants": 0
+      },
+      "summary": "Makes the game Launch instantly into Main Menu, skipping all of the Startup Videos.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/SkippySkippy.archive"
+        ]
+      }
+    },
+    {
+      "id": "photomode-ex",
+      "name": "PhotoMode-EX",
+      "nexusId": 18839,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "psiberx",
+      "endorsements": 4768,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170889,
+        "name": "PhotoMode-EX",
+        "version": "1.5.0",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Custom characters framework and QOL tweaks for Photo Mode",
+      "notes": "Required by 5 mod(s) in this pack."
+    },
+    {
+      "id": "weather-switcher-change-weather-control-time-cus",
+      "name": "Weather Switcher (Change Weather - Control Time - Customize Clouds)",
+      "nexusId": 18027,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "the-nullifier"
+      ],
+      "author": "CyanideX",
+      "endorsements": 4245,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144629,
+        "name": "Weather Switcher",
+        "version": "1.7.6",
+        "uploaded": "2026-05-08",
+        "variants": 1
+      },
+      "summary": "Realtime weather switching, cloud customization, time control, and engine toggles. All of the goodies in a simple package for vanilla weather and custom weather mods!",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/WeatherSwitcher/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "mod-remover-hard-reset-cyberpunk-with-full-backu",
+      "name": "Mod remover - hard reset Cyberpunk - with full backup",
+      "nexusId": 8597,
+      "priority": "recommended",
+      "required": false,
+      "author": "manavortex",
+      "endorsements": 3267,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171580,
+        "name": "cyberpunk_disable_all_mods",
+        "version": "2.2.3",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "Turn your modded install into an un-modded install in 30 seconds (and one game file validation). Better and faster than a clean install. Manual install and Vortex supported, available for Windows and Linux, works with every game version."
+    },
+    {
+      "id": "full-the-rvc00n-dumpster-2",
+      "name": "(FULL) The RVC00N Dumpster 2",
+      "nexusId": 11171,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "PinkyDude",
+      "endorsements": 3138,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174464,
+        "name": "The RVC00N Dumpster 2",
+        "version": "60.0.4",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "FULL | RVC00N Dumpster - Second Edition | new releases on The RVC00N Dumpster 3!"
+    },
+    {
+      "id": "cp77-tools",
+      "name": "CP77 Tools",
+      "nexusId": 8,
+      "priority": "recommended",
+      "required": false,
+      "author": "rfuzzo",
+      "endorsements": 3132,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 119903,
+        "name": "Wolvenkit Console",
+        "version": "8.17",
+        "uploaded": "2025-09-01",
+        "variants": 1
+      },
+      "summary": "Modding tools for the cyberpunk 2077 game."
+    },
+    {
+      "id": "conflict-begone-archive-conflict-checker-user-mo",
+      "name": "Conflict Begone (Archive Conflict Checker - User Mod Support)",
+      "nexusId": 21912,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "CyanideX",
+      "endorsements": 2964,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 155422,
+        "name": "Conflict Begone",
+        "version": "1.4.0",
+        "uploaded": "2026-08-08",
+        "variants": 1
+      },
+      "summary": "A conflict resolution utility for my archive mod files... with a little twist.This mod references manually added compatibility data and does not cover all potential conflicts.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/ConflictBegone/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "all-cyberware-and-mods",
+      "name": "All Cyberware and mods",
+      "nexusId": 660,
+      "priority": "recommended",
+      "required": false,
+      "author": "seba842005",
+      "endorsements": 2773,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 2628,
+        "name": "cyberware script",
+        "version": "1.1",
+        "uploaded": "2021-01-13",
+        "variants": 1
+      },
+      "summary": "All Cyberware and mods"
+    },
+    {
+      "id": "cheat-script-2-2",
+      "name": "Cheat Script 2.2",
+      "nexusId": 542,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "IDA",
+      "endorsements": 2719,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1790,
+        "name": "CheatScript.Zip",
+        "version": "2.2",
+        "uploaded": "2021-01-02",
+        "variants": 1
+      },
+      "summary": "A NG+ script to make your starting V into a powerful force right off the bat."
+    },
+    {
+      "id": "spawn0-lof-load-order-fixer",
+      "name": "spawn0 - LOF -  Load Order Fixer",
+      "nexusId": 5148,
+      "priority": "recommended",
+      "required": false,
+      "author": "spawn0",
+      "endorsements": 2612,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 32578,
+        "name": "SP0 - LOF - Load Order Fixer (with update detector)",
+        "version": "1.0.4",
+        "uploaded": "2022-11-03",
+        "variants": 1
+      },
+      "summary": "This App will fix load order automatically"
+    },
+    {
+      "id": "all-19-iconic-weapons-for-stash-wall",
+      "name": "All 19 Iconic weapons for Stash Wall",
+      "nexusId": 552,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Zeiko",
+      "endorsements": 2524,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1536,
+        "name": "ALL 19 ICONIC WEAPONS FOR STASH WALL",
+        "version": "1.1",
+        "uploaded": "2020-12-28",
+        "variants": 0
+      },
+      "summary": "You can find all item list name to put in cyberengine and complete stash wall"
+    },
+    {
+      "id": "deceptious-quest-core-utilities-and-settings",
+      "name": "Deceptious Quest Core Utilities and Settings",
+      "nexusId": 24404,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "deceptious-quest-core",
+        "native-settings-ui",
+        "cet"
+      ],
+      "author": "Deceptious",
+      "endorsements": 2156,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 157042,
+        "name": "Deceptious Quest Core Utilities and Settings",
+        "version": "1.3.2",
+        "uploaded": "2026-08-21",
+        "variants": 1
+      },
+      "summary": "Adds a Native Settings menu to support resetting and overriding addons/components of Deceptious Quest Core dependent mods",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/DeceptiousQuestCore/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "world-builder",
+      "name": "World Builder",
+      "nexusId": 20660,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "red4ext",
+        "redscript",
+        "wolvenkit"
+      ],
+      "author": "keanuWheeze and Akiway",
+      "endorsements": 2108,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177122,
+        "name": "World Builder",
+        "version": "2.0.1",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "Modding tool for adding new structures to the game world, as native world edits.",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "material-and-texture-override-crashes-resolved",
+      "name": "Material and Texture Override (Crashes Resolved)",
+      "nexusId": 25246,
+      "priority": "recommended",
+      "required": false,
+      "author": "Sosuinepsixuyu",
+      "endorsements": 2010,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169418,
+        "name": "Material And Texture Override",
+        "version": "0.3",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "Nulls cooked material data.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "appearance-runtime-plugin",
+      "name": "Appearance Runtime Plugin",
+      "nexusId": 35126,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext"
+      ],
+      "author": "MaximiliumM",
+      "endorsements": 1908,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174570,
+        "name": "Appearance Runtime Plugin",
+        "version": "1.9.0",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "The RED4ext plugin behind custom appearances in Appearance Menu Mod and Appearance Creator Mod 2.0. It changes any character's look in-game (swap parts, add clothing, hide pieces) with working physics, and builds ACM's NPVs.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "iconic-vendors",
+      "name": "Iconic Vendors",
+      "nexusId": 9457,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "mod-settings",
+        "tweakxl"
+      ],
+      "author": "1DP",
+      "endorsements": 1846,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173440,
+        "name": "Iconic Vendors",
+        "version": "2.5.0.1",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "This mod adds iconic items to all vendors.",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "gambling-props-poker-chips-and-playing-cards",
+      "name": "Gambling Props - Poker Chips and Playing Cards",
+      "nexusId": 15229,
+      "priority": "optional",
+      "required": false,
+      "author": "Boe6",
+      "endorsements": 1768,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 80919,
+        "name": "Gambling Props",
+        "version": "1.0.1",
+        "uploaded": "2024-06-24",
+        "variants": 1
+      },
+      "summary": "Adds Gambling Props with AMM support. Playing Cards & Poker Chips.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Gambling Props.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "avx-fix-updated-for-1-04",
+      "name": "AVX FIX(UPDATED FOR 1.04)",
+      "nexusId": 34,
+      "priority": "optional",
+      "required": false,
+      "author": "m1k3im",
+      "endorsements": 1679,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 194,
+        "name": "avxfix",
+        "version": "1.01",
+        "uploaded": "2020-12-12",
+        "variants": 1
+      },
+      "summary": "That fix skip avx instructions check."
+    },
+    {
+      "id": "the-nullifier",
+      "name": "The Nullifier",
+      "nexusId": 23091,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "disable-fake-lights-with-path-tracing",
+        "disable-quest-weather",
+        "mod-settings",
+        "redscript",
+        "ray-traced-lighting-fixes"
+      ],
+      "author": "robber804",
+      "endorsements": 1585,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175803,
+        "name": "TheNullifier",
+        "version": "1.4.8",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "This mod combines a few of my other mods, Night City Visuals Nulled, Night City Fog Nulled. This is a complete replacement for Night City Visuals Nulled and Dogtown Visuals Nulled.",
+      "notes": "Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "cet-window-manager",
+      "name": "CET Window Manager",
+      "nexusId": 18448,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext"
+      ],
+      "author": "spirit - sprt_",
+      "endorsements": 1458,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168543,
+        "name": "CET Window Manager 2.1.2",
+        "version": "2.1.2",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "CET Window Manager™ allows you to hide windows and lock their position and size.",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "vehicle-durability-display",
+      "name": "Vehicle Durability Display",
+      "nexusId": 16559,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet"
+      ],
+      "author": "tidusmd",
+      "endorsements": 1452,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 117711,
+        "name": "Vehicle Durability Display - Top",
+        "version": "1.1.0",
+        "uploaded": "2025-08-15",
+        "variants": 2
+      },
+      "summary": "Displays the durability value of the vehicle below the speedometer.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/VehicleDurabilityDisplay/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "toggle-quest-tags",
+      "name": "Toggle Quest Tags",
+      "nexusId": 3290,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "input-loader",
+        "redscript",
+        "red4ext"
+      ],
+      "author": "DJ_Kovrik",
+      "endorsements": 1434,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168841,
+        "name": "Toggle Quest Tags",
+        "version": "2.2.3",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Simple mod which allows you to toggle quest tag on items a hotkey, you may use it to prevent sell/drop/dismantle of your favorite gear."
+    },
+    {
+      "id": "database-fixes",
+      "name": "Database Fixes",
+      "nexusId": 10636,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "MerseyRockoff",
+      "endorsements": 1408,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168869,
+        "name": "Database Fixes",
+        "version": "1.1.1",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Fixes and restores many database entries not activating correctly."
+    },
+    {
+      "id": "game-entity-examiner-tool-plus-pseudo-quickhacki",
+      "name": "Game Entity Examiner Tool - Plus Pseudo Quickhacking And More",
+      "nexusId": 14711,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "make-all-vehicles-unlockable-with-twintone-fix"
+      ],
+      "author": "TheArtificialEnhancer",
+      "endorsements": 1302,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 167122,
+        "name": "GameEntityExaminerTool",
+        "version": "2.31d",
+        "uploaded": "2026-10-19",
+        "variants": 1
+      },
+      "summary": "Now supports examining/controlling a lot of world objects, such as lights, doors, lifts, and more! Tool to examine game entities (NPCs and Vehicles) to get some details about them. Mostly useful for modders, but there's some fun stuff in",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/GameEntityExaminerTool/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "breach-protocol-autosolver",
+      "name": "Breach Protocol Autosolver",
+      "nexusId": 3071,
+      "priority": "optional",
+      "required": false,
+      "author": "Eggy",
+      "endorsements": 1253,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 23081,
+        "name": "Breach Protocol Autosolver",
+        "version": "2.3.1",
+        "uploaded": "2022-03-25",
+        "variants": 2
+      },
+      "summary": "Solve breach protocol minigame in second(s). Windows/Linux/GeForce Now/Google Stadia. Every language.",
+      "notes": "2 main-file variants on Nexus - pick one. Also needs (off Nexus): AutoHotkey, Imagemagick, xdotool."
+    },
+    {
+      "id": "manavortex-material-library",
+      "name": "Manavortex Material Library",
+      "nexusId": 14849,
+      "priority": "optional",
+      "required": false,
+      "author": "manavortex",
+      "endorsements": 1253,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177300,
+        "name": "Manas Material Library",
+        "version": "1.5.3",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "Contains the material definition I'm using across my mods. Sorry for the extra dependency, but it was time.",
+      "notes": "Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "teleport-gateway-system",
+      "name": "Teleport Gateway System",
+      "nexusId": 1385,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Tytheus",
+      "endorsements": 1243,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 129023,
+        "name": "Teleport Gateway System - 3.74",
+        "version": "3.74",
+        "uploaded": "2025-12-04",
+        "variants": 1
+      },
+      "summary": "Formerly: V's Mansion Gateway.  A completely customisable Teleport Gateway System.  This mod, by default,  adds various teleport gateways between V's Apartment, Duzois St, Building H10 Upper Carpark and V's mansion.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/TeleportGatewaySystem/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): Cyber Engine Tweaks."
+    },
+    {
+      "id": "no-crash-reporter",
+      "name": "No Crash Reporter",
+      "nexusId": 11421,
+      "priority": "optional",
+      "required": false,
+      "author": "Baarn",
+      "endorsements": 1144,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 62315,
+        "name": "No Crash Reporter",
+        "version": "1.1.0",
+        "uploaded": "2023-12-26",
+        "variants": 1
+      },
+      "summary": "Prevents the Crash Reporter from opening after a crash. Version 1.1.0 also prevents logs from being generated."
+    },
+    {
+      "id": "wardrobe-items-adder",
+      "name": "Wardrobe Items Adder",
+      "nexusId": 5742,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "codeware"
+      ],
+      "author": "Simbax",
+      "endorsements": 1130,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 158226,
+        "name": "Wardrobe Items Adder",
+        "version": "2.1.1",
+        "uploaded": "2026-08-29",
+        "variants": 1
+      },
+      "summary": "Add/remove all or only specific clothes to/from the wardrobe without cluttering the inventory.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/wardrobe_items_adder/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "jamie-s-retro-rainbow-amm-props",
+      "name": "Jamie's Retro Rainbow AMM Props",
+      "nexusId": 7078,
+      "priority": "optional",
+      "required": false,
+      "author": "JamieCross1477",
+      "endorsements": 1124,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 37252,
+        "name": "Retro Rainbow Pack",
+        "version": "1",
+        "uploaded": "2023-01-13",
+        "variants": 1
+      },
+      "summary": "A collection of Retro themed props in COLOR!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Jamie's Rainbow Pack.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "high-quality-shortcut-icons",
+      "name": "High Quality Shortcut Icons",
+      "nexusId": 7,
+      "priority": "optional",
+      "required": false,
+      "author": "konstantinos96b",
+      "endorsements": 1085,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 511,
+        "name": "High Quality Shortcut Icons",
+        "version": "1.2",
+        "uploaded": "2020-12-15",
+        "variants": 1
+      },
+      "summary": "This is a higher quality shortcut icon (based on Steam version) fixing the original blurry shortcut."
+    },
+    {
+      "id": "space-capsule-virtual-atelier-store",
+      "name": "Space Capsule - Virtual Atelier Store",
+      "nexusId": 8892,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "PinkyHalk",
+      "endorsements": 1074,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 127904,
+        "name": "Space Capsule",
+        "version": "8.0.0",
+        "uploaded": "2025-11-19",
+        "variants": 1
+      },
+      "summary": "What happens when a group of 'Caldos find a crashed Space Capsule with a big \"DO NOT OPEN\" on it? They crack it open, of course! | PinkyDude and Halkuonn's collab Virtual Store focused on Sci-Fi garments and ports.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/SpaceCapsule_atelierstore.archive",
+          "r6/scripts/SpaceCapsule_atelierstore.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "miscellaneous-settings-unlocker-global-illuminat",
+      "name": "Miscellaneous Settings Unlocker - Global Illumination and More",
+      "nexusId": 8124,
+      "priority": "optional",
+      "required": false,
+      "author": "TheArtificialEnhancer",
+      "endorsements": 1061,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169023,
+        "name": "Misc_Settings_Unlocker_Psycho-RevA",
+        "version": "2.5c",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Updated for game version 2.5!!! Unlocks hidden settings in-game including \"Astonishing Crowds\", \"Global Illumination Range\", \"Slow HDD Mode\", and also changes Dynamic Resolution limits (FPS target and Min/Max Res).."
+    },
+    {
+      "id": "female-corpo-new-game-plus",
+      "name": "Female Corpo (New Game Plus)",
+      "nexusId": 456,
+      "priority": "optional",
+      "required": false,
+      "author": "Ebonzone",
+      "endorsements": 1047,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1620,
+        "name": "Post-Prologue Female Corpo Save File (NG Plus)",
+        "version": "1.06",
+        "uploaded": "2020-12-29",
+        "variants": 3
+      },
+      "summary": "Start off as a female V corpo and:- 5 million $ - 200 attribute points - 400 perk points - Max crafting components - Legendary Corpo Formal set - Legendary weapons - All vehicles - screenshots glams! (on ACT2 Save)Preset sliders in Optional",
+      "notes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "bounty-class-stars-bug-fix",
+      "name": "Bounty class stars bug fix",
+      "nexusId": 23211,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "yakuzadeso",
+      "endorsements": 1026,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 117048,
+        "name": "Bounty class stars fix",
+        "version": "1.0.0.2",
+        "uploaded": "2025-08-10",
+        "variants": 1
+      },
+      "summary": "Fixes the broken bounty class stars that didn't display properly ever since 2.0 dropped.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/BountyClassStarsFix.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "noclip-trainer",
+      "name": "Noclip Trainer",
+      "nexusId": 346,
+      "priority": "optional",
+      "required": false,
+      "author": "hoiblij",
+      "endorsements": 1022,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 821,
+        "name": "Noclip",
+        "version": "1.00",
+        "uploaded": "2020-12-19",
+        "variants": 1
+      },
+      "summary": "Noclip trainerUseful for those who got stuck in game or missed out any weapon/gear that can't be obtain due to locked area."
+    },
+    {
+      "id": "rasetsu-screens-flickering-bug-fix",
+      "name": "Rasetsu screens flickering bug fix",
+      "nexusId": 16896,
+      "priority": "optional",
+      "required": false,
+      "author": "yakuzadeso",
+      "endorsements": 958,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 88239,
+        "name": "rasetsu screens bug fix",
+        "version": "1.0.0.0",
+        "uploaded": "2024-09-30",
+        "variants": 1
+      },
+      "summary": "Fixes overlapping mesh that made the side screen flicker uncontrollably. Fixes overlapping mesh that was slightly visible on the big scope screen when using FSR.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Rasetsu_Screens_BugFix.archive"
+        ]
+      }
+    },
+    {
+      "id": "window-utils-gui-library-animation-grid-alignmen",
+      "name": "Window Utils (GUI Library - Animation - Grid Alignment)",
+      "nexusId": 26589,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet-window-manager",
+        "cet"
+      ],
+      "author": "CyanideX",
+      "endorsements": 916,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169721,
+        "name": "Window Utils",
+        "version": "1.2.2",
+        "uploaded": "2026-10-28",
+        "variants": 1
+      },
+      "summary": "Window Utils is a shared UI library and settings overlay for my CET mod windows. It also includes grid snapping, some visual flair, and quality of life features.",
+      "notes": "Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "obsolete-the-rvc00ns-plugins-pinkydude-s-virtual",
+      "name": "(OBSOLETE) The RVC00Ns Plugins (PinkyDude's Virtual Atelier Store)",
+      "nexusId": 8724,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "PinkyDude",
+      "endorsements": 893,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 124505,
+        "name": "The RVC00N Pugins",
+        "version": "9.0.1",
+        "uploaded": "2025-10-13",
+        "variants": 1
+      },
+      "summary": "NEW STORE IN DESCRIPTION",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PinkyDude_TheRVC00NSplugins_atelierstore.archive",
+          "r6/scripts/PinkyDude_TheRVC00NSplugins_atelierstore.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "patch-1-04-cyberpunk-2077-all-in-one-performance",
+      "name": "(Patch 1.04) Cyberpunk 2077 All-in-One Performance Patcher",
+      "nexusId": 188,
+      "priority": "optional",
+      "required": false,
+      "author": "dynamyc",
+      "endorsements": 881,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 589,
+        "name": "Cyberpunk2077-PerformancePatcher-hotfix2.5",
+        "version": "1.1.0-hotfix2.5",
+        "uploaded": "2020-12-16",
+        "variants": 1
+      },
+      "summary": "An All-in-One, open-source patching tool for Cyberpunk 2077, that disables Intel AVX, disables Intel C++ Compiler for AMD systems, for your own sanity's sake. Only useful for Patch 1.04 (and possibly below)."
+    },
+    {
+      "id": "3d-world-map-fixed",
+      "name": "3D World Map Fixed",
+      "nexusId": 26500,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "malgalad",
+      "endorsements": 875,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 160412,
+        "name": "3D World Map Fixed",
+        "version": "1.5.0",
+        "uploaded": "2026-09-12",
+        "variants": 1
+      },
+      "summary": "Fixes for 3D world map, specifically adding buildings that were missing and hiding or moving blocks and buildings that differ from actual game world.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/3D World Map Fixed.archive",
+          "archive/pc/mod/3D World Map Fixed.archive.xl"
+        ]
+      }
+    },
+    {
+      "id": "cpu-optimization-v3",
+      "name": "CPU Optimization v3.",
+      "nexusId": 23053,
+      "priority": "optional",
+      "required": false,
+      "author": "vinson911",
+      "endorsements": 867,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 117868,
+        "name": "c.UNCAPPED_VERSION",
+        "version": "0.0.0.1",
+        "uploaded": "2025-08-16",
+        "variants": 3
+      },
+      "summary": "Better Game Performance Stability, Wipes out stutters, Smoother Gameplay With Low Latency.",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "easytrainer-cyberpunk-trainer",
+      "name": "EasyTrainer - Cyberpunk trainer",
+      "nexusId": 23227,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "Avi6481",
+      "endorsements": 855,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176549,
+        "name": "EasyTrainer",
+        "version": "beta2.4.1",
+        "uploaded": "2026-11-10",
+        "variants": 1
+      },
+      "summary": "Easy Trainer is a simple in-game trainer for Cyberpunk. Lets you tweak stats, add weapons, spawn vehicles, adjust time/weather, and some more. Works with keyboard, mouse, or controller."
+    },
+    {
+      "id": "stuttering-improvements",
+      "name": "Stuttering improvements",
+      "nexusId": 338,
+      "priority": "optional",
+      "required": false,
+      "author": "Tom Servo",
+      "endorsements": 816,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 815,
+        "name": "stutteringfixes1.0",
+        "version": "1.0",
+        "uploaded": "2020-12-19",
+        "variants": 1
+      },
+      "summary": "This is a user.ini file that makes a couple of modifications to the object streaming of the game to make it slower and help out with the stuttering. If you are getting 60+ fps while standing still but notice massive drops while looking"
+    },
+    {
+      "id": "dds-camo-microblends",
+      "name": "DDS Camo Microblends",
+      "nexusId": 16413,
+      "priority": "optional",
+      "required": false,
+      "author": "DDANGERSENSE",
+      "endorsements": 770,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 104853,
+        "name": "DDS Camo Pattern Microblends (1.2)",
+        "version": "1.2",
+        "uploaded": "2025-03-26",
+        "variants": 1
+      },
+      "summary": "27 seamless camo microblend patterns, for the indiscernible customer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/[DDS] Camo Pattern Microblends.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "more-occluders-performance-improvement",
+      "name": "More Occluders (Performance Improvement)",
+      "nexusId": 33136,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 768,
+      "nexusCategory": "Utilities",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 158031,
+        "name": "More Occluders (ArchiveXL)",
+        "version": "0.4",
+        "uploaded": "2026-08-28",
+        "variants": 1
+      },
+      "summary": "Read the description",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/MoreOccluders.archive",
+          "archive/pc/mod/MoreOccluders.xl"
+        ]
+      }
+    },
+    {
+      "id": "balanced-nighttime-cycle",
+      "name": "Balanced Nighttime Cycle",
+      "nexusId": 12369,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl"
+      ],
+      "author": "Asterra",
+      "endorsements": 758,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 65081,
+        "name": "Balanced Nighttime Cycle (Realtime)",
+        "version": "0.91",
+        "uploaded": "2024-01-16",
+        "variants": 2
+      },
+      "summary": "A game time curveset which painstakingly reconfigures dawn, dusk and nighttime so that their durations are true to reality.  True darkness now lasts as long as it should, and twilight no longer overstays its welcome.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Balanced Nighttime Cycle (Realtime).archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "panam-scar-and-freckles",
+      "name": "Panam scar and freckles",
+      "nexusId": 1470,
+      "priority": "optional",
+      "required": false,
+      "author": "Catmino",
+      "endorsements": 740,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 10157,
+        "name": "Upscaled cleanup full",
+        "version": "1.1",
+        "uploaded": "2021-03-30",
+        "variants": 2
+      },
+      "summary": "Removes Panam's bullet scar, along with freckles, pimples and moles on her face.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/basegame_panam_cleanup.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "all-cheats-for-cyberpunk-2077",
+      "name": "All Cheats for Cyberpunk 2077",
+      "nexusId": 7574,
+      "priority": "optional",
+      "required": false,
+      "author": "Lain Fireheart",
+      "endorsements": 696,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 39991,
+        "name": "Cheats (Notepad Version)",
+        "version": "1.0",
+        "uploaded": "2023-03-01",
+        "variants": 2
+      },
+      "summary": "",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "ping-live-settings-menu-search",
+      "name": "Ping (Live Settings - Menu Search)",
+      "nexusId": 34933,
+      "priority": "optional",
+      "required": false,
+      "author": "theCyanideX",
+      "endorsements": 694,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169492,
+        "name": "Ping",
+        "version": "1.4.1",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "Search various mod settings menus, tune settings live in game, and more!"
+    },
+    {
+      "id": "advanced-crash-reporter",
+      "name": "Advanced Crash Reporter",
+      "nexusId": 34403,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Akiway",
+      "endorsements": 673,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168418,
+        "name": "Advanced Crash Reporter",
+        "version": "1.5.0",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Replaces the “flatlined” dialog with a report identifying the mod, function and call path behind crashes or freezes. Also flags timeouts, slow mods, log errors and recent mod installed."
+    },
+    {
+      "id": "make-all-vehicles-unlockable-with-twintone-fix",
+      "name": "Make All Vehicles Unlockable - With TwinTone Fix",
+      "nexusId": 18533,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "tweakxl"
+      ],
+      "author": "TheArtificialEnhancer",
+      "endorsements": 663,
+      "nexusCategory": "Utilities",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 98408,
+        "name": "MakeAllVehiclesUnlockable-TweakXL",
+        "version": "1.1",
+        "uploaded": "2025-01-17",
+        "variants": 2
+      },
+      "summary": "Allows the player to unlock traffic vehicles using CET commands/mods to unlock them. Also fixes the issue in game v2.2 with the TwinTone feature not being available for unlockable traffic vehicles. Makes every vehicle in the game",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/MakeAllVehiclesUnlockable-TweakXL/MakeAllVehiclesUnlockable.yaml"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "vehicle-core",
+      "name": "Vehicle Core",
+      "nexusId": 31684,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "theCyanideX",
+      "endorsements": 657,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 160676,
+        "name": "Vehicle Core",
+        "version": "1.0.0",
+        "uploaded": "2026-09-13",
+        "variants": 1
+      },
+      "summary": "Core utilities for vehicles registering with the Garage mod.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/VehicleCore/init.lua",
+          "r6/scripts/VehicleCore/VehicleBase.reds",
+          "r6/scripts/VehicleCore/VehicleCoreBridge.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "cyberpunktweaker-taa-and-other",
+      "name": "CyberpunkTweaker - TAA and other",
+      "nexusId": 81,
+      "priority": "optional",
+      "required": false,
+      "author": "Author",
+      "endorsements": 644,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 149,
+        "name": "Source Code",
+        "version": "1.04",
+        "uploaded": "2020-12-12",
+        "variants": 2
+      },
+      "summary": "Tweaks internal settings of game",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "whip-wizard",
+      "name": "Whip Wizard",
+      "nexusId": 22810,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui",
+        "redhttpclient"
+      ],
+      "author": "Barfunkle999",
+      "endorsements": 642,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175439,
+        "name": "Whip Wizard - Patch 13",
+        "version": "1.13",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "Whip Wizard puts full vehicle customization at your fingertips—tweak stance, engine audio, lights, windows, and more; all in real time!",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "smart-frames-expand",
+      "name": "Smart Frames Expand",
+      "nexusId": 18435,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "artistic"
+      ],
+      "author": "Xurec",
+      "endorsements": 604,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 109828,
+        "name": "Smart Frame Expand - Artistic Compatible",
+        "version": "1.6.2",
+        "uploaded": "2025-05-24",
+        "variants": 2
+      },
+      "summary": "Expansion of the smart frames in apartments",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Smart rames Expand-ArtisticVersion.archive",
+          "archive/pc/mod/smartframes_av.xl"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "oai-tweaks-suite-optimization-and-stability-ini",
+      "name": "OAI Tweaks Suite - Optimization and Stability (.ini tweaks)",
+      "nexusId": 23257,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "night-city-immersive-debris"
+      ],
+      "author": "DucMeister",
+      "endorsements": 565,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 142545,
+        "name": "OAI HANDHELD TWEAKS",
+        "version": "1.26",
+        "uploaded": "2026-04-18",
+        "variants": 2
+      },
+      "summary": "Comprehensive optimization tweaks for PCs and Handhelds. Designed to improve frame pacing (reduce stuttering), lower input latency, and boost stability without compromising visual integrity or raw FPS. Fully compatible with Ray Tracing,",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "all-stash-wall-iconic-weapons",
+      "name": "All Stash Wall Iconic Weapons",
+      "nexusId": 667,
+      "priority": "optional",
+      "required": false,
+      "author": "seba842005",
+      "endorsements": 562,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 2614,
+        "name": "iconic weapons",
+        "version": "1.1",
+        "uploaded": "2021-01-13",
+        "variants": 1
+      },
+      "summary": "All Stash Wall Iconic Weapons"
+    },
+    {
+      "id": "simple-enemy-spawner",
+      "name": "Simple Enemy Spawner",
+      "nexusId": 4674,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Darkcopse",
+      "endorsements": 551,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 121553,
+        "name": "Simple Enemy Spawner",
+        "version": "2.3.0",
+        "uploaded": "2025-09-16",
+        "variants": 1
+      },
+      "summary": "Intended as an end-of-game trainer and an excuse to play with CET. Spawns single enemies from a pool of 375, or groups of up to 30 enemies at a time.This is now compatible with Cyberpunk 2077 2.0+ and includes Maxtac and Cyberpsycho bosses.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/SimpleEnemySpawner/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "cetuner-obsolete",
+      "name": "CETuner (obsolete)",
+      "nexusId": 867,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "no-intro-videos"
+      ],
+      "author": "hip63",
+      "endorsements": 531,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 6885,
+        "name": "CETuner v1.3.1",
+        "version": "1.3.1",
+        "uploaded": "2021-02-17",
+        "variants": 1
+      },
+      "summary": "this mod has been depreciated and is no longer of use",
+      "notes": "Also needs (off Nexus): Cyber Engine Tweaks."
+    },
+    {
+      "id": "remove-traffic-fps-boost-for-cpu-bottleneck",
+      "name": "Remove traffic - FPS boost for CPU bottleneck",
+      "nexusId": 566,
+      "priority": "optional",
+      "required": false,
+      "author": "Chungus",
+      "endorsements": 520,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1546,
+        "name": "user.ini",
+        "version": "1",
+        "uploaded": "2020-12-28",
+        "variants": 1
+      },
+      "summary": "Remove traffic from the game. Helps performance for older CPUs in areas with a lot of assets."
+    },
+    {
+      "id": "save-anytime",
+      "name": "Save Anytime",
+      "nexusId": 610,
+      "priority": "optional",
+      "required": false,
+      "author": "Sorrow446",
+      "endorsements": 519,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1638,
+        "name": "Source code.",
+        "version": "1",
+        "uploaded": "2020-12-30",
+        "variants": 2
+      },
+      "summary": "Allows the player to save anytime.",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "item-records-fixes",
+      "name": "Item Records Fixes",
+      "nexusId": 25019,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "redscript"
+      ],
+      "author": "Demon9ne",
+      "endorsements": 513,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 124655,
+        "name": "Item Records Fixes",
+        "version": "1.0",
+        "uploaded": "2025-10-14",
+        "variants": 1
+      },
+      "summary": "Fixes for incorrect or missing data in item records.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/ItemRecordsFixes/ItemRecordsFixes.reds",
+          "r6/tweaks/ItemRecordsFixes/!ItemRecordsFixes.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "axellysse-x-beaniebby-atelier",
+      "name": "Axellysse x Beaniebby Atelier",
+      "nexusId": 16626,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "Axellysse x beanie",
+      "endorsements": 507,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 124274,
+        "name": "Axellysse x Beaniebby Atelier",
+        "version": "3.0",
+        "uploaded": "2025-10-10",
+        "variants": 1
+      },
+      "summary": "Atelier for Axellysse x Beaniebby collab clothing.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Virtual Atelier - Axellysse x Beaniebby.archive",
+          "r6/scripts/axellyssebeaniebby-atelier-store.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "xutils",
+      "name": "XUtils",
+      "nexusId": 30296,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "input-loader"
+      ],
+      "author": "CyanideX",
+      "endorsements": 502,
+      "nexusCategory": "Utilities",
+      "compat": "native-pre-2.5",
+      "mainFile": {
+        "fileId": 161029,
+        "name": "XUtils",
+        "version": "1.0.2",
+        "uploaded": "2026-09-15",
+        "variants": 1
+      },
+      "summary": "Utilities for CyanideX's camera features and other stuff.",
+      "detect": {
+        "anyOf": [
+          "red4ext/plugins/XUtils/XUtilsNative.dll",
+          "archive/pc/mod/XUtils.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/XUtils/init.lua"
+        ]
+      },
+      "notes": "Native plugin not updated since 2.5 - check the mod page before launching. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "how-to-remove-quest-mark-from-items-edit-clothes",
+      "name": "How to - Remove Quest Mark from items - edit clothes - add more slots mods",
+      "nexusId": 594,
+      "priority": "optional",
+      "required": false,
+      "author": "PixelRick",
+      "endorsements": 498,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1744,
+        "name": "save editor-v0.4.6-alpha.3",
+        "version": "v0.4.6-alpha.3",
+        "uploaded": "2021-01-01",
+        "variants": 5
+      },
+      "summary": "Simple how to unlock all quest items",
+      "notes": "5 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "phantom-liberty-ready-end-game-save-patch-2-01",
+      "name": "Phantom Liberty Ready - End Game Save  -  Patch 2.01",
+      "nexusId": 598,
+      "priority": "optional",
+      "required": false,
+      "author": "WithBlackjackAndHookers",
+      "endorsements": 484,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 53466,
+        "name": "Phantom Liberty Ready - End Game Save - Patch 2.01",
+        "version": "2.01",
+        "uploaded": "2023-10-17",
+        "variants": 1
+      },
+      "summary": "End Game Save Game - Please read detailed description for full details."
+    },
+    {
+      "id": "tqt-virtual-atelier",
+      "name": "TQT - Virtual Atelier",
+      "nexusId": 18095,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "Tariqy",
+      "endorsements": 479,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 124145,
+        "name": "TQT Atelier",
+        "version": "1.2",
+        "uploaded": "2025-10-09",
+        "variants": 1
+      },
+      "summary": "Welcome to TQ Tactical Atelier",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/tqt_atelier.archive",
+          "r6/scripts/tq_tactical-atelier-store.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "amd-smt-performance-patch",
+      "name": "AMD SMT Performance Patch",
+      "nexusId": 117,
+      "priority": "optional",
+      "required": false,
+      "author": "camohiddendj",
+      "endorsements": 471,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 244,
+        "name": "Cyberpunk 2077 AMD Performance Patch for 1.04",
+        "version": "1.04.01",
+        "uploaded": "2020-12-13",
+        "variants": 1
+      },
+      "summary": "Easy to use patch to fix SMT on AMD Processors"
+    },
+    {
+      "id": "misty-appearance-overhaul-jackie-s-photo-retextu",
+      "name": "Misty Appearance Overhaul - Jackie's Photo Retexture",
+      "nexusId": 4512,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "misty-appearance-overhaul"
+      ],
+      "author": "baldtwitlion",
+      "endorsements": 471,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 53821,
+        "name": "Jackie's Misty Photo Retexture REDmod",
+        "version": "1.2",
+        "uploaded": "2023-10-19",
+        "variants": 2
+      },
+      "summary": "Retextures the photo of Misty found in Jackie's garage to match Misty Appearance Overhaul",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "dedra-core",
+      "name": "Dedra Core",
+      "nexusId": 34882,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware",
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "Dedra",
+      "endorsements": 466,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169107,
+        "name": "Dedra Core",
+        "version": "1.10",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "Dedra Core is a shared framework designed to support my Cyberpunk 2077 mods through a common quest system. It provides a foundation for introducing new quest branches, improving compatibility with systems such as New Game Plus (NG+), and"
+    },
+    {
+      "id": "obsolete-facial-expression-swaps-for-amm",
+      "name": "(OBSOLETE) Facial Expression Swaps for AMM",
+      "nexusId": 3039,
+      "priority": "optional",
+      "required": false,
+      "author": "PinkyDude",
+      "endorsements": 465,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 54185,
+        "name": "Talking",
+        "version": "2.0.0",
+        "uploaded": "2023-10-21",
+        "variants": 1
+      },
+      "summary": "Custom facial expressions to use with AMM. Works on every Characters !",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PinkyDude_FACIAL_Talking_withMB.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "cpu-optimization-plus",
+      "name": "CPU Optimization Plus.",
+      "nexusId": 23484,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "ultra-plus-physically-accurate-path-tracing"
+      ],
+      "author": "vinson911",
+      "endorsements": 464,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 117860,
+        "name": "c.UNCAPPED_VERSION_PLUS.",
+        "version": "1.0.1",
+        "uploaded": "2025-08-16",
+        "variants": 3
+      },
+      "summary": "NOW UltraPlus Compatible.. Wipes annoying stutters, high latency and Slowdowns + Crowd Rebalance.",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "male-v-and-judy-romance-scene-save",
+      "name": "Male V and Judy romance scene save",
+      "nexusId": 1781,
+      "priority": "optional",
+      "required": false,
+      "author": "DareDevil",
+      "endorsements": 462,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 7298,
+        "name": "ManualSave-2077.zip",
+        "version": "1.12",
+        "uploaded": "2021-02-22",
+        "variants": 1
+      },
+      "summary": "Judy romance scene save with male V ."
+    },
+    {
+      "id": "specialized-ripperdocs",
+      "name": "Specialized Ripperdocs",
+      "nexusId": 23399,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Tremox",
+      "endorsements": 462,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 120038,
+        "name": "Specialized Ripperdocs",
+        "version": "1.1.1",
+        "uploaded": "2025-09-02",
+        "variants": 1
+      },
+      "summary": "Each Ripperdoc sells only two types of Cyberware. This mod automatically sorts all Cyberware—including modded items—to match those specializations. Iconic items are vendor-exclusive, and a CET window helps you track where to find them.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Specialized Ripperdocs/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "amd-ryzen-smt-fix-2-xx",
+      "name": "AMD Ryzen SMT Fix 2.XX",
+      "nexusId": 13024,
+      "priority": "optional",
+      "required": false,
+      "author": "TheReaper1988",
+      "endorsements": 461,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 121097,
+        "name": "Exe Patcher - CP2.31 SMT Fix",
+        "version": "1.0",
+        "uploaded": "2025-09-12",
+        "variants": 1
+      },
+      "summary": "Fixes SMT for AMD Ryzen CPU´s. (For version 1.0 - 2.3+)"
+    },
+    {
+      "id": "no-river-romance-fem-v-toast-to-judy",
+      "name": "No River Romance (Fem V Toast to Judy)",
+      "nexusId": 13205,
+      "priority": "optional",
+      "required": false,
+      "author": "bdkty",
+      "endorsements": 457,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 69626,
+        "name": "No River Romance Dialogue",
+        "version": "1.0.5",
+        "uploaded": "2024-02-24",
+        "variants": 1
+      },
+      "summary": "In \"Following the River,\" lesbian Vs can easily find themselves locked into three compulsory, romantic M/F dialogue options. This mod removes all romance dialogue from the tower scene, so River won't proposition you and you won't have a",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/NoRiverRomanceDialogue.archive"
+        ]
+      }
+    },
+    {
+      "id": "photomode-tweaks",
+      "name": "Photomode Tweaks",
+      "nexusId": 24253,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl"
+      ],
+      "author": "nutboy",
+      "endorsements": 456,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144761,
+        "name": "Photomode Tweaks",
+        "version": "1.1",
+        "uploaded": "2026-05-09",
+        "variants": 1
+      },
+      "summary": "Quality of life adjustments for photomode",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/nutboy/nut_photomode_tweaks.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "try-to-finish-broken-or-stuck-quests",
+      "name": "Try To Finish Broken or Stuck Quests",
+      "nexusId": 740,
+      "priority": "optional",
+      "required": false,
+      "author": "seba842005",
+      "endorsements": 455,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 2009,
+        "name": "quests fix",
+        "version": "1.0",
+        "uploaded": "2021-01-05",
+        "variants": 1
+      },
+      "summary": "Try To Finish Broken/Stuck Quests"
+    },
+    {
+      "id": "vegacpmods-resources",
+      "name": "VegaCPMods Resources",
+      "nexusId": 19883,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "VegaCPMods",
+      "endorsements": 452,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173942,
+        "name": "VegaCPMods_Base",
+        "version": "1.13.1",
+        "uploaded": "2026-11-05",
+        "variants": 1
+      },
+      "summary": "Contains resources that are shared across my mods. Game Version 2.5",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "act-1-max-start-all-iconics-all-recipes-all-cybe",
+      "name": "ACT 1 MAX start - All Iconics - All Recipes - All Cyberwares and mods - All Vehicles - 72 Attribute points - 400 Perks (clean stats) - Mods Recipes - Max Eddies and Creds",
+      "nexusId": 499,
+      "priority": "optional",
+      "required": false,
+      "author": "RaDeNRFX",
+      "endorsements": 442,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1410,
+        "name": "Super-start-savefiles-Cyberpunk-27-12-2020",
+        "version": "1.3",
+        "uploaded": "2020-12-26",
+        "variants": 0
+      },
+      "summary": "Easy stats en crafting save file. Starts at ACT 1 with all possible endings. All stats (level 9 and level 50 included on very hard) on zero with 72 attribute and clean stats setup (400 perk points included. With all iconic weapons and"
+    },
+    {
+      "id": "skip-to-act-2-auspicious-beginning-or-normal-sta",
+      "name": "Skip To Act 2 - Auspicious Beginning or Normal Start",
+      "nexusId": 311,
+      "priority": "optional",
+      "required": false,
+      "author": "PombaDeRolex",
+      "endorsements": 431,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1269,
+        "name": "Auspicious Beginning",
+        "version": "1.0.6",
+        "uploaded": "2020-12-25",
+        "variants": 4
+      },
+      "summary": "Custom saves.",
+      "notes": "4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "xvasynth-v3-cpva-synth",
+      "name": "xVASynth v3 - CPVA Synth",
+      "nexusId": 2162,
+      "priority": "optional",
+      "required": false,
+      "author": "Dan Ruta",
+      "endorsements": 428,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 48520,
+        "name": "River",
+        "version": "3.0",
+        "uploaded": "2023-08-31",
+        "variants": 0
+      },
+      "summary": "xVASynth is an AI tool for generating high-quality voice acting lines using voices from video games. The app supports hundreds of voices, across dozens of games, and provides pitch, duration, and energy control at per-letter granularity.",
+      "notes": "Also needs (off Nexus): Microsoft C++ Redistributable."
+    },
+    {
+      "id": "hq-sushi",
+      "name": "HQ Sushi",
+      "nexusId": 17709,
+      "priority": "optional",
+      "required": false,
+      "author": "Kratoes",
+      "endorsements": 413,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 91779,
+        "name": "HQ sushi",
+        "version": "1.0",
+        "uploaded": "2024-11-10",
+        "variants": 1
+      },
+      "summary": "replaces the lower quality sushi models in the game with much more detailed models",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/HQ_Sushi.archive"
+        ]
+      }
+    },
+    {
+      "id": "exclusive-items-unlocker",
+      "name": "Exclusive Items Unlocker",
+      "nexusId": 24025,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "Antrix",
+      "endorsements": 407,
+      "nexusCategory": "Miscellaneous",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169198,
+        "name": "Exclusive Items Unlocker",
+        "version": "2.0.4",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "Unlocks event-exclusive items no longer obtainable legitimately."
+    },
+    {
+      "id": "cyberarms-stutter-fix",
+      "name": "Cyberarms Stutter Fix",
+      "nexusId": 28109,
+      "priority": "optional",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 403,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172902,
+        "name": "Cyberarms Stutter Fix (Archive)",
+        "version": "0.1",
+        "uploaded": "2026-11-03",
+        "variants": 1
+      },
+      "summary": "Fixes equip-unequip stutter related to arm cyberware."
+    },
+    {
+      "id": "posh-props",
+      "name": "Posh Props",
+      "nexusId": 26193,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "red4ext"
+      ],
+      "author": "Olath",
+      "endorsements": 399,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 130146,
+        "name": "Posh Props",
+        "version": "1.01",
+        "uploaded": "2025-12-17",
+        "variants": 1
+      },
+      "summary": "32 props mostly with a noiry vintage theme for AMM.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/olath_posh_props.archive"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty, REDmod."
+    },
+    {
+      "id": "shoo-watchdog-timeout-crash",
+      "name": "shoo Watchdog - Timeout Crash",
+      "nexusId": 16297,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "kyoruno",
+      "endorsements": 393,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 126936,
+        "name": "shooWatchdog",
+        "version": "2.1.0",
+        "uploaded": "2025-11-06",
+        "variants": 1
+      },
+      "summary": "In-game settings for the engines Watchdog service, no more Watchdog timeout crashes!",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/shooWatchdog/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "achievement-unlocker",
+      "name": "Achievement Unlocker",
+      "nexusId": 12183,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "fxckedinside",
+      "endorsements": 392,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 154396,
+        "name": "Achievement Unlocker",
+        "version": "2.1.0",
+        "uploaded": "2026-08-01",
+        "variants": 1
+      },
+      "summary": "Unlock all achievements with one button, or choose one from the dropdown menu",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/achievement_unlocker/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "red-cheat-menu-2",
+      "name": "RED Cheat Menu 2",
+      "nexusId": 30063,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "usarandom",
+      "endorsements": 390,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 148748,
+        "name": "RED Cheat Menu 2",
+        "version": "1.2.0",
+        "uploaded": "2026-06-15",
+        "variants": 1
+      },
+      "summary": "All of your favorite cheats, right on pause. Redscript-only, 100% Windows & Mac compatible.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/REDCheatMenu2.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "rare-shion-coyote",
+      "name": "Rare Shion Coyote",
+      "nexusId": 627,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Perraine",
+      "endorsements": 375,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1693,
+        "name": "Red Shion",
+        "version": "1.0",
+        "uploaded": "2020-12-31",
+        "variants": 1
+      },
+      "summary": "Simple script to add the usually missed Red and Black Nomad Shion \"Coyote\" to your list of cars."
+    },
+    {
+      "id": "v-panam-preset-cybercat",
+      "name": "V Panam Preset (CyberCAT)",
+      "nexusId": 1123,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "dunmr-s-npc-complexions-for-v",
+        "panam-hair-for-femv",
+        "mercs-of-nc-panam-palmer"
+      ],
+      "author": "witsanu meekaew",
+      "endorsements": 374,
+      "nexusCategory": "Miscellaneous",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 3441,
+        "name": "V Panam Preset",
+        "version": "1.0",
+        "uploaded": "2021-01-21",
+        "variants": 1
+      },
+      "summary": "As always and this is the preset I have made as close as possible to Panam, hope you like her."
+    },
+    {
+      "id": "saveswitcher-2-profile-manager",
+      "name": "SaveSwitcher 2 (Profile Manager)",
+      "nexusId": 9,
+      "priority": "optional",
+      "required": false,
+      "author": "PH",
+      "endorsements": 365,
+      "nexusCategory": "Utilities",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1107,
+        "name": "SaveSwitcher 2 Installer",
+        "version": "2.0.12.5",
+        "uploaded": "2020-12-22",
+        "variants": 1
+      },
+      "summary": "A small app I initially built for myself and my siblings to backup savegames and interchange different custom savegame-profiles. This enables another person to be able to play the game with a new, personal savegame without interfering"
+    },
+    {
+      "id": "window-switcher-taskbar-groups-utilities-for-cet",
+      "name": "Window Switcher (Taskbar - Groups - Utilities for CET)",
+      "nexusId": 30005,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "cet-window-manager",
+        "window-utils-gui-library-animation-grid-alignmen"
+      ],
+      "author": "CyanideX",
+      "endorsements": 363,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169668,
+        "name": "Window Switcher",
+        "version": "1.4.0",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "Manage your windows... Windows-style. Create groups, pin your favorites, keep things organized!"
+    },
+    {
+      "id": "advanced-pose-bone-editor-and-ik-for-photo-mode",
+      "name": "Advanced Pose - Bone Editor and IK for Photo Mode",
+      "nexusId": 35013,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "ObiOneStenobi",
+      "endorsements": 347,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171591,
+        "name": "AdvancedPoseMod 1.5.0 (CP 2.31)",
+        "version": "1.5.0",
+        "uploaded": "2026-10-31",
+        "variants": 2
+      },
+      "summary": "Pose V and the characters added in PhotoMode bone by bone, on foot or in a vehicle. Click and drag markers on the joints, pin hands and feet with inverse kinematics, shape the fingers, aim the eyes, edit the facial expression, put any item",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "discord-rpc-2",
+      "name": "Discord RPC 2",
+      "nexusId": 10831,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "Marco4413",
+      "endorsements": 346,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168082,
+        "name": "DiscordRPC2",
+        "version": "2.9.2",
+        "uploaded": "2026-10-24",
+        "variants": 1
+      },
+      "summary": "A Discord Rich Presence Client for Cyberpunk2077",
+      "notes": "Also needs (off Nexus): Cyber Engine Tweaks."
+    },
+    {
+      "id": "exrc-runtime-controller-stutter-reduction-fps-st",
+      "name": "EXRC - Runtime Controller (Stutter Reduction - FPS Stability)",
+      "nexusId": 28727,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "EntryierX",
+      "endorsements": 343,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173671,
+        "name": "EXRC Runtime Controller 3.0.9",
+        "version": "3.0.9",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "Reduces micro-stutter and improves frame consistency in heavily modded Cyberpunk 2077 by dynamically adapting Lua runtime behavior. Maintains stable frame pacing under variable system load with predictive memory pressure monitoring and"
+    },
+    {
+      "id": "choom-memory-booster",
+      "name": "Choom Memory Booster",
+      "nexusId": 31975,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "SIIIN3YUM1",
+      "endorsements": 325,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172618,
+        "name": "-CMB-",
+        "version": "0.05.0",
+        "uploaded": "2026-11-02",
+        "variants": 1
+      },
+      "summary": "-CMB- [ENG/ FR] A lightweight CET memory watchdog for heavily modded Cyberpunk 2077 setups. It safely cleans unused Lua memory without disabling, modifying or interfering with installed mods, helping prevent CET-related memory buildup,"
+    },
+    {
+      "id": "game-function-tester-mod-development-tool-cet-sc",
+      "name": "Game Function Tester - Mod Development Tool - CET Scripting Helper",
+      "nexusId": 13141,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "TheArtificialEnhancer",
+      "endorsements": 319,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 163978,
+        "name": "GameFunctionTester - Advanced - CET",
+        "version": "2.0",
+        "uploaded": "2026-10-04",
+        "variants": 1
+      },
+      "summary": "Check the returned value of game functions/methods in a CET overlay window. Opens with CET or a custom keybind.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/GameFunctionTester-CET/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "garage-manager",
+      "name": "Garage Manager",
+      "nexusId": 26524,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "window-utils-gui-library-animation-grid-alignmen",
+        "cet"
+      ],
+      "author": "CyanideX",
+      "endorsements": 264,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 160675,
+        "name": "Garage Manager",
+        "version": "1.0.0",
+        "uploaded": "2026-09-13",
+        "variants": 1
+      },
+      "summary": "A unified CET menu to manage all SDH0 vehicle customization and presets.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/SDH0GarageManager/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "amm-prop-pack-wanna-hang",
+      "name": "AMM Prop Pack - Wanna Hang",
+      "nexusId": 15011,
+      "priority": "optional",
+      "required": false,
+      "author": "Arcadie",
+      "endorsements": 255,
+      "nexusCategory": "Miscellaneous",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 78914,
+        "name": "build_decor",
+        "version": "1.0",
+        "uploaded": "2024-05-29",
+        "variants": 2
+      },
+      "summary": "Chains, mounts, neon, canvas, and steel. Everything a neo-hippie could want in 2077. 53 props for AMM.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/arcadie_mounts_chains.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "casino-reforged-assets-pack",
+      "name": "Casino Reforged - Assets pack",
+      "nexusId": 26290,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "casino-reforged-phase-1-access-areas-and-fixes",
+        "casino-reforged-phase-2-access-road-and-entrance"
+      ],
+      "author": "Casino Reforged Team",
+      "endorsements": 234,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 136507,
+        "name": "Casino Reforged - Assets pack",
+        "version": "1.1",
+        "uploaded": "2026-02-18",
+        "variants": 1
+      },
+      "summary": "All the custom and edited assets used for the Casino Reforged phases mods",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Casino Reforged - Assets.archive",
+          "archive/pc/mod/CasinoBoundariesRE.xl"
+        ]
+      },
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "preem-weaponsmith-2-0-sfx-fix",
+      "name": "Preem Weaponsmith 2.0 sfx fix",
+      "nexusId": 16845,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "preem-weaponsmith-2-0"
+      ],
+      "author": "Pzikhedelic",
+      "endorsements": 61,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 88080,
+        "name": "Preem Weaponsmith 2.0 sfx fix",
+        "version": "1.0",
+        "uploaded": "2024-09-28",
+        "variants": 1
+      },
+      "summary": "This mod fix sound effect issue for Preem Weaponsmith 2.0",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PreemWeaponsmith.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "vehiclegarageutil",
+      "name": "VehicleGarageUtil",
+      "nexusId": 33036,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "improved-vehicle-persistence",
+        "codeware"
+      ],
+      "author": "byt3m",
+      "endorsements": 47,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 158647,
+        "name": "VehicleGarageUtil",
+        "version": "1.3",
+        "uploaded": "2026-08-31",
+        "variants": 1
+      },
+      "summary": "Small utility to control your vehicle garage. Working with vanilla's garage and IVP's (Improved Vehicle Persistence) garage.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/VehicleGarageUtil/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    }
+  ]
 }

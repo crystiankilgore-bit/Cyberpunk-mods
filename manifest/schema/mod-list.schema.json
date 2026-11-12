@@ -120,7 +120,9 @@
               "native-pre-2.5",
               "script-outdated",
               "assets-outdated",
-              "unknown"
+              "unknown",
+              "unknown-outdated",
+              "external-tool"
             ],
             "description": "2.5 compatibility rating from build_modpack.py (based on main-file date and file types)."
           },

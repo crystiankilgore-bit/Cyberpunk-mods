@@ -1,5 +1,2109 @@
 {
   "$schema": "../schema/mod-list.schema.json",
   "category": "Vehicles & driving",
-  "mods": []
+  "mods": [
+    {
+      "id": "car-modification-shop",
+      "name": "Car Modification Shop",
+      "nexusId": 4034,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Erok",
+      "endorsements": 26171,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 123496,
+        "name": "Car Modification Shop",
+        "version": "2.2.0.1",
+        "uploaded": "2025-10-03",
+        "variants": 1
+      },
+      "summary": "Modify Your Favorite Player Vehicles! All in a physical location! With Native UI!!!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/cmsgarage.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Car Mod Shop/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "cyber-vehicle-overhaul",
+      "name": "Cyber Vehicle Overhaul",
+      "nexusId": 3016,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Erok",
+      "endorsements": 18466,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 115046,
+        "name": "Cyber Vehicle Overhaul - Version 2.1",
+        "version": "2.1",
+        "uploaded": "2025-07-25",
+        "variants": 1
+      },
+      "summary": "C.V.O Overhauls Every Single Vehicle's top speed, gearing, power, handling and brakes",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Cyber Vehicle Overhaul/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "toyota-supra-mk5-hks-widebody",
+      "name": "Toyota Supra Mk5 HKS Widebody",
+      "nexusId": 12652,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 4891,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141531,
+        "name": "KRNLNIK Toyota Supra MK5 HKS Widebody",
+        "version": "1.0.5-Minor",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Toyota Supra Mk5 (A90) 2020 With HKS Bodykit. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Toyota_Supra_A90_HKS_White.archive",
+          "archive/pc/mod/KRNLNIK_Toyota_Supra_A90_HKS_Widebody.archive",
+          "r6/tweaks/krnlnik/toyota_supra_a90_hks.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "authentic-shift-qol-gear-ratios-shifts-audio-sou",
+      "name": "Authentic Shift (QoL Gear Ratios Shifts Audio Sound ASMR and OPTIONAL Tuning System)",
+      "nexusId": 6823,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "imbamakaber",
+      "endorsements": 4717,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176143,
+        "name": "Authentic Shift v2.21.1",
+        "version": "2.21.1",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Checkout the comparison video! \"This is breathtaking. It's amazing how a simple audio mod changed the whole driving experience.\""
+    },
+    {
+      "id": "bike-overhaul-2-5",
+      "name": "Bike Overhaul 2.5",
+      "nexusId": 5167,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext",
+        "tweakxl",
+        "redscript"
+      ],
+      "author": "Adriansito",
+      "endorsements": 4607,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171352,
+        "name": "BikeOverhaul 2.5c",
+        "version": "2.5",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "Bikes are now faster, handle way better and feel unique. Changes to air control, camera and overall feeling."
+    },
+    {
+      "id": "ford-mustang-rtr-spec-5",
+      "name": "Ford Mustang RTR Spec 5",
+      "nexusId": 8912,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 4276,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141541,
+        "name": "KRNLNIK RTR Spec 5",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Ford Mustang RTR Spec 5 2018. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_RTR_Spec_5.archive",
+          "r6/tweaks/krnlnik/ford_rtr_spec5.tweak",
+          "r6/tweaks/krnlnik/ford_rtr_spec5_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "lamborghini-aventador-svj",
+      "name": "Lamborghini Aventador SVJ",
+      "nexusId": 11176,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 4200,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141537,
+        "name": "KRNLNIK Lamborghini Aventador SVJ",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Lamborghini Aventador 2021. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Lamborghini_Aventador_SVJ.archive",
+          "r6/tweaks/krnlnik/lamborghini_aventador_svj.tweak",
+          "r6/tweaks/krnlnik/lamborghini_aventador_svj_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "pagani-zonda-cinque-roadster",
+      "name": "Pagani Zonda Cinque roadster",
+      "nexusId": 8795,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 4016,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141543,
+        "name": "KRNLNIK Pagani Zonda CInque Roadster",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Pagani Zonda Cinque roadster 2008. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_PaganiZonda.archive",
+          "r6/tweaks/krnlnik/pagani_zonda_cinque.tweak",
+          "r6/tweaks/krnlnik/pagani_zonda_cinque_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "audi-r8-liberty-walk",
+      "name": "Audi R8 Liberty Walk",
+      "nexusId": 8827,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 3982,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141542,
+        "name": "KRNLNIK Audi R8 LBW",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Audi R8 Liberty Walk 2013. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Audi_R8_LBW.archive",
+          "r6/tweaks/krnlnik/audi_r8_lbw.tweak",
+          "r6/tweaks/krnlnik/audi_r8_lbw_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "porsche-918-spyder",
+      "name": "Porsche 918 Spyder",
+      "nexusId": 9125,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 3929,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141539,
+        "name": "KRNLNIK Porsche 918 Spyder",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Porsche 918 Spyder 2015. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Porsche_918_Spyder.archive",
+          "r6/tweaks/krnlnik/porsche_918_spyder.tweak",
+          "r6/tweaks/krnlnik/porsche_918_spyder_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "dodge-challenger-srt-demon",
+      "name": "Dodge Challenger SRT Demon",
+      "nexusId": 12556,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 3663,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141532,
+        "name": "Dodge Challenger SRT Demon",
+        "version": "1.2",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Dodge Challenger SRT Demon 2018. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Dodge_Challenger_Demon.archive",
+          "archive/pc/mod/KRNLNIK_Dodge_Challenger_Demon_Black_white.archive",
+          "r6/tweaks/krnlnik/dodge_challenger_srt_demon.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "porsche-911-gt3-rs",
+      "name": "Porsche 911 GT3 RS",
+      "nexusId": 11180,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "material-and-texture-override",
+        "tweakxl",
+        "virtual-car-dealer"
+      ],
+      "author": "aalexbug",
+      "endorsements": 3627,
+      "nexusCategory": "Vehicles",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 62175,
+        "name": "Porsche 911 GT3 RS White_Black",
+        "version": "1.2",
+        "uploaded": "2023-12-24",
+        "variants": 4
+      },
+      "summary": "Porsche 911 GT3 RS 2023 ADDONWHITE GREYBLACK",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/porsche_gt3_rs.archive",
+          "archive/pc/mod/porsche_gt3_rs.xl"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "cyber-drift-crowds-and-traffic",
+      "name": "Cyber Drift - Crowds and Traffic",
+      "nexusId": 3176,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cyber-vehicle-overhaul"
+      ],
+      "author": "Xuanwu",
+      "endorsements": 3481,
+      "nexusCategory": "Vehicles",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 17134,
+        "name": "Performance Boost",
+        "version": "1.0",
+        "uploaded": "2021-09-28",
+        "variants": 3
+      },
+      "summary": "Better drift control with counter steering, wheelies, enhanced crowd & traffic behaviors, more parked vehicles & passengers, improved ai w/ faster response times, improved traffic speed and lights, - Drive like you own Night City!",
+      "notes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "bmw-m8-competition-coupe",
+      "name": "BMW M8 Competition coupe",
+      "nexusId": 10397,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 2950,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141538,
+        "name": "KRNLNIK BMW M8 Competition Coupe",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom BMW M8 Competition coupe 2022. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_BMW_M8_Coupe_Competition.archive",
+          "r6/tweaks/krnlnik/bmw_m8_competition_coupe.tweak",
+          "r6/tweaks/krnlnik/bmw_m8_competition_coupe_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "mercedes-benz-c63s-amg",
+      "name": "Mercedes Benz c63s AMG",
+      "nexusId": 9075,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 2777,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141540,
+        "name": "KRNLNIK C63S AMG",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Mercedes Benz c63s AMG 2016. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_c63s_amg.archive",
+          "r6/tweaks/krnlnik/mercedes_c63s_amg.tweak",
+          "r6/tweaks/krnlnik/mercedes_c63s_amg_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "dodge-charger-rt",
+      "name": "Dodge Charger RT",
+      "nexusId": 13569,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 2745,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141527,
+        "name": "KRNLNIK Dodge Charger R T",
+        "version": "1.2",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Dodge Charger R/T 1969. The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Dodge_Charger_RT.archive",
+          "archive/pc/mod/KRNLNIK_Dodge_Charger_RT_Black_White.archive",
+          "r6/tweaks/krnlnik/dodge_charger_rt.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "vehicle-exit-fix-for-2-3",
+      "name": "Vehicle Exit Fix for 2.3",
+      "nexusId": 22786,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "MisterChedda",
+      "endorsements": 2737,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114225,
+        "name": "VehicleExitFix",
+        "version": "1.0",
+        "uploaded": "2025-07-19",
+        "variants": 1
+      },
+      "summary": "Fixes the slight kickback/roll after exiting vehicle and the bike tilt/lean bug in 2.3 (and 2.31)",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/vehicleexitfix/vehicleexitfix.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "1969-ford-mustang-boss-302",
+      "name": "1969 Ford Mustang Boss 302",
+      "nexusId": 13650,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 2584,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141526,
+        "name": "KRNLNIK Ford Mustang Boss 302",
+        "version": "1.0.5-Minor",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Ford Mustang Boss 302 1969. The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Ford_Mustang_Boss_302.archive",
+          "archive/pc/mod/KRNLNIK_Ford_Mustang_Boss_302_Gunmetal_Grey_Black.archive",
+          "r6/tweaks/krnlnik/ford_mustang_boss_302.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "bikes-of-the-dark-future-arch-v4",
+      "name": "Bikes of the Dark Future --- Arch V4",
+      "nexusId": 18736,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-exit-fix-for-2-3"
+      ],
+      "author": "DennisReactive",
+      "endorsements": 2564,
+      "nexusCategory": "Vehicles",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 130301,
+        "name": "BDF_DRe_ArchV4_Mirrors",
+        "version": "1.3",
+        "uploaded": "2025-12-18",
+        "variants": 3
+      },
+      "summary": "Arch V4 family in 6 models: custom show-stopper (+custom hyperbike), hyperbike, sportbike, 2 streetfighters, scrambler (+cafe-racer). 52 bikes in total",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/0_BDF_Arch_V4_Mirrors_FZR3000.archive",
+          "archive/pc/mod/0_BDF_Arch_V4_Mirrors_Fyrn.archive",
+          "archive/pc/mod/0_BDF_Arch_V4_Mirrors_Mogus.archive"
+        ]
+      },
+      "notes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "cyberpunk-bikes-edge",
+      "name": "Cyberpunk Bikes - Edge",
+      "nexusId": 14719,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "methodd",
+      "endorsements": 2533,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 166617,
+        "name": "Cyberpunk Bikes - Edge",
+        "version": "1.03",
+        "uploaded": "2026-10-17",
+        "variants": 1
+      },
+      "summary": "cyberpunk bike - 1 custom model, 10 custom appearances, accessible though CET or Virtual Car Dealer. Compatible with AMM.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Methodd_Edge.archive",
+          "r6/tweaks/Methodd/Methodd_Edge/mthdd_Methodd_Edge.yaml",
+          "archive/pc/mod/mthdd_Methodd_Edge.archive.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "mazda-rx7-tcp-magic",
+      "name": "MAZDA RX7 TCP Magic",
+      "nexusId": 13415,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 2361,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141529,
+        "name": "KRNLNIK_Mazda_Rx7_FD_WIDEBODY",
+        "version": "1.0.5-Minor",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Mazda RX-7 FD TCP Magic widebody 1997. The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Mazda_Rx7_FD_Widebody.archive",
+          "archive/pc/mod/KRNLNIK_Mazda_Rx7_FD_Widebody_White_Red.archive",
+          "r6/tweaks/krnlnik/mazda_rx7_fd_widebody.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "bugatti-chiron-supersport",
+      "name": "Bugatti Chiron SuperSport",
+      "nexusId": 11331,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "cet",
+        "virtual-car-dealer",
+        "material-and-texture-override"
+      ],
+      "author": "aalexbug",
+      "endorsements": 2123,
+      "nexusCategory": "Vehicles",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 62169,
+        "name": "Bugatti Chiron SuperSport White_Black",
+        "version": "1.2",
+        "uploaded": "2023-12-24",
+        "variants": 5
+      },
+      "summary": "Bugatti Chiron SuperSport Addon",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/bugatti_chiron_ss.archive",
+          "archive/pc/mod/bugatti_chiron_ss.xl"
+        ]
+      },
+      "notes": "5 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "claim-vehicles",
+      "name": "Claim Vehicles",
+      "nexusId": 5036,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "mod-settings",
+        "redscript",
+        "tweakxl",
+        "codeware"
+      ],
+      "author": "DeepBlueFrog",
+      "endorsements": 2094,
+      "nexusCategory": "Vehicles",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 160484,
+        "name": "ClaimVehicles",
+        "version": "20260912",
+        "uploaded": "2026-09-12",
+        "variants": 1
+      },
+      "summary": "A lore friendly way to keep the vehicles you steal.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "bmw-m4-csl",
+      "name": "Bmw M4 CSL",
+      "nexusId": 10702,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "disable-visual-car-damage",
+        "tweakxl",
+        "virtual-car-dealer",
+        "material-and-texture-override"
+      ],
+      "author": "aalexbug",
+      "endorsements": 2001,
+      "nexusCategory": "Vehicles",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 61900,
+        "name": "Bmw M4 CSL Carbon",
+        "version": "1.1",
+        "uploaded": "2023-12-22",
+        "variants": 4
+      },
+      "summary": "Bmw M4 CSL",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/bmw_m4_cls.archive",
+          "archive/pc/mod/bmw_m4_csl.xl"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "cyber-drift-2-0",
+      "name": "Cyber Drift 2.0",
+      "nexusId": 8306,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "dynamic-downforce",
+        "dynamic-gravity-modifier-2-0",
+        "limited-slip-differential",
+        "nulled-angle-correction",
+        "slope-traction-factor",
+        "true-grip-slope-traction-and-handbrake-handling",
+        "native-settings-ui"
+      ],
+      "author": "Gashetka",
+      "endorsements": 1999,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 154666,
+        "name": "CyberDrift 2.0 Light for game ver. 2.31",
+        "version": "2.31",
+        "uploaded": "2026-08-03",
+        "variants": 1
+      },
+      "summary": "Мod improves in game drift model, expands angle range of drift and makes it smoother",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/CyberDrift Light/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "dynamic-downforce",
+      "name": "Dynamic Downforce",
+      "nexusId": 12841,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "true-grip-slope-traction-and-handbrake-handling",
+        "cyber-drift-2-0",
+        "nulled-angle-correction",
+        "limited-slip-differential",
+        "slope-traction-factor",
+        "dynamic-gravity-modifier-2-0"
+      ],
+      "author": "Gashetka",
+      "endorsements": 1988,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 148178,
+        "name": "Dynamic Downforce - Model R",
+        "version": "2.31",
+        "uploaded": "2026-06-10",
+        "variants": 1
+      },
+      "summary": "Mod revamp dynamic downforce helper for vehicles and adds effect for bikes and traffic.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/DynamicDownforce/ai/Vehicle.DynamicDownforceHelper_Ai.yaml",
+          "r6/tweaks/DynamicDownforce/bike/Vehicle.DynamicDownforceHelper_Bike.yaml",
+          "r6/tweaks/DynamicDownforce/vehicles/Vehicle.DynamicDownforceHelper_Exotic.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "delamain-combat-mode",
+      "name": "Delamain Combat Mode",
+      "nexusId": 14405,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "MisterChedda",
+      "endorsements": 1943,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170569,
+        "name": "delamain_combat_mode_STANDALONE",
+        "version": "1.3",
+        "uploaded": "2026-10-29",
+        "variants": 2
+      },
+      "summary": "Delamain with combat mode -- fully animated turrets and rockets",
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "dynamic-gravity-modifier-2-0",
+      "name": "Dynamic Gravity Modifier 2.0",
+      "nexusId": 13986,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "nulled-angle-correction"
+      ],
+      "author": "Gashetka",
+      "endorsements": 1896,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 150491,
+        "name": "Dynamic Gravity Modifier 2.0",
+        "version": "2.31.3",
+        "uploaded": "2026-06-30",
+        "variants": 1
+      },
+      "summary": "This mod reworks the driving feel in CP77, adding a \"simulation\" of inertia, as well as visually pressing down the suspension, which creates a downforce effect. All changes adapt to vehicle speed and depend on the class.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/DynamicGravityModifier/big/Vehicle.HeavyArmoredGravityModifier.yaml",
+          "r6/tweaks/DynamicGravityModifier/big/Vehicle.VehicleDriveModelData_Truck_inline5.yaml",
+          "r6/tweaks/DynamicGravityModifier/big/Vehicle.VehicleDriveModelData_Utility_Big_inline4.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "all-vehicles-can-steer",
+      "name": "All Vehicles Can Steer",
+      "nexusId": 18210,
+      "priority": "optional",
+      "required": false,
+      "author": "Seijax",
+      "endorsements": 1890,
+      "nexusCategory": "Vehicles",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 93731,
+        "name": "All Vehicles Can Steer",
+        "version": "1.0.0",
+        "uploaded": "2024-12-04",
+        "variants": 1
+      },
+      "summary": "Only modifies the turning radius of (all) vehicles to realistic amounts. They'll still have a lot of stats to differentiate their performances, but you can now expect everything to be able to turn a corner."
+    },
+    {
+      "id": "shelby-cobra-427",
+      "name": "Shelby Cobra 427",
+      "nexusId": 13395,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Okrasha",
+      "endorsements": 1726,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144310,
+        "name": "Okrasha_Shelby_Cobra_427",
+        "version": "1.2",
+        "uploaded": "2026-05-05",
+        "variants": 1
+      },
+      "summary": "Add-on Shelby Cobra 427 S/C 1965. Сompletely standalone car, not a replacement. Support Virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Okrasha_Shelby_Cobra_427.archive",
+          "archive/pc/mod/Okrasha_Shelby_Cobra_427_Silver_black.archive",
+          "r6/tweaks/Okrasha/shelby_cobra_427.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "nissan-skyline-gtr-r34-hycade-bodykit",
+      "name": "Nissan Skyline GTR R34 HYCADE Bodykit",
+      "nexusId": 16570,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "nova-traffic-cet-modded-vehicles-in-traffic",
+        "tweakxl",
+        "vehicle-manufacturers-resource",
+        "virtual-car-dealer"
+      ],
+      "author": "ctxrlsec and GRLDY",
+      "endorsements": 1684,
+      "nexusCategory": "Vehicles",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 95746,
+        "name": "hycade r34",
+        "version": "1.12",
+        "uploaded": "2024-12-23",
+        "variants": 1
+      },
+      "summary": "Nissan Skyline R34 add-on vehicle with Hycade bodykit, no replacement required",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "true-grip-slope-traction-and-handbrake-handling",
+      "name": "True Grip - Slope Traction and Handbrake Handling Fix",
+      "nexusId": 17209,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "Lonnylasagna and Mikegrau0hr",
+      "endorsements": 1636,
+      "nexusCategory": "Vehicles",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 97183,
+        "name": "True Grip All in One",
+        "version": "1.0",
+        "uploaded": "2025-01-08",
+        "variants": 1
+      },
+      "summary": "Ever feel like grip/handling is just off in the game? Ever felt like turning up/downhill felt weird? Or like the handbrake doesn't feel like a real one? This mod aims to fix all these things.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/Lonny Driving Tweaks/Vehicle.HandbrakeFrictionModifier_2w.yaml",
+          "r6/tweaks/Lonny Driving Tweaks/Vehicle.HandbrakeFrictionModifier_Drift.yaml",
+          "r6/tweaks/Lonny Driving Tweaks/Vehicle.HandbrakeFrictionModifier_Exotic.yaml"
+        ]
+      },
+      "notes": "Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "vehicle-manufacturer-fix",
+      "name": "Vehicle manufacturer fix",
+      "nexusId": 28744,
+      "priority": "optional",
+      "required": false,
+      "author": "cornmilf",
+      "endorsements": 1568,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141482,
+        "name": "VMF",
+        "version": "1.0",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Resource for my cars.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/VehicleManufacturerFix.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 20 mod(s) in this pack."
+    },
+    {
+      "id": "nulled-angle-correction",
+      "name": "Nulled Angle Correction",
+      "nexusId": 14454,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "dynamic-gravity-modifier-2-0",
+        "cet"
+      ],
+      "author": "Gashetka",
+      "endorsements": 1532,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168935,
+        "name": "Enhanceed Car Physics",
+        "version": "2.5",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "This mod nullifies the angle correction of cars in the air and on the ground across all axes. This means cars behave more freely and unpredictably when jumping in the Badlands and other areas with jump pads.",
+      "notes": "Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "audi-rs6-avant-quattro",
+      "name": "AUDI RS6 AVANT QUATTRO",
+      "nexusId": 11920,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 1492,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141535,
+        "name": "KRNLNIK Audi Rs6 Avant Quattro",
+        "version": "1.2",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Audi RS6 Avant Quattro 2015. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Audi_RS6_Avant.archive",
+          "r6/tweaks/krnlnik/audi_rs6_avant_quattro.tweak",
+          "r6/tweaks/krnlnik/audi_rs6_avant_quattro_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "immersive-bike-camera-2-5",
+      "name": "Immersive Bike Camera 2.5",
+      "nexusId": 14292,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "Gashetka",
+      "endorsements": 1464,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175667,
+        "name": "Immersive Bike Camera 2.5",
+        "version": "2.5",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "This mod enhances FPP camera for motorcycles, adding different deep leaning behaviors inspired by MotoGP and Gymkhana."
+    },
+    {
+      "id": "nissan-silvia-s15",
+      "name": "Nissan Silvia S15",
+      "nexusId": 12848,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 1427,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141530,
+        "name": "KRNLNIK Nissan Silvia S15",
+        "version": "1.0.5-Minor",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Nissan Silvia S15 Spec R 2000 (With pandem bodykit). The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Nissan_Silvia_S15.archive",
+          "archive/pc/mod/KRNLNIK_Nissan_Silvia_S15_white.archive",
+          "r6/tweaks/krnlnik/nissan_silvia_s15.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "mazda-mx-5-miata",
+      "name": "Mazda MX-5 Miata",
+      "nexusId": 12314,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "material-and-texture-override",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Okrasha",
+      "endorsements": 1398,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144311,
+        "name": "Mazda MX-5 Miata",
+        "version": "1.3",
+        "uploaded": "2026-05-05",
+        "variants": 1
+      },
+      "summary": "Add-on Mazda MX-5 Miata 1994. Сompletely standalone car, not a replacement. Support Virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Okrasha_Mazda_Mx5_Miata.archive",
+          "archive/pc/mod/Okrasha_Mazda_Mx5_Miata_White.archive",
+          "r6/tweaks/Okrasha/mazda_miata_mx5.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "batcycle-archive-xl",
+      "name": "Batcycle Archive XL",
+      "nexusId": 14088,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer"
+      ],
+      "author": "EzioMaverick",
+      "endorsements": 1332,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171563,
+        "name": "Batcycle Archive XL",
+        "version": "1.2",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "A NEW VEHICLE FOR PLAYER V"
+    },
+    {
+      "id": "nissan-gt-r-lone-wanderer",
+      "name": "NISSAN GT-R 'Lone Wanderer'",
+      "nexusId": 20237,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "sdh0-s-vehicle-audio",
+        "redscript",
+        "tweakxl",
+        "vehicle-manufacturers-resource",
+        "virtual-car-dealer"
+      ],
+      "author": "ctxrlsec and GRLDY",
+      "endorsements": 1299,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176848,
+        "name": "1. R35 nomad main",
+        "version": "1.11",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "A car that can withstand vast distances and tough weathers of Badlands, this is the NISSAN GT-R R-35 heavily tuned and modified with nomad style equipment, add-on vehicle, no replacement required"
+    },
+    {
+      "id": "cyber-vehicle-overhaul-dlc-bundle",
+      "name": "Cyber Vehicle Overhaul - DLC Bundle",
+      "nexusId": 17937,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "cyber-vehicle-overhaul"
+      ],
+      "author": "Erok",
+      "endorsements": 1287,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 115047,
+        "name": "Cyber Vehicle Overhaul 2.1 - DLC Pack",
+        "version": "2.1",
+        "uploaded": "2025-07-25",
+        "variants": 1
+      },
+      "summary": "Cyber Vehicle Overhaul expansion for DLC cars",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "aston-martin-db11",
+      "name": "Aston Martin DB11",
+      "nexusId": 18664,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "red4ext",
+        "redscript",
+        "cet",
+        "virtual-car-dealer"
+      ],
+      "author": "Morpheus",
+      "endorsements": 1281,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 121386,
+        "name": "Aston Martin DB11 - No Front License Plate ver.",
+        "version": "1.30",
+        "uploaded": "2025-09-15",
+        "variants": 2
+      },
+      "summary": "A car add-on mod that brings the Aston Martin DB11 to Night City.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/_aston_martin_db11.archive",
+          "r6/tweaks/aston_martin_db11/aston_martin_db11.yaml",
+          "archive/pc/mod/aston_martin_db11.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "devel-sixteen",
+      "name": "Devel Sixteen",
+      "nexusId": 19407,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "virtual-car-dealer"
+      ],
+      "author": "Morpheus",
+      "endorsements": 1215,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 116665,
+        "name": "Devel Sixteen ver. B",
+        "version": "1.2",
+        "uploaded": "2025-08-07",
+        "variants": 2
+      },
+      "summary": "An add-on mod that brings the Devel Sixteen to Night City.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/_devel_sixteen.archive",
+          "r6/tweaks/_devel_sixteen/devel_sixteen.yaml",
+          "archive/pc/mod/devel_sixteen.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "free-black-caliburn-red-interior-and-exterior-re",
+      "name": "Free Black Caliburn Red Interior and Exterior Reskin (1.6 compatible)",
+      "nexusId": 3157,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cookedapps-nulled",
+        "material-and-texture-override"
+      ],
+      "author": "Walrus420",
+      "endorsements": 1175,
+      "nexusCategory": "Vehicles",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 70463,
+        "name": "Custom Black and Red Caliburn AIO 2.1.2",
+        "version": "2.1.2",
+        "uploaded": "2024-03-02",
+        "variants": 1
+      },
+      "summary": "Sick of the nasty green and black theme? So am I... Here's a version with a fancy red interior and red exterior decals and neon underglow w/ a matching icon for your garage.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Custom Red and Black Caliburn AIO.archive"
+        ]
+      }
+    },
+    {
+      "id": "ford-mustang-shelby-gt500",
+      "name": "Ford Mustang Shelby GT500",
+      "nexusId": 14702,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Okrasha",
+      "endorsements": 1152,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144305,
+        "name": "Okrasha_Ford_Shelby_GT500",
+        "version": "1.3",
+        "uploaded": "2026-05-05",
+        "variants": 1
+      },
+      "summary": "Add-on custom Ford Mustang Shelby GT500 2013. The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Okrasha_Ford_Shelby_GT500.archive",
+          "archive/pc/mod/Okrasha_Ford_Shelby_GT500_Silver_Blue.archive",
+          "r6/tweaks/Okrasha/ford_gt500.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "cadillac-escalade-iii-esv-platinum",
+      "name": "Cadillac Escalade (III) ESV Platinum",
+      "nexusId": 12377,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 1092,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141534,
+        "name": "Cadillac Escalade ESV",
+        "version": "1.0.5-Minor",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Cadillac Escalade ESV Platinum. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Cadillac_Escalade_ESV.archive",
+          "r6/tweaks/krnlnik/cadillac_escalade_esv.tweak",
+          "r6/tweaks/krnlnik/cadillac_escalade_esv_ICONS.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "mazda-rx7-fd-garage",
+      "name": "Mazda RX7 FD (Garage)",
+      "nexusId": 16537,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "garage-customize-claim-sell-repair-swap",
+        "garage-manager",
+        "red4ext",
+        "redscript",
+        "sdh0-s-vehicle-resources",
+        "tweakxl",
+        "vehicle-core",
+        "virtual-car-dealer",
+        "audioxl",
+        "sdh0-s-vehicle-audio"
+      ],
+      "author": "SDH0",
+      "endorsements": 1055,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167442,
+        "name": "RX7MainFile",
+        "version": "2.0.2",
+        "uploaded": "2026-10-21",
+        "variants": 1
+      },
+      "summary": "Add \"RX7FD\" vehicle\"Crystal Coat\",\"Garage\",\"popup light\" support \"Initial D\"",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/sdh0_mazdarx7.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/SDH0_MazdaRX7/init.lua",
+          "r6/scripts/SDH0_MazdaRX7/sdh0_mazdarx7_audio.reds"
+        ]
+      }
+    },
+    {
+      "id": "limited-slip-differential",
+      "name": "Limited Slip Differential",
+      "nexusId": 19095,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cyber-drift-2-0",
+        "dynamic-downforce",
+        "dynamic-gravity-modifier-2-0",
+        "nulled-angle-correction",
+        "slope-traction-factor",
+        "true-grip-slope-traction-and-handbrake-handling",
+        "tweakxl",
+        "semi-automatic-transmission"
+      ],
+      "author": "SiNON",
+      "endorsements": 1029,
+      "nexusCategory": "Vehicles",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 101156,
+        "name": "Limited Slip Differential",
+        "version": "2.21.2",
+        "uploaded": "2025-02-10",
+        "variants": 1
+      },
+      "summary": "Gives the possibility control drift by acceleration and provokes countersteering.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/LimitedSlipDifferential/vehicles/Vehicle.VehicleDriveModelDataAI_Default.yaml",
+          "r6/tweaks/LimitedSlipDifferential/vehicles/Vehicle.VehicleDriveModelDataAI_Regular_Medium.yaml",
+          "r6/tweaks/LimitedSlipDifferential/vehicles/Vehicle.VehicleDriveModelDataAI_Regular_Nomad.yaml"
+        ]
+      },
+      "notes": "Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "lemurlord-s-vehicle-customizer-updated",
+      "name": "LemurLord's Vehicle Customizer Updated",
+      "nexusId": 19243,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "codeware",
+        "red4ext"
+      ],
+      "author": "LemurLord and Buzzler",
+      "endorsements": 1028,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 121599,
+        "name": "Vehicle Customizer",
+        "version": "3.8",
+        "uploaded": "2025-09-16",
+        "variants": 1
+      },
+      "summary": "LemurLord's Vehicle Customizer updated for patch 2.2+ (confirmed to work on patch 2.5). Customize all your player owned vehicles. Appearances will be stored globally and reapplied every time you summon the vehicle.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Vehicle Customizer/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "mercedes-benz-190e-evo-ll",
+      "name": "Mercedes Benz 190e Evo ll",
+      "nexusId": 14376,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 1016,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141524,
+        "name": "KRNLNIK Mercedes Benz 190E Evo ll",
+        "version": "1.0.5-Minor",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Mercedes Benz 190e Evo ll 1990. The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Mercedes_190E_Evolution_II.archive",
+          "archive/pc/mod/KRNLNIK_Mercedes_190E_Evolution_II_Silver.archive",
+          "r6/tweaks/krnlnik/mercedes_benz_190e_evolution_2.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "harley-davidson-thundergod-standalone-bike-vehic",
+      "name": "Harley-Davidson Thundergod (Standalone Bike Vehicle Addition)",
+      "nexusId": 21522,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "lemurlord-s-vehicle-customizer-updated",
+        "tweakxl",
+        "virtual-car-dealer",
+        "dedka-car-dealership-working-vehicle-shop-framew"
+      ],
+      "author": "PinkyDude",
+      "endorsements": 1004,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 124945,
+        "name": "Harley-Davidson Thundergod",
+        "version": "1.1.0",
+        "uploaded": "2025-10-17",
+        "variants": 1
+      },
+      "summary": "Ride through the storm with the Thundergod - Comes in 26 custom colors | Prop version and DIY template for pose making available",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PinkyDude_MitchsGarage_HarleyDavidsonThundergod.archive",
+          "r6/tweaks/PinkyDude_MitchsGarage/pkd_hdthundergod.yaml",
+          "archive/pc/mod/PinkyDude_MitchsGarage_HarleyDavidsonThundergod.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "better-acceleration-for-keyboards",
+      "name": "Better Acceleration for Keyboards",
+      "nexusId": 2711,
+      "priority": "optional",
+      "required": false,
+      "author": "Mettaray",
+      "endorsements": 993,
+      "nexusCategory": "Vehicles",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 14168,
+        "name": "Instructions",
+        "version": "1.5",
+        "uploaded": "2021-06-05",
+        "variants": 2
+      },
+      "summary": "A mod that changes the controls for driving for the keyboard. Hold W to maintain current speed. Press Shift to accelerate. Let go of W or press S or space to decelerate.",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "ferrari-812-competizione",
+      "name": "Ferrari 812 Competizione",
+      "nexusId": 11926,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "material-and-texture-override",
+        "cet",
+        "virtual-car-dealer"
+      ],
+      "author": "aalexbug",
+      "endorsements": 984,
+      "nexusCategory": "Vehicles",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 62754,
+        "name": "Ferrari 812 Competizione Red",
+        "version": "1.0",
+        "uploaded": "2023-12-30",
+        "variants": 5
+      },
+      "summary": "Ferrari 812 Competizione come whit different colors",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/812_competizione.archive",
+          "archive/pc/mod/812_competizione.xl"
+        ]
+      },
+      "notes": "5 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "mitsubishi-starion-esi-r",
+      "name": "Mitsubishi Starion ESI-R",
+      "nexusId": 11312,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Cornmilf",
+      "endorsements": 980,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141536,
+        "name": "KRNLNIK Mitsubishi Starion Esi-R",
+        "version": "1.4",
+        "uploaded": "2026-04-08",
+        "variants": 1
+      },
+      "summary": "Add-on custom Mitsubishi Starion ESI-R 1988. The mod adds a fully standalone car, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/KRNLNIK_Mitsubishi_Starion.archive",
+          "archive/pc/mod/KRNLNIK_Starion_white.archive",
+          "r6/tweaks/krnlnik/mitsubishi_starion_esi_r.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "slope-traction-factor",
+      "name": "Slope Traction Factor",
+      "nexusId": 18706,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "true-grip-slope-traction-and-handbrake-handling",
+        "tweakxl"
+      ],
+      "author": "SiNoN",
+      "endorsements": 962,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144692,
+        "name": "Slope Traction Factor 2.31",
+        "version": "2.31",
+        "uploaded": "2026-05-09",
+        "variants": 1
+      },
+      "summary": "Mod revamp slope traction reduction factor and make them more relistic.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/SlopeTractionFactor/big/Vehicle.VehicleDriveModelDataAI_Truck.yaml",
+          "r6/tweaks/SlopeTractionFactor/big/Vehicle.VehicleDriveModelData_Emperor.yaml",
+          "r6/tweaks/SlopeTractionFactor/big/Vehicle.VehicleDriveModelData_EmperorPolice.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "supra-hks-itasha",
+      "name": "Supra HKS Itasha",
+      "nexusId": 13086,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "toyota-supra-mk5-hks-widebody"
+      ],
+      "author": "DennisReactive",
+      "endorsements": 930,
+      "nexusCategory": "Vehicles",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 69207,
+        "name": "4k_Supra_Itasha_Rebecca",
+        "version": "1",
+        "uploaded": "2024-02-20",
+        "variants": 5
+      },
+      "summary": "What happened with Supra? Itasha! Powa!+3 new looks",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/0_Supra_Itasha_Rebecca.archive"
+        ]
+      },
+      "notes": "5 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "lamborghini-miura-sv-wbk-garage",
+      "name": "Lamborghini Miura SV WBK (Garage)",
+      "nexusId": 18475,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "garage-customize-claim-sell-repair-swap",
+        "garage-manager",
+        "red4ext",
+        "redscript",
+        "sdh0-s-vehicle-resources",
+        "tweakxl",
+        "vehicle-core",
+        "virtual-car-dealer",
+        "audioxl",
+        "sdh0-s-vehicle-audio"
+      ],
+      "author": "SDH0",
+      "endorsements": 892,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 165598,
+        "name": "LamborghiniMiuraWBK",
+        "version": "2.0.2",
+        "uploaded": "2026-10-12",
+        "variants": 1
+      },
+      "summary": "Add \"Miura SV WBK\" vehicle “Livery” Support,\"Crystal Coat\" support,\"Garage\" support",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/sdh0_lamborghinimiurawbk.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/SDH0_LamborghiniMiuraWBK/init.lua",
+          "r6/scripts/SDH0_LamborghiniMiuraWBK/sdh0_lamborghinimiurawbk_audio.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "galena-gt-widebody",
+      "name": "Galena GT Widebody",
+      "nexusId": 22014,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "nitrous",
+        "redscript",
+        "virtual-car-dealer",
+        "vehicle-speed-unlimiter"
+      ],
+      "author": "Oranje3",
+      "endorsements": 782,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 130860,
+        "name": "Oranje 3 Galena GT Widebody - 2.21 2.3 2.31 Update",
+        "version": "1.1.0",
+        "uploaded": "2025-12-26",
+        "variants": 1
+      },
+      "summary": "Updated!! 2.21 2.3 & 2.31  The widebody Thornton Galena GT concept that didn't make it into the game. - Handling Fixed! - Air ride suspension - 15 variants - V8 twin turbo",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/galena_widebody.archive",
+          "r6/scripts/oranje3_galena_widebody/oranje3_galena_widebody.reds",
+          "r6/tweaks/oranje3_galena_widebody/oranje3_galena_widebody.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "dedka-car-dealership-working-vehicle-shop-framew",
+      "name": "Dedka Car Dealership - Working Vehicle Shop Framework",
+      "nexusId": 24887,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "tweakxl",
+        "cet",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "Dedra and Kaoziun",
+      "endorsements": 776,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 124594,
+        "name": "Dedka Dealership",
+        "version": "1.2",
+        "uploaded": "2025-10-14",
+        "variants": 1
+      },
+      "summary": "Dedka Dealership is a framework that allows modders to add any vehicle to an in-person car showroom located near Corpo Plaza in City Center. Fully compatible with Virtual Car Dealer and Auto Fixer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Project-CDSM.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Dedka Auto Shop/init.lua",
+          "r6/scripts/cardealra_tooltip.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "disable-visual-car-damage",
+      "name": "Disable Visual Car Damage",
+      "nexusId": 10646,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "TheScepticBlock",
+      "endorsements": 600,
+      "nexusCategory": "Vehicles",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 96017,
+        "name": "Disable Visual Car Damage",
+        "version": "1.2",
+        "uploaded": "2024-12-27",
+        "variants": 1
+      },
+      "summary": "A simple mod that disables most visual damage on player cars.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/DisableVisualDmg.yaml"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "autofixer-customs",
+      "name": "AutoFixer Customs",
+      "nexusId": 18037,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "Erok",
+      "endorsements": 547,
+      "nexusCategory": "Vehicles",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 93104,
+        "name": "Auto Fixer Customs",
+        "version": "1.0",
+        "uploaded": "2024-11-24",
+        "variants": 1
+      },
+      "summary": "Add custom vehicles to Auto Fixer automatically!",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Autofixer Custom Car Dealer/init.lua"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "night-city-fleet-expansion",
+      "name": "Night City Fleet Expansion",
+      "nexusId": 25965,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "virtual-car-dealer",
+        "autofixer-customs"
+      ],
+      "author": "Alex Ashfold",
+      "endorsements": 542,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 130420,
+        "name": "Night City Fleet Expansion",
+        "version": "1.0.1",
+        "uploaded": "2025-12-20",
+        "variants": 1
+      },
+      "summary": "Adds new NCPD, Netwatch, MaxTac, and Trauma Team vehicles, including unmarked units and tweaks to regular units — all available from the virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ncpd_fleet.archive",
+          "r6/tweaks/ash/NCPD Fleet/archer_hella_black_agent.yaml",
+          "r6/tweaks/ash/NCPD Fleet/archer_hella_ncpd.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "jefferson-thrax-limo",
+      "name": "Jefferson Thrax Limo",
+      "nexusId": 25411,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "virtual-car-dealer"
+      ],
+      "author": "Oranje3",
+      "endorsements": 340,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 126786,
+        "name": "Oranje3 Jefferson Thrax Limo",
+        "version": "1.0.2b",
+        "uploaded": "2025-11-03",
+        "variants": 1
+      },
+      "summary": "Update - New Dex's limo replacer! Travel in style and luxury to every red carpet event. As if the Thrax wasn't big enough already, this stretched edition is opulence on four wheels. 2.21/2.3/2.31",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/oranje3_thrax_stretch.archive",
+          "r6/tweaks/oranje3_thrax_stretch/oranje3_thrax_stretch.yaml",
+          "archive/pc/mod/oranje3_thrax_stretch.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "personal-mechanics",
+      "name": "Personal Mechanics",
+      "nexusId": 26885,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "car-modification-shop",
+        "car-modification-shop-archivexl-preset",
+        "cet",
+        "h10-elevator-expanded",
+        "just-the-garages-h10-and-the-glen",
+        "tweakxl",
+        "viktor-vektor-clinic-overhaul-and-opened-garage",
+        "viktor-vektors-garage-working-car-mods-and-repai",
+        "native-settings-ui"
+      ],
+      "author": "DeVaughnDawn",
+      "endorsements": 244,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 136624,
+        "name": "Personal Mechanics - CMS Extended COMPLETE",
+        "version": "1.6",
+        "uploaded": "2026-02-19",
+        "variants": 2
+      },
+      "summary": "Personal Mechanics enhances Car Modification Shop by adding interactive Mechanic NPCs to upgrade your vehicles. Interact with NPC Mechanics at each repair shop location to trigger Car Modification Shop menu. Includes major bug fixes:",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PersonalMechanics.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Car Mod Shop/init.lua",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Personal Mechanics/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "loreful-modded-traffic",
+      "name": "Loreful Modded Traffic",
+      "nexusId": 31105,
+      "priority": "optional",
+      "required": false,
+      "author": "soulmindberlin",
+      "endorsements": 111,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 150672,
+        "name": "NC Traffic Overhaul - Loreful Modded Traffic",
+        "version": "1.60",
+        "uploaded": "2026-07-02",
+        "variants": 1
+      },
+      "summary": "This mod is supposed to be used together with one of my mod collections that compile standout modded vehicles on Nexus. You can currently use it with \"NCTO Loreful Modded Traffic S\" - the mod collection compiles 115 fantastic vehicle mods",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/NightCityTrafficOverhaul/NCTOmoddedVehicles.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "oranje3-mod-resource-pack",
+      "name": "Oranje3 Mod Resource Pack",
+      "nexusId": 37360,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "tweakxl"
+      ],
+      "author": "Oranje3",
+      "endorsements": 43,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176064,
+        "name": "Oranje3 Vehicles Resource Pack 2.5 game version",
+        "version": "1.0.2",
+        "uploaded": "2026-11-09",
+        "variants": 2
+      },
+      "summary": "Resources asset pack for my vehicle and location mods 2.31 2.5",
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
+    }
+  ]
 }

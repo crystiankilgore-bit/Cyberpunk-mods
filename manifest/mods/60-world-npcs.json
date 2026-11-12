@@ -1,5 +1,1744 @@
 {
   "$schema": "../schema/mod-list.schema.json",
   "category": "World, NPCs & crowds",
-  "mods": []
+  "mods": [
+    {
+      "id": "virtual-atelier",
+      "name": "Virtual Atelier",
+      "nexusId": 2987,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "browser-extension",
+        "codeware",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "virtual-atelier-delivery"
+      ],
+      "author": "Pacings and djkovrik",
+      "endorsements": 75871,
+      "nexusCategory": "Characters",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168466,
+        "name": "Virtual Atelier",
+        "version": "1.6.4",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "A framework for other modders, that allows them to add virtual stores in-game for their modded clothes items.Also allows the players to preview clothing items on their characters before purchasing in stores, & preview in-game items models",
+      "notes": "Required by 52 mod(s) in this pack."
+    },
+    {
+      "id": "v-s-edgerunners-mansion-apartment-dlc",
+      "name": "V's Edgerunners Mansion - Apartment DLC",
+      "nexusId": 5437,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "native-interactions-framework"
+      ],
+      "author": "keanuWheeze",
+      "endorsements": 14150,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169678,
+        "name": "V's Edgerunners Mansion - Apartment DLC 2.0",
+        "version": "2.0",
+        "uploaded": "2026-10-27",
+        "variants": 1
+      },
+      "summary": "This mod lets you purchase and access V's Mansion. Also adds new sitting, sleeping, wardrobe and shower interactions to it.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "cookedapps-nulled",
+      "name": "Cookedapps Nulled",
+      "nexusId": 3051,
+      "priority": "recommended",
+      "required": false,
+      "author": "HitmanHimself",
+      "endorsements": 12241,
+      "nexusCategory": "Characters",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 21256,
+        "name": "nullCookedApps_patch_1.5",
+        "version": "1.0.1",
+        "uploaded": "2022-03-03",
+        "variants": 1
+      },
+      "summary": "This archive contains all the .cookedapp files nulled so that you can mod NPC and Vehicle mesh files",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/nullCookedApps.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "apartment-cats-the-glen",
+      "name": "Apartment Cats - The Glen",
+      "nexusId": 6276,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "Deceptious",
+      "endorsements": 4474,
+      "nexusCategory": "Apartment",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 160069,
+        "name": "Apartment Cats - The Glen",
+        "version": "3.0.1",
+        "uploaded": "2026-09-10",
+        "variants": 1
+      },
+      "summary": "Adds a new feline companion (Nali) to The Glen apartment. Includes 12 different spots for Nali to use, as well as the option to pet him the same way as in the Pet The Cat mod.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#LoftCat.archive",
+          "r6/tweaks/LoftCat.yaml",
+          "archive/pc/mod/LoftCat.archive.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "kala-s-eyes-standalone-v2",
+      "name": "Kala's Eyes Standalone V2",
+      "nexusId": 3242,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "unique-eyes-core"
+      ],
+      "author": "Kala",
+      "endorsements": 4035,
+      "nexusCategory": "Characters",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 17200,
+        "name": "Kala's Eyes Standalone V2 Hanako Glow Ring Version",
+        "version": "1.0",
+        "uploaded": "2021-10-02",
+        "variants": 2
+      },
+      "summary": "New standalone eye textures for V, requires Halv's Unique Eyes (https://www.nexusmods.com/cyberpunk2077/mods/1937)",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/basegame_Kala Standalone Eyes V2 Hanako Glow Rings.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "apartment-cats-japantown",
+      "name": "Apartment Cats - Japantown",
+      "nexusId": 6493,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "Deceptious",
+      "endorsements": 3991,
+      "nexusCategory": "Apartment",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 160070,
+        "name": "Apartment Cats - Japantown",
+        "version": "3.0.1",
+        "uploaded": "2026-09-10",
+        "variants": 1
+      },
+      "summary": "Adds a new feline companion, Elmo, to the Japantown apartment. Includes 12+ different spots for her to use, as well as the option to pet her the same way as in the Pet The Cat mod.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#JapanCat.archive",
+          "r6/tweaks/JapanCat.yaml",
+          "archive/pc/mod/JapanCat.archive.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "edgerunners-lucy-npc-spawns-in-night-city-plus-a",
+      "name": "Edgerunners Lucy NPC - Spawns in Night City plus AMM and Photomode AXL",
+      "nexusId": 9812,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "photomode-ex",
+        "tweakxl"
+      ],
+      "author": "xBaebsae",
+      "endorsements": 3762,
+      "nexusCategory": "Characters",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 127657,
+        "name": "Custom Character - Edgerunners Lucy",
+        "version": "2.2",
+        "uploaded": "2025-11-16",
+        "variants": 1
+      },
+      "summary": "Adds Lucy at a few random locations in Nigt City! You can also spawn her using AMM and/or Photomode to have her as a companion during fights or take pics with her!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/CustomCharacter_EdgerunnersLucy_xBaebsae.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/LucySpawns/init.lua",
+          "r6/tweaks/xbaebsae/Custom_Character_EdgerunnersLucy_xBaebsae.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "eyes-lod-fix-no-more-disappearing-eyes",
+      "name": "Eyes LOD Fix - No more disappearing eyes",
+      "nexusId": 2865,
+      "priority": "recommended",
+      "required": false,
+      "author": "JohnsonsStuff",
+      "endorsements": 3665,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 94557,
+        "name": "Eyes LOD Fix - No more disappearing eyes",
+        "version": "2.2",
+        "uploaded": "2024-12-12",
+        "variants": 1
+      },
+      "summary": "Compatible with custom eyes mods! In vanilla, the eyes disappear when the camera is too far away - This mod fixes the issue.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/EyesLODFix.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "remove-the-holes-left-by-the-injection-and-other",
+      "name": "Remove the holes left by the injection (and other)",
+      "nexusId": 929,
+      "priority": "recommended",
+      "required": false,
+      "author": "VB485",
+      "endorsements": 3541,
+      "nexusCategory": "Characters",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 2749,
+        "name": "Hidden palm and injector",
+        "version": "1.0.0",
+        "uploaded": "2021-01-15",
+        "variants": 1
+      },
+      "summary": "Remove the holes left by the injection and Hide palm",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "h10-megabuilding-unlocked",
+      "name": "H10 Megabuilding Unlocked",
+      "nexusId": 12681,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "h10-apartment-e3-advertisements",
+        "red4ext",
+        "street-vendors",
+        "tweakxl"
+      ],
+      "author": "Sammmy1036",
+      "endorsements": 2819,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170850,
+        "name": "H10 Megabuilding Unlocked",
+        "version": "3.0.5",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Fully explore the H10 Megabuilding! Unlock restricted areas, explore the market area, and enjoy two additional functional elevators. Experience revamped storefronts, improved decor, vibrant lighting, full garage floor access, added landing",
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "fix-advert-animations",
+      "name": "Fix Advert Animations",
+      "nexusId": 17726,
+      "priority": "recommended",
+      "required": false,
+      "author": "nremind",
+      "endorsements": 2254,
+      "nexusCategory": "Adverts",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 107748,
+        "name": "Fix Advert Animations",
+        "version": "1.1",
+        "uploaded": "2025-04-28",
+        "variants": 1
+      },
+      "summary": "Fixes animated ads",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!Fix_Advert_Animations.archive"
+        ]
+      }
+    },
+    {
+      "id": "proxima-s-apartment-emporium",
+      "name": "Proxima's Apartment Emporium",
+      "nexusId": 9765,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "proxima-s-prop-archives",
+        "v-s-edgerunners-mansion-apartment-dlc"
+      ],
+      "author": "Proxima Dust",
+      "endorsements": 2057,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176241,
+        "name": "(WB) PERSONA - H10 Customization",
+        "version": "2.2",
+        "uploaded": "2026-11-09",
+        "variants": 4
+      },
+      "summary": "A collection of Night City apartment reskins",
+      "notes": "4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "panam-reimagined",
+      "name": "Panam Reimagined",
+      "nexusId": 10237,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "panam-scar-and-freckles",
+        "panam-smooth-face-texture-and-botox-remover"
+      ],
+      "author": "chroniclerealm",
+      "endorsements": 1917,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 87876,
+        "name": "Panam Reimagined - FOMOD Compatible",
+        "version": "2.3",
+        "uploaded": "2024-09-26",
+        "variants": 2
+      },
+      "summary": "A variety of new alternate hairstyles and eye colors for Panam, complemented by a subtle modification to her head model (smaller chin, cheekbone and eye edits).",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Panam - Alternate Hair.archive",
+          "archive/pc/mod/Panam - Prettier Face.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "charli-character-lighting-suite-for-photomode",
+      "name": "CharLi - Character Lighting Suite for Photomode",
+      "nexusId": 8176,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "FreakaZ",
+      "endorsements": 1907,
+      "nexusCategory": "Characters",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167710,
+        "name": "CharLi",
+        "version": "2.2c",
+        "uploaded": "2026-10-22",
+        "variants": 1
+      },
+      "summary": "CharLi aka Character Lighting spawns Rings of Lightsources around the Character and follows them even in Photomode. With Screenshot Artists in mind, it allows large scale Light Setups."
+    },
+    {
+      "id": "high-res-named-npcs-aio-monstrrmagic-texture-ser",
+      "name": "High Res Named NPCs AIO - MonstrrMagic Texture Series",
+      "nexusId": 14999,
+      "priority": "optional",
+      "required": false,
+      "author": "XilaMonstrr",
+      "endorsements": 1832,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 85069,
+        "name": "Vortex Install - Named NPCs AIO 4K",
+        "version": "1.2",
+        "uploaded": "2024-08-19",
+        "variants": 2
+      },
+      "summary": "All of my Named NPCs Mods in one. High-resolution 4K or 2K retexture of 42 different NPCs from the base game.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zz-Johnny 2.0.archive",
+          "archive/pc/mod/zz-NPC-Panam.archive",
+          "archive/pc/mod/zz-NPC-Ripperdoc.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "v-preset-cybercat",
+      "name": "V preset (CyberCat)",
+      "nexusId": 3383,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "kala-s-nail-edits",
+        "kala-s-eyes-standalone-v2",
+        "remove-the-holes-left-by-the-injection-and-other",
+        "kala-s-cyberware-colors-and-demo-v-texture-edits",
+        "koralina-s-new-lip-makeup-edits",
+        "egirl-makeup-edits"
+      ],
+      "author": "SpukaCat",
+      "endorsements": 1722,
+      "nexusCategory": "Characters",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 18287,
+        "name": "V2",
+        "version": "1",
+        "uploaded": "2021-11-10",
+        "variants": 2
+      },
+      "summary": "Many seem to like my V, so I thought I will share her. <3",
+      "notes": "2 main-file variants on Nexus - pick one. Also needs (off Nexus): Hair."
+    },
+    {
+      "id": "high-res-npcs-judy-alvarez",
+      "name": "High-Res NPCs - Judy Alvarez",
+      "nexusId": 7430,
+      "priority": "optional",
+      "required": false,
+      "author": "XilaMonstrr",
+      "endorsements": 1629,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 78841,
+        "name": "Judy 2K",
+        "version": "1.01",
+        "uploaded": "2024-05-28",
+        "variants": 2
+      },
+      "summary": "High-resolution 4K or 2K retexture of Judy via AI upscaling.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/NPCs-Judy.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "judy-s-new-look",
+      "name": "Judy's New Look",
+      "nexusId": 11875,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "preem-hair-judy-hair-options"
+      ],
+      "author": "EKT",
+      "endorsements": 1586,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 62625,
+        "name": "Judy's new Look Alternate Jawline",
+        "version": "1.00",
+        "uploaded": "2023-12-29",
+        "variants": 2
+      },
+      "summary": "Gives Judy a new look while still trying to stay as true to the original artists vision as possible.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Ja_JudyNewLook_Alternative_V1.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "apartments-enhanced",
+      "name": "Apartments Enhanced",
+      "nexusId": 19521,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "japantown-apartment-view-enhanced",
+        "native-interactions-framework",
+        "red4ext"
+      ],
+      "author": "Ak3nax",
+      "endorsements": 1552,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171964,
+        "name": "Apartments Enhanced CORE - Install first",
+        "version": "2.04",
+        "uploaded": "2026-11-01",
+        "variants": 4
+      },
+      "summary": "Are you tired of having a boring and empty apartment ? This mod is for you. Overhaul of H10 Megabuilding, Japantown, and Corpo Plaza apartments.",
+      "notes": "4 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "proxima-s-prop-archives",
+      "name": "Proxima's Prop Archives",
+      "nexusId": 19635,
+      "priority": "optional",
+      "required": false,
+      "author": "Proxima Dust",
+      "endorsements": 1470,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 100880,
+        "name": "Prop Archives",
+        "version": "1.0",
+        "uploaded": "2025-02-09",
+        "variants": 1
+      },
+      "summary": "Required for most AMM and ARCHIVE presets made by Proxima Dust",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Proximas_PhantomLiberty_PropShop_v1.archive",
+          "archive/pc/mod/proximas_prop_shop.archive",
+          "archive/pc/mod/proximas_propshop_v4.archive"
+        ]
+      },
+      "notes": "Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "proxima-s-prop-paradise",
+      "name": "Proxima's Prop Paradise",
+      "nexusId": 10983,
+      "priority": "optional",
+      "required": false,
+      "author": "Proxima DUst",
+      "endorsements": 1406,
+      "nexusCategory": "Props and Decorations",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 81962,
+        "name": "Prop Paradise",
+        "version": "1.1",
+        "uploaded": "2024-07-07",
+        "variants": 1
+      },
+      "summary": "Adds 500+ preem props for your AMM designs!",
+      "detect": {
+        "anyOf": [
+          "archive/PC/Mod/Proximas_PhantomLiberty_PropShop_v1.archive"
+        ]
+      },
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "panam-s-new-look",
+      "name": "Panam's New Look",
+      "nexusId": 11837,
+      "priority": "optional",
+      "required": false,
+      "author": "EKT",
+      "endorsements": 1367,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 62282,
+        "name": "Panam's new Look -Less Defined version-",
+        "version": "1.00",
+        "uploaded": "2023-12-26",
+        "variants": 2
+      },
+      "summary": "Changes the face of Panam, make a choice between two custom faces and 17 eye colors",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/BimbosOfNC_Panam_LessDefined.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "japantown-apartment-view-enhanced",
+      "name": "Japantown Apartment View Enhanced",
+      "nexusId": 19491,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "Sammmy1036",
+      "endorsements": 1357,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172938,
+        "name": "Japantown Apartment View Enhanced",
+        "version": "1.1.2",
+        "uploaded": "2026-11-03",
+        "variants": 1
+      },
+      "summary": "Enjoy a less obstructed view of Night City from V's Japantown Apartment!",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "kala-s-art-brows",
+      "name": "Kala's Art Brows",
+      "nexusId": 2417,
+      "priority": "optional",
+      "required": false,
+      "author": "Kala",
+      "endorsements": 1300,
+      "nexusCategory": "Characters",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 11983,
+        "name": "PICK AND CHOOSE",
+        "version": "1.0",
+        "uploaded": "2021-04-22",
+        "variants": 2
+      },
+      "summary": "Art/Cut brow styles to replace all in game eyebrows for Masculine and Feminine V's, pick and choose or download an AIO.",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "misty-s-new-look-collab-with-ladybella",
+      "name": "Misty's New Look  -COLLAB WITH LADYBELLA-",
+      "nexusId": 12341,
+      "priority": "optional",
+      "required": false,
+      "author": "EKT and LadyBella",
+      "endorsements": 1260,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 80140,
+        "name": "Misty's New Look No Lipstick",
+        "version": "1.00",
+        "uploaded": "2024-06-15",
+        "variants": 1
+      },
+      "summary": "Gives Misty a more goth look, paler skin, and refines her skin textures with a custom 4K texture.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/BoNC_Mistys_New_Look_NoLipstick.archive"
+        ]
+      }
+    },
+    {
+      "id": "eden-plaza-charter-hill-player-penthouse-world-b",
+      "name": "Eden Plaza - Charter Hill Player Penthouse (World Builder)",
+      "nexusId": 25409,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "charter-hill-penthouse-self-playing-piano"
+      ],
+      "author": "Magicman010",
+      "endorsements": 1253,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169676,
+        "name": "Charter Hill Penthouse - No Landing Pads",
+        "version": "1.1.1",
+        "uploaded": "2026-10-27",
+        "variants": 2
+      },
+      "summary": "Live in luxury in Charter Hill. Spoil yourself and forget about the filth living below as you look down from your new Penthouse suite, offering spectacular waterfront views.",
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "rogue-s-new-look",
+      "name": "Rogue's New Look",
+      "nexusId": 12040,
+      "priority": "optional",
+      "required": false,
+      "author": "EKT",
+      "endorsements": 1250,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 63420,
+        "name": "Rogue's New Look -NO CUSTOM TEXTURES-",
+        "version": "1.00",
+        "uploaded": "2024-01-04",
+        "variants": 3
+      },
+      "summary": "Changes the face of Rogue along with her head textures. Two options available, old and young.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/BimbosOfNC_Rogue_NoCustomTextures.archive"
+        ]
+      },
+      "notes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "hollywood-props-pack-amm",
+      "name": "Hollywood Props Pack (AMM)",
+      "nexusId": 8106,
+      "priority": "optional",
+      "required": false,
+      "author": "JamieCross1477",
+      "endorsements": 1170,
+      "nexusCategory": "Props and Decorations",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 42690,
+        "name": "Hollywood Props Pack Hotfix",
+        "version": "1.1",
+        "uploaded": "2023-04-17",
+        "variants": 1
+      },
+      "summary": "Hollywood Props Pack. Bring the feel of Hollywood back into Night City",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Hollywood Props.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "v-s-apartment-modern",
+      "name": "V's Apartment (Modern)",
+      "nexusId": 3227,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "REXX",
+      "endorsements": 1078,
+      "nexusCategory": "Apartment",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 17248,
+        "name": "V's Apartment (Modern)",
+        "version": "1.03",
+        "uploaded": "2021-10-04",
+        "variants": 1
+      },
+      "summary": "An update for V's apartment to give it a warm modern design."
+    },
+    {
+      "id": "tyger-v-preset",
+      "name": "Tyger V Preset",
+      "nexusId": 3468,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "kala-s-cyberware-colors-and-demo-v-texture-edits",
+        "kala-s-eyes-standalone-v2",
+        "save-editor-project-cybercat-simplegui"
+      ],
+      "author": "gunshyghosts",
+      "endorsements": 1038,
+      "nexusCategory": "Characters",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 51646,
+        "name": "Tyger V Preset 2.0",
+        "version": "3",
+        "uploaded": "2023-10-07",
+        "variants": 1
+      },
+      "summary": "A Tyger inspired Asian V preset. Appearance Change Unlocker preset file and sliders included!",
+      "notes": "Also needs (off Nexus): Hair Imports, Japanese Inspired Tattoos."
+    },
+    {
+      "id": "hanako-s-new-look",
+      "name": "Hanako's New Look",
+      "nexusId": 14925,
+      "priority": "optional",
+      "required": false,
+      "author": "EKT",
+      "endorsements": 1035,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 97397,
+        "name": "Hanako's New Look",
+        "version": "1.01",
+        "uploaded": "2025-01-10",
+        "variants": 1
+      },
+      "summary": "Gives Hanako a new youthful look, changes the head mesh along with the textures.She might be 78 but in the world of cyberpunk, there's no such thing as looking (your age).",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/B_Hanako_New_Look_V2.archive"
+        ]
+      }
+    },
+    {
+      "id": "my-ciri-preset",
+      "name": "My Ciri preset",
+      "nexusId": 1879,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "white-hair-for-v",
+        "ciri-s-scar-the-witcher-3",
+        "custom-eye-colors"
+      ],
+      "author": "Cloud",
+      "endorsements": 1030,
+      "nexusCategory": "Characters",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 11730,
+        "name": "Ciri Updated",
+        "version": "1.2",
+        "uploaded": "2021-04-19",
+        "variants": 1
+      },
+      "summary": "Many have asked for my Ciri preset so I'm finally putting it out here"
+    },
+    {
+      "id": "better-children",
+      "name": "Better Children",
+      "nexusId": 16462,
+      "priority": "optional",
+      "required": false,
+      "author": "manavortex",
+      "endorsements": 996,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 86071,
+        "name": "better_children",
+        "version": "1.0.0",
+        "uploaded": "2024-08-31",
+        "variants": 1
+      },
+      "summary": "Better faces for children: make Night City's minors more childlike and less creepy. No dependencies required!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/better_children.archive"
+        ]
+      }
+    },
+    {
+      "id": "angy-s-custom-face-presets-fem-and-masc-v-wip",
+      "name": "Angy's Custom Face Presets - Fem and Masc V - WIP",
+      "nexusId": 26548,
+      "priority": "optional",
+      "required": false,
+      "author": "xBaebsae",
+      "endorsements": 981,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 159939,
+        "name": "MascV - DMC2013 Dante",
+        "version": "1",
+        "uploaded": "2026-09-09",
+        "variants": 1
+      },
+      "summary": "A collection of custom head model replacements for both V. A work in progress!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/00_FacePreset_DMC2013Dante_xBaebsae.archive"
+        ]
+      }
+    },
+    {
+      "id": "evelyn-s-new-look",
+      "name": "Evelyn's New Look",
+      "nexusId": 12210,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "EKT",
+      "endorsements": 965,
+      "nexusCategory": "Characters",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 141695,
+        "name": "Evelyn's New Look - Default - FOMOD",
+        "version": "1.08",
+        "uploaded": "2026-04-09",
+        "variants": 2
+      },
+      "summary": "Changes the face of Evelyn along with her head textures, hair and dress. Two options available, one without \".app\" edits for compatibility with other mods.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#_B_Evelyn_New_Look_Core.archive",
+          "archive/pc/mod/B_Evelyn_New_Look_Black.archive",
+          "archive/pc/mod/B_Evelyn_New_Look_Blonde.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "advert-controller-toggle-ads",
+      "name": "Advert Controller (Toggle Ads)",
+      "nexusId": 18118,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "native-settings-ui",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "nremind",
+      "endorsements": 945,
+      "nexusCategory": "Adverts",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144972,
+        "name": "Advert Controller (Toggle Ads)",
+        "version": "4.05",
+        "uploaded": "2026-05-11",
+        "variants": 1
+      },
+      "summary": "In-Game menu for granular toggle adverts by district. Unlocks previously hidden vanilla adverts too! Now comes with animated previews in menu, third-party mod support, and shuffling enabled ads for increased randomization.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Advert_Controller/init.lua",
+          "r6/scripts/Advert_Controller/AdvertController.reds",
+          "r6/tweaks/Advert_Controller/AdvertController.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "luxury-corporate-the-glen-apartment-archivexl",
+      "name": "Luxury corporate the Glen apartment - archivexl",
+      "nexusId": 18670,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "native-settings-ui"
+      ],
+      "author": "unthinkthis",
+      "endorsements": 902,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172116,
+        "name": "Luxury corporate the Glen apartment - archivexl",
+        "version": "1.2.4",
+        "uploaded": "2026-11-01",
+        "variants": 1
+      },
+      "summary": "Corpo styled remake of V's apartment in the Glen.",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "apex-sonora-canyon-and-safehouse",
+      "name": "APEX - Sonora Canyon and Safehouse",
+      "nexusId": 25999,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "audioware",
+        "codeware",
+        "mod-settings",
+        "tweakxl"
+      ],
+      "author": "Nox and MrBilL61 - with TPMG",
+      "endorsements": 873,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171241,
+        "name": "Sonora Apex",
+        "version": "1.0.4",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Adds a new location to the Badlands with a new area to explore and an unlockable safehouse via a new quest. The safehouse features unique interactions, a new weather event and more. As few requirements as possible.",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "v-s-original-apartmentplus",
+      "name": "V's Original ApartmentPLUS",
+      "nexusId": 6028,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "v-s-apartment-renovation"
+      ],
+      "author": "CyberGHOST",
+      "endorsements": 830,
+      "nexusCategory": "Apartment",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 52846,
+        "name": "V's Original ApartmentPLUS 2.0",
+        "version": "2.0",
+        "uploaded": "2023-10-13",
+        "variants": 1
+      },
+      "summary": "A decor mod for V's OG apartment to keep the looks and feel, but more lived in, luxurious and comfy. Compatible with Nibbles, Iguana & nearly all vanilla memorabilia."
+    },
+    {
+      "id": "the-glen-project",
+      "name": "The Glen PROJECT",
+      "nexusId": 20191,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "red4ext"
+      ],
+      "author": "Ak3nax",
+      "endorsements": 732,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172679,
+        "name": "THE GLEN PROJECT",
+        "version": "1.46",
+        "uploaded": "2026-11-02",
+        "variants": 2
+      },
+      "summary": "A major overhaul of the Glen apartment with lots of new features, including a new design, a custom elevator, a comfort area, a garage and new interactions.",
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "vtuber-animepunk-2077-advertisement-changes",
+      "name": "Vtuber-AnimePunk 2077 - Advertisement Changes",
+      "nexusId": 4206,
+      "priority": "optional",
+      "required": false,
+      "author": "IndulgenceDaemon",
+      "endorsements": 692,
+      "nexusCategory": "Adverts",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 146342,
+        "name": "The Ghost In The Shell",
+        "version": "1",
+        "uploaded": "2026-05-23",
+        "variants": 1
+      },
+      "summary": "Changes a lot of the advertisements in the game, making them anime themed.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/basegame_theghostintheshell.archive"
+        ]
+      }
+    },
+    {
+      "id": "grease-monkey-mechanic-amm-and-world-builder-pro",
+      "name": "Grease Monkey - Mechanic AMM and World Builder Props",
+      "nexusId": 7826,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "world-builder"
+      ],
+      "author": "PinkyHalk",
+      "endorsements": 679,
+      "nexusCategory": "Props and Decorations",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 122747,
+        "name": "PROPS - Grease Monkey for World Builder",
+        "version": "1.1",
+        "uploaded": "2025-09-27",
+        "variants": 1
+      },
+      "summary": "Adds mechanic/techie focused items as scalable props for AMM and World Builder. Includes tools, gadgets, wheelbarrows, carjacks, tires and more!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PinkyHalk_WB_GreaseMonkey.archive"
+        ]
+      }
+    },
+    {
+      "id": "badlands-life-vol-01-nomad-amm-and-world-builder",
+      "name": "Badlands Life Vol 01 - Nomad AMM and World Builder Props",
+      "nexusId": 7248,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "world-builder"
+      ],
+      "author": "PinkyHalk",
+      "endorsements": 678,
+      "nexusCategory": "Props and Decorations",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 122738,
+        "name": "PROPS - Badlands Life Vol 01 for World Builder",
+        "version": "2.2",
+        "uploaded": "2025-09-27",
+        "variants": 1
+      },
+      "summary": "Adds Nomad/Badlands focused items as scalable props for AMM and World Builder. Includes hammocks, grills, tents and much more - even a VP friendly fire!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/PinkyHalk_WB_BadlandsLife.archive"
+        ]
+      }
+    },
+    {
+      "id": "panam-hair-for-femv",
+      "name": "Panam Hair for FemV",
+      "nexusId": 928,
+      "priority": "optional",
+      "required": false,
+      "author": "WillyJL",
+      "endorsements": 626,
+      "nexusCategory": "Characters",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 10354,
+        "name": "Panam Hair for FemV",
+        "version": "1.2",
+        "uploaded": "2021-03-31",
+        "variants": 1
+      },
+      "summary": "Replaces hair style 01 for FemV with Panam Bun hair style.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/WillyJL_PanamHair.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "7th-hell-bar-enhanced",
+      "name": "7th Hell Bar Enhanced",
+      "nexusId": 22454,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "7th-hell-club-unlocked-and-remastered",
+        "archivexl",
+        "native-interactions-framework",
+        "trash-removal-7th-hell-club",
+        "tweakxl"
+      ],
+      "author": "Jon Cross",
+      "endorsements": 586,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 136853,
+        "name": "7th Hell Bar Enhanced ( with Apartment )",
+        "version": "2.3",
+        "uploaded": "2026-02-21",
+        "variants": 1
+      },
+      "summary": "After V’s confrontation with Jack Mausser, the 7th Hell Staff found new Club management! Its V! LOL The Silent Owner has DUMPED MONEY into the Club via Parking spots out front, Front Entrance Lights for better atmosphere, and DOUBLED the",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RJC_7th_hell_bar_enhanced.archive",
+          "archive/pc/mod/RJC_7th_hell_bar_enhanced.xl"
+        ]
+      }
+    },
+    {
+      "id": "las-palapas-tower-apartment",
+      "name": "Las Palapas Tower - Apartment",
+      "nexusId": 26708,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "native-interactions-framework",
+        "tweakxl"
+      ],
+      "author": "Ak3nax",
+      "endorsements": 585,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176005,
+        "name": "Las Palapas Tower - Apartment",
+        "version": "1.05",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Treat yourself to a refined, exclusive apartment in the Las Palapas tower, with a great view of the Wellsprings beach and all the modern comforts of Night City.",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "lore-friendly-neon-signs",
+      "name": "Lore Friendly Neon Signs",
+      "nexusId": 19469,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "manavortex-material-library"
+      ],
+      "author": "manavortex and proxima",
+      "endorsements": 583,
+      "nexusCategory": "Props and Decorations",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 161197,
+        "name": "lore_friendly_neon_signs",
+        "version": "1.0.4",
+        "uploaded": "2026-09-16",
+        "variants": 1
+      },
+      "summary": "Neon signs for of corporations and organizations from the Cyberpunk TTRPG - for your WorldBuilder or AMM edits!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/amm_props_corporation_signs.archive",
+          "archive/pc/mod/amm_props_corpo_signs.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "glen-apartment-corpo-elevator",
+      "name": "Glen Apartment Corpo Elevator",
+      "nexusId": 14047,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "Sammmy1036",
+      "endorsements": 563,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170828,
+        "name": "Neomilitary Elevator (Steel Landing Doors)",
+        "version": "1.4",
+        "uploaded": "2026-10-30",
+        "variants": 15
+      },
+      "summary": "Changes the crusty Glen Apartment elevator to one of several other elevator variants!",
+      "notes": "15 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "santo-serenity-residence",
+      "name": "Santo Serenity Residence",
+      "nexusId": 30483,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "native-interactions-framework",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "halloween-fun-pack-amm-props"
+      ],
+      "author": "ex1k",
+      "endorsements": 561,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177108,
+        "name": "Gameversion 2.5 - Santo Serenity Residence (V3.5)",
+        "version": "v3.5",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "A modern and peaceful player home located in Santo Domingo, featuring a spacious garden, private pool, custom interior, and all the amenities needed to call it home.",
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "lizzies-bar-enhanced-with-apartment",
+      "name": "Lizzies Bar Enhanced ( with Apartment )",
+      "nexusId": 22714,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "trash-removal-lizzie-s-bar",
+        "tweakxl"
+      ],
+      "author": "Jon Cross",
+      "endorsements": 542,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 137900,
+        "name": "Lizzies Bar Enhanced ( with Apartment )",
+        "version": "2.3",
+        "uploaded": "2026-02-28",
+        "variants": 1
+      },
+      "summary": "Lizzies Bar is by far one of the Coolest Bars to Visit in Night City and the numbers show! Lizzie has been given a huge sum of eddies from a “PriVate” Investor, and she’s dumped it straight into the Club! An Expanded Front Parking Lot, New",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RJC_lizzies_bar_enhanced.archive",
+          "archive/pc/mod/RJC_Lizzies Bar Gate.xl",
+          "archive/pc/mod/RJC_lizzies_bar_enhanced.xl"
+        ]
+      }
+    },
+    {
+      "id": "v-s-sierra-sonora-villa",
+      "name": "V's Sierra Sonora Villa",
+      "nexusId": 8442,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "native-settings-ui"
+      ],
+      "author": "ThaFunktopus",
+      "endorsements": 474,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174396,
+        "name": "V's Sierra Sonora Villa",
+        "version": "3.1",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "Scenic player home in the badlands"
+    },
+    {
+      "id": "world-advert-configurator",
+      "name": "World Advert Configurator",
+      "nexusId": 18214,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "mod-settings",
+        "redscript",
+        "archivexl"
+      ],
+      "author": "nremind",
+      "endorsements": 447,
+      "nexusCategory": "Adverts",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174588,
+        "name": "World Advert Configurator",
+        "version": "1.5",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "Configurable settings for ad loading distance, redistrict allocator, and override randomizer for advertisements in NC."
+    },
+    {
+      "id": "dark-matter-club-with-apartment",
+      "name": "Dark Matter Club ( with Apartment )",
+      "nexusId": 19905,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "drive-an-aerial-vehicle-flight-mod-using-av-and",
+        "native-interactions-framework",
+        "nci-addon-westbrook",
+        "tweakxl"
+      ],
+      "author": "Jon Cross",
+      "endorsements": 353,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 136817,
+        "name": "Dark Matter Club ( with Apartment )",
+        "version": "2.3",
+        "uploaded": "2026-02-21",
+        "variants": 1
+      },
+      "summary": "The Dark Matter Club has RE-OPENED with a Vibrant Redesign to illuminate Night City residents to come party for a bit! The Street Level has been fitted with lights, NPCs and Vending machines to catch your attention when driving by! The Main",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RJC_dark_matter.archive",
+          "archive/pc/mod/RJC_dark_matter_bottom_ladders.archive",
+          "archive/pc/mod/RJC_dark_matter.xl"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "drive-in-theater-working-movie-screen",
+      "name": "Drive-In Theater ( Working Movie Screen )",
+      "nexusId": 19729,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "spc-tv-screen-silver-pixel-cloud-drive-in-theate",
+        "tweakxl"
+      ],
+      "author": "Jon Cross",
+      "endorsements": 321,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 162896,
+        "name": "Drive-In Theater ( Working Movie Screen )",
+        "version": "2.3",
+        "uploaded": "2026-09-27",
+        "variants": 1
+      },
+      "summary": "In 2069 the Drive-in Theater was closed down just before the Unification War took place. THANKGOD they refurbished and Re-Opened the Drive in for all the Movie-Goers who needed that escape from the harsh reality of Night City! The Drive-In",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RJC_drive_in.archive",
+          "archive/pc/mod/RJC_drive_in_npcs.archive",
+          "archive/pc/mod/RJC_drive_in.xl"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "konpeki-plaza-expanded-with-apartment",
+      "name": "Konpeki Plaza Expanded ( with Apartment )",
+      "nexusId": 20233,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "konpeki-plaza-unlocked-2-5",
+        "tweakxl"
+      ],
+      "author": "Jon Cross",
+      "endorsements": 311,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 136820,
+        "name": "Konpeki Plaza Expanded ( with Apartment )",
+        "version": "2.3",
+        "uploaded": "2026-02-21",
+        "variants": 1
+      },
+      "summary": "LONG AFTER V and Jackie have Completed \"The Heist\" Konpeki Plaza has RE-OPENED AND EXPANDED! Now Featuring Vegetation, Statues, Lights and even a FULL BAR! Below is the Garage with plenty of space! On the 44th floor is the AV Pad and the",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RJC_konpeki_plaza.archive",
+          "archive/pc/mod/RJC_konpeki_plaza_garage.archive",
+          "archive/pc/mod/RJC_konpeki_tower_apartments.archive"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "japantown-rooftop-mansion",
+      "name": "Japantown Rooftop Mansion",
+      "nexusId": 22274,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "drive-an-aerial-vehicle-flight-mod-using-av-and",
+        "native-interactions-framework",
+        "tweakxl",
+        "let-there-be-flight"
+      ],
+      "author": "Jon Cross",
+      "endorsements": 264,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 137908,
+        "name": "Japantown Rooftop Mansion",
+        "version": "2.3",
+        "uploaded": "2026-02-28",
+        "variants": 1
+      },
+      "summary": "The Luxury Japantown Mansion now with an AV Landing Pad and Top Floor Garden! I CAN’T TAKE MOST OF THE CREDIT FOR THIS MOD: Rexxgta MADE THE MANSION AND HE LET ME EXTEND IT FOR ALL OF YOU! I made the AV Landing Pad and Top Floor Garden.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RJC_japantown_rooftop_mansion.archive",
+          "archive/pc/mod/RJC_japantown_rooftop_mansion.xl"
+        ]
+      }
+    },
+    {
+      "id": "downtown-yacht",
+      "name": "Downtown Yacht",
+      "nexusId": 16046,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework",
+        "private-yacht",
+        "tweakxl",
+        "yacht-in-downtown"
+      ],
+      "author": "Jon Cross",
+      "endorsements": 238,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 162884,
+        "name": "Downtown Yacht",
+        "version": "2.3",
+        "uploaded": "2026-09-27",
+        "variants": 1
+      },
+      "summary": "WHY CAN'T YOU OWN A YACHT?! SAY NO MORE! Located in the Downtown area of City Center enjoy your Brand-New FULLY KITTED Yacht. I decorated the Interior with Drinks, Trinkets, TVs, Stripper Poles and in the back of the Yacht I added a Gated",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RJC_downtown_yacht.archive",
+          "archive/pc/mod/RJC_downtown_yacht_npcs.archive",
+          "archive/pc/mod/RJC_downtown_yacht.xl"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "amm-decorative-memorabilia-props",
+      "name": "AMM Decorative Memorabilia Props",
+      "nexusId": 16223,
+      "priority": "optional",
+      "required": false,
+      "author": "Eva_Fan",
+      "endorsements": 230,
+      "nexusCategory": "Props and Decorations",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 131916,
+        "name": "AMM Decorative Memorabilia Props",
+        "version": "1.4",
+        "uploaded": "2026-01-06",
+        "variants": 1
+      },
+      "summary": "Adds several of the Memorabilia items from the H10 Apartment as spawnable AMM items.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ef_amm_memorabilia_props.archive"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "panam-smooth-face-texture-and-botox-remover",
+      "name": "Panam smooth face texture and botox remover",
+      "nexusId": 3839,
+      "priority": "optional",
+      "required": false,
+      "author": "Zupremo",
+      "endorsements": 227,
+      "nexusCategory": "Characters",
+      "compat": "assets-outdated",
+      "mainFile": {
+        "fileId": 20205,
+        "name": "1",
+        "version": "1",
+        "uploaded": "2022-02-12",
+        "variants": 1
+      },
+      "summary": "this mod also minimizes the weird looking Botox laugh line that almost all female in this game have.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/modpanamftm.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "amm-props-toys",
+      "name": "AMM Props - Toys",
+      "nexusId": 7391,
+      "priority": "optional",
+      "required": false,
+      "author": "manavortex",
+      "endorsements": 224,
+      "nexusCategory": "Props and Decorations",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 150343,
+        "name": "amm_props_toys",
+        "version": "2.1.1",
+        "uploaded": "2026-06-29",
+        "variants": 1
+      },
+      "summary": "Adds a bunch of toys as props for AMM - for children of every age!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/AMM_props_toys.archive"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "tied-top-for-both-body-genders-7-colors",
+      "name": "Tied top for both body genders -- 7 colors",
+      "nexusId": 5330,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "redscript",
+        "tweakxl",
+        "manavortex-atelier-store"
+      ],
+      "author": "manavortex",
+      "endorsements": 206,
+      "nexusCategory": "Characters",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 163547,
+        "name": "tied_top_solid_silk",
+        "version": "4.1.1",
+        "uploaded": "2026-10-01",
+        "variants": 1
+      },
+      "summary": "Adds a tied top in 7 colour variants to the game. Supports dynamic body switching.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/tied_top_variants.archive",
+          "r6/tweaks/tied_top_variants/tied_top_variants.json",
+          "r6/tweaks/tied_top_variants/tied_top_variants.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "artist-made-ad-stripes-lore-friendly",
+      "name": "Artist-Made Ad Stripes (Lore Friendly)",
+      "nexusId": 25400,
+      "priority": "optional",
+      "required": false,
+      "author": "hehnl",
+      "endorsements": 197,
+      "nexusCategory": "Adverts",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 126740,
+        "name": "Artist-Made Ad Stripes (Lore Friendly)",
+        "version": "1.0",
+        "uploaded": "2025-11-02",
+        "variants": 1
+      },
+      "summary": "A complete overhaul of the game's holographic advertisement stripes, featuring more than 30 hand-painted and designed ads (No AI was used). Most are based on the game's preexisting companies and advertisements, and some are new creations",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/bighologramreplacer2.archive"
+        ]
+      }
+    },
+    {
+      "id": "e3-2019-geisha-advertisement",
+      "name": "E3 2019 Geisha advertisement",
+      "nexusId": 11396,
+      "priority": "optional",
+      "required": false,
+      "author": "DAYN3N",
+      "endorsements": 184,
+      "nexusCategory": "Adverts",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 74508,
+        "name": "Alternative version thanks to Inn77",
+        "version": "2.0",
+        "uploaded": "2024-04-10",
+        "variants": 1
+      },
+      "summary": "A replacement for the giant japantown advertisement",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!E3AD.archive"
+        ]
+      }
+    },
+    {
+      "id": "halloween-fun-pack-amm-props",
+      "name": "Halloween Fun Pack -AMM Props",
+      "nexusId": 10477,
+      "priority": "optional",
+      "required": false,
+      "author": "Jamie Cross",
+      "endorsements": 129,
+      "nexusCategory": "Props and Decorations",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 55214,
+        "name": "Halloween Fun Pack",
+        "version": "1",
+        "uploaded": "2023-10-28",
+        "variants": 1
+      },
+      "summary": "Spoopy decorations",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Halloween Fun Pack.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "coffee-maker-machine-for-modded-apartments",
+      "name": "Coffee Maker Machine for Modded Apartments",
+      "nexusId": 31129,
+      "priority": "optional",
+      "required": false,
+      "author": "Acired",
+      "endorsements": 72,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 157785,
+        "name": "Acired Jig Jig Pod Coffee",
+        "version": "1.1",
+        "uploaded": "2026-08-26",
+        "variants": 0
+      },
+      "summary": "The following apartments have had coffee machines added to them: Jig Jig Unleashed, Silicon Mirage Villa, Japantown North Penthouse, Satellite Tower, Nomad Trailer, and Northside Motel- Maelstrom Coding Cave.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/acired_jig_jig_pod_coffee.archive",
+          "archive/pc/mod/jig_jig_pod_coffee.xl"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    }
+  ]
 }

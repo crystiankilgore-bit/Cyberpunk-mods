@@ -112,3 +112,4 @@ if ($IncludeSaves) {
 
 Write-Section "Done"
 Write-Info "If you use Vortex or MO2, tell it about the change (Vortex: Purge then Deploy) so it doesn't fight the restored files."
+exit 0

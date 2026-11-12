@@ -132,3 +132,4 @@ if ($Keep -gt 0) {
         Write-Info "Removed old backup $($o.Name)"
     }
 }
+exit 0

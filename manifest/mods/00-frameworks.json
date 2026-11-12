@@ -3,24 +3,34 @@
   "category": "Frameworks & core libraries",
   "mods": [
     {
-      "id": "red4ext",
-      "name": "RED4ext",
-      "nexusId": 2380,
-      "priority": "core",
-      "required": true,
-      "detect": { "paths": ["red4ext/RED4ext.dll", "bin/x64/winmm.dll"] },
-      "logFiles": ["red4ext/logs/*.log"],
-      "notes": "Native plugin loader. ArchiveXL, TweakXL, Codeware and most DLL mods need it. Usually breaks on every game patch, so update it first."
-    },
-    {
       "id": "cet",
       "name": "Cyber Engine Tweaks",
       "nexusId": 107,
       "priority": "core",
       "required": true,
-      "detect": { "paths": ["bin/x64/plugins/cyber_engine_tweaks.asi"] },
-      "logFiles": ["bin/x64/plugins/cyber_engine_tweaks/cyber_engine_tweaks.log", "bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log"],
-      "notes": "Lua scripting + in-game overlay. Must match the exact game version."
+      "author": "yamashi",
+      "endorsements": 247258,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168615,
+        "name": "CET 1.38.1 - Game version 2.5",
+        "version": "1.38.1",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Scripting framework for modders and quality of life fixes.",
+      "detect": {
+        "paths": [
+          "bin/x64/plugins/cyber_engine_tweaks.asi"
+        ]
+      },
+      "logFiles": [
+        "bin/x64/plugins/cyber_engine_tweaks/cyber_engine_tweaks.log",
+        "bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log"
+      ],
+      "notes": "Lua scripting + in-game overlay. Must match the exact game version.",
+      "autoNotes": "Required by 250 mod(s) in this pack."
     },
     {
       "id": "redscript",
@@ -28,9 +38,59 @@
       "nexusId": 1511,
       "priority": "core",
       "required": true,
-      "detect": { "anyOf": ["engine/tools/scc.exe", "engine/tools/scc_lib.dll"] },
-      "logFiles": ["r6/logs/redscript*.log"],
-      "notes": "Script compiler. Compile errors show up in r6/logs/redscript_rCURRENT.log and usually point at the broken mod."
+      "author": "jac3km4",
+      "endorsements": 176547,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167681,
+        "name": "redscript",
+        "version": "0.5.32",
+        "uploaded": "2026-10-22",
+        "variants": 1
+      },
+      "summary": "Compiler for Cyberpunk2077 scripts",
+      "detect": {
+        "anyOf": [
+          "engine/tools/scc.exe",
+          "engine/tools/scc_lib.dll"
+        ]
+      },
+      "logFiles": [
+        "r6/logs/redscript*.log"
+      ],
+      "notes": "Script compiler. Compile errors show up in r6/logs/redscript_rCURRENT.log and usually point at the broken mod.",
+      "autoNotes": "Required by 336 mod(s) in this pack."
+    },
+    {
+      "id": "red4ext",
+      "name": "RED4ext",
+      "nexusId": 2380,
+      "priority": "core",
+      "required": true,
+      "author": "WopsS",
+      "endorsements": 165559,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176919,
+        "name": "RED4ext",
+        "version": "1.31.1",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "A script extender for REDengine 4.",
+      "detect": {
+        "paths": [
+          "red4ext/RED4ext.dll",
+          "bin/x64/winmm.dll"
+        ]
+      },
+      "logFiles": [
+        "red4ext/logs/*.log"
+      ],
+      "notes": "Native plugin loader. ArchiveXL, TweakXL, Codeware and most DLL mods need it. Usually breaks on every game patch, so update it first.",
+      "autoNotes": "Required by 339 mod(s) in this pack."
     },
     {
       "id": "archivexl",
@@ -38,10 +98,31 @@
       "nexusId": 4198,
       "priority": "core",
       "required": true,
-      "dependsOn": ["red4ext"],
-      "detect": { "paths": ["red4ext/plugins/ArchiveXL/ArchiveXL.dll"] },
-      "logFiles": ["red4ext/plugins/ArchiveXL/*.log"],
-      "notes": "Needed by almost every clothing, appearance and new-item mod."
+      "dependsOn": [
+        "red4ext"
+      ],
+      "author": "psiberx",
+      "endorsements": 148662,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177641,
+        "name": "ArchiveXL",
+        "version": "1.28.7",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "Archive extension loader",
+      "detect": {
+        "paths": [
+          "red4ext/plugins/ArchiveXL/ArchiveXL.dll"
+        ]
+      },
+      "logFiles": [
+        "red4ext/plugins/ArchiveXL/*.log"
+      ],
+      "notes": "Needed by almost every clothing, appearance and new-item mod.",
+      "autoNotes": "Required by 429 mod(s) in this pack."
     },
     {
       "id": "tweakxl",
@@ -49,10 +130,31 @@
       "nexusId": 4197,
       "priority": "core",
       "required": true,
-      "dependsOn": ["red4ext"],
-      "detect": { "paths": ["red4ext/plugins/TweakXL/TweakXL.dll"] },
-      "logFiles": ["red4ext/plugins/TweakXL/*.log"],
-      "notes": "Loads .yaml/.tweak files from r6/tweaks. Needed by most item, weapon and balance mods."
+      "dependsOn": [
+        "red4ext"
+      ],
+      "author": "psiberx",
+      "endorsements": 136348,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177642,
+        "name": "TweakXL",
+        "version": "1.12.1",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "TweakDB modifications loader and script extensions",
+      "detect": {
+        "paths": [
+          "red4ext/plugins/TweakXL/TweakXL.dll"
+        ]
+      },
+      "logFiles": [
+        "red4ext/plugins/TweakXL/*.log"
+      ],
+      "notes": "Loads .yaml/.tweak files from r6/tweaks. Needed by most item, weapon and balance mods.",
+      "autoNotes": "Required by 329 mod(s) in this pack."
     },
     {
       "id": "codeware",
@@ -60,10 +162,31 @@
       "nexusId": 7780,
       "priority": "core",
       "required": true,
-      "dependsOn": ["red4ext", "redscript"],
-      "detect": { "paths": ["red4ext/plugins/Codeware/Codeware.dll"] },
-      "logFiles": ["red4ext/plugins/Codeware/*.log"],
-      "notes": "Scripting library many redscript mods depend on."
+      "dependsOn": [
+        "red4ext"
+      ],
+      "author": "psiberx",
+      "endorsements": 108479,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177643,
+        "name": "Codeware",
+        "version": "1.21.3",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "Script extensions",
+      "detect": {
+        "paths": [
+          "red4ext/plugins/Codeware/Codeware.dll"
+        ]
+      },
+      "logFiles": [
+        "red4ext/plugins/Codeware/*.log"
+      ],
+      "notes": "Scripting library many redscript mods depend on.",
+      "autoNotes": "Required by 218 mod(s) in this pack."
     },
     {
       "id": "native-settings-ui",
@@ -71,29 +194,1216 @@
       "nexusId": 3518,
       "priority": "core",
       "required": false,
-      "dependsOn": ["cet"],
-      "detect": { "paths": ["bin/x64/plugins/cyber_engine_tweaks/mods/nativeSettings/init.lua"] },
-      "notes": "Adds mod options to the in-game Settings menu for CET mods."
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "keanuWheeze",
+      "endorsements": 96400,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167644,
+        "name": "Native Settings UI 1.97",
+        "version": "1.97",
+        "uploaded": "2026-10-22",
+        "variants": 1
+      },
+      "summary": "This mod allows other mods to easily add settings menus using only native UI, thus looking like the games settings menu",
+      "detect": {
+        "paths": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/nativeSettings/init.lua"
+        ]
+      },
+      "notes": "Adds mod options to the in-game Settings menu for CET mods.",
+      "autoNotes": "Required by 67 mod(s) in this pack."
     },
     {
-      "id": "mod-settings",
-      "name": "Mod Settings",
-      "nexusId": 4885,
+      "id": "browser-extension",
+      "name": "Browser Extension",
+      "nexusId": 10038,
       "priority": "core",
       "required": false,
-      "dependsOn": ["red4ext", "redscript"],
-      "detect": { "anyOf": ["red4ext/plugins/mod_settings/mod_settings.dll", "red4ext/plugins/mod_settings"] },
-      "notes": "Settings menu for redscript mods."
+      "dependsOn": [
+        "codeware",
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "r457 and gh057",
+      "endorsements": 42082,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 121987,
+        "name": "BrowserExtensionFramework",
+        "version": "0.9.7",
+        "uploaded": "2025-09-20",
+        "variants": 1
+      },
+      "summary": "Browser Extension Framework creates an easy entry point to add your custom Web Sites to the main browser page: “NETdir://ncity.pub”. It also gathers and shows all the vanilla sites defined as journal entries in the game’s resources.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/BrowserExtension/BrowserExtension.Classes.reds",
+          "r6/scripts/BrowserExtension/BrowserExtension.Config.reds",
+          "r6/scripts/BrowserExtension/BrowserExtension.DataStructures.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 4 mod(s) in this pack."
     },
     {
-      "id": "input-loader",
-      "name": "Input Loader",
-      "nexusId": 4575,
+      "id": "radioext",
+      "name": "RadioExt",
+      "nexusId": 4591,
       "priority": "core",
       "required": false,
-      "dependsOn": ["red4ext"],
-      "detect": { "anyOf": ["red4ext/plugins/input_loader/input_loader.dll", "red4ext/plugins/input_loader"] },
-      "notes": "Lets mods add their own key bindings."
+      "dependsOn": [
+        "cet",
+        "red4ext"
+      ],
+      "author": "keanuWheeze",
+      "endorsements": 16394,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168536,
+        "name": "RadioExt 2.92",
+        "version": "2.92",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "This framework mod allows for the easy addition of new radio stations",
+      "notes": "Required by 15 mod(s) in this pack."
+    },
+    {
+      "id": "audioware",
+      "name": "Audioware",
+      "nexusId": 12001,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "Roms1383",
+      "endorsements": 9294,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170303,
+        "name": "Audioware",
+        "version": "1.11.0",
+        "uploaded": "2026-10-29",
+        "variants": 1
+      },
+      "summary": "This mod allows you to play custom sounds without REDmod.",
+      "notes": "Required by 14 mod(s) in this pack."
+    },
+    {
+      "id": "zenitex-core-dependency-5-0",
+      "name": "Zenitex Core Dependency (5.0)",
+      "nexusId": 16356,
+      "priority": "core",
+      "required": false,
+      "author": "ScorpionTank",
+      "endorsements": 8755,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 157086,
+        "name": "Zenitex Core Dependency",
+        "version": "5.1.8",
+        "uploaded": "2026-08-21",
+        "variants": 1
+      },
+      "summary": "Core dependency required by my military equipment mods.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/#_scorpion_zenitex_core_dependency.archive",
+          "r6/tweaks/scorpiontank/#_scorpion_zenitex_core_dependency.yaml",
+          "archive/pc/mod/#_scorpion_zenitex_core_dependency.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 11 mod(s) in this pack."
+    },
+    {
+      "id": "the-community-palette-project",
+      "name": "The Community Palette Project",
+      "nexusId": 10437,
+      "priority": "core",
+      "required": false,
+      "author": "NoraLee",
+      "endorsements": 7194,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 71181,
+        "name": "The Community Palette Project",
+        "version": "1.1",
+        "uploaded": "2024-03-10",
+        "variants": 1
+      },
+      "summary": "The Community Palette Project is a MLTemplate resource which adds 730* color options to a wide variety of materials in the game, broadening the horizons when it comes to convenient and colorful MLSetup work. The resource is also a",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/TheCommunityPaletteProject_MLTemplateResource.archive"
+        ]
+      },
+      "notes": "Required by 15 mod(s) in this pack."
+    },
+    {
+      "id": "vendorsxl",
+      "name": "VendorsXL",
+      "nexusId": 19679,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "deceptious-quest-core"
+      ],
+      "author": "Deceptious",
+      "endorsements": 6699,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 155182,
+        "name": "VendorsXL",
+        "version": "2.2.0",
+        "uploaded": "2026-08-07",
+        "variants": 1
+      },
+      "summary": "Custom in-world vendor support via simple TweakDB/TweakXL records",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/VendorsXL.archive",
+          "r6/scripts/VendorsXL/VendorsXL.reds",
+          "r6/tweaks/##########VendorsXL/##########_VendorsXL.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 6 mod(s) in this pack."
+    },
+    {
+      "id": "reddata",
+      "name": "RedData",
+      "nexusId": 14139,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript"
+      ],
+      "author": "Rayshader",
+      "endorsements": 6472,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168313,
+        "name": "RedData",
+        "version": "0.11.0",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Plugin to parse / create / format data using Redscript / CET. It only supports JSON for now. It can generate UUIDs. For modders only.",
+      "notes": "Required by 9 mod(s) in this pack."
+    },
+    {
+      "id": "redfilesystem",
+      "name": "RedFileSystem",
+      "nexusId": 13378,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "reddata",
+        "redscript"
+      ],
+      "author": "Rayshader",
+      "endorsements": 5351,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168316,
+        "name": "RedFileSystem",
+        "version": "0.16.0",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Plugin to read / write with the file system in a restricted path, using Redscript / CET. For modders only.",
+      "notes": "Required by 6 mod(s) in this pack."
+    },
+    {
+      "id": "trigger-mode-control",
+      "name": "Trigger Mode Control",
+      "nexusId": 13077,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "input-loader",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "codeware"
+      ],
+      "author": "Seijax",
+      "endorsements": 4696,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173622,
+        "name": "Trigger Mode Control",
+        "version": "3.0.4",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "Framework for weapon mods. Enable specific weapons to swap firemodes at the press of a keybind, audio fixes for all triggermodes and silencers, SecondaryDependantStatModifier, triggermode Prereqs, and more",
+      "notes": "Required by 11 mod(s) in this pack."
+    },
+    {
+      "id": "inplace-streamingsectors-nulled",
+      "name": "Inplace Streamingsectors Nulled",
+      "nexusId": 14197,
+      "priority": "core",
+      "required": false,
+      "author": "sosuinepsixuyu",
+      "endorsements": 2834,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168619,
+        "name": "InplaceSectorsNulled",
+        "version": "0.14",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Nulls cooked data that prevents modders from modifying world assets.",
+      "notes": "Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "audioxl",
+      "name": "AudioXL",
+      "nexusId": 33442,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redlogger",
+        "redscript",
+        "redscript-configuration-framework",
+        "audioxl-equalizers-volume-mute"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 1730,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176259,
+        "name": "AudioXL",
+        "version": "0.9.4",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Custom sounds and audio metadata through the game's own audio engine. Includes script extensions. (っˆڡˆς)",
+      "notes": "Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "redscript-configuration-framework",
+      "name": "Redscript Configuration Framework",
+      "nexusId": 30726,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "input-loader",
+        "mod-settings",
+        "red4ext",
+        "redimgretriever",
+        "redscript",
+        "redfunctions"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 1710,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176270,
+        "name": "Redscript Config Framework",
+        "version": "3.2.3",
+        "uploaded": "2026-11-10",
+        "variants": 1
+      },
+      "summary": "A girl has to do, what a girl needs to have. Configuration framework with dynamic content, for Redscript and in-game. (づ｡◕‿‿◕｡)づ",
+      "notes": "Required by 12 mod(s) in this pack."
+    },
+    {
+      "id": "redfunctions",
+      "name": "RedFunctions",
+      "nexusId": 32312,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript",
+        "redscript-configuration-framework"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 1295,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176262,
+        "name": "RedFunctions",
+        "version": "0.16.0",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "I need more functions, man. Like, what's a girl need to do to get some?! \\(°Ω°)/",
+      "notes": "Required by 5 mod(s) in this pack."
+    },
+    {
+      "id": "redlogger",
+      "name": "RedLogger",
+      "nexusId": 31920,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript",
+        "redwindows"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 875,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176263,
+        "name": "RedLogger",
+        "version": "1.5.0",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Allows Redscript mods to log to dedicated log files, which can also be viewed in-game through native ink; no need for CET to view logs. ._.)/\\(._.",
+      "notes": "Required by 3 mod(s) in this pack."
+    },
+    {
+      "id": "cybercmd",
+      "name": "cybercmd",
+      "nexusId": 5176,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "jac3km4",
+      "endorsements": 38527,
+      "nexusCategory": "Modders Resources",
+      "compat": "native-pre-2.5",
+      "mainFile": {
+        "fileId": 109208,
+        "name": "cybercmd-standalone",
+        "version": "0.0.13",
+        "uploaded": "2025-05-17",
+        "variants": 2
+      },
+      "summary": "Command-line argument loader for Cyberpunk 2077",
+      "notes": "Native plugin not updated since 2.5 - check the mod page before launching. 2 main-file variants on Nexus - pick one. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "framework-unique-v-body-shape-rig-legacy",
+      "name": "Framework - Unique V Body Shape - Rig (LEGACY)",
+      "nexusId": 3725,
+      "priority": "recommended",
+      "required": false,
+      "author": "JohnsonsStuff",
+      "endorsements": 23786,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 122618,
+        "name": "Framework - Unique V Body Shape - Rig - 2.31",
+        "version": "2.31",
+        "uploaded": "2025-09-25",
+        "variants": 1
+      },
+      "summary": "A framework that enables V to have a body shape different than the rest of the npcs.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zz_johnson_Framework_Unique_V_Body_Shape.archive"
+        ]
+      }
+    },
+    {
+      "id": "framework-unique-panam-body-shape-rig",
+      "name": "Framework - Unique Panam Body Shape - Rig",
+      "nexusId": 3731,
+      "priority": "recommended",
+      "required": false,
+      "author": "JohnsonsStuff",
+      "endorsements": 11941,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 122617,
+        "name": "Framework - Unique Panam Body Shape - Rig - 2.31",
+        "version": "2.31",
+        "uploaded": "2025-09-25",
+        "variants": 1
+      },
+      "summary": "A framework that enables Panam to have a body shape different than the rest of the npcs.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zz_johnson_Framework_Unique_Panam_Body_Shape.archive"
+        ]
+      }
+    },
+    {
+      "id": "framework-unique-judy-body-shape-rig",
+      "name": "Framework - Unique Judy Body Shape - Rig",
+      "nexusId": 3749,
+      "priority": "recommended",
+      "required": false,
+      "author": "JohnsonsStuff",
+      "endorsements": 11578,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 122616,
+        "name": "Framework - Unique Judy Body Shape - Rig - 2.31",
+        "version": "2.31",
+        "uploaded": "2025-09-25",
+        "variants": 1
+      },
+      "summary": "A framework that enables Judy to have a body shape different than the rest of the npcs.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zz_johnson_Framework_Unique_Judy_Body_Shape.archive"
+        ]
+      }
+    },
+    {
+      "id": "multilayer-material-xtender",
+      "name": "Multilayer Material Xtender",
+      "nexusId": 5570,
+      "priority": "recommended",
+      "required": false,
+      "author": "Neurolinked",
+      "endorsements": 11117,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 114368,
+        "name": "NeuroMultilayerMaterialXtender-2.2.1.zip",
+        "version": "2.2.1",
+        "uploaded": "2025-07-20",
+        "variants": 1
+      },
+      "summary": "This mod on his own add 4 new materials and it complete every other with a pure black and pure white usable for all the mods who need those colors without needing to edit or prepare ulterior materials",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zz_NeuroMultilayerMaterialXtender-2.2.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "vehicle-manufacturers-resource",
+      "name": "Vehicle Manufacturers Resource",
+      "nexusId": 7855,
+      "priority": "recommended",
+      "required": false,
+      "author": "ctxrlsec",
+      "endorsements": 7280,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171771,
+        "name": "manufacturers",
+        "version": "1.1",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "It does nothing on it's own, it's just a resource for my vehicle mods",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "night-city-visuals-nulled",
+      "name": "Night City Visuals Nulled",
+      "nexusId": 13524,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "redscript",
+        "mod-settings"
+      ],
+      "author": "NeHooYeY - robber804",
+      "endorsements": 5817,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 140870,
+        "name": "NightCityVisualsNulled",
+        "version": "3.2.3",
+        "uploaded": "2026-03-30",
+        "variants": 1
+      },
+      "summary": "A redscript for lighting mods that shall cover Night City and most main/side Quests and now includes all of dogtown.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/NightCityVisualsNulled.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "reflex-is-cool",
+      "name": "Reflex is Cool",
+      "nexusId": 15963,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "Phoenicia",
+      "endorsements": 3992,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-outdated",
+      "mainFile": {
+        "fileId": 102307,
+        "name": "ReflexIsCool",
+        "version": "1.0.2",
+        "uploaded": "2025-02-22",
+        "variants": 1
+      },
+      "summary": "Makes it possible, for moders to add items that increase/decrease Reflex and Cool skill checks in conversations.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/ReflexIsCool/ReflexIsCool.reds",
+          "r6/tweaks/ReflexIsCool/stats.yaml"
+        ]
+      },
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "dogtown-location-visuals-nulled-a-general-fix-fo",
+      "name": "Dogtown Location Visuals Nulled - a general fix for lighting mods.",
+      "nexusId": 12874,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "nullsilv and NeHooYeY and robber804",
+      "endorsements": 3974,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 114099,
+        "name": "Dog Town Visuals Nulled",
+        "version": "2.3.250718",
+        "uploaded": "2025-07-18",
+        "variants": 1
+      },
+      "summary": "This mod will no longer be updated, Night City Visuals Nulled and Dogtown visuals nulled are both included in the redscript version of NCVN.A mod to fix most per-sector and per-location issues to minimize issues with lighting mods. Contains",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/dogtown-location-visuals-nulled.archive.xl"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "morphtarget-and-animrig-additions",
+      "name": "Morphtarget and AnimRig Additions",
+      "nexusId": 4673,
+      "priority": "recommended",
+      "required": false,
+      "author": "NoraLee",
+      "endorsements": 3746,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 61047,
+        "name": "zz_NLD_Morph_and_AnimRig_Additions.zip",
+        "version": "1.2",
+        "uploaded": "2023-12-14",
+        "variants": 1
+      },
+      "summary": "This framework adds 15 additional .morphtarget file 'slots' to V, as well as 5 pairs of .rig and .animgraph file 'slots'. These can be used by modders to load their own .morphtarget-dependent or .rig/.animgraph-dependent mods. These slots",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zz_NLD_Morph_and_AnimRig_Additions.archive"
+        ]
+      },
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "microblend-resource",
+      "name": "Microblend Resource",
+      "nexusId": 4571,
+      "priority": "recommended",
+      "required": false,
+      "author": "NoraLee",
+      "endorsements": 3410,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 81689,
+        "name": "Microblend Resource",
+        "version": "1.4",
+        "uploaded": "2024-07-04",
+        "variants": 1
+      },
+      "summary": "This is a collection of custom microblends that can be used when recoloring objects and clothing using mlsetups.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/00_Microblend_Resource.archive"
+        ]
+      }
+    },
+    {
+      "id": "reimagined",
+      "name": "ReImagined",
+      "nexusId": 25845,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "mod-settings",
+        "redscript"
+      ],
+      "author": "robber804",
+      "endorsements": 2695,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170727,
+        "name": "ReImagined",
+        "version": "0.6.0",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Script is used for node removals in ReLUX 2.0 and other mods.",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "cyberclean",
+      "name": "Cyberclean",
+      "nexusId": 8595,
+      "priority": "recommended",
+      "required": false,
+      "author": "2077v2",
+      "endorsements": 2468,
+      "nexusCategory": "Modders Resources",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 91867,
+        "name": "v2_CybercleanCityofDreams",
+        "version": "1.1",
+        "uploaded": "2024-11-12",
+        "variants": 1
+      },
+      "summary": "A simple batch file that removes all modded files from your Cyberpunk installation."
+    },
+    {
+      "id": "johnson-s-amazing-dangles-emporium-for-users",
+      "name": "Johnson's Amazing Dangles Emporium - FOR USERS",
+      "nexusId": 15265,
+      "priority": "recommended",
+      "required": false,
+      "author": "johnson",
+      "endorsements": 2071,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 80428,
+        "name": "Johnson's Amazing Dangles Emporium - FOR USERS",
+        "version": "1.0",
+        "uploaded": "2024-06-19",
+        "variants": 1
+      },
+      "summary": "JADE consolidated:tm: - easy install",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/00_Johnsons_Amazing_Dangles_Emporium.archive"
+        ]
+      }
+    },
+    {
+      "id": "redhttpclient",
+      "name": "RedHttpClient",
+      "nexusId": 14192,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "reddata",
+        "redfilesystem",
+        "redscript"
+      ],
+      "author": "Rayshader",
+      "endorsements": 1920,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168317,
+        "name": "RedHttpClient",
+        "version": "0.8.0",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Plugin to send HTTP requests. It can be used with Redscript and CET. For modders only.",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "4x-vending-machine-framework",
+      "name": "4x Vending Machine Framework",
+      "nexusId": 13485,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "nremind",
+      "endorsements": 1729,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 121442,
+        "name": "4x Vending Machine Framework (REDMOD)",
+        "version": "2.7",
+        "uploaded": "2025-09-15",
+        "variants": 2
+      },
+      "summary": "This framework does 2 things: First, it expands the number of vending machine graphics by 4x the amount in the vanilla game. Second, it randomizes the vending machine graphics. Installing this by itself only does the second, so it is",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "framework-unique-evelyn-body-shape-rig",
+      "name": "Framework - Unique Evelyn Body Shape - Rig",
+      "nexusId": 3750,
+      "priority": "optional",
+      "required": false,
+      "author": "JohnsonsStuff",
+      "endorsements": 1702,
+      "nexusCategory": "Modders Resources",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 122619,
+        "name": "Framework - Unique Evelyn Body Shape - Rig - 2.31",
+        "version": "2.31",
+        "uploaded": "2025-09-25",
+        "variants": 1
+      },
+      "summary": "A framework that enables Evelyn to have a body shape different than the rest of the npcs.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/zz_johnson_Framework_Unique_Evelyn_Body_Shape.archive"
+        ]
+      }
+    },
+    {
+      "id": "sdh0-s-vehicle-resources",
+      "name": "SDH0's Vehicle Resources",
+      "nexusId": 20956,
+      "priority": "optional",
+      "required": false,
+      "author": "SDH0",
+      "endorsements": 1606,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 164384,
+        "name": "SDH0 Vehicle Resources",
+        "version": "2.0.1",
+        "uploaded": "2026-10-06",
+        "variants": 1
+      },
+      "summary": "Resource files for future built vehicles",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/colorpack.archive",
+          "r6/tweaks/SDH0_ColorPack/sdh0_colorpack.yaml",
+          "archive/pc/mod/sdh0_colorpack.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "customhackingsystem",
+      "name": "CustomHackingSystem",
+      "nexusId": 5091,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "codeware"
+      ],
+      "author": "Elysium",
+      "endorsements": 1491,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 167135,
+        "name": "CustomHackingSystem v1.4.1",
+        "version": "1.4.1",
+        "uploaded": "2026-10-19",
+        "variants": 1
+      },
+      "summary": "A mod/tool that allows modders to easily run custom hack instances,quickhacks and custom hack minigames using redscript & lua",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/CustomHackingSystem/init.lua",
+          "r6/scripts/CustomHackingSystem/CodewareExtensions/CompoundWidget/CompoundWidget.reds",
+          "r6/scripts/CustomHackingSystem/CodewareExtensions/CompoundWidget/CompoundWidgetUtilities.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "0-engine",
+      "name": "0-Engine",
+      "nexusId": 27967,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 1365,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 150318,
+        "name": "0-Engine Pure CET",
+        "version": "0.18.6",
+        "uploaded": "2026-06-29",
+        "variants": 1
+      },
+      "summary": "A shared runtime layer for CET mods that centralizes state caching, lifecycle handling and event dispatching to reduce redundant engine calls.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/0-Engine/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "4x-poster-framework",
+      "name": "4x Poster Framework",
+      "nexusId": 14138,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "nremind",
+      "endorsements": 1363,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177313,
+        "name": "4x Poster Framework (REDMOD)",
+        "version": "3.1",
+        "uploaded": "2026-11-12",
+        "variants": 2
+      },
+      "summary": "Massively expand posters in Night City! This framework does 2 things: First, it expands the number of posters by 4x the amount in the vanilla game. Second, it randomizes the posters in Night City. Installing this by itself only does the",
+      "notes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "digitalvixen-core",
+      "name": "DigitalVixen Core",
+      "nexusId": 28390,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "audioxl",
+        "codeware",
+        "input-loader",
+        "redscript",
+        "redscript-configuration-framework",
+        "redwindows",
+        "tweakxl"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 1130,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176707,
+        "name": "DigitalVixenCore",
+        "version": "4.9.13",
+        "uploaded": "2026-11-10",
+        "variants": 1
+      },
+      "summary": "This module is only to support my existing and coming mods with centralized functions."
+    },
+    {
+      "id": "nightlynow-core",
+      "name": "NightlyNow Core",
+      "nexusId": 28966,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "NightlyNow",
+      "endorsements": 1082,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168585,
+        "name": "NightlyNow",
+        "version": "1.2.1",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Only install this if required by other mod(s).",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "crafting-recipe-ids",
+      "name": "Crafting Recipe IDs",
+      "nexusId": 543,
+      "priority": "optional",
+      "required": false,
+      "author": "IDA",
+      "endorsements": 987,
+      "nexusCategory": "Modders Resources",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 1469,
+        "name": "Recipes.zip",
+        "version": "1.01",
+        "uploaded": "2020-12-28",
+        "variants": 1
+      },
+      "summary": "All the item lists were missing a huge amount of crafting recipes, so I messed around and found a whole bunch of them."
+    },
+    {
+      "id": "4x-magazine-framework",
+      "name": "4x Magazine Framework",
+      "nexusId": 16256,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "nremind",
+      "endorsements": 946,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 121437,
+        "name": "4x Magazine Framework (REDMOD)",
+        "version": "2.2",
+        "uploaded": "2025-09-15",
+        "variants": 2
+      },
+      "summary": "Massively expand magazines in Night City! This framework does 2 things: First, it expands the number of magazines by 4x the amount in the base game. Second, it randomizes the magazines in Night City. Installing this by itself only does the",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "undermine-quest-series",
+      "name": "Undermine Quest Series",
+      "nexusId": 17186,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "Undermine",
+      "endorsements": 869,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177281,
+        "name": "Undermine Quest Series",
+        "version": "1.6b",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "This mod brings Airdrops to Night City (Phantom Liberty not required). This is the core launcher, localization and tool used to maintain a future series of 30+ quests in development."
+    },
+    {
+      "id": "phone-extension",
+      "name": "Phone Extension",
+      "nexusId": 24949,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "red4ext",
+        "codeware"
+      ],
+      "author": "r457 and gh057",
+      "endorsements": 770,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 124417,
+        "name": "PhoneExtensionFramework",
+        "version": "0.9",
+        "uploaded": "2025-10-12",
+        "variants": 1
+      },
+      "summary": "Phone Extension Framework creates an easy entry point to add your custom phone dialogs and push HUD notifications (text messages only for now).",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/PhoneExtension/PhoneExtension.Classes.reds",
+          "r6/scripts/PhoneExtension/PhoneExtension.DataStructures.reds",
+          "r6/scripts/PhoneExtension/PhoneExtension.Overrides.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "redwindows",
+      "name": "RedWindows",
+      "nexusId": 32370,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "redfunctions",
+        "redscript",
+        "redscript-configuration-framework"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 764,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175083,
+        "name": "RedWindows",
+        "version": "2.5.1",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "Windows for mods, drawn in the game's own interface. For authors: an ImGui-style API. \\(^_^)/",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "redimgretriever",
+      "name": "RedIMGRetriever",
+      "nexusId": 31919,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 759,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176266,
+        "name": "RedIMGRetriever",
+        "version": "0.5.0",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Allows Redscript mods to retrieve images from the intarwebz and display them inside ink by hot-creating archive files and hot-mounting them. ᕕ( ᐛ )ᕗ",
+      "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "street-location-system-api",
+      "name": "Street Location System (API)",
+      "nexusId": 32912,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware"
+      ],
+      "author": "Scream81",
+      "endorsements": 242,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 162518,
+        "name": "StreetLocationSystem",
+        "version": "1.4",
+        "uploaded": "2026-09-25",
+        "variants": 1
+      },
+      "summary": "Expands the game's native district and sub-district tracking by adding real-time street names and intersections. Includes built-in World Map integration and a developer API.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/StreetLocationSystem/StreetLaneDatabase.reds",
+          "r6/scripts/StreetLocationSystem/StreetLocationSystem.reds",
+          "r6/scripts/StreetLocationSystem/StreetLoggerMapUI.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "nexusId": 30331,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "redlogger",
+        "redscript",
+        "redscript-configuration-framework"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 210,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175091,
+        "name": "Calendar",
+        "version": "3.5.3",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "A proper calendar API for mods to use, possibly some in-game calendar style webpage in the works, maybe perhaps. ¯\\(°_o)/¯",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "uuh4v-5-mesh-edition-a-modder-s-resource-for-app",
+      "name": "UUH4V - 5 Mesh Edition - A Modder's Resource for App-Swapped Hair Unique To V",
+      "nexusId": 7181,
+      "priority": "optional",
+      "required": false,
+      "author": "NoraLee",
+      "endorsements": 174,
+      "nexusCategory": "Modders Resources",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 37671,
+        "name": "UUH4V - 5 Mesh Edition - Resource Files - MV",
+        "version": "1.0",
+        "uploaded": "2023-01-21",
+        "variants": 2
+      },
+      "summary": "This resource makes it quick and easy to use the app-swap method to make your hair mod, thereby sidestepping a number of issues with mesh-swapped hair mods. Your mod can now load up to 5 hair meshes, 5 animgraph/rig pairs, an accessory",
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
     }
   ]
 }
