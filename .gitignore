@@ -3,3 +3,4 @@ logs/
 .cache/
 __pycache__/
 *.pyc
+collection/

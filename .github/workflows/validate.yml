@@ -77,6 +77,15 @@ jobs:
       - name: Install-Modpack plan (-WhatIf)
         run: .\scripts\Install-Modpack.ps1 -Category 00-frameworks.json -WhatIf
 
+      - name: Publish-Collection dry run (builds the archive, no upload)
+        run: |
+          .\scripts\Publish-Collection.ps1 -DryRun -SkipFileCheck
+          if ($LASTEXITCODE -ne 0) { throw "exit $LASTEXITCODE" }
+          $c = Get-Content collection\collection.json -Raw | ConvertFrom-Json
+          if ($c.mods.Count -lt 1000) { throw "only $($c.mods.Count) mods in collection.json" }
+          if (-not (Get-ChildItem collection\Ai-modpack.*)) { throw "no archive" }
+          Write-Host "collection.json has $($c.mods.Count) mods"
+
   builder:
     name: Builder (python)
     runs-on: ubuntu-latest

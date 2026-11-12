@@ -41,6 +41,7 @@ Read **[docs/INSTALL-GUIDE.md](docs/INSTALL-GUIDE.md)** before installing. It co
 | `Find-MissingDependencies.ps1` | Download list for anything installed mods need but you don't have |
 | `Get-ModLogs.ps1` | Collects CET / RED4ext / redscript / ArchiveXL / TweakXL / Codeware logs, prints errors, names likely culprits, zips it all |
 | `Backup-Game.ps1` / `Restore-Game.ps1` | Back up mod folders + saves + settings (not the whole 70 GB game); restore refuses across a game patch unless `-Force` |
+| `Publish-Collection.ps1` | Builds a Vortex-format collection from the manifest and uploads it to Nexus as an **unpublished draft** (default name "Ai modpack"). Never publishes; you do that on Nexus. `-DryRun` builds it without uploading |
 | `Test-Manifest.ps1` | Validates the manifest (ids, references, cycles). CI runs it on every push |
 
 All scripts find the game automatically (Steam, GOG, Epic). If yours is somewhere unusual, pass `-GameDir "D:\Games\Cyberpunk 2077"` or set `$env:CP2077_DIR`.
