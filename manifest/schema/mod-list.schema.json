@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mod list (one category)",
+  "type": "object",
+  "required": ["category", "mods"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "category": { "type": "string" },
+    "mods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Unique short id, used by dependsOn / conflictsWith." },
+          "name": { "type": "string" },
+          "nexusId": { "type": ["integer", "null"], "description": "Number from the Nexus URL: nexusmods.com/cyberpunk2077/mods/<nexusId>" },
+          "category": { "type": "string", "description": "Overrides the file-level category." },
+          "priority": { "enum": ["core", "recommended", "optional"] },
+          "required": { "type": "boolean", "description": "If true, Test-ModSetup fails when it's missing." },
+          "dependsOn": { "type": "array", "items": { "type": "string" } },
+          "conflictsWith": { "type": "array", "items": { "type": "string" } },
+          "testedGameVersion": { "type": "string", "description": "Game version you've confirmed this mod works on." },
+          "modVersion": { "type": "string" },
+          "detect": {
+            "type": "object",
+            "description": "Paths relative to the game folder. Wildcards allowed.",
+            "properties": {
+              "paths": { "type": "array", "items": { "type": "string" }, "description": "All must exist." },
+              "anyOf": { "type": "array", "items": { "type": "string" }, "description": "At least one must exist." }
+            },
+            "additionalProperties": false
+          },
+          "logFiles": { "type": "array", "items": { "type": "string" }, "description": "Extra log files Get-ModLogs.ps1 should collect." },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

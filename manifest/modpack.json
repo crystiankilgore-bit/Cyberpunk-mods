@@ -1,0 +1,24 @@
+{
+  "$schema": "./schema/modpack.schema.json",
+  "name": "Night City Overhaul",
+  "description": "Large Cyberpunk 2077 modpack (1000+ mods) targeting game version 2.5.",
+  "targetGameVersion": "2.5",
+  "expectedExeVersion": "",
+  "expectedExeVersionNote": "Leave empty until you've confirmed a working setup. Then run scripts/Test-ModSetup.ps1, copy the ProductVersion it prints, and paste it here. After that the script warns you whenever a game patch changes the exe.",
+  "modManager": "Vortex",
+  "backupDir": "",
+  "categories": [
+    { "file": "00-frameworks.json",       "title": "Frameworks & core libraries", "installOrder": 0 },
+    { "file": "10-fixes-performance.json","title": "Fixes & performance",         "installOrder": 1 },
+    { "file": "20-ui-hud.json",           "title": "UI, HUD & menus",             "installOrder": 2 },
+    { "file": "30-gameplay.json",         "title": "Gameplay & balance",          "installOrder": 3 },
+    { "file": "40-combat-weapons.json",   "title": "Combat & weapons",            "installOrder": 4 },
+    { "file": "50-vehicles.json",         "title": "Vehicles & driving",          "installOrder": 5 },
+    { "file": "60-world-npcs.json",       "title": "World, NPCs & crowds",        "installOrder": 6 },
+    { "file": "70-graphics-lighting.json","title": "Graphics, lighting & weather","installOrder": 7 },
+    { "file": "80-appearance.json",       "title": "Character, clothing & appearance", "installOrder": 8 },
+    { "file": "85-audio-radio.json",      "title": "Audio & radio",               "installOrder": 9 },
+    { "file": "90-quests-content.json",   "title": "Quests & new content",        "installOrder": 10 },
+    { "file": "99-personal.json",         "title": "Personal tweaks & overrides (load last)", "installOrder": 11 }
+  ]
+}

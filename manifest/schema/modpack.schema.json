@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Modpack settings",
+  "type": "object",
+  "required": ["name", "targetGameVersion", "categories"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "targetGameVersion": { "type": "string" },
+    "expectedExeVersion": { "type": "string" },
+    "expectedExeVersionNote": { "type": "string" },
+    "modManager": { "enum": ["Vortex", "MO2", "Manual"] },
+    "backupDir": { "type": "string", "description": "Where Backup-Game.ps1 writes backups. Empty = <repo>/backups." },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["file", "title"],
+        "properties": {
+          "file": { "type": "string" },
+          "title": { "type": "string" },
+          "installOrder": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

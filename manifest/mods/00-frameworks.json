@@ -1,0 +1,99 @@
+{
+  "$schema": "../schema/mod-list.schema.json",
+  "category": "Frameworks & core libraries",
+  "mods": [
+    {
+      "id": "red4ext",
+      "name": "RED4ext",
+      "nexusId": 2380,
+      "priority": "core",
+      "required": true,
+      "detect": { "paths": ["red4ext/RED4ext.dll", "bin/x64/winmm.dll"] },
+      "logFiles": ["red4ext/logs/*.log"],
+      "notes": "Native plugin loader. ArchiveXL, TweakXL, Codeware and most DLL mods need it. Usually breaks on every game patch, so update it first."
+    },
+    {
+      "id": "cet",
+      "name": "Cyber Engine Tweaks",
+      "nexusId": 107,
+      "priority": "core",
+      "required": true,
+      "detect": { "paths": ["bin/x64/plugins/cyber_engine_tweaks.asi"] },
+      "logFiles": ["bin/x64/plugins/cyber_engine_tweaks/cyber_engine_tweaks.log", "bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log"],
+      "notes": "Lua scripting + in-game overlay. Must match the exact game version."
+    },
+    {
+      "id": "redscript",
+      "name": "redscript",
+      "nexusId": 1511,
+      "priority": "core",
+      "required": true,
+      "detect": { "anyOf": ["engine/tools/scc.exe", "engine/tools/scc_lib.dll"] },
+      "logFiles": ["r6/logs/redscript*.log"],
+      "notes": "Script compiler. Compile errors show up in r6/logs/redscript_rCURRENT.log and usually point at the broken mod."
+    },
+    {
+      "id": "archivexl",
+      "name": "ArchiveXL",
+      "nexusId": 4198,
+      "priority": "core",
+      "required": true,
+      "dependsOn": ["red4ext"],
+      "detect": { "paths": ["red4ext/plugins/ArchiveXL/ArchiveXL.dll"] },
+      "logFiles": ["red4ext/plugins/ArchiveXL/*.log"],
+      "notes": "Needed by almost every clothing, appearance and new-item mod."
+    },
+    {
+      "id": "tweakxl",
+      "name": "TweakXL",
+      "nexusId": 4197,
+      "priority": "core",
+      "required": true,
+      "dependsOn": ["red4ext"],
+      "detect": { "paths": ["red4ext/plugins/TweakXL/TweakXL.dll"] },
+      "logFiles": ["red4ext/plugins/TweakXL/*.log"],
+      "notes": "Loads .yaml/.tweak files from r6/tweaks. Needed by most item, weapon and balance mods."
+    },
+    {
+      "id": "codeware",
+      "name": "Codeware",
+      "nexusId": 7780,
+      "priority": "core",
+      "required": true,
+      "dependsOn": ["red4ext", "redscript"],
+      "detect": { "paths": ["red4ext/plugins/Codeware/Codeware.dll"] },
+      "logFiles": ["red4ext/plugins/Codeware/*.log"],
+      "notes": "Scripting library many redscript mods depend on."
+    },
+    {
+      "id": "native-settings-ui",
+      "name": "Native Settings UI",
+      "nexusId": 3518,
+      "priority": "core",
+      "required": false,
+      "dependsOn": ["cet"],
+      "detect": { "paths": ["bin/x64/plugins/cyber_engine_tweaks/mods/nativeSettings/init.lua"] },
+      "notes": "Adds mod options to the in-game Settings menu for CET mods."
+    },
+    {
+      "id": "mod-settings",
+      "name": "Mod Settings",
+      "nexusId": 4885,
+      "priority": "core",
+      "required": false,
+      "dependsOn": ["red4ext", "redscript"],
+      "detect": { "anyOf": ["red4ext/plugins/mod_settings/mod_settings.dll", "red4ext/plugins/mod_settings"] },
+      "notes": "Settings menu for redscript mods."
+    },
+    {
+      "id": "input-loader",
+      "name": "Input Loader",
+      "nexusId": 4575,
+      "priority": "core",
+      "required": false,
+      "dependsOn": ["red4ext"],
+      "detect": { "anyOf": ["red4ext/plugins/input_loader/input_loader.dll", "red4ext/plugins/input_loader"] },
+      "notes": "Lets mods add their own key bindings."
+    }
+  ]
+}
