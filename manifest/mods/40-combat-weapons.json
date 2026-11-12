@@ -27,7 +27,8 @@
         "variants": 2
       },
       "summary": "17 new iconic weapons throughout NC. New appearances, new visual effects, never-seen-before original gameplay effects and weapon types.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "jarngreipr-lightning-projectile-launcher",
@@ -61,7 +62,8 @@
           "r6/tweaks/SeijaxCyberware/Jarngreipr.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "sabbath7991-weapon-and-attachment-shops-virtual",
@@ -89,7 +91,8 @@
         "variants": 2
       },
       "summary": "Storefront for all my weapon and attachment mods",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "gorilla-grapple",
@@ -122,7 +125,8 @@
           "r6/tweaks/Gorilla_Grapple/Gorilla_Grapple.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "midnight-arms-ma70-bsg-smart-lmg",
@@ -154,7 +158,8 @@
           "r6/tweaks/BuffsSmartLMG/Buffssmartlmg_Npc_Stats.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "mox-cache-new-iconic-weapons",
@@ -188,74 +193,8 @@
           "r6/tweaks/misoru_cache_mox/misoru_cache_mox_glam.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "better-chimera-mods",
-      "name": "Better Chimera Mods",
-      "nexusId": 18209,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "redscript",
-        "tweakxl"
-      ],
-      "author": "Seijax",
-      "endorsements": 1379,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 100251,
-        "name": "Firecracker",
-        "version": "1.1.1",
-        "uploaded": "2025-02-02",
-        "variants": 2
-      },
-      "summary": "Half the options had limited usability. Reworked their implementation to make them more universally appealing options.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/BetterChimeraMods.archive",
-          "r6/scripts/ApplyQuickhackWithRoFScalingEffector.reds",
-          "r6/tweaks/BetterChimeraMods/!Firecracker.yaml"
-        ]
-      },
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "nomad-cache-new-iconic-weapons",
-      "name": "Nomad Cache - New Iconic Weapons",
-      "nexusId": 19234,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "red4ext",
-        "redscript",
-        "trigger-mode-control",
-        "tweakxl"
-      ],
-      "author": "Misoru",
-      "endorsements": 1328,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 100028,
-        "name": "Nomad Cache - New Iconic Weapons",
-        "version": "1.0.1",
-        "uploaded": "2025-01-31",
-        "variants": 1
-      },
-      "summary": "Adds three new Nomad-themed iconic weapons, each with custom appearance, effects, and world implementation.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/misoru_cache_nomad.archive",
-          "r6/scripts/misoru_cache_nomad/misoru_cache_nomad_effects.reds",
-          "r6/tweaks/misoru_cache_nomad/misoru_cache_nomad_infernal.yaml"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "dr-10-wormhole-smart-revolver",
@@ -287,7 +226,8 @@
           "r6/tweaks/DarraWormhole/Wormhole_NPC.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "militech-holosight",
@@ -342,7 +282,8 @@
           "archive/pc/mod/MT_Silencer.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "tyger-cache-new-iconic-weapons",
@@ -376,7 +317,8 @@
           "r6/tweaks/misoru_cache_tyger/misoru_cache_tyger_honor.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "ncpd-cache-new-iconic-weapons",
@@ -403,41 +345,8 @@
         "variants": 1
       },
       "summary": "Adds three new NCPD-themed iconic weapons, each with custom appearance, effects, and world implementation.",
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "ronin-new-iconic-weapon",
-      "name": "Ronin - New Iconic Weapon",
-      "nexusId": 18595,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "redscript",
-        "tweakxl",
-        "red4ext"
-      ],
-      "author": "Misoru",
-      "endorsements": 1116,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 102453,
-        "name": "Ronin - New Iconic Weapon",
-        "version": "1.0.1",
-        "uploaded": "2025-02-24",
-        "variants": 1
-      },
-      "summary": "Adds a new iconic variant of the Satara, including new appearance, new iconic ability, new visual effects, and custom implementation into the world.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/misoru_ronin.archive",
-          "r6/tweaks/misoru_ronin/misoru_ronin_weapon.yaml",
-          "r6/tweaks/misoru_ronin/misoru_ronin_world.yaml"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "animals-cache-new-iconic-weapons",
@@ -471,7 +380,8 @@
           "r6/tweaks/misoru_cache_animals/misoru_cache_animals_mako.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "jackie-s-machete-new-iconic-weapon",
@@ -505,7 +415,8 @@
           "r6/scripts/misoru_jackie_machete/misoru_smite_fpp.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "better-hmgs-heavy-machine-guns",
@@ -529,7 +440,8 @@
         "variants": 3
       },
       "summary": "Overhauled HMGs, made into a whole new gun. Can equip them and store them. No overheating. Implemented reloading logic. Removed movement penalties. Modified spread and recoil stats, now using Defender's stats. They now use rifle ammo. Added",
-      "notes": "3 main-file variants on Nexus - pick one."
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one."
     },
     {
       "id": "biotechnica-cache-new-iconic-weapons",
@@ -556,7 +468,8 @@
         "variants": 1
       },
       "summary": "Adds three new Biotechnica-themed iconic weapons, each with custom appearance, effects, and world implementation.",
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "rostovic-koplje-smart-precision-rifle",
@@ -588,7 +501,8 @@
           "r6/tweaks/RostovicKoplje/Koplje_NPC.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "cronos-new-iconic-weapon",
@@ -619,7 +533,8 @@
           "archive/pc/mod/Cronos.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "buzzsaw-vfx-fix",
@@ -647,7 +562,8 @@
           "r6/tweaks/Buzzsaw VFX Fix/Items.Preset_Pulsar_Buzzsaw_inline3.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "hk416-m4-xm7-with-custom-attachments",
@@ -678,7 +594,8 @@
           "archive/pc/mod/HK416.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "militech-sight-pack",
@@ -710,67 +627,8 @@
           "archive/pc/mod/Militech_Holo_Sight.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "judgment-day-iconic-defender",
-      "name": "Judgment Day - Iconic Defender",
-      "nexusId": 4918,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "tweakxl"
-      ],
-      "author": "apart",
-      "endorsements": 730,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 97720,
-        "name": "Judgment Day - Iconic Defender",
-        "version": "2.2",
-        "uploaded": "2025-01-12",
-        "variants": 1
-      },
-      "summary": "Adds an iconic Constitutional Arms M2067 Defender to the game based on 80's and 90's era action movies.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/apart_Judgment_Day.archive",
-          "r6/tweaks/apart_Judgment_Day/apart_Judgment_Day.yaml",
-          "archive/pc/mod/apart_Judgment_Day.xl"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "integrated-suppressor-for-ashura-smart-rifle",
-      "name": "Integrated Suppressor for Ashura Smart Rifle",
-      "nexusId": 7919,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "tweakxl"
-      ],
-      "author": "Stokes52",
-      "endorsements": 721,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 42157,
-        "name": "V1.1 - Ashura Smart Rifle - Integrated Suppressor",
-        "version": "1.1",
-        "uploaded": "2023-04-06",
-        "variants": 1
-      },
-      "summary": "Makes the Ashura Smart Sniper Rifle silenced/suppressed by default.",
-      "detect": {
-        "anyOf": [
-          "r6/tweaks/suppressed_ashura/suppressed_ashura.yaml"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "plan-c",
@@ -798,37 +656,6 @@
       "summary": "Dex's Gun? V's Gun."
     },
     {
-      "id": "iconic-cyberarm-pack",
-      "name": "Iconic Cyberarm Pack",
-      "nexusId": 11504,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "tweakxl",
-        "archivexl"
-      ],
-      "author": "Tron-117",
-      "endorsements": 700,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 61359,
-        "name": "Iconic Cyberarm Pack (Proper Attunements)",
-        "version": "1.1",
-        "uploaded": "2023-12-17",
-        "variants": 2
-      },
-      "summary": "This pack adds an iconic variant for each arm cyberware in the game!",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Iconic Cyberarm Pack.archive",
-          "r6/tweaks/Iconic Cyberarm Pack/Dynalar Gorilla Arms.yaml",
-          "r6/tweaks/Iconic Cyberarm Pack/Higurashi Mantis Blades.yaml"
-        ]
-      },
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "slaught-o-matic-platinum",
       "name": "Slaught-O-Matic Platinum",
       "nexusId": 14004,
@@ -851,7 +678,8 @@
         "variants": 2
       },
       "summary": "Congratulations, Valued Customer. Budget Arms™ has stocked a new product.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "slaught-o-matic-qol",
@@ -906,7 +734,8 @@
           "r6/tweaks/AK_Pack/AK47_Black_Cat.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one."
     },
     {
       "id": "black-budget-classified-limbs-iconic-cyberarms-p",
@@ -933,7 +762,8 @@
         "variants": 1
       },
       "summary": "Adds 21 Iconic cyberarms across Mantis Blades, Gorilla Arms, Monowire, and Projectile Launcher, each with a clear, build-defining effect.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "desert-eagle",
@@ -964,7 +794,8 @@
           "archive/pc/mod/Desert_Eagle.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "malorian-silverhand-attachment-fix",
@@ -989,68 +820,8 @@
           "archive/pc/mod/malorian_scope_fix.archive"
         ]
       },
-      "notes": "Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "devil-sword-vergil-archivexl",
-      "name": "Devil Sword Vergil - ArchiveXL",
-      "nexusId": 13388,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "tweakxl",
-        "red4ext",
-        "manavortex-atelier-store"
-      ],
-      "author": "manavortex",
-      "endorsements": 621,
-      "nexusCategory": "Weapons",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 135811,
-        "name": "manavortex_weapon_devil_sword_vergil",
-        "version": "2.0.3",
-        "uploaded": "2026-02-12",
-        "variants": 1
-      },
-      "summary": "Adds the Devil Sword Vergil as a new standalone iconic katana in three variants: glow / no glow / sheathed. Electric damage and extra bleeding chance.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/vergil_devil_katana.archive",
-          "r6/tweaks/manavortex/vergil_devil_katana.yaml",
-          "archive/pc/mod/vergil_devil_katana.archive.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "tartarus-custom-malorian-3516-blackwall",
-      "name": "Tartarus - Custom Malorian 3516 (Blackwall)",
-      "nexusId": 16000,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "better-chimera-mods",
-        "cet",
-        "malorian-silverhand-attachment-fix",
-        "tweakxl",
-        "trigger-mode-control"
-      ],
-      "author": "ARegularBlueSlime",
-      "endorsements": 600,
-      "nexusCategory": "Weapons",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 168383,
-        "name": "Tartarus 3516 1.1.5 - Two modslots and attachments",
-        "version": "1.1.5",
-        "uploaded": "2026-10-25",
-        "variants": 3
-      },
-      "summary": "Adds a new variant of the Malorian 3516 with the Blackwall effect alongside maintaining the original iconic modifiers of the Malorian (and restoring wall pierce and preview).Optional mod slot addons in download.",
-      "notes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "enhanced-overwatch",
@@ -1078,7 +849,8 @@
           "r6/tweaks/Overwatch_Enhanced.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "xpr-50-sniper-rifle",
@@ -1110,7 +882,8 @@
           "archive/pc/mod/XPR_50.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "suppressor-pack",
@@ -1142,7 +915,8 @@
           "r6/tweaks/Suppressor Pack/Suppressor_Pack_Legendary.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "pistol-pack",
@@ -1173,7 +947,8 @@
           "archive/pc/mod/CZ75_Automatic_Extended.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "shuriken-tornado-grenade",
@@ -1207,7 +982,8 @@
           "r6/tweaks/misoru_tornado/misoru_tornado.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "awsc-advanced-weapon-stat-customization-0-7-1-ma",
@@ -1263,7 +1039,8 @@
           "archive/pc/mod/Iconic_BSG.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "suppressor-pack-2",
@@ -1295,7 +1072,8 @@
           "r6/tweaks/Suppressor Pack 2/Suppressor_Pack_2_Legendary.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "kunai-throwable-naruto-ninja-knife",
@@ -1328,26 +1106,8 @@
           "archive/pc/mod/kunai.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "driver-sawedoffs-redmod",
-      "name": "Driver Sawedoffs (Redmod)",
-      "nexusId": 11199,
-      "priority": "optional",
-      "required": false,
-      "author": "ThinRedPaste",
-      "endorsements": 416,
-      "nexusCategory": "Weapons",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 58792,
-        "name": "Driver Sawedoffs",
-        "version": "1",
-        "uploaded": "2023-11-24",
-        "variants": 1
-      },
-      "summary": "Adds the tags required to use the Palica and Testera shotguns from cars and bikes."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "pistol-pack-4",
@@ -1379,65 +1139,8 @@
           "archive/pc/mod/Glock19_NCS.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "tron-identity-disk-weapon-addition",
-      "name": "TRON Identity Disk - Weapon Addition",
-      "nexusId": 12640,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "red4ext",
-        "tweakxl",
-        "manavortex-atelier-store"
-      ],
-      "author": "manavortex and DBK",
-      "endorsements": 393,
-      "nexusCategory": "Weapons",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 151513,
-        "name": "manavortex_weapon_tron_disk",
-        "version": "1.1.4",
-        "uploaded": "2026-07-09",
-        "variants": 1
-      },
-      "summary": "Adds the Tron Identity Disk as a throwable weapon in 7 shades of neon.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/weapon_tron_disk.archive",
-          "r6/tweaks/manavortex/tron_disk.yaml",
-          "archive/pc/mod/weapon_tron_disk.archive.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "all-iconic-melee-with-mod-slots-blades-blunt-thr",
-      "name": "All Iconic Melee with Mod Slots ( Blades - Blunt - Throwable )",
-      "nexusId": 13835,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "tweakxl",
-        "red4ext"
-      ],
-      "author": "GamingModsOn",
-      "endorsements": 383,
-      "nexusCategory": "Weapons",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 83591,
-        "name": "IconicMeleeWithModSlots",
-        "version": "1.1",
-        "uploaded": "2024-07-28",
-        "variants": 1
-      },
-      "summary": "Added MOD SLOTS to all Iconic Blades, Blunt and Throwable weapons."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "colt-python-357-magnum",
@@ -1468,7 +1171,8 @@
           "archive/pc/mod/Colt_Python.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "malorian-3516-v",
@@ -1492,7 +1196,8 @@
         "variants": 2
       },
       "summary": "Adds custom V's commissioned Malorian 3516. Custom and original model included.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "midnight-arms-gravemaker",
@@ -1526,41 +1231,8 @@
           "r6/tweaks/MidnightArms Gravemaker/MidnightArms_CyberopticEX.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "over-600-shuriken-archivexl-weapons-amm-spawnabl",
-      "name": "over 600 shuriken - ArchiveXL weapons - AMM spawnable props",
-      "nexusId": 13542,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "tweakxl",
-        "virtual-atelier",
-        "loot-icons-extension"
-      ],
-      "author": "manavortex",
-      "endorsements": 369,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 104082,
-        "name": "manavortex_weapon_shuriken",
-        "version": "1.3.0",
-        "uploaded": "2025-03-16",
-        "variants": 1
-      },
-      "summary": "The last shuriken mod that you could possibly need: 21 lore-accurate* shuriken shapes in 4 material variants and 7 different glow variants (or no glow at all). Unleash your inner ninja!",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/weapons_shuriken.archive",
-          "r6/tweaks/manavortex/shuriken.yaml",
-          "archive/pc/mod/weapon_shuriken.archive.xl"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one."
     },
     {
       "id": "requiem-revolver-from-re9",
@@ -1593,7 +1265,8 @@
           "r6/tweaks/Requiem RE9/Requiem_Black_Recipes.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 10 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 10 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 10 main-file variants on Nexus - pick one."
     },
     {
       "id": "arasaka-jsh-x12-nobunaga",
@@ -1626,7 +1299,8 @@
           "archive/pc/mod/Arasaka_Nobunaga_Suppressor.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "enhanced-byakko",
@@ -1654,7 +1328,8 @@
           "r6/tweaks/Byako_Enhanced.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one."
     },
     {
       "id": "hk-usp-tactical-archivexl",
@@ -1686,38 +1361,8 @@
           "archive/pc/mod/Camellia USP.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "edge-of-red-mantis-blades-iconic-cyberware",
-      "name": "Edge Of Red Mantis Blades (Iconic Cyberware)",
-      "nexusId": 10659,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "tweakxl",
-        "archivexl"
-      ],
-      "author": "Tron-117",
-      "endorsements": 344,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 60573,
-        "name": "Psycho Blades",
-        "version": "1.2",
-        "uploaded": "2023-12-09",
-        "variants": 1
-      },
-      "summary": "Adds a set of iconic mantis blades to the game. Its special perk has a chance to trigger Fury (Cyberpsychosis) on a kill, the duration resetting with each kill!",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Pyscho Blades.archive",
-          "r6/tweaks/Psycho Blades/psychoblade.yaml",
-          "archive/pc/mod/psychoblades.archive.xl"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "projectile-launcher-tweaks",
@@ -1772,7 +1417,8 @@
           "r6/tweaks/Standard_Katana_Recipes.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 13 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 13 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 13 main-file variants on Nexus - pick one."
     },
     {
       "id": "enhanced-skippy-and-genjiroh",
@@ -1801,40 +1447,8 @@
           "r6/tweaks/EnhancedSkippy_Main.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "archive-xl-zarroc",
-      "name": "Archive XL - ZarRoc",
-      "nexusId": 9756,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "tweakxl",
-        "red4ext",
-        "cet"
-      ],
-      "author": "manavortex and Leiptr",
-      "endorsements": 318,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 70717,
-        "name": "manavortex_weapon_zarroc",
-        "version": "1.1.0",
-        "uploaded": "2024-03-05",
-        "variants": 1
-      },
-      "summary": "Adds Zar'roc as a katana variant",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/zarroc.archive",
-          "r6/tweaks/manavortex/zarroc.yaml",
-          "archive/pc/mod/zarroc.archive.xl"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "beretta-92fs-m9-unity-and-liberty-pistol-replace",
@@ -1864,7 +1478,8 @@
           "r6/tweaks/WhiteCamellia/Beretta Unity and Liberty Replacer/Beretta_Unity_Liberty_Replacer_Menu_Icons.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "true-pax-mod",
@@ -1892,7 +1507,8 @@
           "r6/scripts/TruePaxMod.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "night-city-optics-pack",
@@ -1924,7 +1540,8 @@
           "r6/tweaks/Night City Optics/Arasaka_ELO.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "john-wick-glock-34-tti-combat-master-package",
@@ -1956,7 +1573,8 @@
           "archive/pc/mod/glock_34.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "mk-78-saw",
@@ -1988,38 +1606,8 @@
           "r6/tweaks/MK78_SAW/MK78_SAW_Recipes.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "burst-fire-to-full-automatic-conversions",
-      "name": "Burst Fire to Full Automatic Conversions",
-      "nexusId": 15733,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "tweakxl",
-        "trigger-mode-control"
-      ],
-      "author": "GillBate5",
-      "endorsements": 281,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 82257,
-        "name": "Full Automatic Conversions",
-        "version": "1.0",
-        "uploaded": "2024-07-12",
-        "variants": 1
-      },
-      "summary": "Changes vanilla rifles that were on burst fire to full automatic",
-      "detect": {
-        "anyOf": [
-          "r6/tweaks/full-auto_conversions/Masamune_Auto.yaml",
-          "r6/tweaks/full-auto_conversions/Nowaki_Auto.yaml",
-          "r6/tweaks/full-auto_conversions/Shingen_Auto.yaml"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "skippy-chan-weapon-skin",
@@ -2077,7 +1665,8 @@
           "r6/tweaks/Akita Shotgun/AkitaXC_Shotgun.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "d-101-longbow-dmr",
@@ -2109,7 +1698,8 @@
           "archive/pc/mod/Longbow_DMR_Suppressor.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "militech-lmg-pack",
@@ -2141,7 +1731,8 @@
           "archive/pc/mod/Militech_MG249.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "kraken-a-truly-silent-sniper-rifle",
@@ -2173,42 +1764,8 @@
           "r6/tweaks/Kraken/Items.m1klos_Kraken_Blueprint.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "kunai-2-0-customizable-throwable-ninja-weapon",
-      "name": "Kunai 2_0 - customizable throwable ninja weapon",
-      "nexusId": 15988,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "over-600-shuriken-archivexl-weapons-amm-spawnabl",
-        "red4ext",
-        "tweakxl",
-        "virtual-atelier",
-        "manavortex-material-library"
-      ],
-      "author": "manavortex",
-      "endorsements": 269,
-      "nexusCategory": "Weapons",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 140316,
-        "name": "manavortex_kunai_2_0",
-        "version": "1.1.1",
-        "uploaded": "2026-03-23",
-        "variants": 1
-      },
-      "summary": "A new kunai with five base metals and three different hilts. Pick your own custom inlay from 20 different options, glowing and semi-transparent glass!",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/kunai_2_0.archive",
-          "r6/tweaks/manavortex/kunai_2_0.yaml",
-          "archive/pc/mod/weapon_kunai_2_0.archive.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "pistol-pack-5",
@@ -2241,7 +1798,8 @@
           "r6/tweaks/Pistol Pack 5/SamuraiEagle_Recipes.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one."
     },
     {
       "id": "ranger-combat-boomerang",
@@ -2299,7 +1857,8 @@
           "archive/pc/mod/BigGun_MT30.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 6 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 6 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 6 main-file variants on Nexus - pick one."
     },
     {
       "id": "striker-smg",
@@ -2331,7 +1890,74 @@
           "archive/pc/mod/Striker_SMG_NightCity_Suppressor.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "cz-scorpion-evo-3-s1",
+      "name": "CZ Scorpion EVO 3 S1",
+      "nexusId": 14655,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 239,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 123705,
+        "name": "CZ Scorpion EVO 3 - No Stock - 4K Textures",
+        "version": "1.1",
+        "uploaded": "2025-10-05",
+        "variants": 4
+      },
+      "summary": "CZ Scorpion EVO 3 S1",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/CZ_Evo3.archive",
+          "r6/tweaks/CZ_Evo3.yaml",
+          "archive/pc/mod/CZ_Evo3.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "militech-ajax-classic",
+      "name": "Militech Ajax Classic",
+      "nexusId": 25075,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 232,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 159377,
+        "name": "Ajax Classic - Both Versions",
+        "version": "1.4",
+        "uploaded": "2026-09-06",
+        "variants": 3
+      },
+      "summary": "The Ajax you deserve",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Militech_Ajax_Classic.archive",
+          "archive/pc/mod/Militech_Ajax_Classic_4xScope.archive",
+          "archive/pc/mod/Militech_Ajax_Classic_Holo.archive"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one."
     },
     {
       "id": "heavy-machine-guns-audio-bug-fix-hmg-overheat-mi",
@@ -2356,7 +1982,111 @@
           "archive/pc/mod/hmgMissingOverheatSoundsFix.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "more-low-level-weapons",
+      "name": "More Low Level Weapons",
+      "nexusId": 24794,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "native-settings-ui",
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "Charred Dusk",
+      "endorsements": 227,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 123675,
+        "name": "More Low Level Weapons",
+        "version": "1.0.0",
+        "uploaded": "2025-10-05",
+        "variants": 1
+      },
+      "summary": "Lift restriction on NPC weapon pools preventing some weapons from showing up after levels 17/33.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/MoreLowLevelWeapons/Character.AnimalsPrimaryHandgunPool_inline0.yaml",
+          "r6/tweaks/MoreLowLevelWeapons/Character.AnimalsPrimaryHandgunPool_inline10.yaml",
+          "r6/tweaks/MoreLowLevelWeapons/Character.AnimalsPrimaryHandgunPool_inline12.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "militech-ajax-raptor",
+      "name": "Militech Ajax Raptor",
+      "nexusId": 26070,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 224,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 130052,
+        "name": "Ajax Raptor",
+        "version": "1.1",
+        "uploaded": "2025-12-16",
+        "variants": 1
+      },
+      "summary": "An Ajax variant based off the Aklys Defense Velociraptor",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Militech_Ajax_Raptor.archive",
+          "r6/tweaks/Militech Ajax Raptor/Militech_Ajax_Raptor.yaml",
+          "r6/tweaks/Militech Ajax Raptor/Militech_Ajax_Raptor_Recipes.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "pump-action-shotgun-pack",
+      "name": "Pump Action Shotgun Pack",
+      "nexusId": 31621,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "archivexl",
+        "tweakxl",
+        "trigger-mode-control",
+        "unlocked-attachments-suppressor-fix"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 219,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 152389,
+        "name": "Pump Action Shotgun Pack",
+        "version": "1.1",
+        "uploaded": "2026-07-17",
+        "variants": 14
+      },
+      "summary": "12 pump action shotguns",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Pump_Shotgun_Pack.archive",
+          "r6/tweaks/Pump Action Shotgun Pack/FS12_Shotgun.yaml",
+          "r6/tweaks/Pump Action Shotgun Pack/FS12_Shotgun_Recipes.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 14 main-file variants on Nexus - pick one."
     },
     {
       "id": "ha-4-grit-rail-fix",
@@ -2384,7 +2114,746 @@
           "archive/pc/mod/XIII_Grit rail fix.archive"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "supressor-replacer-for-xc-10-strix",
+      "name": "supressor replacer for XC-10 Strix",
+      "nexusId": 16627,
+      "priority": "optional",
+      "required": false,
+      "author": "SHINOBI10",
+      "endorsements": 217,
+      "nexusCategory": "Weapons",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 87085,
+        "name": "mod file",
+        "version": "1.0",
+        "uploaded": "2024-09-15",
+        "variants": 1
+      },
+      "summary": "replacer for XC-10 Strix",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/silencerer_replace.archive"
+        ]
+      }
+    },
+    {
+      "id": "kolac-expanded",
+      "name": "Kolac Expanded",
+      "nexusId": 24491,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext",
+        "tweakxl",
+        "codeware"
+      ],
+      "author": "Emperia",
+      "endorsements": 216,
+      "nexusCategory": "Weapons",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173014,
+        "name": "Kolac Expanded",
+        "version": "1.4",
+        "uploaded": "2026-11-03",
+        "variants": 1
+      },
+      "summary": "Adds non iconic and X-Mod2 variants of the Kolac to weapon vendors & enemy pools"
+    },
+    {
+      "id": "midnight-arms-nyx-13",
+      "name": "Midnight Arms NYX-13",
+      "nexusId": 24983,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "Emperia",
+      "endorsements": 215,
+      "nexusCategory": "Weapons",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173018,
+        "name": "NYX-13",
+        "version": "1.03",
+        "uploaded": "2026-11-03",
+        "variants": 1
+      },
+      "summary": "Adds the unused variants of the Erebus SMG, including a MaxTac iconic",
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "hk-ump-45-archivexl",
+      "name": "HK UMP 45 - ArchiveXL",
+      "nexusId": 14644,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "camellia-atelier",
+        "tweakxl"
+      ],
+      "author": "WhiteCamellia",
+      "endorsements": 212,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 154729,
+        "name": "Camellia UMP - ArchiveXL",
+        "version": "1.3",
+        "uploaded": "2026-08-04",
+        "variants": 1
+      },
+      "summary": "Adds 3 standalone UMP variants based on the UMP from CS:2",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Camellia UMP.archive",
+          "r6/tweaks/WhiteCamellia/Standalone UMP/Items.Camellia_UMP.yaml",
+          "r6/tweaks/WhiteCamellia/Standalone UMP/Items.Camellia_UMP_Olive.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "iwi-jericho-spike-s-pistol-cowboy-bebop",
+      "name": "IWI Jericho - Spike's Pistol - Cowboy Bebop",
+      "nexusId": 17495,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "camellia-atelier",
+        "tweakxl"
+      ],
+      "author": "WhiteCamellia",
+      "endorsements": 211,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 154710,
+        "name": "Camellia Jericho - Main File",
+        "version": "1.2",
+        "uploaded": "2026-08-04",
+        "variants": 1
+      },
+      "summary": "Adds a standalone pistol inspired by Cowboy Bebop",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Camellia Jericho - Main File.archive",
+          "r6/tweaks/WhiteCamellia/Standalone Jericho/Items.Camellia_Jericho.yaml",
+          "archive/pc/mod/Camellia Jericho.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "weapon-and-scope-skin-changer-plus-iconics-and-g",
+      "name": "Weapon and Scope Skin Changer Plus (Iconics and Gun Enhancements)",
+      "nexusId": 34227,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext",
+        "redscript",
+        "codeware",
+        "redfilesystem",
+        "tweakxl"
+      ],
+      "author": "gramersssss",
+      "endorsements": 207,
+      "nexusCategory": "Weapons",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176860,
+        "name": "SkinChangerPlus 1.7.7",
+        "version": "1.7.7",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "Change the skin of any weapon - iconics included - and the scope on it, from your inventory, from a grid of pictures. Plus upgrades: Tier 5++, Tier 5 scopes and muzzles, max-tier mods, up to 6 mod slots. Every game language."
+    },
+    {
+      "id": "ar-15-berserker-assault-rifle",
+      "name": "AR-15 Berserker Assault Rifle",
+      "nexusId": 34327,
+      "priority": "optional",
+      "required": false,
+      "author": "argisht",
+      "endorsements": 207,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 162826,
+        "name": "AR15-Berserker",
+        "version": "1.0.3",
+        "uploaded": "2026-09-27",
+        "variants": 1
+      },
+      "summary": "Iconic full-auto assault rifle with its own animations, removable LPVO, short can and long suppressor.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/AR15.archive",
+          "r6/tweaks/AR15.yaml",
+          "archive/pc/mod/AR15.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "mancinella-suppressor",
+      "name": "Mancinella Suppressor",
+      "nexusId": 24429,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "Emperia",
+      "endorsements": 203,
+      "nexusCategory": "Weapons",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172397,
+        "name": "Mancinella Suppressor",
+        "version": "1.02",
+        "uploaded": "2026-11-02",
+        "variants": 1
+      },
+      "summary": "Restores the unused Mancinella suppressor",
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "la-chingona-dorada-crit-damage",
+      "name": "La Chingona Dorada Crit Damage",
+      "nexusId": 13746,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "dnbnhlp",
+      "endorsements": 202,
+      "nexusCategory": "Weapons",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169914,
+        "name": "La Chingona Dorada Fix   TweakXL",
+        "version": "1.1.0",
+        "uploaded": "2026-10-28",
+        "variants": 1
+      },
+      "summary": "Make La Chingona Dorada (Jackie's Iconic) headshot increase Crit Damage instead of Crit Chance."
+    },
+    {
+      "id": "nokota-h-a-w-k-s-smart-rocket-launcher",
+      "name": "Nokota H.A.W.K.S. Smart Rocket Launcher",
+      "nexusId": 25012,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 201,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 127568,
+        "name": "Nokota H.A.W.K.S. - Balanced Version",
+        "version": "1.1",
+        "uploaded": "2025-11-15",
+        "variants": 2
+      },
+      "summary": "Homing Assault Weapon",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Nokota_HAWKS.archive",
+          "r6/tweaks/Nokota_HAWKS/Nokota_HAWKS.yaml",
+          "r6/tweaks/Nokota_HAWKS/Nokota_HAWKS_2x_Killshot.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "armatech-mk-1-rifle",
+      "name": "Armatech MK.1 Rifle",
+      "nexusId": 26071,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 200,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 129425,
+        "name": "Armatech MK.1",
+        "version": "1.2",
+        "uploaded": "2025-12-09",
+        "variants": 2
+      },
+      "summary": "Pre Militech rifle with two variants",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Armatech_MK1.archive",
+          "archive/pc/mod/Armatech_MK1_Sight.archive",
+          "archive/pc/mod/Armatech_MK1_Suppressor.archive"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "volk-tech-ak",
+      "name": "Volk Tech AK",
+      "nexusId": 17420,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "red4ext",
+        "archivexl"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 198,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 163497,
+        "name": "Volk AK",
+        "version": "2.0",
+        "uploaded": "2026-10-01",
+        "variants": 1
+      },
+      "summary": "from COD: IW",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Volk.archive",
+          "r6/tweaks/Volk AK/Volk.yaml",
+          "r6/tweaks/Volk AK/Volk_Dot_Sight.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "dual-wield",
+      "name": "Dual Wield",
+      "nexusId": 17006,
+      "priority": "optional",
+      "required": false,
+      "author": "Dante",
+      "endorsements": 195,
+      "nexusCategory": "Weapons",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 88646,
+        "name": "Dual Wield folder",
+        "version": "1.0",
+        "uploaded": "2024-10-06",
+        "variants": 2
+      },
+      "summary": "Adds Dual Wield for gun. The mod is no longer relevant; use this one instead https://www.nexusmods.com/cyberpunk2077/mods/34669",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/1.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "hk-usp-mk23-unity-pistol-replacer",
+      "name": "HK USP (MK23) - Unity Pistol Replacer",
+      "nexusId": 13602,
+      "priority": "optional",
+      "required": false,
+      "author": "WhiteCamellia",
+      "endorsements": 191,
+      "nexusCategory": "Weapons",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 71470,
+        "name": "USP - Unity no laser - Majesty with laser",
+        "version": "1.0",
+        "uploaded": "2024-03-14",
+        "variants": 4
+      },
+      "summary": "6 variants, optional laser module & optional black \"Her Majesty\" variant. Replaces the Unity.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/USP - Unity no laser - Majesty with laser.archive"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "4 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "all-foods-cache-new-iconic-weapons",
+      "name": "All Foods Cache - New Iconic Weapons",
+      "nexusId": 27974,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "better-slaught-o-matic",
+        "codeware",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "Misoru",
+      "endorsements": 189,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 140968,
+        "name": "All Foods Cache - New Iconic Weapons",
+        "version": "1.0.0",
+        "uploaded": "2026-04-01",
+        "variants": 1
+      },
+      "summary": "Adds three new All Foods-themed weapons (two iconics, one grenade), each with custom appearance, effects, and world implementation.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/misoru_cache_foods.archive",
+          "r6/scripts/misoru_cache_foods/misoru_foods_fpp.reds",
+          "r6/scripts/misoru_cache_foods/misoru_tomato.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "pistol-pack-6",
+      "name": "Pistol Pack 6",
+      "nexusId": 32496,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "tweakxl",
+        "archivexl"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 187,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 156134,
+        "name": "Pistol Pack 6",
+        "version": "1.2",
+        "uploaded": "2026-08-14",
+        "variants": 13
+      },
+      "summary": "another pack featuring 12 pistols",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Pistol_Pack_6.archive",
+          "r6/tweaks/Pistol Pack 6/Browning_HIPower.yaml",
+          "r6/tweaks/Pistol Pack 6/Browning_HIPower_Recipes.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 13 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 13 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "titanfall-weaponry",
+      "name": "Titanfall Weaponry",
+      "nexusId": 21587,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "red4ext",
+        "cet"
+      ],
+      "author": "Niko Beniko",
+      "endorsements": 185,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 123061,
+        "name": "Pistols",
+        "version": "1.0.2",
+        "uploaded": "2025-09-28",
+        "variants": 4
+      },
+      "summary": "Weapons from the Titanfall game universe",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/TF2_B3Wingman.archive",
+          "archive/pc/mod/TF2_P2016.archive",
+          "archive/pc/mod/TF2_RE45.archive"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "melee-weapon-pack-2",
+      "name": "Melee Weapon Pack 2",
+      "nexusId": 25846,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 185,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 163634,
+        "name": "00 Melee Pack 2",
+        "version": "1.1",
+        "uploaded": "2026-10-02",
+        "variants": 3
+      },
+      "summary": "features 17 melee weapons",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Melee_Pack_2.archive",
+          "r6/tweaks/Melee Pack 2/Double_Spear.yaml",
+          "r6/tweaks/Melee Pack 2/Double_Spear_Recipes.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "arasaka-shigure-ex",
+      "name": "Arasaka Shigure EX",
+      "nexusId": 23612,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "tweakxl",
+        "archivexl"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 184,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 120314,
+        "name": "Arasaka Shigure EX",
+        "version": "1.3",
+        "uploaded": "2025-09-05",
+        "variants": 1
+      },
+      "summary": "a better version of the Shigure",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Arasaka_Shigure_EX.archive",
+          "archive/pc/mod/Arasaka_Shigure_EX_Suppressor.archive",
+          "r6/tweaks/Arasaka_Shigure_EX.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "suppressors-from-bo7",
+      "name": "Suppressors from BO7",
+      "nexusId": 30013,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 182,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 146665,
+        "name": "BO7 Suppressors",
+        "version": "1.0",
+        "uploaded": "2026-05-26",
+        "variants": 1
+      },
+      "summary": "cod black ops 7 suppressors",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/BO7_Suppressors.archive",
+          "r6/tweaks/BO7 Suppressors/BO7_Monolithic_Pistol_Suppressor.yaml",
+          "r6/tweaks/BO7 Suppressors/BO7_Monolithic_Suppressor.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "kanetsugu-short-scope-enhancement",
+      "name": "Kanetsugu Short Scope Enhancement",
+      "nexusId": 14146,
+      "priority": "optional",
+      "required": false,
+      "author": "Metool",
+      "endorsements": 179,
+      "nexusCategory": "Weapons",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 74500,
+        "name": "Kanetsugu Short Scope Enhancement",
+        "version": "2.12",
+        "uploaded": "2024-04-10",
+        "variants": 1
+      },
+      "summary": "Enhances the short scope: Kanetsugu by replacing the aim-down-sights originally-offset reticle with a precise dot and crosshair.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Kanetsugu Short Scope Enhancement.archive"
+        ]
+      }
+    },
+    {
+      "id": "hitman-silverballer-and-black-lily",
+      "name": "Hitman - Silverballer and Black Lily",
+      "nexusId": 16363,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "sabbath7991",
+      "endorsements": 179,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 120431,
+        "name": "Black Lily Extended Mag",
+        "version": "1.1",
+        "uploaded": "2025-09-06",
+        "variants": 2
+      },
+      "summary": "\"I need to use the bathroom\"",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Hitman_Black_Lily.archive",
+          "archive/pc/mod/Hitman_Silverballer_Suppressor.archive",
+          "r6/tweaks/Hitman_Black_Lily.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "enhanced-lizzie",
+      "name": "Enhanced Lizzie",
+      "nexusId": 13708,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl"
+      ],
+      "author": "dnbnhlp",
+      "endorsements": 178,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 116696,
+        "name": "Enhanced Lizzie - Main",
+        "version": "1.1",
+        "uploaded": "2025-08-07",
+        "variants": 1
+      },
+      "summary": "Tweaks to Lizzie Iconic Tech Pistol to make it more viable in stealth and long range situations while still immersive and balanced (or create your own with easy to edit stats).",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/EnhancedLizzie.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "malorian-arms-blackwall",
+      "name": "Malorian Arms Blackwall",
+      "nexusId": 15951,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "yakuzadeso",
+      "endorsements": 177,
+      "nexusCategory": "Weapons",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 138443,
+        "name": "malorian arms blackwall",
+        "version": "1.0.0.7",
+        "uploaded": "2026-03-04",
+        "variants": 1
+      },
+      "summary": "Adds a blackwall variant of Silverhand's Malorian into the game.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Malorian_Arms_Blackwall.archive",
+          "r6/tweaks/MalorianArmsBlackwall/MalorianArmsBlackwall.yaml",
+          "archive/pc/mod/Malorian_Arms_Blackwall.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "metel-ironsight-adjustment",
+      "name": "Metel Ironsight Adjustment",
+      "nexusId": 22944,
+      "priority": "optional",
+      "required": false,
+      "author": "RSTeh",
+      "endorsements": 171,
+      "nexusCategory": "Weapons",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 115072,
+        "name": "Metel Ironsight Adjustment",
+        "version": "1.0",
+        "uploaded": "2025-07-26",
+        "variants": 1
+      },
+      "summary": "Centered ironsights",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Metel IronSight Fix.archive"
+        ]
+      },
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "kenshin-muzzle-fix",
@@ -2413,122 +2882,33 @@
           "archive/pc/mod/FIX_Kenshin_MuzPos.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
-      "id": "marauder-axes-blackwall-enabled",
-      "name": "Marauder Axes - Blackwall Enabled",
-      "nexusId": 16986,
+      "id": "better-slaught-o-matic",
+      "name": "Better Slaught-O-Matic",
+      "nexusId": 10886,
       "priority": "optional",
       "required": false,
       "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "tweakxl",
-        "manavortex-atelier-store"
-      ],
-      "author": "manavortex and anzac3rar",
-      "endorsements": 139,
-      "nexusCategory": "Weapons",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 149638,
-        "name": "weapon_marauder_axes",
-        "version": "1.0.1",
-        "uploaded": "2026-06-24",
-        "variants": 1
-      },
-      "summary": "Adds two new weapons: a battleaxe and a throwable hatchet. Marauder (Doom Style), infused by otherworldly energies (just kidding, infused by the Blackwall)",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/doom_axes.archive",
-          "r6/tweaks/manavortex/doom_axes.yaml",
-          "archive/pc/mod/doom_axes.archive.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "minecraft-throwable-weapons",
-      "name": "Minecraft Throwable Weapons",
-      "nexusId": 12744,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "tweakxl",
-        "red4ext",
         "cet",
-        "manavortex-atelier-store"
+        "redscript"
       ],
-      "author": "manavortex and RockSocks",
-      "endorsements": 107,
-      "nexusCategory": "Weapons",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 66856,
-        "name": "manavortex_weapons_minecraft",
-        "version": "1.0.0",
-        "uploaded": "2024-02-02",
-        "variants": 1
-      },
-      "summary": "Diamonds are a merc's best friend, especially when they have <5 karat and sharp edges. Four brand-new throwable weapons, straight outta Minecraft: Pickaxe, Axe, Showel, and Sword.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/minecraft_weapons.archive",
-          "r6/tweaks/manavortex/minecraft_weapons.yaml",
-          "archive/pc/mod/minecraft_weapons.archive.xl"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "blackwall-monowire-arasakacyberarm-add-on",
-      "name": "Blackwall Monowire - ArasakaCyberarm Add-on",
-      "nexusId": 17173,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "arasaka-cyberarms"
-      ],
-      "author": "Iwillbewarlock",
-      "endorsements": 99,
+      "author": "yakuzadeso",
+      "endorsements": 149,
       "nexusCategory": "Weapons",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 173220,
-        "name": "Blackwall Monowire",
-        "version": "1.2-2.5",
-        "uploaded": "2026-11-03",
+        "fileId": 168756,
+        "name": "BetterSlaughtomatic",
+        "version": "1.0.0.6",
+        "uploaded": "2026-10-26",
         "variants": 1
       },
-      "summary": "The power of the Blackwall into the Monowire. It applies well to female V as well. Add-on of Arasaka Cyberarm",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "monowire-palette-arasakacyberarm-add-on",
-      "name": "Monowire palette - ArasakaCyberarm Add-on",
-      "nexusId": 17280,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "arasaka-cyberarms",
-        "archivexl"
-      ],
-      "author": "Iwillbewarlock",
-      "endorsements": 82,
-      "nexusCategory": "Weapons",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 170788,
-        "name": "Monowire palette - ArasakaCyberarm Add-on",
-        "version": "3.2-2.5",
-        "uploaded": "2026-10-30",
-        "variants": 1
-      },
-      "summary": "Create colors that weren't handled in the Arasaka Cyberarm.If you have a specific color in mind, feel free to make a request.",
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "summary": "Slaughtomatic now uses Handgun ammo, won't get discarded on empty mag and has a custom reloading system.",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "supressed-breakthrough",
@@ -2554,7 +2934,8 @@
         "variants": 1
       },
       "summary": "Adds a muzzle attachment slot to the iconic Breakthrough sniper rifle while also ensuring the scope stays on.",
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     }
   ]
 }

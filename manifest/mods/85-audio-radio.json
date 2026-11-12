@@ -25,7 +25,8 @@
         "variants": 1
       },
       "summary": "Transform Night City into a true multicultural hub! Cosmopolitan Night City changes the language spoken by many NPCs, and lets you choose exactly who is affected, directly in game. Includes full voice acting, lip-sync, Kiroshi translation",
-      "notes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
     },
     {
       "id": "80-s-retrowave-synthwave-radio-with-female-dj-vo",
@@ -77,7 +78,8 @@
         "variants": 2
       },
       "summary": "This mod allows you to simply skip the current song playing on the radio by pressing a button of your choosing.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "infinitewave-car-sound-framework",
@@ -106,7 +108,8 @@
           "archive/pc/mod/#InfiniteWave.sc.archive"
         ]
       },
-      "notes": "4 main-file variants on Nexus - pick one."
+      "notes": "4 main-file variants on Nexus - pick one.",
+      "autoNotes": "4 main-file variants on Nexus - pick one."
     },
     {
       "id": "clean-voiceovers-while-zoomed-or-scanning",
@@ -134,7 +137,8 @@
           "archive/pc/mod/ZoomVoSfxRemover.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "judy-flirts-on-dates",
@@ -157,7 +161,8 @@
         "variants": 2
       },
       "summary": "Everything's alright, Judy.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "footsteps-sound-replacer-metallic-footsteps-evel",
@@ -206,7 +211,8 @@
           "archive/pc/mod/###MuteMenuInventoryScanHummingHover.archive"
         ]
       },
-      "notes": "4 main-file variants on Nexus - pick one."
+      "notes": "4 main-file variants on Nexus - pick one.",
+      "autoNotes": "4 main-file variants on Nexus - pick one."
     },
     {
       "id": "delete-a-few-weeks-tops-vik-voiceline",
@@ -253,7 +259,8 @@
         "variants": 1
       },
       "summary": "Give V a new mother tongue: Brazilian Portuguese, Mandarin Chinese, English, French, German, Italian, Japanese, Korean, Polish, or European Spanish. With voice&lipsync, Kiroshi translation for V’s dialogue, correct dialogue lenght, ono,",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "quiet-menus",
@@ -297,7 +304,8 @@
         "variants": 1
       },
       "summary": "Speak your native language with most NPCs, then switch to Japanese/Spanish/Brazilian/Chinese/French/Korean in select moments. Fully customizable, directly in game !",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "ariana-grande-ai-voice-over-for-female-v",
@@ -346,7 +354,8 @@
           "archive/pc/mod/audio_NoSoundFull_ii.archive"
         ]
       },
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "japanese-v",
@@ -487,7 +496,8 @@
         "variants": 11
       },
       "summary": "This mod will reduce the volume (gain -9 dB) for all TV ads. Available in all languages of the game.",
-      "notes": "11 main-file variants on Nexus - pick one."
+      "notes": "11 main-file variants on Nexus - pick one.",
+      "autoNotes": "11 main-file variants on Nexus - pick one."
     },
     {
       "id": "sound-sfx-fixes",
@@ -554,7 +564,8 @@
         "variants": 4
       },
       "summary": "This mod will mute combat and/or stealth music.",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Cyberpunk 2077 REDmod."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Cyberpunk 2077 REDmod.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Cyberpunk 2077 REDmod."
     },
     {
       "id": "children-sound-more-like-children",
@@ -598,38 +609,8 @@
         "variants": 2
       },
       "summary": "This mod will apply native stiletto heels sound of the game to all types of shoes including bare feet along with an increased volume.",
-      "notes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "samurai-fm-radioext",
-      "name": "Samurai FM (RadioExt)",
-      "nexusId": 8928,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "radioext",
-        "the-witcher-3-fm-radioext",
-        "red4ext"
-      ],
-      "author": "GamingModsOn",
-      "endorsements": 486,
-      "nexusCategory": "Audio",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 113270,
-        "name": "Samurai_RadioExt",
-        "version": "1.1",
-        "uploaded": "2025-07-09",
-        "variants": 1
-      },
-      "summary": "You can now listen to SAMURAI music while driving in Night City",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/samurai_radioext.archive"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "loud-noises-fix-audio-pool-fix",
@@ -652,7 +633,8 @@
         "variants": 1
       },
       "summary": "Fixes loud/glitching noises whether it's because of high density/draw-distance or when in heavy locations.",
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "phonk-radio-station-with-female-dj-voice-radioex",
@@ -682,28 +664,6 @@
           "archive/pc/mod/phonk icon.archive"
         ]
       }
-    },
-    {
-      "id": "radioext-the-cvlt",
-      "name": "RadioExt THE CVLT",
-      "nexusId": 5486,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "radioext"
-      ],
-      "author": "WXTCHCVLT",
-      "endorsements": 435,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 30345,
-        "name": "The CVLT",
-        "version": "1.5",
-        "uploaded": "2022-10-09",
-        "variants": 1
-      },
-      "summary": "F V T V R Σ Add 55 Track (More later ) of WAVE/HARD WAVE/PHONK music"
     },
     {
       "id": "shard-audio-framework",
@@ -736,7 +696,8 @@
           "archive/pc/mod/shardaudioframework.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "quieter-tv-news-and-tv-ads",
@@ -756,7 +717,8 @@
         "variants": 11
       },
       "summary": "This mod will reduce the volume (news -12 dB / ads -9 dB) for all TV news, talk shows, debates and TV ads. Available in all languages of the game.",
-      "notes": "11 main-file variants on Nexus - pick one."
+      "notes": "11 main-file variants on Nexus - pick one.",
+      "autoNotes": "11 main-file variants on Nexus - pick one."
     },
     {
       "id": "immersive-main-menu-audio",
@@ -784,7 +746,8 @@
         "variants": 1
       },
       "summary": "Thanks to Audioware, we can now listen to full length songs on an infinite loop.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "immersive-interaction",
@@ -856,7 +819,8 @@
         "variants": 2
       },
       "summary": "This mod will increase the volume of both V and NPCs footsteps.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "blade-runner-ringtone-and-sms-sound-replacer-upd",
@@ -876,7 +840,8 @@
         "variants": 3
       },
       "summary": "This mod replaces the incoming phone call ringtone and SMS notification sound with audio files that sound like the ones in the movie BladeRunner 2049.",
-      "notes": "3 main-file variants on Nexus - pick one."
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one."
     },
     {
       "id": "mute-tv-ads",
@@ -896,7 +861,8 @@
         "variants": 3
       },
       "summary": "This mod will mute either all adverts or only some of them on TVs depending on your preferences. TV news, talk shows and debates still work. Available in all languages of the game.Street ads are also muted.",
-      "notes": "3 main-file variants on Nexus - pick one."
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one."
     },
     {
       "id": "audioxl-equalizers-volume-mute",
@@ -920,7 +886,8 @@
         "variants": 1
       },
       "summary": "An equalizer per volume slider, a volume for every kind of sound, and a mute list. For all you audio lovers and haters: all the controls you could ever want! \\(°^°)/ Now, lets dance! ヾ(⌐■_■)ノ♪",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "sdh0-s-vehicle-audio",
@@ -940,29 +907,8 @@
         "variants": 1
       },
       "summary": "Add Vehicle Audio",
-      "notes": "Required by 3 mod(s) in this pack."
-    },
-    {
-      "id": "blade-runner-radio-radioext",
-      "name": "Blade Runner Radio - RadioEXT",
-      "nexusId": 7175,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "radioext"
-      ],
-      "author": "KingCrious",
-      "endorsements": 336,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 37652,
-        "name": "Blade Runner Radio",
-        "version": "1.0",
-        "uploaded": "2023-01-20",
-        "variants": 1
-      },
-      "summary": "Like it says on the tin, a radio mod"
+      "notes": "Required by 3 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "crosswalk-audio-restoration",
@@ -990,7 +936,8 @@
           "r6/scripts/CrosswalkSFXFix/crosswalksfx.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "violent-vira-radio",
@@ -1051,52 +998,6 @@
       }
     },
     {
-      "id": "weapon-sound-remake",
-      "name": "Weapon Sound Remake",
-      "nexusId": 14448,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "burst-fire-to-full-automatic-conversions",
-        "integrated-suppressor-for-ashura-smart-rifle",
-        "preem-weaponsmith-2-0",
-        "preem-weaponsmith-2-0-sfx-fix",
-        "trigger-mode-control"
-      ],
-      "author": "ThorwaldNebelung",
-      "endorsements": 308,
-      "nexusCategory": "Audio",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 153189,
-        "name": "Weapon Sound Remake 2",
-        "version": "2.3.3",
-        "uploaded": "2026-07-23",
-        "variants": 1
-      },
-      "summary": "Replaces the firing sound  of all Power/Tech weapons. And a few Smart weapons. (REDMod)",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty, REDmod."
-    },
-    {
-      "id": "better-gun-sounds",
-      "name": "Better Gun Sounds",
-      "nexusId": 6090,
-      "priority": "optional",
-      "required": false,
-      "author": "CDPR and Me",
-      "endorsements": 296,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 31750,
-        "name": "Advanced Cyberpunk Weapons",
-        "version": "2",
-        "uploaded": "2022-10-25",
-        "variants": 1
-      },
-      "summary": "Sound mod for Unity and Overture pistols in Sci-fi style."
-    },
-    {
       "id": "cyberpunk-2077-reveal-trailer-main-menu-theme",
       "name": "Cyberpunk 2077 Reveal Trailer - Main Menu Theme",
       "nexusId": 2319,
@@ -1121,26 +1022,6 @@
       }
     },
     {
-      "id": "audiofix",
-      "name": "AudioFix",
-      "nexusId": 3793,
-      "priority": "optional",
-      "required": false,
-      "author": "Zupremo",
-      "endorsements": 279,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 19960,
-        "name": "1",
-        "version": "1",
-        "uploaded": "2022-02-03",
-        "variants": 1
-      },
-      "summary": "I removed the letter \"n\"  in this line \"UseSournceReverb\" and it fixed my low radio audio while driving and audio sliders.",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "restore-nebula",
       "name": "Restore Nebula",
       "nexusId": 17042,
@@ -1163,31 +1044,8 @@
         "variants": 1
       },
       "summary": "Restores the Growl FM Nebula track.",
-      "notes": "Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "rise-of-the-machine-dnb-radio-station-radioext-m",
-      "name": "Rise of the Machine - DnB radio station (RadioExt mod)",
-      "nexusId": 5357,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "radioext",
-        "cet"
-      ],
-      "author": "bovineblitz",
-      "endorsements": 255,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 28932,
-        "name": "Rise of the Machine Radio - volume fix",
-        "version": "1.1",
-        "uploaded": "2022-09-24",
-        "variants": 2
-      },
-      "summary": "This mod adds some sorely needed neurofunk and techstep in an additional radio station. Requires RadioExt.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "quiet-clothing-works-with-2-5",
@@ -1207,25 +1065,6 @@
         "variants": 1
       },
       "summary": "Simply mutes all clothing noise, except for footsteps."
-    },
-    {
-      "id": "csgo-awp-sound-replacer-redmod",
-      "name": "CSGO AWP Sound replacer (RedMod)",
-      "nexusId": 5147,
-      "priority": "optional",
-      "required": false,
-      "author": "ctxrlsec",
-      "endorsements": 239,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 27753,
-        "name": "AWP",
-        "version": "1",
-        "uploaded": "2022-09-08",
-        "variants": 1
-      },
-      "summary": "low effort mod of me testing out RedMod, replaces SPT32 Grad fire sfx with AWP fire sfx from counter strike global offensive"
     },
     {
       "id": "deprecated-main-menu-music-replacer-collection-e",
@@ -1250,7 +1089,8 @@
           "archive/pc/mod/mainmenumusic.archive"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "hanako-call-no-rush",
@@ -1275,48 +1115,6 @@
           "archive/pc/mod/Hanako Call No Rush.archive"
         ]
       }
-    },
-    {
-      "id": "radio-modding-101",
-      "name": "Radio Modding 101",
-      "nexusId": 3186,
-      "priority": "optional",
-      "required": false,
-      "author": "Eva_Fan",
-      "endorsements": 215,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 20979,
-        "name": "Radio Modding 101",
-        "version": "1.2",
-        "uploaded": "2022-02-26",
-        "variants": 1
-      },
-      "summary": "A handy guide and tutorial video on how to create your own replacement radio stations."
-    },
-    {
-      "id": "108-8-fm-i2d1-synthetica-synthwave-radio",
-      "name": "108.8 FM I2D1 Synthetica - Synthwave Radio",
-      "nexusId": 6916,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "radioext",
-        "cet"
-      ],
-      "author": "Soyface",
-      "endorsements": 199,
-      "nexusCategory": "Audio",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 39271,
-        "name": "108.8 I2D1 Synthetica",
-        "version": "1.1.2",
-        "uploaded": "2023-02-13",
-        "variants": 1
-      },
-      "summary": "Authentic synthwave and retrowave music station now live on 108.8 FM I2D1 Synthetica with seamless UI integration."
     },
     {
       "id": "silverwolf-honkai-star-rail-ai-voice-mod-for-fem",
@@ -1380,7 +1178,8 @@
         "variants": 2
       },
       "summary": "This mod will increase the volume of V's footsteps.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "ncpd-siren-to-us-police-siren",
@@ -1435,58 +1234,282 @@
       }
     },
     {
-      "id": "brainfunk-dnb-radio-station-radioext-mod",
-      "name": "Brainfunk - DnB radio station (RadioExt mod)",
-      "nexusId": 5388,
+      "id": "not-in-my-hand-pedantic-correction",
+      "name": "Not In My Hand - Pedantic Correction",
+      "nexusId": 28677,
       "priority": "optional",
       "required": false,
-      "dependsOn": [
-        "radioext",
-        "cet"
-      ],
-      "author": "bovineblitz",
-      "endorsements": 186,
+      "author": "Sirrus233",
+      "endorsements": 185,
       "nexusCategory": "Audio",
-      "compat": "unknown",
+      "compat": "assets-likely-ok",
       "mainFile": {
-        "fileId": 28943,
-        "name": "Brainfunk radio",
-        "version": "1.1",
-        "uploaded": "2022-09-25",
+        "fileId": 141289,
+        "name": "Not In My Hand",
+        "version": "1.0",
+        "uploaded": "2026-04-06",
         "variants": 1
       },
-      "summary": "This mod adds a 23 track drum n bass radio station that puts the FUNK in neurofunk. Requires RadioExt."
+      "summary": "Fixes an extremely delayed reaction by Lucy Thackery during the Hippocratic Oath gig.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/NotInMyHand.archive"
+        ]
+      }
     },
     {
-      "id": "the-witcher-3-fm-radioext",
-      "name": "The Witcher 3 FM (RadioExt)",
-      "nexusId": 8929,
+      "id": "edgerunners-radio",
+      "name": "Edgerunners Radio",
+      "nexusId": 16244,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "cet",
         "radioext",
-        "samurai-fm-radioext",
         "red4ext"
       ],
-      "author": "GamingModsOn",
-      "endorsements": 143,
+      "author": "JVM510",
+      "endorsements": 176,
       "nexusCategory": "Audio",
-      "compat": "assets-outdated",
+      "compat": "assets-likely-ok",
       "mainFile": {
-        "fileId": 49824,
-        "name": "TheWitcher3FM",
-        "version": "1.2",
-        "uploaded": "2023-09-28",
+        "fileId": 84797,
+        "name": "Edgerunners Radio",
+        "version": "2.12",
+        "uploaded": "2024-08-14",
         "variants": 1
       },
-      "summary": "You can now listen to The Witcher 3 music while driving in Night City",
+      "summary": "This mod adds a new radio station 91.3 Edgerunners where you can listen to Cyberpunk: Edgerunners while driving around Night City. ONLY 1 SONG PLAYED (I Really Want to Stay at Your House) This mod is my updated version of another old mod I",
       "detect": {
         "anyOf": [
-          "archive/pc/mod/tw3_radio_icon.archive"
+          "archive/pc/mod/Edgerunners Radio.archive"
         ]
+      }
+    },
+    {
+      "id": "jenna-ortega-ai-voice-over-mod",
+      "name": "Jenna Ortega AI Voice-Over Mod",
+      "nexusId": 10253,
+      "priority": "optional",
+      "required": false,
+      "author": "Dalicanollie",
+      "endorsements": 175,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 68394,
+        "name": "Male V Voice to Jenna Replacer",
+        "version": "1.0",
+        "uploaded": "2024-02-13",
+        "variants": 1
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "summary": "AI-generated Jenna Ortega voice-over for female V",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/JennaO-VO-Male.archive"
+        ]
+      }
+    },
+    {
+      "id": "5-5-persona-fm-radioext",
+      "name": "5.5 Persona FM (RadioExt)",
+      "nexusId": 11644,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "radioext",
+        "redscript"
+      ],
+      "author": "Shoji Meguro  Lyn  ATLUS  ATLUS SOUND TEAM",
+      "endorsements": 173,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 163611,
+        "name": "5.5 Persona FM",
+        "version": "1",
+        "uploaded": "2026-10-01",
+        "variants": 1
+      },
+      "summary": "A custom-made radio station featuring songs from Persona 5 (Royal and Strikers included)",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/p5r_logo.archive"
+        ]
+      }
+    },
+    {
+      "id": "mute-v-s-pain-voice",
+      "name": "Mute V's Pain Voice",
+      "nexusId": 11092,
+      "priority": "optional",
+      "required": false,
+      "author": "YG",
+      "endorsements": 172,
+      "nexusCategory": "Audio",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171457,
+        "name": "Mute V's Pain and Effort Voice v6",
+        "version": "6",
+        "uploaded": "2026-10-31",
+        "variants": 2
+      },
+      "summary": "This mod will prevent V from complaining while being attacked, falling, burning and any situation causing damage to V.You can also additionally mute any voice related to efforts like climbing, jumping, etc.",
+      "notes": "2 main-file variants on Nexus - pick one. Also needs (off Nexus): Cyberpunk 2077 REDmod.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Also needs (off Nexus): Cyberpunk 2077 REDmod."
+    },
+    {
+      "id": "radio-zenith-18-4-radioext",
+      "name": "Radio ZENITH 18.4 (RadioExt)",
+      "nexusId": 11951,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "radioext"
+      ],
+      "author": "mrlteus",
+      "endorsements": 163,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 145427,
+        "name": "Radio ZENITH (18.4 FM)",
+        "version": "1.3",
+        "uploaded": "2026-05-15",
+        "variants": 1
+      },
+      "summary": "Radio ZENITH 18.4 FM -I initially used Radio ZENITH for personal enjoyment, but as the songs seamlessly complemented the atmosphere of the game, I decided to customize and release it. The playlist includes a mix of tracks from Blade Runner,",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Custom Icon - Radio Zenith.archive"
+        ]
+      }
+    },
+    {
+      "id": "50-1-night-drive-radio",
+      "name": "50.1 Night Drive Radio",
+      "nexusId": 12600,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "radioext"
+      ],
+      "author": "Loso721",
+      "endorsements": 160,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 69253,
+        "name": "50.1 Night Drive Radio Lore friendly",
+        "version": "1.2",
+        "uploaded": "2024-02-21",
+        "variants": 0
+      },
+      "summary": "Lore friendly music.. perfect for night driving... techno very similar to lore music as well downtempo wave for a good mix... mod future- working on DJ vocals with advertising and small lore conversations based on night city events for the",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/custom icon.archive"
+        ]
+      }
+    },
+    {
+      "id": "mute-focus-perk-chime-sfx",
+      "name": "Mute Focus Perk Chime Sfx",
+      "nexusId": 13678,
+      "priority": "optional",
+      "required": false,
+      "author": "Demon9ne",
+      "endorsements": 158,
+      "nexusCategory": "Audio",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114810,
+        "name": "Mute Focus Perk Chime Sfx",
+        "version": "1.1",
+        "uploaded": "2025-07-24",
+        "variants": 1
+      },
+      "summary": "Stop hearing WOOOOOSH DING.",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "ncpd-siren-volume-up",
+      "name": "NCPD siren volume up",
+      "nexusId": 3141,
+      "priority": "optional",
+      "required": false,
+      "author": "neburas",
+      "endorsements": 156,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 74007,
+        "name": "NCPD siren volume up",
+        "version": "1.0",
+        "uploaded": "2024-04-06",
+        "variants": 1
+      },
+      "summary": "New NCPD siren volume up",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/sirenvolup.archive"
+        ]
+      }
+    },
+    {
+      "id": "106-5-fishwave-fm",
+      "name": "106.5 Fishwave FM",
+      "nexusId": 5135,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "radioext"
+      ],
+      "author": "GreatBlueWhale",
+      "endorsements": 155,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 116123,
+        "name": "Fishwave FM 2.0",
+        "version": "2.0",
+        "uploaded": "2025-08-02",
+        "variants": 1
+      },
+      "summary": "Adds an entirely new radio station to the game that plays synthetic wave-type music. Requires RadioEXT framework",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Fishwave FM.archive"
+        ]
+      }
+    },
+    {
+      "id": "lobby-talk-pedantic-correction",
+      "name": "Lobby Talk - Pedantic Correction",
+      "nexusId": 29258,
+      "priority": "optional",
+      "required": false,
+      "author": "sirrus233",
+      "endorsements": 155,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 143664,
+        "name": "LobbyDialogue",
+        "version": "1.0",
+        "uploaded": "2026-04-28",
+        "variants": 1
+      },
+      "summary": "Fixes the timing of some dialogue during the escape from Konpeki Plaza.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/LobbyDialogue.archive"
+        ]
+      }
     }
   ]
 }

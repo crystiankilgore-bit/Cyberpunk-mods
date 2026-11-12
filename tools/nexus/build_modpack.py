@@ -613,6 +613,31 @@ def main() -> int:
             f = "00-frameworks.json" if m["modCategory"]["name"] in ("Modders Resources", "Utilities") else default_file
         by_file[f].append(entry)
 
+    # Break requirement cycles (two mods listing each other on Nexus, usually a base mod and its add-on):
+    # drop the edge that points from the more-endorsed mod to the less-endorsed one.
+    all_entries = {e["id"]: e for es in by_file.values() for e in es}
+
+    def reaches(src: str, dst: str) -> bool:
+        seen, stack = set(), [src]
+        while stack:
+            x = stack.pop()
+            if x == dst:
+                return True
+            if x in seen or x not in all_entries:
+                continue
+            seen.add(x)
+            stack.extend(all_entries[x].get("dependsOn", []))
+        return False
+
+    for e in sorted(all_entries.values(), key=lambda e: -e["endorsements"]):
+        for d in list(e.get("dependsOn", [])):
+            o = all_entries.get(d)
+            if o and o["endorsements"] <= e["endorsements"] and reaches(d, e["id"]):
+                e["dependsOn"].remove(d)
+                print(f"  breaking requirement cycle: {e['name']} no longer requires {o['name']}")
+        if "dependsOn" in e and not e["dependsOn"]:
+            del e["dependsOn"]
+
     pack = json.loads((MANIFEST / "modpack.json").read_text(encoding="utf-8"))
     titles = {c["file"]: c["title"] for c in pack["categories"]}
     total = sum(len(v) for v in by_file.values())

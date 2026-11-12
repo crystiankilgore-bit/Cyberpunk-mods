@@ -32,7 +32,7 @@
         ]
       },
       "notes": "Settings menu for redscript mods.",
-      "autoNotes": "Required by 92 mod(s) in this pack."
+      "autoNotes": "Required by 91 mod(s) in this pack."
     },
     {
       "id": "no-intro-videos",
@@ -60,7 +60,8 @@
           "r6/scripts/NoIntroVideos.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "jb-tpp-mod-wip-third-person",
@@ -86,7 +87,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/jb_third_person_mod/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): Cyber Engine Tweaks."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): Cyber Engine Tweaks.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): Cyber Engine Tweaks."
     },
     {
       "id": "better-loot-markers",
@@ -131,26 +133,6 @@
         "variants": 1
       },
       "summary": "Displays the actual names for vendors world map icons instead of generic type labels."
-    },
-    {
-      "id": "better-minimap",
-      "name": "Better Minimap",
-      "nexusId": 634,
-      "priority": "recommended",
-      "required": false,
-      "author": "WillyJL",
-      "endorsements": 15990,
-      "nexusCategory": "User Interface",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 21977,
-        "name": "BetterMinimap Installer",
-        "version": "7.0",
-        "uploaded": "2022-03-13",
-        "variants": 2
-      },
-      "summary": "Finally, MINIMAP ZOOM IS HERE BOYS",
-      "notes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "immersive-timeskip",
@@ -201,7 +183,8 @@
         "variants": 1
       },
       "summary": "Hides main HUD widgets by default and shows them only on certain events (configurable). Adds in-game widget toggle hotkeys and a bunch of optional files to tweak different HUD elements.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "stash-filters",
@@ -231,7 +214,8 @@
           "r6/scripts/stashFilters.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "clear-skill-checks",
@@ -259,7 +243,8 @@
           "r6/scripts/clear_skill_checks.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "native-settings-ui-side-menu-add-on",
@@ -285,39 +270,8 @@
         "variants": 1
       },
       "summary": "This QoL mod adds a side menu with a list of mods for easier navigation.",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "kiroshi-opticals-crowd-scanner",
-      "name": "Kiroshi Opticals - Crowd Scanner",
-      "nexusId": 1654,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "codeware",
-        "red4ext"
-      ],
-      "author": "Alien and BadAssGodFather",
-      "endorsements": 7024,
-      "nexusCategory": "User Interface",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 52869,
-        "name": "Kiroshi Crowd Scanner",
-        "version": "1.2.1",
-        "uploaded": "2023-10-14",
-        "variants": 1
-      },
-      "summary": "Generates a unique backstory for each crowd NPC scanned. Procedurally generates the background based on the NPC's appearance/gender. NPC's background is displayed in a new section on the scanner pane!",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/backgroundScanner/Core/BackstoryManager.reds",
-          "r6/scripts/backgroundScanner/Core/BackstoryUI.reds",
-          "r6/scripts/backgroundScanner/Core/CrowdArchetype.reds"
-        ]
-      },
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "filter-saves-by-lifepath-and-type",
@@ -370,7 +324,8 @@
           "r6/scripts/untrackQuestByRightClick.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "no-camera-auto-centering",
@@ -425,7 +380,8 @@
           "r6/scripts/ImprovedMinimapZoom/config.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "quickhack-hotkeys",
@@ -478,33 +434,6 @@
       "summary": "Allows to add custom text notes for your manually created saved games."
     },
     {
-      "id": "spicy-huds-more-ui-and-hud-colors",
-      "name": "Spicy HUDs - More UI and HUD colors",
-      "nexusId": 509,
-      "priority": "recommended",
-      "required": false,
-      "author": "Spicy2332",
-      "endorsements": 3882,
-      "nexusCategory": "User Interface",
-      "compat": "assets-outdated",
-      "mainFile": {
-        "fileId": 22375,
-        "name": "Spicy HUDs 2.2",
-        "version": "2.2",
-        "uploaded": "2022-03-19",
-        "variants": 1
-      },
-      "summary": "Adds in many new HUD colour options",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/!cyberpunkhud.archive",
-          "archive/pc/mod/BWhud.archive",
-          "archive/pc/mod/GWhud.archive"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "muted-markers",
       "name": "Muted Markers",
       "nexusId": 1727,
@@ -535,7 +464,8 @@
           "r6/scripts/MutedMarkers/config.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "monsteraider-atelier-store",
@@ -567,7 +497,8 @@
           "r6/scripts/MONSTERaider/MONSTERaider-atelier-store.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "inventory-adjustments-hub",
@@ -593,37 +524,8 @@
         "variants": 1
       },
       "summary": "This mod suggests a set of useful changes for inventory menu, display items, tooltips and other UI features. It's fully customizable.",
-      "notes": "Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "stash-and-backpack-search",
-      "name": "Stash and Backpack Search",
-      "nexusId": 14264,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "red4ext",
-        "redscript"
-      ],
-      "author": "DJ_Kovrik",
-      "endorsements": 3479,
-      "nexusCategory": "User Interface",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 113478,
-        "name": "Backpack Search",
-        "version": "1.2.1",
-        "uploaded": "2025-07-13",
-        "variants": 1
-      },
-      "summary": "Adds a search option for stash and backpack screen menus.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/backpackSearch.reds"
-        ]
-      },
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "hud-fixes-fix-disappearing-hud-element-and-quest",
@@ -676,7 +578,8 @@
           "r6/scripts/yellingintothevoid/voidwear-casual.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "adaptive-sliders",
@@ -705,7 +608,8 @@
           "r6/scripts/AdaptiveSliders/adaptiveSliders.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "looting-qol",
@@ -737,7 +641,8 @@
           "archive/pc/mod/LootingQoL.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "accurate-speedometer",
@@ -787,7 +692,8 @@
           "r6/scripts/crafting_recipe_owned_labels.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "revised-backpack",
@@ -846,7 +752,8 @@
           "r6/scripts/MONSTERaider/MONSTERaider-viktor-store.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "hud-painter",
@@ -875,7 +782,8 @@
         "variants": 1
       },
       "summary": "Adds a new menu where you can customize the game color theme.",
-      "notes": "Required by 3 mod(s) in this pack."
+      "notes": "Required by 3 mod(s) in this pack.",
+      "autoNotes": "Required by 4 mod(s) in this pack."
     },
     {
       "id": "wardrobe-extras",
@@ -924,7 +832,8 @@
         "variants": 2
       },
       "summary": "Loot icons focused on expandedness and customization",
-      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "huditor",
@@ -976,7 +885,8 @@
         "variants": 1
       },
       "summary": "Replaces the 'Sprint Key + Dialogue Menu' access with an entry on the Radial/Quick menu. Works for Idle Anywhere, Computer Anywhere, and TV Anywhere",
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "custom-map-markers",
@@ -1014,39 +924,8 @@
           "r6/scripts/CustomMapMarkers/additions/GameplayMappinController.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "project-e3-hud-no-more-redmod",
-      "name": "Project E3 - HUD (NO MORE REDMOD)",
-      "nexusId": 8800,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "tweakxl",
-        "mod-settings"
-      ],
-      "author": "Virtuoso75",
-      "endorsements": 1661,
-      "nexusCategory": "User Interface",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 142752,
-        "name": "New Project E3 - HUD",
-        "version": "2.31.preview",
-        "uploaded": "2026-04-19",
-        "variants": 1
-      },
-      "summary": "Project E3: HUD replaces all in-game HUD elements as much as possible according to 2018 Gameplay Demo",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/basegame_3e_demo_hud.archive",
-          "r6/scripts/Project E3 - HUD/core/ModSettings.reds",
-          "r6/scripts/Project E3 - HUD/core/baseControllers/hudGameController.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "no-more-hard-coded-keybinds-better-controls-menu",
@@ -1066,28 +945,6 @@
         "variants": 1
       },
       "summary": "Adds options to the key bindings menu for actions that are not able to be changed by default; removes/links redundant or unused key binds to allow more keys to be used for key bindings."
-    },
-    {
-      "id": "disable-w-s-keys-for-select-dialogue-options-pat",
-      "name": "Disable W-S Keys For Select Dialogue Options (Patch 2.3 Compatible)",
-      "nexusId": 9799,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "input-loader"
-      ],
-      "author": "K4DAV3R",
-      "endorsements": 1550,
-      "nexusCategory": "User Interface",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 51994,
-        "name": "Disable W-S Keys To Select Dialog Options",
-        "version": "1.0.0",
-        "uploaded": "2023-10-09",
-        "variants": 1
-      },
-      "summary": "Do not make any more mistakes when choosing a dialogue you did not want because you moved using the W or S keys."
     },
     {
       "id": "more-weapon-filters",
@@ -1113,36 +970,6 @@
         "variants": 1
       },
       "summary": "Adds ranged and melee weapon type filters to the weapon equip, backpack, stash, and vendor menus -- Handgun, Automatic, Long Range, Shotgun, Thrown, Blade, and Blunt. Sub-filters for Iconic, Power, Tech, and Smart."
-    },
-    {
-      "id": "vendor-search",
-      "name": "Vendor Search",
-      "nexusId": 26188,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "stash-and-backpack-search",
-        "codeware",
-        "redscript"
-      ],
-      "author": "deceptious",
-      "endorsements": 1504,
-      "nexusCategory": "User Interface",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 129579,
-        "name": "Vendor Search",
-        "version": "1.0.0",
-        "uploaded": "2025-12-11",
-        "variants": 1
-      },
-      "summary": "Expands the 'Stash and Backpack Search' mod to work with Vendor screens",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/VendorSearch/VendorSearch.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "discobot-s-boutique",
@@ -1271,7 +1098,8 @@
           "r6/scripts/RAMbarfix/RAMbarfix.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "numerals-get-commas",
@@ -1328,7 +1156,8 @@
           "r6/tweaks/Improved NCPD Map Filters/filters.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "better-quality-sort-v2",
@@ -1382,7 +1211,8 @@
           "r6/scripts/Sort Ripperdoc Inventory.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "skip-intro-logos",
@@ -1429,33 +1259,8 @@
           "r6/scripts/TrackWhatYouWant/trackWhatYouWant.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "minimap-widgets",
-      "name": "Minimap Widgets",
-      "nexusId": 17477,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "project-e3-hud-no-more-redmod",
-        "street-location-system-api",
-        "calendar",
-        "redfunctions",
-        "redscript-configuration-framework"
-      ],
-      "author": "Scream81",
-      "endorsements": 989,
-      "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 173464,
-        "name": "Minimap Widgets",
-        "version": "3.3.0.0",
-        "uploaded": "2026-11-04",
-        "variants": 1
-      },
-      "summary": "A set of options to change the minimap widgets for the better."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "clean-computer-wallpaper",
@@ -1508,7 +1313,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/3DWorldMapExplorer/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "fading-crosshairs",
@@ -1539,7 +1345,8 @@
           "r6/tweaks/CrosshairFade/_MinimalCrosshairs.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "make-all-shards-read",
@@ -1567,7 +1374,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/read_shards/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "compact-weapon-mod-slots-better-ui-for-extra-att",
@@ -1647,7 +1455,8 @@
           "r6/scripts/MapSearch/MapSearch.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "stats-bar-ui-fix",
@@ -1691,7 +1500,8 @@
         "variants": 2
       },
       "summary": "Drastically improves V's visibility in all menu screens. No more overexposed left cheek or obtrusive red glow! Pair with your favourite LUT for best results! Works for both male and female V.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "no-more-menu-backgrounds",
@@ -1716,7 +1526,8 @@
           "archive/pc/mod/!NoMoreMenuBackgrounds-FullBlackBackground.archive"
         ]
       },
-      "notes": "3 main-file variants on Nexus - pick one."
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
     },
     {
       "id": "redscript-and-cet-mods-settings",
@@ -1772,7 +1583,8 @@
           "r6/scripts/CompactAbilities/Main.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "gamepad-button-hold-indicator-fix",
@@ -1823,40 +1635,8 @@
           "r6/scripts/MONSTERaider/LostAndFound-atelier-store.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "kiroshi-opticals-crowd-scanner-expansion",
-      "name": "Kiroshi Opticals - Crowd Scanner Expansion",
-      "nexusId": 13470,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "kiroshi-opticals-crowd-scanner",
-        "redscript",
-        "codeware",
-        "red4ext"
-      ],
-      "author": "Syynx",
-      "endorsements": 662,
-      "nexusCategory": "User Interface",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 83300,
-        "name": "Crowd Scanner Expansion",
-        "version": "1.13",
-        "uploaded": "2024-07-24",
-        "variants": 1
-      },
-      "summary": "Adds a ton of extra entries to the Kiroshi Crowd Scanner mod",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/backgroundScanner/Core/BackstoryManager.reds",
-          "r6/scripts/backgroundScanner/Core/BackstoryUI.reds",
-          "r6/scripts/backgroundScanner/Core/CrowdArchetype.reds"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "streamlined-hud",
@@ -1906,7 +1686,8 @@
           "r6/scripts/InputQoL/InputQoL.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "weave-equipment-ex-extension-wardrobe-management",
@@ -1965,39 +1746,8 @@
           "r6/scripts/crafting_component_quantity_text/main.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "ripperdoc-vendor-ui-enhancements-great-for-rippe",
-      "name": "Ripperdoc Vendor UI Enhancements - Great for Ripperdoc Cyberware Specializations Mod - Show Offered CW Products in Pin Tooltips on the World Map",
-      "nexusId": 23180,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "mod-settings",
-        "redscript",
-        "ripperdoc-cyberware-specializations",
-        "specialized-ripperdocs"
-      ],
-      "author": "Dravic",
-      "endorsements": 559,
-      "nexusCategory": "User Interface",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 116483,
-        "name": "Ripperdoc Vendor UI Enhancements",
-        "version": "1.04",
-        "uploaded": "2025-08-06",
-        "variants": 1
-      },
-      "summary": "Highlights Cyberware labels if there's any Cyberware on sale. Baseline it works with the vanilla game, but the tooltips were made to support Ripperdoc Cyberware Specializations mod. Customizable mod settings. Fully translated to all",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/RipperdocVendorUIEnhancements.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "outfit-lock-no-more",
@@ -2026,37 +1776,8 @@
           "r6/scripts/Outfit Lock no More/outfitLockNoMore.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "stop-spammers",
-      "name": "Stop spammers",
-      "nexusId": 3801,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cybercmd",
-        "redscript",
-        "cet"
-      ],
-      "author": "anygoodname",
-      "endorsements": 549,
-      "nexusCategory": "User Interface",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 123254,
-        "name": "Stop spam CET v1.2.4",
-        "version": "1.2.4",
-        "uploaded": "2025-09-30",
-        "variants": 1
-      },
-      "summary": "Stop vehicle and apartment deals spam!",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/stop_spam/init.lua"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "cyberware-screen-tooltip-fix",
@@ -2084,7 +1805,8 @@
           "r6/scripts/CyberwareScreenTooltipFix.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "4k-hand-cursor",
@@ -2180,7 +1902,8 @@
         "variants": 3
       },
       "summary": "Changes the old phone icon, to a more \"modern\" one. Now with specific models!",
-      "notes": "3 main-file variants on Nexus - pick one."
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one."
     },
     {
       "id": "circlemap-widgets-a-circular-minimap",
@@ -2213,26 +1936,8 @@
           "r6/scripts/CirclemapWidgets/CirclemapConfig.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "more-options",
-      "name": "More Options",
-      "nexusId": 23,
-      "priority": "optional",
-      "required": false,
-      "author": "CrazyPotato",
-      "endorsements": 490,
-      "nexusCategory": "User Interface",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 39,
-        "name": "Extended Options Menu",
-        "version": "V1.00",
-        "uploaded": "2020-12-10",
-        "variants": 0
-      },
-      "summary": "Enables all options and extends values past max"
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "informative-healthbar",
@@ -2304,7 +2009,8 @@
         "variants": 2
       },
       "summary": "Scales the Main Menu and Pause Menu smaller to work with extra mods like Native Ui and Mod Settings that adds extra menu tabs.Added a second version to the mod for the \"ULTIMATE EDITION\" Lovers",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "smaller-cyberware-slots-better-ui-for-more-cyber",
@@ -2334,7 +2040,8 @@
           "r6/scripts/SmallerCyberwareSlots/cyberwareMiniGrid.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "contacts-redux-live-online-status-indicators-imp",
@@ -2411,7 +2118,8 @@
         "variants": 2
       },
       "summary": "Tweaked UI base colors.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "mod-settings-ru",
@@ -2461,7 +2169,8 @@
           "r6/scripts/Inventory Sorting Improved/InventorySortingImproved.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "enterable-interiors",
@@ -2493,7 +2202,8 @@
           "r6/tweaks/EnterableInteriors/EnterableInteriors.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "flatlined-exit",
@@ -2521,7 +2231,8 @@
           "r6/scripts/FlatlinedExit/FlatlinedExit.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "remove-mods-mod-io-menu-and-mod-verification-pop",
@@ -2572,7 +2283,8 @@
           "r6/scripts/ShowMeHowMany/ShowMeHowManyConfig.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "extended-vehicle-call-menu",
@@ -2731,7 +2443,8 @@
           "r6/scripts/StashQoL/StashQoLDef.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "crosshair-simple-redone",
@@ -2759,29 +2472,8 @@
           "archive/pc/mod/Crosshair_simple.archive"
         ]
       },
-      "notes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "additem-command-creator",
-      "name": "Additem Command Creator",
-      "nexusId": 554,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "IDA",
-      "endorsements": 339,
-      "nexusCategory": "User Interface",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 1468,
-        "name": "CommandMaker.zip",
-        "version": "1.0",
-        "uploaded": "2020-12-27",
-        "variants": 1
-      },
-      "summary": "Turn raw item strings into Game.AddToInventory console commands for use with \"Cyber Engine Tweaks\""
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "now-playing-display",
@@ -2811,26 +2503,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/NowPlayingDisplay/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "scan-mode-default-to-data-tab",
-      "name": "Scan Mode - Default to Data Tab",
-      "nexusId": 9715,
-      "priority": "optional",
-      "required": false,
-      "author": "Greenismyfavoritecolor",
-      "endorsements": 313,
-      "nexusCategory": "User Interface",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 59971,
-        "name": "Data Tab by Default",
-        "version": "1.1",
-        "uploaded": "2023-12-06",
-        "variants": 1
-      },
-      "summary": "When in Scan Mode, hovering over a target will display the \"Data\" tab by default instead of the \"Hack\" tab. Useful for players who are more interested in seeing enemy NPC weaknesses & names instead of hack information."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "splash-logo-city-nights",
@@ -2876,7 +2550,9 @@
         "uploaded": "2026-08-23",
         "variants": 1
       },
-      "summary": "An E3 2018 inspired HUD recolor for HUD Painter!"
+      "summary": "An E3 2018 inspired HUD recolor for HUD Painter!",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "unified-mod-settings",
@@ -2954,7 +2630,8 @@
         "variants": 2
       },
       "summary": "This is a mod that takes all the localization text for the game in every language other than English and appends English to it. The end result is you can get dual language subtitles and also dual language in the game interface itself, to",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "dialogue-history",
@@ -2988,7 +2665,8 @@
           "r6/scripts/DialogueHistory/Annotations/DropdownListController.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "playstation-button-prompts-ps4-ps5",
@@ -3043,7 +2721,8 @@
           "r6/scripts/ObjectiveMinimap/ObjectiveMinimapShowAllObjectivesScripts.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "russian-translation-fix-for-romance-between-judy",
@@ -3073,30 +2752,8 @@
           "archive/pc/mod/FIX JUDY TEXT ALL IN ONE with RUS VO.xl"
         ]
       },
-      "notes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "cyberpunk-edgerunners-dark-hq-main-menu-replacer",
-      "name": "Cyberpunk Edgerunners - Dark HQ Main Menu Replacer",
-      "nexusId": 5350,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "spicy-huds-more-ui-and-hud-colors"
-      ],
-      "author": "Narcoshade",
-      "endorsements": 262,
-      "nexusCategory": "User Interface",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 29366,
-        "name": "0-Sasha(Wallpaper-Engine Version)",
-        "version": "1.0",
-        "uploaded": "2022-09-29",
-        "variants": 7
-      },
-      "summary": "“Bout Time I Chrome The F Up.”",
-      "notes": "7 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "bunny-tracker-2-1",
@@ -3123,92 +2780,755 @@
       }
     },
     {
-      "id": "simple-menu-russian-translation-native",
-      "name": "Simple Menu -- Russian Translation (native)",
-      "nexusId": 12876,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "simple-menu-an-in-game-ui-including-hotkeys"
-      ],
-      "author": "copycat02",
-      "endorsements": 261,
-      "nexusCategory": "User Interface",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 67674,
-        "name": "Simple Menu - Russian translation",
-        "version": "1.0",
-        "uploaded": "2024-02-08",
-        "variants": 1
-      },
-      "summary": "локализация Simple Menu на русский язык НЕ машинным переводом"
-    },
-    {
-      "id": "vehicle-selector-frontend",
-      "name": "Vehicle Selector Frontend",
-      "nexusId": 26882,
+      "id": "clothing-filters-for-virtual-atelier",
+      "name": "Clothing Filters for Virtual Atelier",
+      "nexusId": 27239,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "redscript",
-        "codeware",
-        "cet",
-        "redfilesystem",
-        "reddata",
-        "night-city-traffic-overhaul",
-        "native-settings-ui"
+        "virtual-atelier",
+        "cet"
       ],
-      "author": "nremind",
-      "endorsements": 228,
+      "author": "Chris0",
+      "endorsements": 261,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
-        "fileId": 133916,
-        "name": "Vehicle Selector Frontend",
-        "version": "1.0.1",
-        "uploaded": "2026-01-25",
+        "fileId": 152516,
+        "name": "VA Filters",
+        "version": "2.0.0",
+        "uploaded": "2026-07-17",
         "variants": 1
       },
-      "summary": "Select any modded vehicles from a GUI with preview images. Quickly add/remove modded vehicles from traffic. No vehicle codes needed. Frontend only. Requires a compatible backend. Works with NightCityTrafficOverhaul.",
+      "summary": "This mod adds filters to Virtual Atelier stores, allowing you to browse clothing by category for a smoother shopping experience.",
       "detect": {
         "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/VehicleSeleectorFrontend/init.lua",
-          "r6/scripts/VehicleSelectorFrontend/VehicleSelectorFrontend.reds",
-          "r6/scripts/VehicleSelectorFrontend/VehicleSelectorHelper.reds"
+          "bin/x64/plugins/cyber_engine_tweaks/mods/vafilters/init.lua",
+          "r6/scripts/VAFilters/VAFilters.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "dlssg-to-fsr3-1-settings-menu-nameplates-for-nuk",
-      "name": "DLSSG-to-FSR3(.1) Settings Menu Nameplates (for Nukem's Frame Generation mod) - DLSSG-to-FSR4 and DLSSG-to-XeFG (OptiScaler Specials)",
-      "nexusId": 17253,
+      "id": "fpp-speedometer-see-your-speed-in-first-person-p",
+      "name": "FPP Speedometer - See your speed in first person perspective",
+      "nexusId": 26156,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "input-loader",
+        "mod-settings",
+        "redscript",
+        "redlogger"
+      ],
+      "author": "Spuddeh",
+      "endorsements": 254,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 159406,
+        "name": "FPP Speedometer",
+        "version": "1.3.0",
+        "uploaded": "2026-09-06",
+        "variants": 1
+      },
+      "summary": "Enables the digital speedometer on the HUD while driving in First Person Perspective.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/FPPSpeedometer/FPPSpeedometer.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "character-creator-ui-improvements",
+      "name": "Character Creator UI Improvements",
+      "nexusId": 34310,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware"
+      ],
+      "author": "pointdotpoint",
+      "endorsements": 250,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 164386,
+        "name": "CharacterCreatorUIImprovements 1.1.0",
+        "version": "1.1.0",
+        "uploaded": "2026-10-06",
+        "variants": 2
+      },
+      "summary": "Improves the appearance edit screen adding a grid menu and a favorite toggle to Hairstyle, Cyberware, Facial tattoos, Piercings, Eye makeup, Mouth, Nose, Jaw and Ears. Also a minimize toggle for the features you rarely change.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/CPUIImprovements/CharacterCreator/GridTargets.reds",
+          "r6/scripts/CPUIImprovements/CharacterCreator/HudColors.reds",
+          "r6/scripts/CPUIImprovements/CharacterCreator/MenuHooks.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "unique-iconic-cyberware-icons",
+      "name": "Unique Iconic Cyberware Icons",
+      "nexusId": 26445,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "archivexl",
-        "framegen-ghosting-fix-for-fsr-3-1-fg"
+        "tweakxl"
       ],
-      "author": "gramern",
-      "endorsements": 215,
+      "author": "Emperia",
+      "endorsements": 245,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171332,
+        "name": "Unique Iconic Cyberware Icons",
+        "version": "1.03",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "Replaces the reused iconic cyberware icons with unused icons"
+    },
+    {
+      "id": "description-revival",
+      "name": "Description Revival",
+      "nexusId": 28124,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "RetchERezzed",
+      "endorsements": 245,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170318,
+        "name": "Description Revival",
+        "version": "2.0",
+        "uploaded": "2026-10-29",
+        "variants": 1
+      },
+      "summary": "Restores hidden item descriptions in Cyberpunk 2077, including on custom modded items and cyberdecks"
+    },
+    {
+      "id": "vehicle-navigation-system-vns",
+      "name": "Vehicle Navigation System (VNS)",
+      "nexusId": 28241,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript",
+        "redwindows",
+        "street-location-system-api",
+        "audioxl"
+      ],
+      "author": "Scream81",
+      "endorsements": 241,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173479,
+        "name": "VNS",
+        "version": "2.0.1",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "VNS is a standalone, highly optimized navigation dashboard and audio co-pilot for your vehicle. It provides real-time, road-aware directions, voice instructions, upcoming street names, and destination data with zero performance loss as you"
+    },
+    {
+      "id": "skip-intros-and-breaching",
+      "name": "Skip Intros and Breaching",
+      "nexusId": 26352,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript"
+      ],
+      "author": "Sekers",
+      "endorsements": 236,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168700,
+        "name": "Skip Intros and Breaching - For 2.5",
+        "version": "2.5.1",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Removes or shortens the startup sequences in Cyberpunk 2077. Go straight to the main menu or choose specific startup sequences to skip. Compatible with Cyberpunk 2077 versions 2.5, 2.31, and the \"Legacy\" Pre-2.0 Update version 1.63 HF1."
+    },
+    {
+      "id": "alternate-fonts",
+      "name": "Alternate Fonts",
+      "nexusId": 10153,
+      "priority": "optional",
+      "required": false,
+      "author": "AuricomResearch",
+      "endorsements": 231,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
-        "fileId": 118959,
-        "name": "DLSSG-to-XeFG (OptiScaler Xeclusive)",
-        "version": "0.9-pre-whatever",
-        "uploaded": "2025-08-23",
+        "fileId": 70614,
+        "name": "Alternate Fonts 1.4",
+        "version": "1.4",
+        "uploaded": "2024-03-04",
         "variants": 1
       },
-      "summary": "With the kind permission of gramern (the Author of FrameGen Ghosting Fix), I'm uploading this little QoL mod replacing the \"DLSS Frame Generation\" entry name in Graphics settings menu and Benchmark results by either \"DLSSG-to-FSR3\" or",
+      "summary": "A pack of 10 different font replacements.",
       "detect": {
         "anyOf": [
-          "archive/pc/mod/DLSSG-to-XeFG.archive",
-          "archive/pc/mod/DLSSG-to-XeFG.archive.xl"
+          "archive/pc/mod/Fonts - Data Control Small Fixed.archive",
+          "archive/pc/mod/Fonts - IBM 3270.archive",
+          "archive/pc/mod/Fonts - OCR A Extended Fixed 2.archive"
+        ]
+      }
+    },
+    {
+      "id": "no-more-perk-menu-backgrounds",
+      "name": "No More Perk Menu Backgrounds",
+      "nexusId": 18622,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "no-more-menu-backgrounds",
+        "hud-painter"
+      ],
+      "author": "Aether",
+      "endorsements": 223,
+      "nexusCategory": "User Interface",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 95986,
+        "name": "No More Perk Menu Backgrounds",
+        "version": "1.0",
+        "uploaded": "2024-12-26",
+        "variants": 1
+      },
+      "summary": "Remove the background images found in the perk menu.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!NoMorePerkMenuBackgrounds.archive"
+        ]
+      }
+    },
+    {
+      "id": "photomode-no-confirm",
+      "name": "Photomode - No Confirm",
+      "nexusId": 22872,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "EmreHQ",
+      "endorsements": 218,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114617,
+        "name": "Photomode_NoConfirm",
+        "version": "0.1",
+        "uploaded": "2025-07-22",
+        "variants": 1
+      },
+      "summary": "No confirm when exit.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Photomode_NoConfirm/init.lua"
         ]
       },
-      "notes": "Also needs (off Nexus): dlssg-to-fsr3 (Replace Nvidia DLSS-G Frame Gen with AMD FSR 3 Frame Gen), OptiScaler (Use GitHub's nightlies until they make it to Nexus). Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "loot-quantity-text-2-5-supported",
+      "name": "Loot Quantity Text (2.5 Supported)",
+      "nexusId": 23942,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "Atticus",
+      "endorsements": 209,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 121952,
+        "name": "LootQuantityText-1.1",
+        "version": "1.1",
+        "uploaded": "2025-09-19",
+        "variants": 1
+      },
+      "summary": "More accurate loot quantity in loot widget. Please read the description.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/z_LootQuantityText.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "wardrobe-ui-improvements",
+      "name": "Wardrobe UI Improvements",
+      "nexusId": 36262,
+      "priority": "optional",
+      "required": false,
+      "author": "pointdotpoint",
+      "endorsements": 201,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176760,
+        "name": "WardrobeUIImprovements 1.0.4",
+        "version": "1.0.4",
+        "uploaded": "2026-11-10",
+        "variants": 1
+      },
+      "summary": "A few adjustments to the wardrobe (Equipment-EX) that i thought were missing like organizing clothing pieces by body part, group by mod pack, NEW tag for recently installed pieces, and others."
+    },
+    {
+      "id": "teko-font-and-menus-recolor",
+      "name": "Teko Font and Menus Recolor",
+      "nexusId": 15307,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "e3-ish-color-scheme-for-hud-painter"
+      ],
+      "author": "Vequa",
+      "endorsements": 197,
+      "nexusCategory": "User Interface",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 151891,
+        "name": "Teko Font and Menus Recolor",
+        "version": "1.3",
+        "uploaded": "2026-07-13",
+        "variants": 1
+      },
+      "summary": "This mod replaces the main game font (Rajdhani) with Teko for a modern, but clean and minimalistic look. It also changes the in-game menu backgrounds.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Teko Font & Menus Recolor.archive"
+        ]
+      }
+    },
+    {
+      "id": "status-effect-recolor",
+      "name": "Status Effect ReColor",
+      "nexusId": 26438,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "Scream81",
+      "endorsements": 194,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 149851,
+        "name": "DeBuffColor-FullGreen",
+        "version": "1.2",
+        "uploaded": "2026-06-25",
+        "variants": 2
+      },
+      "summary": "Simple mod to color the debuff status effects red.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/DeBuffColor/DeBuffColor_FULLGREEN.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "clean-photomode-ui",
+      "name": "Clean Photomode UI",
+      "nexusId": 26742,
+      "priority": "optional",
+      "required": false,
+      "author": "BlackRevell",
+      "endorsements": 194,
+      "nexusCategory": "User Interface",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 136012,
+        "name": "Clean Photomode UI - No Scrollbar - Hotkeys",
+        "version": "1.1",
+        "uploaded": "2026-02-13",
+        "variants": 2
+      },
+      "summary": "Various Photomode 2.3+ interface adjustments aimed to reduce visual clutter, expand settings menu, rescale several elements, and more.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/RVLL_clean_photomode.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "status-effects-hotkey",
+      "name": "Status Effects Hotkey",
+      "nexusId": 24681,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "dark-future-urban-survival-gameplay",
+        "redscript",
+        "mod-settings",
+        "input-loader"
+      ],
+      "author": "Sirrus233",
+      "endorsements": 192,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176894,
+        "name": "Status Effects Hotkey",
+        "version": "1.4",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "Press-and-hold hotkey to show the details of V's active status effects right there on your HUD."
+    },
+    {
+      "id": "additional-portrait-presets-for-photo-mode",
+      "name": "Additional Portrait Presets for Photo Mode",
+      "nexusId": 17089,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "KramRul",
+      "endorsements": 191,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114348,
+        "name": "Additional Portrait Presets for Photo Mode",
+        "version": "1.5",
+        "uploaded": "2025-07-20",
+        "variants": 1
+      },
+      "summary": "This mod adds 9 portrait presets to the existing default Photo Mode presets, giving you even more ways to capture stunning photos!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Additional_Portrait_Presets_for_Photo_Mode.archive",
+          "r6/tweaks/Additional_Portrait_Presets_for_Photo_Mode/Additional_Portrait_Presets_for_Photo_Mode.yaml",
+          "archive/pc/mod/Additional_Portrait_Presets_for_Photo_Mode.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "redux-ui-e3-speedometer",
+      "name": "Redux UI - E3 Speedometer",
+      "nexusId": 12238,
+      "priority": "optional",
+      "required": false,
+      "author": "haywire",
+      "endorsements": 189,
+      "nexusCategory": "User Interface",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 64183,
+        "name": "Speedometer Addon - Minimal (No RPM) - MPH",
+        "version": "1",
+        "uploaded": "2024-01-10",
+        "variants": 2
+      },
+      "summary": "Get the E3 Speedometer in MPH or KM/H",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/##ReduxUI_AddonSpeedometer.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "inventory-free-view",
+      "name": "Inventory Free View",
+      "nexusId": 32542,
+      "priority": "optional",
+      "required": false,
+      "author": "dnbnhlp",
+      "endorsements": 174,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176626,
+        "name": "Inventory Free View",
+        "version": "1.2.1",
+        "uploaded": "2026-11-10",
+        "variants": 1
+      },
+      "summary": "Take full control and fix some vanilla issues with your inventory preview: add 12-step zoom, rotation, tilt, preview doll on sub screens, fix input leak on preview doll, cursor jump to center screen."
+    },
+    {
+      "id": "clean-scanner-for-project-e3-hud",
+      "name": "Clean Scanner for Project E3 - HUD",
+      "nexusId": 12004,
+      "priority": "optional",
+      "required": false,
+      "author": "haywire",
+      "endorsements": 170,
+      "nexusCategory": "User Interface",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 63209,
+        "name": "Lines Only",
+        "version": "1",
+        "uploaded": "2024-01-02",
+        "variants": 3
+      },
+      "summary": "Clean Scanner addon for Project E3 HUD",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/##Project-E3_HUD_CleanScanner.archive"
+        ]
+      },
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "virtual-car-dealer-sort-and-search",
+      "name": "Virtual Car Dealer - Sort and Search",
+      "nexusId": 26492,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "virtual-car-dealer",
+        "redscript"
+      ],
+      "author": "ApoKrytia and DJ_Kovrik",
+      "endorsements": 170,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168266,
+        "name": "Virtual Car Dealer - Sort and Search",
+        "version": "1.6",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Add sorting and searching in Virtual Car Dealer with owned filter. Simple and efficient without any bloated mess."
+    },
+    {
+      "id": "third-person-vehicle-drone-camera-overlay",
+      "name": "Third Person Vehicle Drone Camera Overlay",
+      "nexusId": 28083,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware"
+      ],
+      "author": "Dark Fortune Teller",
+      "endorsements": 168,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 138948,
+        "name": "Third Person Vehicle Drone Camera Overlay",
+        "version": "1.0.1",
+        "uploaded": "2026-03-08",
+        "variants": 2
+      },
+      "summary": "A simple mod that adds an overlay when driving in third person, as if it were coming from a drone.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/ThirdPersonVehicleDroneCamera/Main.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "i-really-want-to-be-with-you-romance-dialogue-hi",
+      "name": "I really want to be with you - Romance Dialogue Highlighter",
+      "nexusId": 36711,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "mod-settings"
+      ],
+      "author": "Xairron",
+      "endorsements": 164,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174139,
+        "name": "I Realy Want To Be With You",
+        "version": "1.2.0",
+        "uploaded": "2026-11-05",
+        "variants": 1
+      },
+      "summary": "Romance choices for Panam, Judy, Kerry, River and Rogue get a color and a heart, so you never miss the right line."
+    },
+    {
+      "id": "untrack-map-pins",
+      "name": "Untrack Map Pins",
+      "nexusId": 28875,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "nolvalir",
+      "endorsements": 163,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 143838,
+        "name": "Untrack Map Pins",
+        "version": "1.0.1",
+        "uploaded": "2026-04-30",
+        "variants": 1
+      },
+      "summary": "adds the ability to untrack pins and quests in the map menu",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/UntrackMapPins/Annotations/WorldMapMenuGameController.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "weapon-attachment-stacking",
+      "name": "Weapon Attachment Stacking",
+      "nexusId": 31902,
+      "priority": "optional",
+      "required": false,
+      "author": "pineappleLemonade67",
+      "endorsements": 161,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 153834,
+        "name": "Weapon Attachment Stacking 1.0.1",
+        "version": "3",
+        "uploaded": "2026-07-29",
+        "variants": 1
+      },
+      "summary": "Keep your inventory tidy by grouping duplicate weapon mods, scopes, and muzzle attachments into easy to read stacks",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/Weapon Attachment Stacking/00_types.reds",
+          "r6/scripts/Weapon Attachment Stacking/10_grouping.reds",
+          "r6/scripts/Weapon Attachment Stacking/20_inventory_hooks.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "inventory-instant-preview-supports-equipment-ex",
+      "name": "Inventory Instant Preview (Supports Equipment-EX and Virtual Atelier)",
+      "nexusId": 31316,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "redscript",
+        "native-settings-ui"
+      ],
+      "author": "EmreHQ",
+      "endorsements": 157,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 154920,
+        "name": "Inventory Instant Preview",
+        "version": "2.1.7",
+        "uploaded": "2026-08-05",
+        "variants": 1
+      },
+      "summary": "Preview items instantly by hovering over them in your inventory, without opening any pop-up windows.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/InventoryInstantPreview.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/InventoryInstantPreview/init.lua",
+          "r6/scripts/InventoryInstantPreview/InventoryInstantPreview.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "neurodeck",
+      "name": "NeuroDeck",
+      "nexusId": 5302,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "Neurolinked",
+      "endorsements": 150,
+      "nexusCategory": "User Interface",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 159889,
+        "name": "NeuroDeck_201.zip",
+        "version": "2.01",
+        "uploaded": "2026-09-08",
+        "variants": 1
+      },
+      "summary": "A configuration manager for my future mods (scripting or not) based on Cyber Engine Tweak and Native Settings UI",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/NeuroDeck/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "tag-marker-atlas-fix",
+      "name": "Tag Marker Atlas Fix",
+      "nexusId": 36486,
+      "priority": "optional",
+      "required": false,
+      "author": "Shaydera",
+      "endorsements": 31,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170807,
+        "name": "TagMarkerAtlasFix",
+        "version": "1.0.0",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Fixes a resolution-dependent tagging bug that can leave entities highlighted through walls without a tag arrow and disrupt manual tagging. Expands the game's internal marker atlas to prevent this “ghost-tag” issue at higher resolutions.",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     }
   ]
 }

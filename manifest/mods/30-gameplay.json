@@ -52,7 +52,8 @@
         "variants": 1
       },
       "summary": "Very basic framework which allows modders to add any vehicle to a simple virtual shop using TweakXL.",
-      "notes": "Required by 37 mod(s) in this pack."
+      "notes": "Required by 37 mod(s) in this pack.",
+      "autoNotes": "Required by 51 mod(s) in this pack."
     },
     {
       "id": "judy-romanced-enhanced",
@@ -170,7 +171,8 @@
         "variants": 1
       },
       "summary": "Core/framework mod file that allows for multiple quest type mods to use a single hook",
-      "notes": "Required by 16 mod(s) in this pack."
+      "notes": "Required by 16 mod(s) in this pack.",
+      "autoNotes": "Required by 16 mod(s) in this pack."
     },
     {
       "id": "let-there-be-flight",
@@ -198,7 +200,8 @@
         "variants": 1
       },
       "summary": "Enables a configurable flight system for all vehicles with custom thruster models, visual & sound effects, and animations",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "romance-hangouts-enhanced",
@@ -228,7 +231,8 @@
           "archive/pc/mod/RomanceHangoutsEnhanced.archive.xl"
         ]
       },
-      "notes": "Required by 5 mod(s) in this pack."
+      "notes": "Required by 5 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "reset-attributes-always-available-redscript",
@@ -304,7 +308,8 @@
         "variants": 1
       },
       "summary": "The core mod for the Night City Interactions mods/addons. On its own it contains the Edgerunners Tour meta quest that features locales from each of the Edgerunners anime episodes. This mod is required for all NCI Addons, handles their",
-      "notes": "Required by 6 mod(s) in this pack."
+      "notes": "Required by 6 mod(s) in this pack.",
+      "autoNotes": "Required by 6 mod(s) in this pack."
     },
     {
       "id": "simple-flashlight",
@@ -377,7 +382,9 @@
         "uploaded": "2026-11-07",
         "variants": 1
       },
-      "summary": "Autoloot like crazy!"
+      "summary": "Autoloot like crazy!",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "photo-mode-unlocker-2-3-xl",
@@ -409,7 +416,8 @@
           "archive/pc/mod/SILVER_PhotoModeUnlocker_2_3_XL.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 7 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 7 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 10 mod(s) in this pack."
     },
     {
       "id": "immersive-rippers",
@@ -453,7 +461,8 @@
         "variants": 6
       },
       "summary": "Gangs members are now able to drive trough NC.Motorbikes are part of the traffic.Civilians and NCPD are more aware, aggressive and reactive to what happen in NC.",
-      "notes": "6 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Also needs (off Nexus): REDmod, CET (No REDMOD version), Redscript (No REDMOD version), RED4ext (No REDMOD version), Codeware (No REDMOD version), TweakXL (No REDMOD version). Required by 2 mod(s) in this pack."
+      "notes": "6 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Also needs (off Nexus): REDmod, CET (No REDMOD version), Redscript (No REDMOD version), RED4ext (No REDMOD version), Codeware (No REDMOD version), TweakXL (No REDMOD version). Required by 2 mod(s) in this pack.",
+      "autoNotes": "6 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Also needs (off Nexus): REDmod, CET (No REDMOD version), Redscript (No REDMOD version), RED4ext (No REDMOD version), Codeware (No REDMOD version), TweakXL (No REDMOD version). Required by 1 mod(s) in this pack."
     },
     {
       "id": "custom-quickslots-consumables-grenades-and-cyber",
@@ -483,35 +492,6 @@
       "summary": "Adds custom quickslots/hotkeys to the bottom of the screen for consumables, grenades, and cyberware abilities. Fully configurable with in-game menu. Supports controllers and keyboard/mouse."
     },
     {
-      "id": "street-vendors",
-      "name": "Street Vendors",
-      "nexusId": 2894,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "redscript"
-      ],
-      "author": "MathiewMay",
-      "endorsements": 11050,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 92631,
-        "name": "Street Vendors",
-        "version": "v2.0.2",
-        "uploaded": "2024-11-20",
-        "variants": 1
-      },
-      "summary": "Allows you to trade with more Street Vendors.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/StreetVendors.archive",
-          "r6/scripts/Street Vendors/street_vendors.reds"
-        ]
-      },
-      "notes": "Also needs (off Nexus): REDMod. Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "in-world-navigation",
       "name": "In-World Navigation",
       "nexusId": 4583,
@@ -534,7 +514,8 @@
         "variants": 1
       },
       "summary": "This mod displays in-world holographic arrows for quest/point of interest navigation, mirroring the dots in the minimap. Now supports some configuration through Mod Settings.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "damage-scaling-and-balance-formerly-level-scalin",
@@ -565,7 +546,8 @@
           "r6/scripts/DamageScalingAndBalance/DamageScalingAndBalance.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "freefly-noclip",
@@ -595,7 +577,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/freefly/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "immersive-bartenders",
@@ -651,37 +634,8 @@
           "archive/pc/mod/ImmersiveFoodVendorsLoc.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "i-really-want-to-stay-at-your-house-judy",
-      "name": "I Really Want To Stay At Your House - Judy",
-      "nexusId": 8753,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "romance-hangouts-enhanced"
-      ],
-      "author": "Deceptious",
-      "endorsements": 9226,
-      "nexusCategory": "Gameplay",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 147260,
-        "name": "Really Want To Stay At Your House - Judy",
-        "version": "3.6.0",
-        "uploaded": "2026-06-01",
-        "variants": 1
-      },
-      "summary": "3.0! You can now pick, when messaging, whether Judy will have the 2.1 Hangout shorter visit, or a longer stay (this mod): Judy will now stay at V's H10, Glen, Japantown, or Corpo Plaza apartments sometimes, if V romanced her. Includes all",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/#ReallyWantToStayAtYourHouse_Judy.archive",
-          "archive/pc/mod/ReallyWantToStayAtYourHouse_Judy.archive.xl"
-        ]
-      }
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "kiroshi-optics-night-vision-mod",
@@ -760,37 +714,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/sitAnywhere/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "i-really-want-to-stay-at-your-house-panam",
-      "name": "I Really Want To Stay At Your House - Panam",
-      "nexusId": 8775,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "romance-hangouts-enhanced"
-      ],
-      "author": "Deceptious",
-      "endorsements": 8755,
-      "nexusCategory": "Gameplay",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 149719,
-        "name": "Really Want To Stay At Your House - Panam",
-        "version": "3.5.1",
-        "uploaded": "2026-06-24",
-        "variants": 1
-      },
-      "summary": "3.0! You can now pick, when messaging, whether Panam will have the 2.1 Hangout shorter visit, or a longer stay (this mod): Panam will now stay at V's H10, Glen, Japantown, or Corpo Plaza apartments sometimes, if V romanced her. Includes all",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/#ReallyWantToStayAtYourHouse_Panam.archive",
-          "archive/pc/mod/ReallyWantToStayAtYourHouse_Panam.archive.xl"
-        ]
-      }
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "zoomable-scopes",
@@ -814,39 +739,6 @@
         "variants": 1
       },
       "summary": "Adds configurable zoom levels to scoped weapons, that can be cycled through."
-    },
-    {
-      "id": "stealth-finishers-zkv-takedowns",
-      "name": "Stealth Finishers (ZKV_Takedowns)",
-      "nexusId": 9360,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "red4ext",
-        "redscript",
-        "enable-finisher-ragdolls"
-      ],
-      "author": "Kvalyr",
-      "endorsements": 8472,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 122081,
-        "name": "ZKV_StealthFinishers_v2.1.0 - Beta",
-        "version": "2.1.0-Beta",
-        "uploaded": "2025-09-20",
-        "variants": 1
-      },
-      "summary": "Melee Weapon finishers as stealth takedowns - Takedowns without grappling first (Initiate grapple OR takedown from stealth)",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/ZKVTakedowns2/init.lua",
-          "r6/scripts/ZKVTakedowns2/ZKV_StealthFinishers.reds",
-          "r6/scripts/ZKVTakedowns2/ZKV_Takedowns_Utils.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "lifepath-bonuses-and-gang-corp-traits",
@@ -897,7 +789,8 @@
         "variants": 1
       },
       "summary": "Framework that allows for the placement of interactions such as sitting, sleeping, drinking, showering and more.",
-      "notes": "Needs DLC: Phantom Liberty. Required by 39 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 39 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 36 mod(s) in this pack."
     },
     {
       "id": "pet-your-cat",
@@ -922,54 +815,6 @@
           "archive/pc/mod/#PetTheCat.archive"
         ]
       }
-    },
-    {
-      "id": "all-recipes-in-the-crafting-game-menu",
-      "name": "All recipes in the crafting game menu",
-      "nexusId": 657,
-      "priority": "recommended",
-      "required": false,
-      "author": "seba842005",
-      "endorsements": 7731,
-      "nexusCategory": "Crafting",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 2610,
-        "name": "recipes script",
-        "version": "1.2",
-        "uploaded": "2021-01-13",
-        "variants": 1
-      },
-      "summary": "Simple mod give You all recipes/blueprints!"
-    },
-    {
-      "id": "stock-market-and-news-system",
-      "name": "Stock Market and News System",
-      "nexusId": 6319,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "keanuWheeze and scornthegreat",
-      "endorsements": 7470,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 70083,
-        "name": "Stock Market and News System 1.4",
-        "version": "1.4",
-        "uploaded": "2024-02-28",
-        "variants": 1
-      },
-      "summary": "This mod adds a fully useable stock market system that dynamically reacts to quests and player action. Also adds a news system that shows news based on the game's quests and player actions.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/stockIcon.archive",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/stocks/init.lua"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "new-game-plus-native",
@@ -999,35 +844,6 @@
       "summary": "Play through Cyberpunk 2077 again with top-tier gear. Start a new game from the beginning of V's story or fast-track to your first meeting with Johnny Silverhand."
     },
     {
-      "id": "enable-finisher-ragdolls",
-      "name": "Enable Finisher Ragdolls",
-      "nexusId": 9496,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "red4ext"
-      ],
-      "author": "Kvalyr",
-      "endorsements": 6914,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 50640,
-        "name": "v0.1",
-        "version": "0.1",
-        "uploaded": "2023-10-02",
-        "variants": 1
-      },
-      "summary": "Allows NPCs to have collisions and ragdoll behaviour when killed with finishers, instead of behaving like statically-animated enemies from a shooter in 1999",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/ZKV_EnableFinisherRagdolls.reds"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "river-romanced-enhanced",
       "name": "River Romanced Enhanced",
       "nexusId": 4870,
@@ -1050,47 +866,6 @@
         "variants": 1
       },
       "summary": "River now Eats, Drinks, Sleeps and Worksout around Joss' family trailer; if you have romanced him he also Showers, and V can hug and kiss him at any of his activity spots. Updated for patch 2.0."
-    },
-    {
-      "id": "alternate-crowd-behavior-and-other-tweaks",
-      "name": "Alternate Crowd Behavior and other tweaks",
-      "nexusId": 526,
-      "priority": "recommended",
-      "required": false,
-      "author": "TemplarGFX",
-      "endorsements": 6563,
-      "nexusCategory": "Gameplay",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 1748,
-        "name": "TemplarGFXs Cyberpunk Tweaks",
-        "version": "1.2",
-        "uploaded": "2021-01-01",
-        "variants": 1
-      },
-      "summary": "Alters crowd movement and spawning, traffic behavior and spawning, enemy search mechanics and streaming systems in Cyberpunk 2077"
-    },
-    {
-      "id": "enhanced-police",
-      "name": "Enhanced Police",
-      "nexusId": 1672,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "redscript"
-      ],
-      "author": "mandruis7",
-      "endorsements": 6377,
-      "nexusCategory": "Gameplay",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 20500,
-        "name": "Enhanced Police",
-        "version": "4.0.0Beta",
-        "uploaded": "2022-02-19",
-        "variants": 1
-      },
-      "summary": "This mod adds the possibility of being pursued by different police vehicles"
     },
     {
       "id": "time-dilation-overhaul",
@@ -1153,7 +928,8 @@
           "r6/tweaks/IdleAnywhere.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "stealthrunner-stealth-gameplay-expansion",
@@ -1261,39 +1037,8 @@
           "r6/scripts/TalkToMeConfig.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "weathermancer-weather-select-menu",
-      "name": "Weathermancer - Weather Select Menu",
-      "nexusId": 9805,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "native-settings-ui",
-        "red4ext",
-        "redscript",
-        "cet"
-      ],
-      "author": "RMK",
-      "endorsements": 5541,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 66314,
-        "name": "Weathermancer",
-        "version": "1.2",
-        "uploaded": "2024-01-28",
-        "variants": 1
-      },
-      "summary": "Change to any weather at any time, from the mod menu. Can also be used to reset/fix weather to normal 24h changing weather when the game gets stuck on just one weather.",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/Weathermancer/init.lua"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "responsive-npcs",
@@ -1324,7 +1069,8 @@
           "r6/scripts/responsive_npcs/ReactionComponentOverrides.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "deceptious-bug-fixes",
@@ -1373,7 +1119,8 @@
         "variants": 1
       },
       "summary": "Adds a little immersion to the Dogtown rippers such that you now sit in their chairs to get work done.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "dark-future-urban-survival-gameplay",
@@ -1401,7 +1148,9 @@
         "uploaded": "2026-10-25",
         "variants": 1
       },
-      "summary": "Dark Future is a fully-featured Survival, Gameplay, and Immersion mod with systems for Basic Needs, Anxiety, Addiction, and more."
+      "summary": "Dark Future is a fully-featured Survival, Gameplay, and Immersion mod with systems for Basic Needs, Anxiety, Addiction, and more.",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "kerry-romanced-enhanced",
@@ -1432,7 +1181,8 @@
           "archive/pc/mod/KerryRomancedEnhanced.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "status-bar-bug-fixes",
@@ -1463,7 +1213,8 @@
           "r6/tweaks/status_bar_bug_fixes.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "smarter-scrapper",
@@ -1493,7 +1244,8 @@
           "r6/scripts/smarterScrapper.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "immersive-third-person-best-of-both-worlds",
@@ -1522,7 +1274,8 @@
         "variants": 1
       },
       "summary": "Explore Night City in an immersive third person perspective, without sacrificing the immersion of first-person elements.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "wannabe-edgerunner-a-simple-cyberpsychosis-mod",
@@ -1577,39 +1330,6 @@
       "summary": "Adds a new quest to the game. Requirements: Attended Jackie's ofrenda"
     },
     {
-      "id": "e3-smart-windows",
-      "name": "E3 Smart Windows",
-      "nexusId": 7026,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "stock-market-and-news-system",
-        "redscript",
-        "archivexl"
-      ],
-      "author": "keanuWheeze",
-      "endorsements": 4663,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 132703,
-        "name": "E3 Smart Windows 1.2",
-        "version": "1.2",
-        "uploaded": "2026-01-13",
-        "variants": 1
-      },
-      "summary": "This mod adds the smart window similar to the one in the 2018 E3 Demo, with interactive features and stock market integration.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/smartWindow.archive",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/smartWindow/init.lua",
-          "r6/scripts/smartWindow.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "fast-travel-from-anywhere-to-everywhere-redscrip",
       "name": "Fast Travel from anywhere to everywhere - Redscript",
       "nexusId": 9241,
@@ -1631,7 +1351,8 @@
         "variants": 2
       },
       "summary": "Offers a variant that enables fast traveling through the map menu to any Fast Travel Point and a variant that enables fast traveling to any map pin, even your own markers!",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "movement-and-camera-tweaks",
@@ -1661,7 +1382,8 @@
           "r6/scripts/MovementAndCameraTweaks.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "drive-an-aerial-vehicle-flight-mod-using-av-and",
@@ -1691,39 +1413,8 @@
         "variants": 1
       },
       "summary": "This mod introduces the ability to operate an AV and Helicopter. It adds a new layer of gameplay, allowing players to fly around Night City and use an auto-pilot feature for transportation. The AV can be purchased and summoned like any",
-      "notes": "Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "cyberscript",
-      "name": "Cyberscript",
-      "nexusId": 6475,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "cet",
-        "native-settings-ui",
-        "audioware"
-      ],
-      "author": "RedRock Studio",
-      "endorsements": 4400,
-      "nexusCategory": "Scripts",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 109415,
-        "name": "Cyberscript Core",
-        "version": "5.1.4",
-        "uploaded": "2025-05-20",
-        "variants": 1
-      },
-      "summary": "CyberScript is an scripting framework written in Lua, using CET, to execute .json script. It allow you to create or execute EASILY script like custom quest, dialog, stories and more. Read the description for more detail ;)",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/cyberscript/init.lua",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/zzzzzz_cyberscript_amm_compatibility/init.lua"
-        ]
-      },
-      "notes": "Also needs (off Nexus): Wiki. Required by 1 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 3 mod(s) in this pack."
     },
     {
       "id": "better-armor-tooltip",
@@ -1755,7 +1446,8 @@
           "archive/pc/mod/BetterArmorTooltip.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "vehicle-summon-tweaks",
@@ -1790,7 +1482,8 @@
           "archive/pc/mod/VehicleSummonTweaksDismiss.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "dance-off",
@@ -1844,7 +1537,8 @@
           "archive/pc/mod/ImmersiveBartendersDogtown.archive"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "apartment-cats-corpo-plaza",
@@ -1876,7 +1570,8 @@
           "archive/pc/mod/CorpoCat.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "nci-addon-watson",
@@ -1956,7 +1651,8 @@
           "archive/pc/mod/#NonCanonRomancesEnhanced.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "untrack-quest-ultimate-no-main-quest-re-tracking",
@@ -2033,7 +1729,8 @@
           "archive/pc/mod/#NCI_Westbrook.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "parking-spots-enhanced",
@@ -2092,7 +1789,8 @@
           "r6/scripts/DisablePositionReveal/config.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "here-s-johnny",
@@ -2180,7 +1878,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/CustomBlackwallQuickhacks/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): Phantom Liberty DLC."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): Phantom Liberty DLC.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): Phantom Liberty DLC."
     },
     {
       "id": "apartment-cats-northside-motel",
@@ -2212,7 +1911,8 @@
           "archive/pc/mod/MotelCat.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "mark-to-sell",
@@ -2270,7 +1970,8 @@
           "r6/scripts/auto_drive/auto_drive_global.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "zwei-custom-pmu-pose-packs-core",
@@ -2299,7 +2000,8 @@
           "archive/pc/mod/ZWEI_PMU_2_3_XL_CUSTOM_Core.xl"
         ]
       },
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "they-will-remember",
@@ -2357,48 +2059,8 @@
           "archive/pc/mod/ImmersiveFixers.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "the-zenitex-military-store",
-      "name": "The Zenitex Military Store",
-      "nexusId": 21735,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "cet",
-        "deceptious-quest-core",
-        "native-interactions-framework",
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "vendorsxl",
-        "zenitex-core-dependency-5-0",
-        "vendor-search",
-        "stash-and-backpack-search"
-      ],
-      "author": "ScorpionTank - Krat0es - Saltypigloaf",
-      "endorsements": 3351,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 129601,
-        "name": "The Zenitex Military Store",
-        "version": "1.2",
-        "uploaded": "2025-12-11",
-        "variants": 1
-      },
-      "summary": "Welcome to Zenitex. Adds a lore-friendly faction with a unique aesthetic, interior location, vendors, NPCs and collectible data. Purchase Zenitex equipment at up to 50% discount.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/scorpion_zenitex_store.archive",
-          "r6/tweaks/scorpiontank/0_scorpion_zenitex_store_vendors.yaml",
-          "r6/tweaks/scorpiontank/scorpion_zenitex_store_armory.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 10 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "qol-faster-checkpoints",
@@ -2428,7 +2090,8 @@
           "archive/pc/mod/FasterCheckpoints.archive.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "fixed-npc-vehicle-reactions",
@@ -2481,38 +2144,8 @@
           "r6/scripts/HystFrenchGlam-atelier-store.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "pmu-nibbles-unlocked",
-      "name": "PMU - Nibbles Unlocked",
-      "nexusId": 5138,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "photo-mode-unlocker-2-3-xl",
-        "red4ext",
-        "tweakxl"
-      ],
-      "author": "SilverEzredes",
-      "endorsements": 3273,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 27669,
-        "name": "PMU - Nibbles Unlocked",
-        "version": "1.0.0",
-        "uploaded": "2022-09-06",
-        "variants": 1
-      },
-      "summary": "Unlocks Nibbles in Photo Mode.",
-      "detect": {
-        "anyOf": [
-          "r6/tweaks/SILVER_PMU_Nibbles.yaml"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "black-chrome-cyberware-expansion",
@@ -2539,7 +2172,8 @@
         "variants": 1
       },
       "summary": "Adds 12 new cyberware to the game.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "melee-attacks-fixes-and-enhancements",
@@ -2572,7 +2206,8 @@
           "r6/scripts/MeleeAttacksFixesAndImprovements.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "faster-vehicle-knockback-animation",
@@ -2649,7 +2284,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/leanAnywhere/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "survival-system",
@@ -2686,8 +2322,6 @@
       "dependsOn": [
         "buzzsaw-vfx-fix",
         "cet",
-        "ha-4-grit-rail-fix",
-        "kenshin-muzzle-fix",
         "malorian-silverhand-attachment-fix",
         "trigger-mode-control",
         "unequip-unremovable-scopes",
@@ -2710,7 +2344,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/UnlockedAttachmentsCET_Clean/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 3 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 3 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 3 mod(s) in this pack."
     },
     {
       "id": "the-passenger-added-to-game-in-2-2",
@@ -2738,7 +2373,8 @@
           "archive/pc/mod/ThePassenger_Less.archive"
         ]
       },
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "quickhack-fixes",
@@ -2814,27 +2450,8 @@
         "variants": 2
       },
       "summary": "Ini tweaks and density mods that overhaul the crowd/traffic system... Makes the world feel more alive... No FPS loss vs Vanilla (for the main file)...",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "currently-unsupported-e-to-interact-v-to-walk-an",
-      "name": "(Currently Unsupported) E to Interact - V to Walk and Drive - Dedicated Dodge - Dialogue Scroll",
-      "nexusId": 30,
-      "priority": "recommended",
-      "required": false,
-      "author": "Ausanan",
-      "endorsements": 2838,
-      "nexusCategory": "Gameplay",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 446,
-        "name": "6.2 - E to Interact - V to Walk and Drive - Dedicated Dodge - Dialogue Scroll",
-        "version": "6.2",
-        "uploaded": "2020-12-15",
-        "variants": 3
-      },
-      "summary": "- Changes main key binding from F to E. - Adds the ability to Walk and Drive slowly by holding V.- Adds a dedicated Dodge by pressing Left Control and disables double tap dodging.- Adds the ability to use the mouse scroll up and down for",
-      "notes": "3 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "roller-coaster-enhanced",
@@ -2867,30 +2484,6 @@
       }
     },
     {
-      "id": "immersive-driving-2-31",
-      "name": "Immersive Driving 2.31",
-      "nexusId": 5293,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "input-loader",
-        "red4ext"
-      ],
-      "author": "SystemsLens",
-      "endorsements": 2833,
-      "nexusCategory": "Gameplay",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 92285,
-        "name": "Immersive Driving 2.13-b - Input Loader",
-        "version": "2.13-b",
-        "uploaded": "2024-11-16",
-        "variants": 2
-      },
-      "summary": "This mod changes acceleration to be more gradual, adds L_Shift to speed up & L_Ctrl to downshift(which has gearing down effect),, also adds 'Cruise' buttons for both low & high speed driving to the Mouse4/5 buttons(Thumb), it might sound",
-      "notes": "2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "ricochet-redux",
       "name": "Ricochet Redux",
       "nexusId": 7197,
@@ -2918,7 +2511,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/RicochetRedux/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "new-lifepath-intro-fresh-start",
@@ -2945,7 +2539,8 @@
         "variants": 1
       },
       "summary": "Adds a new lifepath and intro to the game, before the half year montage. V is both an ex-corpo and ex-nomad, returning to Night City.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "streaming-bug-workaround",
@@ -2973,7 +2568,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/StreamingBugWorkaround/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "wilson-s-range",
@@ -3031,7 +2627,8 @@
           "archive/pc/mod/#ApartmentCatsCustoms_Motel_GreyTiger.archive"
         ]
       },
-      "notes": "6 main-file variants on Nexus - pick one."
+      "notes": "6 main-file variants on Nexus - pick one.",
+      "autoNotes": "6 main-file variants on Nexus - pick one."
     },
     {
       "id": "apartment-cats-dogtown",
@@ -3063,7 +2660,8 @@
           "archive/pc/mod/DogtownCat.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
     },
     {
       "id": "say-something-damn-it",
@@ -3116,7 +2714,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/Infinite Double Jumps/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "visual-holsters-edgerunners-2-update",
@@ -3142,7 +2741,8 @@
         "variants": 1
       },
       "summary": "Automatically equips or unequips visibly holstered/stowed weapon items based on whether you're holding the weapon or not.",
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "reinforcements-system",
@@ -3177,7 +2777,8 @@
           "r6/scripts/ReinforcementsSystem/Abilities/fireSupport.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "gone-away-better-partner-suspended-behaviour",
@@ -3203,67 +2804,8 @@
         "variants": 1
       },
       "summary": "Improves the behaviour of Judy, Panam, River, and Kerry when they are \"busy\"/suspended. They will no longer just go idle at their home location, but will instead be gone, leaving a note for V.",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "i-really-want-to-stay-at-your-house-river",
-      "name": "I Really Want To Stay At Your House - River",
-      "nexusId": 8826,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "romance-hangouts-enhanced"
-      ],
-      "author": "Deceptious",
-      "endorsements": 2421,
-      "nexusCategory": "Gameplay",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 147366,
-        "name": "Really Want To Stay At Your House - River",
-        "version": "3.5.0",
-        "uploaded": "2026-06-02",
-        "variants": 1
-      },
-      "summary": "3.0! You can now pick, when messaging, whether River will have the 2.1 Hangout shorter visit, or a longer stay (this mod): River will now stay at V's H10, Glen, Japantown, or Corpo Plaza apartments sometimes, if V romanced him. Includes all",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/#ReallyWantToStayAtYourHouse_River.archive",
-          "archive/pc/mod/ReallyWantToStayAtYourHouse_River.archive.xl"
-        ]
-      }
-    },
-    {
-      "id": "bug-fix-base-fists-and-arm-cyberware-attack-spee",
-      "name": "Bug Fix - Base Fists and Arm Cyberware Attack Speed Fix",
-      "nexusId": 14130,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "redscript"
-      ],
-      "author": "Metool",
-      "endorsements": 2407,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 74436,
-        "name": "Base Fists and Arm Cyberware Attack Speed Fix",
-        "version": "2.12.2024.04.09",
-        "uploaded": "2024-04-09",
-        "variants": 1
-      },
-      "summary": "Arm Cyberware and Base Fists now scale with melee attack speed, and running low on stamina will slow your attack speed, just like other melee weapons.",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/Arm Cyberware Attack Speed Fix/init.lua",
-          "r6/scripts/Arm Cyberware Attack Speed Fix/ApplyArmCyberwareAttackSpeedFix.reds"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "metro-pocket-guide",
@@ -3291,56 +2833,6 @@
         "variants": 1
       },
       "summary": "Finds the shortest route between two selected metro stations and helps you navigate with ease."
-    },
-    {
-      "id": "law-enforcement-overhaul",
-      "name": "Law Enforcement Overhaul",
-      "nexusId": 10135,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "tweakxl"
-      ],
-      "author": "Yorpie",
-      "endorsements": 2359,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 96063,
-        "name": "Law Enforcement Overhaul - Non-DLC",
-        "version": "3.4",
-        "uploaded": "2024-12-27",
-        "variants": 2
-      },
-      "summary": "CDPR made a great overhaul of the police with the 2.0 update. This mod aims to expand on that by greatly expanding the variety of what comes after you, including things like armored SWAT trucks, Mechs, Netwatch agents,.... as well as brand",
-      "detect": {
-        "anyOf": [
-          "r6/tweaks/Law Enforcement Overhaul/districts.tweak",
-          "r6/tweaks/Law Enforcement Overhaul/ncpd.tweak",
-          "r6/tweaks/Law Enforcement Overhaul/prevenetion_system.tweak"
-        ]
-      },
-      "notes": "2 main-file variants on Nexus - pick one. Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "walk-key-on-pc",
-      "name": "WALK key on PC",
-      "nexusId": 37,
-      "priority": "recommended",
-      "required": false,
-      "author": "Charles",
-      "endorsements": 2290,
-      "nexusCategory": "Gameplay",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 26684,
-        "name": "Walk mod in all directions",
-        "version": "3",
-        "uploaded": "2022-07-29",
-        "variants": 1
-      },
-      "summary": "Adds the ability to walk with ALT instead of constantly running."
     },
     {
       "id": "pmu-zwei-x-rev-fashion-set",
@@ -3372,7 +2864,8 @@
           "r6/tweaks/zwei/Zwei_x_Rev_PMU_2_3_XL_Fashion.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "auto-drive-enhanced",
@@ -3427,7 +2920,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/AutoOnNeonRims/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "preem-weaponsmith-2-0",
@@ -3492,7 +2986,8 @@
           "r6/scripts/VirtualAtelierDelivery/VirtualAtelierDelivery.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "the-passenger-feature-settings",
@@ -3521,7 +3016,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/#ThePassengerSettings/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "ncpd-prevention-police-enhancement-redmod",
@@ -3541,7 +3037,8 @@
         "variants": 3
       },
       "summary": "Prevention in each district will now be more realistic.All the prevention system has been revisited to give the player a more realistic way of being an outlaw.",
-      "notes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Also needs (off Nexus): Redmod."
+      "notes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Also needs (off Nexus): Redmod.",
+      "autoNotes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Also needs (off Nexus): Redmod."
     },
     {
       "id": "nci-addon-city-center",
@@ -3567,36 +3064,6 @@
       "detect": {
         "anyOf": [
           "archive/pc/mod/#NCI_CityCenter.archive"
-        ]
-      }
-    },
-    {
-      "id": "i-really-want-to-stay-at-your-house-kerry",
-      "name": "I Really Want To Stay At Your House - Kerry",
-      "nexusId": 8806,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "romance-hangouts-enhanced"
-      ],
-      "author": "Deceptious",
-      "endorsements": 2167,
-      "nexusCategory": "Gameplay",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 147365,
-        "name": "Really Want To Stay At Your House - Kerry",
-        "version": "3.5.0",
-        "uploaded": "2026-06-02",
-        "variants": 1
-      },
-      "summary": "3.0! You can now pick, when messaging, whether Kerry will have the 2.1 Hangout shorter visit, or a longer stay (this mod): Kerry will now stay at V's H10, Glen, Japantown, or Corpo Plaza apartments sometimes, if V romanced him. Includes all",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/#ReallyWantToStayAtYourHouse_Kerry.archive",
-          "archive/pc/mod/ReallyWantToStayAtYourHouse_Kerry.archive.xl"
         ]
       }
     },
@@ -3658,41 +3125,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/ImmersiveVDialogueExpanded/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "neuralware-chipware-expansion",
-      "name": "Neuralware - Chipware Expansion",
-      "nexusId": 19798,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "audioware",
-        "bug-fix-base-fists-and-arm-cyberware-attack-spee",
-        "codeware",
-        "cet",
-        "input-loader",
-        "mod-settings",
-        "red4ext",
-        "redscript",
-        "reflex-is-cool",
-        "tweakxl",
-        "vendorsxl"
-      ],
-      "author": "Phoenicia",
-      "endorsements": 2103,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 172868,
-        "name": "Neuralware - Chipware Expansion",
-        "version": "1.2.4",
-        "uploaded": "2026-11-02",
-        "variants": 1
-      },
-      "summary": "Enhance your neural system with 40+ new implants, unlock devastating techniques, and manage a new neural capacity resource that adds depth to your cyberware choices",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "artistic",
@@ -3726,7 +3160,8 @@
           "archive/pc/mod/Artistic_Glen.archive"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "tv-anywhere",
@@ -3961,7 +3396,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/GeneralPerformanceImprovements-CET/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "quest-trigger-fixes-2-5-supported",
@@ -3986,7 +3422,8 @@
         "variants": 2
       },
       "summary": "Continually updated fixes - Misty tarot reading, Panam sleep at camp anytime, Spellbound, KOLD MIRAGE & many more. See description for full list.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "inside-the-ncart-station-opening-metro-platform",
@@ -4011,34 +3448,8 @@
         "variants": 1
       },
       "summary": "By introducing this Mod, you will be able to enter the Metro station. Also, you can get on the train from the route map inside the station.",
-      "notes": "Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "playable-roulette-gambling-system",
-      "name": "Playable Roulette - Gambling System",
-      "nexusId": 15450,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "cet",
-        "gambling-props-poker-chips-and-playing-cards",
-        "red4ext",
-        "tweakxl"
-      ],
-      "author": "Boe6",
-      "endorsements": 1795,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 173827,
-        "name": "Gambling System - Roulette",
-        "version": "1.1.4",
-        "uploaded": "2026-11-05",
-        "variants": 1
-      },
-      "summary": "Adds playable roulette tables to the world. Gamble your hard-earned Eddies and try your luck!"
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "pmu-sitting-poses",
@@ -4071,7 +3482,8 @@
           "r6/tweaks/zwei/ZWEI_PMU_Sit_MascV.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "set-bonuses",
@@ -4096,7 +3508,8 @@
         "variants": 1
       },
       "summary": "Adds set bonuses to the TTRPG sets, Johnny Silverhand's equipment and some other equipment sets. This mod also makes those items iconic, so they cannot be accidentally sold or dismantled.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "pmu-katana-set-fem-v",
@@ -4129,7 +3542,8 @@
           "archive/pc/mod/SILVER_PhotoModeUnlocker_2_3_XL_Katana_Vol_1.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "kabuki-gun-range-enhanced",
@@ -4186,7 +3600,8 @@
           "archive/pc/mod/SILVER_PhotoModeUnlocker_2_3_XL_Rogue.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "dash-fix",
@@ -4213,76 +3628,6 @@
       "summary": "No more glitchy teleports across the map when forward dashing in combat."
     },
     {
-      "id": "chromazon-renewed",
-      "name": "Chromazon Renewed",
-      "nexusId": 5472,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "edge-of-red-mantis-blades-iconic-cyberware",
-        "heat-converter",
-        "iconic-cyberarm-pack",
-        "jarngreipr-lightning-projectile-launcher",
-        "neuralware-chipware-expansion",
-        "quest-reward-iconic-monowire",
-        "stealthrunner-stealth-gameplay-expansion",
-        "synthdose-more-drugs",
-        "virtual-atelier",
-        "drone-companions-revamp-2-5",
-        "quickhack-weapon-mods",
-        "tyger-cache-new-iconic-weapons",
-        "nomad-cache-new-iconic-weapons",
-        "biotechnica-cache-new-iconic-weapons",
-        "ronin-new-iconic-weapon",
-        "ncpd-cache-new-iconic-weapons",
-        "animals-cache-new-iconic-weapons",
-        "judgment-day-iconic-defender"
-      ],
-      "author": "LadyAlekto",
-      "endorsements": 1639,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 122810,
-        "name": "All in One",
-        "version": "2.152",
-        "uploaded": "2025-09-27",
-        "variants": 1
-      },
-      "summary": "A Selection of Atelier stores for all things cyberware and mods adding new gameplay items",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/LA_Stores/LA_Drones.reds",
-          "r6/scripts/LA_Stores/LA_Drugs_Shop.reds",
-          "r6/scripts/LA_Stores/LA_Mod_Iconic_Weapons_Shop.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "better-melee",
-      "name": "Better Melee",
-      "nexusId": 2456,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript"
-      ],
-      "author": "ShadauxCat",
-      "endorsements": 1596,
-      "nexusCategory": "Gameplay",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 15996,
-        "name": "Better Melee (Mod Organizer)",
-        "version": "1.3.4",
-        "uploaded": "2021-08-24",
-        "variants": 2
-      },
-      "summary": "Fixes melee combos in sandevistan, adjusts time slow in kerenzikov to match sandesvistan, fixes finishers interrupting sandevistan, and fixes various bugs with the mantis blade leap attack.",
-      "notes": "2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "slots-slots-slots-more-weapon-mod-slots",
       "name": "Slots Slots Slots - More Weapon Mod Slots",
       "nexusId": 21644,
@@ -4305,7 +3650,8 @@
         "variants": 2
       },
       "summary": "Up to 8 mod slots on every weapon, iconics included, with more slots opening at every rarity. Class mods fit every slot, scope and muzzle stay as the game made them, and every setting changes live in Mod Settings.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "inside-the-metro-walk-in-train-carriage",
@@ -4331,7 +3677,8 @@
         "variants": 1
       },
       "summary": "Add a command to walk around inside the metro.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "night-city-allies-immersive-companion-system",
@@ -4358,26 +3705,8 @@
         "variants": 2
       },
       "summary": "Plug and play companion mod featuring many fun characters for combat, leveling, hangouts, you name it. :) Mod & Framework for lore characters aswell as custom NPV & AMM chars. Fully modular so you can configure your own experience ♪",
-      "notes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "easy-hacking",
-      "name": "Easy Hacking",
-      "nexusId": 5510,
-      "priority": "optional",
-      "required": false,
-      "author": "littleCowboy",
-      "endorsements": 1565,
-      "nexusCategory": "Gameplay",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 29515,
-        "name": "Easy Hacking 1.2",
-        "version": "1.2",
-        "uploaded": "2022-10-01",
-        "variants": 1
-      },
-      "summary": "Mod replaces all characters in hacking minigame on 1C."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "random-netrunners",
@@ -4411,43 +3740,8 @@
           "r6/scripts/RandomNetrunners/config.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "night-city-traffic-overhaul",
-      "name": "Night City Traffic Overhaul",
-      "nexusId": 25552,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "cet",
-        "faction-attitudes-toggler",
-        "factions-evolved-customizable-modded-traffic-law",
-        "loreful-modded-traffic",
-        "mod-settings",
-        "red4ext",
-        "redfunctions",
-        "redlogger",
-        "redscript",
-        "redscript-configuration-framework",
-        "spawned-npc-post-combat-fix",
-        "tweakxl",
-        "vehicle-selector-frontend"
-      ],
-      "author": "cradilyex",
-      "endorsements": 1513,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 177229,
-        "name": "NightCityTrafficOverhaul v3.05 (2.31 and 2.5)",
-        "version": "3.05",
-        "uploaded": "2026-11-12",
-        "variants": 1
-      },
-      "summary": "Customizable district based traffic! Add gang vehicles to their turf, taxis, buses, Delamain, police and more. Modded vehicles support!",
-      "notes": "Needs DLC: Phantom Liberty. Required by 4 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "holster-by-hotkey",
@@ -4472,7 +3766,8 @@
         "variants": 2
       },
       "summary": "Just another weapon holstering mod, powered by redscript",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "weeee-new-h10-exit",
@@ -4497,71 +3792,6 @@
         "variants": 1
       },
       "summary": "Adds a new, fun, fast, exit from the H10 megabuilding!"
-    },
-    {
-      "id": "synthdose-more-drugs",
-      "name": "SynthDose - More Drugs",
-      "nexusId": 14094,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "cet",
-        "native-settings-ui",
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "reflex-is-cool"
-      ],
-      "author": "Phoenicia",
-      "endorsements": 1458,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 104344,
-        "name": "SynthDose",
-        "version": "1.3.9",
-        "uploaded": "2025-03-19",
-        "variants": 1
-      },
-      "summary": "Adds 15 drugs to the game, along with toxicity effect, and cyberware, for handling toxicity.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/SynthDose.archive",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/SynthDose/init.lua",
-          "r6/scripts/SynthDose/healthbar.reds"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "missing-persons-read-shard-add-on",
-      "name": "Missing Persons Read Shard Add-On",
-      "nexusId": 9018,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "anygoodname",
-      "endorsements": 1432,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 127589,
-        "name": "Missing Persons Read Shard Add-On 1.2.4",
-        "version": "1.2.4",
-        "uploaded": "2025-11-15",
-        "variants": 1
-      },
-      "summary": "Open&Read requested Shards with a single button click.",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/MissingPersons_read_shard_addon/init.lua"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "faster-elevators",
@@ -4590,7 +3820,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/faster_elevators/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "economypunk",
@@ -4621,7 +3852,8 @@
           "r6/tweaks/EconomyPunk/B_Fixes_EconomyPunk.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "megingjord-hover-legs-cyberware",
@@ -4744,7 +3976,34 @@
           "r6/scripts/VehicleAmmoRefill/vehicle_ammo_refill.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "weapon-handling-control",
+      "name": "Weapon Handling Control",
+      "nexusId": 11474,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "Seijax",
+      "endorsements": 1295,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168402,
+        "name": "Weapon Handling Control",
+        "version": "2.2.3",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Adds customizable options regarding how good, our powerful V, actually is at handling weapons"
     },
     {
       "id": "nitrous",
@@ -4773,149 +4032,443 @@
       "notes": "Required by 1 mod(s) in this pack."
     },
     {
-      "id": "instant-crafting",
-      "name": "Instant crafting",
-      "nexusId": 152,
-      "priority": "optional",
-      "required": false,
-      "author": "hUUK45",
-      "endorsements": 1262,
-      "nexusCategory": "Crafting",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 345,
-        "name": "inputcontexts.xml",
-        "version": "1.1",
-        "uploaded": "2020-12-14",
-        "variants": 1
-      },
-      "summary": "Changes the crafting time to whatever you want. Instant craft, fast craft, etc. Can also be used for decrafting."
-    },
-    {
-      "id": "forbidden-vehicle-movement-no-more",
-      "name": "Forbidden Vehicle Movement No More",
-      "nexusId": 15757,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "codeware",
-        "redscript"
-      ],
-      "author": "sosuinepsixuyu",
-      "endorsements": 1254,
-      "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 82374,
-        "name": "ForbiddenVehicleMovementNoMore",
-        "version": "0.11",
-        "uploaded": "2024-07-13",
-        "variants": 1
-      },
-      "summary": "Read the description",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/ForbiddenVehicleMovementNoMore.reds"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "reinforcements-gang-vs-gang",
-      "name": "Reinforcements - Gang Vs Gang",
-      "nexusId": 24243,
+      "id": "the-kidnapping-of-panam",
+      "name": "The Kidnapping of Panam",
+      "nexusId": 17329,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "archivexl",
-        "codeware",
-        "mod-settings",
         "red4ext",
-        "redscript",
-        "reinforcements-system",
-        "tweakxl",
-        "spawned-npc-post-combat-fix"
+        "tweakxl"
       ],
-      "author": "Gibbon",
-      "endorsements": 1205,
+      "author": "Sunlive",
+      "endorsements": 1272,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
-        "fileId": 158662,
-        "name": "Reinforcements Gang Vs Gang",
-        "version": "3.1.3",
-        "uploaded": "2026-08-31",
+        "fileId": 158722,
+        "name": "kidnap_quest",
+        "version": "2.2.1",
+        "uploaded": "2026-09-01",
         "variants": 1
       },
-      "summary": "Gangs can call for backup when fighting eachother.",
+      "summary": "Panam Palmer has gone missing, and all signs point to something sinister.A cryptic message sent from her number, a deadly ambush at the Sunset Motel, and a trail leading straight into the chrome-fanged jaws of Maelstrom. V finds themselves",
       "detect": {
         "anyOf": [
-          "r6/scripts/reinforcements_gangvgang/DynamicSpawnSystem.reds",
-          "r6/scripts/reinforcements_gangvgang/GangData/6thStreetData.reds",
-          "r6/scripts/reinforcements_gangvgang/GangData/AldecaldosData.reds"
+          "archive/pc/mod/Kidnap.archive",
+          "r6/tweaks/Kidnap/kidnap.yaml",
+          "archive/pc/mod/Kidnap.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
-      "id": "interactive-accessories-toggle-visors-goggles-et",
-      "name": "Interactive Accessories (Toggle Visors Goggles etc.)",
-      "nexusId": 22472,
+      "id": "eviction-notice-story-driven-rent-system",
+      "name": "Eviction Notice - Story-Driven Rent System",
+      "nexusId": 23187,
       "priority": "optional",
       "required": false,
       "dependsOn": [
+        "redscript",
+        "archivexl",
+        "tweakxl",
         "codeware",
-        "cet",
-        "native-settings-ui",
-        "equipment-ex"
+        "mod-settings",
+        "red4ext"
       ],
-      "author": "ripperdoc",
-      "endorsements": 1172,
+      "author": "Dark Fortune Teller",
+      "endorsements": 1270,
       "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
+      "compat": "script-verify",
       "mainFile": {
-        "fileId": 112742,
-        "name": "Interactive Accessories",
-        "version": "1.0",
-        "uploaded": "2025-07-02",
+        "fileId": 118345,
+        "name": "Eviction Notice",
+        "version": "1.0.3-for-2.3",
+        "uploaded": "2025-08-19",
         "variants": 1
       },
-      "summary": "Use outfit toggles from all of your mods while playing - flip down visors, pull NVGs down over your eyes, etc.",
+      "summary": "Eviction Notice is a fully-featured apartment rent system with new characters to meet (via text) and lightweight quest content.",
       "detect": {
         "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/InteractiveAccessories/init.lua"
+          "archive/pc/mod/Eviction Notice Localization.archive",
+          "archive/pc/mod/Eviction Notice.archive",
+          "r6/scripts/Eviction Notice/Devices/ENApartmentScreenControllerOverrides.reds"
         ]
       },
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "psycho-killer-reward-restored",
-      "name": "Psycho Killer Reward - Restored",
-      "nexusId": 15497,
+      "id": "weapon-damage-multipliers-previously-headshot-da",
+      "name": "Weapon Damage Multipliers - previously Headshot Damage Multiplier",
+      "nexusId": 4247,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "thor777",
+      "endorsements": 1241,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171340,
+        "name": "WeaponDamageMultipliers",
+        "version": "2.5",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "A simple mod that adds a menu option to increase the damage multipliers for headshots, weakspots, and crits."
+    },
+    {
+      "id": "pmu-us-cracks-set",
+      "name": "PMU - Us Cracks Set",
+      "nexusId": 6932,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext",
+        "tweakxl",
+        "photo-mode-unlocker-2-3-xl"
+      ],
+      "author": "Zwei",
+      "endorsements": 1230,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 123838,
+        "name": "PMU - Us Cracks Set - Fem",
+        "version": "2.31",
+        "uploaded": "2025-10-07",
+        "variants": 1
+      },
+      "summary": "Adds 79 new poses for FemV!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ZWEI_PMU_2_3_XL_UsCracks.archive",
+          "r6/tweaks/zwei/ZWEI_PMU_2_3_XL_UsCracks.yaml",
+          "archive/pc/mod/ZWEI_PMU_2_3_XL_UsCracks.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "adam-finlay-hidden-gem-quest-recovery",
+      "name": "Adam Finlay Hidden Gem Quest Recovery",
+      "nexusId": 22103,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "anygoodname",
+      "endorsements": 1226,
+      "nexusCategory": "Gameplay",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 118996,
+        "name": "Adam Finlay Hidden Gem Quest Recovery v1.2.1",
+        "version": "1.2.1",
+        "uploaded": "2025-08-23",
+        "variants": 1
+      },
+      "summary": "Now you’ve got a second chance!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/adam_finlay_hidden_gem_recovery.archive",
+          "archive/pc/mod/adam_finlay_hidden_gem_recovery.xl"
+        ]
+      }
+    },
+    {
+      "id": "ccxl-more-cyberware",
+      "name": "CCXL - More Cyberware",
+      "nexusId": 21935,
+      "priority": "optional",
+      "required": false,
+      "author": "Zwei",
+      "endorsements": 1219,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171261,
+        "name": "CCXL More Cyberware",
+        "version": "2.5",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Adds an additional face cyberware category to the character creator via CCXL."
+    },
+    {
+      "id": "fast-travel-from-anywhere-to-everywhere-redmod",
+      "name": "Fast Travel from anywhere to everywhere - REDmod",
+      "nexusId": 9243,
+      "priority": "optional",
+      "required": false,
+      "author": "yakuzadeso",
+      "endorsements": 1213,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114960,
+        "name": "fast travel to any map pin",
+        "version": "1.0.0.3",
+        "uploaded": "2025-07-25",
+        "variants": 2
+      },
+      "summary": "Offers a variant that enables fast traveling through the map menu to any Fast Travel Point and a variant that enables fast traveling to any map pin, even your own markers!",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "game-v2-0-patch-no-forced-weapon-on-carrying-bod",
+      "name": "Game v2.0 patch - No Forced Weapon On Carrying Bodies",
+      "nexusId": 9223,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "redscript"
+      ],
+      "author": "anygoodname",
+      "endorsements": 1204,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 167746,
+        "name": "CET. No forced weapons all-in-one",
+        "version": "1.2.0",
+        "uploaded": "2026-10-23",
+        "variants": 3
+      },
+      "summary": "Stop the game forcing your weapons when carrying bodies.",
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "better-housing-buffs-redmod",
+      "name": "Better Housing Buffs (RedMod)",
+      "nexusId": 6181,
+      "priority": "optional",
+      "required": false,
+      "author": "CrazySD",
+      "endorsements": 1199,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 116814,
+        "name": "Better Housing Buffs",
+        "version": "0.3",
+        "uploaded": "2025-08-08",
+        "variants": 1
+      },
+      "summary": "Now having a good night's sleep, relaxing, taking a shower, and drinking a cup of coffee to start a day in your luxurious apartment will be worth your time and reward you more in-game.",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): RedMod.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): RedMod."
+    },
+    {
+      "id": "actual-blackwall-quickhacks",
+      "name": "Actual Blackwall Quickhacks",
+      "nexusId": 17755,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "yakuzadeso",
+      "endorsements": 1196,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177647,
+        "name": "ActualBlackwallQuickhacks",
+        "version": "1.0.1.0",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "New Quickhack shard that unlocks the Blackwall (single target) and the Blackwall (multitarget) quickhacks. The single target variant uploads to the target delivering lethal damage and the multitarget variant spreads to multiple enemies to",
+      "notes": "Also needs (off Nexus): Phantom Liberty DLC.",
+      "autoNotes": "Also needs (off Nexus): Phantom Liberty DLC."
+    },
+    {
+      "id": "no-more-tiers-unlocked-perk-tree-for-2-0-and-hig",
+      "name": "No More Tiers - Unlocked Perk Tree for 2.0 and Higher",
+      "nexusId": 9327,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "tweakxl"
       ],
-      "author": "saltypigloaf",
-      "endorsements": 1164,
+      "author": "TheArtificialEnhancer",
+      "endorsements": 1177,
       "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 107930,
-        "name": "Core Files",
-        "version": "1.0",
-        "uploaded": "2025-04-29",
+        "fileId": 169015,
+        "name": "Fully Unlocked Skill Trees",
+        "version": "1.21-full",
+        "uploaded": "2026-10-26",
+        "variants": 2
+      },
+      "summary": "Game version 2.0 locked perks behind \"tiers\"... This unlocks them... Also a version that just reduces the requirements...",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "immersive-odometer-and-fuel-system",
+      "name": "Immersive Odometer and Fuel System",
+      "nexusId": 23834,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "nc-courier-jobs",
+        "reddata",
+        "redfilesystem",
+        "redhttpclient",
+        "redscript",
+        "street-location-system-api",
+        "audioxl"
+      ],
+      "author": "elminister",
+      "endorsements": 1167,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 167114,
+        "name": "Immersive Odometer and Fuel System",
+        "version": "5.5",
+        "uploaded": "2026-10-19",
         "variants": 1
       },
-      "summary": "Regina's Psycho Killer quest rewards restored",
+      "summary": "Adds an immersive odometer (total) for cars and bikes and a fuel system to the game, featuring dynamic fuel consumption, dynamic pricing, vehicle restoration, fuel production and gas stations",
       "detect": {
         "anyOf": [
-          "r6/tweaks/saltypigloaf/spl_regina_reward.yaml"
+          "archive/pc/mod/ImmersiveOdometerFuelHUD.archive",
+          "archive/pc/mod/ImmersiveOdometerFuelV2.archive",
+          "archive/pc/mod/vm_chooh2_tank.archive"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "immersive-ncpd-hotline",
+      "name": "Immersive NCPD Hotline",
+      "nexusId": 8557,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "cet"
+      ],
+      "author": "anygoodname",
+      "endorsements": 1163,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 165425,
+        "name": "Immersive NCPD Hotline",
+        "version": "3.1.11",
+        "uploaded": "2026-10-11",
+        "variants": 1
+      },
+      "summary": "Bribe police to attack your enemies or cover up your crimes. Get protected against false blame police attacks.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/NPCD_Hotline/init.lua",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/stopNCPD/init.lua",
+          "r6/scripts/NCPD_Hotline/ncpd_hotline_mod_reds_helper.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "mixed-cyberware-store",
+      "name": "Mixed Cyberware Store",
+      "nexusId": 10849,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "unified-mods-resources",
+        "virtual-atelier"
+      ],
+      "author": "TiGames128",
+      "endorsements": 1162,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173783,
+        "name": "MixedCyberwareStore.zip",
+        "version": "1.2.4",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "Store for new items of some mods i have done. Refer to descriptionRequires Virtual Atelier",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "optical-camo-realism-and-utility",
+      "name": "Optical Camo Realism and Utility",
+      "nexusId": 15308,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "tweakxl",
+        "red4ext"
+      ],
+      "author": "Seijax",
+      "endorsements": 1160,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169046,
+        "name": "Camo Realism",
+        "version": "realism-1.1.2",
+        "uploaded": "2026-10-26",
+        "variants": 2
+      },
+      "summary": "Camo Skin that doesn't magically disappear held weapons. Deactivable Optical Camo that retains unspent charge.",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "reduced-loot",
+      "name": "Reduced Loot",
+      "nexusId": 2678,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "DJ_Kovrik",
+      "endorsements": 1153,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177290,
+        "name": "Reduced Loot",
+        "version": "4.0.0",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "Make loot scarcer in Night City. Set the chance to remove an entire stack of ammo, eddies, crafting components or other supported loot."
     },
     {
       "id": "heat-converter",
@@ -4945,7 +4498,193 @@
           "r6/tweaks/SeijaxCyberware/HeatConverter_Vendors.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "pmu-evelyn-set",
+      "name": "PMU - Evelyn Set",
+      "nexusId": 5663,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "photo-mode-unlocker-2-3-xl",
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "SilverEzredes",
+      "endorsements": 1124,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114671,
+        "name": "PMU - Evelyn Set",
+        "version": "2.3.00",
+        "uploaded": "2025-07-22",
+        "variants": 1
+      },
+      "summary": "Adds 55 new poses for FemV!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/SILVER_PhotoModeUnlocker_2_3_XL_Evelyn.archive",
+          "r6/tweaks/SILVER_PMU_2_3_XL_Evelyn.yaml",
+          "archive/pc/mod/SILVER_PhotoModeUnlocker_2_3_XL_Evelyn.archive.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "immersive-delamain",
+      "name": "Immersive Delamain",
+      "nexusId": 24295,
+      "priority": "optional",
+      "required": false,
+      "author": "S1nonim",
+      "endorsements": 1077,
+      "nexusCategory": "Gameplay",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 135466,
+        "name": "Immersive Delamain",
+        "version": "1.1.4",
+        "uploaded": "2026-02-08",
+        "variants": 1
+      },
+      "summary": "Adds some immersion when traveling in Delamain taxi. V now actually interact with Delamain socket port with a prompt. Also adds more than 40 new dialogues.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Immersive Delamain.archive"
+        ]
+      }
+    },
+    {
+      "id": "ping-tags-enemies-cet-cyber-engine-tweaks",
+      "name": "Ping Tags Enemies - CET Cyber Engine Tweaks",
+      "nexusId": 14256,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui",
+        "tag-marker-atlas-fix"
+      ],
+      "author": "Shaydera",
+      "endorsements": 1074,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171111,
+        "name": "Ping Tags Enemies - CET",
+        "version": "1.4.0",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Using the ping quickhack will automatically tag all revealed enemies and access points."
+    },
+    {
+      "id": "immersion-patch-cyberpunk-story-quest-fixes",
+      "name": "Immersion Patch - Cyberpunk Story Quest Fixes",
+      "nexusId": 29152,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet"
+      ],
+      "author": "anygoodname",
+      "endorsements": 1044,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174938,
+        "name": "Cyberpunk Story Quest Fixes",
+        "version": "1.21.2",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "Patches immersion-breaking bugs in main story related quests (Main, Side, Gig quests)"
+    },
+    {
+      "id": "guns-redone-v3-0-overhauled",
+      "name": "Guns Redone V3.0 (Overhauled)",
+      "nexusId": 12704,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "TheFatherofPork",
+      "endorsements": 1039,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170076,
+        "name": "GRO 3.1 (No PL and 2.5 compatible)",
+        "version": "1",
+        "uploaded": "2026-10-28",
+        "variants": 2
+      },
+      "summary": "This is truly a monstrous mod housing numerous weapon changes, originally Inspired by the now discontinued \"Weapon Overhaul\" mod by Adriansito. After playing with the spiritual successor \"gUN_balanced\" by NotFuji, I felt it was great but",
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "immersion-patch-path-of-glory-afterlife-scene-bu",
+      "name": "Immersion Patch - Path Of Glory - Afterlife scene bug fixes",
+      "nexusId": 23875,
+      "priority": "optional",
+      "required": false,
+      "author": "anygoodname",
+      "endorsements": 1027,
+      "nexusCategory": "Gameplay",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 119608,
+        "name": "Path Of Glory - Afterlife scene bug fixes 1.0.0",
+        "version": "1.0.0",
+        "uploaded": "2025-08-30",
+        "variants": 1
+      },
+      "summary": "This patch fixes a couple of immersion-breaking bugs in the Path of Glory's Afterlife scene.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/! path_of_glory_afterlife_scene_fixes.archive"
+        ]
+      }
+    },
+    {
+      "id": "basically-infinite-carry-weight-capacity-and-con",
+      "name": "Basically Infinite Carry Weight Capacity - And Consumables (with alt version)",
+      "nexusId": 8434,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl"
+      ],
+      "author": "TheArtificialEnhancer",
+      "endorsements": 1025,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 116977,
+        "name": "DefaultCarryCapacity9000",
+        "version": "2.0.01",
+        "uploaded": "2025-08-09",
+        "variants": 1
+      },
+      "summary": "New CET-based versions available! Sets base carry capacity to 9000, so effectively infinite capacity (I can set this higher if needed, though... I think 9000 is enough, but maybe not for some people)... TweakDB edit...",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/##DefaultCarryCapacity9000.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "unequip-unremovable-scopes",
@@ -4971,7 +4710,409 @@
         "variants": 1
       },
       "summary": "Grants the ability to change the unremovable scopes from weapons like Ol' Reliable, Lexington X-MOD2, Breakthrough, Borzaya, Overwatch, O'Five, Sparky, Ambition, Headsman.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "op-cyberdecks",
+      "name": "OP Cyberdecks",
+      "nexusId": 10317,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-settings-ui",
+        "redscript",
+        "tweakxl",
+        "input-loader"
+      ],
+      "author": "nobo",
+      "endorsements": 1008,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 141949,
+        "name": "op_cyberdecks",
+        "version": "0.0.0.39",
+        "uploaded": "2026-04-11",
+        "variants": 1
+      },
+      "summary": "Add Overpowered Cyberdecks, Berserk, Sandevistan.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/op_cyberdecks.archive",
+          "bin/x64/plugins/cyber_engine_tweaks/mods/op_cyberdecks/init.lua",
+          "r6/scripts/op_cyberdecks/op_cyberdecks.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "better-leveling-revamp-of-custom-level-cap",
+      "name": "Better Leveling (Revamp of Custom Level Cap)",
+      "nexusId": 22784,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "native-settings-ui",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "BiasNil",
+      "endorsements": 989,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172271,
+        "name": "Better Leveling V2.5 (Finalise)",
+        "version": "2.5.2",
+        "uploaded": "2026-11-01",
+        "variants": 1
+      },
+      "summary": "A Revamped of Custom Level Cap that (was lightweight) but now a big mod."
+    },
+    {
+      "id": "live-a-little",
+      "name": "Live A Little",
+      "nexusId": 13271,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "redscript"
+      ],
+      "author": "DeepBlueFrog",
+      "endorsements": 988,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 125407,
+        "name": "LiveALittle",
+        "version": "2025.10.21",
+        "uploaded": "2025-10-21",
+        "variants": 2
+      },
+      "summary": "Adjustments to quest objectives to give some breathing room in the main quest and let V explore and live a little.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/LiveALittle.archive",
+          "r6/tweaks/LiveALittle.yaml",
+          "archive/pc/mod/LiveALittle.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "splat-physics-realistic-ragdoll-overhaul",
+      "name": "SPLAT Physics Realistic Ragdoll Overhaul",
+      "nexusId": 23539,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "IceFire Modding",
+      "endorsements": 988,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171129,
+        "name": "Splat Physics 12.0 Beta",
+        "version": "12.0.1",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Custom ragdoll system with full control over impact, fall, and motion behavior for NPC, Vehicles, and explosions. Runtime profile switching, authored fall profiles, situational categories, chance balancing, release timing, and deep D6"
+    },
+    {
+      "id": "bolt-shot-fx-reset-fix",
+      "name": "Bolt Shot FX Reset Fix",
+      "nexusId": 19036,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "The guy posting it",
+      "endorsements": 984,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168803,
+        "name": "Bolt Shot FX Reset Fix",
+        "version": "1.1.5",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Fix for bolt shot resetting issues."
+    },
+    {
+      "id": "immersion-patch-minor-activities-quest-fixes",
+      "name": "Immersion Patch - Minor Activities Quest Fixes",
+      "nexusId": 27162,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet"
+      ],
+      "author": "anygoodname",
+      "endorsements": 984,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174937,
+        "name": "Minor Activities Quest Fixes",
+        "version": "1.15.1",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "Patches immersion-breaking bugs in Cyberpsycho sightings and NCPD scanner quests (Minor Activities)."
+    },
+    {
+      "id": "in-cold-blood-npc-execution-fix",
+      "name": "In Cold Blood - NPC Execution Fix",
+      "nexusId": 14880,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "Demon9ne",
+      "endorsements": 983,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172676,
+        "name": "In Cold Blood Fix",
+        "version": "1.3",
+        "uploaded": "2026-11-02",
+        "variants": 1
+      },
+      "summary": "Your most flagrant murders are finally acknowledged."
+    },
+    {
+      "id": "hybrid-cyberdeck-berserk-sandevistan-system",
+      "name": "Hybrid Cyberdeck Berserk Sandevistan System",
+      "nexusId": 6278,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "mixed-cyberware-store",
+        "unified-mods-resources",
+        "virtual-atelier"
+      ],
+      "author": "TiGames128",
+      "endorsements": 981,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 128683,
+        "name": "HCBSS_2.0.zip",
+        "version": "2.1.0",
+        "uploaded": "2025-11-29",
+        "variants": 1
+      },
+      "summary": "This mod adds 3 new hybrid cyberdecks with berserk and sandevistan capabilities.Requires CET and ArchiveXL.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/HCBSS_2.0/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "silver-pixel-cloud-drive-in-gates-game-bug-patch",
+      "name": "Silver Pixel Cloud Drive-in Gates Game Bug Patch",
+      "nexusId": 23573,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "codeware"
+      ],
+      "author": "anygoodname",
+      "endorsements": 972,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 127782,
+        "name": "Silver Pixel Cloud Gates Game Bug Patch 1.0.1",
+        "version": "1.0.1",
+        "uploaded": "2025-11-17",
+        "variants": 1
+      },
+      "summary": "Patches a long-standing bug that prevents the Silver Pixel Cloud Drive-in gates from opening after completing the Blistering Love quest, as originally designed.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/SilverPixelCinemaGatesGameBugPatch/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "infinite-carrying-capacity-weight-redmod-v2-5",
+      "name": "Infinite Carrying Capacity (Weight) - REDMod v2.5",
+      "nexusId": 9450,
+      "priority": "optional",
+      "required": false,
+      "author": "TheFatherOfPuppets",
+      "endorsements": 957,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170951,
+        "name": "InfiniteWeight_v2.5",
+        "version": "2.5",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Infinite Carrying Capacity (Weight) - REDMod Version, compatible with v2.5"
+    },
+    {
+      "id": "post-romance-delivery-system-judy-with-physical",
+      "name": "Post-Romance Delivery System (Judy) With physical packages",
+      "nexusId": 21496,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "Dedra",
+      "endorsements": 951,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168663,
+        "name": "Judy_gift_mod4",
+        "version": "5.1",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "NOW WITH A PHYSICAL PACKAGE! Judy now sends physical care packages via R.A. Delivery. These deliveries appear at actual stash points in your apartments and are clearly marked on your map."
+    },
+    {
+      "id": "retrothrusters-qol",
+      "name": "Retrothrusters QoL",
+      "nexusId": 14320,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "redscript"
+      ],
+      "author": "Demon9ne",
+      "endorsements": 945,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 119146,
+        "name": "Retrothrusters QoL",
+        "version": "1.3",
+        "uploaded": "2025-08-24",
+        "variants": 1
+      },
+      "summary": "Retrothrusters are tolerable now.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Retrothrusters_QoL.archive",
+          "r6/scripts/Retrothrusters_QoL/Retrothrusters_QoL.reds",
+          "r6/tweaks/Retrothrusters_QoL/Retrothrusters_QoL.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "computer-scrolling",
+      "name": "Computer Scrolling",
+      "nexusId": 7879,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "Di Crash",
+      "endorsements": 938,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173655,
+        "name": "Computer Scrolling",
+        "version": "v1.40b",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "A simple mod that organize computer tabs if you use mods such as: Virtual Atelier, Virtual Car Dealer, Stock Market or any other mods that add new tabs."
+    },
+    {
+      "id": "rent-a-motel",
+      "name": "Rent a Motel",
+      "nexusId": 21729,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "native-interactions-framework",
+        "native-settings-ui",
+        "redscript",
+        "0-engine"
+      ],
+      "author": "Hepero",
+      "endorsements": 936,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172254,
+        "name": "Rent a Motel 0-Engine 6.2.4",
+        "version": "6.2.4",
+        "uploaded": "2026-11-01",
+        "variants": 2
+      },
+      "summary": "Now you can rent 5 multiple motel rooms in the game, like Sunset, No-Tell, Kabuki, Las Palapas and Dewdrop Inn motels for chosen amount of time. Interact inside the rooms (sleep, take shower, meditate, relax on the couch, watch tv, make",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "immersion-patch-path-of-glory-restore-gun-equip",
+      "name": "Immersion Patch - Path of Glory - Restore Gun Equip in Shuttle Scene",
+      "nexusId": 23897,
+      "priority": "optional",
+      "required": false,
+      "author": "angoodname",
+      "endorsements": 933,
+      "nexusCategory": "Gameplay",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 119704,
+        "name": "Path Of Glory - Shuttle scene restore gun equip",
+        "version": "1.0.0",
+        "uploaded": "2025-08-31",
+        "variants": 1
+      },
+      "summary": "Brings back the immersive equip animations in the Path of Glory’s shuttle scene.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/! path_of_glory_shuttle_scene_restore_gun_equip.archive"
+        ]
+      }
     },
     {
       "id": "improved-vehicle-persistence",
@@ -4982,8 +5123,7 @@
       "dependsOn": [
         "cet",
         "redscript",
-        "tweakxl",
-        "vehiclegarageutil"
+        "tweakxl"
       ],
       "author": "FlyingNanoPenguin",
       "endorsements": 929,
@@ -5004,7 +5144,213 @@
           "r6/scripts/Improved Vehicle Persistence/VehiclePersistence-Overrides.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "post-romance-delivery-system-panam-with-physical",
+      "name": "Post-Romance Delivery System (Panam) - With physical packages",
+      "nexusId": 21689,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "Dedra",
+      "endorsements": 924,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168664,
+        "name": "Panam_gift_mod5",
+        "version": "5.1",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "NOW WITH A PHYSICAL PACKAGE! Panam now sends physical care packages via R.A. Delivery. These deliveries appear at actual stash points in your apartments and are clearly marked on your map."
+    },
+    {
+      "id": "limited-fast-travel",
+      "name": "Limited Fast Travel",
+      "nexusId": 1889,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "mod-settings"
+      ],
+      "author": "DJ_Kovrik",
+      "endorsements": 916,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 116521,
+        "name": "Limited Fast Travel",
+        "version": "1.3",
+        "uploaded": "2025-08-06",
+        "variants": 1
+      },
+      "summary": "Reduces the amount of active fast travel terminals, configurable.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/limitedFastTravel.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "arasaka-cyberware-os-mk6-2-0-cyberpunk-2077-2-5",
+      "name": "Arasaka Cyberware OS MK6 2.0 - Cyberpunk 2077 2.5",
+      "nexusId": 10476,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "unified-mods-resources"
+      ],
+      "author": "TiGames128",
+      "endorsements": 915,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172240,
+        "name": "ACOSMK6 2.0.zip",
+        "version": "1.3.0e",
+        "uploaded": "2026-11-01",
+        "variants": 1
+      },
+      "summary": "This mod will add new cyberware manufactured by Arasaka.Requires Cyber Engine Tweaks",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "stamina-consumption-fix",
+      "name": "Stamina Consumption Fix",
+      "nexusId": 23230,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "Lain",
+      "endorsements": 907,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 116469,
+        "name": "Stamina Consumption Fix",
+        "version": "1.0.0",
+        "uploaded": "2025-08-05",
+        "variants": 1
+      },
+      "summary": "Stamina consumption (for instance when crouch sprinting) is tied to frame rate in vanilla cyberpunk. This mod fixes that.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/Stamina Consumption Fix/Stamina Consumption Fix.Global.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "combat-revolution-ai-overhaul-and-high-stakes",
+      "name": "Combat Revolution(AI Overhaul and High-Stakes)",
+      "nexusId": 20225,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "ABCdb111",
+      "endorsements": 904,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 117684,
+        "name": "Combat",
+        "version": "1.4.3",
+        "uploaded": "2025-08-15",
+        "variants": 1
+      },
+      "summary": "Sick of the dulls in Night City? Time to face an epic showdown against adaptive foes who play it smart",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Combat/init.lua",
+          "r6/tweaks/Combat/Beat on the Brat fixed/ArchetypeData.GenericMeleeT1.yaml",
+          "r6/tweaks/Combat/Beat on the Brat fixed/ArchetypeData.GenericMeleeT1_inline3.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "coffee-maker-and-drink-for-other-apartments",
+      "name": "Coffee maker and drink for other apartments",
+      "nexusId": 19609,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework"
+      ],
+      "author": "unthinkthis and keanuwheeze",
+      "endorsements": 900,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172009,
+        "name": "coffee maker and drink for northside",
+        "version": "2.0.3",
+        "uploaded": "2026-11-01",
+        "variants": 3
+      },
+      "summary": "Adds more interaction to vanilla apartments (separated), remade with NIF",
+      "notes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "high-stakes-quest",
+      "name": "High Stakes Quest",
+      "nexusId": 18023,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "red4ext",
+        "tweakxl",
+        "redscript"
+      ],
+      "author": "Sunlive",
+      "endorsements": 897,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 159030,
+        "name": "AldecaldosHighStakes",
+        "version": "1.3.4",
+        "uploaded": "2026-09-03",
+        "variants": 1
+      },
+      "summary": "Dive into an adrenaline-pumping new gig that puts you in the middle of a high-stakes ambush against an Arasaka convoy. Team up with the Aldecaldos, the fearless nomads of the Badlands, and utilize custom AI voiceovers and bespoke scenes to",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/AldecaldosHighStakes.archive",
+          "r6/scripts/AldecaldosHighStakes/Localization/LocalizationProvider.reds",
+          "r6/scripts/AldecaldosHighStakes/Localization/Packages/English.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "air-s-inertia-returns",
@@ -5032,7 +5378,92 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/InertiaReturns/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "pachinko-button-gambling-system",
+      "name": "Pachinko Button - Gambling System",
+      "nexusId": 19889,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "red4ext",
+        "tweakxl",
+        "native-settings-ui"
+      ],
+      "author": "Boe6",
+      "endorsements": 866,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 129595,
+        "name": "gambling-system-pachinko",
+        "version": "1.1.4",
+        "uploaded": "2025-12-11",
+        "variants": 1
+      },
+      "summary": "Simple mod to add a Button to Gamble at any Pachinko Machines!",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/gambling-system-pachinko/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "bolt-shots-penetrate-cover",
+      "name": "Bolt Shots Penetrate Cover",
+      "nexusId": 20373,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "The guy posting it",
+      "endorsements": 866,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 133653,
+        "name": "Bolt Shots Penetrate Cover",
+        "version": "1.0.5",
+        "uploaded": "2026-01-23",
+        "variants": 1
+      },
+      "summary": "Bolt shots penetrate cover.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/Bolt Shot Penetrates Cover/bolt_penetration.reds",
+          "r6/tweaks/Bolt Shot Penetrates Cover/Kenshin_Bolt_Fix.yaml",
+          "r6/tweaks/Bolt Shot Penetrates Cover/Neko_Bolt_Fix.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "crowd-variety-restored",
+      "name": "Crowd Variety Restored",
+      "nexusId": 34908,
+      "priority": "optional",
+      "required": false,
+      "author": "dnbnhlp",
+      "endorsements": 859,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175897,
+        "name": "Crowd Variety Restored",
+        "version": "1.0.5",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Brings back 2,200+ crowd looks CDPR made and never used. Most civilian types get more than double the looks, and look-alikes standing side by side get a different one."
     },
     {
       "id": "ncpd-and-maxtac-spawn-tweak-district-specific-po",
@@ -5064,7 +5495,120 @@
           "r6/scripts/NCPD Spawn Tweak/DistrictConfig/Config_1_Rich.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "semimaru-quest-restart-bug-fix-2-5-supported",
+      "name": "Semimaru Quest Restart Bug Fix (2.5 Supported)",
+      "nexusId": 23031,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext"
+      ],
+      "author": "Atticus",
+      "endorsements": 834,
+      "nexusCategory": "Gameplay",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 121111,
+        "name": "SemimaruQuestRestartBugFix-1.1",
+        "version": "1.1",
+        "uploaded": "2025-09-12",
+        "variants": 1
+      },
+      "summary": "Patch 2.31 fixed the trigger, but not its text notification & journal notifications. Please read the description.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/SemimaruQuestRestartFix.archive"
+        ]
+      }
+    },
+    {
+      "id": "pmu-katana-set-masc-v",
+      "name": "PMU - Katana Set - Masc V",
+      "nexusId": 4411,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "photo-mode-unlocker-2-3-xl",
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "SilverEzredes",
+      "endorsements": 830,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114663,
+        "name": "PMU - Katana Set Vol.2",
+        "version": "2.3.00",
+        "uploaded": "2025-07-22",
+        "variants": 1
+      },
+      "summary": "Adds 20 new poses for MascV!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/SILVER_PhotoModeUnlocker_2_3_XL_Katana_Vol_2.archive",
+          "r6/tweaks/SILVER_PMU_2_3_XL_Katana_Vol_2.yaml",
+          "archive/pc/mod/SILVER_PhotoModeUnlocker_2_3_XL_Katana_Vol_2.archive.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "airdrops",
+      "name": "Airdrops",
+      "nexusId": 21836,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "anygoodname",
+      "endorsements": 828,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 140676,
+        "name": "Airdrops",
+        "version": "1.3.0",
+        "uploaded": "2026-03-28",
+        "variants": 1
+      },
+      "summary": "Adds navigation, hidden gem airdrops hints, and DOA game bug fixes.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Airdrops/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "disable-movement-keybinds-for-dialogue-selection",
+      "name": "Disable Movement Keybinds For Dialogue Selection",
+      "nexusId": 9235,
+      "priority": "optional",
+      "required": false,
+      "author": "Crimsomrider",
+      "endorsements": 825,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114600,
+        "name": "Disable Movement Keybinds For Dialogue Selection",
+        "version": "2.3",
+        "uploaded": "2025-07-22",
+        "variants": 1
+      },
+      "summary": "Removes the movement keybinds from affecting the dialogue selection.",
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "impact-kill-looting-fix",
@@ -5089,37 +5633,8 @@
           "archive/pc/mod/ImpactKillLootingFixExperimental.archive"
         ]
       },
-      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "ripperdoc-cyberware-specializations",
-      "name": "Ripperdoc Cyberware Specializations",
-      "nexusId": 17110,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "psycho-killer-reward-restored",
-        "tweakxl",
-        "ripperdoc-vendor-ui-enhancements-great-for-rippe"
-      ],
-      "author": "saltypigloaf",
-      "endorsements": 779,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 117304,
-        "name": "Base Game Only",
-        "version": "1.2",
-        "uploaded": "2025-08-11",
-        "variants": 2
-      },
-      "summary": "Every ripperdoc specializes in 2 cyberware types.  Each Iconic piece is available at a single ripperdoc.",
-      "detect": {
-        "anyOf": [
-          "r6/tweaks/!!RipperdocSpecialization.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
     },
     {
       "id": "zwei-custom-pmu-pose-packs-core-masc",
@@ -5148,7 +5663,34 @@
           "archive/pc/mod/ZWEI_PMU_2_3_XL_CUSTOM_Core_MascV.xl"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
+    },
+    {
+      "id": "arasaka-cyberware-os-mk6-2-0-store",
+      "name": "Arasaka Cyberware OS MK6 2.0 Store",
+      "nexusId": 10510,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "arasaka-cyberware-os-mk6-2-0-cyberpunk-2077-2-5",
+        "unified-mods-resources",
+        "virtual-atelier"
+      ],
+      "author": "TiGames128",
+      "endorsements": 747,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172244,
+        "name": "ACOSMK6 2.0 Store.zip",
+        "version": "1.2.3",
+        "uploaded": "2026-11-01",
+        "variants": 1
+      },
+      "summary": "Store for my mod [url=https://www.nexusmods.com/cyberpunk2077/mods/10476]Arasaka Cyberware OS MK6 2.0[/url]Requires Virtual Atelier",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "unlocked-attachments-suppressor-fix",
@@ -5176,42 +5718,8 @@
           "archive/pc/mod/Unlocked Attachments - Suppressor Sound Fix.archive"
         ]
       },
-      "notes": "Required by 3 mod(s) in this pack."
-    },
-    {
-      "id": "garage-customize-claim-sell-repair-swap",
-      "name": "Garage (Customize - Claim - Sell - Repair - Swap)",
-      "nexusId": 30297,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "audioware",
-        "cet",
-        "red4ext",
-        "redscript",
-        "xutils",
-        "vehicle-core"
-      ],
-      "author": "CyanideX",
-      "endorsements": 613,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 161059,
-        "name": "Garage Core",
-        "version": "1.0.4",
-        "uploaded": "2026-09-15",
-        "variants": 1
-      },
-      "summary": "The garage that does it all. Realtime customization, claim & sell, repair & clear, custom music and user-created dynamic locations.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/GarageCore.archive",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/GarageCore/init.lua",
-          "r6/scripts/GarageCore/Audio/AudioHelper.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Required by 3 mod(s) in this pack.",
+      "autoNotes": "Required by 4 mod(s) in this pack."
     },
     {
       "id": "legendary-upgrades",
@@ -5244,7 +5752,8 @@
           "r6/scripts/LegendaryUpgrade/LegendaryUpgradeLocalization.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "toggle-sprint-while-scanning",
@@ -5267,165 +5776,8 @@
         "variants": 1
       },
       "summary": "The scanning no longer restricts you to walking  only mode. You can now run, sprint or walk like normal while scanning and have a full control over your movement speed.",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "add-all-items",
-      "name": "Add All Items",
-      "nexusId": 9731,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "UnknownGamerMGGA",
-      "endorsements": 542,
-      "nexusCategory": "Scripts",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 52098,
-        "name": "Give All Cars",
-        "version": "1.0",
-        "uploaded": "2023-10-09",
-        "variants": 12
-      },
-      "summary": "Ever wanted to have every single item in Cyberpunk 2077 plus 2.0 and Phantom Liberty DLC....Well now you can this cybertweaks mod allows you to inject all the items into your account easily!",
-      "notes": "12 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "cyberpunk-2077-cheat-table-ct-outdated",
-      "name": "Cyberpunk 2077 Cheat Table (CT) OUTDATED",
-      "nexusId": 12384,
-      "priority": "optional",
-      "required": false,
-      "author": "0xKutila",
-      "endorsements": 533,
-      "nexusCategory": "Scripts",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 65233,
-        "name": "Cyberpunk 2077 Kutila Cheat Table",
-        "version": "v1.1",
-        "uploaded": "2024-01-18",
-        "variants": 1
-      },
-      "summary": "This Cheat Table is OUT OF DATE, if you use it, you may experience crashes or some things may not work at all.I'll not update it either.It's a Cheat Engine Table, so you need to download Cheat Engine from official website to use it.",
-      "notes": "Also needs (off Nexus): Cheat Engine 7.5."
-    },
-    {
-      "id": "ncpd-duty-expansion",
-      "name": "NCPD Duty Expansion",
-      "nexusId": 21547,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "browser-extension",
-        "codeware",
-        "ncpd-and-maxtac-spawn-tweak-district-specific-po",
-        "nightlynow-core",
-        "phone-extension",
-        "red4ext",
-        "redscript",
-        "redscript-configuration-framework"
-      ],
-      "author": "jack",
-      "endorsements": 485,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 175426,
-        "name": "NCPD Duty Expansion",
-        "version": "1.10",
-        "uploaded": "2026-11-08",
-        "variants": 1
-      },
-      "summary": "The NCPD has expanded their duties to boost revenue",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "update-clothing-mods-to-max",
-      "name": "Update clothing mods to max",
-      "nexusId": 1005,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "Zingfharn",
-      "endorsements": 465,
-      "nexusCategory": "Crafting",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 3821,
-        "name": "updatezero.zip",
-        "version": "1.4",
-        "uploaded": "2021-01-23",
-        "variants": 1
-      },
-      "summary": "Tired of crafting mods and deleting the ones which aren't purple? Or stripping white zero drags from boots? This upgrades all the low quality mods and scopes in your inv (but doesn't change their level)"
-    },
-    {
-      "id": "factions-evolved-customizable-modded-traffic-law",
-      "name": "Factions Evolved (Customizable Modded Traffic - Law Enforcement and Reinforcements Fleet)",
-      "nexusId": 25873,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "claim-vehicles",
-        "law-enforcement-overhaul",
-        "law-enforcement-overhaul-reset-spawn-compatibili",
-        "night-city-traffic-overhaul",
-        "red4ext",
-        "redscript",
-        "reinforcements-gang-vs-gang",
-        "tweakxl",
-        "vehicle-selector-frontend"
-      ],
-      "author": "ApoKrytia",
-      "endorsements": 450,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 168829,
-        "name": "Factions Evolved",
-        "version": "3.01",
-        "uploaded": "2026-10-26",
-        "variants": 1
-      },
-      "summary": "For real car enthusiast! Customize Night City's traffic! Add a wide variety of modded vehicles to faction and civilian traffic, steal or hijack traffic vehicles, and bring modded cars to Law Enforcement Overhaul and Reinforcements.",
-      "notes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "spawned-npc-post-combat-fix",
-      "name": "Spawned NPC Post Combat Fix",
-      "nexusId": 32862,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "night-city-alive",
-        "night-city-traffic-overhaul",
-        "redscript",
-        "reinforcements-gang-vs-gang",
-        "factions-evolved-customizable-modded-traffic-law"
-      ],
-      "author": "cradilyex",
-      "endorsements": 413,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 158700,
-        "name": "Spawned NPC Post Combat Fix",
-        "version": "1.2",
-        "uploaded": "2026-09-01",
-        "variants": 1
-      },
-      "summary": "Gangsters pack it up and leave the area after street shootouts. Made for NCTO but supports other mods.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/SpawnedNPCPostCombatFix/PostCombatFix.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "soft-crafting",
@@ -5457,7 +5809,8 @@
           "r6/scripts/SoftCrafting/SoftCraftingHelpers.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "disassemble-weapons-for-recipes-dawr",
@@ -5491,42 +5844,8 @@
           "archive/pc/mod/disassemble_weapons_for_recipes.archive.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "faction-attitudes-toggler",
-      "name": "Faction Attitudes Toggler",
-      "nexusId": 27614,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "mod-settings",
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "codeware"
-      ],
-      "author": "cradilyex",
-      "endorsements": 391,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 155610,
-        "name": "FactionAttitudesToggler_v3.0",
-        "version": "v3.0",
-        "uploaded": "2026-08-10",
-        "variants": 1
-      },
-      "summary": "Control all the factions relations between the player, NCPD, gangs and corpos with mod settings toggles. Set the streets hostilities and role play like you want. Made for NCTO but it is standalone.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/FactionAttitudesToggler/Data.reds",
-          "r6/scripts/FactionAttitudesToggler/FAT.reds",
-          "r6/scripts/FactionAttitudesToggler/FATsettings.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "radio-volume-control",
@@ -5558,7 +5877,8 @@
           "r6/tweaks/RadioVolumeControl/RadioVolumeControl.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "aabdii-s-armory-atelier",
@@ -5590,71 +5910,42 @@
           "r6/scripts/AAbdii's Atelier/aabdii_store.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "semi-automatic-transmission",
-      "name": "Semi-automatic Transmission",
-      "nexusId": 8016,
+      "id": "nc-courier-jobs",
+      "name": "NC Courier Jobs",
+      "nexusId": 25551,
       "priority": "optional",
       "required": false,
       "dependsOn": [
+        "archivexl",
+        "browser-extension",
+        "codeware",
         "cet",
-        "red4ext",
-        "limited-slip-differential"
+        "in-world-navigation",
+        "native-interactions-framework",
+        "reddata",
+        "redfilesystem",
+        "redhttpclient",
+        "redscript",
+        "audioxl"
       ],
-      "author": "GASHETKA",
-      "endorsements": 344,
+      "author": "elminister",
+      "endorsements": 307,
       "nexusCategory": "Gameplay",
-      "compat": "script-outdated",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 103085,
-        "name": "Semi-automatic Transmission",
-        "version": "2.21",
-        "uploaded": "2025-03-02",
+        "fileId": 168083,
+        "name": "NC Courier Jobs",
+        "version": "6",
+        "uploaded": "2026-10-24",
         "variants": 1
       },
-      "summary": "Gives you a choice between an automatic and a semi-automatic transmission type. Also you can disablee or nnable differential.",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/Semi-automatic Transmission/init.lua"
-        ]
-      },
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "law-enforcement-overhaul-reset-spawn-compatibili",
-      "name": "Law Enforcement Overhaul Reset (Spawn Compatibility - MaxTac Rebalanced - Fleet Expansion)",
-      "nexusId": 26045,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "law-enforcement-overhaul",
-        "ncpd-and-maxtac-spawn-tweak-district-specific-po",
-        "ncpd-duty-expansion",
-        "night-city-fleet-expansion",
-        "night-city-traffic-overhaul"
-      ],
-      "author": "Yorpie and ApoKrytia",
-      "endorsements": 318,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 166379,
-        "name": "Law Enforcement Overhaul Reset - AIO",
-        "version": "1.3.1aio",
-        "uploaded": "2026-10-16",
-        "variants": 2
-      },
-      "summary": "Removes hard-coded spawn settings to ensure full compatibility with script mods like NCPD Spawn Tweak and traffic mods. Also rebalances MaxTac units to be challenging but fair, removing immunity mechanics. Integrates new vehicles from Night",
-      "detect": {
-        "anyOf": [
-          "r6/tweaks/Law Enforcement Overhaul/barghest/preventiondata.tweak",
-          "r6/tweaks/Law Enforcement Overhaul/prevenetion_system.tweak",
-          "r6/tweaks/Law Enforcement Overhaul/prevention_system.tweak"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "summary": "This mod adds an own courier job level and netrunner data courier system and kill jobs with a own HUD into the world of Night City. Ingame Shop to push your V to the limits (if you grind enough)",
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
     },
     {
       "id": "immersive-road-crossing-and-crashes",
@@ -5669,8 +5960,7 @@
         "nightlynow-core",
         "red4ext",
         "redscript",
-        "tweakxl",
-        "vehicle-systems-simulation-vss"
+        "tweakxl"
       ],
       "author": "OGunblade",
       "endorsements": 289,
@@ -5684,7 +5974,8 @@
         "variants": 1
       },
       "summary": "Game changing immersion. Increases tension in street shootouts and during high speed car chases.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "private-yacht",
@@ -5712,7 +6003,38 @@
         "variants": 1
       },
       "summary": "Add your own Yacht to the Night city waters. Board the yacht, select your destination, and it will automatically take you to your destination.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "rich-drop-points",
+      "name": "Rich Drop Points",
+      "nexusId": 22924,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "JamesTheHacker",
+      "endorsements": 253,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 114917,
+        "name": "Core",
+        "version": "1.00",
+        "uploaded": "2025-07-24",
+        "variants": 1
+      },
+      "summary": "Drop points are 1000x richer.",
+      "detect": {
+        "anyOf": [
+          "r6/tweaks/RichDropPoints/Vendors.TierScaledBaseMoney_inline0.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "mute-openworld-devices",
@@ -5748,7 +6070,8 @@
           "r6/scripts/Mute OpenWorld Devices/Mute OpenWorld Devices.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "photomode-camera-reset-fix-look-at-camera-lock",
@@ -5777,137 +6100,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/Photomode Camera Reset Fix/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "faster-crafting",
-      "name": "Faster Crafting",
-      "nexusId": 155,
-      "priority": "optional",
-      "required": false,
-      "author": "Huuk45",
-      "endorsements": 222,
-      "nexusCategory": "Crafting",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 344,
-        "name": "inputcontexts.xml",
-        "version": "1",
-        "uploaded": "2020-12-14",
-        "variants": 1
-      },
-      "summary": "Changes the crafting time to whatever you want. This version is the faster crafting version."
-    },
-    {
-      "id": "kiroshi-opticals-netwatch-crowd-scanner",
-      "name": "KIROSHI OPTICALS NETWATCH CROWD SCANNER",
-      "nexusId": 23664,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "kiroshi-opticals-crowd-scanner",
-        "kiroshi-opticals-crowd-scanner-expansion",
-        "codeware",
-        "red4ext",
-        "redscript"
-      ],
-      "author": "Slim420",
-      "endorsements": 221,
-      "nexusCategory": "Scripts",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 164611,
-        "name": "KIROSHI OPTICALS NETWATCH SCANNER",
-        "version": "3.3",
-        "uploaded": "2026-10-07",
-        "variants": 1
-      },
-      "summary": "An expansion for Kiroshi Opticals - Crowd Scanner Expansion",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/backgroundScanner/Core/BackstoryManager.reds",
-          "r6/scripts/backgroundScanner/Core/BackstoryUI.reds",
-          "r6/scripts/backgroundScanner/Core/CrowdArchetype.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "drone-companions-revamp-2-5",
-      "name": "Drone Companions Revamp (2.5)",
-      "nexusId": 23980,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "cet",
-        "native-settings-ui",
-        "redscript",
-        "tweakxl"
-      ],
-      "author": "BiasNil",
-      "endorsements": 210,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 176766,
-        "name": "Drone Companions (Revamp) 2.5",
-        "version": "1.0.4",
-        "uploaded": "2026-11-10",
-        "variants": 1
-      },
-      "summary": "First of all thank you Scissors123454321 for letting us to update the mod to 2.5.",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "vehicle-speed-unlimiter",
-      "name": "Vehicle Speed Unlimiter",
-      "nexusId": 22155,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext"
-      ],
-      "author": "Jack Humbert",
-      "endorsements": 194,
-      "nexusCategory": "Gameplay",
-      "compat": "native-pre-2.5",
-      "mainFile": {
-        "fileId": 111659,
-        "name": "vehicle_speed_unlimiter_v1.0.2.zip",
-        "version": "1.0.2",
-        "uploaded": "2025-06-17",
-        "variants": 1
-      },
-      "summary": "Removes the vehicle speed limiter from the game, allowing speeds above ~400.",
-      "detect": {
-        "anyOf": [
-          "red4ext/plugins/vehicle_speed_unlimiter/vehicle_speed_unlimiter.dll"
-        ]
-      },
-      "notes": "Native plugin not updated since 2.5 - check the mod page before launching. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "darkside-s-militech-heavy-machine-gun-spawn-scri",
-      "name": "Darkside's Militech Heavy Machine Gun Spawn Script",
-      "nexusId": 1516,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "Darkside1227 and Chuckg",
-      "endorsements": 192,
-      "nexusCategory": "Scripts",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 6156,
-        "name": "Spawn Militech Heavy Machine Gun Hotkey enabled version",
-        "version": "1",
-        "uploaded": "2021-02-08",
-        "variants": 1
-      },
-      "summary": "A simple Hot Key configurable LUA Script that Spawns a Militech Heavy Machine Gun with 300 explosive rounds directly in to your hands. This weapon is normally pick up only (can not be placed in inventory) and now you can have one any time"
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "judy-s-nickname-for-male-v",
@@ -5943,7 +6137,7 @@
         "archivexl"
       ],
       "author": "Me",
-      "endorsements": 179,
+      "endorsements": 180,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -5959,7 +6153,8 @@
           "archive/pc/mod/Skippy Shortened.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "mute-vehicle-gear-shift",
@@ -6017,59 +6212,8 @@
         "variants": 0
       },
       "summary": "VSS - Realism You Can Feel",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "quickhack-weapon-mods",
-      "name": "Quickhack Weapon Mods",
-      "nexusId": 24568,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "tweakxl",
-        "mod-settings"
-      ],
-      "author": "dnbnhlp",
-      "endorsements": 155,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 168672,
-        "name": "Quickhack Weapon Mods",
-        "version": "1.03",
-        "uploaded": "2026-10-26",
-        "variants": 1
-      },
-      "summary": "Imbue your weapon with power of quickhacks. Melt brains with Synaptic Burnout mod or burn souls with Blackwall mod? Your weapon your choice.",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "quest-reward-iconic-monowire",
-      "name": "Quest reward_  iconic Monowire",
-      "nexusId": 15398,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "arasaka-cyberarms",
-        "archivexl",
-        "blackwall-monowire-arasakacyberarm-add-on",
-        "monowire-palette-arasakacyberarm-add-on",
-        "tweakxl"
-      ],
-      "author": "Iwillbewarlock",
-      "endorsements": 125,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 170787,
-        "name": "Quest reward_ iconic Monowire",
-        "version": "4.1-2.5",
-        "uploaded": "2026-10-30",
-        "variants": 1
-      },
-      "summary": "Add Iconic Monowires as a reward of quest",
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "accidental-fast-travel-bug-fix",
@@ -6092,7 +6236,8 @@
         "variants": 1
       },
       "summary": "Fixes a long lasting issue that made it possible to accidentanly fast travel while panning the map.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "charter-hill-penthouse-self-playing-piano",
@@ -6118,7 +6263,8 @@
         "variants": 1
       },
       "summary": "In a chrome-plated Charter Hill penthouse, a lacquered Steinway auto-plays Chopin, synthetic keys moving under ghost servos. V sips synthetic scotch, totally oblivious to the cadence—owning the 200,000-eurodollar heirloom isn't about",
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
     }
   ]
 }

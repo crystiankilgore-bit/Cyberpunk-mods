@@ -30,7 +30,7 @@
         "bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log"
       ],
       "notes": "Lua scripting + in-game overlay. Must match the exact game version.",
-      "autoNotes": "Required by 250 mod(s) in this pack."
+      "autoNotes": "Required by 243 mod(s) in this pack."
     },
     {
       "id": "redscript",
@@ -60,7 +60,7 @@
         "r6/logs/redscript*.log"
       ],
       "notes": "Script compiler. Compile errors show up in r6/logs/redscript_rCURRENT.log and usually point at the broken mod.",
-      "autoNotes": "Required by 336 mod(s) in this pack."
+      "autoNotes": "Required by 340 mod(s) in this pack."
     },
     {
       "id": "red4ext",
@@ -90,7 +90,7 @@
         "red4ext/logs/*.log"
       ],
       "notes": "Native plugin loader. ArchiveXL, TweakXL, Codeware and most DLL mods need it. Usually breaks on every game patch, so update it first.",
-      "autoNotes": "Required by 339 mod(s) in this pack."
+      "autoNotes": "Required by 325 mod(s) in this pack."
     },
     {
       "id": "archivexl",
@@ -122,7 +122,7 @@
         "red4ext/plugins/ArchiveXL/*.log"
       ],
       "notes": "Needed by almost every clothing, appearance and new-item mod.",
-      "autoNotes": "Required by 429 mod(s) in this pack."
+      "autoNotes": "Required by 433 mod(s) in this pack."
     },
     {
       "id": "tweakxl",
@@ -154,7 +154,7 @@
         "red4ext/plugins/TweakXL/*.log"
       ],
       "notes": "Loads .yaml/.tweak files from r6/tweaks. Needed by most item, weapon and balance mods.",
-      "autoNotes": "Required by 329 mod(s) in this pack."
+      "autoNotes": "Required by 319 mod(s) in this pack."
     },
     {
       "id": "codeware",
@@ -186,7 +186,7 @@
         "red4ext/plugins/Codeware/*.log"
       ],
       "notes": "Scripting library many redscript mods depend on.",
-      "autoNotes": "Required by 218 mod(s) in this pack."
+      "autoNotes": "Required by 208 mod(s) in this pack."
     },
     {
       "id": "native-settings-ui",
@@ -248,7 +248,8 @@
           "r6/scripts/BrowserExtension/BrowserExtension.DataStructures.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 4 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 4 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 3 mod(s) in this pack."
     },
     {
       "id": "radioext",
@@ -272,7 +273,8 @@
         "variants": 1
       },
       "summary": "This framework mod allows for the easy addition of new radio stations",
-      "notes": "Required by 15 mod(s) in this pack."
+      "notes": "Required by 15 mod(s) in this pack.",
+      "autoNotes": "Required by 14 mod(s) in this pack."
     },
     {
       "id": "audioware",
@@ -298,7 +300,8 @@
         "variants": 1
       },
       "summary": "This mod allows you to play custom sounds without REDmod.",
-      "notes": "Required by 14 mod(s) in this pack."
+      "notes": "Required by 14 mod(s) in this pack.",
+      "autoNotes": "Required by 10 mod(s) in this pack."
     },
     {
       "id": "zenitex-core-dependency-5-0",
@@ -325,7 +328,8 @@
           "archive/pc/mod/#_scorpion_zenitex_core_dependency.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 11 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 11 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "the-community-palette-project",
@@ -350,7 +354,8 @@
           "archive/pc/mod/TheCommunityPaletteProject_MLTemplateResource.archive"
         ]
       },
-      "notes": "Required by 15 mod(s) in this pack."
+      "notes": "Required by 15 mod(s) in this pack.",
+      "autoNotes": "Required by 7 mod(s) in this pack."
     },
     {
       "id": "vendorsxl",
@@ -385,7 +390,8 @@
           "r6/tweaks/##########VendorsXL/##########_VendorsXL.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 6 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 6 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 4 mod(s) in this pack."
     },
     {
       "id": "reddata",
@@ -409,7 +415,8 @@
         "variants": 1
       },
       "summary": "Plugin to parse / create / format data using Redscript / CET. It only supports JSON for now. It can generate UUIDs. For modders only.",
-      "notes": "Required by 9 mod(s) in this pack."
+      "notes": "Required by 9 mod(s) in this pack.",
+      "autoNotes": "Required by 11 mod(s) in this pack."
     },
     {
       "id": "redfilesystem",
@@ -434,7 +441,8 @@
         "variants": 1
       },
       "summary": "Plugin to read / write with the file system in a restricted path, using Redscript / CET. For modders only.",
-      "notes": "Required by 6 mod(s) in this pack."
+      "notes": "Required by 6 mod(s) in this pack.",
+      "autoNotes": "Required by 8 mod(s) in this pack."
     },
     {
       "id": "trigger-mode-control",
@@ -463,7 +471,8 @@
         "variants": 1
       },
       "summary": "Framework for weapon mods. Enable specific weapons to swap firemodes at the press of a keybind, audio fixes for all triggermodes and silencers, SecondaryDependantStatModifier, triggermode Prereqs, and more",
-      "notes": "Required by 11 mod(s) in this pack."
+      "notes": "Required by 11 mod(s) in this pack.",
+      "autoNotes": "Required by 8 mod(s) in this pack."
     },
     {
       "id": "inplace-streamingsectors-nulled",
@@ -483,7 +492,35 @@
         "variants": 1
       },
       "summary": "Nulls cooked data that prevents modders from modifying world assets.",
-      "notes": "Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 5 mod(s) in this pack."
+    },
+    {
+      "id": "redhttpclient",
+      "name": "RedHttpClient",
+      "nexusId": 14192,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "reddata",
+        "redfilesystem",
+        "redscript"
+      ],
+      "author": "Rayshader",
+      "endorsements": 1920,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168317,
+        "name": "RedHttpClient",
+        "version": "0.8.0",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Plugin to send HTTP requests. It can be used with Redscript and CET. For modders only.",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 4 mod(s) in this pack."
     },
     {
       "id": "audioxl",
@@ -496,8 +533,7 @@
         "red4ext",
         "redlogger",
         "redscript",
-        "redscript-configuration-framework",
-        "audioxl-equalizers-volume-mute"
+        "redscript-configuration-framework"
       ],
       "author": "DigitalVixen",
       "endorsements": 1730,
@@ -511,7 +547,8 @@
         "variants": 1
       },
       "summary": "Custom sounds and audio metadata through the game's own audio engine. Includes script extensions. (っˆڡˆς)",
-      "notes": "Required by 4 mod(s) in this pack."
+      "notes": "Required by 4 mod(s) in this pack.",
+      "autoNotes": "Required by 5 mod(s) in this pack."
     },
     {
       "id": "redscript-configuration-framework",
@@ -525,8 +562,7 @@
         "mod-settings",
         "red4ext",
         "redimgretriever",
-        "redscript",
-        "redfunctions"
+        "redscript"
       ],
       "author": "DigitalVixen",
       "endorsements": 1710,
@@ -540,7 +576,8 @@
         "variants": 1
       },
       "summary": "A girl has to do, what a girl needs to have. Configuration framework with dynamic content, for Redscript and in-game. (づ｡◕‿‿◕｡)づ",
-      "notes": "Required by 12 mod(s) in this pack."
+      "notes": "Required by 12 mod(s) in this pack.",
+      "autoNotes": "Required by 10 mod(s) in this pack."
     },
     {
       "id": "redfunctions",
@@ -565,7 +602,8 @@
         "variants": 1
       },
       "summary": "I need more functions, man. Like, what's a girl need to do to get some?! \\(°Ω°)/",
-      "notes": "Required by 5 mod(s) in this pack."
+      "notes": "Required by 5 mod(s) in this pack.",
+      "autoNotes": "Required by 4 mod(s) in this pack."
     },
     {
       "id": "redlogger",
@@ -590,30 +628,67 @@
         "variants": 1
       },
       "summary": "Allows Redscript mods to log to dedicated log files, which can also be viewed in-game through native ink; no need for CET to view logs. ._.)/\\(._.",
-      "notes": "Required by 3 mod(s) in this pack."
+      "notes": "Required by 3 mod(s) in this pack.",
+      "autoNotes": "Required by 4 mod(s) in this pack."
     },
     {
-      "id": "cybercmd",
-      "name": "cybercmd",
-      "nexusId": 5176,
-      "priority": "recommended",
+      "id": "redwindows",
+      "name": "RedWindows",
+      "nexusId": 32370,
+      "priority": "core",
       "required": false,
       "dependsOn": [
-        "cet"
+        "codeware",
+        "redfunctions",
+        "redscript",
+        "redscript-configuration-framework"
       ],
-      "author": "jac3km4",
-      "endorsements": 38527,
+      "author": "DigitalVixen",
+      "endorsements": 764,
       "nexusCategory": "Modders Resources",
-      "compat": "native-pre-2.5",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 109208,
-        "name": "cybercmd-standalone",
-        "version": "0.0.13",
-        "uploaded": "2025-05-17",
-        "variants": 2
+        "fileId": 175083,
+        "name": "RedWindows",
+        "version": "2.5.1",
+        "uploaded": "2026-11-07",
+        "variants": 1
       },
-      "summary": "Command-line argument loader for Cyberpunk 2077",
-      "notes": "Native plugin not updated since 2.5 - check the mod page before launching. 2 main-file variants on Nexus - pick one. Required by 2 mod(s) in this pack."
+      "summary": "Windows for mods, drawn in the game's own interface. For authors: an ImGui-style API. \\(^_^)/",
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "street-location-system-api",
+      "name": "Street Location System (API)",
+      "nexusId": 32912,
+      "priority": "core",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware"
+      ],
+      "author": "Scream81",
+      "endorsements": 242,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 162518,
+        "name": "StreetLocationSystem",
+        "version": "1.4",
+        "uploaded": "2026-09-25",
+        "variants": 1
+      },
+      "summary": "Expands the game's native district and sub-district tracking by adding real-time street names and intersections. Includes built-in World Map integration and a developer API.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/StreetLocationSystem/StreetLaneDatabase.reds",
+          "r6/scripts/StreetLocationSystem/StreetLocationSystem.reds",
+          "r6/scripts/StreetLocationSystem/StreetLoggerMapUI.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 3 mod(s) in this pack."
     },
     {
       "id": "framework-unique-v-body-shape-rig-legacy",
@@ -710,7 +785,8 @@
           "archive/pc/mod/zz_NeuroMultilayerMaterialXtender-2.2.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "vehicle-manufacturers-resource",
@@ -730,7 +806,8 @@
         "variants": 1
       },
       "summary": "It does nothing on it's own, it's just a resource for my vehicle mods",
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "night-city-visuals-nulled",
@@ -760,38 +837,8 @@
           "r6/scripts/NightCityVisualsNulled.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "reflex-is-cool",
-      "name": "Reflex is Cool",
-      "nexusId": 15963,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "redscript",
-        "tweakxl"
-      ],
-      "author": "Phoenicia",
-      "endorsements": 3992,
-      "nexusCategory": "Modders Resources",
-      "compat": "script-outdated",
-      "mainFile": {
-        "fileId": 102307,
-        "name": "ReflexIsCool",
-        "version": "1.0.2",
-        "uploaded": "2025-02-22",
-        "variants": 1
-      },
-      "summary": "Makes it possible, for moders to add items that increase/decrease Reflex and Cool skill checks in conversations.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/ReflexIsCool/ReflexIsCool.reds",
-          "r6/tweaks/ReflexIsCool/stats.yaml"
-        ]
-      },
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
     },
     {
       "id": "dogtown-location-visuals-nulled-a-general-fix-fo",
@@ -820,7 +867,8 @@
           "archive/pc/mod/dogtown-location-visuals-nulled.archive.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
     },
     {
       "id": "morphtarget-and-animrig-additions",
@@ -845,7 +893,8 @@
           "archive/pc/mod/zz_NLD_Morph_and_AnimRig_Additions.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "microblend-resource",
@@ -894,26 +943,8 @@
         "variants": 1
       },
       "summary": "Script is used for node removals in ReLUX 2.0 and other mods.",
-      "notes": "Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "cyberclean",
-      "name": "Cyberclean",
-      "nexusId": 8595,
-      "priority": "recommended",
-      "required": false,
-      "author": "2077v2",
-      "endorsements": 2468,
-      "nexusCategory": "Modders Resources",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 91867,
-        "name": "v2_CybercleanCityofDreams",
-        "version": "1.1",
-        "uploaded": "2024-11-12",
-        "variants": 1
-      },
-      "summary": "A simple batch file that removes all modded files from your Cyberpunk installation."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "johnson-s-amazing-dangles-emporium-for-users",
@@ -940,32 +971,6 @@
       }
     },
     {
-      "id": "redhttpclient",
-      "name": "RedHttpClient",
-      "nexusId": 14192,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "reddata",
-        "redfilesystem",
-        "redscript"
-      ],
-      "author": "Rayshader",
-      "endorsements": 1920,
-      "nexusCategory": "Modders Resources",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 168317,
-        "name": "RedHttpClient",
-        "version": "0.8.0",
-        "uploaded": "2026-10-25",
-        "variants": 1
-      },
-      "summary": "Plugin to send HTTP requests. It can be used with Redscript and CET. For modders only.",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "4x-vending-machine-framework",
       "name": "4x Vending Machine Framework",
       "nexusId": 13485,
@@ -986,7 +991,8 @@
         "variants": 2
       },
       "summary": "This framework does 2 things: First, it expands the number of vending machine graphics by 4x the amount in the vanilla game. Second, it randomizes the vending machine graphics. Installing this by itself only does the second, so it is",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "framework-unique-evelyn-body-shape-rig",
@@ -1037,7 +1043,8 @@
           "archive/pc/mod/sdh0_colorpack.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "customhackingsystem",
@@ -1071,7 +1078,8 @@
           "r6/scripts/CustomHackingSystem/CodewareExtensions/CompoundWidget/CompoundWidgetUtilities.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "0-engine",
@@ -1099,7 +1107,8 @@
           "bin/x64/plugins/cyber_engine_tweaks/mods/0-Engine/init.lua"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
     },
     {
       "id": "4x-poster-framework",
@@ -1122,7 +1131,8 @@
         "variants": 2
       },
       "summary": "Massively expand posters in Night City! This framework does 2 things: First, it expands the number of posters by 4x the amount in the vanilla game. Second, it randomizes the posters in Night City. Installing this by itself only does the",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "digitalvixen-core",
@@ -1150,7 +1160,9 @@
         "uploaded": "2026-11-10",
         "variants": 1
       },
-      "summary": "This module is only to support my existing and coming mods with centralized functions."
+      "summary": "This module is only to support my existing and coming mods with centralized functions.",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "nightlynow-core",
@@ -1177,26 +1189,8 @@
         "variants": 1
       },
       "summary": "Only install this if required by other mod(s).",
-      "notes": "Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "crafting-recipe-ids",
-      "name": "Crafting Recipe IDs",
-      "nexusId": 543,
-      "priority": "optional",
-      "required": false,
-      "author": "IDA",
-      "endorsements": 987,
-      "nexusCategory": "Modders Resources",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 1469,
-        "name": "Recipes.zip",
-        "version": "1.01",
-        "uploaded": "2020-12-28",
-        "variants": 1
-      },
-      "summary": "All the item lists were missing a huge amount of crafting recipes, so I messed around and found a whole bunch of them."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "4x-magazine-framework",
@@ -1219,7 +1213,8 @@
         "variants": 2
       },
       "summary": "Massively expand magazines in Night City! This framework does 2 things: First, it expands the number of magazines by 4x the amount in the base game. Second, it randomizes the magazines in Night City. Installing this by itself only does the",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
       "id": "undermine-quest-series",
@@ -1276,33 +1271,8 @@
           "r6/scripts/PhoneExtension/PhoneExtension.Overrides.reds"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "redwindows",
-      "name": "RedWindows",
-      "nexusId": 32370,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "redfunctions",
-        "redscript",
-        "redscript-configuration-framework"
-      ],
-      "author": "DigitalVixen",
-      "endorsements": 764,
-      "nexusCategory": "Modders Resources",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 175083,
-        "name": "RedWindows",
-        "version": "2.5.1",
-        "uploaded": "2026-11-07",
-        "variants": 1
-      },
-      "summary": "Windows for mods, drawn in the game's own interface. For authors: an ImGui-style API. \\(^_^)/",
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "redimgretriever",
@@ -1326,38 +1296,8 @@
         "variants": 1
       },
       "summary": "Allows Redscript mods to retrieve images from the intarwebz and display them inside ink by hot-creating archive files and hot-mounting them. ᕕ( ᐛ )ᕗ",
-      "notes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "street-location-system-api",
-      "name": "Street Location System (API)",
-      "nexusId": 32912,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "codeware"
-      ],
-      "author": "Scream81",
-      "endorsements": 242,
-      "nexusCategory": "Modders Resources",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 162518,
-        "name": "StreetLocationSystem",
-        "version": "1.4",
-        "uploaded": "2026-09-25",
-        "variants": 1
-      },
-      "summary": "Expands the game's native district and sub-district tracking by adding real-time street names and intersections. Includes built-in World Map integration and a developer API.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/StreetLocationSystem/StreetLaneDatabase.reds",
-          "r6/scripts/StreetLocationSystem/StreetLocationSystem.reds",
-          "r6/scripts/StreetLocationSystem/StreetLoggerMapUI.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "calendar",
@@ -1383,27 +1323,34 @@
         "variants": 1
       },
       "summary": "A proper calendar API for mods to use, possibly some in-game calendar style webpage in the works, maybe perhaps. ¯\\(°_o)/¯",
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
-      "id": "uuh4v-5-mesh-edition-a-modder-s-resource-for-app",
-      "name": "UUH4V - 5 Mesh Edition - A Modder's Resource for App-Swapped Hair Unique To V",
-      "nexusId": 7181,
+      "id": "fov-control",
+      "name": "FOV Control",
+      "nexusId": 25677,
       "priority": "optional",
       "required": false,
-      "author": "NoraLee",
-      "endorsements": 174,
+      "dependsOn": [
+        "codeware",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "koryboc",
+      "endorsements": 109,
       "nexusCategory": "Modders Resources",
-      "compat": "unknown",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 37671,
-        "name": "UUH4V - 5 Mesh Edition - Resource Files - MV",
-        "version": "1.0",
-        "uploaded": "2023-01-21",
-        "variants": 2
+        "fileId": 169898,
+        "name": "FovControl",
+        "version": "2.50.0",
+        "uploaded": "2026-10-28",
+        "variants": 1
       },
-      "summary": "This resource makes it quick and easy to use the app-swap method to make your hair mod, thereby sidestepping a number of issues with mesh-swapped hair mods. Your mod can now load up to 5 hair meshes, 5 animgraph/rig pairs, an accessory",
-      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+      "summary": "API that allows stopping unwanted FOV shifts and provides additional FOV handling utilities.",
+      "notes": "Also needs (off Nexus): Microsoft Visual C++ Redistributable 2022. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Also needs (off Nexus): Microsoft Visual C++ Redistributable 2022. Required by 1 mod(s) in this pack."
     }
   ]
 }

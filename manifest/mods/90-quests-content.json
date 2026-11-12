@@ -33,33 +33,6 @@
       "notes": "Required by 1 mod(s) in this pack."
     },
     {
-      "id": "jig-jig-unleashed-revolution",
-      "name": "Jig Jig Unleashed - REVOLUTION",
-      "nexusId": 16580,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "coffee-maker-machine-for-modded-apartments",
-        "cet",
-        "native-interactions-framework",
-        "native-settings-ui",
-        "proxima-s-prop-archives"
-      ],
-      "author": "Proxima Dust",
-      "endorsements": 996,
-      "nexusCategory": "Locations",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 172917,
-        "name": "Jig Jig Unleashed - Revolution",
-        "version": "1.5",
-        "uploaded": "2026-11-03",
-        "variants": 1
-      },
-      "summary": "Massive overhaul for the Jig Jig area, adds NPCs, neons, billboards, sex, grime, and a heavily customizable pod apartment. Also has settings to play with in the Mods menu and adds new interactions."
-    },
-    {
       "id": "h10-elevator-expanded",
       "name": "H10 Elevator Expanded",
       "nexusId": 19792,
@@ -87,7 +60,8 @@
           "archive/pc/mod/H10ElevatorExpanded_NoGarage.xl"
         ]
       },
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "improved-aldecaldos-camp",
@@ -113,90 +87,8 @@
         "variants": 2
       },
       "summary": "Improves the realism of the new Aldecaldos camp (once they moved after the quest Queen of the Highway) with new content and QoL stuff.",
-      "notes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "hidden-gems-locations-on-map",
-      "name": "Hidden Gems Locations on Map",
-      "nexusId": 10896,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "cet",
-        "cyberscript",
-        "native-settings-ui",
-        "red4ext"
-      ],
-      "author": "PolluxTroy0 - donk74",
-      "endorsements": 752,
-      "nexusCategory": "Locations",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 63022,
-        "name": "Hidden Gems Locations On Map (Francais)",
-        "version": "2.1.1",
-        "uploaded": "2024-01-01",
-        "variants": 2
-      },
-      "summary": "A CyberScript DataPack that add all Hidden Gems locations on the map.",
-      "notes": "2 main-file variants on Nexus - pick one. Also needs (off Nexus): Redmod DLC."
-    },
-    {
-      "id": "club-27-glen-apartment",
-      "name": "CLUB 27 - Glen Apartment",
-      "nexusId": 13051,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "native-interactions-framework",
-        "proxima-s-prop-archives",
-        "proxima-s-prop-paradise",
-        "smart-frames-enhanced",
-        "tweakxl"
-      ],
-      "author": "nutboy",
-      "endorsements": 686,
-      "nexusCategory": "Locations",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 130699,
-        "name": "CLUB 27 v3.0 - Glen Apartment",
-        "version": "3.0",
-        "uploaded": "2025-12-24",
-        "variants": 1
-      },
-      "summary": "Flashy eclectic Glen Apartment and/or lobby. Designed for an edgerunner who rocks both expensive and lowbrow tastes.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/NUT_glenclub27.archive",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/NUT_glenclub27/init.lua",
-          "r6/tweaks/nutboy/nut_club27.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "corpo-apartment-garage-an-amm-preset-by-marrek",
-      "name": "Corpo Apartment Garage - an AMM Preset by Marrek",
-      "nexusId": 5932,
-      "priority": "optional",
-      "required": false,
-      "author": "Marrek",
-      "endorsements": 665,
-      "nexusCategory": "Locations",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 31097,
-        "name": "Corpo Garage By Marrek Dramatic Lights",
-        "version": "2.0",
-        "uploaded": "2022-10-17",
-        "variants": 2
-      },
-      "summary": "Adds a small but sleek garage to the Corpo player apartment!",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "7th-hell-club-unlocked-and-remastered",
@@ -216,7 +108,8 @@
         "variants": 2
       },
       "summary": "Unlocked all the locked areas of the club, removed and fixed the broken stuff and added some. Updated for patch 2.5.",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "h10-apartment-open-bedroom-window",
@@ -264,7 +157,8 @@
         "variants": 1
       },
       "summary": "Expands the vertical space in the north of Japantown by connecting existing previously inaccessible areas such as pedestrian walkways and connecting it to the vanilla game world and adding new interior spaces in between.",
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
     },
     {
       "id": "the-atlantis-restored",
@@ -288,7 +182,9 @@
         "uploaded": "2026-10-29",
         "variants": 1
       },
-      "summary": "Reopens The Atlantis from Johnny's flashback. Unlocks club entrance, adds real NPC, interactable bartenders, and fast travel point to the location"
+      "summary": "Reopens The Atlantis from Johnny's flashback. Unlocks club entrance, adds real NPC, interactable bartenders, and fast travel point to the location",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "rebeccas-edgerunners-apartment-dlc",
@@ -313,32 +209,6 @@
         "variants": 1
       },
       "summary": "This mod adds a purchasable version of rebeccas apartment from the cyberpunk edgerunners anime to the game"
-    },
-    {
-      "id": "izakaya-bar-and-street-food-location",
-      "name": "IZAKAYA - Bar and Street Food Location",
-      "nexusId": 16192,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "amm-prop-pack-wanna-hang",
-        "archivexl",
-        "native-interactions-framework",
-        "proxima-s-prop-paradise",
-        "vendorsxl"
-      ],
-      "author": "nutboy",
-      "endorsements": 530,
-      "nexusCategory": "Locations",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 170638,
-        "name": "NUT - IZAKAYA (Patch 2.5)",
-        "version": "2.3",
-        "uploaded": "2026-10-29",
-        "variants": 1
-      },
-      "summary": "Unlocks two storefronts in Wellsprings, a bar and ramen shop with interactable vendors! Adds decor, effects, real NPC to the area. (Not an AMM preset)"
     },
     {
       "id": "kabuki-diner-apartment",
@@ -393,7 +263,8 @@
           "archive/pc/mod/pacifica_enhanced.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "arasaka-estate-unlocked",
@@ -421,7 +292,8 @@
           "archive/pc/mod/Arasaka Estate Unlocked - No More Cars.xl"
         ]
       },
-      "notes": "3 main-file variants on Nexus - pick one."
+      "notes": "3 main-file variants on Nexus - pick one.",
+      "autoNotes": "3 main-file variants on Nexus - pick one."
     },
     {
       "id": "lucy-apartment-remastered-2025",
@@ -480,7 +352,8 @@
           "archive/pc/mod/ghosts_of_night_city.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "japantown-north-penthouse-player-apartment",
@@ -514,7 +387,8 @@
           "archive/pc/mod/jnve_northpenthouseLoc.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "canyon-explorer",
@@ -524,10 +398,7 @@
       "required": false,
       "dependsOn": [
         "archivexl",
-        "canyon-bridge",
-        "canyon-construction-ramp",
         "canyon-fixes",
-        "outdoor-v-canyon-forest",
         "oranje3-mod-resource-pack"
       ],
       "author": "Oranje3",
@@ -542,41 +413,8 @@
         "variants": 2
       },
       "summary": "Explore the full canyon. Removes the player kill zones. 2.21 2.3 2.31 2.5 game versions",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
-    },
-    {
-      "id": "viktor-vektors-garage-working-car-mods-and-repai",
-      "name": "Viktor Vektors Garage ( Working Car Mods and Repair )",
-      "nexusId": 20793,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "native-interactions-framework",
-        "personal-mechanics",
-        "tweakxl",
-        "viktor-vektor-s-garage-add-on-vik-will-fix-your"
-      ],
-      "author": "Jon Cross",
-      "endorsements": 462,
-      "nexusCategory": "Locations",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 139335,
-        "name": "Viktor Vektors Garage ( Working Repairs )",
-        "version": "2.3",
-        "uploaded": "2026-03-12",
-        "variants": 1
-      },
-      "summary": "The thing CDPR gave us the impression of back in the day but never fulfilled.....UNTIL NOW!!! This Mod adds in Viks Cut Vehicle Garage, letting you access his place even EASIER than before! HUGE THANKS for Deberara for making the Mod",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_ViktorStreetGatesSectorEdit.archive",
-          "archive/pc/mod/RJC_viktors_garage.archive",
-          "archive/pc/mod/RJC_Victors Clinic Garage Doors.xl"
-        ]
-      },
-      "notes": "Required by 2 mod(s) in this pack."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
     },
     {
       "id": "el-cojote-cojo-unlocked",
@@ -596,7 +434,8 @@
         "variants": 1
       },
       "summary": "Unlocked the locked areas in the bar with minor fixes. Unlocked Jackie's garage as an option.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "konpeki-plaza-unlocked-2-5",
@@ -619,7 +458,8 @@
         "variants": 0
       },
       "summary": "It simply removes physical barriers, providing access to the area.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "echoes-of-joy-small-immersive-encounters",
@@ -648,7 +488,8 @@
           "archive/pc/mod/echosofjoy.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "open-night-city",
@@ -673,7 +514,8 @@
         "variants": 2
       },
       "summary": "Open Night City (OpenNC) provides you with the option of circumventing various barriers that block off access to certain areas, allowing you to freeroam into previously locked off areas.",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "echos-of-loss-immersive-encounters",
@@ -702,7 +544,8 @@
           "archive/pc/mod/echosofnightcitymemories.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "people-of-night-city-small-immersive-encounters",
@@ -731,7 +574,8 @@
           "archive/pc/mod/ncghostpt2.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "dbrv-memorial-goodbye-to-a-friend",
@@ -789,7 +633,8 @@
           "archive/pc/mod/police_station.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "heavy-hearts-club-unlocked",
@@ -809,7 +654,8 @@
         "variants": 1
       },
       "summary": "Unlocked the areas that were not accessible. Updated for patch 2.5. Delete old versions of mod files.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "gomorrah-night-club",
@@ -839,7 +685,8 @@
         "variants": 1
       },
       "summary": "This is a standalone version of the Gomorrah night club on Urmland Street.",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "japantown-garage",
@@ -864,40 +711,8 @@
         "variants": 2
       },
       "summary": "Adds a two car garage to V's Japantown Apartment. Removes construction debris and adds an accessible door inside added garage.",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "the-hollywood-cliffhanger-player-mansion",
-      "name": "The Hollywood Cliffhanger Player Mansion",
-      "nexusId": 8108,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "hollywood-props-pack-amm",
-        "jamie-s-retro-rainbow-amm-props",
-        "tweakxl",
-        "native-interactions-framework"
-      ],
-      "author": "JamieCross1477",
-      "endorsements": 393,
-      "nexusCategory": "Locations",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 136924,
-        "name": "Grass Reduction Patch for 2.31",
-        "version": "2.31",
-        "uploaded": "2026-02-21",
-        "variants": 2
-      },
-      "summary": "A Magnificent Modern Wonder Home for Night City!",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Hollywood Cliffhanger Grass Reduction.xl"
-        ]
-      },
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "ghosts-of-night-city-pt-2-small-immersive-encoun",
@@ -926,7 +741,8 @@
           "archive/pc/mod/nightcityghostiespart2.1.xl"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "a-gift-for-jack-columbarium",
@@ -961,7 +777,6 @@
       "required": false,
       "dependsOn": [
         "archivexl",
-        "canyon-construction-ramp",
         "canyon-explorer",
         "canyon-fixes",
         "oranje3-mod-resource-pack"
@@ -978,7 +793,8 @@
         "variants": 2
       },
       "summary": "Out there in the badlands there's a canyon. Restoring the missing bridge. Updated 2.5 supported",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
     },
     {
       "id": "v-s-edgerunners-mansion-reloaded",
@@ -1032,7 +848,8 @@
         "variants": 1
       },
       "summary": "Mod removes doors, and other barriers preventing entry to the parking lot at the Silver Pixel Cloud, also known as Drive-In Theater. Now it will be possible to drive there by vehicle.",
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "glen-apartment-expanded-redux",
@@ -1056,75 +873,8 @@
         "variants": 1
       },
       "summary": "A vanilla-themed overhaul of V's Glen apartment - with balcony, garage, landing pad, and netrunners den",
-      "notes": "Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "casino-reforged-phase-1-access-areas-and-fixes",
-      "name": "Casino Reforged - Phase 1 - Access areas and fixes",
-      "nexusId": 25430,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "casino-reforged-assets-pack",
-        "casino-reforged-phase-2-access-road-and-entrance",
-        "native-settings-ui",
-        "tweakxl"
-      ],
-      "author": "Kaoziun",
-      "endorsements": 356,
-      "nexusCategory": "Locations",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 130366,
-        "name": "Casino Reforged - Phase 1",
-        "version": "1.3.1",
-        "uploaded": "2025-12-19",
-        "variants": 1
-      },
-      "summary": "A collaborative project between multiple mods and authors to restore the North Oak Casino district. This mod grants physical access for V to the zone and introduces several area fixes and improvements.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/CasinoReforgedTunnel.archive",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/CasinoReforgedP1/init.lua",
-          "archive/pc/mod/CasinoReforgedExtraEntrance.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "dogtown-hideout-archivexl",
-      "name": "Dogtown Hideout - ArchiveXL",
-      "nexusId": 12008,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "native-interactions-framework",
-        "native-settings-ui",
-        "proxima-s-prop-archives",
-        "tweakxl"
-      ],
-      "author": "unthinkthis",
-      "endorsements": 348,
-      "nexusCategory": "Locations",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 130702,
-        "name": "dogtown hideout - archiveXL",
-        "version": "3.1",
-        "uploaded": "2025-12-24",
-        "variants": 1
-      },
-      "summary": "New hidden small building in Dogtown (Phantom Liberty) for visit or use as a home.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/dogtown_hideout.archive",
-          "bin/x64/plugins/cyber_engine_tweaks/mods/dogtown_hideout/init.lua",
-          "r6/tweaks/dogtown_hideout.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "canyon-construction-ramp",
@@ -1137,7 +887,6 @@
         "canyon-bridge",
         "canyon-explorer",
         "canyon-fixes",
-        "outdoor-v-canyon-forest",
         "oranje3-mod-resource-pack"
       ],
       "author": "Oranje3",
@@ -1152,27 +901,8 @@
         "variants": 2
       },
       "summary": "Adds an access ramp down to the bottom of the canyon. 2.21 2.3 2.31 2.5",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
-    },
-    {
-      "id": "marrek-s-japantown-garage-amm-preset",
-      "name": "Marrek's Japantown Garage - AMM Preset",
-      "nexusId": 5827,
-      "priority": "optional",
-      "required": false,
-      "author": "Marrek",
-      "endorsements": 341,
-      "nexusCategory": "Locations",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 31049,
-        "name": "Marrek's Japantown Garage No Beams",
-        "version": "2.1",
-        "uploaded": "2022-10-16",
-        "variants": 2
-      },
-      "summary": "AMM Decor preset that adds a functional garage in what was just an alley adjacent to the Japantown player apartment.",
-      "notes": "2 main-file variants on Nexus - pick one."
+      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
     },
     {
       "id": "afterlife-unlocked-and-remastered",
@@ -1222,60 +952,6 @@
       }
     },
     {
-      "id": "smartframes-art-collector",
-      "name": "SmartFrames - Art Collector",
-      "nexusId": 18337,
-      "priority": "optional",
-      "required": false,
-      "author": "Eva_Fan",
-      "endorsements": 330,
-      "nexusCategory": "Locations",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 94491,
-        "name": "SmartFrames - Art Collector",
-        "version": "1.0",
-        "uploaded": "2024-12-11",
-        "variants": 1
-      },
-      "summary": "Uses the new SmartFrames system added in patch 2.2, to display iconic works of art."
-    },
-    {
-      "id": "casino-reforged-phase-2-access-road-and-entrance",
-      "name": "Casino Reforged - Phase 2 - Access road and entrance",
-      "nexusId": 25556,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "casino-reforged-assets-pack",
-        "casino-reforged-phase-1-access-areas-and-fixes",
-        "galena-gt-widebody",
-        "jefferson-thrax-limo",
-        "tweakxl"
-      ],
-      "author": "Oranje3 and Kaoziun",
-      "endorsements": 323,
-      "nexusCategory": "Locations",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 130516,
-        "name": "Casino Reforged Phase 2 - Casino Unlocked",
-        "version": "1.1.2",
-        "uploaded": "2025-12-22",
-        "variants": 1
-      },
-      "summary": "Casino Interior unlocked update ! North Oaks Resort and Casino. All new interior, updated access road, car park and Casino entrance - Phase 2 of the Casino Reforged project",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/CasinoReforgedPhase2.archive",
-          "r6/tweaks/casinoreforgedphase2/casinoreforged_phase2_ft.yaml",
-          "archive/pc/mod/ZZCasino_Reforged_Entance_Opener_vs.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
-    },
-    {
       "id": "judy-s-lake-house-player-apartment",
       "name": "Judy's Lake House - Player Apartment",
       "nexusId": 21549,
@@ -1306,38 +982,6 @@
       }
     },
     {
-      "id": "h10-enhanced",
-      "name": "H10 Enhanced",
-      "nexusId": 20892,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "h10-megabuilding-unlocked",
-        "red4ext",
-        "audiofix"
-      ],
-      "author": "WhiteRabbit0110",
-      "endorsements": 315,
-      "nexusCategory": "Locations",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 106326,
-        "name": "H10 Enhanced",
-        "version": "1.0.2",
-        "uploaded": "2025-04-11",
-        "variants": 1
-      },
-      "summary": "Pretty much just fills out some of the empty spaces and adds some lights in MegaBuilding H-10 so it doesn't feel as empty and dark.About a 5 FPS drop in the MegaBuilding(REQUIERS; H10 Megabuilding Unlocked)",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/H10 Enhanced.archive",
-          "archive/pc/mod/h10_enhanced.xl"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty, REDmod."
-    },
-    {
       "id": "improved-northside-motel",
       "name": "Improved Northside Motel",
       "nexusId": 16387,
@@ -1359,7 +1003,109 @@
         "variants": 1
       },
       "summary": "location edits",
-      "notes": "Needs DLC: Phantom Liberty."
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "world-objects-removed",
+      "name": "World Objects Removed",
+      "nexusId": 19615,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "LiquidBronze",
+      "endorsements": 303,
+      "nexusCategory": "Locations",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 104846,
+        "name": "World Objects Removed",
+        "version": "1.50",
+        "uploaded": "2025-03-26",
+        "variants": 1
+      },
+      "summary": "An ambitious project to remove objects/NPC's that are clipping or floating throughout Night City.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/World_Objects_Removed.xl"
+        ]
+      }
+    },
+    {
+      "id": "road-name-sign-fixes-and-additions",
+      "name": "Road Name Sign Fixes and Additions",
+      "nexusId": 32656,
+      "priority": "optional",
+      "required": false,
+      "author": "alexf13e",
+      "endorsements": 287,
+      "nexusCategory": "Locations",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175206,
+        "name": "RoadNameSignFixes DLC",
+        "version": "4",
+        "uploaded": "2026-11-07",
+        "variants": 2
+      },
+      "summary": "1428 new/fixed signs for road names at 537 junctions",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "crunch-plaza-restoration",
+      "name": "Crunch Plaza Restoration",
+      "nexusId": 25795,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "YouCutDream",
+      "endorsements": 286,
+      "nexusCategory": "Locations",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169922,
+        "name": "Crunch Plaza Restoration",
+        "version": "0.4.6a",
+        "uploaded": "2026-10-28",
+        "variants": 1
+      },
+      "summary": "Skibidi Toilet"
+    },
+    {
+      "id": "better-buildings-preview-2-31",
+      "name": "Better Buildings - Preview (2.31)",
+      "nexusId": 18822,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "Kratoes",
+      "endorsements": 267,
+      "nexusCategory": "Locations",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 128107,
+        "name": "Better Buildings - Compatibility Patch",
+        "version": "0.13",
+        "uploaded": "2025-11-21",
+        "variants": 2
+      },
+      "summary": "Better Buildings is a work in progress project that aims to improve the visual quality of various buildings in the game",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/better_buildingsv0.1.archive",
+          "archive/pc/mod/Proxy_removal.xl",
+          "archive/pc/mod/better_buildings_v0.1.xl"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "outdoor-v-canyon-forest",
@@ -1395,95 +1141,212 @@
           "r6/tweaks/outdoorvforest/outdoorvforest_ft.yaml"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
     },
     {
-      "id": "viktor-vektor-s-garage-add-on-vik-will-fix-your",
-      "name": "Viktor Vektor's Garage Add-on (Vik will fix your car)",
-      "nexusId": 23386,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "archivexl",
-        "codeware",
-        "audioware",
-        "native-interactions-framework",
-        "redscript",
-        "tweakxl",
-        "viktor-vektors-garage-working-car-mods-and-repai"
-      ],
-      "author": "Dedra",
-      "endorsements": 230,
-      "nexusCategory": "Locations",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 117323,
-        "name": "Sound replacer (More Immersive)",
-        "version": "1.1",
-        "uploaded": "2025-08-12",
-        "variants": 2
-      },
-      "summary": "You can now visit Vik's Garage(Must have TheRealJonCross's mod)! When you approach the location while inside the car, your vehicle will be fully repaired, a unique audio will play, and 500 eddies will be deducted from your inventory.",
-      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "viktor-vektor-clinic-overhaul-and-opened-garage",
-      "name": "Viktor Vektor clinic overhaul and opened garage ramp (doesn't work with 2.5)",
-      "nexusId": 25704,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "improved-vehicle-persistence",
-        "native-interactions-framework",
-        "redscript",
-        "forbidden-vehicle-movement-no-more"
-      ],
-      "author": "BlazingTommy and Jmolinares03",
-      "endorsements": 216,
-      "nexusCategory": "Locations",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 127947,
-        "name": "Garage interactions",
-        "version": "1.2",
-        "uploaded": "2025-11-19",
-        "variants": 2
-      },
-      "summary": "Vik's ripper clinic is one of the biggest interior spaces there is in game, made to be both a clinic and a garage. So, why not let us also drive right into it, maybe avoid having to ask Misty \"how's business doing?\" for her to tell us we",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "just-the-garages-h10-and-the-glen",
-      "name": "Just The Garages - H10 and The Glen",
-      "nexusId": 24535,
+      "id": "kerry-s-residence-cleaned-up-plus-smart-frames-a",
+      "name": "Kerry's Residence - Cleaned Up (plus Smart Frames Addon)",
+      "nexusId": 12009,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "archivexl"
       ],
-      "author": "ThaFunktopus",
-      "endorsements": 192,
+      "author": "RipperMax",
+      "endorsements": 246,
+      "nexusCategory": "Locations",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169919,
+        "name": "Base (Main)",
+        "version": "1.4",
+        "uploaded": "2026-10-28",
+        "variants": 2
+      },
+      "summary": "Cleaned up the entire residence",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "locations-unlocked-hammer-half-year-montage-zen",
+      "name": "Locations Unlocked - Hammer - Half Year Montage - Zen BD locations - Firestarter",
+      "nexusId": 21879,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "deceptious-quest-core",
+        "freefly-noclip"
+      ],
+      "author": "Deceptious",
+      "endorsements": 246,
       "nexusCategory": "Locations",
       "compat": "assets-likely-ok",
       "mainFile": {
-        "fileId": 143854,
-        "name": "The Glen Garage",
-        "version": "1.1",
-        "uploaded": "2026-04-30",
+        "fileId": 134531,
+        "name": "Locations Unlocked",
+        "version": "1.3.0",
+        "uploaded": "2026-01-31",
         "variants": 1
       },
-      "summary": "Standalone garages for The Glen and Megabuilding H10 Apartments - from my Expansion mods",
+      "summary": "Allows you to enable, and teleport to, locations seen in the Half Year Montage, the locations seen in the Zen BD scenes, locations around The Hammer, and the base/vip section of the Stadium seen in Firestarter",
       "detect": {
         "anyOf": [
-          "archive/pc/mod/GlenApartmentExpanded_Garage.archive",
-          "archive/pc/mod/GlenApartmentExpanded_Garage.xl",
-          "archive/pc/mod/GlenApartmentExpanded_Garage_Removals.xl"
+          "archive/pc/mod/locations_unlocked.archive",
+          "archive/pc/mod/locations_unlocked.archive.xl"
+        ]
+      }
+    },
+    {
+      "id": "sit-at-netrunner-chair-extended",
+      "name": "Sit at netrunner chair - Extended",
+      "nexusId": 27473,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "native-interactions-framework"
+      ],
+      "author": "juiiicy00",
+      "endorsements": 244,
+      "nexusCategory": "Locations",
+      "compat": "unknown",
+      "mainFile": {
+        "fileId": 137402,
+        "name": "SANC - AIO Vanilla",
+        "version": "1.0",
+        "uploaded": "2026-02-26",
+        "variants": 1
+      },
+      "summary": "Added sitting interactions to the netrunning chairs found in the vanilla netrunner stores and more."
+    },
+    {
+      "id": "v-s-apartment-h10-cleaned-stripped-and-hairless",
+      "name": "V's Apartment (H10) - Cleaned Stripped and Hairless",
+      "nexusId": 10464,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "manavortex",
+      "endorsements": 238,
+      "nexusCategory": "Locations",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171583,
+        "name": "apartment_h10_cleaned_up",
+        "version": "2.6.0",
+        "uploaded": "2026-10-31",
+        "variants": 1
+      },
+      "summary": "Removes a bunch of junk from V's apartment so you can clutter it up via AMM. Compatible with 2.5, shouldn't break any mods."
+    },
+    {
+      "id": "marmur-bank-watson-district-branch",
+      "name": "Marmur Bank (Watson District Branch)",
+      "nexusId": 22048,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "LiquidBronze",
+      "endorsements": 237,
+      "nexusCategory": "Locations",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171825,
+        "name": "Mamur Bank WDB 2.5",
+        "version": "2.5",
+        "uploaded": "2026-11-01",
+        "variants": 1
+      },
+      "summary": "Marmur Bank has opened up in Night City!"
+    },
+    {
+      "id": "konpeki-plaza-unlocked",
+      "name": "Konpeki Plaza Unlocked",
+      "nexusId": 13180,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "deleted189967593",
+      "endorsements": 232,
+      "nexusCategory": "Locations",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 72341,
+        "name": "Konpeki Plaza Unlocked",
+        "version": "1.1",
+        "uploaded": "2024-03-20",
+        "variants": 1
+      },
+      "summary": "Konpeki Plaza has been in lockdown ever since the devastating passing of Saburo Arasaka. I am pleased to announce that the gates are reopening to the citizens & visitors of Night City. Please make sure to download any requirements before",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Konpeki Plaza Unlocked.xl"
+        ]
+      }
+    },
+    {
+      "id": "immersive-e3-nc-fixes-and-improvements-2-5-compa",
+      "name": "Immersive E3 NC Fixes and Improvements ( 2.5 Compatible )",
+      "nexusId": 28990,
+      "priority": "optional",
+      "required": false,
+      "author": "FilipG86",
+      "endorsements": 231,
+      "nexusCategory": "Locations",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 142700,
+        "name": "All-In-One",
+        "version": "1.1",
+        "uploaded": "2026-04-19",
+        "variants": 8
+      },
+      "summary": "This mod aims to improve current in-game locations based on the E3 2018 demo",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ALL_Foods.archive",
+          "archive/pc/mod/E3_FixesALL_Food_Part2.archive",
+          "archive/pc/mod/Homeless_Camp.archive"
         ]
       },
-      "notes": "Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "notes": "8 main-file variants on Nexus - pick one.",
+      "autoNotes": "8 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "more-interactions-the-glen",
+      "name": "More Interactions - The Glen",
+      "nexusId": 21571,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework"
+      ],
+      "author": "krat0es",
+      "endorsements": 229,
+      "nexusCategory": "Locations",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 109548,
+        "name": "More_Interactions_The_Glen",
+        "version": "1.01",
+        "uploaded": "2025-05-21",
+        "variants": 1
+      },
+      "summary": "This mod adds more interactions like playing guitar, leaning on rails or smoking and drinking",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/More_Interactions_The_Glen.archive",
+          "archive/pc/mod/more_interactions_the_glen.xl"
+        ]
+      }
     },
     {
       "id": "yacht-in-downtown",
@@ -1512,7 +1375,8 @@
           "archive/pc/mod/yacht_downtown.xl"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     }
   ]
 }
