@@ -120,7 +120,7 @@ class Nexus:
                     delay *= 2
                     continue
                 raise
-            except (urllib.error.URLError, TimeoutError):
+            except (urllib.error.URLError, TimeoutError, ConnectionError, OSError):
                 if attempt < 7:
                     time.sleep(delay)
                     delay *= 2
