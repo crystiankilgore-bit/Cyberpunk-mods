@@ -1,6 +1,6 @@
 {
   "$schema": "./schema/modpack.schema.json",
-  "name": "Night City Overhaul",
+  "name": "Ai modpack",
   "description": "Large Cyberpunk 2077 modpack (1000+ mods) targeting game version 2.5.",
   "targetGameVersion": "2.5",
   "expectedExeVersion": "",

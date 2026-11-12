@@ -664,6 +664,8 @@ def main() -> int:
 
     write_report(picked, skipped, compat_count, by_file, titles, cfg, pool)
     print(f"Wrote manifest/mods/*.json and manifest/REPORT.md")
+    import subprocess
+    subprocess.run([sys.executable, str(REPO / "tools" / "make_modlist.py")], check=False)
     return 0
 
 
