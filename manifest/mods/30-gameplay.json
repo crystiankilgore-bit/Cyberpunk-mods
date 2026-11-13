@@ -417,7 +417,7 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 7 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 10 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 11 mod(s) in this pack."
     },
     {
       "id": "immersive-rippers",
@@ -4205,27 +4205,6 @@
       "summary": "Adds an additional face cyberware category to the character creator via CCXL."
     },
     {
-      "id": "fast-travel-from-anywhere-to-everywhere-redmod",
-      "name": "Fast Travel from anywhere to everywhere - REDmod",
-      "nexusId": 9243,
-      "priority": "optional",
-      "required": false,
-      "author": "yakuzadeso",
-      "endorsements": 1213,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 114960,
-        "name": "fast travel to any map pin",
-        "version": "1.0.0.3",
-        "uploaded": "2025-07-25",
-        "variants": 2
-      },
-      "summary": "Offers a variant that enables fast traveling through the map menu to any Fast Travel Point and a variant that enables fast traveling to any map pin, even your own markers!",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "game-v2-0-patch-no-forced-weapon-on-carrying-bod",
       "name": "Game v2.0 patch - No Forced Weapon On Carrying Bodies",
       "nexusId": 9223,
@@ -4982,30 +4961,6 @@
       "summary": "Infinite Carrying Capacity (Weight) - REDMod Version, compatible with v2.5"
     },
     {
-      "id": "post-romance-delivery-system-judy-with-physical",
-      "name": "Post-Romance Delivery System (Judy) With physical packages",
-      "nexusId": 21496,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "archivexl",
-        "tweakxl"
-      ],
-      "author": "Dedra",
-      "endorsements": 951,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 168663,
-        "name": "Judy_gift_mod4",
-        "version": "5.1",
-        "uploaded": "2026-10-26",
-        "variants": 1
-      },
-      "summary": "NOW WITH A PHYSICAL PACKAGE! Judy now sends physical care packages via R.A. Delivery. These deliveries appear at actual stash points in your apartments and are clearly marked on your map."
-    },
-    {
       "id": "retrothrusters-qol",
       "name": "Retrothrusters QoL",
       "nexusId": 14320,
@@ -5170,38 +5125,6 @@
         "variants": 1
       },
       "summary": "NOW WITH A PHYSICAL PACKAGE! Panam now sends physical care packages via R.A. Delivery. These deliveries appear at actual stash points in your apartments and are clearly marked on your map."
-    },
-    {
-      "id": "limited-fast-travel",
-      "name": "Limited Fast Travel",
-      "nexusId": 1889,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "mod-settings"
-      ],
-      "author": "DJ_Kovrik",
-      "endorsements": 916,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 116521,
-        "name": "Limited Fast Travel",
-        "version": "1.3",
-        "uploaded": "2025-08-06",
-        "variants": 1
-      },
-      "summary": "Reduces the amount of active fast travel terminals, configurable.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/limitedFastTravel.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "arasaka-cyberware-os-mk6-2-0-cyberpunk-2077-2-5",
@@ -5635,6 +5558,62 @@
       },
       "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack.",
       "autoNotes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "pmu-alt-set-vol-2",
+      "name": "PMU - Alt Set Vol 2",
+      "nexusId": 7835,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext",
+        "tweakxl",
+        "photo-mode-unlocker-2-3-xl"
+      ],
+      "author": "Zwei",
+      "endorsements": 810,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 123840,
+        "name": "PMU - Alt Set - Vol. 2",
+        "version": "2.31",
+        "uploaded": "2025-10-07",
+        "variants": 1
+      },
+      "summary": "Adds an additional 34 new poses to PMU's Alt category for FemV!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ZWEI_PMU_2_3_XL_Alt_Vol2.archive",
+          "r6/tweaks/zwei/ZWEI_PMU_Alt_Vol2.yaml",
+          "archive/pc/mod/ZWEI_PMU_2_3_XL_Alt_Vol2.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "no-default-equipped-weapon-in-inventory",
+      "name": "No Default Equipped Weapon In Inventory",
+      "nexusId": 20311,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "Buzzler",
+      "endorsements": 801,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168388,
+        "name": "2BT No Weapon In Inventory",
+        "version": "1.4",
+        "uploaded": "2026-10-25",
+        "variants": 1
+      },
+      "summary": "Removes the default equipped weapon in inventory after loading a savegame."
     },
     {
       "id": "zwei-custom-pmu-pose-packs-core-masc",

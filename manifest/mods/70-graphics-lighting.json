@@ -26,7 +26,7 @@
         ]
       },
       "notes": "Required by 3 mod(s) in this pack.",
-      "autoNotes": "Required by 2 mod(s) in this pack."
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "weather-probability-rebalance",
@@ -365,38 +365,6 @@
       },
       "notes": "2 main-file variants on Nexus - pick one.",
       "autoNotes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "natural-californian-lighting-mod",
-      "name": "Natural Californian Lighting Mod",
-      "nexusId": 6737,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "dogtown-location-visuals-nulled-a-general-fix-fo",
-        "night-city-visuals-nulled",
-        "the-nullifier"
-      ],
-      "author": "ctxrlsec",
-      "endorsements": 4166,
-      "nexusCategory": "Visuals and Graphics",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 155076,
-        "name": "NCLM 2 and 1 for LUT Switcher",
-        "version": "1.91.0",
-        "uploaded": "2026-08-06",
-        "variants": 1
-      },
-      "summary": "Lightweight and Beautiful World Lighting Overhaul",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/LUTSwitcher-Addon-NCLM.archive",
-          "r6/tweaks/LUTSwitcher/NCLM.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "immersive-night-city-fixes",
@@ -2572,37 +2540,6 @@
       "autoNotes": "4 main-file variants on Nexus - pick one."
     },
     {
-      "id": "the-emry-project",
-      "name": "The Emry Project",
-      "nexusId": 17582,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "night-city-visuals-nulled",
-        "dogtown-location-visuals-nulled-a-general-fix-fo"
-      ],
-      "author": "Emry",
-      "endorsements": 622,
-      "nexusCategory": "Visuals and Graphics",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 101636,
-        "name": "Cytropolis 2.0 NO AUTOEXPOSURE",
-        "version": "2.0",
-        "uploaded": "2025-02-15",
-        "variants": 3
-      },
-      "summary": "TWO full graphics overhauls, including my own LUT, weather, a ReShade preset and more! Pick the one you like the most :)",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Cytropolis_2.0_LUT.archive",
-          "archive/pc/mod/Cytropolis_2.0_NO_AutoExposure.archive"
-        ]
-      },
-      "notes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
-      "autoNotes": "3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "character-rendering-editor-real-time-control-on",
       "name": "Character Rendering Editor - Real-time Control on Skin Hair Eyes for more Realistic Shaders - Cyber Engine Tweaks",
       "nexusId": 32842,
@@ -2819,6 +2756,67 @@
       "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
+      "id": "better-traffic-lights",
+      "name": "Better Traffic Lights",
+      "nexusId": 14316,
+      "priority": "optional",
+      "required": false,
+      "author": "shierkbark47",
+      "endorsements": 516,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 75551,
+        "name": "I",
+        "version": "1.0.0",
+        "uploaded": "2024-04-22",
+        "variants": 9
+      },
+      "summary": "Texture replacement for traffic lights (lights)",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Better_Traffic_Lights_I.archive"
+        ]
+      },
+      "notes": "9 main-file variants on Nexus - pick one.",
+      "autoNotes": "9 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "city-of-dreams-menu-backgrounds",
+      "name": "City of Dreams Menu Backgrounds",
+      "nexusId": 8333,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "tweakxl",
+        "archivexl",
+        "red4ext",
+        "redscript",
+        "codeware",
+        "input-loader"
+      ],
+      "author": "2077v2",
+      "endorsements": 509,
+      "nexusCategory": "Visuals and Graphics",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 78461,
+        "name": "v2_All in one Vortex Installer",
+        "version": "1.5",
+        "uploaded": "2024-05-25",
+        "variants": 1
+      },
+      "summary": "15+ Animated Menu Backgrounds",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/!CityOfDreamsLogo.archive",
+          "archive/pc/mod/!v2_Altered Carbon1 PL.archive",
+          "archive/pc/mod/!v2_Altered Carbon1.archive"
+        ]
+      }
+    },
+    {
       "id": "night-city-immersive-debris",
       "name": "Night City Immersive Debris",
       "nexusId": 20544,
@@ -2929,31 +2927,6 @@
       "summary": "Live shader fixes for Cyberpunk 2077's renderer: reflection fog, sky, wetness, RT trees and grass, puddles, clouds.",
       "notes": "Required by 1 mod(s) in this pack.",
       "autoNotes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "tapepunk-vhs-reshade-presets",
-      "name": "TapePunk - VHS Reshade Presets",
-      "nexusId": 26915,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "nova-lut-4-0-agx-new-hdr",
-        "the-emry-project"
-      ],
-      "author": "TapePunk - Tulired",
-      "endorsements": 145,
-      "nexusCategory": "Visuals and Graphics",
-      "compat": "unknown",
-      "mainFile": {
-        "fileId": 141568,
-        "name": "TapePunk-Night City VHS Tapes-For NOVA LUT-Box 1",
-        "version": "1.2.0",
-        "uploaded": "2026-04-08",
-        "variants": 1
-      },
-      "summary": "TapePunk - VHS presets are a Reshade presets focused on a emulation of the VHS aesthetic. It provides a gritty, analog-inspired look for Cyberpunk 2077, avoiding over-the-top effects. A simple tool for those seeking a cinematic, nostalgic",
-      "notes": "Also needs (off Nexus): Dreampunk 3.4.2. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Also needs (off Nexus): Dreampunk 3.4.2. Required by 1 mod(s) in this pack."
     },
     {
       "id": "e3-2018-roads",

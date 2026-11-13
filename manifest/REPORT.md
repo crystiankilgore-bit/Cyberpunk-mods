@@ -1,22 +1,22 @@
 # Modpack build report
 
-Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus Mods API.
+Generated 2026-11-13 11:36 UTC by `tools/nexus/build_modpack.py` from the Nexus Mods API.
 
-**1119 mods** across 11 category files.
+**1114 mods** across 11 category files.
 
 ## By category
 
 | File | Category | Mods |
 |---|---|---:|
-| `00-frameworks.json` | Frameworks & core libraries | 49 |
+| `00-frameworks.json` | Frameworks & core libraries | 48 |
 | `10-fixes-performance.json` | Fixes & performance | 98 |
-| `20-ui-hud.json` | UI, HUD & menus | 131 |
-| `30-gameplay.json` | Gameplay & balance | 224 |
+| `20-ui-hud.json` | UI, HUD & menus | 130 |
+| `30-gameplay.json` | Gameplay & balance | 223 |
 | `40-combat-weapons.json` | Combat & weapons | 96 |
 | `50-vehicles.json` | Vehicles & driving | 71 |
 | `60-world-npcs.json` | World, NPCs & crowds | 58 |
-| `70-graphics-lighting.json` | Graphics, lighting & weather | 116 |
-| `80-appearance.json` | Character, clothing & appearance | 164 |
+| `70-graphics-lighting.json` | Graphics, lighting & weather | 115 |
+| `80-appearance.json` | Character, clothing & appearance | 163 |
 | `85-audio-radio.json` | Audio & radio | 61 |
 | `90-quests-content.json` | Quests & new content | 51 |
 
@@ -25,9 +25,9 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 | Rating | Mods | Meaning |
 |---|---:|---|
 | `updated-for-2.5` | 408 | Main file uploaded after patch 2.5. Most likely to work. |
-| `script-verify` | 401 | redscript/CET/TweakXL mod from 2.3-2.4x. Usually fine; check if something misbehaves. |
+| `script-verify` | 397 | redscript/CET/TweakXL mod from 2.3-2.4x. Usually fine; check if something misbehaves. |
 | `assets-likely-ok` | 295 | Archive/asset-only mod from before 2.5. Asset mods rarely break on patches. |
-| `unknown` | 15 | Nexus has no file list for it (often a FOMOD installer or a brand-new upload). Recent, so kept; check the page. |
+| `unknown` | 14 | Nexus has no file list for it (often a FOMOD installer or a brand-new upload). Recent, so kept; check the page. |
 
 ## Left out
 
@@ -51,7 +51,7 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 
 </details>
 
-<details><summary><b>1063</b> - script mod not updated since 2025-07-17</summary>
+<details><summary><b>1073</b> - script mod not updated since 2025-07-17</summary>
 
 - [Better Vehicle Handling](https://www.nexusmods.com/cyberpunk2077/mods/210) - 44621 endorsements
 - [Simple Menu - An In-Game UI including Hotkeys](https://www.nexusmods.com/cyberpunk2077/mods/818) - 32137 endorsements
@@ -70,6 +70,7 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [spawn0 - ARMOR LEVEL ADJUSTER 2.0](https://www.nexusmods.com/cyberpunk2077/mods/3931) - 8305 endorsements
 - [Unlock Me The Mods 2.1](https://www.nexusmods.com/cyberpunk2077/mods/9349) - 8197 endorsements
 - [Stock Market and News System](https://www.nexusmods.com/cyberpunk2077/mods/6319) - 7470 endorsements
+- [-KS- Vanilla Shoes For High Feet](https://www.nexusmods.com/cyberpunk2077/mods/7055) - 7332 endorsements
 - [GTA Travel](https://www.nexusmods.com/cyberpunk2077/mods/2006) - 7327 endorsements
 - [VEEGEE SHOP](https://www.nexusmods.com/cyberpunk2077/mods/8183) - 7310 endorsements
 - [Neu-ReSpec](https://www.nexusmods.com/cyberpunk2077/mods/2881) - 7205 endorsements
@@ -202,12 +203,11 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Character Customization Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/3930) - 2415 endorsements
 - [Bug Fix - Base Fists and Arm Cyberware Attack Speed Fix](https://www.nexusmods.com/cyberpunk2077/mods/14130) - 2407 endorsements
 - [Enhanced Cyberware Capacity](https://www.nexusmods.com/cyberpunk2077/mods/15297) - 2388 endorsements
-- [(DEPRECATED) Unequip Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/2282) - 2381 endorsements
-- ... and 913 more
+- ... and 923 more
 
 </details>
 
-<details><summary><b>388</b> - asset mod not updated since 2023-12-05</summary>
+<details><summary><b>390</b> - asset mod not updated since 2023-12-05</summary>
 
 - [Material and Texture Override](https://www.nexusmods.com/cyberpunk2077/mods/5266) - 64061 endorsements
 - [WINGDEER HAIR COLLECTION](https://www.nexusmods.com/cyberpunk2077/mods/6072) - 25500 endorsements
@@ -216,6 +216,7 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [spawn0 - NEW ITEMS COMPATIBILITY PATCH](https://www.nexusmods.com/cyberpunk2077/mods/3490) - 13776 endorsements
 - [Morph Texture Removal - Cleaner and better skin details](https://www.nexusmods.com/cyberpunk2077/mods/2419) - 12672 endorsements
 - [Cookedapps Nulled](https://www.nexusmods.com/cyberpunk2077/mods/3051) - 12241 endorsements
+- [Phantom Liberty Vanilla Clothes Refits for Enhanced Big Breast](https://www.nexusmods.com/cyberpunk2077/mods/9461) - 9624 endorsements
 - [Crouch vignette effect remover](https://www.nexusmods.com/cyberpunk2077/mods/535) - 8345 endorsements
 - [Egirl Makeup Edits](https://www.nexusmods.com/cyberpunk2077/mods/1149) - 8135 endorsements
 - [Edgerunners - Lucy's Outfit](https://www.nexusmods.com/cyberpunk2077/mods/4621) - 8076 endorsements
@@ -358,21 +359,18 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Varied Projectile Launcher Effects](https://www.nexusmods.com/cyberpunk2077/mods/4043) - 1379 endorsements
 - [High Res NPCs - Ripperdocs - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/7169) - 1375 endorsements
 - [(Almost) Real Eyes](https://www.nexusmods.com/cyberpunk2077/mods/4546) - 1309 endorsements
-- [Ballistic Coprocessor Modifications (WeaponGrip)](https://www.nexusmods.com/cyberpunk2077/mods/1086) - 1296 endorsements
-- ... and 238 more
+- ... and 240 more
 
 </details>
 
-<details><summary><b>167</b> - no recognisable game files and not updated since 2025-07-17</summary>
+<details><summary><b>166</b> - no recognisable game files and not updated since 2025-07-17</summary>
 
 - [Vanilla Clothes Refits for Enhanced Big Breast.](https://www.nexusmods.com/cyberpunk2077/mods/5408) - 20840 endorsements
 - [Better Minimap](https://www.nexusmods.com/cyberpunk2077/mods/634) - 15990 endorsements
 - [Cyberpunk Autonomous ReShade - True HDR](https://www.nexusmods.com/cyberpunk2077/mods/11) - 15120 endorsements
 - [Cyberpunk 2077 Texture Override](https://www.nexusmods.com/cyberpunk2077/mods/1572) - 10392 endorsements
 - [Arasaka Appearance Updater](https://www.nexusmods.com/cyberpunk2077/mods/399) - 10148 endorsements
-- [Phantom Liberty Vanilla Clothes Refits for Enhanced Big Breast](https://www.nexusmods.com/cyberpunk2077/mods/9461) - 9624 endorsements
 - [All recipes in the crafting game menu](https://www.nexusmods.com/cyberpunk2077/mods/657) - 7731 endorsements
-- [-KS- Vanilla Shoes For High Feet](https://www.nexusmods.com/cyberpunk2077/mods/7055) - 7332 endorsements
 - [Ultra Enhanced Reshade (Performance Friendly)](https://www.nexusmods.com/cyberpunk2077/mods/51) - 6925 endorsements
 - [Alternate Crowd Behavior and other tweaks](https://www.nexusmods.com/cyberpunk2077/mods/526) - 6563 endorsements
 - [Enhanced Police](https://www.nexusmods.com/cyberpunk2077/mods/1672) - 6377 endorsements
@@ -438,6 +436,7 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Hidden Gems Locations on Map](https://www.nexusmods.com/cyberpunk2077/mods/10896) - 752 endorsements
 - [Vea character preset](https://www.nexusmods.com/cyberpunk2077/mods/4455) - 733 endorsements
 - [Ultimate Natural Graphics for Nova LUT Pure and GITS](https://www.nexusmods.com/cyberpunk2077/mods/12267) - 733 endorsements
+- [INI settings and EXE parameters list](https://www.nexusmods.com/cyberpunk2077/mods/193) - 723 endorsements
 - [Disable TAA and Bloom](https://www.nexusmods.com/cyberpunk2077/mods/63) - 711 endorsements
 - [Photorealistic Reshade (NOVA LUT and GITS FUJI) - The Macho Pixel Reshade](https://www.nexusmods.com/cyberpunk2077/mods/12337) - 704 endorsements
 - [All Cheats for Cyberpunk 2077](https://www.nexusmods.com/cyberpunk2077/mods/7574) - 696 endorsements
@@ -515,11 +514,12 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [AVX_SSEfix](https://www.nexusmods.com/cyberpunk2077/mods/72) - 210 endorsements
 - [CP77 Tools Gui](https://www.nexusmods.com/cyberpunk2077/mods/404) - 202 endorsements
 - [108.8 FM I2D1 Synthetica - Synthwave Radio](https://www.nexusmods.com/cyberpunk2077/mods/6916) - 199 endorsements
-- ... and 17 more
+- [CP2077 Memory Regulator](https://www.nexusmods.com/cyberpunk2077/mods/14514) - 197 endorsements
+- ... and 16 more
 
 </details>
 
-<details><summary><b>209</b> - needs a mod that's outdated, adult-only or removed</summary>
+<details><summary><b>212</b> - needs a mod that's outdated, excluded, adult-only or removed</summary>
 
 - [Hyst Atelier Store - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/6015) - 10305 endorsements (needs removed/adult mod 5776)
 - [I Really Want To Stay At Your House - Judy](https://www.nexusmods.com/cyberpunk2077/mods/8753) - 9226 endorsements (needs removed/adult mod 23074)
@@ -537,6 +537,7 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Adshield Atelier Store - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/8452) - 4885 endorsements (needs removed/adult mod 11753)
 - [E3 Smart Windows](https://www.nexusmods.com/cyberpunk2077/mods/7026) - 4663 endorsements (needs Stock Market and News System - script-outdated)
 - [Military Armored Ballistic Vest - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/14348) - 4658 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Natural Californian Lighting Mod](https://www.nexusmods.com/cyberpunk2077/mods/6737) - 4166 endorsements (needs removed/adult mod 12874)
 - [Modular Military Helmet - Ops-Core FAST - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13557) - 3966 endorsements (needs Interactive Accessories (Toggle Visors Goggles etc.) - script-outdated)
 - [Zenitex Modular Military Backpack - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/18152) - 3792 endorsements (needs Stash and Backpack Search - script-outdated)
 - [Edgerunners Lucy NPC - Spawns in Night City plus AMM and Photomode AXL](https://www.nexusmods.com/cyberpunk2077/mods/9812) - 3762 endorsements (needs removed/adult mod 790)
@@ -645,6 +646,7 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Badlands Life Vol 01 - Nomad AMM and World Builder Props](https://www.nexusmods.com/cyberpunk2077/mods/7248) - 678 endorsements (needs removed/adult mod 790)
 - [Mercedes Benz W124 500E](https://www.nexusmods.com/cyberpunk2077/mods/17198) - 640 endorsements (needs removed/adult mod 790)
 - [Genesis X Gran Berlinetta (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/21187) - 636 endorsements (needs No Crash Reporter - unknown-outdated)
+- [The Emry Project](https://www.nexusmods.com/cyberpunk2077/mods/17582) - 622 endorsements (needs removed/adult mod 12874)
 - [Devil Sword Vergil - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13388) - 621 endorsements (needs Barong Tagalog - Traditional Filipino shirt - ArchiveXL - script-outdated)
 - [Pontiac Firebird Trans AM GTA](https://www.nexusmods.com/cyberpunk2077/mods/16205) - 603 endorsements (needs removed/adult mod 790)
 - [Megabuilding H10 Ultimate Experience](https://www.nexusmods.com/cyberpunk2077/mods/20986) - 601 endorsements (needs Street Vendors - script-outdated)
@@ -669,9 +671,7 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Lizzies Bar Enhanced ( with Apartment )](https://www.nexusmods.com/cyberpunk2077/mods/22714) - 542 endorsements (needs Trash Removal - Lizzie's Bar - unknown-outdated)
 - [BMW M4 CS 2018 (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/21410) - 540 endorsements (needs No Crash Reporter - unknown-outdated)
 - [LOVE Couple Custom 05 Pose Pack](https://www.nexusmods.com/cyberpunk2077/mods/11185) - 536 endorsements (needs PMU - Nibbles Unlocked - script-outdated)
-- [EKT - Preem hair - WINGDEER hair - compatability patch](https://www.nexusmods.com/cyberpunk2077/mods/11285) - 531 endorsements (needs WINGDEER HAIR COLLECTION - assets-outdated)
-- [Interact with Lizzie's Bar](https://www.nexusmods.com/cyberpunk2077/mods/21842) - 530 endorsements (needs removed/adult mod 11077)
-- ... and 59 more
+- ... and 62 more
 
 </details>
 
@@ -703,6 +703,13 @@ Generated 2026-11-12 21:51 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Computer Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/12520) - 3961 endorsements (overlaps Idle Anywhere)
 - [V Cybernetic Voice (Cyberware Voice)](https://www.nexusmods.com/cyberpunk2077/mods/18813) - 217 endorsements (overlaps Immersive V Dialogue Expanded)
 - [AZERTY Fix And Disable Movements Binds For Dialog Selection 2.31](https://www.nexusmods.com/cyberpunk2077/mods/9335) - 184 endorsements (overlaps Disable Movement Keybinds For Dialogue Selection)
+
+</details>
+
+<details><summary><b>2</b> - another Nexus page of the same mod (e.g. REDmod vs redscript) is newer</summary>
+
+- [Nola Dreamer's archive XL clothes for fem V (pack 2)](https://www.nexusmods.com/cyberpunk2077/mods/6885) - 2761 endorsements (overlaps Nola Dreamer's archive XL clothes for fem V (pack 1))
+- [Post-Romance Delivery System (Judy) With physical packages](https://www.nexusmods.com/cyberpunk2077/mods/21496) - 951 endorsements (overlaps Post-Romance Delivery System (Panam) - With physical packages)
 
 </details>
 

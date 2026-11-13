@@ -28,7 +28,7 @@
       },
       "summary": "Powerful transmog system and outfit manager",
       "notes": "Required by 50 mod(s) in this pack.",
-      "autoNotes": "Required by 30 mod(s) in this pack."
+      "autoNotes": "Required by 29 mod(s) in this pack."
     },
     {
       "id": "acu-character-preset-manager",
@@ -950,34 +950,6 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "nola-dreamer-s-archive-xl-clothes-for-fem-v-pack-6885",
-      "name": "Nola Dreamer's archive XL clothes for fem V (pack 2)",
-      "nexusId": 6885,
-      "priority": "recommended",
-      "required": false,
-      "author": "NolaDreamer",
-      "endorsements": 2761,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 124651,
-        "name": "ND_panam_crop_fishnet_bodysuit_FemV",
-        "version": "1.3",
-        "uploaded": "2025-10-14",
-        "variants": 4
-      },
-      "summary": "Clothing archive XL for fem V (pack 2). Fem V. VANILLA / EBB / EBBRB / EBBP / EBBPRB / RB / ANGEL / LUSH / SMALL. Automatic Refit Selection.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/ND_panam_crop_fishnet_bodysuit_FemV.archive",
-          "r6/tweaks/nola_dreamer/nd_panam_crop_fishnet_bodysuit_XL.yaml",
-          "archive/pc/mod/nd_panam_crop_fishnet_bodysuit_XL.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Nola Dreamer Virtual Boutique. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Nola Dreamer Virtual Boutique."
     },
     {
       "id": "iconic-shops-virtual-atelier",

@@ -32,7 +32,7 @@
         ]
       },
       "notes": "Settings menu for redscript mods.",
-      "autoNotes": "Required by 91 mod(s) in this pack."
+      "autoNotes": "Required by 90 mod(s) in this pack."
     },
     {
       "id": "no-intro-videos",
@@ -2581,36 +2581,6 @@
         "variants": 1
       },
       "summary": "One menu for Native Settings UI, Mod Settings, with search, favorites, profiles, custom groups, and quick navigation."
-    },
-    {
-      "id": "photomode-ui-improvements",
-      "name": "Photomode UI Improvements",
-      "nexusId": 34353,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "equipment-ex",
-        "mod-settings",
-        "photomode-ex",
-        "red4ext",
-        "redfilesystem",
-        "redscript",
-        "tweakxl",
-        "tapepunk-vhs-reshade-presets"
-      ],
-      "author": "pointdotpoint",
-      "endorsements": 288,
-      "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 173223,
-        "name": "PhotoModeUIImprovements",
-        "version": "1.4.2",
-        "uploaded": "2026-11-03",
-        "variants": 1
-      },
-      "summary": "Everything photo mode was missing: a pose browser, click-to-select characters, mouse-wheel posing, look-at controls, a full photo editor with layers, photoshop-like layers with blend modes and presets, VFX, thermal vision, a lights map and"
     },
     {
       "id": "cyberpunk-dual-language-subtitles-mod-english-ap",

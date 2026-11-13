@@ -30,7 +30,7 @@
         "bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log"
       ],
       "notes": "Lua scripting + in-game overlay. Must match the exact game version.",
-      "autoNotes": "Required by 243 mod(s) in this pack."
+      "autoNotes": "Required by 244 mod(s) in this pack."
     },
     {
       "id": "redscript",
@@ -60,7 +60,7 @@
         "r6/logs/redscript*.log"
       ],
       "notes": "Script compiler. Compile errors show up in r6/logs/redscript_rCURRENT.log and usually point at the broken mod.",
-      "autoNotes": "Required by 340 mod(s) in this pack."
+      "autoNotes": "Required by 341 mod(s) in this pack."
     },
     {
       "id": "red4ext",
@@ -90,7 +90,7 @@
         "red4ext/logs/*.log"
       ],
       "notes": "Native plugin loader. ArchiveXL, TweakXL, Codeware and most DLL mods need it. Usually breaks on every game patch, so update it first.",
-      "autoNotes": "Required by 325 mod(s) in this pack."
+      "autoNotes": "Required by 324 mod(s) in this pack."
     },
     {
       "id": "archivexl",
@@ -106,10 +106,10 @@
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177875,
+        "fileId": 177641,
         "name": "ArchiveXL",
-        "version": "1.28.8",
-        "uploaded": "2026-11-13",
+        "version": "1.28.7",
+        "uploaded": "2026-11-12",
         "variants": 1
       },
       "summary": "Archive extension loader",
@@ -122,7 +122,7 @@
         "red4ext/plugins/ArchiveXL/*.log"
       ],
       "notes": "Needed by almost every clothing, appearance and new-item mod.",
-      "autoNotes": "Required by 433 mod(s) in this pack."
+      "autoNotes": "Required by 431 mod(s) in this pack."
     },
     {
       "id": "tweakxl",
@@ -138,10 +138,10 @@
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177876,
+        "fileId": 177642,
         "name": "TweakXL",
-        "version": "1.12.2",
-        "uploaded": "2026-11-13",
+        "version": "1.12.1",
+        "uploaded": "2026-11-12",
         "variants": 1
       },
       "summary": "TweakDB modifications loader and script extensions",
@@ -170,10 +170,10 @@
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177877,
+        "fileId": 177643,
         "name": "Codeware",
-        "version": "1.21.4",
-        "uploaded": "2026-11-13",
+        "version": "1.21.3",
+        "uploaded": "2026-11-12",
         "variants": 1
       },
       "summary": "Script extensions",
@@ -186,7 +186,7 @@
         "red4ext/plugins/Codeware/*.log"
       ],
       "notes": "Scripting library many redscript mods depend on.",
-      "autoNotes": "Required by 208 mod(s) in this pack."
+      "autoNotes": "Required by 210 mod(s) in this pack."
     },
     {
       "id": "native-settings-ui",
@@ -215,7 +215,7 @@
         ]
       },
       "notes": "Adds mod options to the in-game Settings menu for CET mods.",
-      "autoNotes": "Required by 67 mod(s) in this pack."
+      "autoNotes": "Required by 68 mod(s) in this pack."
     },
     {
       "id": "browser-extension",
@@ -442,7 +442,7 @@
       },
       "summary": "Plugin to read / write with the file system in a restricted path, using Redscript / CET. For modders only.",
       "notes": "Required by 6 mod(s) in this pack.",
-      "autoNotes": "Required by 8 mod(s) in this pack."
+      "autoNotes": "Required by 7 mod(s) in this pack."
     },
     {
       "id": "trigger-mode-control",
@@ -838,37 +838,7 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "dogtown-location-visuals-nulled-a-general-fix-fo",
-      "name": "Dogtown Location Visuals Nulled - a general fix for lighting mods.",
-      "nexusId": 12874,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext"
-      ],
-      "author": "nullsilv and NeHooYeY and robber804",
-      "endorsements": 3974,
-      "nexusCategory": "Modders Resources",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 114099,
-        "name": "Dog Town Visuals Nulled",
-        "version": "2.3.250718",
-        "uploaded": "2025-07-18",
-        "variants": 1
-      },
-      "summary": "This mod will no longer be updated, Night City Visuals Nulled and Dogtown visuals nulled are both included in the redscript version of NCVN.A mod to fix most per-sector and per-location issues to minimize issues with lighting mods. Contains",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/dogtown-location-visuals-nulled.archive.xl"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack.",
-      "autoNotes": "Needs DLC: Phantom Liberty. Required by 2 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "morphtarget-and-animrig-additions",
@@ -969,30 +939,6 @@
           "archive/pc/mod/00_Johnsons_Amazing_Dangles_Emporium.archive"
         ]
       }
-    },
-    {
-      "id": "4x-vending-machine-framework",
-      "name": "4x Vending Machine Framework",
-      "nexusId": 13485,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "nremind",
-      "endorsements": 1729,
-      "nexusCategory": "Modders Resources",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 121442,
-        "name": "4x Vending Machine Framework (REDMOD)",
-        "version": "2.7",
-        "uploaded": "2025-09-15",
-        "variants": 2
-      },
-      "summary": "This framework does 2 things: First, it expands the number of vending machine graphics by 4x the amount in the vanilla game. Second, it randomizes the vending machine graphics. Installing this by itself only does the second, so it is",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
       "id": "framework-unique-evelyn-body-shape-rig",
@@ -1193,30 +1139,6 @@
       "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
-      "id": "4x-magazine-framework",
-      "name": "4x Magazine Framework",
-      "nexusId": 16256,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "nremind",
-      "endorsements": 946,
-      "nexusCategory": "Modders Resources",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 121437,
-        "name": "4x Magazine Framework (REDMOD)",
-        "version": "2.2",
-        "uploaded": "2025-09-15",
-        "variants": 2
-      },
-      "summary": "Massively expand magazines in Night City! This framework does 2 things: First, it expands the number of magazines by 4x the amount in the base game. Second, it randomizes the magazines in Night City. Installing this by itself only does the",
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "undermine-quest-series",
       "name": "Undermine Quest Series",
       "nexusId": 17186,
@@ -1298,6 +1220,61 @@
       "summary": "Allows Redscript mods to retrieve images from the intarwebz and display them inside ink by hot-creating archive files and hot-mounting them. ᕕ( ᐛ )ᕗ",
       "notes": "Required by 1 mod(s) in this pack.",
       "autoNotes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "night-city-fog-nulled",
+      "name": "Night City Fog Nulled",
+      "nexusId": 20192,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "mod-settings",
+        "redscript",
+        "codeware"
+      ],
+      "author": "robber804",
+      "endorsements": 701,
+      "nexusCategory": "Modders Resources",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 135998,
+        "name": "NightCityFogNulled",
+        "version": "3.2.0",
+        "uploaded": "2026-02-13",
+        "variants": 1
+      },
+      "summary": "This mod removes static fog from most area's in cyberpunk 2077. Fog created from other sources such as weather are not touched.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/NightCityFogNulled.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "perk-addition-framework",
+      "name": "Perk Addition Framework",
+      "nexusId": 22758,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "JonnesTT",
+      "endorsements": 675,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168698,
+        "name": "Perk Addition Framework",
+        "version": "1.0.1",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "extends TweakXLs capability by letting you add non-replacer perks to vanilla perk trees"
     },
     {
       "id": "calendar",
