@@ -330,8 +330,7 @@ VARIANT_WORDS = re.compile(
 
 def variant_key(m: dict) -> tuple[str, str]:
     """Same author + same name once format tags (REDmod/Redscript/CET...) and versions are removed."""
-    name = re.sub(r"[\(\[].*?[\)\]]", " ", m["name"])
-    name = VARIANT_WORDS.sub(" ", name)
+    name = VARIANT_WORDS.sub(" ", m["name"])  # keep bracketed text: "(pack 1)" vs "(pack 2)" are different mods
     name = re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
     return ((m.get("author") or "").strip().lower(), name)
 

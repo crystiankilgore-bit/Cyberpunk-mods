@@ -1,8 +1,8 @@
 # Modpack build report
 
-Generated 2026-11-13 11:36 UTC by `tools/nexus/build_modpack.py` from the Nexus Mods API.
+Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus Mods API.
 
-**1114 mods** across 11 category files.
+**1116 mods** across 11 category files.
 
 ## By category
 
@@ -11,12 +11,12 @@ Generated 2026-11-13 11:36 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 | `00-frameworks.json` | Frameworks & core libraries | 48 |
 | `10-fixes-performance.json` | Fixes & performance | 98 |
 | `20-ui-hud.json` | UI, HUD & menus | 130 |
-| `30-gameplay.json` | Gameplay & balance | 223 |
+| `30-gameplay.json` | Gameplay & balance | 224 |
 | `40-combat-weapons.json` | Combat & weapons | 96 |
 | `50-vehicles.json` | Vehicles & driving | 71 |
 | `60-world-npcs.json` | World, NPCs & crowds | 58 |
 | `70-graphics-lighting.json` | Graphics, lighting & weather | 115 |
-| `80-appearance.json` | Character, clothing & appearance | 163 |
+| `80-appearance.json` | Character, clothing & appearance | 164 |
 | `85-audio-radio.json` | Audio & radio | 61 |
 | `90-quests-content.json` | Quests & new content | 51 |
 
@@ -24,8 +24,8 @@ Generated 2026-11-13 11:36 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 
 | Rating | Mods | Meaning |
 |---|---:|---|
-| `updated-for-2.5` | 408 | Main file uploaded after patch 2.5. Most likely to work. |
-| `script-verify` | 397 | redscript/CET/TweakXL mod from 2.3-2.4x. Usually fine; check if something misbehaves. |
+| `updated-for-2.5` | 409 | Main file uploaded after patch 2.5. Most likely to work. |
+| `script-verify` | 398 | redscript/CET/TweakXL mod from 2.3-2.4x. Usually fine; check if something misbehaves. |
 | `assets-likely-ok` | 295 | Archive/asset-only mod from before 2.5. Asset mods rarely break on patches. |
 | `unknown` | 14 | Nexus has no file list for it (often a FOMOD installer or a brand-new upload). Recent, so kept; check the page. |
 
@@ -51,7 +51,7 @@ Generated 2026-11-13 11:36 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 
 </details>
 
-<details><summary><b>1073</b> - script mod not updated since 2025-07-17</summary>
+<details><summary><b>1070</b> - script mod not updated since 2025-07-17</summary>
 
 - [Better Vehicle Handling](https://www.nexusmods.com/cyberpunk2077/mods/210) - 44621 endorsements
 - [Simple Menu - An In-Game UI including Hotkeys](https://www.nexusmods.com/cyberpunk2077/mods/818) - 32137 endorsements
@@ -203,7 +203,7 @@ Generated 2026-11-13 11:36 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Character Customization Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/3930) - 2415 endorsements
 - [Bug Fix - Base Fists and Arm Cyberware Attack Speed Fix](https://www.nexusmods.com/cyberpunk2077/mods/14130) - 2407 endorsements
 - [Enhanced Cyberware Capacity](https://www.nexusmods.com/cyberpunk2077/mods/15297) - 2388 endorsements
-- ... and 923 more
+- ... and 920 more
 
 </details>
 
@@ -703,13 +703,6 @@ Generated 2026-11-13 11:36 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Computer Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/12520) - 3961 endorsements (overlaps Idle Anywhere)
 - [V Cybernetic Voice (Cyberware Voice)](https://www.nexusmods.com/cyberpunk2077/mods/18813) - 217 endorsements (overlaps Immersive V Dialogue Expanded)
 - [AZERTY Fix And Disable Movements Binds For Dialog Selection 2.31](https://www.nexusmods.com/cyberpunk2077/mods/9335) - 184 endorsements (overlaps Disable Movement Keybinds For Dialogue Selection)
-
-</details>
-
-<details><summary><b>2</b> - another Nexus page of the same mod (e.g. REDmod vs redscript) is newer</summary>
-
-- [Nola Dreamer's archive XL clothes for fem V (pack 2)](https://www.nexusmods.com/cyberpunk2077/mods/6885) - 2761 endorsements (overlaps Nola Dreamer's archive XL clothes for fem V (pack 1))
-- [Post-Romance Delivery System (Judy) With physical packages](https://www.nexusmods.com/cyberpunk2077/mods/21496) - 951 endorsements (overlaps Post-Romance Delivery System (Panam) - With physical packages)
 
 </details>
 

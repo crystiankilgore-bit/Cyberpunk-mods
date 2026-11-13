@@ -30,7 +30,7 @@
         "bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log"
       ],
       "notes": "Lua scripting + in-game overlay. Must match the exact game version.",
-      "autoNotes": "Required by 244 mod(s) in this pack."
+      "autoNotes": "Required by 245 mod(s) in this pack."
     },
     {
       "id": "redscript",
@@ -122,7 +122,7 @@
         "red4ext/plugins/ArchiveXL/*.log"
       ],
       "notes": "Needed by almost every clothing, appearance and new-item mod.",
-      "autoNotes": "Required by 431 mod(s) in this pack."
+      "autoNotes": "Required by 432 mod(s) in this pack."
     },
     {
       "id": "tweakxl",
@@ -154,7 +154,7 @@
         "red4ext/plugins/TweakXL/*.log"
       ],
       "notes": "Loads .yaml/.tweak files from r6/tweaks. Needed by most item, weapon and balance mods.",
-      "autoNotes": "Required by 319 mod(s) in this pack."
+      "autoNotes": "Required by 320 mod(s) in this pack."
     },
     {
       "id": "codeware",

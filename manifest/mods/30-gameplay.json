@@ -4961,6 +4961,30 @@
       "summary": "Infinite Carrying Capacity (Weight) - REDMod Version, compatible with v2.5"
     },
     {
+      "id": "post-romance-delivery-system-judy-with-physical",
+      "name": "Post-Romance Delivery System (Judy) With physical packages",
+      "nexusId": 21496,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "archivexl",
+        "tweakxl"
+      ],
+      "author": "Dedra",
+      "endorsements": 951,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168663,
+        "name": "Judy_gift_mod4",
+        "version": "5.1",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "NOW WITH A PHYSICAL PACKAGE! Judy now sends physical care packages via R.A. Delivery. These deliveries appear at actual stash points in your apartments and are clearly marked on your map."
+    },
+    {
       "id": "retrothrusters-qol",
       "name": "Retrothrusters QoL",
       "nexusId": 14320,
@@ -5590,7 +5614,8 @@
           "archive/pc/mod/ZWEI_PMU_2_3_XL_Alt_Vol2.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "no-default-equipped-weapon-in-inventory",
