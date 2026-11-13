@@ -4,7 +4,15 @@ A 1000+ mod Cyberpunk 2077 setup for **game version 2.5**, built from the Nexus 
 
 The mods themselves aren't in this repo (Nexus terms and mod authors' permissions don't allow re-hosting). The repo holds the **list** of mods (which exact file, what each one needs) and scripts that download them from Nexus for you.
 
-## Quick start (Windows)
+## Install with Vortex (easiest)
+
+1. Install [Vortex](https://www.nexusmods.com/app), log in, and manage Cyberpunk 2077. Turn on Settings > Downloads > "Handle Nexus Links".
+2. Download this repo (Code > Download ZIP, then extract) or `git clone` it.
+3. Double-click **`Install with Vortex.bat`** and answer the questions.
+
+It installs the pack in 8 stages, frameworks first. After each stage you install/deploy in Vortex and launch the game once, and the script checks everything before moving on. Close it anytime; running it again picks up at the next stage. With Nexus Premium + your API key it downloads the exact files straight into Vortex; without, it sends each mod to Vortex as a Nexus link.
+
+## Quick start (PowerShell)
 
 ```powershell
 git clone https://github.com/crystiankilgore-bit/Cyberpunk-mods
@@ -36,6 +44,7 @@ Read **[docs/INSTALL-GUIDE.md](docs/INSTALL-GUIDE.md)** before installing. It co
 
 | Script | Does |
 |---|---|
+| `Start-VortexInstall.ps1` | The guided installer behind `Install with Vortex.bat`: questions, backup, staged install, checks between stages, resume |
 | `Install-Modpack.ps1` | Downloads every mod's pinned file via the API (Premium) into Vortex's downloads folder, or opens `nxm://` links for Vortex. Requirements first; resumable; `-Category`, `-MinPriority`, `-Limit`, `-WhatIf` |
 | `Test-ModSetup.ps1` | Game version vs expected, required frameworks present and not stale, installed/missing counts, missing requirements, conflicts, stray archives |
 | `Find-MissingDependencies.ps1` | Download list for anything installed mods need but you don't have |
