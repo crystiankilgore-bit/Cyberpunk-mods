@@ -65,6 +65,8 @@ if ([string]::IsNullOrWhiteSpace($expected)) {
 # ---------------------------------------------------------------- Frameworks
 Write-Section "Required frameworks"
 $state = Get-InstallState -Mods $mods -GameDir $game
+$vortexDirs = $null
+$stuck = @{ staged = 0; downloaded = 0; nowhere = 0 }
 $exeTime = $ver.LastWriteTime
 
 foreach ($m in ($mods | Where-Object { (Get-Prop $_ 'required' $false) -eq $true })) {
@@ -83,8 +85,21 @@ foreach ($m in ($mods | Where-Object { (Get-Prop $_ 'required' $false) -eq $true
             }
         }
     } elseif ($installed -eq $false) {
-        Write-Fail "$($m.name) is NOT installed -> $(Format-ModRef $m)"
+        Write-Fail "$($m.name) is NOT in the game folder -> $(Format-ModRef $m)"
         $failures++
+        if (-not $vortexDirs) { $vortexDirs = Get-VortexDirs -GameDir $game }
+        $found = Find-ModInVortex -Mod $m -VortexDirs $vortexDirs
+        if ($found -and $found.State -eq 'staged') {
+            Write-Host "         Vortex HAS installed it but hasn't deployed it: Mods tab > make sure it's Enabled > Deploy." -ForegroundColor Yellow
+            Write-Host "         ($($found.Where))" -ForegroundColor DarkGray
+            $stuck['staged']++
+        } elseif ($found) {
+            Write-Host "         Downloaded but NOT installed in Vortex: Downloads tab > select it > Install, then Enable + Deploy." -ForegroundColor Yellow
+            Write-Host "         ($($found.Where))" -ForegroundColor DarkGray
+            $stuck['downloaded']++
+        } else {
+            $stuck['nowhere']++
+        }
     } else {
         Write-Warn "$($m.name) has no 'detect' paths in the manifest, so it can't be checked."
         $warnings++
@@ -174,6 +189,21 @@ if ($failures -eq 0 -and $warnings -eq 0) {
     Write-Warn "$warnings warning(s), no failures."
 } else {
     Write-Fail "$failures problem(s), $warnings warning(s). Fix the [FAIL] lines first."
+}
+if (($stuck.staged + $stuck.downloaded + $stuck.nowhere) -gt 0) {
+    Write-Host ""
+    Write-Host "  Required frameworks are missing from the game folder. Most likely fix:" -ForegroundColor Yellow
+    if ($stuck.downloaded) { Write-Host "   - Vortex > Downloads: select the framework downloads > Install." }
+    if ($stuck.staged -or $stuck.downloaded) { Write-Host "   - Vortex > Mods: select them > Enable, then click Deploy (top bar)." }
+    if ($stuck.nowhere) {
+        Write-Host "   - $($stuck.nowhere) weren't found in Vortex's usual folders either. Either they never downloaded"
+        Write-Host "     (rerun the installer), or Vortex uses a custom staging/download folder (Settings > Mods / Downloads)."
+    }
+    Write-Host "   - Check Vortex manages THIS copy of the game: Games tab > Cyberpunk 2077 > the folder should be"
+    Write-Host "     $game"
+    if ((Join-Path $game 'bin/x64/plugins/cyber_engine_tweaks/mods') -and (Test-Path -LiteralPath (Join-Path $game 'bin/x64/plugins/cyber_engine_tweaks/mods'))) {
+        Write-Host "   - Note: CET mod folders exist but CET itself doesn't. They may be left over from an older setup."
+    }
 }
 Write-Host ""
 exit ([int]($failures -gt 0))

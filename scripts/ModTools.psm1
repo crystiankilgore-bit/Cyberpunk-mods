@@ -271,6 +271,65 @@ function Get-DependencyReport {
     return $problems.ToArray()
 }
 
+function Get-VortexDirs {
+    <#
+        .SYNOPSIS
+        Best-guess Vortex download and staging folders for Cyberpunk. Vortex keeps the real paths in
+        its own database, so this checks the defaults: %APPDATA%\Vortex\... and "<drive>:\Vortex Mods\..."
+        on every drive (Vortex suggests that when the game is on a different drive).
+    #>
+    param([string]$GameDir)
+    $downloads = New-Object System.Collections.Generic.List[string]
+    $staging = New-Object System.Collections.Generic.List[string]
+    if ($env:APPDATA) {
+        $downloads.Add((Join-Path $env:APPDATA 'Vortex\downloads\cyberpunk2077'))
+        $staging.Add((Join-Path $env:APPDATA 'Vortex\cyberpunk2077\mods'))
+    }
+    foreach ($drive in (Get-PSDrive -PSProvider FileSystem -ErrorAction SilentlyContinue)) {
+        foreach ($base in 'Vortex Mods', 'Vortex', 'Vortex\Mods', 'Modding\Vortex') {
+            $staging.Add((Join-Path $drive.Root "$base\cyberpunk2077"))
+            $staging.Add((Join-Path $drive.Root "$base\cyberpunk2077\mods"))
+            $downloads.Add((Join-Path $drive.Root "$base\downloads\cyberpunk2077"))
+        }
+    }
+    [pscustomobject]@{
+        Downloads = @($downloads | Select-Object -Unique | Where-Object { Test-Path -LiteralPath $_ })
+        Staging   = @($staging | Select-Object -Unique | Where-Object { Test-Path -LiteralPath $_ })
+    }
+}
+
+function Find-ModInVortex {
+    <#
+        .SYNOPSIS
+        For a mod that isn't in the game folder, says whether Vortex has it installed (staging) or
+        only downloaded. Returns 'staged', 'downloaded' or $null.
+    #>
+    param([Parameter(Mandatory)]$Mod, [Parameter(Mandatory)]$VortexDirs)
+    $detect = Get-Prop $Mod 'detect'
+    $paths = @(Get-Prop $detect 'paths' @()) + @(Get-Prop $detect 'anyOf' @())
+    foreach ($s in $VortexDirs.Staging) {
+        foreach ($modFolder in Get-ChildItem -LiteralPath $s -Directory -ErrorAction SilentlyContinue) {
+            foreach ($p in $paths) {
+                if (Test-Path -Path (Join-Path $modFolder.FullName $p)) { return [pscustomobject]@{ State = 'staged'; Where = $modFolder.FullName } }
+            }
+        }
+    }
+    $nid = Get-Prop $Mod 'nexusId'
+    foreach ($d in $VortexDirs.Downloads) {
+        $progress = Join-Path $d '.modpack-progress.json'
+        if ($nid -and (Test-Path -LiteralPath $progress)) {
+            $map = Get-Content -LiteralPath $progress -Raw | ConvertFrom-Json
+            if ($map.PSObject.Properties.Name -contains "$nid") {
+                return [pscustomobject]@{ State = 'downloaded'; Where = (Join-Path $d $map."$nid") }
+            }
+        }
+        $pattern = ($Mod.name -replace '[^\w]+', '*')
+        $hit = Get-ChildItem -LiteralPath $d -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -like "*$pattern*" -or ($nid -and $_.Name -match "-$nid-") } | Select-Object -First 1
+        if ($hit) { return [pscustomobject]@{ State = 'downloaded'; Where = $hit.FullName } }
+    }
+    return $null
+}
+
 function Format-ModRef {
     param($Mod)
     $nid = Get-Prop $Mod 'nexusId'
@@ -280,4 +339,4 @@ function Format-ModRef {
 
 Export-ModuleMember -Function Write-Ok, Write-Warn, Write-Fail, Write-Info, Write-Section,
     Test-IsGameDir, Find-GameDir, Get-GameVersion, Get-ManifestDir, Import-Modpack, Get-Prop,
-    Test-ModInstalled, Get-InstallState, Get-DependencyReport, Format-ModRef
+    Test-ModInstalled, Get-InstallState, Get-DependencyReport, Format-ModRef, Get-VortexDirs, Find-ModInVortex
