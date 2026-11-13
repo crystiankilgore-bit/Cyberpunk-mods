@@ -106,10 +106,10 @@
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177641,
+        "fileId": 177875,
         "name": "ArchiveXL",
-        "version": "1.28.7",
-        "uploaded": "2026-11-12",
+        "version": "1.28.8",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Archive extension loader",
@@ -138,10 +138,10 @@
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177642,
+        "fileId": 177876,
         "name": "TweakXL",
-        "version": "1.12.1",
-        "uploaded": "2026-11-12",
+        "version": "1.12.2",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "TweakDB modifications loader and script extensions",
@@ -170,10 +170,10 @@
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177643,
+        "fileId": 177877,
         "name": "Codeware",
-        "version": "1.21.3",
-        "uploaded": "2026-11-12",
+        "version": "1.21.4",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Script extensions",

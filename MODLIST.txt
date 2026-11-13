@@ -1,5 +1,5 @@
 Ai modpack - Cyberpunk 2077 2.5 modpack
-1119 mods. Generated 2026-11-12 from manifest/.
+1119 mods. Generated 2026-11-13 from manifest/.
 
 Rating (2.5 compatibility):
   [2.5]     main file uploaded after patch 2.5
@@ -31,13 +31,13 @@ Contents:
       https://www.nexusmods.com/cyberpunk2077/mods/1511
    3. RED4ext v1.31.1 by WopsS  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/2380
-   4. ArchiveXL v1.28.7 by psiberx  [2.5]
+   4. ArchiveXL v1.28.8 by psiberx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/4198
       Requires: RED4ext
-   5. TweakXL v1.12.1 by psiberx  [2.5]
+   5. TweakXL v1.12.2 by psiberx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/4197
       Requires: RED4ext
-   6. Codeware v1.21.3 by psiberx  [2.5]
+   6. Codeware v1.21.4 by psiberx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/7780
       Requires: RED4ext
    7. Native Settings UI v1.97 by keanuWheeze  [2.5]
