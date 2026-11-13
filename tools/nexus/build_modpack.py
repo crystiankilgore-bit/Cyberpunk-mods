@@ -430,13 +430,15 @@ def main() -> int:
     # ---- 3b. fetch the whole requirement tree up front, so we can reject mods whose
     #          requirements are themselves outdated, adult-only or gone.
     pool = dict(candidates)
-    unresolvable: set[int] = set()
+    unresolvable: set[int] = set(excl_ids)  # excluded mods can't satisfy a requirement either
     while True:
         need = {d for m in list(pool.values()) for d in requirement_ids(m)} - set(pool) - unresolvable
         if not need:
             break
         print(f"Resolving {len(need)} requirements...")
         for m in fetch_mods_by_id(nx, sorted(need)):
+            if m["modId"] in excl_ids:
+                continue
             if m["adultContent"] or m["status"] != "published":
                 print(f"  ! requirement {m['name']} ({m['modId']}) is adult-only or not published - mods needing it are skipped")
                 unresolvable.add(m["modId"])
@@ -704,7 +706,7 @@ def write_report(picked, skipped, compat_count, by_file, titles, cfg, pool):
         "script-outdated": f"script mod not updated since {cfg['scriptCutoff']}",
         "assets-outdated": f"asset mod not updated since {cfg['assetCutoff']}",
         "no-main-file": "no downloadable main file",
-        "bad-requirement": "needs a mod that's outdated, adult-only or removed",
+        "bad-requirement": "needs a mod that's outdated, excluded, adult-only or removed",
         "unknown-outdated": f"no recognisable game files and not updated since {cfg['scriptCutoff']}",
         "external-tool": "standalone program, not a game mod",
     }

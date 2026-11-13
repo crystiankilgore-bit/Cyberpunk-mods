@@ -38,7 +38,7 @@ $known = [ordered]@{
     'RED4ext plugins'    = @('red4ext/plugins/*/*.log', 'red4ext/plugins/*/logs/*.log')
     'Cyber Engine Tweaks'= @('bin/x64/plugins/cyber_engine_tweaks/*.log')
     'CET mods'           = @('bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log')
-    'Game / REDmod'      = @('r6/logs/*.log', 'tools/redmod/bin/*.log')
+    'Game / REDmod'      = @('r6/logs/*.log', 'tools/redmod/bin/*.log', 'tools/redmod/bin/*.txt', 'tools/redmod/*.log', 'r6/cache/modded/*.log')
 }
 
 $files = New-Object System.Collections.Generic.List[object]
@@ -85,6 +85,12 @@ if ($sessionStart) { $sessionStart = $sessionStart.AddMinutes(-30) }
 
 $errorPattern = '(?i)\b(error|fatal|exception|crash(ed)?|failed|failure|cannot|can''t|unable to|not found|missing|incompatible|mismatch)\b'
 $ignorePattern = '(?i)(0 errors?|no errors|errors?: 0|without errors)'
+# Lines a logger explicitly marked as info/debug/trace are never errors, whatever words they contain.
+$infoLevelPattern = '(?i)^\s*(\[[^\]]*\]\s*)*\[\s*(info|debug|trace|verbose)\s*[\]-]|^\s*\[(INFO|DEBUG|TRACE)\b'
+# Lines a logger explicitly marked as a problem.
+$errorLevelPattern = '(?i)\[\s*(error|err|critical|fatal)\s*[\]-]|^\s*\[(ERROR|FATAL)\b'
+# redscript lists every file it compiles; a path line is never an error, even if a file is called "Missing...".
+$pathLinePattern = '(?i)^\s*([a-z]:\\|[^\[]).*\.(reds|lua|archive|xl|yaml|tweak)\s*$'
 
 $summary = New-Object System.Collections.Generic.List[string]
 $totalErrors = 0
@@ -103,7 +109,10 @@ foreach ($group in ($files | Group-Object Group)) {
         $hits = @()
         for ($i = 0; $i -lt $lines.Count; $i++) {
             $l = $lines[$i]
-            if ($l -match $errorPattern -and $l -notmatch $ignorePattern) { $hits += [pscustomobject]@{ N = $i + 1; Text = $l.Trim() } }
+            if ($l -match $infoLevelPattern -or $l -match $pathLinePattern) { continue }
+            if ($l -match $errorLevelPattern -or ($l -match $errorPattern -and $l -notmatch $ignorePattern -and $l -notmatch '(?i)\[\s*(warn|warning)\s*\]')) {
+                $hits += [pscustomobject]@{ N = $i + 1; Text = $l.Trim() }
+            }
         }
 
         $header = "[$($entry.Group)] $rel$tag - $($hits.Count) error line(s), modified $($f.LastWriteTime)"

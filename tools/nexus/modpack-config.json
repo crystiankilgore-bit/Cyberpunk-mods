@@ -1,51 +1,145 @@
 {
   "_comment": "Settings for tools/nexus/build_modpack.py. Change the counts to grow or shrink the pack, then rerun the builder.",
-
   "patch25Date": "2026-10-21",
   "patch25DateNote": "Mods whose main file was uploaded on/after this date are treated as updated for 2.5 (CET's 2.5 build shipped 2026-10-22).",
-
   "scriptCutoff": "2025-07-17",
   "scriptCutoffNote": "redscript / CET / TweakXL mods older than this (patch 2.3) are skipped. Newer ones are kept but marked 'verify'.",
-
   "assetCutoff": "2023-12-05",
   "assetCutoffNote": "Archive-only mods older than this (patch 2.1) are skipped; 2.0/2.1 changed too much for them to be safe.",
-
   "excludeOutdatedNative": true,
   "excludeOutdatedNativeNote": "Skip RED4ext / ASI plugins whose main file predates 2.5 (they're the mods most likely to crash a new patch). Ignored for mods pulled in as someone else's requirement.",
-
   "minEndorsements": 150,
-  "excludeModIds": [],
+  "excludeModIds": [
+    12874,
+    13485,
+    16256
+  ],
+  "excludeModIdsNotes": {
+    "13485": "4x Vending Machine Framework: world-sector edits fail on 2.5 (ArchiveXL: node count mismatch). Seen in user logs 2026-11-13.",
+    "16256": "4x Magazine Framework: world-sector edits fail on 2.5 (ArchiveXL: node count mismatch). Seen in user logs 2026-11-13.",
+    "12874": "Dogtown Location Visuals Nulled: world-sector edits fail on 2.5 (node type mismatch). Mods requiring it are dropped too."
+  },
   "excludeNamePatterns": [
     "(?i)\\bsave ?(file|game)s?\\b",
     "(?i)\\bnsfw\\b",
     "(?i)\\b(reshade|ENB)\\b.*\\bpreset\\b"
   ],
-
   "categories": [
-    { "nexus": "Modders Resources",     "file": "00-frameworks.json",        "count": 45 },
-    { "nexus": "Utilities",             "file": "10-fixes-performance.json", "count": 60 },
-    { "nexus": "Miscellaneous",         "file": "10-fixes-performance.json", "count": 50 },
-    { "nexus": "User Interface",        "file": "20-ui-hud.json",            "count": 130 },
-    { "nexus": "Gameplay",              "file": "30-gameplay.json",          "count": 200 },
-    { "nexus": "Scripts",               "file": "30-gameplay.json",          "count": 20 },
-    { "nexus": "Crafting",              "file": "30-gameplay.json",          "count": 15 },
-    { "nexus": "Weapons",               "file": "40-combat-weapons.json",    "count": 110 },
-    { "nexus": "Vehicles",              "file": "50-vehicles.json",          "count": 90 },
-    { "nexus": "Characters",            "file": "60-world-npcs.json",        "count": 30 },
-    { "nexus": "Apartment",             "file": "60-world-npcs.json",        "count": 15 },
-    { "nexus": "Add-On Apartment",      "file": "60-world-npcs.json",        "count": 10 },
-    { "nexus": "Props and Decorations", "file": "60-world-npcs.json",        "count": 10 },
-    { "nexus": "Adverts",               "file": "60-world-npcs.json",        "count": 10 },
-    { "nexus": "Visuals and Graphics",  "file": "70-graphics-lighting.json", "count": 110 },
-    { "nexus": "Armour and Clothing",   "file": "80-appearance.json",        "count": 150 },
-    { "nexus": "Appearance",            "file": "80-appearance.json",        "count": 70 },
-    { "nexus": "Animations",            "file": "80-appearance.json",        "count": 25 },
-    { "nexus": "Atelier Shop",          "file": "80-appearance.json",        "count": 15 },
-    { "nexus": "Audio",                 "file": "85-audio-radio.json",       "count": 60 },
-    { "nexus": "Audio Replacer",        "file": "85-audio-radio.json",       "count": 5 },
-    { "nexus": "Locations",             "file": "90-quests-content.json",    "count": 50 }
+    {
+      "nexus": "Modders Resources",
+      "file": "00-frameworks.json",
+      "count": 45
+    },
+    {
+      "nexus": "Utilities",
+      "file": "10-fixes-performance.json",
+      "count": 60
+    },
+    {
+      "nexus": "Miscellaneous",
+      "file": "10-fixes-performance.json",
+      "count": 50
+    },
+    {
+      "nexus": "User Interface",
+      "file": "20-ui-hud.json",
+      "count": 130
+    },
+    {
+      "nexus": "Gameplay",
+      "file": "30-gameplay.json",
+      "count": 200
+    },
+    {
+      "nexus": "Scripts",
+      "file": "30-gameplay.json",
+      "count": 20
+    },
+    {
+      "nexus": "Crafting",
+      "file": "30-gameplay.json",
+      "count": 15
+    },
+    {
+      "nexus": "Weapons",
+      "file": "40-combat-weapons.json",
+      "count": 110
+    },
+    {
+      "nexus": "Vehicles",
+      "file": "50-vehicles.json",
+      "count": 90
+    },
+    {
+      "nexus": "Characters",
+      "file": "60-world-npcs.json",
+      "count": 30
+    },
+    {
+      "nexus": "Apartment",
+      "file": "60-world-npcs.json",
+      "count": 15
+    },
+    {
+      "nexus": "Add-On Apartment",
+      "file": "60-world-npcs.json",
+      "count": 10
+    },
+    {
+      "nexus": "Props and Decorations",
+      "file": "60-world-npcs.json",
+      "count": 10
+    },
+    {
+      "nexus": "Adverts",
+      "file": "60-world-npcs.json",
+      "count": 10
+    },
+    {
+      "nexus": "Visuals and Graphics",
+      "file": "70-graphics-lighting.json",
+      "count": 110
+    },
+    {
+      "nexus": "Armour and Clothing",
+      "file": "80-appearance.json",
+      "count": 150
+    },
+    {
+      "nexus": "Appearance",
+      "file": "80-appearance.json",
+      "count": 70
+    },
+    {
+      "nexus": "Animations",
+      "file": "80-appearance.json",
+      "count": 25
+    },
+    {
+      "nexus": "Atelier Shop",
+      "file": "80-appearance.json",
+      "count": 15
+    },
+    {
+      "nexus": "Audio",
+      "file": "85-audio-radio.json",
+      "count": 60
+    },
+    {
+      "nexus": "Audio Replacer",
+      "file": "85-audio-radio.json",
+      "count": 5
+    },
+    {
+      "nexus": "Locations",
+      "file": "90-quests-content.json",
+      "count": 50
+    }
   ],
-
-  "skippedNexusCategories": ["AI Voices", "Appearance Change Unlocker Preset", "Appearance Menu Mod Preset"],
+  "skippedNexusCategories": [
+    "AI Voices",
+    "Appearance Change Unlocker Preset",
+    "Appearance Menu Mod Preset"
+  ],
   "skippedNexusCategoriesNote": "Not pulled in automatically. Requirements from these categories still get added."
 }
