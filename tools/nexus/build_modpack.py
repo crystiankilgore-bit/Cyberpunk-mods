@@ -323,6 +323,19 @@ def compat_of(main: dict | None, kinds: list[str], cfg: dict) -> str:
     return "unknown" if day >= cfg["scriptCutoff"] else "unknown-outdated"
 
 
+VARIANT_WORDS = re.compile(
+    r"(?i)\b(redmod|redscript|reds|cet|lua|archivexl|archive|tweakxl|version|edition|ver|v\d+(\.\d+)*|for|patch\s*\d+(\.\d+)*|2\.\d+)\b"
+)
+
+
+def variant_key(m: dict) -> tuple[str, str]:
+    """Same author + same name once format tags (REDmod/Redscript/CET...) and versions are removed."""
+    name = re.sub(r"[\(\[].*?[\)\]]", " ", m["name"])
+    name = VARIANT_WORDS.sub(" ", name)
+    name = re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
+    return ((m.get("author") or "").strip().lower(), name)
+
+
 def slug(name: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
     return (s[:48].rstrip("-") or "mod")
@@ -473,6 +486,19 @@ def main() -> int:
 
     picked: dict[int, dict] = {}
     owner: dict[str, int] = {}  # normalized path (lowercase) -> mod id
+    variant_of: dict[tuple[str, str], int] = {}  # variant_key -> picked mod id
+
+    # When one mod ships as several Nexus pages (e.g. a REDmod and a redscript version), only the
+    # newest main file is a candidate; the others are recorded as duplicates.
+    best_variant: dict[tuple[str, str], int] = {}
+    for m in candidates.values():
+        k = variant_key(m)
+        if not k[1]:
+            continue
+        cur = best_variant.get(k)
+        ts = (m.get("_main") or {}).get("_ts", 0)
+        if cur is None or ts > (candidates[cur].get("_main") or {}).get("_ts", 0):
+            best_variant[k] = m["modId"]
     taken = defaultdict(int)
     skipped = defaultdict(list)
 
@@ -512,6 +538,11 @@ def main() -> int:
             continue
         if m["_main"] is None:
             skipped["no-main-file"].append(m)
+            continue
+        k = variant_key(m)
+        if k[1] and best_variant.get(k, m["modId"]) != m["modId"]:
+            m["_conflict"] = best_variant[k]
+            skipped["duplicate-variant"].append(m)
             continue
         bad = bad_requirement(m["modId"])
         if bad is not None:
@@ -707,6 +738,7 @@ def write_report(picked, skipped, compat_count, by_file, titles, cfg, pool):
         "assets-outdated": f"asset mod not updated since {cfg['assetCutoff']}",
         "no-main-file": "no downloadable main file",
         "bad-requirement": "needs a mod that's outdated, excluded, adult-only or removed",
+        "duplicate-variant": "another Nexus page of the same mod (e.g. REDmod vs redscript) is newer",
         "unknown-outdated": f"no recognisable game files and not updated since {cfg['scriptCutoff']}",
         "external-tool": "standalone program, not a game mod",
     }
@@ -715,7 +747,7 @@ def write_report(picked, skipped, compat_count, by_file, titles, cfg, pool):
         lines.append("")
         for m in sorted(mods, key=lambda m: -m["endorsements"])[:150]:
             extra = ""
-            if k == "file-conflict" and m.get("_conflict") in pool:
+            if k in ("file-conflict", "duplicate-variant") and m.get("_conflict") in pool:
                 extra = f" (overlaps {pool[m['_conflict']]['name']})"
             if k == "bad-requirement":
                 b = m.get("_badreq")

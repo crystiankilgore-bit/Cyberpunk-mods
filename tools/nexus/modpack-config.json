@@ -10,6 +10,8 @@
   "excludeOutdatedNativeNote": "Skip RED4ext / ASI plugins whose main file predates 2.5 (they're the mods most likely to crash a new patch). Ignored for mods pulled in as someone else's requirement.",
   "minEndorsements": 150,
   "excludeModIds": [
+    1889,
+    9243,
     12874,
     13485,
     16256
@@ -17,7 +19,9 @@
   "excludeModIdsNotes": {
     "13485": "4x Vending Machine Framework: world-sector edits fail on 2.5 (ArchiveXL: node count mismatch). Seen in user logs 2026-11-13.",
     "16256": "4x Magazine Framework: world-sector edits fail on 2.5 (ArchiveXL: node count mismatch). Seen in user logs 2026-11-13.",
-    "12874": "Dogtown Location Visuals Nulled: world-sector edits fail on 2.5 (node type mismatch). Mods requiring it are dropped too."
+    "12874": "Dogtown Location Visuals Nulled: world-sector edits fail on 2.5 (node type mismatch). Mods requiring it are dropped too.",
+    "9243": "Fast Travel from anywhere to everywhere - REDmod: pre-2.5 REDmod duplicate of the redscript version (9241); broke Vortex's REDmod deploy with 'script compilation failed' (user report 2026-11-13).",
+    "1889": "Limited Fast Travel: does the opposite of Fast Travel from anywhere (9241); don't run both."
   },
   "excludeNamePatterns": [
     "(?i)\\bsave ?(file|game)s?\\b",
