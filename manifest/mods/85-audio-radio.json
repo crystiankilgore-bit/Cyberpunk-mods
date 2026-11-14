@@ -14,7 +14,7 @@
         "redscript"
       ],
       "author": "Nttnnexus",
-      "endorsements": 2812,
+      "endorsements": 2815,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -40,7 +40,7 @@
         "red4ext"
       ],
       "author": "VslayerMK",
-      "endorsements": 1888,
+      "endorsements": 1890,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -67,7 +67,7 @@
         "cet"
       ],
       "author": "Cosmin G",
-      "endorsements": 1866,
+      "endorsements": 1869,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -92,7 +92,7 @@
         "tweakxl"
       ],
       "author": "Synthetic Culture",
-      "endorsements": 1520,
+      "endorsements": 1522,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -121,7 +121,7 @@
         "preem-scanner-customization-options-for-a-clean"
       ],
       "author": "Grapjas",
-      "endorsements": 1302,
+      "endorsements": 1304,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -150,7 +150,7 @@
         "romance-hangouts-enhanced"
       ],
       "author": "Demon9ne",
-      "endorsements": 1174,
+      "endorsements": 1176,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -171,7 +171,7 @@
       "priority": "optional",
       "required": false,
       "author": "Azagorh",
-      "endorsements": 1102,
+      "endorsements": 1103,
       "nexusCategory": "Audio Replacer",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -195,7 +195,7 @@
       "priority": "optional",
       "required": false,
       "author": "Valour549",
-      "endorsements": 1046,
+      "endorsements": 1047,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -221,7 +221,7 @@
       "priority": "optional",
       "required": false,
       "author": "fishnipples129 or Dane",
-      "endorsements": 953,
+      "endorsements": 956,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -248,7 +248,7 @@
         "cosmopolitan-night-city"
       ],
       "author": "Nttnnexus",
-      "endorsements": 851,
+      "endorsements": 853,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -314,7 +314,7 @@
       "priority": "optional",
       "required": false,
       "author": "Zhincore",
-      "endorsements": 789,
+      "endorsements": 790,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -418,7 +418,7 @@
         "mod-settings"
       ],
       "author": "MisterChedda",
-      "endorsements": 706,
+      "endorsements": 708,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -437,7 +437,7 @@
       "priority": "optional",
       "required": false,
       "author": "fishnipples129 or Dane",
-      "endorsements": 649,
+      "endorsements": 652,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -461,7 +461,7 @@
       "priority": "optional",
       "required": false,
       "author": "Synthetic Culture",
-      "endorsements": 645,
+      "endorsements": 646,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -485,7 +485,7 @@
       "priority": "optional",
       "required": false,
       "author": "YG",
-      "endorsements": 600,
+      "endorsements": 601,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -510,7 +510,7 @@
         "codeware"
       ],
       "author": "ArmanIII",
-      "endorsements": 535,
+      "endorsements": 536,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -622,7 +622,7 @@
         "red4ext"
       ],
       "author": "HereComesAlbaik",
-      "endorsements": 478,
+      "endorsements": 482,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -735,7 +735,7 @@
         "mod-settings"
       ],
       "author": "Roms1383 and DBK",
-      "endorsements": 417,
+      "endorsements": 419,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -808,7 +808,7 @@
       "priority": "optional",
       "required": false,
       "author": "YG",
-      "endorsements": 389,
+      "endorsements": 395,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -821,6 +821,31 @@
       "summary": "This mod will increase the volume of both V and NPCs footsteps.",
       "notes": "2 main-file variants on Nexus - pick one.",
       "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "audioxl-equalizers-volume-mute",
+      "name": "AudioXL - Equalizers - Volume - Mute",
+      "nexusId": 35310,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "audioxl",
+        "redscript-configuration-framework"
+      ],
+      "author": "DigitalVixen and Spuddeh",
+      "endorsements": 378,
+      "nexusCategory": "Audio",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176273,
+        "name": "AudioXL - Equalizers - Volume - Mute",
+        "version": "0.9.2",
+        "uploaded": "2026-11-10",
+        "variants": 1
+      },
+      "summary": "An equalizer per volume slider, a volume for every kind of sound, and a mute list. For all you audio lovers and haters: all the controls you could ever want! \\(°^°)/ Now, lets dance! ヾ(⌐■_■)ノ♪",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "blade-runner-ringtone-and-sms-sound-replacer-upd",
@@ -865,38 +890,13 @@
       "autoNotes": "3 main-file variants on Nexus - pick one."
     },
     {
-      "id": "audioxl-equalizers-volume-mute",
-      "name": "AudioXL - Equalizers - Volume - Mute",
-      "nexusId": 35310,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "audioxl",
-        "redscript-configuration-framework"
-      ],
-      "author": "DigitalVixen and Spuddeh",
-      "endorsements": 360,
-      "nexusCategory": "Audio",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 176273,
-        "name": "AudioXL - Equalizers - Volume - Mute",
-        "version": "0.9.2",
-        "uploaded": "2026-11-10",
-        "variants": 1
-      },
-      "summary": "An equalizer per volume slider, a volume for every kind of sound, and a mute list. For all you audio lovers and haters: all the controls you could ever want! \\(°^°)/ Now, lets dance! ヾ(⌐■_■)ノ♪",
-      "notes": "Required by 1 mod(s) in this pack.",
-      "autoNotes": "Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "sdh0-s-vehicle-audio",
       "name": "SDH0's Vehicle Audio",
       "nexusId": 34861,
       "priority": "optional",
       "required": false,
       "author": "SDH0",
-      "endorsements": 355,
+      "endorsements": 366,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -920,7 +920,7 @@
         "redscript"
       ],
       "author": "Sirrus233",
-      "endorsements": 321,
+      "endorsements": 323,
       "nexusCategory": "Audio",
       "compat": "script-verify",
       "mainFile": {
@@ -952,7 +952,7 @@
         "radio-volume-control"
       ],
       "author": "Violent Vira and Dova",
-      "endorsements": 317,
+      "endorsements": 318,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1033,7 +1033,7 @@
         "redscript"
       ],
       "author": "ArmanIII",
-      "endorsements": 262,
+      "endorsements": 264,
       "nexusCategory": "Audio",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1142,6 +1142,27 @@
       }
     },
     {
+      "id": "louder-v-s-footsteps",
+      "name": "Louder V's Footsteps",
+      "nexusId": 11420,
+      "priority": "optional",
+      "required": false,
+      "author": "YG",
+      "endorsements": 193,
+      "nexusCategory": "Audio",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168263,
+        "name": "Louder V's Footsteps v4 (Gain 15)",
+        "version": "4",
+        "uploaded": "2026-10-25",
+        "variants": 2
+      },
+      "summary": "This mod will increase the volume of V's footsteps.",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
       "id": "restore-v1-63-ncpd-police-siren",
       "name": "Restore v1.63 NCPD Police Siren",
       "nexusId": 11666,
@@ -1159,27 +1180,6 @@
         "variants": 1
       },
       "summary": "This mod brings back the previous NCPD police siren from v1.63."
-    },
-    {
-      "id": "louder-v-s-footsteps",
-      "name": "Louder V's Footsteps",
-      "nexusId": 11420,
-      "priority": "optional",
-      "required": false,
-      "author": "YG",
-      "endorsements": 192,
-      "nexusCategory": "Audio",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 168263,
-        "name": "Louder V's Footsteps v4 (Gain 15)",
-        "version": "4",
-        "uploaded": "2026-10-25",
-        "variants": 2
-      },
-      "summary": "This mod will increase the volume of V's footsteps.",
-      "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "ncpd-siren-to-us-police-siren",
@@ -1240,7 +1240,7 @@
       "priority": "optional",
       "required": false,
       "author": "Sirrus233",
-      "endorsements": 185,
+      "endorsements": 186,
       "nexusCategory": "Audio",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1461,6 +1461,30 @@
       }
     },
     {
+      "id": "lobby-talk-pedantic-correction",
+      "name": "Lobby Talk - Pedantic Correction",
+      "nexusId": 29258,
+      "priority": "optional",
+      "required": false,
+      "author": "sirrus233",
+      "endorsements": 156,
+      "nexusCategory": "Audio",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 143664,
+        "name": "LobbyDialogue",
+        "version": "1.0",
+        "uploaded": "2026-04-28",
+        "variants": 1
+      },
+      "summary": "Fixes the timing of some dialogue during the escape from Konpeki Plaza.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/LobbyDialogue.archive"
+        ]
+      }
+    },
+    {
       "id": "106-5-fishwave-fm",
       "name": "106.5 Fishwave FM",
       "nexusId": 5135,
@@ -1484,30 +1508,6 @@
       "detect": {
         "anyOf": [
           "archive/pc/mod/Fishwave FM.archive"
-        ]
-      }
-    },
-    {
-      "id": "lobby-talk-pedantic-correction",
-      "name": "Lobby Talk - Pedantic Correction",
-      "nexusId": 29258,
-      "priority": "optional",
-      "required": false,
-      "author": "sirrus233",
-      "endorsements": 155,
-      "nexusCategory": "Audio",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 143664,
-        "name": "LobbyDialogue",
-        "version": "1.0",
-        "uploaded": "2026-04-28",
-        "variants": 1
-      },
-      "summary": "Fixes the timing of some dialogue during the escape from Konpeki Plaza.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/LobbyDialogue.archive"
         ]
       }
     }

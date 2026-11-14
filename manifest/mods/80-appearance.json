@@ -16,14 +16,14 @@
         "tweakxl"
       ],
       "author": "psiberx and DJ_Kovrik",
-      "endorsements": 57035,
+      "endorsements": 57161,
       "nexusCategory": "Appearance",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177644,
+        "fileId": 177878,
         "name": "Equipment-EX",
-        "version": "1.3.0",
-        "uploaded": "2026-11-12",
+        "version": "1.3.1",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Powerful transmog system and outfit manager",
@@ -43,14 +43,14 @@
         "archivexl"
       ],
       "author": "PotatoOfDoom",
-      "endorsements": 35811,
+      "endorsements": 35837,
       "nexusCategory": "Appearance",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 172083,
+        "fileId": 178370,
         "name": "ACU - Character Customization",
-        "version": "4.1.1",
-        "uploaded": "2026-11-01",
+        "version": "4.1.4",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "This mod allows you to save and create character presets. Additionally, it unlocks all options in the mirror in your apartment so you can customize your character without going to a ripperdoc."
@@ -65,7 +65,7 @@
         "cyberarms-patch"
       ],
       "author": "Aanderz",
-      "endorsements": 28289,
+      "endorsements": 28303,
       "nexusCategory": "Armour and Clothing",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -102,7 +102,7 @@
         "equipment-ex"
       ],
       "author": "EzioMaverick",
-      "endorsements": 14164,
+      "endorsements": 14181,
       "nexusCategory": "Atelier Shop",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -123,7 +123,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 10991,
+      "endorsements": 11010,
       "nexusCategory": "Atelier Shop",
       "compat": "script-verify",
       "mainFile": {
@@ -150,7 +150,7 @@
       "priority": "recommended",
       "required": false,
       "author": "CyanideX",
-      "endorsements": 8224,
+      "endorsements": 8232,
       "nexusCategory": "Appearance",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -176,7 +176,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 7363,
+      "endorsements": 7370,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -208,7 +208,7 @@
         "redscript"
       ],
       "author": "AlvarixPT",
-      "endorsements": 7233,
+      "endorsements": 7244,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -235,7 +235,7 @@
       "priority": "recommended",
       "required": false,
       "author": "EmreHQ",
-      "endorsements": 7040,
+      "endorsements": 7050,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -259,7 +259,7 @@
       "priority": "recommended",
       "required": false,
       "author": "DJ_Kovrik",
-      "endorsements": 6613,
+      "endorsements": 6619,
       "nexusCategory": "Appearance",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -278,7 +278,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Nim",
-      "endorsements": 6594,
+      "endorsements": 6598,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -302,7 +302,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Avallonkao",
-      "endorsements": 6267,
+      "endorsements": 6276,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -333,7 +333,7 @@
         "codeware"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 6160,
+      "endorsements": 6166,
       "nexusCategory": "Appearance",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -352,7 +352,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 6046,
+      "endorsements": 6050,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -380,7 +380,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 5986,
+      "endorsements": 5989,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -408,7 +408,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 5864,
+      "endorsements": 5871,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -436,7 +436,7 @@
       "priority": "recommended",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 5320,
+      "endorsements": 5323,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -464,7 +464,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank - Adshield - Peachu",
-      "endorsements": 5302,
+      "endorsements": 5312,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -495,7 +495,7 @@
         "tweakxl"
       ],
       "author": "xBaebsae",
-      "endorsements": 4869,
+      "endorsements": 4876,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -523,7 +523,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Vessnelle",
-      "endorsements": 4375,
+      "endorsements": 4381,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -547,7 +547,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank - Kerensky",
-      "endorsements": 4204,
+      "endorsements": 4216,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -578,7 +578,7 @@
         "virtual-atelier"
       ],
       "author": "Peachu",
-      "endorsements": 4044,
+      "endorsements": 4048,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -605,7 +605,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 4036,
+      "endorsements": 4043,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -638,7 +638,7 @@
         "codeware"
       ],
       "author": "KiasuBurger",
-      "endorsements": 3945,
+      "endorsements": 3956,
       "nexusCategory": "Atelier Shop",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -662,7 +662,7 @@
         "virtual-atelier"
       ],
       "author": "Darkcopse",
-      "endorsements": 3920,
+      "endorsements": 3921,
       "nexusCategory": "Atelier Shop",
       "compat": "script-verify",
       "mainFile": {
@@ -690,7 +690,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank - Raemaze",
-      "endorsements": 3857,
+      "endorsements": 3863,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -718,7 +718,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 3654,
+      "endorsements": 3660,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -746,7 +746,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Veegee",
-      "endorsements": 3572,
+      "endorsements": 3582,
       "nexusCategory": "Appearance",
       "compat": "script-verify",
       "mainFile": {
@@ -776,7 +776,7 @@
         "archivexl"
       ],
       "author": "nutboy",
-      "endorsements": 3486,
+      "endorsements": 3491,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -803,7 +803,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Bella",
-      "endorsements": 3103,
+      "endorsements": 3105,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -832,7 +832,7 @@
         "archivexl"
       ],
       "author": "Subleader",
-      "endorsements": 3096,
+      "endorsements": 3104,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -866,7 +866,7 @@
         "equipment-ex"
       ],
       "author": "AlvarixPT",
-      "endorsements": 2998,
+      "endorsements": 3006,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -901,7 +901,7 @@
         "virtual-atelier"
       ],
       "author": "Mayo",
-      "endorsements": 2979,
+      "endorsements": 2983,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -931,7 +931,7 @@
         "virtual-atelier"
       ],
       "author": "beaniebby",
-      "endorsements": 2820,
+      "endorsements": 2824,
       "nexusCategory": "Atelier Shop",
       "compat": "script-verify",
       "mainFile": {
@@ -958,7 +958,7 @@
       "priority": "recommended",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 2761,
+      "endorsements": 2762,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -976,7 +976,8 @@
           "archive/pc/mod/nd_panam_crop_fishnet_bodysuit_XL.xl"
         ]
       },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Nola Dreamer Virtual Boutique."
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Nola Dreamer Virtual Boutique.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 4 main-file variants on Nexus - pick one. Also needs (off Nexus): Nola Dreamer Virtual Boutique."
     },
     {
       "id": "iconic-shops-virtual-atelier",
@@ -990,7 +991,7 @@
         "tweakxl"
       ],
       "author": "1DP",
-      "endorsements": 2737,
+      "endorsements": 2747,
       "nexusCategory": "Atelier Shop",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1011,7 +1012,7 @@
       "priority": "recommended",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 2703,
+      "endorsements": 2706,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1045,7 +1046,7 @@
         "tweakxl"
       ],
       "author": "EzioMaverick",
-      "endorsements": 2547,
+      "endorsements": 2552,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1076,7 +1077,7 @@
         "archivexl"
       ],
       "author": "xBaebsae",
-      "endorsements": 2526,
+      "endorsements": 2529,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1101,7 +1102,7 @@
       "priority": "recommended",
       "required": false,
       "author": "XilaMonstrr",
-      "endorsements": 2504,
+      "endorsements": 2506,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1128,7 +1129,7 @@
         "archivexl"
       ],
       "author": "Hyst",
-      "endorsements": 2469,
+      "endorsements": 2482,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1156,7 +1157,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank - NotMayoSan",
-      "endorsements": 2456,
+      "endorsements": 2462,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1194,7 +1195,7 @@
         "nc-fashion-virtual-atelier"
       ],
       "author": "EzioMaverick",
-      "endorsements": 2401,
+      "endorsements": 2403,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1222,7 +1223,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Vessnelle",
-      "endorsements": 2322,
+      "endorsements": 2324,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1249,7 +1250,7 @@
         "virtual-atelier"
       ],
       "author": "DBRV",
-      "endorsements": 2319,
+      "endorsements": 2322,
       "nexusCategory": "Atelier Shop",
       "compat": "script-verify",
       "mainFile": {
@@ -1270,36 +1271,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "eyelashes-and-colors",
-      "name": "Eyelashes and colors",
-      "nexusId": 3595,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "AnruiMurasaki",
-      "endorsements": 2317,
-      "nexusCategory": "Appearance",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 129164,
-        "name": "Eyelashes Base",
-        "version": "2",
-        "uploaded": "2025-12-06",
-        "variants": 4
-      },
-      "summary": "Eyelashes options for both Fem and Male V, with colors also available. UPDATED FOR LATEST GAME VERSION",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/ANRUI_Eyelashes_Base.archive",
-          "archive/pc/mod/ANRUI_Eyelashes_Base.xl"
-        ]
-      },
-      "notes": "4 main-file variants on Nexus - pick one.",
-      "autoNotes": "4 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "rockergirl-atelier-atelier-shop",
       "name": "Rockergirl Atelier - Atelier Shop",
       "nexusId": 4717,
@@ -1312,7 +1283,7 @@
         "codeware"
       ],
       "author": "Zwei",
-      "endorsements": 2314,
+      "endorsements": 2319,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1333,13 +1304,43 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "eyelashes-and-colors",
+      "name": "Eyelashes and colors",
+      "nexusId": 3595,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "AnruiMurasaki",
+      "endorsements": 2318,
+      "nexusCategory": "Appearance",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 129164,
+        "name": "Eyelashes Base",
+        "version": "2",
+        "uploaded": "2025-12-06",
+        "variants": 4
+      },
+      "summary": "Eyelashes options for both Fem and Male V, with colors also available. UPDATED FOR LATEST GAME VERSION",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ANRUI_Eyelashes_Base.archive",
+          "archive/pc/mod/ANRUI_Eyelashes_Base.xl"
+        ]
+      },
+      "notes": "4 main-file variants on Nexus - pick one.",
+      "autoNotes": "4 main-file variants on Nexus - pick one."
+    },
+    {
       "id": "m50-military-gas-mask-archivexl-2-0",
       "name": "M50 Military Gas Mask - ArchiveXL (2.0)",
       "nexusId": 21307,
       "priority": "recommended",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 2207,
+      "endorsements": 2212,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1367,7 +1368,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Halvkyrie and EKT",
-      "endorsements": 2156,
+      "endorsements": 2158,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1426,7 +1427,7 @@
         "archivexl"
       ],
       "author": "beanie",
-      "endorsements": 2048,
+      "endorsements": 2053,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1456,7 +1457,7 @@
         "archivexl"
       ],
       "author": "meluminary",
-      "endorsements": 1984,
+      "endorsements": 1991,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1482,7 +1483,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1977,
+      "endorsements": 1978,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1515,7 +1516,7 @@
         "equipment-ex"
       ],
       "author": "ErenN77",
-      "endorsements": 1945,
+      "endorsements": 1946,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1550,7 +1551,7 @@
         "tweakxl"
       ],
       "author": "Zwei - BeautiDuwanger",
-      "endorsements": 1882,
+      "endorsements": 1885,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1606,7 +1607,7 @@
       "priority": "optional",
       "required": false,
       "author": "ScorpionTank - NotMayoSan",
-      "endorsements": 1844,
+      "endorsements": 1851,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1622,6 +1623,34 @@
           "archive/pc/mod/scorpion_zenitex_combat_tshirt.archive",
           "r6/tweaks/scorpiontank/scorpion_zenitex_combat_tshirt.yaml",
           "archive/pc/mod/scorpion_zenitex_combat_tshirt.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "modular-military-combat-helmet-archivexl-2-0",
+      "name": "Modular Military Combat Helmet - ArchiveXL (2.0)",
+      "nexusId": 24094,
+      "priority": "optional",
+      "required": false,
+      "author": "ScorpionTank",
+      "endorsements": 1840,
+      "nexusCategory": "Armour and Clothing",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 145151,
+        "name": "Zenitex Combat Helmet",
+        "version": "2.2",
+        "uploaded": "2026-05-12",
+        "variants": 1
+      },
+      "summary": "Combat helmet with a smart-targeting visor. ArchiveXL. 105 Items. Both Vs. Dynamic Customization. Garment Support. Gameplay Bonuses. Lore-friendly.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/scorpion_zenitex_combat_helmet.archive",
+          "r6/tweaks/scorpiontank/scorpion_zenitex_combat_helmet.yaml",
+          "archive/pc/mod/scorpion_zenitex_combat_helmet.xl"
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
@@ -1644,7 +1673,7 @@
         "redscript"
       ],
       "author": "EzioMaverick",
-      "endorsements": 1838,
+      "endorsements": 1839,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1666,34 +1695,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "modular-military-combat-helmet-archivexl-2-0",
-      "name": "Modular Military Combat Helmet - ArchiveXL (2.0)",
-      "nexusId": 24094,
-      "priority": "optional",
-      "required": false,
-      "author": "ScorpionTank",
-      "endorsements": 1835,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 145151,
-        "name": "Zenitex Combat Helmet",
-        "version": "2.2",
-        "uploaded": "2026-05-12",
-        "variants": 1
-      },
-      "summary": "Combat helmet with a smart-targeting visor. ArchiveXL. 105 Items. Both Vs. Dynamic Customization. Garment Support. Gameplay Bonuses. Lore-friendly.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/scorpion_zenitex_combat_helmet.archive",
-          "r6/tweaks/scorpiontank/scorpion_zenitex_combat_helmet.yaml",
-          "archive/pc/mod/scorpion_zenitex_combat_helmet.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "beautiful-iris-ii-ccxl-realistic-eyes-texture-bo",
       "name": "Beautiful IRIS II - CCXL Realistic Eyes Texture - Both V",
       "nexusId": 15176,
@@ -1705,7 +1706,7 @@
         "heterochromia-eyes-ccxl"
       ],
       "author": "Arkhe",
-      "endorsements": 1820,
+      "endorsements": 1825,
       "nexusCategory": "Appearance",
       "compat": "script-verify",
       "mainFile": {
@@ -1725,6 +1726,41 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "valentino-harness-and-holsters-fem-masc-v-archiv",
+      "name": "Valentino Harness and Holsters - Fem Masc V (ArchiveXL)",
+      "nexusId": 18100,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "equipment-ex",
+        "the-community-palette-project",
+        "tweakxl",
+        "visual-holsters-edgerunners-2-update"
+      ],
+      "author": "raem",
+      "endorsements": 1796,
+      "nexusCategory": "Armour and Clothing",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 136826,
+        "name": "Valentino Holsters - Main File",
+        "version": "2.02",
+        "uploaded": "2026-02-21",
+        "variants": 1
+      },
+      "summary": "Valentino harness, belt and thigh holsters - now for both V. Updated with new weapons and support for Visual Holsters. Added to the game via ArchiveXL.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/rm_acc_holster_valentino.archive",
+          "r6/tweaks/raem/rm_acc_holster_valentino.yaml",
+          "r6/tweaks/raem/rm_acc_holster_valentino_addons.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "french-secretary-archive-xl",
@@ -1758,41 +1794,6 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "valentino-harness-and-holsters-fem-masc-v-archiv",
-      "name": "Valentino Harness and Holsters - Fem Masc V (ArchiveXL)",
-      "nexusId": 18100,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "equipment-ex",
-        "the-community-palette-project",
-        "tweakxl",
-        "visual-holsters-edgerunners-2-update"
-      ],
-      "author": "raem",
-      "endorsements": 1784,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 136826,
-        "name": "Valentino Holsters - Main File",
-        "version": "2.02",
-        "uploaded": "2026-02-21",
-        "variants": 1
-      },
-      "summary": "Valentino harness, belt and thigh holsters - now for both V. Updated with new weapons and support for Visual Holsters. Added to the game via ArchiveXL.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/rm_acc_holster_valentino.archive",
-          "r6/tweaks/raem/rm_acc_holster_valentino.yaml",
-          "r6/tweaks/raem/rm_acc_holster_valentino_addons.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "nola-dreamer-s-one-shoulder-shirt-archive-xl",
@@ -1861,7 +1862,7 @@
       "priority": "optional",
       "required": false,
       "author": "Veegee",
-      "endorsements": 1733,
+      "endorsements": 1740,
       "nexusCategory": "Animations",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1880,7 +1881,7 @@
       "priority": "optional",
       "required": false,
       "author": "Asnova",
-      "endorsements": 1704,
+      "endorsements": 1710,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1914,7 +1915,7 @@
         "virtual-atelier"
       ],
       "author": "707Tactical",
-      "endorsements": 1683,
+      "endorsements": 1687,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1925,6 +1926,31 @@
         "variants": 1
       },
       "summary": "Virtual Atelier Store for all 707 Tactical current and future stock."
+    },
+    {
+      "id": "songbird-hands-for-fem-and-masc-v-compatible-wit",
+      "name": "Songbird Hands for Fem and Masc V (Compatible with Valentino Arms)",
+      "nexusId": 16231,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "equipment-ex",
+        "kiasuburger-cyberware-core",
+        "tweakxl"
+      ],
+      "author": "KiasuBurger",
+      "endorsements": 1639,
+      "nexusCategory": "Armour and Clothing",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173420,
+        "name": "Songbird Hands - Required Files",
+        "version": "2.4.0",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "(New Masc V support!) This mod provides Songbird's hands as equippable items, with specific tweaks so that they leave the rest of the arm unchanged - making them compatible with the elbow cyberware from my Valentino arms mod. Available for"
     },
     {
       "id": "combat-vest-archive-xl",
@@ -1943,7 +1969,7 @@
         "tweakxl"
       ],
       "author": "DBRV x EzioMaverick",
-      "endorsements": 1633,
+      "endorsements": 1634,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -1965,31 +1991,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "songbird-hands-for-fem-and-masc-v-compatible-wit",
-      "name": "Songbird Hands for Fem and Masc V (Compatible with Valentino Arms)",
-      "nexusId": 16231,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "equipment-ex",
-        "kiasuburger-cyberware-core",
-        "tweakxl"
-      ],
-      "author": "KiasuBurger",
-      "endorsements": 1633,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 173420,
-        "name": "Songbird Hands - Required Files",
-        "version": "2.4.0",
-        "uploaded": "2026-11-04",
-        "variants": 1
-      },
-      "summary": "(New Masc V support!) This mod provides Songbird's hands as equippable items, with specific tweaks so that they leave the rest of the arm unchanged - making them compatible with the elbow cyberware from my Valentino arms mod. Available for"
-    },
-    {
       "id": "jinguji-personal-shopping-service-virtual-atelie",
       "name": "Jinguji Personal Shopping Service - Virtual Atelier",
       "nexusId": 8318,
@@ -2000,7 +2001,7 @@
         "virtual-atelier"
       ],
       "author": "Eye of Center",
-      "endorsements": 1616,
+      "endorsements": 1619,
       "nexusCategory": "Atelier Shop",
       "compat": "script-verify",
       "mainFile": {
@@ -2030,7 +2031,7 @@
         "archivexl"
       ],
       "author": "Arkhe",
-      "endorsements": 1600,
+      "endorsements": 1607,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2098,7 +2099,7 @@
         "virtual-atelier"
       ],
       "author": "Axellysse",
-      "endorsements": 1592,
+      "endorsements": 1593,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2119,40 +2120,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "bomber-jackets-fem-masc-v-archivexl",
-      "name": "Bomber Jackets - Fem Masc V (ArchiveXL)",
-      "nexusId": 19132,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "tweakxl",
-        "the-community-palette-project",
-        "equipment-ex"
-      ],
-      "author": "raem",
-      "endorsements": 1572,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 151535,
-        "name": "Bomber Jackets - Main File",
-        "version": "1.2",
-        "uploaded": "2026-07-09",
-        "variants": 1
-      },
-      "summary": "Bomber jackets for both V. 70 appearances. With toggles to roll up sleeves, close the jacket and hide the hood. Added to the game via ArchiveXL.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/rm_outer_bjacket.archive",
-          "r6/tweaks/raem/rm_outer_bjacket.yaml",
-          "archive/pc/mod/rm_outer_bjacket.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "accessory-and-jewelry-collection-fem-masc-v",
       "name": "Accessory and Jewelry Collection - Fem Masc V",
       "nexusId": 24327,
@@ -2165,7 +2132,7 @@
         "equipment-ex"
       ],
       "author": "raem",
-      "endorsements": 1572,
+      "endorsements": 1580,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2187,13 +2154,47 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "bomber-jackets-fem-masc-v-archivexl",
+      "name": "Bomber Jackets - Fem Masc V (ArchiveXL)",
+      "nexusId": 19132,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "tweakxl",
+        "the-community-palette-project",
+        "equipment-ex"
+      ],
+      "author": "raem",
+      "endorsements": 1576,
+      "nexusCategory": "Armour and Clothing",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 151535,
+        "name": "Bomber Jackets - Main File",
+        "version": "1.2",
+        "uploaded": "2026-07-09",
+        "variants": 1
+      },
+      "summary": "Bomber jackets for both V. 70 appearances. With toggles to roll up sleeves, close the jacket and hide the hood. Added to the game via ArchiveXL.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/rm_outer_bjacket.archive",
+          "r6/tweaks/raem/rm_outer_bjacket.yaml",
+          "archive/pc/mod/rm_outer_bjacket.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
       "id": "nola-x-veegee-x-aquelyras-lethal-outfit-archive",
       "name": "Nola x Veegee  x Aquelyras - Lethal Outfit - Archive XL",
       "nexusId": 15867,
       "priority": "optional",
       "required": false,
       "author": "Nola x Veegee x Aquelyras",
-      "endorsements": 1560,
+      "endorsements": 1561,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2221,7 +2222,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1557,
+      "endorsements": 1558,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2243,6 +2244,30 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "e3-2018-samurai-jacket",
+      "name": "E3 2018 Samurai Jacket",
+      "nexusId": 1124,
+      "priority": "optional",
+      "required": false,
+      "author": "Spookie",
+      "endorsements": 1552,
+      "nexusCategory": "Armour and Clothing",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 129046,
+        "name": "E3 2018 Samurai Jacket",
+        "version": "2.0",
+        "uploaded": "2025-12-04",
+        "variants": 1
+      },
+      "summary": "Restores the original look of the Samurai Jacket as seen in E3 2018.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/E3 2018 Samurai Jacket.archive"
+        ]
+      }
+    },
+    {
       "id": "nemies-closet",
       "name": "Nemies Closet",
       "nexusId": 13605,
@@ -2255,7 +2280,7 @@
         "virtual-atelier"
       ],
       "author": "Nemiepies",
-      "endorsements": 1550,
+      "endorsements": 1551,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2276,30 +2301,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "e3-2018-samurai-jacket",
-      "name": "E3 2018 Samurai Jacket",
-      "nexusId": 1124,
-      "priority": "optional",
-      "required": false,
-      "author": "Spookie",
-      "endorsements": 1548,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 129046,
-        "name": "E3 2018 Samurai Jacket",
-        "version": "2.0",
-        "uploaded": "2025-12-04",
-        "variants": 1
-      },
-      "summary": "Restores the original look of the Samurai Jacket as seen in E3 2018.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/E3 2018 Samurai Jacket.archive"
-        ]
-      }
-    },
-    {
       "id": "valentino-cyber-arms-for-masc-and-fem-v-with-sup",
       "name": "Valentino Cyber Arms for Masc and Fem V with support for UV and VTK body mods",
       "nexusId": 15123,
@@ -2312,7 +2313,7 @@
         "tweakxl"
       ],
       "author": "KiasuBurger",
-      "endorsements": 1537,
+      "endorsements": 1542,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2331,7 +2332,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1532,
+      "endorsements": 1534,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2369,7 +2370,7 @@
         "nc-fashion-virtual-atelier"
       ],
       "author": "EzioMaverick",
-      "endorsements": 1525,
+      "endorsements": 1528,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2401,7 +2402,7 @@
         "virtual-atelier"
       ],
       "author": "Eye of Center",
-      "endorsements": 1519,
+      "endorsements": 1521,
       "nexusCategory": "Atelier Shop",
       "compat": "script-verify",
       "mainFile": {
@@ -2428,7 +2429,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1512,
+      "endorsements": 1515,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2448,7 +2449,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1493,
+      "endorsements": 1496,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2478,7 +2479,7 @@
         "tweakxl"
       ],
       "author": "EzioMaverick",
-      "endorsements": 1492,
+      "endorsements": 1495,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2506,7 +2507,7 @@
       "priority": "optional",
       "required": false,
       "author": "CyanideX",
-      "endorsements": 1488,
+      "endorsements": 1489,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2523,7 +2524,7 @@
         ]
       },
       "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack.",
-      "autoNotes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "every-animation-redone-tpp-third-person",
@@ -2532,7 +2533,7 @@
       "priority": "optional",
       "required": false,
       "author": "Tylerrrrr",
-      "endorsements": 1486,
+      "endorsements": 1487,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2566,7 +2567,7 @@
         "tweakxl"
       ],
       "author": "xBaebsae X EzioMaverick",
-      "endorsements": 1466,
+      "endorsements": 1469,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2597,7 +2598,7 @@
         "virtual-atelier"
       ],
       "author": "FrauBlume",
-      "endorsements": 1457,
+      "endorsements": 1461,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2627,7 +2628,7 @@
         "archivexl"
       ],
       "author": "AKL and Aeryn",
-      "endorsements": 1452,
+      "endorsements": 1455,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2657,7 +2658,7 @@
         "archivexl"
       ],
       "author": "anygoodname",
-      "endorsements": 1414,
+      "endorsements": 1418,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2682,7 +2683,7 @@
       "priority": "optional",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 1405,
+      "endorsements": 1408,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2710,7 +2711,7 @@
       "priority": "optional",
       "required": false,
       "author": "Azagorh",
-      "endorsements": 1395,
+      "endorsements": 1400,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2741,7 +2742,7 @@
         "tweakxl"
       ],
       "author": "raem",
-      "endorsements": 1385,
+      "endorsements": 1392,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2806,7 +2807,7 @@
         "red4ext"
       ],
       "author": "icxrus",
-      "endorsements": 1358,
+      "endorsements": 1364,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2839,7 +2840,7 @@
         "equipment-ex"
       ],
       "author": "raem",
-      "endorsements": 1342,
+      "endorsements": 1347,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2871,7 +2872,7 @@
         "tweakxl"
       ],
       "author": "raem",
-      "endorsements": 1320,
+      "endorsements": 1325,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2908,7 +2909,7 @@
         "kiasuburger-cyberware-core"
       ],
       "author": "KiasuBurger",
-      "endorsements": 1319,
+      "endorsements": 1325,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -2940,7 +2941,7 @@
         "redscript"
       ],
       "author": "Rosslin",
-      "endorsements": 1312,
+      "endorsements": 1314,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2965,7 +2966,7 @@
         "virtual-atelier"
       ],
       "author": "Tonydiz",
-      "endorsements": 1310,
+      "endorsements": 1311,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2992,7 +2993,7 @@
         "virtual-atelier"
       ],
       "author": "manavortex and dorkasaurus_rex",
-      "endorsements": 1291,
+      "endorsements": 1292,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3017,7 +3018,7 @@
         "kiasuburger-cyberware-core"
       ],
       "author": "KiasuBurger",
-      "endorsements": 1271,
+      "endorsements": 1276,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3036,7 +3037,7 @@
       "priority": "optional",
       "required": false,
       "author": "Hyst",
-      "endorsements": 1268,
+      "endorsements": 1272,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -3058,34 +3059,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "nola-dreamer-s-casual-outfit-archive-xl",
-      "name": "Nola Dreamer's casual outfit - Archive XL",
-      "nexusId": 8592,
-      "priority": "optional",
-      "required": false,
-      "author": "NolaDreamer",
-      "endorsements": 1233,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 127069,
-        "name": "ND_casual_outfit_FemV",
-        "version": "1.2",
-        "uploaded": "2025-11-08",
-        "variants": 1
-      },
-      "summary": "Casual outfit: shirt, shorts.  Fem V. VANILLA / EBB / EBBRB / EBBP / EBBPRB / RB / LUSH / SMALL. Automatic Refit Selection.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/ND_casual_outfit_FemV.archive",
-          "r6/tweaks/nola_dreamer/nd_casual_outfit.yaml",
-          "archive/pc/mod/nd_casual_outfit.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "consumable-animations",
       "name": "Consumable Animations",
       "nexusId": 26762,
@@ -3101,7 +3074,7 @@
         "input-loader"
       ],
       "author": "Dark Fortune Teller",
-      "endorsements": 1233,
+      "endorsements": 1240,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -3123,13 +3096,41 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "nola-dreamer-s-casual-outfit-archive-xl",
+      "name": "Nola Dreamer's casual outfit - Archive XL",
+      "nexusId": 8592,
+      "priority": "optional",
+      "required": false,
+      "author": "NolaDreamer",
+      "endorsements": 1234,
+      "nexusCategory": "Armour and Clothing",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 127069,
+        "name": "ND_casual_outfit_FemV",
+        "version": "1.2",
+        "uploaded": "2025-11-08",
+        "variants": 1
+      },
+      "summary": "Casual outfit: shirt, shorts.  Fem V. VANILLA / EBB / EBBRB / EBBP / EBBPRB / RB / LUSH / SMALL. Automatic Refit Selection.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ND_casual_outfit_FemV.archive",
+          "r6/tweaks/nola_dreamer/nd_casual_outfit.yaml",
+          "archive/pc/mod/nd_casual_outfit.xl"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
       "id": "makeup-enhancer-realistic-eyeshadows-and-eyeline",
       "name": "MAKEUP ENHANCER - Realistic Eyeshadows and Eyeliners - Noise Decal Fix - Both V - NPCs",
       "nexusId": 28869,
       "priority": "optional",
       "required": false,
       "author": "Arkhe0",
-      "endorsements": 1194,
+      "endorsements": 1204,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3153,7 +3154,7 @@
       "priority": "optional",
       "required": false,
       "author": "Veegee",
-      "endorsements": 1168,
+      "endorsements": 1169,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3189,7 +3190,7 @@
         "vendorsxl"
       ],
       "author": "Masuryan",
-      "endorsements": 1144,
+      "endorsements": 1146,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -3282,7 +3283,7 @@
         "equipment-ex"
       ],
       "author": "Breezypunk",
-      "endorsements": 1131,
+      "endorsements": 1134,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -3309,7 +3310,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1113,
+      "endorsements": 1114,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -3337,7 +3338,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1102,
+      "endorsements": 1104,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3395,7 +3396,7 @@
         "tweakxl"
       ],
       "author": "Mayo",
-      "endorsements": 1063,
+      "endorsements": 1066,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -3426,7 +3427,7 @@
         "virtual-atelier"
       ],
       "author": "Limerence",
-      "endorsements": 1061,
+      "endorsements": 1064,
       "nexusCategory": "Atelier Shop",
       "compat": "script-verify",
       "mainFile": {
@@ -3447,32 +3448,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "company-man",
-      "name": "Company Man",
-      "nexusId": 2156,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "tweakxl",
-        "cet"
-      ],
-      "author": "Aanderz",
-      "endorsements": 1048,
-      "nexusCategory": "Armour and Clothing",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 177338,
-        "name": "Company Man - REDmod",
-        "version": "3.6",
-        "uploaded": "2026-11-12",
-        "variants": 2
-      },
-      "summary": "New clothing for men and women using modified and recolored game assets. Adds new items to the game using ArchiveXL/TweakXL.",
-      "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "everyday-collection-ccxl-hair",
       "name": "EVERYDAY COLLECTION - CCXL HAIR",
       "nexusId": 19863,
@@ -3482,7 +3457,7 @@
         "archivexl"
       ],
       "author": "meluminary",
-      "endorsements": 1047,
+      "endorsements": 1050,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3512,7 +3487,7 @@
         "tweakxl"
       ],
       "author": "Peachu",
-      "endorsements": 1046,
+      "endorsements": 1049,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3531,34 +3506,30 @@
       }
     },
     {
-      "id": "the-bean-box-virtual-atelier-store",
-      "name": "The Bean Box - Virtual Atelier Store",
-      "nexusId": 12765,
+      "id": "company-man",
+      "name": "Company Man",
+      "nexusId": 2156,
       "priority": "optional",
       "required": false,
       "dependsOn": [
-        "virtual-atelier"
+        "archivexl",
+        "tweakxl",
+        "cet"
       ],
-      "author": "beaniebby",
-      "endorsements": 1036,
-      "nexusCategory": "Atelier Shop",
-      "compat": "script-verify",
+      "author": "Aanderz",
+      "endorsements": 1048,
+      "nexusCategory": "Armour and Clothing",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 119640,
-        "name": "The Bean Box - Virtual Atelier",
-        "version": "3.0",
-        "uploaded": "2025-08-30",
-        "variants": 1
+        "fileId": 177338,
+        "name": "Company Man - REDmod",
+        "version": "3.6",
+        "uploaded": "2026-11-12",
+        "variants": 2
       },
-      "summary": "Virtual Atelier store where you can buy my accessories and jewelry.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/xl_beanbox_atelier.archive",
-          "r6/scripts/thebeanbox-atelier-store.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+      "summary": "New clothing for men and women using modified and recolored game assets. Adds new items to the game using ArchiveXL/TweakXL.",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "beautiful-eyebrows-ii-ccxl-realistic-textures-bo",
@@ -3570,7 +3541,7 @@
         "archivexl"
       ],
       "author": "Arkhe",
-      "endorsements": 1033,
+      "endorsements": 1042,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3591,13 +3562,71 @@
       "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
+      "id": "the-bean-box-virtual-atelier-store",
+      "name": "The Bean Box - Virtual Atelier Store",
+      "nexusId": 12765,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "beaniebby",
+      "endorsements": 1038,
+      "nexusCategory": "Atelier Shop",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 119640,
+        "name": "The Bean Box - Virtual Atelier",
+        "version": "3.0",
+        "uploaded": "2025-08-30",
+        "variants": 1
+      },
+      "summary": "Virtual Atelier store where you can buy my accessories and jewelry.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/xl_beanbox_atelier.archive",
+          "r6/scripts/thebeanbox-atelier-store.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "more-head-and-body-meshes-archivexl",
+      "name": "More Head and Body Meshes - ArchiveXL",
+      "nexusId": 22380,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "nutboy",
+      "endorsements": 1020,
+      "nexusCategory": "Appearance",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 145740,
+        "name": "More Head and Body Meshes",
+        "version": "1.1",
+        "uploaded": "2026-05-17",
+        "variants": 1
+      },
+      "summary": "Conversion of Nim's More Head & Body Meshes framework. Compatible with all body mods, rigs, physics, etc.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/nims_more_everything_axl.archive",
+          "archive/pc/mod/nims_more_everything_axl.xl"
+        ]
+      }
+    },
+    {
       "id": "nola-dreamer-s-cold-shoulder-outfit-archive-xl",
       "name": "Nola Dreamer's Cold Shoulder Outfit - archive XL",
       "nexusId": 17754,
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1018,
+      "endorsements": 1019,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3611,13 +3640,35 @@
       "notes": "Required by 1 mod(s) in this pack."
     },
     {
+      "id": "immersion-patch-ncart-train-motion-fixes",
+      "name": "Immersion Patch - NCART Train Motion Fixes",
+      "nexusId": 24914,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "anygoodname",
+      "endorsements": 1015,
+      "nexusCategory": "Animations",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174936,
+        "name": "NCART Train Motion Fixes",
+        "version": "1.4.1",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "This mod aims to fix immersion-breaking NCART trains motion glitches."
+    },
+    {
       "id": "nola-dreamer-s-lingerie-bodysuit-archive-xl",
       "name": "Nola Dreamer's Lingerie Bodysuit - archive XL",
       "nexusId": 19048,
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 1012,
+      "endorsements": 1013,
       "nexusCategory": "Armour and Clothing",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3668,63 +3719,13 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "more-head-and-body-meshes-archivexl",
-      "name": "More Head and Body Meshes - ArchiveXL",
-      "nexusId": 22380,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "nutboy",
-      "endorsements": 1010,
-      "nexusCategory": "Appearance",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 145740,
-        "name": "More Head and Body Meshes",
-        "version": "1.1",
-        "uploaded": "2026-05-17",
-        "variants": 1
-      },
-      "summary": "Conversion of Nim's More Head & Body Meshes framework. Compatible with all body mods, rigs, physics, etc.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/nims_more_everything_axl.archive",
-          "archive/pc/mod/nims_more_everything_axl.xl"
-        ]
-      }
-    },
-    {
-      "id": "immersion-patch-ncart-train-motion-fixes",
-      "name": "Immersion Patch - NCART Train Motion Fixes",
-      "nexusId": 24914,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "anygoodname",
-      "endorsements": 1009,
-      "nexusCategory": "Animations",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 174936,
-        "name": "NCART Train Motion Fixes",
-        "version": "1.4.1",
-        "uploaded": "2026-11-07",
-        "variants": 1
-      },
-      "summary": "This mod aims to fix immersion-breaking NCART trains motion glitches."
-    },
-    {
       "id": "nola-dreamer-s-harmonia-outfit-archive-xl",
       "name": "Nola Dreamer's Harmonia outfit - archive XL",
       "nexusId": 18349,
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 999,
+      "endorsements": 1000,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -3758,7 +3759,7 @@
         "vanilla-small-and-big-body-tags"
       ],
       "author": "CD PROJEKT RED and yellingintothevoid",
-      "endorsements": 996,
+      "endorsements": 997,
       "nexusCategory": "Armour and Clothing",
       "compat": "script-verify",
       "mainFile": {
@@ -3789,7 +3790,7 @@
         "virtual-atelier"
       ],
       "author": "YuseiYamoto",
-      "endorsements": 968,
+      "endorsements": 969,
       "nexusCategory": "Atelier Shop",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3811,7 +3812,7 @@
         "redscript"
       ],
       "author": "Lain",
-      "endorsements": 937,
+      "endorsements": 940,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -3840,7 +3841,7 @@
         "archivexl"
       ],
       "author": "island_dancer",
-      "endorsements": 936,
+      "endorsements": 937,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3915,7 +3916,7 @@
         "morphtarget-and-animrig-additions"
       ],
       "author": "Arkhe",
-      "endorsements": 865,
+      "endorsements": 868,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3962,32 +3963,6 @@
       }
     },
     {
-      "id": "your-cute-neighbor-s-hair-hairpack-for-femv",
-      "name": "Your cute neighbor's hair hairpack for FemV",
-      "nexusId": 3800,
-      "priority": "optional",
-      "required": false,
-      "author": "Svay",
-      "endorsements": 853,
-      "nexusCategory": "Appearance",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 73773,
-        "name": "all hairs 2.0",
-        "version": "V2.0",
-        "uploaded": "2024-04-04",
-        "variants": 1
-      },
-      "summary": "Various Hairstyles imported from other games for FemV",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/SVAY_LS_AE2.0.archive",
-          "archive/pc/mod/SVAY_LS_SG2.0.archive",
-          "archive/pc/mod/SVAY_LS_YI2.0.archive"
-        ]
-      }
-    },
-    {
       "id": "beautiful-iris-ccxl-realistic-eyes-texture-both",
       "name": "Beautiful IRIS - CCXL Realistic Eyes Texture - Both V",
       "nexusId": 14009,
@@ -3999,7 +3974,7 @@
         "heterochromia-eyes-ccxl"
       ],
       "author": "Arkhe",
-      "endorsements": 851,
+      "endorsements": 855,
       "nexusCategory": "Appearance",
       "compat": "script-verify",
       "mainFile": {
@@ -4021,6 +3996,32 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "your-cute-neighbor-s-hair-hairpack-for-femv",
+      "name": "Your cute neighbor's hair hairpack for FemV",
+      "nexusId": 3800,
+      "priority": "optional",
+      "required": false,
+      "author": "Svay",
+      "endorsements": 854,
+      "nexusCategory": "Appearance",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 73773,
+        "name": "all hairs 2.0",
+        "version": "V2.0",
+        "uploaded": "2024-04-04",
+        "variants": 1
+      },
+      "summary": "Various Hairstyles imported from other games for FemV",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/SVAY_LS_AE2.0.archive",
+          "archive/pc/mod/SVAY_LS_SG2.0.archive",
+          "archive/pc/mod/SVAY_LS_YI2.0.archive"
+        ]
+      }
+    },
+    {
       "id": "cyber-neck-for-v-ccxl",
       "name": "Cyber Neck for V -CCXL-",
       "nexusId": 26675,
@@ -4032,7 +4033,7 @@
         "red4ext"
       ],
       "author": "SEDTHSEDTHTANANURAK",
-      "endorsements": 849,
+      "endorsements": 854,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -4051,6 +4052,36 @@
       }
     },
     {
+      "id": "corpo-clothing-virtual-atelier",
+      "name": "Corpo Clothing Virtual Atelier",
+      "nexusId": 18044,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "virtual-atelier"
+      ],
+      "author": "Sumi",
+      "endorsements": 851,
+      "nexusCategory": "Atelier Shop",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 135400,
+        "name": "Corpo Clothing Atelier",
+        "version": "1.18",
+        "uploaded": "2026-02-08",
+        "variants": 1
+      },
+      "summary": "An Atelier for my clothing mods.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/sumi_corpoclothing_atelier.archive",
+          "r6/scripts/sumi/SumiVirtualAtelier-atelier-store.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
       "id": "beanie-s-ccxl-salon-bobs-edition-12-fem-v-hairst",
       "name": "Beanie's CCXL Salon Bobs Edition - 12 Fem V Hairstyles",
       "nexusId": 19688,
@@ -4061,7 +4092,7 @@
         "elsi-hair-texture-base"
       ],
       "author": "beanie",
-      "endorsements": 848,
+      "endorsements": 849,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -4083,43 +4114,13 @@
       "autoNotes": "13 main-file variants on Nexus - pick one."
     },
     {
-      "id": "corpo-clothing-virtual-atelier",
-      "name": "Corpo Clothing Virtual Atelier",
-      "nexusId": 18044,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "virtual-atelier"
-      ],
-      "author": "Sumi",
-      "endorsements": 847,
-      "nexusCategory": "Atelier Shop",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 135400,
-        "name": "Corpo Clothing Atelier",
-        "version": "1.18",
-        "uploaded": "2026-02-08",
-        "variants": 1
-      },
-      "summary": "An Atelier for my clothing mods.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/sumi_corpoclothing_atelier.archive",
-          "r6/scripts/sumi/SumiVirtualAtelier-atelier-store.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "elsi-hair-texture-base",
       "name": "Elsi Hair Texture Base",
       "nexusId": 19689,
       "priority": "optional",
       "required": false,
       "author": "beanie",
-      "endorsements": 845,
+      "endorsements": 847,
       "nexusCategory": "Appearance",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -4229,7 +4230,7 @@
         "red4ext"
       ],
       "author": "berrywoman",
-      "endorsements": 805,
+      "endorsements": 807,
       "nexusCategory": "Appearance",
       "compat": "script-verify",
       "mainFile": {
@@ -4284,7 +4285,7 @@
         "archivexl"
       ],
       "author": "Bioskop",
-      "endorsements": 779,
+      "endorsements": 780,
       "nexusCategory": "Appearance",
       "compat": "script-verify",
       "mainFile": {
@@ -4315,7 +4316,7 @@
         "virtual-atelier"
       ],
       "author": "SneakyBlackCat",
-      "endorsements": 766,
+      "endorsements": 769,
       "nexusCategory": "Atelier Shop",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4337,7 +4338,7 @@
         "cet"
       ],
       "author": "Gashetka",
-      "endorsements": 743,
+      "endorsements": 745,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -4431,7 +4432,7 @@
         "equipment-ex"
       ],
       "author": "elminister",
-      "endorsements": 628,
+      "endorsements": 630,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -4462,7 +4463,7 @@
         "tweakxl"
       ],
       "author": "Gashetka",
-      "endorsements": 610,
+      "endorsements": 613,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -4491,7 +4492,7 @@
         "archivexl"
       ],
       "author": "EKT",
-      "endorsements": 581,
+      "endorsements": 591,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -4519,7 +4520,7 @@
       "priority": "optional",
       "required": false,
       "author": "TheArtificialEnhancer",
-      "endorsements": 551,
+      "endorsements": 552,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -4550,7 +4551,7 @@
         "tweakxl"
       ],
       "author": "FrauBlume",
-      "endorsements": 487,
+      "endorsements": 488,
       "nexusCategory": "Animations",
       "compat": "script-verify",
       "mainFile": {
@@ -4728,7 +4729,7 @@
         "nc-female-ui-poses"
       ],
       "author": "busyvampire",
-      "endorsements": 50,
+      "endorsements": 52,
       "nexusCategory": "Animations",
       "compat": "assets-likely-ok",
       "mainFile": {

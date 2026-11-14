@@ -1,5 +1,5 @@
 Ai modpack - Cyberpunk 2077 2.5 modpack
-1116 mods. Generated 2026-11-13 from manifest/.
+1075 mods. Generated 2026-11-14 from manifest/.
 
 Rating (2.5 compatibility):
   [2.5]     main file uploaded after patch 2.5
@@ -10,16 +10,16 @@ Rating (2.5 compatibility):
 
 Contents:
    1. Frameworks & core libraries (48)
-   2. Fixes & performance (98)
+   2. Fixes & performance (94)
    3. UI, HUD & menus (130)
-   4. Gameplay & balance (224)
+   4. Gameplay & balance (221)
    5. Combat & weapons (96)
-   6. Vehicles & driving (71)
-   7. World, NPCs & crowds (58)
-   8. Graphics, lighting & weather (115)
+   6. Vehicles & driving (70)
+   7. World, NPCs & crowds (52)
+   8. Graphics, lighting & weather (111)
    9. Character, clothing & appearance (164)
   10. Audio & radio (61)
-  11. Quests & new content (51)
+  11. Quests & new content (28)
 
 ==============================================================================
 1. FRAMEWORKS & CORE LIBRARIES (48 mods)
@@ -31,13 +31,13 @@ Contents:
       https://www.nexusmods.com/cyberpunk2077/mods/1511
    3. RED4ext v1.31.1 by WopsS  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/2380
-   4. ArchiveXL v1.28.7 by psiberx  [2.5]
+   4. ArchiveXL v1.28.8 by psiberx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/4198
       Requires: RED4ext
-   5. TweakXL v1.12.1 by psiberx  [2.5]
+   5. TweakXL v1.12.2 by psiberx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/4197
       Requires: RED4ext
-   6. Codeware v1.21.3 by psiberx  [2.5]
+   6. Codeware v1.21.4 by psiberx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/7780
       Requires: RED4ext
    7. Native Settings UI v1.97 by keanuWheeze  [2.5]
@@ -135,12 +135,12 @@ Contents:
   42. Undermine Quest Series v1.6b by Undermine  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/17186
       Requires: ArchiveXL, RED4ext, redscript, TweakXL
-  43. Phone Extension v0.9 by r457 and gh057  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/24949
-      Requires: redscript, RED4ext, Codeware
-  44. RedIMGRetriever v0.5.0 by DigitalVixen  [2.5]
+  43. RedIMGRetriever v0.5.0 by DigitalVixen  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/31919
       Requires: RED4ext, redscript
+  44. Phone Extension v0.9 by r457 and gh057  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/24949
+      Requires: redscript, RED4ext, Codeware
   45. Night City Fog Nulled v3.2.0 by robber804  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/20192
       Requires: Mod Settings, redscript, Codeware
@@ -155,7 +155,7 @@ Contents:
       Requires: Codeware, RED4ext, redscript
 
 ==============================================================================
-2. FIXES & PERFORMANCE (98 mods)
+2. FIXES & PERFORMANCE (94 mods)
 ==============================================================================
 
    1. Input Loader v0.2.6 by Jack Humbert  [2.5]
@@ -254,170 +254,158 @@ Contents:
   36. (OBSOLETE) The RVC00Ns Plugins (PinkyDude's Virtual Atelier Store) v9.0.1 by PinkyDude  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8724
       Requires: Virtual Atelier
-  37. 3D World Map Fixed v1.5.0 by malgalad  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/26500
-      Requires: ArchiveXL
-  38. CPU Optimization v3. v0.0.0.1 by vinson911  [verify]
+  37. CPU Optimization v3. v0.0.0.1 by vinson911  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23053
-  39. EasyTrainer - Cyberpunk trainer vbeta2.4.1 by Avi6481  [2.5]
+  38. EasyTrainer - Cyberpunk trainer vbeta2.4.1 by Avi6481  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23227
       Requires: Cyber Engine Tweaks, RED4ext, redscript
-  40. DDS Camo Microblends v1.2 by DDANGERSENSE  [assets]
+  39. DDS Camo Microblends v1.2 by DDANGERSENSE  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/16413
-  41. More Occluders (Performance Improvement) v0.4 by sosuinepsixuyu  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/33136
-  42. Balanced Nighttime Cycle v0.91 by Asterra  [assets]
+  40. Balanced Nighttime Cycle v0.91 by Asterra  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/12369
       Requires: TweakXL
-  43. Ping (Live Settings - Menu Search) v1.4.1 by theCyanideX  [2.5]
+  41. Ping (Live Settings - Menu Search) v1.4.1 by theCyanideX  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/34933
-  44. Advanced Crash Reporter v1.5.0 by Akiway  [2.5]
+  42. Advanced Crash Reporter v1.5.0 by Akiway  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/34403
       Requires: Cyber Engine Tweaks
-  45. Vehicle Core v1.0.0 by theCyanideX  [verify]
+  43. Vehicle Core v1.0.0 by theCyanideX  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/31684
       Requires: Codeware, Cyber Engine Tweaks, redscript, TweakXL
-  46. Whip Wizard v1.13 by Barfunkle999  [2.5]
+  44. Whip Wizard v1.13 by Barfunkle999  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22810
       Requires: Cyber Engine Tweaks, Native Settings UI, RedHttpClient
-  47. Smart Frames Expand v1.6.2 by Xurec  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/18435
-      Requires: ArchiveXL, Artistic
-  48. OAI Tweaks Suite - Optimization and Stability (.ini tweaks) v1.26 by DucMeister  [verify]
+  45. OAI Tweaks Suite - Optimization and Stability (.ini tweaks) v1.26 by DucMeister  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23257
       Requires: Night City Immersive Debris
-  49. Simple Enemy Spawner v2.3.0 by Darkcopse  [verify]
+  46. Simple Enemy Spawner v2.3.0 by Darkcopse  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/4674
       Requires: Cyber Engine Tweaks
-  50. Item Records Fixes v1.0 by Demon9ne  [verify]
+  47. Item Records Fixes v1.0 by Demon9ne  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/25019
       Requires: TweakXL, redscript
-  51. Axellysse x Beaniebby Atelier v3.0 by Axellysse x beanie  [verify]
+  48. Axellysse x Beaniebby Atelier v3.0 by Axellysse x beanie  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/16626
       Requires: Virtual Atelier
-  52. TQT - Virtual Atelier v1.2 by Tariqy  [verify]
+  49. TQT - Virtual Atelier v1.2 by Tariqy  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18095
       Requires: Virtual Atelier
-  53. Dedra Core v1.10 by Dedra  [2.5]
+  50. Dedra Core v1.10 by Dedra  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/34882
       Requires: redscript, Codeware, ArchiveXL, TweakXL
-  54. CPU Optimization Plus. v1.0.1 by vinson911  [verify]
+  51. CPU Optimization Plus. v1.0.1 by vinson911  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23484
       Requires: Ultra Plus - Physically Accurate Path Tracing
-  55. Specialized Ripperdocs v1.1.1 by Tremox  [verify]
+  52. No River Romance (Fem V Toast to Judy) v1.0.5 by bdkty  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/13205
+  53. Specialized Ripperdocs v1.1.1 by Tremox  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23399
       Requires: Cyber Engine Tweaks
-  56. AMD Ryzen SMT Fix 2.XX v1.0 by TheReaper1988  [?]
+  54. AMD Ryzen SMT Fix 2.XX v1.0 by TheReaper1988  [?]
       https://www.nexusmods.com/cyberpunk2077/mods/13024
-  57. No River Romance (Fem V Toast to Judy) v1.0.5 by bdkty  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/13205
-  58. Photomode Tweaks v1.1 by nutboy  [verify]
+  55. Photomode Tweaks v1.1 by nutboy  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24253
       Requires: TweakXL
-  59. VegaCPMods Resources v1.13.1 by VegaCPMods  [2.5]
+  56. VegaCPMods Resources v1.13.1 by VegaCPMods  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19883
       Requires: ArchiveXL, Codeware, redscript, TweakXL
-  60. HQ Sushi v1.0 by Kratoes  [assets]
+  57. HQ Sushi v1.0 by Kratoes  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/17709
-  61. Exclusive Items Unlocker v2.0.4 by Antrix  [2.5]
+  58. Exclusive Items Unlocker v2.0.4 by Antrix  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/24025
       Requires: redscript
-  62. Cyberarms Stutter Fix v0.1 by sosuinepsixuyu  [2.5]
+  59. Cyberarms Stutter Fix v0.1 by sosuinepsixuyu  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/28109
-  63. shoo Watchdog - Timeout Crash v2.1.0 by kyoruno  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/16297
-      Requires: Cyber Engine Tweaks, Native Settings UI
-  64. Achievement Unlocker v2.1.0 by fxckedinside  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/12183
-      Requires: Cyber Engine Tweaks
-  65. RED Cheat Menu 2 v1.2.0 by usarandom  [verify]
+  60. RED Cheat Menu 2 v1.2.0 by usarandom  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/30063
       Requires: redscript
-  66. Window Switcher (Taskbar - Groups - Utilities for CET) v1.4.0 by CyanideX  [2.5]
+  61. shoo Watchdog - Timeout Crash v2.1.0 by kyoruno  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/16297
+      Requires: Cyber Engine Tweaks, Native Settings UI
+  62. Achievement Unlocker v2.1.0 by fxckedinside  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/12183
+      Requires: Cyber Engine Tweaks
+  63. Window Switcher (Taskbar - Groups - Utilities for CET) v1.4.0 by CyanideX  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/30005
       Requires: Cyber Engine Tweaks, CET Window Manager, Window Utils (GUI Library - Animation - Grid Alignment)
-  67. Advanced Pose - Bone Editor and IK for Photo Mode v1.5.0 by ObiOneStenobi  [2.5]
+  64. Advanced Pose - Bone Editor and IK for Photo Mode v1.5.0 by ObiOneStenobi  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/35013
       Requires: Codeware, RED4ext, redscript
-  68. Discord RPC 2 v2.9.2 by Marco4413  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/10831
-      Requires: Cyber Engine Tweaks, RED4ext, redscript
-  69. EXRC - Runtime Controller (Stutter Reduction - FPS Stability) v3.0.9 by EntryierX  [2.5]
+  65. EXRC - Runtime Controller (Stutter Reduction - FPS Stability) v3.0.9 by EntryierX  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/28727
       Requires: Cyber Engine Tweaks
-  70. Cyberpunk 2077 Cheat Table v2.0.1 by sergey979  [?]
+  66. Discord RPC 2 v2.9.2 by Marco4413  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/10831
+      Requires: Cyber Engine Tweaks, RED4ext, redscript
+  67. Cyberpunk 2077 Cheat Table v2.0.1 by sergey979  [?]
       https://www.nexusmods.com/cyberpunk2077/mods/6385
-  71. volhitka's Set of Materials v1.3.0 by volhitka  [assets]
+  68. volhitka's Set of Materials v1.3.0 by volhitka  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/10721
-  72. Choom Memory Booster v0.05.0 by SIIIN3YUM1  [2.5]
+  69. Choom Memory Booster v0.05.0 by SIIIN3YUM1  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/31975
       Requires: Cyber Engine Tweaks
-  73. Game Function Tester - Mod Development Tool - CET Scripting Helper v2.0 by TheArtificialEnhancer  [verify]
+  70. Game Function Tester - Mod Development Tool - CET Scripting Helper v2.0 by TheArtificialEnhancer  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/13141
       Requires: Cyber Engine Tweaks
-  74. re INPUT Mod Loader - v2.5 and v2.31 v4 by keenfruit  [2.5]
+  71. re INPUT Mod Loader - v2.5 and v2.31 v4 by keenfruit  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/32486
       Requires: RED4ext
-  75. Apartment Dropoff Points v1.01 by JamesTheHacker  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22859
-      Requires: RED4ext, Rich Drop Points
-  76. Compilation Of Requested And Miscellaneous Mods v1.1 by dnbnhlp  [2.5]
+  72. Compilation Of Requested And Miscellaneous Mods v1.1 by dnbnhlp  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/15162
-  77. High Quality Vinyl Records v1.0 by Noraxou  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/19498
-  78. Discontinued - Overclock Health-RAM Drain Bug Fix v2.0.0 by TheRealGibbon  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/17414
-      Requires: TweakXL, redscript
-  79. Garage Manager v1.0.0 by CyanideX  [verify]
+  73. Garage Manager v1.0.0 by CyanideX  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/26524
       Requires: Window Utils (GUI Library - Animation - Grid Alignment), Cyber Engine Tweaks
-  80. Misc NC Fixes v2.8.1 by iAM  [2.5]
+  74. High Quality Vinyl Records v1.0 by Noraxou  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/19498
+  75. Discontinued - Overclock Health-RAM Drain Bug Fix v2.0.0 by TheRealGibbon  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/17414
+      Requires: TweakXL, redscript
+  76. Misc NC Fixes v2.8.1 by iAM  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/28073
       Requires: ArchiveXL, Material and Texture Override (Crashes Resolved), Inplace Streamingsectors Nulled
-  81. They Won't Go When I Go - Rachel's call delayed v1.0 by Metalunacy  [assets]
+  77. They Won't Go When I Go - Rachel's call delayed v1.0 by Metalunacy  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/17507
-  82. Cyberpunk 2077 X Mod Organizer 2 v0.1.3 by FenexFox1234 and RevontuletCXVII  [?]
-      https://www.nexusmods.com/cyberpunk2077/mods/19411
-  83. Give Me Everything - Cyberpunk 2077 v8.4.0 by opaaaaaaaaaaaa  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/31460
-  84. Vehicle Turret Core v1.1.0 by whatmynickname  [2.5]
+  78. Vehicle Turret Core v1.1.0 by whatmynickname  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/33979
       Requires: Cyber Engine Tweaks, RED4ext, redscript, TweakXL, ArchiveXL, Codeware, Input Loader, Mod Settings
-  85. Props Pack - Retro Tech v1.0.0 by PinkyDude  [assets]
+  79. Cyberpunk 2077 X Mod Organizer 2 v0.1.3 by FenexFox1234 and RevontuletCXVII  [?]
+      https://www.nexusmods.com/cyberpunk2077/mods/19411
+  80. Give Me Everything - Cyberpunk 2077 v8.5.0 by opaaaaaaaaaaaa  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/31460
+  81. Props Pack - Retro Tech v1.0.0 by PinkyDude  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/22712
       Requires: World Builder
-  86. No More Limp Bollards (And Road Barriers) v1.1 by NoDeath  [assets]
+  82. No More Limp Bollards (And Road Barriers) v1.1 by NoDeath  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/26568
-  87. Weather And Time Tools - Change Weather In Time Skip Menu And More v1.50 by TheArtificialEnhancer  [2.5]
+  83. Weather And Time Tools - Change Weather In Time Skip Menu And More v1.50 by TheArtificialEnhancer  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/18557
       Requires: Cyber Engine Tweaks, Codeware
-  88. UTILITIES - RVC00N's Toolbox v1.0.1 by PinkyDude  [assets]
+  84. UTILITIES - RVC00N's Toolbox v1.0.1 by PinkyDude  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/8643
-  89. Toggle Aim ADS Enabler V2 GUI For Custom Hotkeys v2.2.0.0 by p0tat0gunner  [?]
+  85. Toggle Aim ADS Enabler V2 GUI For Custom Hotkeys v2.2.0.0 by p0tat0gunner  [?]
       https://www.nexusmods.com/cyberpunk2077/mods/793
-  90. Autoloot RU v3.14.0 by ValikBLR  [2.5]
+  86. Autoloot RU v3.14.0 by ValikBLR  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/14522
       Requires: Autoloot
-  91. Brick Columbarium Fix v2.0.1 by PinkyDude and anygoodname  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/28692
-      Requires: ArchiveXL
-  92. Content Token Activator - no more waiting for quests v1.1.0 by not_alphanine  [2.5]
+  87. Content Token Activator - no more waiting for quests v1.1.0 by not_alphanine  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16449
       Requires: Cyber Engine Tweaks, RED4ext, Codeware
-  93. CET Game Settings Tweaker v2.10 by TheArtificialEnhancer  [2.5]
+  88. CET Game Settings Tweaker v2.10 by TheArtificialEnhancer  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16632
       Requires: Cyber Engine Tweaks
-  94. Simple Location Manager v1.7.1 by Spuddeh  [2.5]
+  89. Simple Location Manager v1.7.1 by Spuddeh  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/26454
       Requires: Cyber Engine Tweaks
-  95. REDscope v2.0 by 0nlyQ  [2.5]
+  90. REDscope v2.0 by 0nlyQ  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/30739
-  96. Cyberpunk Conflict Checker Studio v1.0.1 by 0nlyQ  [?]
+  91. Cyberpunk Conflict Checker Studio v1.0.1 by 0nlyQ  [?]
       https://www.nexusmods.com/cyberpunk2077/mods/33308
-  97. BadlandeR - Virtual Atelier Store v1.0a by Halkuonn  [verify]
+  92. BadlandeR - Virtual Atelier Store v1.0a by Halkuonn  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/17397
       Requires: Virtual Atelier, redscript
-  98. VehicleGarageUtil v1.3 by byt3m  [verify]
+  93. VRAM RipperDoc - Performance Optimizer v0.3.1 by YGSnaffy  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/36878
+  94. VehicleGarageUtil v1.3 by byt3m  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/33036
       Requires: Cyber Engine Tweaks, Improved Vehicle Persistence, Codeware
 
@@ -442,7 +430,7 @@ Contents:
    6. Immersive Timeskip v2.2.3 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/5115
       Requires: Input Loader, RED4ext, redscript
-   7. Limited HUD v2.23.1 by DJ_Kovrik  [2.5]
+   7. Limited HUD v2.23.2 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/2592
       Requires: ArchiveXL, Input Loader, Mod Settings, RED4ext, redscript
    8. Stash Filters v2.1.3 by DJ_Kovrik  [verify]
@@ -460,7 +448,7 @@ Contents:
   12. Simple untrack quest v2.31 by Angelore  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/5177
       Requires: redscript
-  13. No Camera Auto Centering v1.0 by DJ_Kovrik  [2.5]
+  13. No Camera Auto Centering v1.1 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/2169
       Requires: RED4ext, TweakXL
   14. Improved Minimap Zoom v2.0.2 by DJ_Kovrik  [verify]
@@ -469,18 +457,18 @@ Contents:
   15. Quickhack Hotkeys v2.3.3 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/7238
       Requires: ArchiveXL, Input Loader, RED4ext, redscript, Mod Settings
-  16. Named Saves v2.7.1 by DJ_Kovrik  [2.5]
+  16. Named Saves v2.7.2 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/4521
       Requires: RED4ext, redscript, Codeware
   17. Muted Markers v2.3.6 by DJ_Kovrik  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/1727
       Requires: redscript, RED4ext, Mod Settings, ArchiveXL
-  18. MONSTERaider - Atelier Store v2.8 by MONSTERaider  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/7269
-      Requires: Virtual Atelier, redscript, Codeware, RED4ext
-  19. Inventory Adjustments Hub v1.5 by svarmod  [2.5]
+  18. Inventory Adjustments Hub v1.5 by svarmod  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19632
       Requires: Codeware, Mod Settings, redscript, TweakXL
+  19. MONSTERaider - Atelier Store v2.8 by MONSTERaider  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/7269
+      Requires: Virtual Atelier, redscript, Codeware, RED4ext
   20. HUD Fixes - fix disappearing HUD element and quest dialogs v1.16.0 by anygoodname  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/4011
       Requires: Cyber Engine Tweaks
@@ -570,14 +558,14 @@ Contents:
   50. Make All Shards Read v1.5.9 by anygoodname  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8980
       Requires: Cyber Engine Tweaks
-  51. Compact Weapon Mod Slots - Better UI for Extra Attachments v1.0.0 by Trendal  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/25032
-  52. Mod Configuration Menu v0.10.12 by Antrix  [2.5]
+  51. Mod Configuration Menu v0.10.12 by Antrix  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/31640
       Requires: Codeware, Cyber Engine Tweaks, Mod Settings, Native Settings UI, redscript, Redscript Configuration Framework
-  53. Map Search v1.1.0 by Deceptious  [verify]
+  52. Map Search v1.1.0 by Deceptious  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/26222
       Requires: Codeware, redscript
+  53. Compact Weapon Mod Slots - Better UI for Extra Attachments v1.0.0 by Trendal  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/25032
   54. Stats Bar UI Fix v1.0-for-2.31 by Dark Fortune Teller  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/24925
   55. Better UI Character Lighting v3.1 by Samuel4El  [2.5]
@@ -614,11 +602,11 @@ Contents:
   66. Cyberware Screen Tooltip Fix v1.0 by Tremox  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23615
       Requires: redscript
-  67. 4K Hand Cursor v1.0 by Asterra  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/12225
-  68. Readable Shards v5 by MisterChedda  [2.5]
+  67. Readable Shards v5 by MisterChedda  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/31789
       Requires: redscript, Codeware, Mod Settings
+  68. 4K Hand Cursor v1.0 by Asterra  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/12225
   69. English translation fix for romance between Judy and Male V v1.0 by Asnova  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/4494
       Requires: Fix Judy animation in all ending with Male V
@@ -635,30 +623,30 @@ Contents:
       Requires: Mod Settings
   74. Better Main Menu - Pause menu - Smaller Tabs  ( includes ULTIMATE EDITION ) v2.5 by DBK  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11227
-  75. Smaller Cyberware Slots - Better UI for More Cyberware Slots v1.0.0 by Trendal  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/24409
-      Requires: ArchiveXL, redscript
-  76. Contacts Redux - Live Online Status Indicators - Improved Contact List UI - Visible Avatars - Smart Sorting - Phone UI Overhaul v2.0.0 by Xairron  [2.5]
+  75. Contacts Redux - Live Online Status Indicators - Improved Contact List UI - Visible Avatars - Smart Sorting - Phone UI Overhaul v2.0.0 by Xairron  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/27146
       Requires: ArchiveXL, Mod Settings, redscript, RED4ext, Codeware, Input Loader
+  76. Smaller Cyberware Slots - Better UI for More Cyberware Slots v1.0.0 by Trendal  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/24409
+      Requires: ArchiveXL, redscript
   77. HUD and UI Theme Selection Unlocker v1.6 by TheArtificialEnhancer  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11336
       Requires: Cyber Engine Tweaks
-  78. Yet Another HUD Recolor v2.5 by DJ_Kovrik  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/1226
-      Requires: HUD Painter
-  79. Mod Settings_RU v0.2.30 by 8LOMU8  [2.5]
+  78. Mod Settings_RU v0.2.30 by 8LOMU8  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22173
       Requires: Mod Settings
+  79. Yet Another HUD Recolor v2.5 by DJ_Kovrik  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/1226
+      Requires: HUD Painter
   80. Inventory Sorting Improved v1.0 by Tremox  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23628
       Requires: redscript
-  81. Enterable Interiors v3.2 by Halliphax2  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/13209
-      Requires: Cyber Engine Tweaks, TweakXL, redscript
-  82. Flatlined Exit v1.0 by Demon9ne  [verify]
+  81. Flatlined Exit v1.0 by Demon9ne  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24400
       Requires: redscript
+  82. Enterable Interiors v3.3 by Halliphax2  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/13209
+      Requires: Cyber Engine Tweaks, TweakXL, redscript
   83. Remove Mods (mod.io) Menu and Mod Verification popup v1.3.0 by Akiway  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/35686
   84. Show Me How Many - Proper Inventory Activity Logs v2.0.3 by Gigowatt221  [verify]
@@ -669,21 +657,21 @@ Contents:
       Requires: redscript
   86. Sasha UI v0.95 by FleurYoupi  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/16726
-  87. Quest Widget - Right Aligned v1.3 by Scream81  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/17229
-  88. Mod Menu Simplified Chinese Font Fix v1.0 by ZHANG  [?]
-      https://www.nexusmods.com/cyberpunk2077/mods/24048
-  89. Map Waypoint Bug Fixes v1.1.1 by Spuddeh  [2.5]
+  87. Map Waypoint Bug Fixes v1.1.1 by Spuddeh  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/32175
-  90. ZIOQS - Zoom Instead Of Quickhack Select v1.32 by Gojowenus  [?]
-      https://www.nexusmods.com/cyberpunk2077/mods/9256
-      Requires: Input Loader
-  91. Stash and Vendors QoL - move stack - select group - move group v0.9 by r457 and gh057  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/25315
-      Requires: Codeware, Mod Settings, RED4ext, redscript, Input Loader
-  92. Crosshair simple redone v1.0 by Murdoc13  [assets]
+  88. Quest Widget - Right Aligned v1.3 by Scream81  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/17229
+  89. Mod Menu Simplified Chinese Font Fix v1.0 by ZHANG  [?]
+      https://www.nexusmods.com/cyberpunk2077/mods/24048
+  90. Crosshair simple redone v1.0 by Murdoc13  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/13424
       Requires: Limited HUD
+  91. ZIOQS - Zoom Instead Of Quickhack Select v1.32 by Gojowenus  [?]
+      https://www.nexusmods.com/cyberpunk2077/mods/9256
+      Requires: Input Loader
+  92. Stash and Vendors QoL - move stack - select group - move group v0.9 by r457 and gh057  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/25315
+      Requires: Codeware, Mod Settings, RED4ext, redscript, Input Loader
   93. Now Playing Display v1.4 by Scream81  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21570
       Requires: 0-Engine, Codeware, Cyber Engine Tweaks
@@ -762,17 +750,17 @@ Contents:
       https://www.nexusmods.com/cyberpunk2077/mods/12238
  121. Inventory Free View v1.2.1 by dnbnhlp  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/32542
- 122. Clean Scanner for Project E3 - HUD v1 by haywire  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/12004
- 123. Virtual Car Dealer - Sort and Search v1.6 by ApoKrytia and DJ_Kovrik  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/26492
-      Requires: Codeware, Virtual Car Dealer, redscript
- 124. Third Person Vehicle Drone Camera Overlay v1.0.1 by Dark Fortune Teller  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/28083
-      Requires: redscript, Codeware
- 125. I really want to be with you - Romance Dialogue Highlighter v1.2.0 by Xairron  [2.5]
+ 122. I really want to be with you - Romance Dialogue Highlighter v1.2.0 by Xairron  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/36711
       Requires: RED4ext, redscript, TweakXL, Mod Settings
+ 123. Clean Scanner for Project E3 - HUD v1 by haywire  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/12004
+ 124. Virtual Car Dealer - Sort and Search v1.6 by ApoKrytia and DJ_Kovrik  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/26492
+      Requires: Codeware, Virtual Car Dealer, redscript
+ 125. Third Person Vehicle Drone Camera Overlay v1.0.1 by Dark Fortune Teller  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/28083
+      Requires: redscript, Codeware
  126. Untrack Map Pins v1.0.1 by nolvalir  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/28875
       Requires: redscript
@@ -788,7 +776,7 @@ Contents:
       https://www.nexusmods.com/cyberpunk2077/mods/36486
 
 ==============================================================================
-4. GAMEPLAY & BALANCE (224 mods)
+4. GAMEPLAY & BALANCE (221 mods)
 ==============================================================================
 
    1. Immersive First Person 2.0 - Camera Rework and Native Height Adjustment v2.2.0 by Bonaniki  [2.5]
@@ -870,12 +858,12 @@ Contents:
   28. Zoomable Scopes v1.5 by keanuWheeze  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/3543
       Requires: Native Settings UI, Cyber Engine Tweaks
-  29. Lifepath Bonuses and Gang-Corp Traits v4.3.4 by RMK  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/2217
-      Requires: Native Settings UI, redscript, Cyber Engine Tweaks
-  30. Native Interactions Framework v1.1.5 by keanuWheeze  [2.5]
+  29. Native Interactions Framework v1.1.5 by keanuWheeze  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/21422
       Requires: Cyber Engine Tweaks, RED4ext, ArchiveXL, Codeware, redscript
+  30. Lifepath Bonuses and Gang-Corp Traits v4.3.4 by RMK  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/2217
+      Requires: Native Settings UI, redscript, Cyber Engine Tweaks
   31. Pet Your Cat v3.1.1 by Deceptious  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/6198
   32. New Game Plus - Native v1.4.1 by not_alphanine  [2.5]
@@ -901,12 +889,12 @@ Contents:
   39. Talk to Me v1.3 by Joe Parker  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/5534
       Requires: redscript
-  40. Responsive NPCs v0.26 by MisterChedda  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/14800
-      Requires: redscript, Mod Settings
-  41. Deceptious Bug Fixes v1.4.3 by Deceptious  [2.5]
+  40. Deceptious Bug Fixes v1.4.3 by Deceptious  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/18318
       Requires: ArchiveXL, Codeware, Deceptious Quest Core, TweakXL
+  41. Responsive NPCs v0.26 by MisterChedda  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/14800
+      Requires: redscript, Mod Settings
   42. Immersive Rippers - Dogtown v1.3.1 by Deceptious  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/10255
       Requires: ArchiveXL, RED4ext
@@ -919,12 +907,12 @@ Contents:
   45. Status Bar Bug Fixes v1.8 by RMK  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/4316
       Requires: RED4ext, redscript, TweakXL
-  46. Smarter Scrapper v2.3.6 by DJ_Kovrik  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/2687
-      Requires: Mod Settings, RED4ext, redscript
-  47. Immersive Third Person - Best Of Both Worlds v2.0.1 by CybrDrake  [2.5]
+  46. Immersive Third Person - Best Of Both Worlds v2.0.1 by CybrDrake  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/32203
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Native Settings UI, redscript, TweakXL, RED4ext
+  47. Smarter Scrapper v2.3.6 by DJ_Kovrik  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/2687
+      Requires: Mod Settings, RED4ext, redscript
   48. Wannabe Edgerunner - A simple Cyberpsychosis mod v3.0.1 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/5646
       Requires: ArchiveXL, Mod Settings, RED4ext, redscript, TweakXL, Codeware
@@ -996,12 +984,12 @@ Contents:
   71. Auto drive (Added to the game in 2.3) v0.0.0.37 by nobo  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/14680
       Requires: ArchiveXL, Input Loader, Mod Settings, redscript, TweakXL
-  72. Zwei Custom PMU Pose Packs - Core v2.31 by Zwei  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/7165
-      Requires: Photo Mode Unlocker 2.3 XL
-  73. They Will Remember v3.0.1 by Eris404  [2.5]
+  72. They Will Remember v3.0.1 by Eris404  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19747
       Requires: Codeware, Equipment-EX, Inventory Adjustments Hub, Mod Settings, NIGHT CITY ALIVE
+  73. Zwei Custom PMU Pose Packs - Core v2.31 by Zwei  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/7165
+      Requires: Photo Mode Unlocker 2.3 XL
   74. Immersive Fixers v1.4.1 by Deceptious  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/15460
       Requires: ArchiveXL, TweakXL, RED4ext
@@ -1053,391 +1041,382 @@ Contents:
   90. Ricochet Redux v4.1.2 by Seijax  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7197
       Requires: Cyber Engine Tweaks, Native Settings UI
-  91. New Lifepath Intro - Fresh Start v1.6.1 by Deceptious  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/18223
-      Requires: ArchiveXL, Codeware, RED4ext, TweakXL, redscript
-  92. Streaming Bug Workaround v0.26 by sosuinepsixuyu  [verify]
+  91. Streaming Bug Workaround v0.26 by sosuinepsixuyu  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/22857
       Requires: Cyber Engine Tweaks
+  92. New Lifepath Intro - Fresh Start v1.6.1 by Deceptious  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/18223
+      Requires: ArchiveXL, Codeware, RED4ext, TweakXL, redscript
   93. Wilson's Range v2.0.0 by Deceptious  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/7367
-  94. Apartment Cats - Custom Cats v1.3.0 by Deceptious - xBaebsae  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/6837
-      Requires: Apartment Cats - Corpo Plaza, Apartment Cats - Japantown, Apartment Cats - Northside Motel, Apartment Cats - The Glen, Apartment Cats - Dogtown
-  95. Apartment Cats - Dogtown v2.0.0 by Deceptious  [verify]
+  94. Apartment Cats - Dogtown v2.0.0 by Deceptious  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/10325
       Requires: ArchiveXL, TweakXL, RED4ext
-  96. Say Something Damn It v1.18.1 by anygoodname  [2.5]
+  95. Say Something Damn It v1.18.1 by anygoodname  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22228
       Requires: Cyber Engine Tweaks, ArchiveXL
-  97. God Mode v2.3.31 by Jb  [verify]
+  96. God Mode v2.3.31 by Jb  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/751
       Requires: Cyber Engine Tweaks
-  98. Visual Holsters (Edgerunners 2 Update) v1.4 by ripperdoc  [2.5]
+  97. Visual Holsters (Edgerunners 2 Update) v1.4 by ripperdoc  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/21936
       Requires: Codeware, Cyber Engine Tweaks, Equipment-EX, Native Settings UI
-  99. Reinforcements System v1.2.1 by Phoenicia  [verify]
+  98. Reinforcements System v1.2.1 by Phoenicia  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21532
       Requires: ArchiveXL, Codeware, Mod Settings, RED4ext, redscript, TweakXL
- 100. Gone Away - Better Partner Suspended Behaviour v1.2.1 by Deceptious  [2.5]
+  99. Gone Away - Better Partner Suspended Behaviour v1.2.1 by Deceptious  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19412
       Requires: ArchiveXL, TweakXL, RED4ext, Deceptious Quest Core
- 101. Metro Pocket Guide v1.2.13 by DJ_Kovrik  [2.5]
+ 100. Metro Pocket Guide v1.2.13 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11882
       Requires: ArchiveXL, Codeware, Mod Settings, RED4ext, redscript, Input Loader
- 102. PMU - Zwei x Rev - Fashion Set v2.31 by Zwei - Rev  [verify]
+ 101. PMU - Zwei x Rev - Fashion Set v2.31 by Zwei - Rev  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7156
       Requires: ArchiveXL, RED4ext, TweakXL, Zwei Custom PMU Pose Packs - Core, Photo Mode Unlocker 2.3 XL
- 103. Auto Drive Enhanced v0.0.0.22 by nobo  [2.5]
+ 102. Auto Drive Enhanced v0.0.0.22 by nobo  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23157
       Requires: redscript, TweakXL, ArchiveXL, Mod Settings, Input Loader
- 104. Auto On Neon Rims and Custom Colors v2.3.0 by Darkcopse  [verify]
+ 103. Auto On Neon Rims and Custom Colors v2.3.0 by Darkcopse  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/5628
       Requires: Cyber Engine Tweaks, Native Settings UI
+ 104. Virtual Atelier Delivery v1.1.4 by DJ_Kovrik and e256  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/21482
+      Requires: ArchiveXL, Codeware, Mod Settings, RED4ext, redscript, TweakXL, Virtual Atelier
  105. Preem Weaponsmith 2.0 v2.7.0 by Appuator  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9692
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, RED4ext, redscript, TweakXL, Mod Settings
- 106. Virtual Atelier Delivery v1.1.4 by DJ_Kovrik and e256  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/21482
-      Requires: ArchiveXL, Codeware, Mod Settings, RED4ext, redscript, TweakXL, Virtual Atelier
- 107. The Passenger - Feature Settings v2.0.0 by Deceptious  [verify]
+ 106. The Passenger - Feature Settings v2.0.0 by Deceptious  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18380
       Requires: Native Settings UI
- 108. NCPD Prevention Police Enhancement (Redmod) v2.7.1 by Katane  [2.5]
+ 107. NCPD Prevention Police Enhancement (Redmod) v2.7.1 by Katane  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9863
- 109. NCI Addon - City Center v2.0.0 by Deceptious  [assets]
+ 108. NCI Addon - City Center v2.0.0 by Deceptious  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/21018
       Requires: Night City Interactions - Core
- 110. Quickhack Loadouts v1.5.0 by RMK  [2.5]
+ 109. Quickhack Loadouts v1.5.0 by RMK  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11682
       Requires: ArchiveXL, Codeware, RED4ext, redscript, Cyber Engine Tweaks
- 111. Immersive V Dialogue Expanded v1.1.0 by skyrayfox  [verify]
+ 110. Immersive V Dialogue Expanded v1.1.0 by skyrayfox  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24377
       Requires: Audioware, Codeware, Cyber Engine Tweaks, Native Settings UI, RED4ext, redscript, TweakXL
- 112. Artistic v1.4.5 by Deceptious  [verify]
+ 111. Artistic v1.4.5 by Deceptious  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/13066
       Requires: ArchiveXL, Deceptious Quest Core, RED4ext, redscript, TweakXL
- 113. TV Anywhere v3.3.3 by Deceptious  [2.5]
+ 112. TV Anywhere v3.3.3 by Deceptious  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/8162
       Requires: ArchiveXL, Deceptious Quest Core, RED4ext, redscript, TweakXL, Radial Menu Upgrade for Idle-Computer-TV Anywhere mods
- 114. NPC Actions Fixes v0.15 by sosuinepsixuyu  [2.5]
+ 113. NPC Actions Fixes v0.15 by sosuinepsixuyu  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16720
- 115. Keep Drawing The Line (ricochet preview) v3.4.2 by Seijax  [2.5]
+ 114. Keep Drawing The Line (ricochet preview) v3.4.2 by Seijax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/7198
       Requires: Native Settings UI, redscript
- 116. Extra Hands (cyberware) v2.2.3 by Seijax  [2.5]
+ 115. Extra Hands (cyberware) v2.2.3 by Seijax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/12325
       Requires: ArchiveXL, TweakXL, redscript
- 117. Replace Weapon Mods v1.4 by RMK  [2.5]
+ 116. Replace Weapon Mods v1.4 by RMK  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/15409
       Requires: redscript, RED4ext, ArchiveXL, Mod Settings
- 118. Map Exit Lighting and HDR Fixes v0.26 by sosuinepsixuyu  [2.5]
+ 117. Map Exit Lighting and HDR Fixes v0.26 by sosuinepsixuyu  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23420
- 119. Ped Damage Overhaul 2077 v1.28 by HJ and fitfondue  [2.5]
+ 118. Ped Damage Overhaul 2077 v1.28 by HJ and fitfondue  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/5066
       Requires: Mod Settings, redscript
+ 119. Shift (Dynamic First Person Camera) v1.14.0 by CyanideX  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/22340
+      Requires: Cyber Engine Tweaks, Codeware
  120. Second Heart Fix v1.3.0 by enowai  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11100
       Requires: redscript, Codeware
- 121. Shift (Dynamic First Person Camera) v1.14.0 by CyanideX  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/22340
-      Requires: Cyber Engine Tweaks, Codeware
+ 121. Quest Trigger Fixes (2.5 Supported) v1.3 by Atticus  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/17980
+      Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext
  122. General Performance Improvements (ini Tweaks) - Updated for 2.0 v2.3 by TheArtificialEnhancer  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7330
       Requires: Cyber Engine Tweaks, Native Settings UI
- 123. Quest Trigger Fixes (2.5 Supported) v1.3 by Atticus  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/17980
-      Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext
- 124. Inside The NCART Station - Opening Metro Platform v2.5.0 by tidusmd  [2.5]
+ 123. Inside The NCART Station - Opening Metro Platform v2.5.0 by tidusmd  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/15212
       Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework
- 125. PMU - Sitting Poses v2.31 by Zwei  [verify]
+ 124. PMU - Sitting Poses v2.31 by Zwei  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8361
       Requires: ArchiveXL, RED4ext, TweakXL, Zwei Custom PMU Pose Packs - Core, Zwei Custom PMU Pose Packs - Core - Masc, Photo Mode Unlocker 2.3 XL
- 126. Set Bonuses v2.5.1 by apart  [2.5]
+ 125. Set Bonuses v2.5.1 by apart  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/8103
       Requires: ArchiveXL, RED4ext, TweakXL
- 127. PMU - Katana Set - Fem V v2.3.00 by SilverEzredes  [verify]
+ 126. PMU - Katana Set - Fem V v2.3.00 by SilverEzredes  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/4337
       Requires: ArchiveXL, Photo Mode Unlocker 2.3 XL, RED4ext, TweakXL
- 128. Kabuki Gun Range Enhanced v1.3.1 by Deceptious  [2.5]
+ 127. Kabuki Gun Range Enhanced v1.3.1 by Deceptious  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/13466
       Requires: Deceptious Quest Core, ArchiveXL, RED4ext
- 129. PMU - Rogue Set v2.3.00 by SilverEzredes  [verify]
+ 128. PMU - Rogue Set v2.3.00 by SilverEzredes  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/4884
       Requires: ArchiveXL, Photo Mode Unlocker 2.3 XL, RED4ext, TweakXL
- 130. Dash Fix v1.0.1 by Seijax  [2.5]
+ 129. Dash Fix v1.0.1 by Seijax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16272
       Requires: ArchiveXL, RED4ext, redscript
- 131. Slots Slots Slots - More Weapon Mod Slots v2.0.1 by dnbnhlp  [2.5]
+ 130. Slots Slots Slots - More Weapon Mod Slots v2.0.1 by dnbnhlp  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/21644
       Requires: redscript, TweakXL, Codeware
+ 131. Night City Allies - Immersive Companion System v1.6.12 by Dray  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/27625
+      Requires: Codeware, Cyber Engine Tweaks, Mod Settings, redscript, TweakXL
  132. Inside The Metro - Walk In Train Carriage v2.0.0 by tidusmd  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/14945
       Requires: Air's Inertia Returns, ArchiveXL, Cyber Engine Tweaks, Input Loader
- 133. Night City Allies - Immersive Companion System v1.6.12 by Dray  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/27625
-      Requires: Codeware, Cyber Engine Tweaks, Mod Settings, redscript, TweakXL
- 134. Random Netrunners v1.2.2 by Seijax  [verify]
+ 133. Random Netrunners v1.2.2 by Seijax  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/16475
       Requires: Mod Settings, RED4ext, redscript, TweakXL, ArchiveXL
- 135. Holster By Hotkey v1.8 by DJ_Kovrik  [2.5]
+ 134. Holster By Hotkey v1.8 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/1904
       Requires: redscript, Input Loader, RED4ext
- 136. Weeee (New H10 Exit) v2.0.5 by Deceptious  [2.5]
+ 135. Weeee (New H10 Exit) v2.0.5 by Deceptious  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22334
       Requires: ArchiveXL, Codeware, Deceptious Quest Core
- 137. Faster Elevators v2.0.0 by Cosmin G  [verify]
+ 136. Faster Elevators v2.0.0 by Cosmin G  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18389
       Requires: Cyber Engine Tweaks, Native Settings UI
- 138. EconomyPunk v4.7.2 by RelaxItsOk  [verify]
+ 137. EconomyPunk v4.7.2 by RelaxItsOk  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/16952
       Requires: Cyber Engine Tweaks, TweakXL
+ 138. Expanded Dual Wielding v3.7 by JericoHellden  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/35626
  139. Megingjord (hover legs cyberware) v1.3.4 by Seijax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/12664
       Requires: ArchiveXL, RED4ext, redscript, TweakXL
- 140. Expanded Dual Wielding v3.7 by JericoHellden  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/35626
- 141. Map Street View v3.0.1 by Ghostlight  [2.5]
+ 140. Map Street View v3.0.1 by Ghostlight  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9911
       Requires: redscript
- 142. Taxi Work in Night City v0.4.7-hotfix by RollermineC  [2.5]
+ 141. Taxi Work in Night City v0.4.7-hotfix by RollermineC  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/15624
       Requires: ArchiveXL, Codeware, In-World Navigation, Mod Settings, RED4ext, redscript, TweakXL, Cyber Engine Tweaks
- 143. Refill Ammo from Vehicle Trunk v0.3 by JanuarySnow  [verify]
+ 142. Refill Ammo from Vehicle Trunk v0.3 by JanuarySnow  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/3999
       Requires: redscript
- 144. Weapon Handling Control v2.2.3 by Seijax  [2.5]
+ 143. Weapon Handling Control v2.2.3 by Seijax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11474
       Requires: ArchiveXL, Mod Settings, RED4ext, redscript, TweakXL
- 145. Nitrous v1.5.2 by MisterChedda  [2.5]
+ 144. Nitrous v1.5.2 by MisterChedda  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20675
       Requires: Audioware, Codeware, Mod Settings, redscript
+ 145. Eviction Notice - Story-Driven Rent System v1.0.3-for-2.3 by Dark Fortune Teller  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/23187
+      Requires: redscript, ArchiveXL, TweakXL, Codeware, Mod Settings, RED4ext
  146. The Kidnapping of Panam v2.2.1 by Sunlive  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/17329
       Requires: ArchiveXL, RED4ext, TweakXL
- 147. Eviction Notice - Story-Driven Rent System v1.0.3-for-2.3 by Dark Fortune Teller  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/23187
-      Requires: redscript, ArchiveXL, TweakXL, Codeware, Mod Settings, RED4ext
- 148. Weapon Damage Multipliers - previously Headshot Damage Multiplier v2.5 by thor777  [2.5]
+ 147. Weapon Damage Multipliers - previously Headshot Damage Multiplier v2.5 by thor777  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/4247
       Requires: Cyber Engine Tweaks, Native Settings UI
+ 148. Adam Finlay Hidden Gem Quest Recovery v1.2.1 by anygoodname  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/22103
+      Requires: ArchiveXL
  149. PMU - Us Cracks Set v2.31 by Zwei  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/6932
       Requires: ArchiveXL, RED4ext, TweakXL, Photo Mode Unlocker 2.3 XL
- 150. Adam Finlay Hidden Gem Quest Recovery v1.2.1 by anygoodname  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22103
-      Requires: ArchiveXL
- 151. CCXL - More Cyberware v2.5 by Zwei  [2.5]
+ 150. CCXL - More Cyberware v2.5 by Zwei  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/21935
+ 151. Actual Blackwall Quickhacks v1.0.1.1 by yakuzadeso  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/17755
+      Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, TweakXL
  152. Game v2.0 patch - No Forced Weapon On Carrying Bodies v1.2.0 by anygoodname  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9223
       Requires: Cyber Engine Tweaks, redscript
  153. Better Housing Buffs (RedMod) v0.3 by CrazySD  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/6181
- 154. Actual Blackwall Quickhacks v1.0.1.0 by yakuzadeso  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/17755
-      Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, TweakXL
- 155. No More Tiers - Unlocked Perk Tree for 2.0 and Higher v1.21-full by TheArtificialEnhancer  [2.5]
+ 154. No More Tiers - Unlocked Perk Tree for 2.0 and Higher v1.21-full by TheArtificialEnhancer  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9327
       Requires: TweakXL
- 156. Immersive Odometer and Fuel System v5.5 by elminister  [verify]
+ 155. Immersive Odometer and Fuel System v5.5 by elminister  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23834
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, NC Courier Jobs, RedData, RedFileSystem, RedHttpClient, redscript, Street Location System (API), AudioXL
- 157. Immersive NCPD Hotline v3.1.11 by anygoodname  [verify]
+ 156. Immersive NCPD Hotline v3.1.11 by anygoodname  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8557
       Requires: redscript, Cyber Engine Tweaks
- 158. Mixed Cyberware Store v1.2.4 by TiGames128  [2.5]
+ 157. Mixed Cyberware Store v1.2.4 by TiGames128  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/10849
       Requires: Unified Mods Resources, Virtual Atelier
- 159. Optical Camo Realism and Utility vrealism-1.1.2 by Seijax  [2.5]
+ 158. Optical Camo Realism and Utility vrealism-1.1.2 by Seijax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/15308
       Requires: redscript, TweakXL, RED4ext
- 160. Reduced Loot v4.0.0 by DJ_Kovrik  [2.5]
+ 159. Reduced Loot v4.0.0 by DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/2678
       Requires: ArchiveXL, Mod Settings, RED4ext, redscript
- 161. Heat Converter v1.2.1 by Seijax  [verify]
+ 160. Heat Converter v1.2.1 by Seijax  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/11820
       Requires: RED4ext, TweakXL
- 162. PMU - Evelyn Set v2.3.00 by SilverEzredes  [verify]
+ 161. PMU - Evelyn Set v2.3.00 by SilverEzredes  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/5663
       Requires: ArchiveXL, Photo Mode Unlocker 2.3 XL, RED4ext, TweakXL
- 163. Immersive Delamain v1.1.4 by S1nonim  [assets]
+ 162. Immersive Delamain v1.1.4 by S1nonim  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/24295
- 164. Ping Tags Enemies - CET Cyber Engine Tweaks v1.4.0 by Shaydera  [2.5]
+ 163. Ping Tags Enemies - CET Cyber Engine Tweaks v1.4.0 by Shaydera  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/14256
       Requires: Cyber Engine Tweaks, Native Settings UI, Tag Marker Atlas Fix
- 165. Immersion Patch - Cyberpunk Story Quest Fixes v1.21.2 by anygoodname  [2.5]
+ 164. Immersion Patch - Cyberpunk Story Quest Fixes v1.21.2 by anygoodname  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/29152
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks
- 166. Guns Redone V3.0 (Overhauled) v1 by TheFatherofPork  [2.5]
+ 165. Guns Redone V3.0 (Overhauled) v1 by TheFatherofPork  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/12704
       Requires: ArchiveXL, RED4ext, TweakXL
- 167. Immersion Patch - Path Of Glory - Afterlife scene bug fixes v1.0.0 by anygoodname  [assets]
+ 166. Immersion Patch - Path Of Glory - Afterlife scene bug fixes v1.0.0 by anygoodname  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/23875
- 168. Basically Infinite Carry Weight Capacity - And Consumables (with alt version) v2.0.01 by TheArtificialEnhancer  [verify]
+ 167. Basically Infinite Carry Weight Capacity - And Consumables (with alt version) v2.0.01 by TheArtificialEnhancer  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8434
       Requires: TweakXL
- 169. Unequip unremovable scopes v1.0.0.7 by yakuzadeso  [2.5]
+ 168. Unequip unremovable scopes v1.0.0.7 by yakuzadeso  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9616
       Requires: Cyber Engine Tweaks, RED4ext, TweakXL, Supressed Breakthrough
- 170. OP Cyberdecks v0.0.0.39 by nobo  [verify]
+ 169. OP Cyberdecks v0.0.0.39 by nobo  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/10317
       Requires: ArchiveXL, Native Settings UI, redscript, TweakXL, Input Loader
- 171. Better Leveling (Revamp of Custom Level Cap) v2.5.2 by BiasNil  [2.5]
+ 170. Better Leveling (Revamp of Custom Level Cap) v2.5.2 by BiasNil  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22784
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Native Settings UI, RED4ext, redscript, TweakXL
- 172. Live A Little v2025.10.21 by DeepBlueFrog  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/13271
-      Requires: ArchiveXL, redscript
- 173. SPLAT Physics Realistic Ragdoll Overhaul v12.0.1 by IceFire Modding  [2.5]
+ 171. SPLAT Physics Realistic Ragdoll Overhaul v12.0.1 by IceFire Modding  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23539
       Requires: redscript, Cyber Engine Tweaks, Native Settings UI
+ 172. Immersion Patch - Minor Activities Quest Fixes v1.15.1 by anygoodname  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/27162
+      Requires: ArchiveXL, Cyber Engine Tweaks
+ 173. Live A Little v2025.10.21 by DeepBlueFrog  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/13271
+      Requires: ArchiveXL, redscript
  174. Bolt Shot FX Reset Fix v1.1.5 by The guy posting it  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19036
       Requires: redscript
- 175. Immersion Patch - Minor Activities Quest Fixes v1.15.1 by anygoodname  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/27162
-      Requires: ArchiveXL, Cyber Engine Tweaks
- 176. In Cold Blood - NPC Execution Fix v1.3 by Demon9ne  [2.5]
+ 175. In Cold Blood - NPC Execution Fix v1.3 by Demon9ne  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/14880
       Requires: redscript
- 177. Hybrid Cyberdeck Berserk Sandevistan System v2.1.0 by TiGames128  [verify]
+ 176. Hybrid Cyberdeck Berserk Sandevistan System v2.1.0 by TiGames128  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/6278
       Requires: ArchiveXL, Cyber Engine Tweaks, Mixed Cyberware Store, Unified Mods Resources, Virtual Atelier
- 178. Silver Pixel Cloud Drive-in Gates Game Bug Patch v1.0.1 by anygoodname  [verify]
+ 177. Silver Pixel Cloud Drive-in Gates Game Bug Patch v1.0.1 by anygoodname  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23573
       Requires: Cyber Engine Tweaks, Codeware
- 179. Infinite Carrying Capacity (Weight) - REDMod v2.5 v2.5 by TheFatherOfPuppets  [2.5]
+ 178. Infinite Carrying Capacity (Weight) - REDMod v2.5 v2.5 by TheFatherOfPuppets  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9450
- 180. Post-Romance Delivery System (Judy) With physical packages v5.1 by Dedra  [2.5]
+ 179. Post-Romance Delivery System (Judy) With physical packages v5.1 by Dedra  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/21496
       Requires: Cyber Engine Tweaks, ArchiveXL, TweakXL
- 181. Retrothrusters QoL v1.3 by Demon9ne  [verify]
+ 180. Retrothrusters QoL v1.3 by Demon9ne  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/14320
       Requires: ArchiveXL, TweakXL, redscript
- 182. Computer Scrolling vv1.40b by Di Crash  [2.5]
+ 181. Computer Scrolling vv1.40b by Di Crash  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/7879
       Requires: redscript
- 183. Rent a Motel v6.2.4 by Hepero  [2.5]
+ 182. Rent a Motel v6.2.4 by Hepero  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/21729
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Native Interactions Framework, Native Settings UI, redscript, 0-Engine
- 184. Immersion Patch - Path of Glory - Restore Gun Equip in Shuttle Scene v1.0.0 by angoodname  [assets]
+ 183. Immersion Patch - Path of Glory - Restore Gun Equip in Shuttle Scene v1.0.0 by angoodname  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/23897
- 185. Improved Vehicle Persistence v1.0.6 by FlyingNanoPenguin  [verify]
+ 184. Improved Vehicle Persistence v1.0.6 by FlyingNanoPenguin  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/12812
       Requires: Cyber Engine Tweaks, redscript, TweakXL
- 186. Post-Romance Delivery System (Panam) - With physical packages v5.1 by Dedra  [2.5]
+ 185. Post-Romance Delivery System (Panam) - With physical packages v5.1 by Dedra  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/21689
       Requires: Cyber Engine Tweaks, ArchiveXL, TweakXL
- 187. Arasaka Cyberware OS MK6 2.0 - Cyberpunk 2077 2.5 v1.3.0e by TiGames128  [2.5]
+ 186. Arasaka Cyberware OS MK6 2.0 - Cyberpunk 2077 2.5 v1.3.0e by TiGames128  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/10476
       Requires: ArchiveXL, Cyber Engine Tweaks, Unified Mods Resources
- 188. Stamina Consumption Fix v1.0.0 by Lain  [verify]
+ 187. Stamina Consumption Fix v1.0.0 by Lain  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23230
       Requires: redscript
- 189. Combat Revolution(AI Overhaul and High-Stakes) v1.4.3 by ABCdb111  [verify]
+ 188. Combat Revolution(AI Overhaul and High-Stakes) v1.4.3 by ABCdb111  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/20225
       Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, TweakXL
- 190. Coffee maker and drink for other apartments v2.0.3 by unthinkthis and keanuwheeze  [2.5]
+ 189. Coffee maker and drink for other apartments v2.0.3 by unthinkthis and keanuwheeze  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19609
       Requires: ArchiveXL, Native Interactions Framework
- 191. High Stakes Quest v1.3.4 by Sunlive  [verify]
+ 190. High Stakes Quest v1.3.4 by Sunlive  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18023
       Requires: ArchiveXL, Codeware, RED4ext, TweakXL, redscript
- 192. Air's Inertia Returns v1.2.0 by tidusmd  [verify]
+ 191. Air's Inertia Returns v1.2.0 by tidusmd  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24410
       Requires: Cyber Engine Tweaks
- 193. Pachinko Button - Gambling System v1.1.4 by Boe6  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/19889
-      Requires: Codeware, Cyber Engine Tweaks, RED4ext, TweakXL, Native Settings UI
- 194. Bolt Shots Penetrate Cover v1.0.5 by The guy posting it  [verify]
+ 192. Crowd Variety Restored v1.0.5 by dnbnhlp  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/34908
+ 193. Bolt Shots Penetrate Cover v1.0.5 by The guy posting it  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/20373
       Requires: redscript, TweakXL
- 195. Crowd Variety Restored v1.0.5 by dnbnhlp  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/34908
- 196. NCPD and MaxTac Spawn Tweak (District specific police behavior) v2.2.0 by jack  [verify]
+ 194. Pachinko Button - Gambling System v1.1.4 by Boe6  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/19889
+      Requires: Codeware, Cyber Engine Tweaks, RED4ext, TweakXL, Native Settings UI
+ 195. NCPD and MaxTac Spawn Tweak (District specific police behavior) v2.2.0 by jack  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7467
       Requires: Codeware, Mod Settings, redscript
- 197. Semimaru Quest Restart Bug Fix (2.5 Supported) v1.1 by Atticus  [assets]
+ 196. Semimaru Quest Restart Bug Fix (2.5 Supported) v1.1 by Atticus  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/23031
       Requires: ArchiveXL, RED4ext
- 198. PMU - Katana Set - Masc V v2.3.00 by SilverEzredes  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/4411
-      Requires: ArchiveXL, Photo Mode Unlocker 2.3 XL, RED4ext, TweakXL
- 199. Airdrops v1.3.0 by anygoodname  [verify]
+ 197. Airdrops v1.3.0 by anygoodname  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21836
       Requires: Cyber Engine Tweaks
+ 198. Impact Kill Looting Fix v1.0.0 by Deceptious  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/28099
+ 199. PMU - Katana Set - Masc V v2.3.00 by SilverEzredes  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/4411
+      Requires: ArchiveXL, Photo Mode Unlocker 2.3 XL, RED4ext, TweakXL
  200. Disable Movement Keybinds For Dialogue Selection v2.3 by Crimsomrider  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/9235
- 201. Impact Kill Looting Fix v1.0.0 by Deceptious  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/28099
- 202. PMU - Alt Set Vol 2 v2.31 by Zwei  [verify]
+ 201. PMU - Alt Set Vol 2 v2.31 by Zwei  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7835
       Requires: ArchiveXL, RED4ext, TweakXL, Photo Mode Unlocker 2.3 XL
- 203. No Default Equipped Weapon In Inventory v1.4 by Buzzler  [2.5]
+ 202. No Default Equipped Weapon In Inventory v1.4 by Buzzler  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20311
       Requires: Cyber Engine Tweaks, Native Settings UI
- 204. Zwei Custom PMU Pose Packs - Core - Masc v2.31 by Zwei  [assets]
+ 203. Zwei Custom PMU Pose Packs - Core - Masc v2.31 by Zwei  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/7763
       Requires: Photo Mode Unlocker 2.3 XL
- 205. Arasaka Cyberware OS MK6 2.0 Store v1.2.3 by TiGames128  [2.5]
+ 204. Arasaka Cyberware OS MK6 2.0 Store v1.2.3 by TiGames128  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/10510
       Requires: Arasaka Cyberware OS MK6 2.0 - Cyberpunk 2077 2.5, Unified Mods Resources, Virtual Atelier
- 206. Unlocked Attachments -  Suppressor Fix v1.02 by BigJon  [assets]
+ 205. Unlocked Attachments -  Suppressor Fix v1.02 by BigJon  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/13252
       Requires: Unlocked Attachments - CET
+ 206. Toggle Sprint While Scanning v1.1 by Lavallet aka Aqvilinus  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/14646
+      Requires: redscript
  207. Legendary Upgrades v1.0.3 by maniman303  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/11475
       Requires: RED4ext, redscript, TweakXL, ArchiveXL
- 208. Toggle Sprint While Scanning v1.1 by Lavallet aka Aqvilinus  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/14646
-      Requires: redscript
- 209. Soft Crafting v2.31.0 by RalphModding  [verify]
+ 208. Soft Crafting v2.31.0 by RalphModding  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/9250
       Requires: Cyber Engine Tweaks, Native Settings UI, redscript
- 210. Disassemble Weapons for Recipes (DAWR) v1.1.2 by The guy posting it  [verify]
+ 209. Disassemble Weapons for Recipes (DAWR) v1.1.2 by The guy posting it  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21747
       Requires: ArchiveXL, Mod Settings, redscript, TweakXL, Codeware
- 211. Radio Volume Control v1.1.0 by Deceptious  [verify]
+ 210. Radio Volume Control v1.1.0 by Deceptious  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/27402
       Requires: redscript, ArchiveXL, TweakXL
- 212. AAbdii's Armory Atelier v1.6 by AAbdii  [verify]
+ 211. AAbdii's Armory Atelier v1.6 by AAbdii  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/15368
       Requires: ArchiveXL, RED4ext, redscript, Virtual Atelier
- 213. NC Courier Jobs v6 by elminister  [2.5]
+ 212. NC Courier Jobs v6 by elminister  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/25551
       Requires: ArchiveXL, Browser Extension, Codeware, Cyber Engine Tweaks, In-World Navigation, Native Interactions Framework, RedData, RedFileSystem, RedHttpClient, redscript, AudioXL
- 214. Immersive Road Crossing and Crashes v1.8b by OGunblade  [2.5]
+ 213. Immersive Road Crossing and Crashes v1.8b by OGunblade  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/26131
       Requires: Codeware, Impact Kill Looting Fix, Mod Settings, NightlyNow Core, RED4ext, redscript, TweakXL
- 215. Private Yacht v1.1.0 by tidusmd  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/21851
-      Requires: Air's Inertia Returns, ArchiveXL, Audioware, Cyber Engine Tweaks, Native Settings UI, redscript
- 216. Rich Drop Points v1.00 by JamesTheHacker  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/22924
-      Requires: RED4ext, TweakXL
- 217. Mute OpenWorld Devices v4.0 by YG  [verify]
+ 214. Mute OpenWorld Devices v4.0 by YG  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/12907
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Native Settings UI, RED4ext, RedData, redscript
- 218. Photomode Camera Reset Fix (look-at-camera lock) v1.2.0 by Finnick420  [verify]
+ 215. Photomode Camera Reset Fix (look-at-camera lock) v1.2.0 by Finnick420  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24427
       Requires: Cyber Engine Tweaks
- 219. Judy's nickname for Male V v2.1 by Gokuudo  [assets]
+ 216. Judy's nickname for Male V v2.1 by Gokuudo  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/26012
- 220. Skippy - Fewer Kills Required v1.0 by Me  [assets]
+ 217. Skippy - Fewer Kills Required v1.0 by Me  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/20610
       Requires: ArchiveXL
- 221. Mute Vehicle Gear Shift v6 by YG  [2.5]
+ 218. Mute Vehicle Gear Shift v6 by YG  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11119
       Requires: Codeware, RED4ext, Cyber Engine Tweaks, Native Settings UI, ArchiveXL, RedData
- 222. Vehicle Systems Simulation - VSS v1.16 by EloquentShadow  [2.5]
+ 219. Vehicle Systems Simulation - VSS v1.16 by EloquentShadow  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/28589
       Requires: Audioware, Codeware, Cyber Engine Tweaks, Input Loader, Mod Settings, Native Settings UI, RED4ext, redscript, Immersive Road Crossing and Crashes
- 223. Accidental fast travel bug fix v1.0.0.0 by yakuzadeso  [2.5]
+ 220. Accidental fast travel bug fix v1.0.0.0 by yakuzadeso  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/36600
       Requires: redscript
- 224. Charter Hill Penthouse - Self-playing piano v1.0 by Jackson69420Nice  [2.5]
+ 221. Charter Hill Penthouse - Self-playing piano v1.0 by Jackson69420Nice  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/36302
       Requires: Cyber Engine Tweaks, Eden Plaza - Charter Hill Player Penthouse (World Builder), Native Settings UI, RadioExt
 
@@ -1468,12 +1447,12 @@ Contents:
       Requires: RED4ext, TweakXL, ArchiveXL
    8. Militech Holosight v0.84 by Bulbous  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/6463
-   9. MaxTac Silencer (New Iconic Weapon) v1.1 by Tron-117  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/11979
-      Requires: TweakXL, ArchiveXL
-  10. Tyger Cache - New Iconic Weapons v1.0.4 by Misoru  [verify]
+   9. Tyger Cache - New Iconic Weapons v1.0.4 by Misoru  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/20827
       Requires: TweakXL, redscript, ArchiveXL, RED4ext, Codeware
+  10. MaxTac Silencer (New Iconic Weapon) v1.1 by Tron-117  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/11979
+      Requires: TweakXL, ArchiveXL
   11. NCPD Cache - New Iconic Weapons v1.0.3 by Misoru  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22094
       Requires: ArchiveXL, Codeware, RED4ext, redscript, TweakXL
@@ -1557,18 +1536,18 @@ Contents:
   38. Colt Python (.357 Magnum) v1.1 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/14860
       Requires: ArchiveXL, TweakXL
-  39. Malorian 3516 V v1.4 by 1Bishop216  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/12159
-      Requires: ArchiveXL, TweakXL
-  40. Midnight Arms Gravemaker v1.1 by sabbath7991  [verify]
+  39. Midnight Arms Gravemaker v1.1 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/26617
       Requires: RED4ext, TweakXL, ArchiveXL, Trigger Mode Control, Unlocked Attachments -  Suppressor Fix
-  41. Requiem Revolver from RE9 v1.2 by sabbath7991  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/28301
-      Requires: ArchiveXL, TweakXL, RED4ext, Trigger Mode Control
-  42. Arasaka JSH-X12 Nobunaga v1.4 by sabbath7991  [verify]
+  40. Malorian 3516 V v1.4 by 1Bishop216  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/12159
+      Requires: ArchiveXL, TweakXL
+  41. Arasaka JSH-X12 Nobunaga v1.4 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24033
       Requires: ArchiveXL, RED4ext, TweakXL, Trigger Mode Control
+  42. Requiem Revolver from RE9 v1.2 by sabbath7991  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/28301
+      Requires: ArchiveXL, TweakXL, RED4ext, Trigger Mode Control
   43. Enhanced Byakko v1.21 by dnbnhlp  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/13566
       Requires: TweakXL
@@ -1587,32 +1566,32 @@ Contents:
   48. Beretta 92FS (M9) - Unity and Liberty Pistol Replacer v1.2.1 by WhiteCamellia  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/12382
       Requires: TweakXL, ArchiveXL
-  49. True pax mod v1.2 by Rivarez  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/12002
-      Requires: redscript
-  50. Night City Optics Pack v1.2 by sabbath7991  [verify]
+  49. Night City Optics Pack v1.2 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/32776
       Requires: RED4ext, TweakXL, ArchiveXL
+  50. True pax mod v1.2 by Rivarez  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/12002
+      Requires: redscript
   51. John Wick Glock 34 (TTI Combat Master Package) v2.0 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/14591
       Requires: ArchiveXL, TweakXL, RED4ext
   52. MK.78 SAW v1.2 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/27085
       Requires: ArchiveXL, TweakXL, RED4ext
-  53. Skippy-chan - Weapon Skin v1.1 by Nttnnexus and BONeill  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/24631
-  54. Akita Shotgun v1.0 by sabbath7991  [verify]
+  53. Akita Shotgun v1.0 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/26278
       Requires: ArchiveXL, TweakXL, RED4ext, Trigger Mode Control, Unlocked Attachments -  Suppressor Fix
+  54. Skippy-chan - Weapon Skin v1.1 by Nttnnexus and BONeill  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/24631
   55. D-101 Longbow DMR v1.2 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/17771
       Requires: ArchiveXL, RED4ext, TweakXL
-  56. Militech LMG Pack v1.0 by sabbath7991  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/22828
-      Requires: ArchiveXL, TweakXL, RED4ext
-  57. Kraken - a truly silent sniper rifle v1.1.0 by m1klos  [verify]
+  56. Kraken - a truly silent sniper rifle v1.1.0 by m1klos  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21926
       Requires: ArchiveXL, RED4ext, TweakXL
+  57. Militech LMG Pack v1.0 by sabbath7991  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/22828
+      Requires: ArchiveXL, TweakXL, RED4ext
   58. Pistol Pack 5 v1.1 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/27320
       Requires: ArchiveXL, TweakXL, RED4ext, Trigger Mode Control
@@ -1656,12 +1635,12 @@ Contents:
   72. HK UMP 45 - ArchiveXL v1.3 by WhiteCamellia  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/14644
       Requires: ArchiveXL, Camellia Atelier, TweakXL
-  73. IWI Jericho - Spike's Pistol - Cowboy Bebop v1.2 by WhiteCamellia  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/17495
-      Requires: ArchiveXL, Camellia Atelier, TweakXL
-  74. Weapon and Scope Skin Changer Plus (Iconics and Gun Enhancements) v1.7.7 by gramersssss  [2.5]
+  73. Weapon and Scope Skin Changer Plus (Iconics and Gun Enhancements) v1.7.7.1 by gramersssss  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/34227
       Requires: Cyber Engine Tweaks, RED4ext, redscript, Codeware, RedFileSystem, TweakXL
+  74. IWI Jericho - Spike's Pistol - Cowboy Bebop v1.2 by WhiteCamellia  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/17495
+      Requires: ArchiveXL, Camellia Atelier, TweakXL
   75. AR-15 Berserker Assault Rifle v1.0.3 by argisht  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/34327
   76. Mancinella Suppressor v1.02 by Emperia  [2.5]
@@ -1681,23 +1660,23 @@ Contents:
       Requires: TweakXL, RED4ext, ArchiveXL
   81. Dual Wield v1.0 by Dante  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/17006
-  82. HK USP (MK23) - Unity Pistol Replacer v1.0 by WhiteCamellia  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/13602
-  83. All Foods Cache - New Iconic Weapons v1.0.0 by Misoru  [verify]
+  82. All Foods Cache - New Iconic Weapons v1.0.0 by Misoru  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/27974
       Requires: ArchiveXL, Better Slaught-O-Matic, Codeware, RED4ext, redscript, TweakXL
+  83. HK USP (MK23) - Unity Pistol Replacer v1.0 by WhiteCamellia  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/13602
   84. Pistol Pack 6 v1.2 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/32496
       Requires: RED4ext, TweakXL, ArchiveXL
-  85. Titanfall Weaponry v1.0.2 by Niko Beniko  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/21587
-      Requires: ArchiveXL, TweakXL, RED4ext, Cyber Engine Tweaks
-  86. Melee Weapon Pack 2 v1.1 by sabbath7991  [verify]
+  85. Melee Weapon Pack 2 v1.1 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/25846
       Requires: RED4ext, ArchiveXL, TweakXL
-  87. Arasaka Shigure EX v1.3 by sabbath7991  [verify]
+  86. Arasaka Shigure EX v1.3 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/23612
       Requires: RED4ext, TweakXL, ArchiveXL
+  87. Titanfall Weaponry v1.0.2 by Niko Beniko  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/21587
+      Requires: ArchiveXL, TweakXL, RED4ext, Cyber Engine Tweaks
   88. Suppressors from BO7 v1.0 by sabbath7991  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/30013
       Requires: TweakXL, ArchiveXL, RED4ext
@@ -1725,7 +1704,7 @@ Contents:
       Requires: RED4ext, TweakXL, Cyber Engine Tweaks, Preem Scopes (Remove Tint Glitches Scanlines and 3D Depth Effect - FOMOD)
 
 ==============================================================================
-6. VEHICLES & DRIVING (71 mods)
+6. VEHICLES & DRIVING (70 mods)
 ==============================================================================
 
    1. Car Modification Shop v2.2.0.1 by Erok  [verify]
@@ -1856,12 +1835,12 @@ Contents:
   43. Yaiba Kusanagi ASM R250 v1.2 by HausVonSin and BONeill  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/20992
       Requires: Cyber Engine Tweaks, TweakXL, Virtual Car Dealer
-  44. Jaguar F-Type v1.3 by Okrasha  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/14432
-      Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, redscript, TweakXL, Virtual Car Dealer, Vehicle manufacturer fix
-  45. Dedka Car Dealership - Working Vehicle Shop Framework v1.2 by Dedra and Kaoziun  [verify]
+  44. Dedka Car Dealership - Working Vehicle Shop Framework v1.2 by Dedra and Kaoziun  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24887
       Requires: ArchiveXL, Codeware, TweakXL, Cyber Engine Tweaks, RED4ext, redscript
+  45. Jaguar F-Type v1.3 by Okrasha  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/14432
+      Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, redscript, TweakXL, Virtual Car Dealer, Vehicle manufacturer fix
   46. Kawasaki Ninja H2R v1.2 by tof1c  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21369
       Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, TweakXL, Virtual Car Dealer
@@ -1871,12 +1850,12 @@ Contents:
   48. Lotus Evija v1.5 by Morpheus  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21083
       Requires: Cyber Engine Tweaks, ArchiveXL, TweakXL, Codeware, redscript, RED4ext, Virtual Car Dealer
-  49. Need More Smoke FX 2.5 v2.5 by Gashetka  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/20419
-      Requires: TweakXL, Smoke Texture Overhaul
-  50. Batmobile BVS Archive XL v1.2 by EzioMaverick  [2.5]
+  49. Batmobile BVS Archive XL v1.2 by EzioMaverick  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20605
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, RED4ext, redscript, TweakXL, Virtual Car Dealer
+  50. Need More Smoke FX 2.5 v2.5 by Gashetka  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/20419
+      Requires: TweakXL, Smoke Texture Overhaul
   51. 2019 C8 Corvette Stingray (Updated for 2.31) v2.3 by Jsast  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/12032
       Requires: Cyber Engine Tweaks, ArchiveXL, RED4ext, redscript, TweakXL, Virtual Car Dealer
@@ -1921,12 +1900,12 @@ Contents:
   65. Ford Crown Victoria Interceptor v1.0.5-Minor by Cornmilf  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/15577
       Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, redscript, TweakXL, Virtual Car Dealer, Vehicle manufacturer fix
-  66. The Wobbler - Monowheel v1.10 by Oranje 3  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/21069
-      Requires: ArchiveXL, Codeware, redscript, TweakXL, Virtual Car Dealer, Cyber Engine Tweaks
-  67. Toyota GT86 - ArchiveXL v1.4.4 by yellingintothevoid  [2.5]
+  66. Toyota GT86 - ArchiveXL v1.4.4 by yellingintothevoid  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23632
       Requires: ArchiveXL, Codeware, TweakXL, Virtual Car Dealer
+  67. The Wobbler - Monowheel v1.10 by Oranje 3  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/21069
+      Requires: ArchiveXL, Codeware, redscript, TweakXL, Virtual Car Dealer, Cyber Engine Tweaks
   68. Toyota Supra Mk4 - ArchiveXL v1.4 by yellingintothevoid  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/22467
       Requires: ArchiveXL, Codeware, TweakXL, Virtual Car Dealer
@@ -1936,12 +1915,9 @@ Contents:
   70. Lexus SC300 v1.2 by Okrasha Cornmilf POMIDORI CORP  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/13847
       Requires: ArchiveXL, Cyber Engine Tweaks, RED4ext, redscript, TweakXL, Virtual Car Dealer, Vehicle manufacturer fix
-  71. Oranje3 Mod Resource Pack v1.0.2 by Oranje3  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/37360
-      Requires: ArchiveXL, Cyber Engine Tweaks, TweakXL
 
 ==============================================================================
-7. WORLD, NPCS & CROWDS (58 mods)
+7. WORLD, NPCS & CROWDS (52 mods)
 ==============================================================================
 
    1. Virtual Atelier v1.6.4 by Pacings and djkovrik  [2.5]
@@ -1950,152 +1926,134 @@ Contents:
    2. V's Edgerunners Mansion - Apartment DLC v2.0 by keanuWheeze  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/5437
       Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework
-   3. Apartment Cats - The Glen v3.0.1 by Deceptious  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/6276
-      Requires: TweakXL, ArchiveXL, RED4ext
-   4. Apartment Cats - Japantown v3.0.1 by Deceptious  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/6493
-      Requires: TweakXL, ArchiveXL, RED4ext
-   5. Eyes LOD Fix - No more disappearing eyes v2.2 by JohnsonsStuff  [assets]
+   3. Eyes LOD Fix - No more disappearing eyes v2.2 by JohnsonsStuff  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/2865
-   6. Fix Advert Animations v1.1 by nremind  [assets]
+   4. Fix Advert Animations v1.1 by nremind  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/17726
-   7. CharLi - Character Lighting Suite for Photomode v2.2c by FreakaZ  [2.5]
+   5. CharLi - Character Lighting Suite for Photomode v2.2c by FreakaZ  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/8176
       Requires: Cyber Engine Tweaks
-   8. High Res Named NPCs AIO - MonstrrMagic Texture Series v1.2 by XilaMonstrr  [assets]
+   6. High Res Named NPCs AIO - MonstrrMagic Texture Series v1.2 by XilaMonstrr  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14999
-   9. High-Res NPCs - Judy Alvarez v1.01 by XilaMonstrr  [assets]
+   7. High-Res NPCs - Judy Alvarez v1.01 by XilaMonstrr  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/7430
-  10. Judy's New Look v1.00 by EKT  [assets]
+   8. Judy's New Look v1.00 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11875
       Requires: Preem Hair (Judy Hair Options)
-  11. Apartments Enhanced v2.04 by Ak3nax  [2.5]
+   9. Apartments Enhanced v2.04 by Ak3nax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19521
       Requires: ArchiveXL, Japantown Apartment View Enhanced, Native Interactions Framework, RED4ext
-  12. Proxima's Prop Archives v1.0 by Proxima Dust  [assets]
+  10. Proxima's Prop Archives v1.0 by Proxima Dust  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19635
-  13. Panam's New Look v1.00 by EKT  [assets]
+  11. Panam's New Look v1.00 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11837
-  14. Japantown Apartment View Enhanced v1.1.2 by Sammmy1036  [2.5]
+  12. Japantown Apartment View Enhanced v1.1.2 by Sammmy1036  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19491
       Requires: ArchiveXL, RED4ext
-  15. Misty's New Look  -COLLAB WITH LADYBELLA- v1.00 by EKT and LadyBella  [assets]
+  13. Misty's New Look  -COLLAB WITH LADYBELLA- v1.00 by EKT and LadyBella  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/12341
-  16. Eden Plaza - Charter Hill Player Penthouse (World Builder) v1.1.1 by Magicman010  [2.5]
+  14. Eden Plaza - Charter Hill Player Penthouse (World Builder) v1.1.1 by Magicman010  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/25409
       Requires: ArchiveXL, Native Interactions Framework
-  17. Rogue's New Look v1.00 by EKT  [assets]
+  15. Rogue's New Look v1.00 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/12040
-  18. Hanako's New Look v1.01 by EKT  [assets]
+  16. Hanako's New Look v1.01 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14925
-  19. Better Children v1.0.0 by manavortex  [assets]
+  17. Better Children v1.0.0 by manavortex  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/16462
-  20. Angy's Custom Face Presets - Fem and Masc V - WIP v1 by xBaebsae  [assets]
+  18. Angy's Custom Face Presets - Fem and Masc V - WIP v1 by xBaebsae  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/26548
-  21. Evelyn's New Look v1.08 by EKT  [assets]
+  19. Evelyn's New Look v1.08 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/12210
       Requires: ArchiveXL
-  22. Advert Controller (Toggle Ads) v4.05 by nremind  [verify]
+  20. Advert Controller (Toggle Ads) v4.05 by nremind  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18118
       Requires: Codeware, Cyber Engine Tweaks, Native Settings UI, redscript, TweakXL
-  23. Luxury corporate the Glen apartment - archivexl v1.2.4 by unthinkthis  [2.5]
+  21. Luxury corporate the Glen apartment - archivexl v1.2.4 by unthinkthis  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/18670
       Requires: ArchiveXL, Native Interactions Framework, Native Settings UI
-  24. High Res PL NPCs - Songbird - MonstrrMagic Texture Series v1.0 by XilaMonstrr  [assets]
+  22. High Res PL NPCs - Songbird - MonstrrMagic Texture Series v1.0 by XilaMonstrr  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11534
-  25. APEX - Sonora Canyon and Safehouse v1.0.4 by Nox and MrBilL61 - with TPMG  [2.5]
+  23. APEX - Sonora Canyon and Safehouse v1.0.4 by Nox and MrBilL61 - with TPMG  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/25999
       Requires: ArchiveXL, Audioware, Codeware, Mod Settings, TweakXL
-  26. Immersive NPC Variety - Tyger Claw women - Plus Maiko and Roxanne v1.02 by EKT  [assets]
+  24. Immersive NPC Variety - Tyger Claw women - Plus Maiko and Roxanne v1.02 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19217
-  27. High Res PL NPCs - Solomon Reed - MonstrrMagic Texture Series v1.0 by XilaMonstrr  [assets]
+  25. High Res PL NPCs - Solomon Reed - MonstrrMagic Texture Series v1.0 by XilaMonstrr  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11533
-  28. Judy Reimagined v2.8 by chroniclerealm  [assets]
+  26. Judy Reimagined v2.8 by chroniclerealm  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/10196
-  29. Welcome back my dear Skippy v2.2.2 by anygoodname  [2.5]
+  27. Welcome back my dear Skippy v2.2.2 by anygoodname  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11244
       Requires: RadioExt, RED4ext, Cyber Engine Tweaks
-  30. The Glen PROJECT v1.46 by Ak3nax  [2.5]
+  28. The Glen PROJECT v1.46 by Ak3nax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20191
       Requires: ArchiveXL, Native Interactions Framework, RED4ext
-  31. Songbird's New Look REMASTERED v1.00 by EKT  [assets]
+  29. Songbird's New Look REMASTERED v1.00 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/15651
-  32. High Res PL NPCs - President Myers - MonstrrMagic Texture Series v1.0 by XilaMonstrr  [assets]
+  30. High Res PL NPCs - President Myers - MonstrrMagic Texture Series v1.0 by XilaMonstrr  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11535
-  33. Nola Dreamer's hairs collection vol. 2 - Physics enabled - CCXL v1.0 by NolaDreamer  [assets]
+  31. Nola Dreamer's hairs collection vol. 2 - Physics enabled - CCXL v1.0 by NolaDreamer  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19438
-  34. Vtuber-AnimePunk 2077 - Advertisement Changes v1 by IndulgenceDaemon  [assets]
+  32. Vtuber-AnimePunk 2077 - Advertisement Changes v1 by IndulgenceDaemon  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/4206
-  35. Meredith's New Look v1.01 by EKT  [assets]
+  33. Meredith's New Look v1.01 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11773
-  36. Evelyn - High Class Escort v1.4 by Apzurv HausVonSin and BONeill  [assets]
+  34. Evelyn - High Class Escort v1.4 by Apzurv HausVonSin and BONeill  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/18308
       Requires: PhotoMode-EX
-  37. Rosalind's New Look v1.01 by EKT  [assets]
+  35. Rosalind's New Look v1.01 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11806
-  38. Las Palapas Tower - Apartment v1.05 by Ak3nax  [2.5]
+  36. Las Palapas Tower - Apartment v1.05 by Ak3nax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/26708
       Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework, TweakXL
-  39. Lore Friendly Neon Signs v1.0.4 by manavortex and proxima  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/19469
-      Requires: Manavortex Material Library
-  40. Glen Apartment Corpo Elevator v1.4 by Sammmy1036  [2.5]
+  37. Glen Apartment Corpo Elevator v1.4 by Sammmy1036  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/14047
       Requires: ArchiveXL, RED4ext
-  41. Rebel Path - Apartment H10 - archivexl v2.3.3 by unthinkthis  [2.5]
+  38. Rebel Path - Apartment H10 - archivexl v2.3.3 by unthinkthis  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/17124
       Requires: ArchiveXL, Native Interactions Framework
-  42. Immersive NPC Variety - Valentino women v1.01 by EKT  [assets]
+  39. Immersive NPC Variety - Valentino women v1.01 by EKT  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/18660
-  43. Nola Dreamer's hairs Eve - Physics enabled - CCXL v1.0 by NolaDreamer  [assets]
+  40. Nola Dreamer's hairs Eve - Physics enabled - CCXL v1.0 by NolaDreamer  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/20388
-  44. V's Modest Netrunner Apartment (H10) v3.9 by ThaFunktopus  [2.5]
+  41. V's Modest Netrunner Apartment (H10) v3.9 by ThaFunktopus  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/7923
       Requires: ArchiveXL, Native Interactions Framework, Native Settings UI
-  45. Longshore Apartments - Charter Hill v1.0.2 by unthinkthis  [2.5]
+  42. Longshore Apartments - Charter Hill v1.0.2 by unthinkthis  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/28223
       Requires: ArchiveXL, Native Interactions Framework, Native Settings UI, TweakXL, VendorsXL
-  46. World Advert Configurator v1.5 by nremind  [2.5]
+  43. World Advert Configurator v1.5 by nremind  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/18214
       Requires: Codeware, Mod Settings, redscript, ArchiveXL
-  47. Restored TV's functions - apartment H10 - Japantown v1.0.3 by unthinkthis  [2.5]
+  44. Restored TV's functions - apartment H10 - Japantown v1.0.3 by unthinkthis  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16553
       Requires: ArchiveXL, RED4ext
-  48. V's Mansion Redux - NeoZen v1.2 by Proxima Dust  [2.5]
+  45. V's Mansion Redux - NeoZen v1.2 by Proxima Dust  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/17300
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, V's Edgerunners Mansion - Apartment DLC
-  49. Dark Matter Club ( with Apartment ) v2.3 by Jon Cross  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/19905
-      Requires: ArchiveXL, Drive an Aerial Vehicle - Flight Mod Using AV and Helicopter, Native Interactions Framework, NCI Addon - Westbrook, TweakXL
-  50. Drive-In Theater ( Working Movie Screen ) v2.3 by Jon Cross  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/19729
-      Requires: ArchiveXL, Native Interactions Framework, SPC TV Screen (Silver Pixel Cloud Drive-In Theater), TweakXL
-  51. Konpeki Plaza Expanded ( with Apartment ) v2.3 by Jon Cross  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/20233
-      Requires: ArchiveXL, Native Interactions Framework, Konpeki Plaza Unlocked 2.5, TweakXL
-  52. Japantown Rooftop Mansion v2.3 by Jon Cross  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22274
-      Requires: ArchiveXL, Drive an Aerial Vehicle - Flight Mod Using AV and Helicopter, Native Interactions Framework, TweakXL, Let There Be Flight
-  53. Downtown Yacht v2.3 by Jon Cross  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/16046
-      Requires: ArchiveXL, Native Interactions Framework, Private Yacht, TweakXL, Yacht in Downtown
-  54. Megabuilding 8 Expanded ( with Apartments ) v2.3 by Jon Cross  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22164
-      Requires: ArchiveXL, Drive an Aerial Vehicle - Flight Mod Using AV and Helicopter, Native Interactions Framework, TweakXL
-  55. H10 Braindance Holographic Ad Remover v1.5.3 by Sammmy1036  [2.5]
+  46. Apartment Bench Arm Fix v2.1 by Sammmy1036  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/12611
+      Requires: ArchiveXL, RED4ext
+  47. Kabuki Messy Apartment v1.1.1 by unthinkthis  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/22567
+      Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework, Native Settings UI
+  48. H10 Braindance Holographic Ad Remover v1.5.3 by Sammmy1036  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11382
       Requires: ArchiveXL, RED4ext
-  56. Atlantis Club Expanded v2.3 by Jon Cross  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/19960
-      Requires: ArchiveXL, Native Interactions Framework, The Atlantis - Restored, TweakXL
-  57. Artist-Made Ad Stripes (Lore Friendly) v1.0 by hehnl  [assets]
+  49. Corpo Plaza Apartment Area Access v2.1 by Sammmy1036  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/13131
+      Requires: ArchiveXL, RED4ext
+  50. Artist-Made Ad Stripes (Lore Friendly) v1.0 by hehnl  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/25400
-  58. E3 2019 Geisha advertisement v2.0 by DAYN3N  [assets]
+  51. E3 2019 Geisha advertisement v2.0 by DAYN3N  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11396
+  52. Santo Domingo Player Home and Garage (World Builder) v1.1.2 by Magicman010  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/24335
+      Requires: ArchiveXL, Native Interactions Framework
 
 ==============================================================================
-8. GRAPHICS, LIGHTING & WEATHER (115 mods)
+8. GRAPHICS, LIGHTING & WEATHER (111 mods)
 ==============================================================================
 
    1. Nova LUT 4.0 (AgX - New HDR) v4.0.0 by CyanideX  [assets]
@@ -2163,226 +2121,213 @@ Contents:
       https://www.nexusmods.com/cyberpunk2077/mods/13090
   28. Nova LUT 2 - Pure (AgX - HDR Support) v2.2.1l by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/13764
-  29. Preem Fixes (PT Shadow Bug Fix and HD Textures) v1.0.0wlc by CyanideX  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/15800
-  30. Immersive Night City Fixes - CORE v1.5 by DBK  [2.5]
+  29. Immersive Night City Fixes - CORE v1.5 by DBK  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/27040
       Requires: ArchiveXL, Codeware, RED4ext, redscript, Mod Settings
-  31. Improved Distant Shadows and Reflections v0.4 by sosuinepsixuyu  [assets]
+  30. Improved Distant Shadows and Reflections v0.4 by sosuinepsixuyu  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/20623
       Requires: Inplace Streamingsectors Nulled
-  32. spawn0 - LOD MOD v1.0.1 by spawn0  [assets]
+  31. spawn0 - LOD MOD v1.0.1 by spawn0  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/18925
-  33. Disappearing NPC and Vehicle Fix (Crowd LOD spawn distance) v1.0 by Valour549  [assets]
+  32. Disappearing NPC and Vehicle Fix (Crowd LOD spawn distance) v1.0 by Valour549  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19628
-  34. Increased Level of Details Distance - Draw Distance v5.1 by DBK  [verify]
+  33. Increased Level of Details Distance - Draw Distance v5.1 by DBK  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8694
       Requires: Native Settings UI, Cyber Engine Tweaks
-  35. Alternative Skin Material v1.6 by sosuinepsixuyu  [verify]
+  34. Alternative Skin Material v1.6 by sosuinepsixuyu  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7341
-  36. Disable Fake Lights with Path Tracing v0.5 by sosuinepsixuyu  [verify]
+  35. Disable Fake Lights with Path Tracing v0.5 by sosuinepsixuyu  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/16060
       Requires: Codeware, RED4ext, redscript, Mod Settings
-  37. Fire and Explosions Texture Overhaul v3 by Keen  [assets]
+  36. Fire and Explosions Texture Overhaul v3 by Keen  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/15205
-  38. Trash Begone (Optional Blowing Debris and Cockroach Removal) v1.4.0a by CyanideX  [assets]
+  37. Trash Begone (Optional Blowing Debris and Cockroach Removal) v1.4.0a by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/12269
-  39. High Res Surfaces Textures -  MonstrrMagic Texture Series v3.0 by XilaMonstrr  [assets]
+  38. High Res Surfaces Textures -  MonstrrMagic Texture Series v3.0 by XilaMonstrr  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/10331
-  40. Smoke Texture Overhaul v2 by Keen  [assets]
+  39. Smoke Texture Overhaul v2 by Keen  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/15226
       Requires: Fire and Explosions Texture Overhaul, Exploded Vehicles Smoke Overhaul VFX
-  41. Alternative Hair Material v0.31 by sosuinepsixuyu  [verify]
+  40. Alternative Hair Material v0.31 by sosuinepsixuyu  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/12184
-  42. Jab Begone (Arm Injection Removal) v1.1.0b by CyanideX  [assets]
+  41. Jab Begone (Arm Injection Removal) v1.1.0b by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/9065
-  43. Clear Windows v2.5 by DBK  [2.5]
+  42. Clear Windows v2.5 by DBK  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/13497
-  44. Glow Begone (With variants) v1.1.0c by CyanideX  [assets]
+  43. Glow Begone (With variants) v1.1.0c by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14932
-  45. reFlash 2.0 v2.0 by BabaBooey88  [assets]
+  44. reFlash 2.0 v2.0 by BabaBooey88  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/8233
-  46. Nova LUT 2 - Supernova (AgX - HDR Support) v2.2.1s by CyanideX  [assets]
+  45. Nova LUT 2 - Supernova (AgX - HDR Support) v2.2.1s by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14621
-  47. Smart Frames Enhanced v1.0 by nutboy  [assets]
+  46. Smart Frames Enhanced v1.0 by nutboy  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19500
-  48. Nova Scanner v1.0.2a by CyanideX  [assets]
+  47. Nova Scanner v1.0.2a by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/13434
       Requires: Toggle Sprint While Scanning
-  49. Faster Rainmap and Distant Shadows v0.2 by sosuinepsixuyu  [verify]
+  48. Faster Rainmap and Distant Shadows v0.2 by sosuinepsixuyu  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8610
-  50. No More Milky Glass Plus Eyes AO v2.31 by Mark666DooM  [verify]
+  49. No More Milky Glass Plus Eyes AO v2.31 by Mark666DooM  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/11134
-  51. Improved Bottles and Tableware v0.2 by sosuinepsixuyu  [assets]
+  50. Improved Bottles and Tableware v0.2 by sosuinepsixuyu  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14672
-  52. Enhanced Air Traffic v1.2.0 by tidusmd  [2.5]
+  51. Enhanced Air Traffic v1.2.0 by tidusmd  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20208
       Requires: ArchiveXL, Cyber Engine Tweaks, Native Settings UI
-  53. Improved Vehicle Glass Destruction Effects v0.1 by sosuinepsixuyu  [assets]
+  52. Improved Vehicle Glass Destruction Effects v0.1 by sosuinepsixuyu  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/17837
+  53. Preem Mirrors (Reflective Mirror Materials) v1.3.1 by CyanideX  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/25633
+      Requires: Inplace Streamingsectors Nulled
   54. Realistic Bullet Hole Textures v5 by keen  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/15309
       Requires: Fire and Explosions Texture Overhaul, Smoke Texture Overhaul, reFlash 2.0
-  55. Preem Mirrors (Reflective Mirror Materials) v1.3.1 by CyanideX  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/25633
-      Requires: Inplace Streamingsectors Nulled
-  56. Instant Eye Adaptation - Auto Exposure - CET - Compatible with weather and lighting mods v1.0.0.9 by yakuzadeso  [2.5]
+  55. Instant Eye Adaptation - Auto Exposure - CET - Compatible with weather and lighting mods v1.0.0.9 by yakuzadeso  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/9296
       Requires: Cyber Engine Tweaks
-  57. Eye Adaptation Complete Overhaul - Auto Exposure Fix - Diverse Weather Variant - Optionally Disable Sharpening and Disable Vignette v2.02 by Dravic  [2.5]
+  56. Eye Adaptation Complete Overhaul - Auto Exposure Fix - Diverse Weather Variant - Optionally Disable Sharpening and Disable Vignette v2.02 by Dravic  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/6282
+  57. Microblend Fix v1 by BabaBooey88  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/11971
   58. Ultra Fog Steam Smoke and Bloom... Better and more immersive Cyberpunk v3.1 by SammiLucia  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11811
-  59. Microblend Fix v1 by BabaBooey88  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/11971
-  60. Preem Menu (Background Blur  -  Pause Menu  -  Animated Snow) v1.4.0n by CyanideX  [assets]
+  59. Preem Menu (Background Blur  -  Pause Menu  -  Animated Snow) v1.4.0n by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/18382
       Requires: HUD Painter
-  61. HQ Fruits v1.1 by sosuinepsixuyu  [assets]
+  60. HQ Fruits v1.1 by sosuinepsixuyu  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/8895
-  62. Blind Begone (First Person Driving Auto Exposure Fix) v1.2.0 by CyanideX  [assets]
+  61. Blind Begone (First Person Driving Auto Exposure Fix) v1.2.0 by CyanideX  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/15725
       Requires: Conflict Begone (Archive Conflict Checker - User Mod Support), The Nullifier
-  63. NVFlods vV1 by Nvidiaforever  [assets]
+  62. NVFlods vV1 by Nvidiaforever  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/8440
-  64. Exploded Vehicles Smoke Overhaul VFX v2.02 by cradilyex  [2.5]
+  63. Exploded Vehicles Smoke Overhaul VFX v2.02 by cradilyex  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23861
-  65. Better Tree Textures (and Vegetation) v2.0.0 by shierkbark47  [assets]
+  64. Better Tree Textures (and Vegetation) v2.0.0 by shierkbark47  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14408
-  66. Elite Screens (Ads - Holo) v2.3 by EmreHQ  [assets]
+  65. Elite Screens (Ads - Holo) v2.3 by EmreHQ  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/22805
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Native Settings UI, RED4ext, redscript
-  67. evo LUT v5.12.1 by Sevenence  [assets]
+  66. evo LUT v5.12.1 by Sevenence  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/16161
-  68. ENV Tuner (Weather and Lighting Control Suite) v1.14.0 by CyanideX  -  MisterChedda  [2.5]
+  67. ENV Tuner (Weather and Lighting Control Suite) v1.14.0 by CyanideX  -  MisterChedda  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23079
       Requires: Codeware, Cyber Engine Tweaks, Mod Settings, redscript
-  69. ReLUX Plus (Riders on the Storm) v2.1.0 by CyanideX - MisterChedda  [2.5]
+  68. ReLUX Plus (Riders on the Storm) v2.1.0 by CyanideX - MisterChedda  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22129
       Requires: ArchiveXL, Codeware, redscript, ReImagined
-  70. QoL - Stencil Text Enhanced v1.0.0 by Deceptious  [assets]
+  69. QoL - Stencil Text Enhanced v1.0.0 by Deceptious  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/15154
-  71. Better Rain Ripples v0.1 by sosuinepsixuyu  [assets]
+  70. Better Rain Ripples v0.1 by sosuinepsixuyu  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/17775
+  71. Nova Optics (Gameplay ENV Tuning with Vehicle Exposure Fix) v1.4.2 by theCyanideX  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/29190
+      Requires: Codeware, Cyber Engine Tweaks, redscript, RED4ext
   72. Disable Quest Weather v1.2 by MisterChedda  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21214
       Requires: redscript, Codeware, Mod Settings
-  73. Nova Optics (Gameplay ENV Tuning with Vehicle Exposure Fix) v1.4.2 by theCyanideX  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/29190
-      Requires: Codeware, Cyber Engine Tweaks, redscript, RED4ext
-  74. METRO GLASS v1.0 by BabaBooey88  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/11885
-  75. ReFRACT (Interior Vehicle Reflections - Material Refractions) v1.5.1 by CyanideX  [2.5]
+  73. ReFRACT (Interior Vehicle Reflections - Material Refractions) v1.5.1 by CyanideX  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/34858
       Requires: Blur Begone (Clear Materials), redscript, RED4ext, Codeware
-  76. Ray Traced Lighting Fixes v0.5 by sosuinepsixuyu  [2.5]
+  74. METRO GLASS v1.0 by BabaBooey88  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/11885
+  75. Ray Traced Lighting Fixes v0.5 by sosuinepsixuyu  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/29720
-  77. Classic Cigarettes (HD Textures and Meshes Replacer) v1.3 by noha7ers  [assets]
+  76. Classic Cigarettes (HD Textures and Meshes Replacer) v1.3 by noha7ers  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/12838
-  78. Game World Boundary Removed v1.1 by DBK  [2.5]
+  77. Game World Boundary Removed v1.1 by DBK  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20876
       Requires: ArchiveXL, RED4ext
-  79. Emotional Vision 2077 v1.2.1 by htanjo  [assets]
+  78. Emotional Vision 2077 v1.2.1 by htanjo  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14467
-  80. Weather Randomiser v1.4.1 by Halliphax2  [assets]
+  79. Weather Randomiser v1.4.1 by Halliphax2  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/4388
-  81. Universal Raytraced Player Shadows v1.0.3 by KiasuBurger  [verify]
+  80. Universal Raytraced Player Shadows v1.0.3 by KiasuBurger  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/16849
       Requires: redscript, Codeware
-  82. Ugly Building Removed (E3) v0.16 by sosuinepsixuyu  [2.5]
+  81. Ugly Building Removed (E3) v0.16 by sosuinepsixuyu  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16419
       Requires: ArchiveXL, RED4ext, Inplace Streamingsectors Nulled
-  83. Draw Distance ReImagined v0.9.6 by robber804  [2.5]
+  82. Draw Distance ReImagined v0.9.6 by robber804  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/27210
       Requires: ArchiveXL, Better Lanterns, Codeware, Mod Settings, More Detailed HD Animated Crosswalks, redscript, Loud Noises Fix - Audio Pool Fix
-  84. HQ Holo Travel v2.26 by EmreHQ  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/21149
-      Requires: ArchiveXL, Codeware, Native Settings UI, RED4ext, redscript, Cyber Engine Tweaks
-  85. HD Tattoos v1.0 by f80h  [assets]
+  83. HD Tattoos v1.0 by f80h  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14307
-  86. Clear Windows - Cars Edition v2.5 by DBK  [2.5]
+  84. Clear Windows - Cars Edition v2.5 by DBK  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/13529
-  87. Judy's Cone Lights No More v0.2 by sosuinepsixuyu  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/12893
-      Requires: RED4ext, ArchiveXL
-  88. Orbital Air Traffic Enhanced v1.1.2 by Deceptious  [2.5]
+  85. Orbital Air Traffic Enhanced v1.1.2 by Deceptious  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/31355
-  89. NC Mediascape Enhancer v1.2 by Proxima Dust  [2.5]
+  86. NC Mediascape Enhancer v1.2 by Proxima Dust  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/24453
       Requires: ArchiveXL, Cyber Engine Tweaks
-  90. More Detailed HD Animated Crosswalks v2.1 by curiousrobot  [assets]
+  87. More Detailed HD Animated Crosswalks v2.1 by curiousrobot  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/26972
-  91. Clear Rain v1.4.1 by Ak3nax  [2.5]
+  88. Clear Rain v1.4.1 by Ak3nax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/13477
-  92. More Smart Frames in V's Apartments v1.1 by BarnieSandlers69  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/18384
-      Requires: ArchiveXL, V's Edgerunners Mansion - Apartment DLC
-  93. High Resolution Garment Preview v1.0 by glek39  [assets]
+  89. High Resolution Garment Preview v1.0 by glek39  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/21745
-  94. Visual Effects Fixes v0.2 by sosuinepsixuyu  [2.5]
+  90. Visual Effects Fixes v0.2 by sosuinepsixuyu  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/35461
-  95. Better Lanterns vv1.0.1 by orangeguy  [assets]
+  91. Better Lanterns vv1.0.1 by orangeguy  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/23639
-  96. Manually Enhanced Rain FX - Particles Textures Lighting and More v1.1.01 by TheArtificialEnhancer  [assets]
+  92. Manually Enhanced Rain FX - Particles Textures Lighting and More v1.1.01 by TheArtificialEnhancer  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/8084
       Requires: Nova LUT 4.0 (AgX - New HDR)
-  97. H10 street fix v2.0 by NicolasBsst  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/21252
-  98. Starry Night City v2.0 by NIGHT-BIRD  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/18270
-  99. True First Person Camera 2.0 v9.1.1 by DigitalVixen  [2.5]
+  93. True First Person Camera 2.0 v9.1.1 by DigitalVixen  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/30558
       Requires: Codeware, DigitalVixen Core, RED4ext, RedFunctions, RedLogger, redscript, Redscript Configuration Framework, RedWindows, TweakXL
- 100. Praedy's 77 retexture v1.1 by Praedyth  [assets]
+  94. Starry Night City v2.0 by NIGHT-BIRD  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/18270
+  95. Praedy's 77 retexture v1.1 by Praedyth  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19626
- 101. Character Rendering Editor - Real-time Control on Skin Hair Eyes for more Realistic Shaders - Cyber Engine Tweaks v3 by Arkhe0  [verify]
+  96. Character Rendering Editor - Real-time Control on Skin Hair Eyes for more Realistic Shaders - Cyber Engine Tweaks v3 by Arkhe0  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/32842
       Requires: Cyber Engine Tweaks
- 102. NPC LoD Tweak (for PT) v1.0 by MorningSpice  [assets]
+  97. NPC LoD Tweak (for PT) v1.0 by MorningSpice  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19926
- 103. Canyon Fixes v1.2.1 by Kaoziun  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/25918
-      Requires: ArchiveXL, TweakXL, Native Settings UI
- 104. Organic_Hair - Rendering Control Suite v2.32.01 by biomax  [verify]
+  98. Organic_Hair - Rendering Control Suite v2.32.01 by biomax  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21476
       Requires: Cyber Engine Tweaks
- 105. Automatic Love Visuals Restored v0.1 by sosuinepsixuyu  [assets]
+  99. Automatic Love Visuals Restored v0.1 by sosuinepsixuyu  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/20124
- 106. Air Traffic Dupe Fix v1.0.0 by Deceptious  [assets]
+ 100. Air Traffic Dupe Fix v1.0.0 by Deceptious  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/31304
- 107. NPC ReTexture Project v1.1 by Keen  [assets]
+ 101. NPC ReTexture Project v1.1 by Keen  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/10144
- 108. CyberLighting mod E3 2018 demo restoration project v3.0 by Essenthy  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/9138
-      Requires: E3 2018 Roads
- 109. Better Traffic Lights v1.0.0 by shierkbark47  [assets]
+ 102. Better Traffic Lights v1.0.0 by shierkbark47  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/14316
- 110. City of Dreams Menu Backgrounds v1.5 by 2077v2  [assets]
+ 103. City of Dreams Menu Backgrounds v1.5 by 2077v2  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/8333
       Requires: Cyber Engine Tweaks, TweakXL, ArchiveXL, RED4ext, redscript, Codeware, Input Loader
- 111. Night City Immersive Debris v1.3.1 by Tanzu15  [2.5]
+ 104. Dog Town Upscaled Lasers 2k v1.0 by AK47OG  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/11562
+ 105. Realcolorr III - Purely Natural LUT - Open Alpha Preview vIII-Alpha by xtaltha - nullsilv  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/12033
+ 106. 4x HQ Posters v3.0--1.3 by EmreHQ  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/14305
+      Requires: 4x Poster Framework
+ 107. Night City Immersive Debris v1.3.1 by Tanzu15  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20544
- 112. SPC TV Screen (Silver Pixel Cloud Drive-In Theater) v1.0 by dmiitryx  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/14927
-      Requires: ArchiveXL, QoL - Higher TV Quality, SPC Open (Silver Pixel Cloud Drive-In Theater)
- 113. Night City Flooded - Water Planes Across the Map with Options v2.3 by Kaoziun  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/25770
-      Requires: ArchiveXL, Native Settings UI, TweakXL, Game World Boundary Removed
- 114. Cyberpunk Render Tweaks v1.0.2 by dimkatet  [2.5]
+ 108. Big Hologram Ads v1.01 by ArmanIII  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/20984
+      Requires: ArchiveXL
+ 109. Highway H10 Rework v1.4 by NicolasBsst  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/21424
+ 110. Aerix LUT - Photorealism v1.4 by IC3M0VE - aefly  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/25836
+      Requires: The Nullifier
+ 111. Cyberpunk Render Tweaks v1.0.2 by dimkatet  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/33943
       Requires: RED4ext, Cyber Engine Tweaks
- 115. E3 2018 Roads v0.0.3 by NeHooYeY  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/17760
-      Requires: ArchiveXL, Inplace Streamingsectors Nulled
 
 ==============================================================================
 9. CHARACTER, CLOTHING & APPEARANCE (164 mods)
 ==============================================================================
 
-   1. Equipment-EX v1.3.0 by psiberx and DJ_Kovrik  [2.5]
+   1. Equipment-EX v1.3.1 by psiberx and DJ_Kovrik  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/6945
       Requires: ArchiveXL, Codeware, RED4ext, redscript, TweakXL
-   2. ACU - Character Preset Manager v4.1.1 by PotatoOfDoom  [2.5]
+   2. ACU - Character Preset Manager v4.1.4 by PotatoOfDoom  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/3850
       Requires: Codeware, RED4ext, redscript, ArchiveXL
    3. Arasaka Cyberarms v4.8.1 by Aanderz  [assets]
@@ -2490,12 +2435,12 @@ Contents:
   45. DBRV n Co Virtual Store v4.8 by DBRV  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7848
       Requires: Virtual Atelier
-  46. Eyelashes and colors v2 by AnruiMurasaki  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/3595
-      Requires: ArchiveXL
-  47. Rockergirl Atelier - Atelier Shop v2.33 by Zwei  [verify]
+  46. Rockergirl Atelier - Atelier Shop v2.33 by Zwei  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/4717
       Requires: redscript, Virtual Atelier, RED4ext, Codeware
+  47. Eyelashes and colors v2 by AnruiMurasaki  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/3595
+      Requires: ArchiveXL
   48. M50 Military Gas Mask - ArchiveXL (2.0) v2.1 by ScorpionTank  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/21307
   49. Unique Eyes - Core - 2.2 - Temporary update mod v1.00 by Halvkyrie and EKT  [assets]
@@ -2522,20 +2467,20 @@ Contents:
       Requires: ArchiveXL
   57. Zenitex Combat T-Shirt - ArchiveXL v1.3 by ScorpionTank - NotMayoSan  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/26406
-  58. Arasaka Gymwear Top Archive XL v1.2 by EzioMaverick  [verify]
+  58. Modular Military Combat Helmet - ArchiveXL (2.0) v2.2 by ScorpionTank  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/24094
+  59. Arasaka Gymwear Top Archive XL v1.2 by EzioMaverick  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/4890
       Requires: ArchiveXL, RED4ext, TweakXL, Codeware, Cyber Engine Tweaks, Equipment-EX, NC Fashion Virtual Atelier, redscript
-  59. Modular Military Combat Helmet - ArchiveXL (2.0) v2.2 by ScorpionTank  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/24094
   60. Beautiful IRIS II - CCXL Realistic Eyes Texture - Both V v1.0 by Arkhe  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/15176
       Requires: ArchiveXL, TweakXL, Heterochromia Eyes - CCXL
-  61. French Secretary - Archive XL v1.2 by Hyst  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/13446
-      Requires: ArchiveXL, French Glam - Virtual Atelier Store, TweakXL
-  62. Valentino Harness and Holsters - Fem Masc V (ArchiveXL) v2.02 by raem  [verify]
+  61. Valentino Harness and Holsters - Fem Masc V (ArchiveXL) v2.02 by raem  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18100
       Requires: ArchiveXL, Equipment-EX, The Community Palette Project, TweakXL, Visual Holsters (Edgerunners 2 Update)
+  62. French Secretary - Archive XL v1.2 by Hyst  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/13446
+      Requires: ArchiveXL, French Glam - Virtual Atelier Store, TweakXL
   63. Nola Dreamer's One shoulder shirt ARCHIVE XL v1.2 by NolaDreamer  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/7267
   64. Lizzy Suit - Archive XL v1.2 by Hyst  [verify]
@@ -2548,12 +2493,12 @@ Contents:
   67. 707 Tactical Virtual Atelier Store v2.5 by 707Tactical  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11529
       Requires: ArchiveXL, Codeware, RED4ext, redscript, TweakXL, Virtual Atelier
-  68. Combat Vest Archive XL v1.1 by DBRV x EzioMaverick  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/5033
-      Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Equipment-EX, NC Fashion Virtual Atelier, RED4ext, redscript, TweakXL
-  69. Songbird Hands for Fem and Masc V (Compatible with Valentino Arms) v2.4.0 by KiasuBurger  [2.5]
+  68. Songbird Hands for Fem and Masc V (Compatible with Valentino Arms) v2.4.0 by KiasuBurger  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16231
       Requires: ArchiveXL, Equipment-EX, KiasuBurger Cyberware Core, TweakXL
+  69. Combat Vest Archive XL v1.1 by DBRV x EzioMaverick  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/5033
+      Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Equipment-EX, NC Fashion Virtual Atelier, RED4ext, redscript, TweakXL
   70. Jinguji Personal Shopping Service - Virtual Atelier v2.11 by Eye of Center  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8318
       Requires: redscript, Virtual Atelier
@@ -2566,21 +2511,21 @@ Contents:
   73. AXELLYSSE VIRTUAL ATELIER vv5.3 by Axellysse  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/16990
       Requires: Virtual Atelier
-  74. Bomber Jackets - Fem Masc V (ArchiveXL) v1.2 by raem  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/19132
-      Requires: ArchiveXL, TweakXL, The Community Palette Project, Equipment-EX
-  75. Accessory and Jewelry Collection - Fem Masc V v1.01 by raem  [verify]
+  74. Accessory and Jewelry Collection - Fem Masc V v1.01 by raem  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/24327
+      Requires: ArchiveXL, TweakXL, The Community Palette Project, Equipment-EX
+  75. Bomber Jackets - Fem Masc V (ArchiveXL) v1.2 by raem  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/19132
       Requires: ArchiveXL, TweakXL, The Community Palette Project, Equipment-EX
   76. Nola x Veegee  x Aquelyras - Lethal Outfit - Archive XL v1.2 by Nola x Veegee x Aquelyras  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/15867
   77. Nola Dreamer's over-knee socks - ARCHIVE XL v1.1 by NolaDreamer  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/8091
-  78. Nemies Closet v1.12 by Nemiepies  [verify]
+  78. E3 2018 Samurai Jacket v2.0 by Spookie  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/1124
+  79. Nemies Closet v1.12 by Nemiepies  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/13605
       Requires: ArchiveXL, Equipment-EX, TweakXL, Virtual Atelier
-  79. E3 2018 Samurai Jacket v2.0 by Spookie  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/1124
   80. Valentino Cyber Arms for Masc and Fem V with support for UV and VTK body mods v2.2.1 by KiasuBurger  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/15123
       Requires: ArchiveXL, Equipment-EX, KiasuBurger Cyberware Core, TweakXL
@@ -2651,11 +2596,11 @@ Contents:
       Requires: ArchiveXL, Equipment-EX, TweakXL, KiasuBurger Cyberware Core
  105. Sweater Outfit - Archive XL v1.1 by Hyst  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18969
- 106. Nola Dreamer's casual outfit - Archive XL v1.2 by NolaDreamer  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/8592
- 107. Consumable Animations v1.1.3-for-2.31 by Dark Fortune Teller  [verify]
+ 106. Consumable Animations v1.1.3-for-2.31 by Dark Fortune Teller  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/26762
       Requires: ArchiveXL, Codeware, Mod Settings, RED4ext, redscript, TweakXL, Input Loader
+ 107. Nola Dreamer's casual outfit - Archive XL v1.2 by NolaDreamer  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/8592
  108. MAKEUP ENHANCER - Realistic Eyeshadows and Eyeliners - Noise Decal Fix - Both V - NPCs v1 by Arkhe0  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/28869
  109. Veegee Phoenicia Hair 17 v1.0 by Veegee  [assets]
@@ -2684,34 +2629,34 @@ Contents:
  118. Lime Atelier v2.9 by Limerence  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/16616
       Requires: Virtual Atelier
- 119. Company Man v3.6 by Aanderz  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/2156
-      Requires: ArchiveXL, TweakXL, Cyber Engine Tweaks
- 120. EVERYDAY COLLECTION - CCXL HAIR v4 by meluminary  [assets]
+ 119. EVERYDAY COLLECTION - CCXL HAIR v4 by meluminary  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19863
       Requires: ArchiveXL
- 121. Peachu - Hair Collection - CCXL v2 by Peachu  [assets]
+ 120. Peachu - Hair Collection - CCXL v2 by Peachu  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/20175
       Requires: ArchiveXL, TweakXL
- 122. The Bean Box - Virtual Atelier Store v3.0 by beaniebby  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/12765
-      Requires: Virtual Atelier
- 123. Beautiful EYEBROWS II - CCXL - Realistic Textures - BOTH V v1.0 by Arkhe  [assets]
+ 121. Company Man v3.6 by Aanderz  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/2156
+      Requires: ArchiveXL, TweakXL, Cyber Engine Tweaks
+ 122. Beautiful EYEBROWS II - CCXL - Realistic Textures - BOTH V v1.0 by Arkhe  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/26168
       Requires: ArchiveXL
- 124. Nola Dreamer's Cold Shoulder Outfit - archive XL v1.3 by NolaDreamer  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/17754
- 125. Nola Dreamer's Lingerie Bodysuit - archive XL v1.2 by NolaDreamer  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/19048
- 126. Arasaka Sportswear Archive XL v1.3 by EzioMaverick  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/4664
-      Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Equipment-EX, NC Fashion Virtual Atelier, RED4ext, redscript, TweakXL
- 127. More Head and Body Meshes - ArchiveXL v1.1 by nutboy  [assets]
+ 123. The Bean Box - Virtual Atelier Store v3.0 by beaniebby  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/12765
+      Requires: Virtual Atelier
+ 124. More Head and Body Meshes - ArchiveXL v1.1 by nutboy  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/22380
       Requires: ArchiveXL
- 128. Immersion Patch - NCART Train Motion Fixes v1.4.1 by anygoodname  [2.5]
+ 125. Nola Dreamer's Cold Shoulder Outfit - archive XL v1.3 by NolaDreamer  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/17754
+ 126. Immersion Patch - NCART Train Motion Fixes v1.4.1 by anygoodname  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/24914
       Requires: ArchiveXL
+ 127. Nola Dreamer's Lingerie Bodysuit - archive XL v1.2 by NolaDreamer  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/19048
+ 128. Arasaka Sportswear Archive XL v1.3 by EzioMaverick  [verify]
+      https://www.nexusmods.com/cyberpunk2077/mods/4664
+      Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Equipment-EX, NC Fashion Virtual Atelier, RED4ext, redscript, TweakXL
  129. Nola Dreamer's Harmonia outfit - archive XL v1.3 by NolaDreamer  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18349
  130. Long Coat and Mid-Length Coat - ArchiveXL (fem V) v0.12 by CD PROJEKT RED and yellingintothevoid  [verify]
@@ -2736,20 +2681,20 @@ Contents:
       Requires: Morphtarget and AnimRig Additions
  137. CC Cyberpunk. High-Tech - Eyes pack v1.2 by BenedictClarkson  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11863
- 138. Your cute neighbor's hair hairpack for FemV vV2.0 by Svay  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/3800
- 139. Beautiful IRIS - CCXL Realistic Eyes Texture - Both V v1.0 by Arkhe  [verify]
+ 138. Beautiful IRIS - CCXL Realistic Eyes Texture - Both V v1.0 by Arkhe  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/14009
       Requires: ArchiveXL, TweakXL, Heterochromia Eyes - CCXL
+ 139. Your cute neighbor's hair hairpack for FemV vV2.0 by Svay  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/3800
  140. Cyber Neck for V -CCXL- v2 by SEDTHSEDTHTANANURAK  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/26675
       Requires: Multilayer Material Xtender, ArchiveXL, RED4ext
- 141. Beanie's CCXL Salon Bobs Edition - 12 Fem V Hairstyles v1.0 by beanie  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/19688
-      Requires: ArchiveXL, Elsi Hair Texture Base
- 142. Corpo Clothing Virtual Atelier v1.18 by Sumi  [verify]
+ 141. Corpo Clothing Virtual Atelier v1.18 by Sumi  [verify]
       https://www.nexusmods.com/cyberpunk2077/mods/18044
       Requires: Virtual Atelier
+ 142. Beanie's CCXL Salon Bobs Edition - 12 Fem V Hairstyles v1.0 by beanie  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/19688
+      Requires: ArchiveXL, Elsi Hair Texture Base
  143. Elsi Hair Texture Base v2.0 by beanie  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/19689
  144. ELLA SOFT BOB - CCXL HAIR v1 by meluminary  [assets]
@@ -2897,13 +2842,13 @@ Contents:
       Requires: Cyber Engine Tweaks, RadioExt
   33. Louder V and NPCs Footsteps v5 by YG  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11408
-  34. Blade Runner ringtone and SMS sound replacer (updated to game version 2.31) v1.2 by byt3m  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/14081
-  35. Mute TV Ads v10 by YG  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/10665
-  36. AudioXL - Equalizers - Volume - Mute v0.9.2 by DigitalVixen and Spuddeh  [2.5]
+  34. AudioXL - Equalizers - Volume - Mute v0.9.2 by DigitalVixen and Spuddeh  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/35310
       Requires: AudioXL, Redscript Configuration Framework
+  35. Blade Runner ringtone and SMS sound replacer (updated to game version 2.31) v1.2 by byt3m  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/14081
+  36. Mute TV Ads v10 by YG  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/10665
   37. SDH0's Vehicle Audio v1.8.1 by SDH0  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/34861
   38. CrossWALK Audio Restoration v1.0 by Sirrus233  [verify]
@@ -2928,10 +2873,10 @@ Contents:
       https://www.nexusmods.com/cyberpunk2077/mods/16926
   46. SilverWolf(Honkai Star rail)-AI Voice Mod for femV v1.0 by rinflan  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/11928
-  47. Restore v1.63 NCPD Police Siren v5 by YG  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/11666
-  48. Louder V's Footsteps v4 by YG  [2.5]
+  47. Louder V's Footsteps v4 by YG  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/11420
+  48. Restore v1.63 NCPD Police Siren v5 by YG  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/11666
   49. NCPD siren to US police siren v1.0 by neburas  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/9806
   50. REAL CYBERPUNK MUSIC RADIO - RadioExt Version v2.0 by Brandoman and messiahgov  [assets]
@@ -2959,158 +2904,92 @@ Contents:
       https://www.nexusmods.com/cyberpunk2077/mods/13678
   59. NCPD siren volume up v1.0 by neburas  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/3141
-  60. 106.5 Fishwave FM v2.0 by GreatBlueWhale  [assets]
+  60. Lobby Talk - Pedantic Correction v1.0 by sirrus233  [assets]
+      https://www.nexusmods.com/cyberpunk2077/mods/29258
+  61. 106.5 Fishwave FM v2.0 by GreatBlueWhale  [assets]
       https://www.nexusmods.com/cyberpunk2077/mods/5135
       Requires: RadioExt
-  61. Lobby Talk - Pedantic Correction v1.0 by sirrus233  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/29258
 
 ==============================================================================
-11. QUESTS & NEW CONTENT (51 mods)
+11. QUESTS & NEW CONTENT (28 mods)
 ==============================================================================
 
-   1. H10 Apartment E3 Advertisements v2.0.0 by Sammmy1036  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/11596
-      Requires: ArchiveXL, RED4ext
-   2. H10 Elevator Expanded v2.1 by ThaFunktopus  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/19792
-      Requires: ArchiveXL, Native Interactions Framework
-   3. Improved Aldecaldos Camp v1.6.0 by Akiway  [2.5]
+   1. Improved Aldecaldos Camp v1.6.0 by Akiway  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/13821
       Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework, Native Settings UI
-   4. 7th Hell Club Unlocked and Remastered v1.2 by RoxterFox  [2.5]
+   2. 7th Hell Club Unlocked and Remastered v1.2 by RoxterFox  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/27207
-   5. H10 Apartment - Open Bedroom Window v1.1.1 by YouCutDream  [2.5]
+   3. H10 Apartment - Open Bedroom Window v1.1.1 by YouCutDream  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/24845
       Requires: ArchiveXL, Native Interactions Framework
-   6. Japantown North Verticality Expanded v1.5.2 by Lord Trilobite  [2.5]
+   4. Japantown North Verticality Expanded v1.5.2 by Lord Trilobite  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/25441
       Requires: ArchiveXL, Native Interactions Framework, RED4ext
-   7. The Atlantis - Restored v1.5 by nutboy  [2.5]
+   5. The Atlantis - Restored v1.5 by nutboy  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/20072
       Requires: ArchiveXL, VendorsXL, Native Interactions Framework
-   8. Rebeccas Edgerunners Apartment DLC v2.2 by Kratoes  [2.5]
+   6. Rebeccas Edgerunners Apartment DLC v2.2 by Kratoes  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/18777
       Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework
-   9. Kabuki Diner Apartment v1.1 by nutboy  [2.5]
+   7. Kabuki Diner Apartment v1.1 by nutboy  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/24577
       Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework, TweakXL
-  10. Pacifica Enhanced v1.2 by WhiteRabbit0110  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/21848
-      Requires: ArchiveXL
-  11. Arasaka Estate Unlocked v1.2 by deleted189967593  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/13751
-      Requires: ArchiveXL
-  12. Lucy Apartment Remastered 2025 v1.4 by t1993810  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/23239
-      Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Native Interactions Framework, RED4ext
-  13. Ghosts of Night City - Small Immersive Encounters v2.21 by CCLordShen  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22321
-  14. Japantown North Penthouse - Player Apartment v1.2.1 by LordTrilobite  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/26587
-      Requires: ArchiveXL, Japantown North Verticality Expanded, Native Interactions Framework, Native Settings UI, RED4ext
-  15. Canyon Explorer v1.0.3 by Oranje3  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/25617
-      Requires: ArchiveXL, Canyon Fixes, Oranje3 Mod Resource Pack
-  16. EL Cojote Cojo Unlocked v1.2 by RoxterFox  [2.5]
+   8. EL Cojote Cojo Unlocked v1.2 by RoxterFox  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/27123
-  17. Konpeki Plaza Unlocked 2.5 v2.5.1 by dmiitryx  [2.5]
+   9. Konpeki Plaza Unlocked 2.5 v2.5.1 by dmiitryx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19976
       Requires: ArchiveXL
-  18. Echoes of Joy - Small Immersive Encounters v2.22 by CCLordShen  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22717
-      Requires: ArchiveXL
-  19. Open Night City v0.9.9 by Halliphax2  [2.5]
+  10. Open Night City v1.0 by Halliphax2  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/14769
       Requires: ArchiveXL, RED4ext, Cyber Engine Tweaks
-  20. Echos of Loss - Immersive Encounters v2.21 by CCLordShen  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22378
-      Requires: ArchiveXL
-  21. People of Night City - Small Immersive Encounters v2.21 by CCLordShen  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22424
-      Requires: ArchiveXL
-  22. DBRV Memorial - Goodbye to a friend v1.0 by The Cyberpunk Modding Community  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/23820
-      Requires: ArchiveXL
-  23. E3 Open Police Station v2.3 by NicolasBsst  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/21152
-      Requires: H10 street fix
-  24. Heavy Hearts Club Unlocked v1.3 by RoxterFox  [2.5]
+  11. Heavy Hearts Club Unlocked v1.3 by RoxterFox  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/27108
-  25. Gomorrah Night Club v3.0 by LiquidBronze  [2.5]
+  12. Gomorrah Night Club v3.0 by LiquidBronze  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/23350
       Requires: ArchiveXL, Codeware, Cyber Engine Tweaks, Native Interactions Framework, RED4ext, redscript, TweakXL, VendorsXL
-  26. Japantown Garage v1.0.4 by Sammmy1036  [2.5]
+  13. Japantown Garage v1.0.4 by Sammmy1036  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/19850
       Requires: ArchiveXL, Codeware, RED4ext
-  27. Ghosts of Night City Pt 2 - Small Immersive Encounters v2.21 by CCLordShen  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/22600
-      Requires: ArchiveXL
-  28. A Gift For Jack - Columbarium v1.0 by Noraxou  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/20952
-  29. Canyon Bridge v1.0.4 by Oranje3  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/25611
-      Requires: ArchiveXL, Canyon Explorer, Canyon Fixes, Oranje3 Mod Resource Pack
-  30. V's Edgerunners Mansion Reloaded v1.1 by Kaoziun  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/26023
-      Requires: ArchiveXL, TweakXL, Native Interactions Framework
-  31. SPC Open (Silver Pixel Cloud Drive-In Theater) v2.5 by dmiitryx  [2.5]
+  14. SPC Open (Silver Pixel Cloud Drive-In Theater) v2.5 by dmiitryx  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/14339
       Requires: ArchiveXL
-  32. Glen Apartment Expanded - Redux v1.4 by ThaFunktopus  [2.5]
+  15. Glen Apartment Expanded - Redux v1.4 by ThaFunktopus  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/24075
       Requires: ArchiveXL, Native Interactions Framework
-  33. Canyon construction ramp v1.0.2 by Oranje3  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/27013
-      Requires: ArchiveXL, Canyon Bridge, Canyon Explorer, Canyon Fixes, Oranje3 Mod Resource Pack
-  34. Afterlife Unlocked and Remastered v1.3 by RoxterFox  [2.5]
+  16. Afterlife Unlocked and Remastered v1.3 by RoxterFox  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/27242
-  35. H10 Apartment Number v1.0 by MisterChedda  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/24555
-      Requires: ArchiveXL
-  36. Judy's Lake House - Player Apartment v1.0 by nutboy  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/21549
-      Requires: ArchiveXL, Codeware, Native Interactions Framework
-  37. Improved Northside Motel v2.1.3 by unthinkthis  [2.5]
+  17. Improved Northside Motel v2.1.3 by unthinkthis  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/16387
       Requires: ArchiveXL, Native Interactions Framework
-  38. World Objects Removed v1.50 by LiquidBronze  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/19615
-      Requires: ArchiveXL
-  39. Road Name Sign Fixes and Additions v4 by alexf13e  [2.5]
-      https://www.nexusmods.com/cyberpunk2077/mods/32656
-  40. Crunch Plaza Restoration v0.4.6a by YouCutDream  [2.5]
+  18. Crunch Plaza Restoration v0.4.6a by YouCutDream  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/25795
       Requires: ArchiveXL
-  41. Better Buildings - Preview (2.31) v0.13 by Kratoes  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/18822
-      Requires: ArchiveXL
-  42. Outdoor V - Canyon Forest v1.2 by Kaoziun  [verify]
-      https://www.nexusmods.com/cyberpunk2077/mods/27131
-      Requires: Canyon construction ramp, Canyon Explorer, Canyon Fixes, Native Settings UI, Night City Flooded - Water Planes Across the Map with Options, Wind Begone (foliage shadow bug workaround), Better Tree Textures (and Vegetation)
-  43. Kerry's Residence - Cleaned Up (plus Smart Frames Addon) v1.4 by RipperMax  [2.5]
+  19. Road Name Sign Fixes and Additions v4 by alexf13e  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/32656
+  20. Kerry's Residence - Cleaned Up (plus Smart Frames Addon) v1.4 by RipperMax  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/12009
       Requires: ArchiveXL
-  44. Locations Unlocked - Hammer - Half Year Montage - Zen BD locations - Firestarter v1.3.0 by Deceptious  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/21879
-      Requires: ArchiveXL, Deceptious Quest Core, FreeFly (Noclip)
-  45. Sit at netrunner chair - Extended v1.0 by juiiicy00  [?]
+  21. Sit at netrunner chair - Extended v1.0 by juiiicy00  [?]
       https://www.nexusmods.com/cyberpunk2077/mods/27473
       Requires: Native Interactions Framework
-  46. V's Apartment (H10) - Cleaned Stripped and Hairless v2.6.0 by manavortex  [2.5]
+  22. V's Apartment (H10) - Cleaned Stripped and Hairless v2.6.0 by manavortex  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/10464
       Requires: ArchiveXL
-  47. Marmur Bank (Watson District Branch) v2.5 by LiquidBronze  [2.5]
+  23. Marmur Bank (Watson District Branch) v2.5 by LiquidBronze  [2.5]
       https://www.nexusmods.com/cyberpunk2077/mods/22048
       Requires: ArchiveXL
-  48. Konpeki Plaza Unlocked v1.1 by deleted189967593  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/13180
-      Requires: ArchiveXL
-  49. Immersive E3 NC Fixes and Improvements ( 2.5 Compatible ) v1.1 by FilipG86  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/28990
-  50. More Interactions - The Glen v1.01 by krat0es  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/21571
+  24. Yucca Restored v2.5 by dmiitryx  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/21298
+      Requires: ArchiveXL, TweakXL
+  25. Asian Corpo Plaza apartment - archivexl v1.1.3 by unthinkthis  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/20337
       Requires: ArchiveXL, Native Interactions Framework
-  51. Yacht in Downtown v1.0 by dmiitryx  [assets]
-      https://www.nexusmods.com/cyberpunk2077/mods/20231
+  26. Militech Regional Headquarters (Militech Tower) v2.0 by LiquidBronze  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/24779
+      Requires: ArchiveXL, Cyber Engine Tweaks, Native Interactions Framework, Codeware, RED4ext, redscript, TweakXL
+  27. Tropical Kid's apartment - Northside - archivexl v1.4 by unthinkthis  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/16383
+      Requires: ArchiveXL, Native Interactions Framework
+  28. Konpeki Plaza Restored v2.5 by dmiitryx  [2.5]
+      https://www.nexusmods.com/cyberpunk2077/mods/21481
       Requires: ArchiveXL

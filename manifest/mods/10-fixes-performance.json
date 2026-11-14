@@ -12,7 +12,7 @@
         "red4ext"
       ],
       "author": "Jack Humbert",
-      "endorsements": 64987,
+      "endorsements": 65064,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -39,14 +39,14 @@
       "priority": "recommended",
       "required": false,
       "author": "DeweySalt and Papayu",
-      "endorsements": 44316,
+      "endorsements": 44337,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 176949,
+        "fileId": 178339,
         "name": "Save Editor (Project CyberCAT-SimpleGUI) (AIO)",
         "version": "0.30.1",
-        "uploaded": "2026-11-11",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Save editor for Cyberpunk 2077, including patch 2.5: player stats, perks, cyberware, inventory, appearance, vehicles and quest facts. Requires the .NET 10 Desktop Runtime.",
@@ -59,7 +59,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Aanderz",
-      "endorsements": 18721,
+      "endorsements": 18736,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -80,7 +80,7 @@
       "priority": "recommended",
       "required": false,
       "author": "SketchCritic",
-      "endorsements": 17218,
+      "endorsements": 17232,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -104,7 +104,7 @@
         "cet"
       ],
       "author": "Silverhandsome",
-      "endorsements": 16658,
+      "endorsements": 16666,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -128,7 +128,7 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 11739,
+      "endorsements": 11749,
       "nexusCategory": "Miscellaneous",
       "compat": "script-verify",
       "mainFile": {
@@ -154,7 +154,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Red Modding Tools",
-      "endorsements": 7098,
+      "endorsements": 7109,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -175,7 +175,7 @@
       "priority": "recommended",
       "required": false,
       "author": "rfuzzo",
-      "endorsements": 5152,
+      "endorsements": 5157,
       "nexusCategory": "Utilities",
       "compat": "unknown",
       "mainFile": {
@@ -197,7 +197,7 @@
         "virtual-atelier"
       ],
       "author": "PinkyDude",
-      "endorsements": 5151,
+      "endorsements": 5154,
       "nexusCategory": "Miscellaneous",
       "compat": "script-verify",
       "mainFile": {
@@ -227,7 +227,7 @@
         "archivexl"
       ],
       "author": "TiGames128",
-      "endorsements": 4942,
+      "endorsements": 4947,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -248,7 +248,7 @@
       "priority": "recommended",
       "required": false,
       "author": "instanity",
-      "endorsements": 4851,
+      "endorsements": 4857,
       "nexusCategory": "Miscellaneous",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -277,7 +277,7 @@
         "redscript"
       ],
       "author": "psiberx",
-      "endorsements": 4768,
+      "endorsements": 4790,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -303,7 +303,7 @@
         "the-nullifier"
       ],
       "author": "CyanideX",
-      "endorsements": 4245,
+      "endorsements": 4265,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -329,7 +329,7 @@
       "priority": "recommended",
       "required": false,
       "author": "manavortex",
-      "endorsements": 3267,
+      "endorsements": 3270,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -351,7 +351,7 @@
         "virtual-atelier"
       ],
       "author": "PinkyDude",
-      "endorsements": 3138,
+      "endorsements": 3140,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -370,7 +370,7 @@
       "priority": "recommended",
       "required": false,
       "author": "rfuzzo",
-      "endorsements": 3132,
+      "endorsements": 3133,
       "nexusCategory": "Utilities",
       "compat": "unknown",
       "mainFile": {
@@ -392,7 +392,7 @@
         "cet"
       ],
       "author": "CyanideX",
-      "endorsements": 2964,
+      "endorsements": 2978,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -423,7 +423,7 @@
         "cet"
       ],
       "author": "Deceptious",
-      "endorsements": 2156,
+      "endorsements": 2170,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -457,7 +457,7 @@
         "wolvenkit"
       ],
       "author": "keanuWheeze and Akiway",
-      "endorsements": 2108,
+      "endorsements": 2118,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -478,7 +478,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Sosuinepsixuyu",
-      "endorsements": 2010,
+      "endorsements": 2024,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -502,7 +502,7 @@
         "red4ext"
       ],
       "author": "MaximiliumM",
-      "endorsements": 1908,
+      "endorsements": 1961,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -526,7 +526,7 @@
         "tweakxl"
       ],
       "author": "1DP",
-      "endorsements": 1846,
+      "endorsements": 1849,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -556,7 +556,7 @@
         "ray-traced-lighting-fixes"
       ],
       "author": "robber804",
-      "endorsements": 1585,
+      "endorsements": 1606,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -568,7 +568,7 @@
       },
       "summary": "This mod combines a few of my other mods, Night City Visuals Nulled, Night City Fog Nulled. This is a complete replacement for Night City Visuals Nulled and Dogtown Visuals Nulled.",
       "notes": "Required by 4 mod(s) in this pack.",
-      "autoNotes": "Required by 2 mod(s) in this pack."
+      "autoNotes": "Required by 3 mod(s) in this pack."
     },
     {
       "id": "cet-window-manager",
@@ -581,7 +581,7 @@
         "red4ext"
       ],
       "author": "spirit - sprt_",
-      "endorsements": 1458,
+      "endorsements": 1472,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -606,7 +606,7 @@
         "cet"
       ],
       "author": "tidusmd",
-      "endorsements": 1452,
+      "endorsements": 1455,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -679,7 +679,7 @@
       "priority": "optional",
       "required": false,
       "author": "manavortex",
-      "endorsements": 1253,
+      "endorsements": 1258,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -690,8 +690,7 @@
         "variants": 1
       },
       "summary": "Contains the material definition I'm using across my mods. Sorry for the extra dependency, but it was time.",
-      "notes": "Required by 3 mod(s) in this pack.",
-      "autoNotes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 3 mod(s) in this pack."
     },
     {
       "id": "teleport-gateway-system",
@@ -703,7 +702,7 @@
         "cet"
       ],
       "author": "Tytheus",
-      "endorsements": 1243,
+      "endorsements": 1244,
       "nexusCategory": "Miscellaneous",
       "compat": "script-verify",
       "mainFile": {
@@ -733,7 +732,7 @@
         "codeware"
       ],
       "author": "Simbax",
-      "endorsements": 1130,
+      "endorsements": 1132,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -762,7 +761,7 @@
         "virtual-atelier"
       ],
       "author": "PinkyHalk",
-      "endorsements": 1074,
+      "endorsements": 1076,
       "nexusCategory": "Miscellaneous",
       "compat": "script-verify",
       "mainFile": {
@@ -789,7 +788,7 @@
       "priority": "optional",
       "required": false,
       "author": "TheArtificialEnhancer",
-      "endorsements": 1061,
+      "endorsements": 1063,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -811,7 +810,7 @@
         "redscript"
       ],
       "author": "yakuzadeso",
-      "endorsements": 1026,
+      "endorsements": 1030,
       "nexusCategory": "Miscellaneous",
       "compat": "script-verify",
       "mainFile": {
@@ -837,7 +836,7 @@
       "priority": "optional",
       "required": false,
       "author": "yakuzadeso",
-      "endorsements": 958,
+      "endorsements": 960,
       "nexusCategory": "Miscellaneous",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -865,7 +864,7 @@
         "cet"
       ],
       "author": "CyanideX",
-      "endorsements": 916,
+      "endorsements": 930,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -910,41 +909,13 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "3d-world-map-fixed",
-      "name": "3D World Map Fixed",
-      "nexusId": 26500,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "malgalad",
-      "endorsements": 875,
-      "nexusCategory": "Miscellaneous",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 160412,
-        "name": "3D World Map Fixed",
-        "version": "1.5.0",
-        "uploaded": "2026-09-12",
-        "variants": 1
-      },
-      "summary": "Fixes for 3D world map, specifically adding buildings that were missing and hiding or moving blocks and buildings that differ from actual game world.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/3D World Map Fixed.archive",
-          "archive/pc/mod/3D World Map Fixed.archive.xl"
-        ]
-      }
-    },
-    {
       "id": "cpu-optimization-v3",
       "name": "CPU Optimization v3.",
       "nexusId": 23053,
       "priority": "optional",
       "required": false,
       "author": "vinson911",
-      "endorsements": 867,
+      "endorsements": 871,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -970,7 +941,7 @@
         "redscript"
       ],
       "author": "Avi6481",
-      "endorsements": 855,
+      "endorsements": 862,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -989,7 +960,7 @@
       "priority": "optional",
       "required": false,
       "author": "DDANGERSENSE",
-      "endorsements": 770,
+      "endorsements": 771,
       "nexusCategory": "Miscellaneous",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1008,31 +979,6 @@
       "notes": "Required by 1 mod(s) in this pack."
     },
     {
-      "id": "more-occluders-performance-improvement",
-      "name": "More Occluders (Performance Improvement)",
-      "nexusId": 33136,
-      "priority": "optional",
-      "required": false,
-      "author": "sosuinepsixuyu",
-      "endorsements": 768,
-      "nexusCategory": "Utilities",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 158031,
-        "name": "More Occluders (ArchiveXL)",
-        "version": "0.4",
-        "uploaded": "2026-08-28",
-        "variants": 1
-      },
-      "summary": "Read the description",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/MoreOccluders.archive",
-          "archive/pc/mod/MoreOccluders.xl"
-        ]
-      }
-    },
-    {
       "id": "balanced-nighttime-cycle",
       "name": "Balanced Nighttime Cycle",
       "nexusId": 12369,
@@ -1042,7 +988,7 @@
         "tweakxl"
       ],
       "author": "Asterra",
-      "endorsements": 758,
+      "endorsements": 760,
       "nexusCategory": "Miscellaneous",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1068,7 +1014,7 @@
       "priority": "optional",
       "required": false,
       "author": "theCyanideX",
-      "endorsements": 694,
+      "endorsements": 720,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1090,7 +1036,7 @@
         "cet"
       ],
       "author": "Akiway",
-      "endorsements": 673,
+      "endorsements": 687,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1115,7 +1061,7 @@
         "tweakxl"
       ],
       "author": "theCyanideX",
-      "endorsements": 657,
+      "endorsements": 667,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -1148,7 +1094,7 @@
         "redhttpclient"
       ],
       "author": "Barfunkle999",
-      "endorsements": 642,
+      "endorsements": 645,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1163,37 +1109,6 @@
       "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
-      "id": "smart-frames-expand",
-      "name": "Smart Frames Expand",
-      "nexusId": 18435,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "artistic"
-      ],
-      "author": "Xurec",
-      "endorsements": 604,
-      "nexusCategory": "Miscellaneous",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 109828,
-        "name": "Smart Frame Expand - Artistic Compatible",
-        "version": "1.6.2",
-        "uploaded": "2025-05-24",
-        "variants": 2
-      },
-      "summary": "Expansion of the smart frames in apartments",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Smart rames Expand-ArtisticVersion.archive",
-          "archive/pc/mod/smartframes_av.xl"
-        ]
-      },
-      "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "oai-tweaks-suite-optimization-and-stability-ini",
       "name": "OAI Tweaks Suite - Optimization and Stability (.ini tweaks)",
       "nexusId": 23257,
@@ -1203,7 +1118,7 @@
         "night-city-immersive-debris"
       ],
       "author": "DucMeister",
-      "endorsements": 565,
+      "endorsements": 566,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -1257,7 +1172,7 @@
         "redscript"
       ],
       "author": "Demon9ne",
-      "endorsements": 513,
+      "endorsements": 514,
       "nexusCategory": "Miscellaneous",
       "compat": "script-verify",
       "mainFile": {
@@ -1350,7 +1265,7 @@
         "tweakxl"
       ],
       "author": "Dedra",
-      "endorsements": 466,
+      "endorsements": 477,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1372,7 +1287,7 @@
         "ultra-plus-physically-accurate-path-tracing"
       ],
       "author": "vinson911",
-      "endorsements": 464,
+      "endorsements": 465,
       "nexusCategory": "Miscellaneous",
       "compat": "script-verify",
       "mainFile": {
@@ -1385,6 +1300,30 @@
       "summary": "NOW UltraPlus Compatible.. Wipes annoying stutters, high latency and Slowdowns + Crowd Rebalance.",
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 3 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "no-river-romance-fem-v-toast-to-judy",
+      "name": "No River Romance (Fem V Toast to Judy)",
+      "nexusId": 13205,
+      "priority": "optional",
+      "required": false,
+      "author": "bdkty",
+      "endorsements": 462,
+      "nexusCategory": "Miscellaneous",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 69626,
+        "name": "No River Romance Dialogue",
+        "version": "1.0.5",
+        "uploaded": "2024-02-24",
+        "variants": 1
+      },
+      "summary": "In \"Following the River,\" lesbian Vs can easily find themselves locked into three compulsory, romantic M/F dialogue options. This mod removes all romance dialogue from the tower scene, so River won't proposition you and you won't have a",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/NoRiverRomanceDialogue.archive"
+        ]
+      }
     },
     {
       "id": "specialized-ripperdocs",
@@ -1435,30 +1374,6 @@
       "summary": "Fixes SMT for AMD Ryzen CPU´s. (For version 1.0 - 2.3+)"
     },
     {
-      "id": "no-river-romance-fem-v-toast-to-judy",
-      "name": "No River Romance (Fem V Toast to Judy)",
-      "nexusId": 13205,
-      "priority": "optional",
-      "required": false,
-      "author": "bdkty",
-      "endorsements": 457,
-      "nexusCategory": "Miscellaneous",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 69626,
-        "name": "No River Romance Dialogue",
-        "version": "1.0.5",
-        "uploaded": "2024-02-24",
-        "variants": 1
-      },
-      "summary": "In \"Following the River,\" lesbian Vs can easily find themselves locked into three compulsory, romantic M/F dialogue options. This mod removes all romance dialogue from the tower scene, so River won't proposition you and you won't have a",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/NoRiverRomanceDialogue.archive"
-        ]
-      }
-    },
-    {
       "id": "photomode-tweaks",
       "name": "Photomode Tweaks",
       "nexusId": 24253,
@@ -1468,7 +1383,7 @@
         "tweakxl"
       ],
       "author": "nutboy",
-      "endorsements": 456,
+      "endorsements": 459,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {
@@ -1500,7 +1415,7 @@
         "tweakxl"
       ],
       "author": "VegaCPMods",
-      "endorsements": 452,
+      "endorsements": 455,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1548,7 +1463,7 @@
         "redscript"
       ],
       "author": "Antrix",
-      "endorsements": 407,
+      "endorsements": 409,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1567,7 +1482,7 @@
       "priority": "optional",
       "required": false,
       "author": "sosuinepsixuyu",
-      "endorsements": 403,
+      "endorsements": 408,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1578,6 +1493,35 @@
         "variants": 1
       },
       "summary": "Fixes equip-unequip stutter related to arm cyberware."
+    },
+    {
+      "id": "red-cheat-menu-2",
+      "name": "RED Cheat Menu 2",
+      "nexusId": 30063,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "usarandom",
+      "endorsements": 394,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 148748,
+        "name": "RED Cheat Menu 2",
+        "version": "1.2.0",
+        "uploaded": "2026-06-15",
+        "variants": 1
+      },
+      "summary": "All of your favorite cheats, right on pause. Redscript-only, 100% Windows & Mac compatible.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/REDCheatMenu2.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "shoo-watchdog-timeout-crash",
@@ -1639,35 +1583,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "red-cheat-menu-2",
-      "name": "RED Cheat Menu 2",
-      "nexusId": 30063,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript"
-      ],
-      "author": "usarandom",
-      "endorsements": 390,
-      "nexusCategory": "Utilities",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 148748,
-        "name": "RED Cheat Menu 2",
-        "version": "1.2.0",
-        "uploaded": "2026-06-15",
-        "variants": 1
-      },
-      "summary": "All of your favorite cheats, right on pause. Redscript-only, 100% Windows & Mac compatible.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/REDCheatMenu2.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "window-switcher-taskbar-groups-utilities-for-cet",
       "name": "Window Switcher (Taskbar - Groups - Utilities for CET)",
       "nexusId": 30005,
@@ -1679,7 +1594,7 @@
         "window-utils-gui-library-animation-grid-alignmen"
       ],
       "author": "CyanideX",
-      "endorsements": 363,
+      "endorsements": 365,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1703,7 +1618,7 @@
         "redscript"
       ],
       "author": "ObiOneStenobi",
-      "endorsements": 347,
+      "endorsements": 348,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1716,6 +1631,28 @@
       "summary": "Pose V and the characters added in PhotoMode bone by bone, on foot or in a vehicle. Click and drag markers on the joints, pin hands and feet with inverse kinematics, shape the fingers, aim the eyes, edit the facial expression, put any item",
       "notes": "2 main-file variants on Nexus - pick one.",
       "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "exrc-runtime-controller-stutter-reduction-fps-st",
+      "name": "EXRC - Runtime Controller (Stutter Reduction - FPS Stability)",
+      "nexusId": 28727,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "EntryierX",
+      "endorsements": 347,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173671,
+        "name": "EXRC Runtime Controller 3.0.9",
+        "version": "3.0.9",
+        "uploaded": "2026-11-04",
+        "variants": 1
+      },
+      "summary": "Reduces micro-stutter and improves frame consistency in heavily modded Cyberpunk 2077 by dynamically adapting Lua runtime behavior. Maintains stable frame pacing under variable system load with predictive memory pressure monitoring and"
     },
     {
       "id": "discord-rpc-2",
@@ -1744,35 +1681,13 @@
       "autoNotes": "Also needs (off Nexus): Cyber Engine Tweaks."
     },
     {
-      "id": "exrc-runtime-controller-stutter-reduction-fps-st",
-      "name": "EXRC - Runtime Controller (Stutter Reduction - FPS Stability)",
-      "nexusId": 28727,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "EntryierX",
-      "endorsements": 343,
-      "nexusCategory": "Utilities",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 173671,
-        "name": "EXRC Runtime Controller 3.0.9",
-        "version": "3.0.9",
-        "uploaded": "2026-11-04",
-        "variants": 1
-      },
-      "summary": "Reduces micro-stutter and improves frame consistency in heavily modded Cyberpunk 2077 by dynamically adapting Lua runtime behavior. Maintains stable frame pacing under variable system load with predictive memory pressure monitoring and"
-    },
-    {
       "id": "cyberpunk-2077-cheat-table",
       "name": "Cyberpunk 2077 Cheat Table",
       "nexusId": 6385,
       "priority": "optional",
       "required": false,
       "author": "sergey979",
-      "endorsements": 340,
+      "endorsements": 341,
       "nexusCategory": "Miscellaneous",
       "compat": "unknown",
       "mainFile": {
@@ -1818,7 +1733,7 @@
         "cet"
       ],
       "author": "SIIIN3YUM1",
-      "endorsements": 325,
+      "endorsements": 327,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1869,7 +1784,7 @@
         "red4ext"
       ],
       "author": "keenfruit",
-      "endorsements": 297,
+      "endorsements": 300,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1882,35 +1797,6 @@
       "summary": "re-LOADS your INPUTS! (NOT affiliated with Input Loader, but a standalone, v2.5 \"REMAKE\")",
       "notes": "2 main-file variants on Nexus - pick one.",
       "autoNotes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "apartment-dropoff-points",
-      "name": "Apartment Dropoff Points",
-      "nexusId": 22859,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "rich-drop-points"
-      ],
-      "author": "JamesTheHacker",
-      "endorsements": 277,
-      "nexusCategory": "Miscellaneous",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 114598,
-        "name": "Core",
-        "version": "1.01",
-        "uploaded": "2025-07-21",
-        "variants": 1
-      },
-      "summary": "Adds dropoff points to all apartment buildings missing them.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/ApartmentDropoff.archive",
-          "archive/pc/mod/apartmentdropoff.xl"
-        ]
-      }
     },
     {
       "id": "compilation-of-requested-and-miscellaneous-mods",
@@ -1932,13 +1818,43 @@
       "summary": "Just some mostly small requested mod."
     },
     {
+      "id": "garage-manager",
+      "name": "Garage Manager",
+      "nexusId": 26524,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "window-utils-gui-library-animation-grid-alignmen",
+        "cet"
+      ],
+      "author": "CyanideX",
+      "endorsements": 271,
+      "nexusCategory": "Utilities",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 160675,
+        "name": "Garage Manager",
+        "version": "1.0.0",
+        "uploaded": "2026-09-13",
+        "variants": 1
+      },
+      "summary": "A unified CET menu to manage all SDH0 vehicle customization and presets.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/SDH0GarageManager/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
       "id": "high-quality-vinyl-records",
       "name": "High Quality Vinyl Records",
       "nexusId": 19498,
       "priority": "optional",
       "required": false,
       "author": "Noraxou",
-      "endorsements": 268,
+      "endorsements": 269,
       "nexusCategory": "Miscellaneous",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1988,36 +1904,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "garage-manager",
-      "name": "Garage Manager",
-      "nexusId": 26524,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "window-utils-gui-library-animation-grid-alignmen",
-        "cet"
-      ],
-      "author": "CyanideX",
-      "endorsements": 264,
-      "nexusCategory": "Utilities",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 160675,
-        "name": "Garage Manager",
-        "version": "1.0.0",
-        "uploaded": "2026-09-13",
-        "variants": 1
-      },
-      "summary": "A unified CET menu to manage all SDH0 vehicle customization and presets.",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/SDH0GarageManager/init.lua"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "misc-nc-fixes",
       "name": "Misc NC Fixes",
       "nexusId": 28073,
@@ -2029,7 +1915,7 @@
         "inplace-streamingsectors-nulled"
       ],
       "author": "iAM",
-      "endorsements": 257,
+      "endorsements": 259,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2050,7 +1936,7 @@
       "priority": "optional",
       "required": false,
       "author": "Metalunacy",
-      "endorsements": 255,
+      "endorsements": 256,
       "nexusCategory": "Miscellaneous",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2070,13 +1956,44 @@
       "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
+      "id": "vehicle-turret-core",
+      "name": "Vehicle Turret Core",
+      "nexusId": 33979,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "archivexl",
+        "codeware",
+        "input-loader",
+        "mod-settings"
+      ],
+      "author": "whatmynickname",
+      "endorsements": 252,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173883,
+        "name": "VehicleTurretCore 1.1.0",
+        "version": "1.1.0",
+        "uploaded": "2026-11-05",
+        "variants": 1
+      },
+      "summary": "Core for Mouse followed Turret, Not standalone Vehicle",
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
+    },
+    {
       "id": "cyberpunk-2077-x-mod-organizer-2",
       "name": "Cyberpunk 2077 X Mod Organizer 2",
       "nexusId": 19411,
       "priority": "optional",
       "required": false,
       "author": "FenexFox1234 and RevontuletCXVII",
-      "endorsements": 248,
+      "endorsements": 249,
       "nexusCategory": "Miscellaneous",
       "compat": "unknown",
       "mainFile": {
@@ -2097,48 +2014,17 @@
       "priority": "optional",
       "required": false,
       "author": "opaaaaaaaaaaaa",
-      "endorsements": 247,
+      "endorsements": 249,
       "nexusCategory": "Miscellaneous",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177197,
+        "fileId": 178372,
         "name": "Give Me Everything - Cyberpunk 2077",
-        "version": "8.4.0",
-        "uploaded": "2026-11-12",
+        "version": "8.5.0",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "An in-game trainer menu on F10 or L3+R3: any item at any rarity, god mode, noclip, free camera, aim assist, ESP, stat lock, loot filter, cleanup, teleport, vehicles, NPC, vehicle and prop spawn with poses and NPC commands, quests, time and"
-    },
-    {
-      "id": "vehicle-turret-core",
-      "name": "Vehicle Turret Core",
-      "nexusId": 33979,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "archivexl",
-        "codeware",
-        "input-loader",
-        "mod-settings"
-      ],
-      "author": "whatmynickname",
-      "endorsements": 243,
-      "nexusCategory": "Utilities",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 173883,
-        "name": "VehicleTurretCore 1.1.0",
-        "version": "1.1.0",
-        "uploaded": "2026-11-05",
-        "variants": 1
-      },
-      "summary": "Core for Mouse followed Turret, Not standalone Vehicle",
-      "notes": "Needs DLC: Phantom Liberty.",
-      "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "props-pack-retro-tech",
@@ -2150,7 +2036,7 @@
         "world-builder"
       ],
       "author": "PinkyDude",
-      "endorsements": 234,
+      "endorsements": 236,
       "nexusCategory": "Miscellaneous",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2280,34 +2166,6 @@
       "summary": "Русский перевод мода Autoloot. Лутай как киберпсих!"
     },
     {
-      "id": "brick-columbarium-fix",
-      "name": "Brick Columbarium Fix",
-      "nexusId": 28692,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "PinkyDude and anygoodname",
-      "endorsements": 180,
-      "nexusCategory": "Utilities",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 141824,
-        "name": "Brick Columbarium Fix",
-        "version": "2.0.1",
-        "uploaded": "2026-04-10",
-        "variants": 1
-      },
-      "summary": "Not needed anymore after 2.5 | Fix the issue with Brick being both Dead and Alive.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/PinkyDude_Fix_BrickColumbarium.archive",
-          "archive/pc/mod/PinkyDude_Fix_BrickColumbarium.xl"
-        ]
-      }
-    },
-    {
       "id": "content-token-activator-no-more-waiting-for-ques",
       "name": "Content Token Activator - no more waiting for quests",
       "nexusId": 16449,
@@ -2319,7 +2177,7 @@
         "codeware"
       ],
       "author": "not_alphanine",
-      "endorsements": 170,
+      "endorsements": 171,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2341,7 +2199,7 @@
         "cet"
       ],
       "author": "TheArtificialEnhancer",
-      "endorsements": 163,
+      "endorsements": 164,
       "nexusCategory": "Utilities",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2445,6 +2303,25 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "vram-ripperdoc-performance-optimizer",
+      "name": "VRAM RipperDoc - Performance Optimizer",
+      "nexusId": 36878,
+      "priority": "optional",
+      "required": false,
+      "author": "YGSnaffy",
+      "endorsements": 150,
+      "nexusCategory": "Utilities",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176223,
+        "name": "VRAM RipperDoc Performance Optimizer 0.3.1",
+        "version": "0.3.1",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "See which of your texture and mesh mods use up your graphics card's memory (VRAM), and why. Finds broken, missing and wasted mod files. One double-click can shrink only the heaviest textures into a separate, removable file; your mods are"
+    },
+    {
       "id": "vehiclegarageutil",
       "name": "VehicleGarageUtil",
       "nexusId": 33036,
@@ -2456,7 +2333,7 @@
         "codeware"
       ],
       "author": "byt3m",
-      "endorsements": 47,
+      "endorsements": 48,
       "nexusCategory": "Utilities",
       "compat": "script-verify",
       "mainFile": {

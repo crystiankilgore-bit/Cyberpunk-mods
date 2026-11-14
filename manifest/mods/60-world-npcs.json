@@ -17,7 +17,7 @@
         "redscript"
       ],
       "author": "Pacings and djkovrik",
-      "endorsements": 75871,
+      "endorsements": 75960,
       "nexusCategory": "Characters",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -43,7 +43,7 @@
         "native-interactions-framework"
       ],
       "author": "keanuWheeze",
-      "endorsements": 14150,
+      "endorsements": 14161,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -55,73 +55,7 @@
       },
       "summary": "This mod lets you purchase and access V's Mansion. Also adds new sitting, sleeping, wardrobe and shower interactions to it.",
       "notes": "Required by 1 mod(s) in this pack.",
-      "autoNotes": "Required by 2 mod(s) in this pack."
-    },
-    {
-      "id": "apartment-cats-the-glen",
-      "name": "Apartment Cats - The Glen",
-      "nexusId": 6276,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "tweakxl",
-        "archivexl",
-        "red4ext"
-      ],
-      "author": "Deceptious",
-      "endorsements": 4474,
-      "nexusCategory": "Apartment",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 160069,
-        "name": "Apartment Cats - The Glen",
-        "version": "3.0.1",
-        "uploaded": "2026-09-10",
-        "variants": 1
-      },
-      "summary": "Adds a new feline companion (Nali) to The Glen apartment. Includes 12 different spots for Nali to use, as well as the option to pet him the same way as in the Pet The Cat mod.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/#LoftCat.archive",
-          "r6/tweaks/LoftCat.yaml",
-          "archive/pc/mod/LoftCat.archive.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "apartment-cats-japantown",
-      "name": "Apartment Cats - Japantown",
-      "nexusId": 6493,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "tweakxl",
-        "archivexl",
-        "red4ext"
-      ],
-      "author": "Deceptious",
-      "endorsements": 3991,
-      "nexusCategory": "Apartment",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 160070,
-        "name": "Apartment Cats - Japantown",
-        "version": "3.0.1",
-        "uploaded": "2026-09-10",
-        "variants": 1
-      },
-      "summary": "Adds a new feline companion, Elmo, to the Japantown apartment. Includes 12+ different spots for her to use, as well as the option to pet her the same way as in the Pet The Cat mod.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/#JapanCat.archive",
-          "r6/tweaks/JapanCat.yaml",
-          "archive/pc/mod/JapanCat.archive.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "eyes-lod-fix-no-more-disappearing-eyes",
@@ -130,7 +64,7 @@
       "priority": "recommended",
       "required": false,
       "author": "JohnsonsStuff",
-      "endorsements": 3665,
+      "endorsements": 3666,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -155,7 +89,7 @@
       "priority": "recommended",
       "required": false,
       "author": "nremind",
-      "endorsements": 2254,
+      "endorsements": 2259,
       "nexusCategory": "Adverts",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -182,7 +116,7 @@
         "cet"
       ],
       "author": "FreakaZ",
-      "endorsements": 1907,
+      "endorsements": 1908,
       "nexusCategory": "Characters",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -201,7 +135,7 @@
       "priority": "optional",
       "required": false,
       "author": "XilaMonstrr",
-      "endorsements": 1832,
+      "endorsements": 1833,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -258,7 +192,7 @@
         "preem-hair-judy-hair-options"
       ],
       "author": "EKT",
-      "endorsements": 1586,
+      "endorsements": 1587,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -290,7 +224,7 @@
         "red4ext"
       ],
       "author": "Ak3nax",
-      "endorsements": 1552,
+      "endorsements": 1557,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -311,7 +245,7 @@
       "priority": "optional",
       "required": false,
       "author": "Proxima Dust",
-      "endorsements": 1470,
+      "endorsements": 1475,
       "nexusCategory": "Add-On Apartment",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -338,7 +272,7 @@
       "priority": "optional",
       "required": false,
       "author": "EKT",
-      "endorsements": 1367,
+      "endorsements": 1369,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -368,7 +302,7 @@
         "red4ext"
       ],
       "author": "Sammmy1036",
-      "endorsements": 1357,
+      "endorsements": 1361,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -417,7 +351,7 @@
         "native-interactions-framework"
       ],
       "author": "Magicman010",
-      "endorsements": 1253,
+      "endorsements": 1256,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -438,7 +372,7 @@
       "priority": "optional",
       "required": false,
       "author": "EKT",
-      "endorsements": 1250,
+      "endorsements": 1252,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -464,7 +398,7 @@
       "priority": "optional",
       "required": false,
       "author": "EKT",
-      "endorsements": 1035,
+      "endorsements": 1038,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -488,7 +422,7 @@
       "priority": "optional",
       "required": false,
       "author": "manavortex",
-      "endorsements": 996,
+      "endorsements": 999,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -512,7 +446,7 @@
       "priority": "optional",
       "required": false,
       "author": "xBaebsae",
-      "endorsements": 981,
+      "endorsements": 985,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -574,7 +508,7 @@
         "tweakxl"
       ],
       "author": "nremind",
-      "endorsements": 945,
+      "endorsements": 949,
       "nexusCategory": "Adverts",
       "compat": "script-verify",
       "mainFile": {
@@ -607,7 +541,7 @@
         "native-settings-ui"
       ],
       "author": "unthinkthis",
-      "endorsements": 902,
+      "endorsements": 904,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -661,7 +595,7 @@
         "tweakxl"
       ],
       "author": "Nox and MrBilL61 - with TPMG",
-      "endorsements": 873,
+      "endorsements": 875,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -682,7 +616,7 @@
       "priority": "optional",
       "required": false,
       "author": "EKT",
-      "endorsements": 827,
+      "endorsements": 829,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -734,7 +668,7 @@
       "priority": "optional",
       "required": false,
       "author": "chroniclerealm",
-      "endorsements": 764,
+      "endorsements": 765,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -791,7 +725,7 @@
         "red4ext"
       ],
       "author": "Ak3nax",
-      "endorsements": 732,
+      "endorsements": 734,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -812,7 +746,7 @@
       "priority": "optional",
       "required": false,
       "author": "EKT",
-      "endorsements": 723,
+      "endorsements": 724,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -862,7 +796,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 697,
+      "endorsements": 700,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -913,7 +847,7 @@
       "priority": "optional",
       "required": false,
       "author": "EKT",
-      "endorsements": 663,
+      "endorsements": 665,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -942,7 +876,7 @@
         "photomode-ex"
       ],
       "author": "Apzurv HausVonSin and BONeill",
-      "endorsements": 656,
+      "endorsements": 657,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -998,7 +932,7 @@
         "tweakxl"
       ],
       "author": "Ak3nax",
-      "endorsements": 585,
+      "endorsements": 587,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1013,36 +947,6 @@
       "autoNotes": "Needs DLC: Phantom Liberty."
     },
     {
-      "id": "lore-friendly-neon-signs",
-      "name": "Lore Friendly Neon Signs",
-      "nexusId": 19469,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "manavortex-material-library"
-      ],
-      "author": "manavortex and proxima",
-      "endorsements": 583,
-      "nexusCategory": "Props and Decorations",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 161197,
-        "name": "lore_friendly_neon_signs",
-        "version": "1.0.4",
-        "uploaded": "2026-09-16",
-        "variants": 1
-      },
-      "summary": "Neon signs for of corporations and organizations from the Cyberpunk TTRPG - for your WorldBuilder or AMM edits!",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/amm_props_corporation_signs.archive",
-          "archive/pc/mod/amm_props_corpo_signs.xl"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "glen-apartment-corpo-elevator",
       "name": "Glen Apartment Corpo Elevator",
       "nexusId": 14047,
@@ -1053,7 +957,7 @@
         "red4ext"
       ],
       "author": "Sammmy1036",
-      "endorsements": 563,
+      "endorsements": 565,
       "nexusCategory": "Add-On Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1078,7 +982,7 @@
         "native-interactions-framework"
       ],
       "author": "unthinkthis",
-      "endorsements": 555,
+      "endorsements": 557,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1099,7 +1003,7 @@
       "priority": "optional",
       "required": false,
       "author": "EKT",
-      "endorsements": 549,
+      "endorsements": 550,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1123,7 +1027,7 @@
       "priority": "optional",
       "required": false,
       "author": "NolaDreamer",
-      "endorsements": 541,
+      "endorsements": 542,
       "nexusCategory": "Characters",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1155,7 +1059,7 @@
         "native-settings-ui"
       ],
       "author": "ThaFunktopus",
-      "endorsements": 531,
+      "endorsements": 533,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1183,7 +1087,7 @@
         "vendorsxl"
       ],
       "author": "unthinkthis",
-      "endorsements": 508,
+      "endorsements": 511,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1233,7 +1137,7 @@
         "red4ext"
       ],
       "author": "unthinkthis",
-      "endorsements": 436,
+      "endorsements": 440,
       "nexusCategory": "Apartment",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1273,206 +1177,53 @@
       "summary": "A noir neokitsch mansion for your V!"
     },
     {
-      "id": "dark-matter-club-with-apartment",
-      "name": "Dark Matter Club ( with Apartment )",
-      "nexusId": 19905,
+      "id": "apartment-bench-arm-fix",
+      "name": "Apartment Bench Arm Fix",
+      "nexusId": 12611,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "archivexl",
-        "drive-an-aerial-vehicle-flight-mod-using-av-and",
-        "native-interactions-framework",
-        "nci-addon-westbrook",
-        "tweakxl"
+        "red4ext"
       ],
-      "author": "Jon Cross",
-      "endorsements": 353,
-      "nexusCategory": "Add-On Apartment",
-      "compat": "assets-likely-ok",
+      "author": "Sammmy1036",
+      "endorsements": 371,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 136817,
-        "name": "Dark Matter Club ( with Apartment )",
-        "version": "2.3",
-        "uploaded": "2026-02-21",
+        "fileId": 169702,
+        "name": "Bench Arm Fix",
+        "version": "2.1",
+        "uploaded": "2026-10-27",
         "variants": 1
       },
-      "summary": "The Dark Matter Club has RE-OPENED with a Vibrant Redesign to illuminate Night City residents to come party for a bit! The Street Level has been fitted with lights, NPCs and Vending machines to catch your attention when driving by! The Main",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_dark_matter.archive",
-          "archive/pc/mod/RJC_dark_matter_bottom_ladders.archive",
-          "archive/pc/mod/RJC_dark_matter.xl"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty.",
-      "autoNotes": "Needs DLC: Phantom Liberty."
+      "summary": "Fixes apartment benches floating arms at the H10 Megabuilding Apartment."
     },
     {
-      "id": "drive-in-theater-working-movie-screen",
-      "name": "Drive-In Theater ( Working Movie Screen )",
-      "nexusId": 19729,
+      "id": "kabuki-messy-apartment",
+      "name": "Kabuki Messy Apartment",
+      "nexusId": 22567,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "archivexl",
+        "cet",
         "native-interactions-framework",
-        "spc-tv-screen-silver-pixel-cloud-drive-in-theate",
-        "tweakxl"
+        "native-settings-ui"
       ],
-      "author": "Jon Cross",
-      "endorsements": 321,
-      "nexusCategory": "Add-On Apartment",
-      "compat": "assets-likely-ok",
+      "author": "unthinkthis",
+      "endorsements": 328,
+      "nexusCategory": "Apartment",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 162896,
-        "name": "Drive-In Theater ( Working Movie Screen )",
-        "version": "2.3",
-        "uploaded": "2026-09-27",
+        "fileId": 172024,
+        "name": "kabuki messy apartment - archivexl",
+        "version": "1.1.1",
+        "uploaded": "2026-11-01",
         "variants": 1
       },
-      "summary": "In 2069 the Drive-in Theater was closed down just before the Unification War took place. THANKGOD they refurbished and Re-Opened the Drive in for all the Movie-Goers who needed that escape from the harsh reality of Night City! The Drive-In",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_drive_in.archive",
-          "archive/pc/mod/RJC_drive_in_npcs.archive",
-          "archive/pc/mod/RJC_drive_in.xl"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty.",
-      "autoNotes": "Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "konpeki-plaza-expanded-with-apartment",
-      "name": "Konpeki Plaza Expanded ( with Apartment )",
-      "nexusId": 20233,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "native-interactions-framework",
-        "konpeki-plaza-unlocked-2-5",
-        "tweakxl"
-      ],
-      "author": "Jon Cross",
-      "endorsements": 311,
-      "nexusCategory": "Add-On Apartment",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 136820,
-        "name": "Konpeki Plaza Expanded ( with Apartment )",
-        "version": "2.3",
-        "uploaded": "2026-02-21",
-        "variants": 1
-      },
-      "summary": "LONG AFTER V and Jackie have Completed \"The Heist\" Konpeki Plaza has RE-OPENED AND EXPANDED! Now Featuring Vegetation, Statues, Lights and even a FULL BAR! Below is the Garage with plenty of space! On the 44th floor is the AV Pad and the",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_konpeki_plaza.archive",
-          "archive/pc/mod/RJC_konpeki_plaza_garage.archive",
-          "archive/pc/mod/RJC_konpeki_tower_apartments.archive"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty.",
-      "autoNotes": "Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "japantown-rooftop-mansion",
-      "name": "Japantown Rooftop Mansion",
-      "nexusId": 22274,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "drive-an-aerial-vehicle-flight-mod-using-av-and",
-        "native-interactions-framework",
-        "tweakxl",
-        "let-there-be-flight"
-      ],
-      "author": "Jon Cross",
-      "endorsements": 264,
-      "nexusCategory": "Add-On Apartment",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 137908,
-        "name": "Japantown Rooftop Mansion",
-        "version": "2.3",
-        "uploaded": "2026-02-28",
-        "variants": 1
-      },
-      "summary": "The Luxury Japantown Mansion now with an AV Landing Pad and Top Floor Garden! I CAN’T TAKE MOST OF THE CREDIT FOR THIS MOD: Rexxgta MADE THE MANSION AND HE LET ME EXTEND IT FOR ALL OF YOU! I made the AV Landing Pad and Top Floor Garden.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_japantown_rooftop_mansion.archive",
-          "archive/pc/mod/RJC_japantown_rooftop_mansion.xl"
-        ]
-      }
-    },
-    {
-      "id": "downtown-yacht",
-      "name": "Downtown Yacht",
-      "nexusId": 16046,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "native-interactions-framework",
-        "private-yacht",
-        "tweakxl",
-        "yacht-in-downtown"
-      ],
-      "author": "Jon Cross",
-      "endorsements": 238,
-      "nexusCategory": "Add-On Apartment",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 162884,
-        "name": "Downtown Yacht",
-        "version": "2.3",
-        "uploaded": "2026-09-27",
-        "variants": 1
-      },
-      "summary": "WHY CAN'T YOU OWN A YACHT?! SAY NO MORE! Located in the Downtown area of City Center enjoy your Brand-New FULLY KITTED Yacht. I decorated the Interior with Drinks, Trinkets, TVs, Stripper Poles and in the back of the Yacht I added a Gated",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_downtown_yacht.archive",
-          "archive/pc/mod/RJC_downtown_yacht_npcs.archive",
-          "archive/pc/mod/RJC_downtown_yacht.xl"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty.",
-      "autoNotes": "Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "megabuilding-8-expanded-with-apartments",
-      "name": "Megabuilding 8 Expanded ( with Apartments )",
-      "nexusId": 22164,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "drive-an-aerial-vehicle-flight-mod-using-av-and",
-        "native-interactions-framework",
-        "tweakxl"
-      ],
-      "author": "Jon Cross",
-      "endorsements": 232,
-      "nexusCategory": "Add-On Apartment",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 136850,
-        "name": "Megabuilding 8 Expanded ( with Apartments )",
-        "version": "2.3",
-        "uploaded": "2026-02-21",
-        "variants": 1
-      },
-      "summary": "The Megabuilding 8 YOU DESERVE! Basically 2 mods IN ONE! Now the Top Floor Penthouse is FULLY DECORATED and ready for you to move in to! AMM also unlocks a New Elevator floor, taking you to the NEW Floating Glass House with great views of",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_Megabuilding8_glass_house.archive",
-          "archive/pc/mod/RJC_Megabuilding8_penthouse.archive",
-          "archive/pc/mod/RJC_Megabuilding8_Gates.xl"
-        ]
-      }
+      "summary": "new customizable apartment to purchase near Kabuki Market",
+      "notes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "h10-braindance-holographic-ad-remover",
@@ -1498,37 +1249,28 @@
       "summary": "Removes the giant holographic advertisement player, “Braindance” from V's H10 Apartment"
     },
     {
-      "id": "atlantis-club-expanded",
-      "name": "Atlantis Club Expanded",
-      "nexusId": 19960,
+      "id": "corpo-plaza-apartment-area-access",
+      "name": "Corpo Plaza Apartment Area Access",
+      "nexusId": 13131,
       "priority": "optional",
       "required": false,
       "dependsOn": [
         "archivexl",
-        "native-interactions-framework",
-        "the-atlantis-restored",
-        "tweakxl"
+        "red4ext"
       ],
-      "author": "Jon Cross",
-      "endorsements": 218,
+      "author": "Sammmy1036",
+      "endorsements": 216,
       "nexusCategory": "Add-On Apartment",
-      "compat": "assets-likely-ok",
+      "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 136819,
-        "name": "Atlantis Club Expanded",
-        "version": "2.3",
-        "uploaded": "2026-02-21",
+        "fileId": 169791,
+        "name": "CorpoAptRoomUnlock for Game Ver 2.5",
+        "version": "2.1",
+        "uploaded": "2026-10-28",
         "variants": 1
       },
-      "summary": "Club Atlantis has been Expanded and now has a renovated Courtyard with Shop Vendors and even New Road access! 50 years after Silverhand and his gang shot up the club, NPCs have finally begun to return to their once favorite club in Night",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/RJC_atlantis_expanded.archive",
-          "archive/pc/mod/RJC_atlantis_expanded.xl"
-        ]
-      },
-      "notes": "Needs DLC: Phantom Liberty.",
-      "autoNotes": "Needs DLC: Phantom Liberty."
+      "summary": "Opens the inaccessible area on the 8th floor landing of the Corpo Plaza Apartment.",
+      "notes": "Needs DLC: Phantom Liberty."
     },
     {
       "id": "artist-made-ad-stripes-lore-friendly",
@@ -1537,7 +1279,7 @@
       "priority": "optional",
       "required": false,
       "author": "hehnl",
-      "endorsements": 197,
+      "endorsements": 198,
       "nexusCategory": "Adverts",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1577,6 +1319,30 @@
           "archive/pc/mod/!E3AD.archive"
         ]
       }
+    },
+    {
+      "id": "santo-domingo-player-home-and-garage-world-build",
+      "name": "Santo Domingo Player Home and Garage (World Builder)",
+      "nexusId": 24335,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "native-interactions-framework"
+      ],
+      "author": "Magicman010",
+      "endorsements": 168,
+      "nexusCategory": "Add-On Apartment",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173255,
+        "name": "Santo Domingo Home Project - Unlocked Doors",
+        "version": "1.1.2",
+        "uploaded": "2026-11-03",
+        "variants": 2
+      },
+      "summary": "Have you ever wanted to own your own home and property in the suburbs of Night City? There is now such a property available to purchase in the Rancho Coronado neighborhood in Santo Domingo!",
+      "notes": "2 main-file variants on Nexus - pick one."
     }
   ]
 }

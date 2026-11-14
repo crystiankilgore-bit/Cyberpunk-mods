@@ -12,7 +12,7 @@
         "cet"
       ],
       "author": "Erok",
-      "endorsements": 26171,
+      "endorsements": 26182,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -42,7 +42,7 @@
         "cet"
       ],
       "author": "Erok",
-      "endorsements": 18466,
+      "endorsements": 18474,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -77,7 +77,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 4891,
+      "endorsements": 4896,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -108,7 +108,7 @@
         "cet"
       ],
       "author": "imbamakaber",
-      "endorsements": 4717,
+      "endorsements": 4723,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -133,7 +133,7 @@
         "redscript"
       ],
       "author": "Adriansito",
-      "endorsements": 4607,
+      "endorsements": 4611,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -161,7 +161,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 4276,
+      "endorsements": 4277,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -198,7 +198,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 4200,
+      "endorsements": 4208,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -235,7 +235,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 4016,
+      "endorsements": 4018,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -272,7 +272,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 3982,
+      "endorsements": 3986,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -309,7 +309,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 3929,
+      "endorsements": 3932,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -346,7 +346,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 3663,
+      "endorsements": 3666,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -383,7 +383,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 2950,
+      "endorsements": 2954,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -420,7 +420,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 2777,
+      "endorsements": 2779,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -451,7 +451,7 @@
         "redscript"
       ],
       "author": "MisterChedda",
-      "endorsements": 2737,
+      "endorsements": 2743,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -486,7 +486,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 2584,
+      "endorsements": 2586,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -523,7 +523,7 @@
         "vehicle-exit-fix-for-2-3"
       ],
       "author": "DennisReactive",
-      "endorsements": 2564,
+      "endorsements": 2569,
       "nexusCategory": "Vehicles",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -555,7 +555,7 @@
         "tweakxl"
       ],
       "author": "methodd",
-      "endorsements": 2533,
+      "endorsements": 2536,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -592,7 +592,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 2361,
+      "endorsements": 2362,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -627,7 +627,7 @@
         "codeware"
       ],
       "author": "DeepBlueFrog",
-      "endorsements": 2094,
+      "endorsements": 2095,
       "nexusCategory": "Vehicles",
       "compat": "unknown",
       "mainFile": {
@@ -654,7 +654,7 @@
         "tweakxl"
       ],
       "author": "MisterChedda",
-      "endorsements": 1943,
+      "endorsements": 1946,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -678,7 +678,7 @@
         "tweakxl"
       ],
       "author": "Gashetka",
-      "endorsements": 1896,
+      "endorsements": 1899,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -715,7 +715,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Okrasha",
-      "endorsements": 1726,
+      "endorsements": 1728,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -743,7 +743,7 @@
       "priority": "optional",
       "required": false,
       "author": "cornmilf",
-      "endorsements": 1568,
+      "endorsements": 1583,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -773,7 +773,7 @@
         "cet"
       ],
       "author": "Gashetka",
-      "endorsements": 1532,
+      "endorsements": 1536,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -798,7 +798,7 @@
         "native-settings-ui"
       ],
       "author": "Gashetka",
-      "endorsements": 1464,
+      "endorsements": 1466,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -853,7 +853,7 @@
         "virtual-car-dealer"
       ],
       "author": "ctxrlsec and GRLDY",
-      "endorsements": 1299,
+      "endorsements": 1305,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -876,7 +876,7 @@
         "cyber-vehicle-overhaul"
       ],
       "author": "Erok",
-      "endorsements": 1287,
+      "endorsements": 1289,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -905,7 +905,7 @@
         "virtual-car-dealer"
       ],
       "author": "Morpheus",
-      "endorsements": 1281,
+      "endorsements": 1283,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -941,7 +941,7 @@
         "virtual-car-dealer"
       ],
       "author": "Morpheus",
-      "endorsements": 1215,
+      "endorsements": 1216,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -978,7 +978,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Okrasha",
-      "endorsements": 1152,
+      "endorsements": 1154,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1015,7 +1015,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 1092,
+      "endorsements": 1094,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1048,7 +1048,7 @@
         "red4ext"
       ],
       "author": "LemurLord and Buzzler",
-      "endorsements": 1028,
+      "endorsements": 1030,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1118,7 +1118,7 @@
         "dedka-car-dealership-working-vehicle-shop-framew"
       ],
       "author": "PinkyDude",
-      "endorsements": 1004,
+      "endorsements": 1009,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1149,7 +1149,7 @@
         "toyota-supra-mk5-hks-widebody"
       ],
       "author": "DennisReactive",
-      "endorsements": 930,
+      "endorsements": 931,
       "nexusCategory": "Vehicles",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1184,7 +1184,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 861,
+      "endorsements": 862,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1287,7 +1287,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Cornmilf",
-      "endorsements": 806,
+      "endorsements": 807,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1324,7 +1324,7 @@
         "virtual-car-dealer"
       ],
       "author": "Morpheus",
-      "endorsements": 802,
+      "endorsements": 804,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1361,7 +1361,7 @@
         "virtual-car-dealer"
       ],
       "author": "EzioMaverick",
-      "endorsements": 801,
+      "endorsements": 802,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1407,43 +1407,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "jaguar-f-type",
-      "name": "Jaguar F-Type",
-      "nexusId": 14432,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "virtual-car-dealer",
-        "vehicle-manufacturer-fix"
-      ],
-      "author": "Okrasha",
-      "endorsements": 777,
-      "nexusCategory": "Vehicles",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 144307,
-        "name": "Okrasha_Jaguar F-Type",
-        "version": "1.3",
-        "uploaded": "2026-05-05",
-        "variants": 1
-      },
-      "summary": "Add-on custom Jaguar F-Type 2015. The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Okrasha_Jaguar F-Type.archive",
-          "archive/pc/mod/Okrasha_Jaguar_F-Type_Silver.archive",
-          "r6/tweaks/Okrasha/jaguar_ftype.tweak"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "dedka-car-dealership-working-vehicle-shop-framew",
       "name": "Dedka Car Dealership - Working Vehicle Shop Framework",
       "nexusId": 24887,
@@ -1458,7 +1421,7 @@
         "redscript"
       ],
       "author": "Dedra and Kaoziun",
-      "endorsements": 776,
+      "endorsements": 779,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1480,6 +1443,43 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
+      "id": "jaguar-f-type",
+      "name": "Jaguar F-Type",
+      "nexusId": 14432,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "virtual-car-dealer",
+        "vehicle-manufacturer-fix"
+      ],
+      "author": "Okrasha",
+      "endorsements": 778,
+      "nexusCategory": "Vehicles",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 144307,
+        "name": "Okrasha_Jaguar F-Type",
+        "version": "1.3",
+        "uploaded": "2026-05-05",
+        "variants": 1
+      },
+      "summary": "Add-on custom Jaguar F-Type 2015. The mod adds a fully standalone cars, not a replace. Supports Call menu, virtual car dealer.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Okrasha_Jaguar F-Type.archive",
+          "archive/pc/mod/Okrasha_Jaguar_F-Type_Silver.archive",
+          "r6/tweaks/Okrasha/jaguar_ftype.tweak"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
       "id": "kawasaki-ninja-h2r",
       "name": "Kawasaki Ninja H2R",
       "nexusId": 21369,
@@ -1493,7 +1493,7 @@
         "virtual-car-dealer"
       ],
       "author": "tof1c",
-      "endorsements": 766,
+      "endorsements": 767,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1528,7 +1528,7 @@
         "redhttpclient"
       ],
       "author": "koryboc",
-      "endorsements": 751,
+      "endorsements": 753,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1578,29 +1578,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "need-more-smoke-fx-2-5",
-      "name": "Need More Smoke FX 2.5",
-      "nexusId": 20419,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "tweakxl",
-        "smoke-texture-overhaul"
-      ],
-      "author": "Gashetka",
-      "endorsements": 711,
-      "nexusCategory": "Vehicles",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 175688,
-        "name": "Need More Smoke - AIO 2.5",
-        "version": "2.5",
-        "uploaded": "2026-11-08",
-        "variants": 1
-      },
-      "summary": "Increased amount of smoke VFX during skid. Now it looks like what happens on \"Formula Drift\".Also add dust trail on sandy surfaces."
-    },
-    {
       "id": "batmobile-bvs-archive-xl",
       "name": "Batmobile BVS Archive XL",
       "nexusId": 20605,
@@ -1616,7 +1593,7 @@
         "virtual-car-dealer"
       ],
       "author": "EzioMaverick",
-      "endorsements": 711,
+      "endorsements": 714,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1627,6 +1604,29 @@
         "variants": 1
       },
       "summary": "A NEW VEHICLE FOR PLAYER V"
+    },
+    {
+      "id": "need-more-smoke-fx-2-5",
+      "name": "Need More Smoke FX 2.5",
+      "nexusId": 20419,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "tweakxl",
+        "smoke-texture-overhaul"
+      ],
+      "author": "Gashetka",
+      "endorsements": 713,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175688,
+        "name": "Need More Smoke - AIO 2.5",
+        "version": "2.5",
+        "uploaded": "2026-11-08",
+        "variants": 1
+      },
+      "summary": "Increased amount of smoke VFX during skid. Now it looks like what happens on \"Formula Drift\".Also add dust trail on sandy surfaces."
     },
     {
       "id": "2019-c8-corvette-stingray-updated-for-2-31",
@@ -1811,7 +1811,7 @@
         "cet"
       ],
       "author": "Oranje3",
-      "endorsements": 629,
+      "endorsements": 630,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1845,7 +1845,7 @@
         "virtual-car-dealer"
       ],
       "author": "yellingintothevoid",
-      "endorsements": 606,
+      "endorsements": 611,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1874,7 +1874,7 @@
         "tweakxl"
       ],
       "author": "SDH0",
-      "endorsements": 604,
+      "endorsements": 606,
       "nexusCategory": "Vehicles",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1911,7 +1911,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "cornmilf",
-      "endorsements": 598,
+      "endorsements": 600,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1945,7 +1945,7 @@
         "virtual-car-dealer"
       ],
       "author": "yellingintothevoid",
-      "endorsements": 568,
+      "endorsements": 572,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -1982,7 +1982,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "cornmilf",
-      "endorsements": 561,
+      "endorsements": 562,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -2053,7 +2053,7 @@
         "virtual-car-dealer"
       ],
       "author": "yellingintothevoid",
-      "endorsements": 557,
+      "endorsements": 558,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -2148,6 +2148,33 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "toyota-gt86-archivexl",
+      "name": "Toyota GT86 - ArchiveXL",
+      "nexusId": 23632,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "tweakxl",
+        "virtual-car-dealer"
+      ],
+      "author": "yellingintothevoid",
+      "endorsements": 537,
+      "nexusCategory": "Vehicles",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 170476,
+        "name": "void_Toyota_GT86",
+        "version": "1.4.4",
+        "uploaded": "2026-10-29",
+        "variants": 2
+      },
+      "summary": "features CrystalCoat™, five appearances (four of which are liveries) and a bunch of tuning parts!",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
       "id": "the-wobbler-monowheel",
       "name": "The Wobbler - Monowheel",
       "nexusId": 21069,
@@ -2184,33 +2211,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "toyota-gt86-archivexl",
-      "name": "Toyota GT86 - ArchiveXL",
-      "nexusId": 23632,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "tweakxl",
-        "virtual-car-dealer"
-      ],
-      "author": "yellingintothevoid",
-      "endorsements": 534,
-      "nexusCategory": "Vehicles",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 170476,
-        "name": "void_Toyota_GT86",
-        "version": "1.4.4",
-        "uploaded": "2026-10-29",
-        "variants": 2
-      },
-      "summary": "features CrystalCoat™, five appearances (four of which are liveries) and a bunch of tuning parts!",
-      "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "toyota-supra-mk4-archivexl",
       "name": "Toyota Supra Mk4 - ArchiveXL",
       "nexusId": 22467,
@@ -2223,7 +2223,7 @@
         "virtual-car-dealer"
       ],
       "author": "yellingintothevoid",
-      "endorsements": 524,
+      "endorsements": 526,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -2297,7 +2297,7 @@
         "vehicle-manufacturer-fix"
       ],
       "author": "Okrasha Cornmilf POMIDORI CORP",
-      "endorsements": 504,
+      "endorsements": 505,
       "nexusCategory": "Vehicles",
       "compat": "script-verify",
       "mainFile": {
@@ -2317,32 +2317,6 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "oranje3-mod-resource-pack",
-      "name": "Oranje3 Mod Resource Pack",
-      "nexusId": 37360,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "tweakxl"
-      ],
-      "author": "Oranje3",
-      "endorsements": 43,
-      "nexusCategory": "Vehicles",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 176064,
-        "name": "Oranje3 Vehicles Resource Pack 2.5 game version",
-        "version": "1.0.2",
-        "uploaded": "2026-11-09",
-        "variants": 2
-      },
-      "summary": "Resources asset pack for my vehicle and location mods 2.31 2.5",
-      "notes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack.",
-      "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack."
     }
   ]
 }

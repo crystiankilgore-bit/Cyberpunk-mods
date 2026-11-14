@@ -9,7 +9,7 @@
       "priority": "core",
       "required": true,
       "author": "yamashi",
-      "endorsements": 247258,
+      "endorsements": 247479,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -30,7 +30,7 @@
         "bin/x64/plugins/cyber_engine_tweaks/mods/*/*.log"
       ],
       "notes": "Lua scripting + in-game overlay. Must match the exact game version.",
-      "autoNotes": "Required by 245 mod(s) in this pack."
+      "autoNotes": "Required by 243 mod(s) in this pack."
     },
     {
       "id": "redscript",
@@ -39,7 +39,7 @@
       "priority": "core",
       "required": true,
       "author": "jac3km4",
-      "endorsements": 176547,
+      "endorsements": 176765,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -60,7 +60,7 @@
         "r6/logs/redscript*.log"
       ],
       "notes": "Script compiler. Compile errors show up in r6/logs/redscript_rCURRENT.log and usually point at the broken mod.",
-      "autoNotes": "Required by 341 mod(s) in this pack."
+      "autoNotes": "Required by 340 mod(s) in this pack."
     },
     {
       "id": "red4ext",
@@ -69,7 +69,7 @@
       "priority": "core",
       "required": true,
       "author": "WopsS",
-      "endorsements": 165559,
+      "endorsements": 165794,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -90,7 +90,7 @@
         "red4ext/logs/*.log"
       ],
       "notes": "Native plugin loader. ArchiveXL, TweakXL, Codeware and most DLL mods need it. Usually breaks on every game patch, so update it first.",
-      "autoNotes": "Required by 324 mod(s) in this pack."
+      "autoNotes": "Required by 318 mod(s) in this pack."
     },
     {
       "id": "archivexl",
@@ -102,14 +102,14 @@
         "red4ext"
       ],
       "author": "psiberx",
-      "endorsements": 148662,
+      "endorsements": 148903,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177641,
+        "fileId": 177875,
         "name": "ArchiveXL",
-        "version": "1.28.7",
-        "uploaded": "2026-11-12",
+        "version": "1.28.8",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Archive extension loader",
@@ -122,7 +122,7 @@
         "red4ext/plugins/ArchiveXL/*.log"
       ],
       "notes": "Needed by almost every clothing, appearance and new-item mod.",
-      "autoNotes": "Required by 432 mod(s) in this pack."
+      "autoNotes": "Required by 398 mod(s) in this pack."
     },
     {
       "id": "tweakxl",
@@ -134,14 +134,14 @@
         "red4ext"
       ],
       "author": "psiberx",
-      "endorsements": 136348,
+      "endorsements": 136577,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177642,
+        "fileId": 177876,
         "name": "TweakXL",
-        "version": "1.12.1",
-        "uploaded": "2026-11-12",
+        "version": "1.12.2",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "TweakDB modifications loader and script extensions",
@@ -154,7 +154,7 @@
         "red4ext/plugins/TweakXL/*.log"
       ],
       "notes": "Loads .yaml/.tweak files from r6/tweaks. Needed by most item, weapon and balance mods.",
-      "autoNotes": "Required by 320 mod(s) in this pack."
+      "autoNotes": "Required by 308 mod(s) in this pack."
     },
     {
       "id": "codeware",
@@ -166,14 +166,14 @@
         "red4ext"
       ],
       "author": "psiberx",
-      "endorsements": 108479,
+      "endorsements": 108706,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 177643,
+        "fileId": 177877,
         "name": "Codeware",
-        "version": "1.21.3",
-        "uploaded": "2026-11-12",
+        "version": "1.21.4",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Script extensions",
@@ -186,7 +186,7 @@
         "red4ext/plugins/Codeware/*.log"
       ],
       "notes": "Scripting library many redscript mods depend on.",
-      "autoNotes": "Required by 210 mod(s) in this pack."
+      "autoNotes": "Required by 208 mod(s) in this pack."
     },
     {
       "id": "native-settings-ui",
@@ -198,7 +198,7 @@
         "cet"
       ],
       "author": "keanuWheeze",
-      "endorsements": 96400,
+      "endorsements": 96510,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -215,7 +215,7 @@
         ]
       },
       "notes": "Adds mod options to the in-game Settings menu for CET mods.",
-      "autoNotes": "Required by 68 mod(s) in this pack."
+      "autoNotes": "Required by 63 mod(s) in this pack."
     },
     {
       "id": "browser-extension",
@@ -230,7 +230,7 @@
         "redscript"
       ],
       "author": "r457 and gh057",
-      "endorsements": 42082,
+      "endorsements": 42160,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -262,7 +262,7 @@
         "red4ext"
       ],
       "author": "keanuWheeze",
-      "endorsements": 16394,
+      "endorsements": 16410,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -289,7 +289,7 @@
         "tweakxl"
       ],
       "author": "Roms1383",
-      "endorsements": 9294,
+      "endorsements": 9343,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -301,7 +301,7 @@
       },
       "summary": "This mod allows you to play custom sounds without REDmod.",
       "notes": "Required by 14 mod(s) in this pack.",
-      "autoNotes": "Required by 10 mod(s) in this pack."
+      "autoNotes": "Required by 9 mod(s) in this pack."
     },
     {
       "id": "zenitex-core-dependency-5-0",
@@ -310,7 +310,7 @@
       "priority": "core",
       "required": false,
       "author": "ScorpionTank",
-      "endorsements": 8755,
+      "endorsements": 8773,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -338,7 +338,7 @@
       "priority": "core",
       "required": false,
       "author": "NoraLee",
-      "endorsements": 7194,
+      "endorsements": 7212,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -372,7 +372,7 @@
         "deceptious-quest-core"
       ],
       "author": "Deceptious",
-      "endorsements": 6699,
+      "endorsements": 6724,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -404,7 +404,7 @@
         "redscript"
       ],
       "author": "Rayshader",
-      "endorsements": 6472,
+      "endorsements": 6487,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -430,7 +430,7 @@
         "redscript"
       ],
       "author": "Rayshader",
-      "endorsements": 5351,
+      "endorsements": 5369,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -460,7 +460,7 @@
         "codeware"
       ],
       "author": "Seijax",
-      "endorsements": 4696,
+      "endorsements": 4709,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -481,7 +481,7 @@
       "priority": "core",
       "required": false,
       "author": "sosuinepsixuyu",
-      "endorsements": 2834,
+      "endorsements": 2836,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -493,7 +493,7 @@
       },
       "summary": "Nulls cooked data that prevents modders from modifying world assets.",
       "notes": "Needs DLC: Phantom Liberty. Required by 3 mod(s) in this pack.",
-      "autoNotes": "Needs DLC: Phantom Liberty. Required by 5 mod(s) in this pack."
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 4 mod(s) in this pack."
     },
     {
       "id": "redhttpclient",
@@ -508,7 +508,7 @@
         "redscript"
       ],
       "author": "Rayshader",
-      "endorsements": 1920,
+      "endorsements": 1930,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -536,7 +536,7 @@
         "redscript-configuration-framework"
       ],
       "author": "DigitalVixen",
-      "endorsements": 1730,
+      "endorsements": 1777,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -565,7 +565,7 @@
         "redscript"
       ],
       "author": "DigitalVixen",
-      "endorsements": 1710,
+      "endorsements": 1734,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -591,7 +591,7 @@
         "redscript-configuration-framework"
       ],
       "author": "DigitalVixen",
-      "endorsements": 1295,
+      "endorsements": 1323,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -617,7 +617,7 @@
         "redwindows"
       ],
       "author": "DigitalVixen",
-      "endorsements": 875,
+      "endorsements": 886,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -644,7 +644,7 @@
         "redscript-configuration-framework"
       ],
       "author": "DigitalVixen",
-      "endorsements": 764,
+      "endorsements": 774,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -669,7 +669,7 @@
         "codeware"
       ],
       "author": "Scream81",
-      "endorsements": 242,
+      "endorsements": 246,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -697,7 +697,7 @@
       "priority": "recommended",
       "required": false,
       "author": "JohnsonsStuff",
-      "endorsements": 23786,
+      "endorsements": 23794,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -721,7 +721,7 @@
       "priority": "recommended",
       "required": false,
       "author": "JohnsonsStuff",
-      "endorsements": 11941,
+      "endorsements": 11943,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -745,7 +745,7 @@
       "priority": "recommended",
       "required": false,
       "author": "JohnsonsStuff",
-      "endorsements": 11578,
+      "endorsements": 11581,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -769,7 +769,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Neurolinked",
-      "endorsements": 11117,
+      "endorsements": 11141,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -795,7 +795,7 @@
       "priority": "recommended",
       "required": false,
       "author": "ctxrlsec",
-      "endorsements": 7280,
+      "endorsements": 7287,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -847,7 +847,7 @@
       "priority": "recommended",
       "required": false,
       "author": "NoraLee",
-      "endorsements": 3746,
+      "endorsements": 3750,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -873,7 +873,7 @@
       "priority": "recommended",
       "required": false,
       "author": "NoraLee",
-      "endorsements": 3410,
+      "endorsements": 3414,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -902,7 +902,7 @@
         "redscript"
       ],
       "author": "robber804",
-      "endorsements": 2695,
+      "endorsements": 2709,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -923,7 +923,7 @@
       "priority": "recommended",
       "required": false,
       "author": "johnson",
-      "endorsements": 2071,
+      "endorsements": 2072,
       "nexusCategory": "Modders Resources",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -971,7 +971,7 @@
       "priority": "optional",
       "required": false,
       "author": "SDH0",
-      "endorsements": 1606,
+      "endorsements": 1614,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -1006,7 +1006,7 @@
         "codeware"
       ],
       "author": "Elysium",
-      "endorsements": 1491,
+      "endorsements": 1495,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -1037,7 +1037,7 @@
         "cet"
       ],
       "author": "DigitalVixen",
-      "endorsements": 1365,
+      "endorsements": 1376,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -1066,7 +1066,7 @@
         "archivexl"
       ],
       "author": "nremind",
-      "endorsements": 1363,
+      "endorsements": 1368,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1078,7 +1078,7 @@
       },
       "summary": "Massively expand posters in Night City! This framework does 2 things: First, it expands the number of posters by 4x the amount in the vanilla game. Second, it randomizes the posters in Night City. Installing this by itself only does the",
       "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
+      "autoNotes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
     },
     {
       "id": "digitalvixen-core",
@@ -1096,7 +1096,7 @@
         "tweakxl"
       ],
       "author": "DigitalVixen",
-      "endorsements": 1130,
+      "endorsements": 1137,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1124,7 +1124,7 @@
         "redscript"
       ],
       "author": "NightlyNow",
-      "endorsements": 1082,
+      "endorsements": 1099,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1151,7 +1151,7 @@
         "tweakxl"
       ],
       "author": "Undermine",
-      "endorsements": 869,
+      "endorsements": 870,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1162,6 +1162,31 @@
         "variants": 1
       },
       "summary": "This mod brings Airdrops to Night City (Phantom Liberty not required). This is the core launcher, localization and tool used to maintain a future series of 30+ quests in development."
+    },
+    {
+      "id": "redimgretriever",
+      "name": "RedIMGRetriever",
+      "nexusId": 31919,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript"
+      ],
+      "author": "DigitalVixen",
+      "endorsements": 778,
+      "nexusCategory": "Modders Resources",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176266,
+        "name": "RedIMGRetriever",
+        "version": "0.5.0",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Allows Redscript mods to retrieve images from the intarwebz and display them inside ink by hot-creating archive files and hot-mounting them. ᕕ( ᐛ )ᕗ",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "phone-extension",
@@ -1175,7 +1200,7 @@
         "codeware"
       ],
       "author": "r457 and gh057",
-      "endorsements": 770,
+      "endorsements": 773,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -1197,31 +1222,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "redimgretriever",
-      "name": "RedIMGRetriever",
-      "nexusId": 31919,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "redscript"
-      ],
-      "author": "DigitalVixen",
-      "endorsements": 759,
-      "nexusCategory": "Modders Resources",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 176266,
-        "name": "RedIMGRetriever",
-        "version": "0.5.0",
-        "uploaded": "2026-11-09",
-        "variants": 1
-      },
-      "summary": "Allows Redscript mods to retrieve images from the intarwebz and display them inside ink by hot-creating archive files and hot-mounting them. ᕕ( ᐛ )ᕗ",
-      "notes": "Required by 1 mod(s) in this pack.",
-      "autoNotes": "Required by 1 mod(s) in this pack."
-    },
-    {
       "id": "night-city-fog-nulled",
       "name": "Night City Fog Nulled",
       "nexusId": 20192,
@@ -1233,7 +1233,7 @@
         "codeware"
       ],
       "author": "robber804",
-      "endorsements": 701,
+      "endorsements": 704,
       "nexusCategory": "Modders Resources",
       "compat": "script-verify",
       "mainFile": {
@@ -1264,7 +1264,7 @@
         "tweakxl"
       ],
       "author": "JonnesTT",
-      "endorsements": 675,
+      "endorsements": 678,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1289,7 +1289,7 @@
         "redscript-configuration-framework"
       ],
       "author": "DigitalVixen",
-      "endorsements": 210,
+      "endorsements": 211,
       "nexusCategory": "Modders Resources",
       "compat": "updated-for-2.5",
       "mainFile": {

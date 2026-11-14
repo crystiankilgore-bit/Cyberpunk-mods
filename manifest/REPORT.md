@@ -1,48 +1,50 @@
 # Modpack build report
 
-Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus Mods API.
+Generated 2026-11-14 01:25 UTC by `tools/nexus/build_modpack.py` from the Nexus Mods API.
 
-**1116 mods** across 11 category files.
+**1075 mods** across 11 category files.
 
 ## By category
 
 | File | Category | Mods |
 |---|---|---:|
 | `00-frameworks.json` | Frameworks & core libraries | 48 |
-| `10-fixes-performance.json` | Fixes & performance | 98 |
+| `10-fixes-performance.json` | Fixes & performance | 94 |
 | `20-ui-hud.json` | UI, HUD & menus | 130 |
-| `30-gameplay.json` | Gameplay & balance | 224 |
+| `30-gameplay.json` | Gameplay & balance | 221 |
 | `40-combat-weapons.json` | Combat & weapons | 96 |
-| `50-vehicles.json` | Vehicles & driving | 71 |
-| `60-world-npcs.json` | World, NPCs & crowds | 58 |
-| `70-graphics-lighting.json` | Graphics, lighting & weather | 115 |
+| `50-vehicles.json` | Vehicles & driving | 70 |
+| `60-world-npcs.json` | World, NPCs & crowds | 52 |
+| `70-graphics-lighting.json` | Graphics, lighting & weather | 111 |
 | `80-appearance.json` | Character, clothing & appearance | 164 |
 | `85-audio-radio.json` | Audio & radio | 61 |
-| `90-quests-content.json` | Quests & new content | 51 |
+| `90-quests-content.json` | Quests & new content | 28 |
 
 ## 2.5 compatibility
 
 | Rating | Mods | Meaning |
 |---|---:|---|
-| `updated-for-2.5` | 409 | Main file uploaded after patch 2.5. Most likely to work. |
-| `script-verify` | 398 | redscript/CET/TweakXL mod from 2.3-2.4x. Usually fine; check if something misbehaves. |
-| `assets-likely-ok` | 295 | Archive/asset-only mod from before 2.5. Asset mods rarely break on patches. |
+| `updated-for-2.5` | 417 | Main file uploaded after patch 2.5. Most likely to work. |
+| `script-verify` | 388 | redscript/CET/TweakXL mod from 2.3-2.4x. Usually fine; check if something misbehaves. |
+| `assets-likely-ok` | 256 | Archive/asset-only mod from before 2.5. Asset mods rarely break on patches. |
 | `unknown` | 14 | Nexus has no file list for it (often a FOMOD installer or a brand-new upload). Recent, so kept; check the page. |
 
 ## Left out
 
-<details><summary><b>15</b> - DLL plugin not updated since 2.5</summary>
+<details><summary><b>17</b> - DLL plugin not updated since 2.5</summary>
 
-- [cybercmd](https://www.nexusmods.com/cyberpunk2077/mods/5176) - 38527 endorsements
-- [FidelityFx Super Resolution 2.2 - FPS boost mod](https://www.nexusmods.com/cyberpunk2077/mods/3001) - 7451 endorsements
-- [Cyber Engine Tweaks In-game Mod Manager (dofile script launcher)](https://www.nexusmods.com/cyberpunk2077/mods/895) - 4194 endorsements
-- [FSR3 Frame Gen for Cyberpunk 2077 (DLSS Enabler 2077 Edition)](https://www.nexusmods.com/cyberpunk2077/mods/14726) - 3969 endorsements
-- [CTD Helper](https://www.nexusmods.com/cyberpunk2077/mods/5205) - 2372 endorsements
+- [cybercmd](https://www.nexusmods.com/cyberpunk2077/mods/5176) - 38536 endorsements
+- [FidelityFx Super Resolution 2.2 - FPS boost mod](https://www.nexusmods.com/cyberpunk2077/mods/3001) - 7454 endorsements
+- [Cyber Engine Tweaks In-game Mod Manager (dofile script launcher)](https://www.nexusmods.com/cyberpunk2077/mods/895) - 4197 endorsements
+- [FSR3 Frame Gen for Cyberpunk 2077 (DLSS Enabler 2077 Edition)](https://www.nexusmods.com/cyberpunk2077/mods/14726) - 3971 endorsements
+- [CTD Helper](https://www.nexusmods.com/cyberpunk2077/mods/5205) - 2373 endorsements
 - [Enhanced DualSense Support](https://www.nexusmods.com/cyberpunk2077/mods/4156) - 1368 endorsements
-- [Skip Main Menu](https://www.nexusmods.com/cyberpunk2077/mods/2437) - 1229 endorsements
+- [Skip Main Menu](https://www.nexusmods.com/cyberpunk2077/mods/2437) - 1230 endorsements
 - [External Radio](https://www.nexusmods.com/cyberpunk2077/mods/3741) - 1097 endorsements
 - [Dynamic Moon Phases](https://www.nexusmods.com/cyberpunk2077/mods/2714) - 868 endorsements
-- [XUtils](https://www.nexusmods.com/cyberpunk2077/mods/30296) - 502 endorsements
+- [XUtils](https://www.nexusmods.com/cyberpunk2077/mods/30296) - 507 endorsements
+- [DLSSTweaks](https://www.nexusmods.com/cyberpunk2077/mods/7415) - 496 endorsements
+- [Film Grain Fix](https://www.nexusmods.com/cyberpunk2077/mods/32899) - 450 endorsements
 - [Photo Mode Pose Selector](https://www.nexusmods.com/cyberpunk2077/mods/32633) - 376 endorsements
 - [CP77 Discord RPC](https://www.nexusmods.com/cyberpunk2077/mods/986) - 319 endorsements
 - [-Deprecated- Bulk Craft](https://www.nexusmods.com/cyberpunk2077/mods/1892) - 209 endorsements
@@ -51,308 +53,308 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 
 </details>
 
-<details><summary><b>1070</b> - script mod not updated since 2025-07-17</summary>
+<details><summary><b>1066</b> - script mod not updated since 2025-07-17</summary>
 
-- [Better Vehicle Handling](https://www.nexusmods.com/cyberpunk2077/mods/210) - 44621 endorsements
-- [Simple Menu - An In-Game UI including Hotkeys](https://www.nexusmods.com/cyberpunk2077/mods/818) - 32137 endorsements
-- [Metro System](https://www.nexusmods.com/cyberpunk2077/mods/3560) - 18065 endorsements
-- [All Vanilla Clothes Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/5544) - 16271 endorsements
-- [Unequip Mods](https://www.nexusmods.com/cyberpunk2077/mods/2358) - 12909 endorsements
-- [Custom Level Cap](https://www.nexusmods.com/cyberpunk2077/mods/2909) - 12761 endorsements
-- [Better Vehicle First Person](https://www.nexusmods.com/cyberpunk2077/mods/2202) - 12153 endorsements
-- [Street Vendors](https://www.nexusmods.com/cyberpunk2077/mods/2894) - 11050 endorsements
-- [Simple XP Multiplier](https://www.nexusmods.com/cyberpunk2077/mods/3136) - 11003 endorsements
-- [AI Netrunners Enhanced (Not updated for 2.0)](https://www.nexusmods.com/cyberpunk2077/mods/2468) - 10993 endorsements
-- [Vehicle Pack - Basic](https://www.nexusmods.com/cyberpunk2077/mods/4625) - 10941 endorsements
-- [General Optimization](https://www.nexusmods.com/cyberpunk2077/mods/786) - 10739 endorsements
-- [The Edgerunner Bazaar](https://www.nexusmods.com/cyberpunk2077/mods/712) - 9346 endorsements
-- [Vehicle Combat](https://www.nexusmods.com/cyberpunk2077/mods/3815) - 8517 endorsements
-- [spawn0 - ARMOR LEVEL ADJUSTER 2.0](https://www.nexusmods.com/cyberpunk2077/mods/3931) - 8305 endorsements
-- [Unlock Me The Mods 2.1](https://www.nexusmods.com/cyberpunk2077/mods/9349) - 8197 endorsements
-- [Stock Market and News System](https://www.nexusmods.com/cyberpunk2077/mods/6319) - 7470 endorsements
-- [-KS- Vanilla Shoes For High Feet](https://www.nexusmods.com/cyberpunk2077/mods/7055) - 7332 endorsements
-- [GTA Travel](https://www.nexusmods.com/cyberpunk2077/mods/2006) - 7327 endorsements
-- [VEEGEE SHOP](https://www.nexusmods.com/cyberpunk2077/mods/8183) - 7310 endorsements
-- [Neu-ReSpec](https://www.nexusmods.com/cyberpunk2077/mods/2881) - 7205 endorsements
-- [Kiroshi Opticals - Crowd Scanner](https://www.nexusmods.com/cyberpunk2077/mods/1654) - 7024 endorsements
-- [Enable Finisher Ragdolls](https://www.nexusmods.com/cyberpunk2077/mods/9496) - 6914 endorsements
-- [Extended and Improved Headlights](https://www.nexusmods.com/cyberpunk2077/mods/5013) - 6813 endorsements
-- [Draw Distance Boost](https://www.nexusmods.com/cyberpunk2077/mods/238) - 6150 endorsements
-- [RipperDeck](https://www.nexusmods.com/cyberpunk2077/mods/9302) - 6096 endorsements
-- [Weapons Mods E-Shop - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/5648) - 5979 endorsements
-- [Fast Travel From Anywhere 2 Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/1943) - 5902 endorsements
-- [No Special Outfit Lock](https://www.nexusmods.com/cyberpunk2077/mods/3963) - 5840 endorsements
-- [VEEGEE SHOP 2](https://www.nexusmods.com/cyberpunk2077/mods/13870) - 5732 endorsements
-- [Weathermancer - Weather Select Menu](https://www.nexusmods.com/cyberpunk2077/mods/9805) - 5541 endorsements
+- [Better Vehicle Handling](https://www.nexusmods.com/cyberpunk2077/mods/210) - 44646 endorsements
+- [Simple Menu - An In-Game UI including Hotkeys](https://www.nexusmods.com/cyberpunk2077/mods/818) - 32149 endorsements
+- [Metro System](https://www.nexusmods.com/cyberpunk2077/mods/3560) - 18070 endorsements
+- [All Vanilla Clothes Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/5544) - 16278 endorsements
+- [Unequip Mods](https://www.nexusmods.com/cyberpunk2077/mods/2358) - 12914 endorsements
+- [Custom Level Cap](https://www.nexusmods.com/cyberpunk2077/mods/2909) - 12771 endorsements
+- [Better Vehicle First Person](https://www.nexusmods.com/cyberpunk2077/mods/2202) - 12154 endorsements
+- [Street Vendors](https://www.nexusmods.com/cyberpunk2077/mods/2894) - 11055 endorsements
+- [Simple XP Multiplier](https://www.nexusmods.com/cyberpunk2077/mods/3136) - 11015 endorsements
+- [AI Netrunners Enhanced (Not updated for 2.0)](https://www.nexusmods.com/cyberpunk2077/mods/2468) - 10994 endorsements
+- [Vehicle Pack - Basic](https://www.nexusmods.com/cyberpunk2077/mods/4625) - 10945 endorsements
+- [General Optimization](https://www.nexusmods.com/cyberpunk2077/mods/786) - 10745 endorsements
+- [The Edgerunner Bazaar](https://www.nexusmods.com/cyberpunk2077/mods/712) - 9348 endorsements
+- [Vehicle Combat](https://www.nexusmods.com/cyberpunk2077/mods/3815) - 8518 endorsements
+- [spawn0 - ARMOR LEVEL ADJUSTER 2.0](https://www.nexusmods.com/cyberpunk2077/mods/3931) - 8307 endorsements
+- [Unlock Me The Mods 2.1](https://www.nexusmods.com/cyberpunk2077/mods/9349) - 8202 endorsements
+- [Stock Market and News System](https://www.nexusmods.com/cyberpunk2077/mods/6319) - 7477 endorsements
+- [-KS- Vanilla Shoes For High Feet](https://www.nexusmods.com/cyberpunk2077/mods/7055) - 7333 endorsements
+- [GTA Travel](https://www.nexusmods.com/cyberpunk2077/mods/2006) - 7330 endorsements
+- [VEEGEE SHOP](https://www.nexusmods.com/cyberpunk2077/mods/8183) - 7319 endorsements
+- [Neu-ReSpec](https://www.nexusmods.com/cyberpunk2077/mods/2881) - 7211 endorsements
+- [Kiroshi Opticals - Crowd Scanner](https://www.nexusmods.com/cyberpunk2077/mods/1654) - 7032 endorsements
+- [Enable Finisher Ragdolls](https://www.nexusmods.com/cyberpunk2077/mods/9496) - 6920 endorsements
+- [Extended and Improved Headlights](https://www.nexusmods.com/cyberpunk2077/mods/5013) - 6817 endorsements
+- [Draw Distance Boost](https://www.nexusmods.com/cyberpunk2077/mods/238) - 6153 endorsements
+- [RipperDeck](https://www.nexusmods.com/cyberpunk2077/mods/9302) - 6106 endorsements
+- [Weapons Mods E-Shop - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/5648) - 5986 endorsements
+- [Fast Travel From Anywhere 2 Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/1943) - 5907 endorsements
+- [No Special Outfit Lock](https://www.nexusmods.com/cyberpunk2077/mods/3963) - 5841 endorsements
+- [VEEGEE SHOP 2](https://www.nexusmods.com/cyberpunk2077/mods/13870) - 5741 endorsements
+- [Weathermancer - Weather Select Menu](https://www.nexusmods.com/cyberpunk2077/mods/9805) - 5545 endorsements
 - [Ranged Attack Speed Damage Fix](https://www.nexusmods.com/cyberpunk2077/mods/4997) - 5523 endorsements
-- [The Dream Shop - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/3209) - 5495 endorsements
-- [All Cyberware-EX (System-EX Patch)](https://www.nexusmods.com/cyberpunk2077/mods/5097) - 5404 endorsements
-- [Quickhacks sort by slot](https://www.nexusmods.com/cyberpunk2077/mods/11425) - 5397 endorsements
+- [The Dream Shop - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/3209) - 5499 endorsements
+- [All Cyberware-EX (System-EX Patch)](https://www.nexusmods.com/cyberpunk2077/mods/5097) - 5408 endorsements
+- [Quickhacks sort by slot](https://www.nexusmods.com/cyberpunk2077/mods/11425) - 5406 endorsements
 - [Vehicle Pack - Gangs](https://www.nexusmods.com/cyberpunk2077/mods/4509) - 5249 endorsements
-- [Lucy Edgerunners Suit Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/5273) - 5175 endorsements
-- [Enemies of Night City](https://www.nexusmods.com/cyberpunk2077/mods/8467) - 5091 endorsements
-- [Dirt Begone (Clean Mirrors)](https://www.nexusmods.com/cyberpunk2077/mods/8131) - 4930 endorsements
-- [Vehicle Pack - Utility](https://www.nexusmods.com/cyberpunk2077/mods/4530) - 4865 endorsements
-- [GITS 3.X](https://www.nexusmods.com/cyberpunk2077/mods/9274) - 4790 endorsements
-- [Vehicle Pack - Corpo](https://www.nexusmods.com/cyberpunk2077/mods/4539) - 4766 endorsements
-- [Annoy Me No More](https://www.nexusmods.com/cyberpunk2077/mods/1512) - 4759 endorsements
+- [Lucy Edgerunners Suit Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/5273) - 5177 endorsements
+- [Enemies of Night City](https://www.nexusmods.com/cyberpunk2077/mods/8467) - 5098 endorsements
+- [Dirt Begone (Clean Mirrors)](https://www.nexusmods.com/cyberpunk2077/mods/8131) - 4933 endorsements
+- [Vehicle Pack - Utility](https://www.nexusmods.com/cyberpunk2077/mods/4530) - 4868 endorsements
+- [Vehicle Pack - Corpo](https://www.nexusmods.com/cyberpunk2077/mods/4539) - 4767 endorsements
+- [Annoy Me No More](https://www.nexusmods.com/cyberpunk2077/mods/1512) - 4761 endorsements
+- [Immersive Food Vendors - Dogtown](https://www.nexusmods.com/cyberpunk2077/mods/10393) - 4760 endorsements
 - [Drone Companions](https://www.nexusmods.com/cyberpunk2077/mods/4520) - 4753 endorsements
-- [Immersive Food Vendors - Dogtown](https://www.nexusmods.com/cyberpunk2077/mods/10393) - 4751 endorsements
 - [1.6 Neon Rims Color Control](https://www.nexusmods.com/cyberpunk2077/mods/4204) - 4647 endorsements
-- [New Legendary Cyberware 2.0 - Old Legendary Cyberware Collection](https://www.nexusmods.com/cyberpunk2077/mods/5489) - 4639 endorsements
+- [New Legendary Cyberware 2.0 - Old Legendary Cyberware Collection](https://www.nexusmods.com/cyberpunk2077/mods/5489) - 4640 endorsements
 - [Instant Disassembling and Crafting](https://www.nexusmods.com/cyberpunk2077/mods/354) - 4595 endorsements
-- [A.G.I.S. - All Game Items Store (Virtual Atelier)](https://www.nexusmods.com/cyberpunk2077/mods/10909) - 4573 endorsements
+- [A.G.I.S. - All Game Items Store (Virtual Atelier)](https://www.nexusmods.com/cyberpunk2077/mods/10909) - 4580 endorsements
 - [Lucy Edgerunners Jacket Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/5248) - 4556 endorsements
 - [SE7EN - Virtual Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/6360) - 4418 endorsements
-- [Cyberscript](https://www.nexusmods.com/cyberpunk2077/mods/6475) - 4400 endorsements
-- [Corrupt NCPD](https://www.nexusmods.com/cyberpunk2077/mods/4510) - 4355 endorsements
-- [Immersion patch - No crowd panic from using devices.](https://www.nexusmods.com/cyberpunk2077/mods/7353) - 4205 endorsements
-- [Clothing Mods E-Shop - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/5624) - 4109 endorsements
-- [Comfy Boots - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/11212) - 4104 endorsements
-- [Smoother Dodge And Dash](https://www.nexusmods.com/cyberpunk2077/mods/9331) - 4097 endorsements
-- [Immersion patch - No crowd panic from stealth activity](https://www.nexusmods.com/cyberpunk2077/mods/7360) - 4085 endorsements
-- [Fighting Gangs Allowed - Reasonable Police](https://www.nexusmods.com/cyberpunk2077/mods/19189) - 4050 endorsements
-- [Reflex is Cool](https://www.nexusmods.com/cyberpunk2077/mods/15963) - 3992 endorsements
-- [Kiroshi Optics Expanded](https://www.nexusmods.com/cyberpunk2077/mods/5672) - 3925 endorsements
-- [Hair Color Profiles CCXL](https://www.nexusmods.com/cyberpunk2077/mods/19115) - 3859 endorsements
-- [Nola and Meluminary atelier](https://www.nexusmods.com/cyberpunk2077/mods/7703) - 3823 endorsements
-- [Upgrade Weapons Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/9889) - 3816 endorsements
+- [Cyberscript](https://www.nexusmods.com/cyberpunk2077/mods/6475) - 4405 endorsements
+- [Corrupt NCPD](https://www.nexusmods.com/cyberpunk2077/mods/4510) - 4357 endorsements
+- [Immersion patch - No crowd panic from using devices.](https://www.nexusmods.com/cyberpunk2077/mods/7353) - 4214 endorsements
+- [Clothing Mods E-Shop - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/5624) - 4114 endorsements
+- [Comfy Boots - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/11212) - 4108 endorsements
+- [Smoother Dodge And Dash](https://www.nexusmods.com/cyberpunk2077/mods/9331) - 4100 endorsements
+- [Immersion patch - No crowd panic from stealth activity](https://www.nexusmods.com/cyberpunk2077/mods/7360) - 4093 endorsements
+- [Fighting Gangs Allowed - Reasonable Police](https://www.nexusmods.com/cyberpunk2077/mods/19189) - 4066 endorsements
+- [Reflex is Cool](https://www.nexusmods.com/cyberpunk2077/mods/15963) - 3994 endorsements
+- [Kiroshi Optics Expanded](https://www.nexusmods.com/cyberpunk2077/mods/5672) - 3927 endorsements
+- [Hair Color Profiles CCXL](https://www.nexusmods.com/cyberpunk2077/mods/19115) - 3874 endorsements
+- [Nola and Meluminary atelier](https://www.nexusmods.com/cyberpunk2077/mods/7703) - 3826 endorsements
+- [Upgrade Weapons Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/9889) - 3819 endorsements
 - [Improved Slide](https://www.nexusmods.com/cyberpunk2077/mods/5533) - 3809 endorsements
-- [Sandevistan Customization - Time Dilation](https://www.nexusmods.com/cyberpunk2077/mods/9547) - 3757 endorsements
-- [Nola and Meluminary clothing part no 1 - ARCHIVE XL - Equipment-EX](https://www.nexusmods.com/cyberpunk2077/mods/7665) - 3717 endorsements
-- [Nola and Meluminary clothing part no 2 - ARCHIVE XL - Equipment-EX](https://www.nexusmods.com/cyberpunk2077/mods/8209) - 3665 endorsements
-- [Advanced Control - Walk with Mouse Scroll - Lean Left Right - Toggle ADS - Inspect Weapon](https://www.nexusmods.com/cyberpunk2077/mods/1902) - 3657 endorsements
-- [Realistic Traffic Density](https://www.nexusmods.com/cyberpunk2077/mods/6457) - 3564 endorsements
-- [Stash and Backpack Search](https://www.nexusmods.com/cyberpunk2077/mods/14264) - 3479 endorsements
-- [Playable Arcade Machines](https://www.nexusmods.com/cyberpunk2077/mods/4213) - 3427 endorsements
-- [Unlimited Carry Capacity](https://www.nexusmods.com/cyberpunk2077/mods/651) - 3398 endorsements
-- [Mizutani Shion Targa MZT](https://www.nexusmods.com/cyberpunk2077/mods/4476) - 3391 endorsements
+- [Sandevistan Customization - Time Dilation](https://www.nexusmods.com/cyberpunk2077/mods/9547) - 3767 endorsements
+- [Nola and Meluminary clothing part no 1 - ARCHIVE XL - Equipment-EX](https://www.nexusmods.com/cyberpunk2077/mods/7665) - 3721 endorsements
+- [Nola and Meluminary clothing part no 2 - ARCHIVE XL - Equipment-EX](https://www.nexusmods.com/cyberpunk2077/mods/8209) - 3667 endorsements
+- [Advanced Control - Walk with Mouse Scroll - Lean Left Right - Toggle ADS - Inspect Weapon](https://www.nexusmods.com/cyberpunk2077/mods/1902) - 3658 endorsements
+- [Realistic Traffic Density](https://www.nexusmods.com/cyberpunk2077/mods/6457) - 3565 endorsements
+- [Stash and Backpack Search](https://www.nexusmods.com/cyberpunk2077/mods/14264) - 3488 endorsements
+- [Playable Arcade Machines](https://www.nexusmods.com/cyberpunk2077/mods/4213) - 3430 endorsements
+- [Unlimited Carry Capacity](https://www.nexusmods.com/cyberpunk2077/mods/651) - 3401 endorsements
+- [Mizutani Shion Targa MZT](https://www.nexusmods.com/cyberpunk2077/mods/4476) - 3393 endorsements
 - [1993 Nissan 240SX (S13)](https://www.nexusmods.com/cyberpunk2077/mods/8730) - 3360 endorsements
 - [Lucy Edgerunners Pants Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/5342) - 3359 endorsements
-- [Netrunner Quickhack Shop 2.02 - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/5918) - 3344 endorsements
-- [HARDCORE22V2 COMPLETE- REALISTIC COMBAT OVERHAUL](https://www.nexusmods.com/cyberpunk2077/mods/12569) - 3344 endorsements
-- [V's bullet necklace ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/5077) - 3332 endorsements
-- [PMU - Nibbles Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/5138) - 3273 endorsements
+- [HARDCORE22V2 COMPLETE- REALISTIC COMBAT OVERHAUL](https://www.nexusmods.com/cyberpunk2077/mods/12569) - 3348 endorsements
+- [Netrunner Quickhack Shop 2.02 - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/5918) - 3346 endorsements
+- [V's bullet necklace ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/5077) - 3335 endorsements
+- [PMU - Nibbles Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/5138) - 3275 endorsements
 - [Alternative Character Lighting](https://www.nexusmods.com/cyberpunk2077/mods/237) - 3258 endorsements
-- [Pocket Radio](https://www.nexusmods.com/cyberpunk2077/mods/2925) - 3241 endorsements
-- [QoL - Interactive Judy's Apartment Devices](https://www.nexusmods.com/cyberpunk2077/mods/8099) - 3220 endorsements
-- [Unlock Me A Slot 2.1](https://www.nexusmods.com/cyberpunk2077/mods/9675) - 3218 endorsements
-- [Cyberarm Cycle](https://www.nexusmods.com/cyberpunk2077/mods/5657) - 3187 endorsements
-- [Quadra Turbo K.S Edition](https://www.nexusmods.com/cyberpunk2077/mods/8260) - 3179 endorsements
-- [Amateur Hackers](https://www.nexusmods.com/cyberpunk2077/mods/4880) - 3163 endorsements
-- [No Paper Bags From Vending Machines](https://www.nexusmods.com/cyberpunk2077/mods/8387) - 3146 endorsements
+- [Pocket Radio](https://www.nexusmods.com/cyberpunk2077/mods/2925) - 3243 endorsements
+- [QoL - Interactive Judy's Apartment Devices](https://www.nexusmods.com/cyberpunk2077/mods/8099) - 3225 endorsements
+- [Unlock Me A Slot 2.1](https://www.nexusmods.com/cyberpunk2077/mods/9675) - 3220 endorsements
+- [Cyberarm Cycle](https://www.nexusmods.com/cyberpunk2077/mods/5657) - 3189 endorsements
+- [Quadra Turbo K.S Edition](https://www.nexusmods.com/cyberpunk2077/mods/8260) - 3180 endorsements
+- [Amateur Hackers](https://www.nexusmods.com/cyberpunk2077/mods/4880) - 3165 endorsements
+- [No Paper Bags From Vending Machines](https://www.nexusmods.com/cyberpunk2077/mods/8387) - 3150 endorsements
+- [Find-EX](https://www.nexusmods.com/cyberpunk2077/mods/8340) - 3143 endorsements
 - [DLC Liberation Protocol](https://www.nexusmods.com/cyberpunk2077/mods/12322) - 3143 endorsements
-- [Find-EX](https://www.nexusmods.com/cyberpunk2077/mods/8340) - 3137 endorsements
-- [Nola and Meluminary clothing part no 3 - ARCHIVE XL](https://www.nexusmods.com/cyberpunk2077/mods/8494) - 3137 endorsements
-- [Alvarix Hair Collection - Archive-XL](https://www.nexusmods.com/cyberpunk2077/mods/4438) - 3121 endorsements
-- [Cyberdeck Collection - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11093) - 3114 endorsements
-- [No More Duplicate NPCs](https://www.nexusmods.com/cyberpunk2077/mods/15585) - 3069 endorsements
-- [Nola Dreamer's Fishnet tights - ARCHIVE XL - Togglable Feet - Equipment-EX](https://www.nexusmods.com/cyberpunk2077/mods/7334) - 3068 endorsements
-- [(DEPRECATED) 02' Nissan Skyline GT-R R34](https://www.nexusmods.com/cyberpunk2077/mods/7606) - 3061 endorsements
-- [Alternative Midair Movement and Walljumping](https://www.nexusmods.com/cyberpunk2077/mods/5160) - 3044 endorsements
-- [Unlimited Eddies (money)](https://www.nexusmods.com/cyberpunk2077/mods/9323) - 3006 endorsements
-- [Legendary Clothing Shops](https://www.nexusmods.com/cyberpunk2077/mods/3654) - 3006 endorsements
-- [Sandals Glam High Heel - HD FEET - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7336) - 3003 endorsements
-- [Johnson's Stuff Standalone - Atelier Shop](https://www.nexusmods.com/cyberpunk2077/mods/3499) - 2985 endorsements
+- [Nola and Meluminary clothing part no 3 - ARCHIVE XL](https://www.nexusmods.com/cyberpunk2077/mods/8494) - 3140 endorsements
+- [Alvarix Hair Collection - Archive-XL](https://www.nexusmods.com/cyberpunk2077/mods/4438) - 3122 endorsements
+- [Cyberdeck Collection - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11093) - 3120 endorsements
+- [Nola Dreamer's Fishnet tights - ARCHIVE XL - Togglable Feet - Equipment-EX](https://www.nexusmods.com/cyberpunk2077/mods/7334) - 3073 endorsements
+- [No More Duplicate NPCs](https://www.nexusmods.com/cyberpunk2077/mods/15585) - 3072 endorsements
+- [(DEPRECATED) 02' Nissan Skyline GT-R R34](https://www.nexusmods.com/cyberpunk2077/mods/7606) - 3062 endorsements
+- [Alternative Midair Movement and Walljumping](https://www.nexusmods.com/cyberpunk2077/mods/5160) - 3045 endorsements
+- [Unlimited Eddies (money)](https://www.nexusmods.com/cyberpunk2077/mods/9323) - 3015 endorsements
+- [Sandals Glam High Heel - HD FEET - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7336) - 3008 endorsements
+- [Legendary Clothing Shops](https://www.nexusmods.com/cyberpunk2077/mods/3654) - 3007 endorsements
+- [Johnson's Stuff Standalone - Atelier Shop](https://www.nexusmods.com/cyberpunk2077/mods/3499) - 2986 endorsements
 - [Nano Drone](https://www.nexusmods.com/cyberpunk2077/mods/3419) - 2907 endorsements
 - [Alvarix Hair Collection - Atelier](https://www.nexusmods.com/cyberpunk2077/mods/4441) - 2885 endorsements
 - [SDO - Scissors Difficulty Options](https://www.nexusmods.com/cyberpunk2077/mods/4408) - 2858 endorsements
-- [Skip Unskippable Cutscenes Braindance Rides Dialogue Phone Calls - Speed Time Acceleration Fast Quick Replay Game NPC Talk Faster](https://www.nexusmods.com/cyberpunk2077/mods/3278) - 2838 endorsements
-- [Borg Malorian Restored](https://www.nexusmods.com/cyberpunk2077/mods/9213) - 2838 endorsements
+- [Borg Malorian Restored](https://www.nexusmods.com/cyberpunk2077/mods/9213) - 2848 endorsements
+- [Skip Unskippable Cutscenes Braindance Rides Dialogue Phone Calls - Speed Time Acceleration Fast Quick Replay Game NPC Talk Faster](https://www.nexusmods.com/cyberpunk2077/mods/3278) - 2841 endorsements
 - [Silver Breezy - Virtual Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/7773) - 2836 endorsements
-- [Realistic Car Crashes](https://www.nexusmods.com/cyberpunk2077/mods/5402) - 2822 endorsements
-- [Breach Takedown](https://www.nexusmods.com/cyberpunk2077/mods/4808) - 2806 endorsements
-- [Craft All Clothing](https://www.nexusmods.com/cyberpunk2077/mods/5124) - 2800 endorsements
-- [Mclaren P1](https://www.nexusmods.com/cyberpunk2077/mods/10344) - 2794 endorsements
-- [Baby Driver 2.0](https://www.nexusmods.com/cyberpunk2077/mods/4999) - 2774 endorsements
-- [Hacking Gets Tedious](https://www.nexusmods.com/cyberpunk2077/mods/6956) - 2772 endorsements
+- [Realistic Car Crashes](https://www.nexusmods.com/cyberpunk2077/mods/5402) - 2823 endorsements
+- [Breach Takedown](https://www.nexusmods.com/cyberpunk2077/mods/4808) - 2808 endorsements
+- [Craft All Clothing](https://www.nexusmods.com/cyberpunk2077/mods/5124) - 2802 endorsements
+- [Mclaren P1](https://www.nexusmods.com/cyberpunk2077/mods/10344) - 2800 endorsements
+- [Baby Driver 2.0](https://www.nexusmods.com/cyberpunk2077/mods/4999) - 2780 endorsements
+- [Hacking Gets Tedious](https://www.nexusmods.com/cyberpunk2077/mods/6956) - 2773 endorsements
 - [Wear What You Want - Incompatible with patch 2.0 and later](https://www.nexusmods.com/cyberpunk2077/mods/1835) - 2747 endorsements
-- [Enemies Dodging Fix](https://www.nexusmods.com/cyberpunk2077/mods/17923) - 2708 endorsements
-- [2017 Nissan GTR R35](https://www.nexusmods.com/cyberpunk2077/mods/11659) - 2695 endorsements
-- [Nola Dreamer and Aquelyras - street outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/9041) - 2692 endorsements
-- [Seawright Optometry Shop - part of the Kwekshops network -  Requires Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/6505) - 2691 endorsements
-- [Speedometer Fixes](https://www.nexusmods.com/cyberpunk2077/mods/9713) - 2688 endorsements
-- [SE7EN - Ripped Tights for Fem V](https://www.nexusmods.com/cyberpunk2077/mods/6361) - 2647 endorsements
-- [Lamborghini Countach K.S Edition](https://www.nexusmods.com/cyberpunk2077/mods/11110) - 2644 endorsements
+- [Enemies Dodging Fix](https://www.nexusmods.com/cyberpunk2077/mods/17923) - 2714 endorsements
+- [2017 Nissan GTR R35](https://www.nexusmods.com/cyberpunk2077/mods/11659) - 2696 endorsements
+- [Seawright Optometry Shop - part of the Kwekshops network -  Requires Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/6505) - 2695 endorsements
+- [Nola Dreamer and Aquelyras - street outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/9041) - 2694 endorsements
+- [Speedometer Fixes](https://www.nexusmods.com/cyberpunk2077/mods/9713) - 2691 endorsements
+- [SE7EN - Ripped Tights for Fem V](https://www.nexusmods.com/cyberpunk2077/mods/6361) - 2648 endorsements
+- [Lamborghini Countach K.S Edition](https://www.nexusmods.com/cyberpunk2077/mods/11110) - 2645 endorsements
 - [Better Camera Auto 2.1](https://www.nexusmods.com/cyberpunk2077/mods/6889) - 2631 endorsements
 - [Open Sesame Mod (Press E to open Locked Doors and Cars and more)](https://www.nexusmods.com/cyberpunk2077/mods/814) - 2616 endorsements
-- [Kwek's Parasol Oversized Round Glasses requires ArchiveXL TweakXL](https://www.nexusmods.com/cyberpunk2077/mods/6536) - 2612 endorsements
-- [Nova Traffic (CET - Modded Vehicles in Traffic)](https://www.nexusmods.com/cyberpunk2077/mods/14025) - 2611 endorsements
-- [Sonic Shock Prevents Trace (restored)](https://www.nexusmods.com/cyberpunk2077/mods/11438) - 2595 endorsements
-- [Netrunner Suit Pt2  - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/10989) - 2593 endorsements
+- [Kwek's Parasol Oversized Round Glasses requires ArchiveXL TweakXL](https://www.nexusmods.com/cyberpunk2077/mods/6536) - 2615 endorsements
+- [Nova Traffic (CET - Modded Vehicles in Traffic)](https://www.nexusmods.com/cyberpunk2077/mods/14025) - 2613 endorsements
+- [Sonic Shock Prevents Trace (restored)](https://www.nexusmods.com/cyberpunk2077/mods/11438) - 2600 endorsements
+- [Netrunner Suit Pt2  - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/10989) - 2597 endorsements
 - [DOWNTOWN Hair Saloon - New Styles for Fem- and MascV](https://www.nexusmods.com/cyberpunk2077/mods/4472) - 2579 endorsements
-- [No Cyberware Limit](https://www.nexusmods.com/cyberpunk2077/mods/9574) - 2574 endorsements
+- [No Cyberware Limit](https://www.nexusmods.com/cyberpunk2077/mods/9574) - 2575 endorsements
 - [Sandevistan Berserk Cyberware Tweaks](https://www.nexusmods.com/cyberpunk2077/mods/4955) - 2569 endorsements
-- [Junk In The Trunk - Wardrobe Access](https://www.nexusmods.com/cyberpunk2077/mods/5339) - 2554 endorsements
-- [Convo Skill Check Scaling](https://www.nexusmods.com/cyberpunk2077/mods/2886) - 2537 endorsements
-- [Raytracing Overdrive Path tracing Optimizations (2.0 compatible)](https://www.nexusmods.com/cyberpunk2077/mods/8059) - 2536 endorsements
-- [Smooth Movement](https://www.nexusmods.com/cyberpunk2077/mods/13471) - 2534 endorsements
-- [Wardrobe Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/5145) - 2522 endorsements
-- [Respec Attributes](https://www.nexusmods.com/cyberpunk2077/mods/3198) - 2522 endorsements
-- [MenuMod - A cheat menu](https://www.nexusmods.com/cyberpunk2077/mods/11384) - 2505 endorsements
-- [React To Horn - Get out of my way NPC](https://www.nexusmods.com/cyberpunk2077/mods/16965) - 2479 endorsements
-- [Buttslinger Quickmelee](https://www.nexusmods.com/cyberpunk2077/mods/10556) - 2475 endorsements
-- [Erok's Driving Tweaks](https://www.nexusmods.com/cyberpunk2077/mods/2948) - 2467 endorsements
-- [Allow Unbound Actions (Keybinds)](https://www.nexusmods.com/cyberpunk2077/mods/11429) - 2463 endorsements
-- [Unlock Hidden Settings with (Increased FOV - Mouse sensitivity - Zoom sensitivity - Resolution scale limit)](https://www.nexusmods.com/cyberpunk2077/mods/124) - 2454 endorsements
-- [Nola Dreamer x Aquelyras - goth outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11609) - 2445 endorsements
+- [Junk In The Trunk - Wardrobe Access](https://www.nexusmods.com/cyberpunk2077/mods/5339) - 2557 endorsements
+- [Convo Skill Check Scaling](https://www.nexusmods.com/cyberpunk2077/mods/2886) - 2539 endorsements
+- [Raytracing Overdrive Path tracing Optimizations (2.0 compatible)](https://www.nexusmods.com/cyberpunk2077/mods/8059) - 2539 endorsements
+- [Smooth Movement](https://www.nexusmods.com/cyberpunk2077/mods/13471) - 2537 endorsements
+- [Respec Attributes](https://www.nexusmods.com/cyberpunk2077/mods/3198) - 2524 endorsements
+- [Wardrobe Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/5145) - 2523 endorsements
+- [MenuMod - A cheat menu](https://www.nexusmods.com/cyberpunk2077/mods/11384) - 2507 endorsements
+- [React To Horn - Get out of my way NPC](https://www.nexusmods.com/cyberpunk2077/mods/16965) - 2485 endorsements
+- [Buttslinger Quickmelee](https://www.nexusmods.com/cyberpunk2077/mods/10556) - 2482 endorsements
+- [Allow Unbound Actions (Keybinds)](https://www.nexusmods.com/cyberpunk2077/mods/11429) - 2471 endorsements
+- [Erok's Driving Tweaks](https://www.nexusmods.com/cyberpunk2077/mods/2948) - 2468 endorsements
+- [Unlock Hidden Settings with (Increased FOV - Mouse sensitivity - Zoom sensitivity - Resolution scale limit)](https://www.nexusmods.com/cyberpunk2077/mods/124) - 2456 endorsements
+- [Nola Dreamer x Aquelyras - goth outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11609) - 2448 endorsements
 - [Legendary Cyberware Mods Collection](https://www.nexusmods.com/cyberpunk2077/mods/6113) - 2444 endorsements
-- [Immersion patch - The Hunt quest missing audio restore](https://www.nexusmods.com/cyberpunk2077/mods/7413) - 2441 endorsements
-- [Braindance Protocol - A Utilities and Cheats GUI](https://www.nexusmods.com/cyberpunk2077/mods/616) - 2425 endorsements
+- [Immersion patch - The Hunt quest missing audio restore](https://www.nexusmods.com/cyberpunk2077/mods/7413) - 2444 endorsements
+- [Braindance Protocol - A Utilities and Cheats GUI](https://www.nexusmods.com/cyberpunk2077/mods/616) - 2426 endorsements
 - [SVE - Simple Vendor Expansion](https://www.nexusmods.com/cyberpunk2077/mods/4413) - 2420 endorsements
-- [Character Customization Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/3930) - 2415 endorsements
-- [Bug Fix - Base Fists and Arm Cyberware Attack Speed Fix](https://www.nexusmods.com/cyberpunk2077/mods/14130) - 2407 endorsements
-- [Enhanced Cyberware Capacity](https://www.nexusmods.com/cyberpunk2077/mods/15297) - 2388 endorsements
-- ... and 920 more
+- [Character Customization Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/3930) - 2419 endorsements
+- [Bug Fix - Base Fists and Arm Cyberware Attack Speed Fix](https://www.nexusmods.com/cyberpunk2077/mods/14130) - 2414 endorsements
+- [Enhanced Cyberware Capacity](https://www.nexusmods.com/cyberpunk2077/mods/15297) - 2393 endorsements
+- [(DEPRECATED) Unequip Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/2282) - 2382 endorsements
+- ... and 916 more
 
 </details>
 
 <details><summary><b>390</b> - asset mod not updated since 2023-12-05</summary>
 
-- [Material and Texture Override](https://www.nexusmods.com/cyberpunk2077/mods/5266) - 64061 endorsements
-- [WINGDEER HAIR COLLECTION](https://www.nexusmods.com/cyberpunk2077/mods/6072) - 25500 endorsements
-- [Cyberpunk 2077 HD Reworked Project](https://www.nexusmods.com/cyberpunk2077/mods/7652) - 20525 endorsements
-- [Unique Eyes - Core](https://www.nexusmods.com/cyberpunk2077/mods/1937) - 14802 endorsements
-- [spawn0 - NEW ITEMS COMPATIBILITY PATCH](https://www.nexusmods.com/cyberpunk2077/mods/3490) - 13776 endorsements
-- [Morph Texture Removal - Cleaner and better skin details](https://www.nexusmods.com/cyberpunk2077/mods/2419) - 12672 endorsements
-- [Cookedapps Nulled](https://www.nexusmods.com/cyberpunk2077/mods/3051) - 12241 endorsements
-- [Phantom Liberty Vanilla Clothes Refits for Enhanced Big Breast](https://www.nexusmods.com/cyberpunk2077/mods/9461) - 9624 endorsements
-- [Crouch vignette effect remover](https://www.nexusmods.com/cyberpunk2077/mods/535) - 8345 endorsements
-- [Egirl Makeup Edits](https://www.nexusmods.com/cyberpunk2077/mods/1149) - 8135 endorsements
-- [Edgerunners - Lucy's Outfit](https://www.nexusmods.com/cyberpunk2077/mods/4621) - 8076 endorsements
-- [More Head Meshes](https://www.nexusmods.com/cyberpunk2077/mods/4187) - 7424 endorsements
-- [Kala's Eyes Standalone V Version](https://www.nexusmods.com/cyberpunk2077/mods/2422) - 7221 endorsements
-- [White Hair for V](https://www.nexusmods.com/cyberpunk2077/mods/755) - 7057 endorsements
-- [Preem Water 2.0 ( Canon - Pure - Tropical - Paradise )](https://www.nexusmods.com/cyberpunk2077/mods/8275) - 6865 endorsements
-- [Phantom Liberty - PUSH UP - Vanilla Clothes refits](https://www.nexusmods.com/cyberpunk2077/mods/9295) - 6715 endorsements
+- [Material and Texture Override](https://www.nexusmods.com/cyberpunk2077/mods/5266) - 64113 endorsements
+- [WINGDEER HAIR COLLECTION](https://www.nexusmods.com/cyberpunk2077/mods/6072) - 25524 endorsements
+- [Cyberpunk 2077 HD Reworked Project](https://www.nexusmods.com/cyberpunk2077/mods/7652) - 20547 endorsements
+- [Unique Eyes - Core](https://www.nexusmods.com/cyberpunk2077/mods/1937) - 14817 endorsements
+- [spawn0 - NEW ITEMS COMPATIBILITY PATCH](https://www.nexusmods.com/cyberpunk2077/mods/3490) - 13780 endorsements
+- [Morph Texture Removal - Cleaner and better skin details](https://www.nexusmods.com/cyberpunk2077/mods/2419) - 12684 endorsements
+- [Cookedapps Nulled](https://www.nexusmods.com/cyberpunk2077/mods/3051) - 12245 endorsements
+- [Phantom Liberty Vanilla Clothes Refits for Enhanced Big Breast](https://www.nexusmods.com/cyberpunk2077/mods/9461) - 9643 endorsements
+- [Crouch vignette effect remover](https://www.nexusmods.com/cyberpunk2077/mods/535) - 8346 endorsements
+- [Egirl Makeup Edits](https://www.nexusmods.com/cyberpunk2077/mods/1149) - 8138 endorsements
+- [Edgerunners - Lucy's Outfit](https://www.nexusmods.com/cyberpunk2077/mods/4621) - 8081 endorsements
+- [More Head Meshes](https://www.nexusmods.com/cyberpunk2077/mods/4187) - 7432 endorsements
+- [Kala's Eyes Standalone V Version](https://www.nexusmods.com/cyberpunk2077/mods/2422) - 7227 endorsements
+- [White Hair for V](https://www.nexusmods.com/cyberpunk2077/mods/755) - 7061 endorsements
+- [Preem Water 2.0 ( Canon - Pure - Tropical - Paradise )](https://www.nexusmods.com/cyberpunk2077/mods/8275) - 6878 endorsements
+- [Phantom Liberty - PUSH UP - Vanilla Clothes refits](https://www.nexusmods.com/cyberpunk2077/mods/9295) - 6724 endorsements
 - [V's Apartment Renovation](https://www.nexusmods.com/cyberpunk2077/mods/2154) - 6133 endorsements
-- [Misty Appearance Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/1528) - 6107 endorsements
-- [LOD Improvements (Distant Level of Detail) - Mostly Pre 1.5](https://www.nexusmods.com/cyberpunk2077/mods/3631) - 5954 endorsements
-- [Judy's Face Beautified - 4K Complexion Makeup and Eyebrows](https://www.nexusmods.com/cyberpunk2077/mods/2570) - 5793 endorsements
-- [FPP Clothing Fix](https://www.nexusmods.com/cyberpunk2077/mods/4862) - 5715 endorsements
-- [Faster Iguana Hatch](https://www.nexusmods.com/cyberpunk2077/mods/5112) - 5498 endorsements
+- [Misty Appearance Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/1528) - 6111 endorsements
+- [LOD Improvements (Distant Level of Detail) - Mostly Pre 1.5](https://www.nexusmods.com/cyberpunk2077/mods/3631) - 5955 endorsements
+- [Judy's Face Beautified - 4K Complexion Makeup and Eyebrows](https://www.nexusmods.com/cyberpunk2077/mods/2570) - 5795 endorsements
+- [FPP Clothing Fix](https://www.nexusmods.com/cyberpunk2077/mods/4862) - 5720 endorsements
+- [Faster Iguana Hatch](https://www.nexusmods.com/cyberpunk2077/mods/5112) - 5506 endorsements
 - [Blade Runner 2077 Better Finer Rain V6.0](https://www.nexusmods.com/cyberpunk2077/mods/2001) - 5371 endorsements
-- [Hairstyle Collection](https://www.nexusmods.com/cyberpunk2077/mods/2636) - 5334 endorsements
-- [Advanced V Customisation](https://www.nexusmods.com/cyberpunk2077/mods/968) - 5233 endorsements
+- [Hairstyle Collection](https://www.nexusmods.com/cyberpunk2077/mods/2636) - 5336 endorsements
+- [Advanced V Customisation](https://www.nexusmods.com/cyberpunk2077/mods/968) - 5234 endorsements
 - [Change Your Favorite Cars](https://www.nexusmods.com/cyberpunk2077/mods/1097) - 5201 endorsements
-- [Vessnelle Hair Collection](https://www.nexusmods.com/cyberpunk2077/mods/5406) - 5121 endorsements
-- [Lamborghini Terzo Millennio (Rayfield Caliburn Replacer)](https://www.nexusmods.com/cyberpunk2077/mods/2398) - 4946 endorsements
-- [Kala's Makeup Edits (Winged Liner and Lipstick Edits Update Added Cat Eyeliner)](https://www.nexusmods.com/cyberpunk2077/mods/994) - 4855 endorsements
-- [Preem Skin](https://www.nexusmods.com/cyberpunk2077/mods/8157) - 4777 endorsements
-- [Better Explosions And Fire V2.5](https://www.nexusmods.com/cyberpunk2077/mods/4096) - 4382 endorsements
+- [Vessnelle Hair Collection](https://www.nexusmods.com/cyberpunk2077/mods/5406) - 5130 endorsements
+- [Lamborghini Terzo Millennio (Rayfield Caliburn Replacer)](https://www.nexusmods.com/cyberpunk2077/mods/2398) - 4947 endorsements
+- [Kala's Makeup Edits (Winged Liner and Lipstick Edits Update Added Cat Eyeliner)](https://www.nexusmods.com/cyberpunk2077/mods/994) - 4857 endorsements
+- [Preem Skin](https://www.nexusmods.com/cyberpunk2077/mods/8157) - 4781 endorsements
+- [Better Explosions And Fire V2.5](https://www.nexusmods.com/cyberpunk2077/mods/4096) - 4385 endorsements
 - [Climate change](https://www.nexusmods.com/cyberpunk2077/mods/862) - 4240 endorsements
-- [Toggleable Feet for V - ArchiveXL and EquipmentEx](https://www.nexusmods.com/cyberpunk2077/mods/7049) - 4162 endorsements
+- [Toggleable Feet for V - ArchiveXL and EquipmentEx](https://www.nexusmods.com/cyberpunk2077/mods/7049) - 4165 endorsements
 - [Kala's Eyes Standalone V2](https://www.nexusmods.com/cyberpunk2077/mods/3242) - 4035 endorsements
-- [Female V Nina Hair](https://www.nexusmods.com/cyberpunk2077/mods/1102) - 3972 endorsements
-- [Cookedprefabs Nulled](https://www.nexusmods.com/cyberpunk2077/mods/4789) - 3946 endorsements
-- [4K Detailed Complexion for Panam](https://www.nexusmods.com/cyberpunk2077/mods/2308) - 3936 endorsements
-- [Spicy Clean Hack Screen](https://www.nexusmods.com/cyberpunk2077/mods/906) - 3889 endorsements
-- [Spicy HUDs - More UI and HUD colors](https://www.nexusmods.com/cyberpunk2077/mods/509) - 3882 endorsements
-- [spawn0 - ARMS CORRECTION for tpp](https://www.nexusmods.com/cyberpunk2077/mods/1367) - 3808 endorsements
+- [Female V Nina Hair](https://www.nexusmods.com/cyberpunk2077/mods/1102) - 3974 endorsements
+- [Cookedprefabs Nulled](https://www.nexusmods.com/cyberpunk2077/mods/4789) - 3951 endorsements
+- [4K Detailed Complexion for Panam](https://www.nexusmods.com/cyberpunk2077/mods/2308) - 3937 endorsements
+- [Spicy Clean Hack Screen](https://www.nexusmods.com/cyberpunk2077/mods/906) - 3891 endorsements
+- [Spicy HUDs - More UI and HUD colors](https://www.nexusmods.com/cyberpunk2077/mods/509) - 3884 endorsements
+- [spawn0 - ARMS CORRECTION for tpp](https://www.nexusmods.com/cyberpunk2077/mods/1367) - 3809 endorsements
 - [Jinguji Custom Atelier--Unique Clothes for Fem V](https://www.nexusmods.com/cyberpunk2077/mods/2792) - 3789 endorsements
-- [Inventory Glitch Effect Removal](https://www.nexusmods.com/cyberpunk2077/mods/3251) - 3712 endorsements
+- [Inventory Glitch Effect Removal](https://www.nexusmods.com/cyberpunk2077/mods/3251) - 3716 endorsements
 - [Remove the holes left by the injection (and other)](https://www.nexusmods.com/cyberpunk2077/mods/929) - 3541 endorsements
 - [Story Tattoo (F and M)](https://www.nexusmods.com/cyberpunk2077/mods/3410) - 3527 endorsements
-- [Water 2077](https://www.nexusmods.com/cyberpunk2077/mods/5162) - 3509 endorsements
-- [All Drops Legendary](https://www.nexusmods.com/cyberpunk2077/mods/1259) - 3504 endorsements
-- [Kala's Cyberware Colors  And Demo V Texture Edits](https://www.nexusmods.com/cyberpunk2077/mods/1197) - 3344 endorsements
-- [Modular Jewelry Collection - Necklaces and Chokers](https://www.nexusmods.com/cyberpunk2077/mods/2151) - 3340 endorsements
-- [Hide Distant 2D Cars](https://www.nexusmods.com/cyberpunk2077/mods/1282) - 3322 endorsements
-- [4K Ultra Detailed Complexion](https://www.nexusmods.com/cyberpunk2077/mods/2531) - 3212 endorsements
+- [Water 2077](https://www.nexusmods.com/cyberpunk2077/mods/5162) - 3510 endorsements
+- [All Drops Legendary](https://www.nexusmods.com/cyberpunk2077/mods/1259) - 3505 endorsements
+- [Kala's Cyberware Colors  And Demo V Texture Edits](https://www.nexusmods.com/cyberpunk2077/mods/1197) - 3346 endorsements
+- [Modular Jewelry Collection - Necklaces and Chokers](https://www.nexusmods.com/cyberpunk2077/mods/2151) - 3342 endorsements
+- [Hide Distant 2D Cars](https://www.nexusmods.com/cyberpunk2077/mods/1282) - 3324 endorsements
+- [4K Ultra Detailed Complexion](https://www.nexusmods.com/cyberpunk2077/mods/2531) - 3214 endorsements
 - [Yaiba Kusanagi - Neon Rims](https://www.nexusmods.com/cyberpunk2077/mods/2080) - 3188 endorsements
-- [Purify The UI - disable annoying 2D ghosting blur and 3D perspective shader effects - No More Lens Distortion or Blurry Double Vision Interface HUD](https://www.nexusmods.com/cyberpunk2077/mods/2648) - 3105 endorsements
+- [Purify The UI - disable annoying 2D ghosting blur and 3D perspective shader effects - No More Lens Distortion or Blurry Double Vision Interface HUD](https://www.nexusmods.com/cyberpunk2077/mods/2648) - 3106 endorsements
 - [Custom Eye Colors](https://www.nexusmods.com/cyberpunk2077/mods/494) - 3099 endorsements
 - [Game Time Tweaks](https://www.nexusmods.com/cyberpunk2077/mods/870) - 3076 endorsements
-- [Change Your Favorite Motorcycles](https://www.nexusmods.com/cyberpunk2077/mods/1003) - 3031 endorsements
+- [Change Your Favorite Motorcycles](https://www.nexusmods.com/cyberpunk2077/mods/1003) - 3032 endorsements
 - [Fancy Knives and Katanas](https://www.nexusmods.com/cyberpunk2077/mods/2816) - 2917 endorsements
-- [More Climbable Objects](https://www.nexusmods.com/cyberpunk2077/mods/7043) - 2848 endorsements
+- [More Climbable Objects](https://www.nexusmods.com/cyberpunk2077/mods/7043) - 2850 endorsements
 - [Koralina's New Eye Makeup - Graphic Eyeliners](https://www.nexusmods.com/cyberpunk2077/mods/1801) - 2824 endorsements
-- [High Res Graffiti - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6300) - 2697 endorsements
-- [High Res Cyberware - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6064) - 2697 endorsements
+- [High Res Cyberware - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6064) - 2701 endorsements
+- [High Res Graffiti - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6300) - 2698 endorsements
 - [Photorealistic Eyes](https://www.nexusmods.com/cyberpunk2077/mods/1320) - 2681 endorsements
-- [spawn0 - BODY CREATOR 2.0](https://www.nexusmods.com/cyberpunk2077/mods/4934) - 2640 endorsements
-- [Darker Eyebrows](https://www.nexusmods.com/cyberpunk2077/mods/4131) - 2620 endorsements
-- [High Res Posters and Signs - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6795) - 2609 endorsements
-- [PRC - Fully Modular Jewellery Framework](https://www.nexusmods.com/cyberpunk2077/mods/8590) - 2569 endorsements
+- [spawn0 - BODY CREATOR 2.0](https://www.nexusmods.com/cyberpunk2077/mods/4934) - 2641 endorsements
+- [Darker Eyebrows](https://www.nexusmods.com/cyberpunk2077/mods/4131) - 2622 endorsements
+- [High Res Posters and Signs - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6795) - 2610 endorsements
+- [PRC - Fully Modular Jewellery Framework](https://www.nexusmods.com/cyberpunk2077/mods/8590) - 2574 endorsements
 - [JB - Clothing fit AND Better Grey Mesh Fix](https://www.nexusmods.com/cyberpunk2077/mods/1540) - 2553 endorsements
-- [surfaces](https://www.nexusmods.com/cyberpunk2077/mods/2723) - 2527 endorsements
-- [4K Complexions for Male V](https://www.nexusmods.com/cyberpunk2077/mods/2421) - 2504 endorsements
-- [Alternate Eyeliner Collection](https://www.nexusmods.com/cyberpunk2077/mods/11033) - 2499 endorsements
-- [High-Res Vending Machines - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7261) - 2485 endorsements
-- [Blemishes to Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/4352) - 2481 endorsements
+- [surfaces](https://www.nexusmods.com/cyberpunk2077/mods/2723) - 2528 endorsements
+- [4K Complexions for Male V](https://www.nexusmods.com/cyberpunk2077/mods/2421) - 2506 endorsements
+- [Alternate Eyeliner Collection](https://www.nexusmods.com/cyberpunk2077/mods/11033) - 2501 endorsements
+- [High-Res Vending Machines - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7261) - 2486 endorsements
+- [Blemishes to Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/4352) - 2483 endorsements
 - [Custom Hairstyle - Femme Fatale](https://www.nexusmods.com/cyberpunk2077/mods/2083) - 2469 endorsements
 - [Yaiba Kusanagi CT-3X Custom Paint Job Pack](https://www.nexusmods.com/cyberpunk2077/mods/1818) - 2458 endorsements
 - [Clothing Set and Recolor Catalogue](https://www.nexusmods.com/cyberpunk2077/mods/3275) - 2432 endorsements
-- [High Res Eyes and Brows - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6117) - 2378 endorsements
-- [Piercing Edits](https://www.nexusmods.com/cyberpunk2077/mods/4499) - 2360 endorsements
-- [CUSTOM NETRUNNER SUITS (UPDATE w EXOTICS)](https://www.nexusmods.com/cyberpunk2077/mods/1946) - 2350 endorsements
+- [High Res Eyes and Brows - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6117) - 2380 endorsements
+- [Piercing Edits](https://www.nexusmods.com/cyberpunk2077/mods/4499) - 2361 endorsements
+- [CUSTOM NETRUNNER SUITS (UPDATE w EXOTICS)](https://www.nexusmods.com/cyberpunk2077/mods/1946) - 2351 endorsements
 - [Wraith Hoods](https://www.nexusmods.com/cyberpunk2077/mods/1048) - 2346 endorsements
-- [HQ Fast Food](https://www.nexusmods.com/cyberpunk2077/mods/10550) - 2290 endorsements
-- [High-Res Stickers - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7282) - 2274 endorsements
-- [VTK Realistic Facial Details - FemV and Feminine NPCs](https://www.nexusmods.com/cyberpunk2077/mods/7474) - 2269 endorsements
-- [Cat Replacers for Nibbles](https://www.nexusmods.com/cyberpunk2077/mods/4891) - 2224 endorsements
-- [High-Res Hair and Beards - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7184) - 2223 endorsements
-- [Takemura Cyberware Pack - Fem V](https://www.nexusmods.com/cyberpunk2077/mods/4548) - 2216 endorsements
-- [Kakto Eyes](https://www.nexusmods.com/cyberpunk2077/mods/1378) - 2162 endorsements
-- [All In One - Hand Cyberware Removal - BALLISTIC COPROCESSOR REMOVAL](https://www.nexusmods.com/cyberpunk2077/mods/3897) - 2136 endorsements
-- [E3 V (Textures)](https://www.nexusmods.com/cyberpunk2077/mods/924) - 2121 endorsements
+- [HQ Fast Food](https://www.nexusmods.com/cyberpunk2077/mods/10550) - 2292 endorsements
+- [High-Res Stickers - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7282) - 2276 endorsements
+- [VTK Realistic Facial Details - FemV and Feminine NPCs](https://www.nexusmods.com/cyberpunk2077/mods/7474) - 2270 endorsements
+- [High-Res Hair and Beards - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7184) - 2226 endorsements
+- [Cat Replacers for Nibbles](https://www.nexusmods.com/cyberpunk2077/mods/4891) - 2225 endorsements
+- [Takemura Cyberware Pack - Fem V](https://www.nexusmods.com/cyberpunk2077/mods/4548) - 2217 endorsements
+- [Kakto Eyes](https://www.nexusmods.com/cyberpunk2077/mods/1378) - 2164 endorsements
+- [All In One - Hand Cyberware Removal - BALLISTIC COPROCESSOR REMOVAL](https://www.nexusmods.com/cyberpunk2077/mods/3897) - 2138 endorsements
+- [E3 V (Textures)](https://www.nexusmods.com/cyberpunk2077/mods/924) - 2122 endorsements
 - [Vanilla Plus Visual Enhancement](https://www.nexusmods.com/cyberpunk2077/mods/6578) - 2099 endorsements
 - [Hair Swap 01-08](https://www.nexusmods.com/cyberpunk2077/mods/1564) - 2051 endorsements
+- [Longer Car Delivery Timers](https://www.nexusmods.com/cyberpunk2077/mods/9735) - 2029 endorsements
 - [Custom Hairstyle - The Major](https://www.nexusmods.com/cyberpunk2077/mods/1802) - 2027 endorsements
-- [Longer Car Delivery Timers](https://www.nexusmods.com/cyberpunk2077/mods/9735) - 2025 endorsements
-- [High Res Unnamed NPC Faces - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/7089) - 2021 endorsements
+- [High Res Unnamed NPC Faces - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/7089) - 2022 endorsements
 - [High-Res Clothing - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7301) - 1992 endorsements
-- [High Res Food and Drinks - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/7999) - 1987 endorsements
-- [REAL CYBERPUNK MUSIC RADIO](https://www.nexusmods.com/cyberpunk2077/mods/2326) - 1986 endorsements
-- [Kala's Feminine Complexion Edits](https://www.nexusmods.com/cyberpunk2077/mods/1032) - 1983 endorsements
+- [High Res Food and Drinks - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/7999) - 1988 endorsements
+- [REAL CYBERPUNK MUSIC RADIO](https://www.nexusmods.com/cyberpunk2077/mods/2326) - 1987 endorsements
+- [Kala's Feminine Complexion Edits](https://www.nexusmods.com/cyberpunk2077/mods/1032) - 1984 endorsements
 - [High-Res Worldmap - Upscaled Textures](https://www.nexusmods.com/cyberpunk2077/mods/7180) - 1978 endorsements
+- [High Res Containers - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/7998) - 1977 endorsements
 - [Koralina's New Lip Makeup Edits](https://www.nexusmods.com/cyberpunk2077/mods/1915) - 1977 endorsements
-- [High Res Containers - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/7998) - 1976 endorsements
 - [Wraiths Hood With Hair](https://www.nexusmods.com/cyberpunk2077/mods/3488) - 1941 endorsements
 - [Vanilla Billboard LODs Improved](https://www.nexusmods.com/cyberpunk2077/mods/3184) - 1914 endorsements
 - [Lizzy Hair - All Colors - M and F V - Physics Included](https://www.nexusmods.com/cyberpunk2077/mods/4287) - 1905 endorsements
-- [High Res Minor Named NPCs - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/8045) - 1849 endorsements
-- [CC Fix - Cosmetic Corrections](https://www.nexusmods.com/cyberpunk2077/mods/6788) - 1830 endorsements
-- [Cyber Ninja and Elite Soldiers Clothing Replacement](https://www.nexusmods.com/cyberpunk2077/mods/1037) - 1825 endorsements
+- [High Res Minor Named NPCs - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/8045) - 1850 endorsements
+- [CC Fix - Cosmetic Corrections](https://www.nexusmods.com/cyberpunk2077/mods/6788) - 1832 endorsements
+- [Cyber Ninja and Elite Soldiers Clothing Replacement](https://www.nexusmods.com/cyberpunk2077/mods/1037) - 1826 endorsements
 - [Crowd E3 2018 Restored](https://www.nexusmods.com/cyberpunk2077/mods/11003) - 1778 endorsements
 - [Disable vignette and-or sharpening](https://www.nexusmods.com/cyberpunk2077/mods/9276) - 1750 endorsements
-- [Playstation Prompt cyberfix](https://www.nexusmods.com/cyberpunk2077/mods/463) - 1722 endorsements
+- [Playstation Prompt cyberfix](https://www.nexusmods.com/cyberpunk2077/mods/463) - 1723 endorsements
 - [Badboy and Badgirl Tattoo](https://www.nexusmods.com/cyberpunk2077/mods/1069) - 1694 endorsements
-- [E3 2018 LUT](https://www.nexusmods.com/cyberpunk2077/mods/5154) - 1667 endorsements
+- [E3 2018 LUT](https://www.nexusmods.com/cyberpunk2077/mods/5154) - 1670 endorsements
 - [Johnny Silverhand - Glitch Effect Removal](https://www.nexusmods.com/cyberpunk2077/mods/832) - 1666 endorsements
-- [Teeth and Metal Toofs](https://www.nexusmods.com/cyberpunk2077/mods/4888) - 1657 endorsements
-- [2023 Rogue's Hair](https://www.nexusmods.com/cyberpunk2077/mods/908) - 1647 endorsements
+- [Teeth and Metal Toofs](https://www.nexusmods.com/cyberpunk2077/mods/4888) - 1659 endorsements
+- [2023 Rogue's Hair](https://www.nexusmods.com/cyberpunk2077/mods/908) - 1649 endorsements
 - [CookedApps_Nulled 1.63](https://www.nexusmods.com/cyberpunk2077/mods/8127) - 1629 endorsements
 - [Unzipped Netrunner Suit - FemV](https://www.nexusmods.com/cyberpunk2077/mods/4343) - 1621 endorsements
-- [Pale and Smoother Skin](https://www.nexusmods.com/cyberpunk2077/mods/7196) - 1607 endorsements
+- [Pale and Smoother Skin](https://www.nexusmods.com/cyberpunk2077/mods/7196) - 1609 endorsements
 - [Modular Jewelry Collection - Earrings](https://www.nexusmods.com/cyberpunk2077/mods/2267) - 1603 endorsements
 - [Stockings and Fishnets](https://www.nexusmods.com/cyberpunk2077/mods/2954) - 1590 endorsements
 - [Extra Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/4680) - 1579 endorsements
-- [HQ Food - Fries - Better Quality Models and Textures](https://www.nexusmods.com/cyberpunk2077/mods/4818) - 1569 endorsements
-- [Vessnelle's 4k Complexions](https://www.nexusmods.com/cyberpunk2077/mods/6102) - 1562 endorsements
-- [HQ Food - Soda - Real Chromanticore](https://www.nexusmods.com/cyberpunk2077/mods/8407) - 1561 endorsements
-- [Biosculpted Exotics](https://www.nexusmods.com/cyberpunk2077/mods/9797) - 1544 endorsements
-- [Moderately Thicc Body](https://www.nexusmods.com/cyberpunk2077/mods/3328) - 1542 endorsements
-- [Lizzy Wizzy Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/1631) - 1538 endorsements
+- [HQ Food - Fries - Better Quality Models and Textures](https://www.nexusmods.com/cyberpunk2077/mods/4818) - 1571 endorsements
+- [HQ Food - Soda - Real Chromanticore](https://www.nexusmods.com/cyberpunk2077/mods/8407) - 1563 endorsements
+- [Vessnelle's 4k Complexions](https://www.nexusmods.com/cyberpunk2077/mods/6102) - 1563 endorsements
+- [Biosculpted Exotics](https://www.nexusmods.com/cyberpunk2077/mods/9797) - 1545 endorsements
+- [Moderately Thicc Body](https://www.nexusmods.com/cyberpunk2077/mods/3328) - 1543 endorsements
+- [Lizzy Wizzy Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/1631) - 1539 endorsements
 - [Subtle Gorilla Arms](https://www.nexusmods.com/cyberpunk2077/mods/1122) - 1535 endorsements
 - [David Martinez Jacket Refited for Hyst Bodies mods](https://www.nexusmods.com/cyberpunk2077/mods/5155) - 1520 endorsements
 - [Rogue - Forever Young](https://www.nexusmods.com/cyberpunk2077/mods/1628) - 1507 endorsements
 - [Relic Effect Periods](https://www.nexusmods.com/cyberpunk2077/mods/5113) - 1502 endorsements
 - [Windswept - V hair blowing while driving bikes](https://www.nexusmods.com/cyberpunk2077/mods/9060) - 1496 endorsements
-- [Edgerunners- Rebecca's hairstyle haircolor and accessory](https://www.nexusmods.com/cyberpunk2077/mods/5418) - 1493 endorsements
-- [Kala's Eyes Standalone Eyes V2 Tintable Version incl Hanako Glow Ring Blue Moon and Kiroshi Eyes](https://www.nexusmods.com/cyberpunk2077/mods/3281) - 1488 endorsements
-- [High Res V-Player Faces - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6466) - 1477 endorsements
-- [E3 2018 Haircut for Female V](https://www.nexusmods.com/cyberpunk2077/mods/1388) - 1473 endorsements
-- [Attribute Checks De-Scaled](https://www.nexusmods.com/cyberpunk2077/mods/9388) - 1471 endorsements
+- [Edgerunners- Rebecca's hairstyle haircolor and accessory](https://www.nexusmods.com/cyberpunk2077/mods/5418) - 1495 endorsements
+- [Kala's Eyes Standalone Eyes V2 Tintable Version incl Hanako Glow Ring Blue Moon and Kiroshi Eyes](https://www.nexusmods.com/cyberpunk2077/mods/3281) - 1490 endorsements
+- [High Res V-Player Faces - MonstrrMagic Texture Series](https://www.nexusmods.com/cyberpunk2077/mods/6466) - 1478 endorsements
+- [Attribute Checks De-Scaled](https://www.nexusmods.com/cyberpunk2077/mods/9388) - 1475 endorsements
+- [E3 2018 Haircut for Female V](https://www.nexusmods.com/cyberpunk2077/mods/1388) - 1474 endorsements
 - [Kala's Eyes (Hanako and Blue Moon Eyes for V)](https://www.nexusmods.com/cyberpunk2077/mods/1543) - 1471 endorsements
-- [Sandra Dorsett Face Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/3754) - 1467 endorsements
+- [Sandra Dorsett Face Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/3754) - 1470 endorsements
 - [Preem Shores (Preem Water Addon - Trash Begone)](https://www.nexusmods.com/cyberpunk2077/mods/9031) - 1458 endorsements
 - [High-Res NPCs - Panam Palmer](https://www.nexusmods.com/cyberpunk2077/mods/7171) - 1440 endorsements
-- [Koralina's New Eyebrows Edits](https://www.nexusmods.com/cyberpunk2077/mods/1975) - 1429 endorsements
+- [Koralina's New Eyebrows Edits](https://www.nexusmods.com/cyberpunk2077/mods/1975) - 1430 endorsements
 - [Tweaked Vanilla Refits for Enhanced Big Breasts BODY MOD by LxRHyst](https://www.nexusmods.com/cyberpunk2077/mods/5083) - 1420 endorsements
-- [Edgerunners- David's Hairstyle](https://www.nexusmods.com/cyberpunk2077/mods/5311) - 1411 endorsements
+- [Edgerunners- David's Hairstyle](https://www.nexusmods.com/cyberpunk2077/mods/5311) - 1413 endorsements
 - [Hair caps](https://www.nexusmods.com/cyberpunk2077/mods/4293) - 1408 endorsements
-- [Lucy Edgerunners Body Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/6139) - 1403 endorsements
+- [Lucy Edgerunners Body Cyberware](https://www.nexusmods.com/cyberpunk2077/mods/6139) - 1406 endorsements
 - [Clipping Gray Mesh Remover](https://www.nexusmods.com/cyberpunk2077/mods/768) - 1400 endorsements
 - [1.5 Neon Rims for Bikes - Recolours](https://www.nexusmods.com/cyberpunk2077/mods/3862) - 1397 endorsements
 - [Geoengineering](https://www.nexusmods.com/cyberpunk2077/mods/2195) - 1380 endorsements
@@ -363,43 +365,43 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 
 </details>
 
-<details><summary><b>166</b> - no recognisable game files and not updated since 2025-07-17</summary>
+<details><summary><b>173</b> - no recognisable game files and not updated since 2025-07-17</summary>
 
-- [Vanilla Clothes Refits for Enhanced Big Breast.](https://www.nexusmods.com/cyberpunk2077/mods/5408) - 20840 endorsements
-- [Better Minimap](https://www.nexusmods.com/cyberpunk2077/mods/634) - 15990 endorsements
-- [Cyberpunk Autonomous ReShade - True HDR](https://www.nexusmods.com/cyberpunk2077/mods/11) - 15120 endorsements
+- [Vanilla Clothes Refits for Enhanced Big Breast.](https://www.nexusmods.com/cyberpunk2077/mods/5408) - 20861 endorsements
+- [Better Minimap](https://www.nexusmods.com/cyberpunk2077/mods/634) - 15992 endorsements
+- [Cyberpunk Autonomous ReShade - True HDR](https://www.nexusmods.com/cyberpunk2077/mods/11) - 15123 endorsements
 - [Cyberpunk 2077 Texture Override](https://www.nexusmods.com/cyberpunk2077/mods/1572) - 10392 endorsements
 - [Arasaka Appearance Updater](https://www.nexusmods.com/cyberpunk2077/mods/399) - 10148 endorsements
-- [All recipes in the crafting game menu](https://www.nexusmods.com/cyberpunk2077/mods/657) - 7731 endorsements
-- [Ultra Enhanced Reshade (Performance Friendly)](https://www.nexusmods.com/cyberpunk2077/mods/51) - 6925 endorsements
+- [All recipes in the crafting game menu](https://www.nexusmods.com/cyberpunk2077/mods/657) - 7733 endorsements
+- [Ultra Enhanced Reshade (Performance Friendly)](https://www.nexusmods.com/cyberpunk2077/mods/51) - 6928 endorsements
 - [Alternate Crowd Behavior and other tweaks](https://www.nexusmods.com/cyberpunk2077/mods/526) - 6563 endorsements
-- [Enhanced Police](https://www.nexusmods.com/cyberpunk2077/mods/1672) - 6377 endorsements
+- [Enhanced Police](https://www.nexusmods.com/cyberpunk2077/mods/1672) - 6379 endorsements
 - [CyberConsole](https://www.nexusmods.com/cyberpunk2077/mods/147) - 6363 endorsements
-- [Cyberpunk 2077 Mod Manager](https://www.nexusmods.com/cyberpunk2077/mods/96) - 5646 endorsements
-- [Config Overhaul for Cyberpunk 2077](https://www.nexusmods.com/cyberpunk2077/mods/183) - 4949 endorsements
-- [Edgerunners - Lucy (Female V face preset)](https://www.nexusmods.com/cyberpunk2077/mods/5324) - 4140 endorsements
-- [Cyber Drift - Crowds and Traffic](https://www.nexusmods.com/cyberpunk2077/mods/3176) - 3481 endorsements
-- [Mango's Ultra Reshade](https://www.nexusmods.com/cyberpunk2077/mods/3404) - 2958 endorsements
+- [Cyberpunk 2077 Mod Manager](https://www.nexusmods.com/cyberpunk2077/mods/96) - 5651 endorsements
+- [Config Overhaul for Cyberpunk 2077](https://www.nexusmods.com/cyberpunk2077/mods/183) - 4950 endorsements
+- [Edgerunners - Lucy (Female V face preset)](https://www.nexusmods.com/cyberpunk2077/mods/5324) - 4145 endorsements
+- [Cyber Drift - Crowds and Traffic](https://www.nexusmods.com/cyberpunk2077/mods/3176) - 3482 endorsements
+- [Mango's Ultra Reshade](https://www.nexusmods.com/cyberpunk2077/mods/3404) - 2959 endorsements
 - [Cyber Fashion](https://www.nexusmods.com/cyberpunk2077/mods/573) - 2938 endorsements
 - [(Currently Unsupported) E to Interact - V to Walk and Drive - Dedicated Dodge - Dialogue Scroll](https://www.nexusmods.com/cyberpunk2077/mods/30) - 2838 endorsements
 - [Immersive Driving 2.31](https://www.nexusmods.com/cyberpunk2077/mods/5293) - 2833 endorsements
 - [All Cyberware and mods](https://www.nexusmods.com/cyberpunk2077/mods/660) - 2773 endorsements
-- [Cheat Script 2.2](https://www.nexusmods.com/cyberpunk2077/mods/542) - 2719 endorsements
-- [spawn0 - LOF -  Load Order Fixer](https://www.nexusmods.com/cyberpunk2077/mods/5148) - 2612 endorsements
+- [Cheat Script 2.2](https://www.nexusmods.com/cyberpunk2077/mods/542) - 2720 endorsements
+- [spawn0 - LOF -  Load Order Fixer](https://www.nexusmods.com/cyberpunk2077/mods/5148) - 2613 endorsements
 - [All 19 Iconic weapons for Stash Wall](https://www.nexusmods.com/cyberpunk2077/mods/552) - 2524 endorsements
-- [Cyberclean](https://www.nexusmods.com/cyberpunk2077/mods/8595) - 2468 endorsements
+- [Cyberclean](https://www.nexusmods.com/cyberpunk2077/mods/8595) - 2471 endorsements
 - [Shadow Hair (OBSOLETE)](https://www.nexusmods.com/cyberpunk2077/mods/2580) - 2322 endorsements
 - [WALK key on PC](https://www.nexusmods.com/cyberpunk2077/mods/37) - 2290 endorsements
-- [E3 Visual Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/2170) - 2225 endorsements
-- [All Vehicles Can Steer](https://www.nexusmods.com/cyberpunk2077/mods/18210) - 1890 endorsements
+- [E3 Visual Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/2170) - 2228 endorsements
+- [All Vehicles Can Steer](https://www.nexusmods.com/cyberpunk2077/mods/18210) - 1895 endorsements
 - [V preset (CyberCat)](https://www.nexusmods.com/cyberpunk2077/mods/3383) - 1722 endorsements
-- [Nissan Skyline GTR R34 HYCADE Bodykit](https://www.nexusmods.com/cyberpunk2077/mods/16570) - 1684 endorsements
+- [Nissan Skyline GTR R34 HYCADE Bodykit](https://www.nexusmods.com/cyberpunk2077/mods/16570) - 1686 endorsements
 - [AVX FIX(UPDATED FOR 1.04)](https://www.nexusmods.com/cyberpunk2077/mods/34) - 1679 endorsements
 - [Better Melee](https://www.nexusmods.com/cyberpunk2077/mods/2456) - 1596 endorsements
 - [Easy Hacking](https://www.nexusmods.com/cyberpunk2077/mods/5510) - 1565 endorsements
-- [Disable W-S Keys For Select Dialogue Options (Patch 2.3 Compatible)](https://www.nexusmods.com/cyberpunk2077/mods/9799) - 1550 endorsements
-- [Corpo V Character Preset](https://www.nexusmods.com/cyberpunk2077/mods/8532) - 1494 endorsements
-- [Motoko Kusanagi Outfit Reworked - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7613) - 1450 endorsements
+- [Disable W-S Keys For Select Dialogue Options (Patch 2.3 Compatible)](https://www.nexusmods.com/cyberpunk2077/mods/9799) - 1556 endorsements
+- [Corpo V Character Preset](https://www.nexusmods.com/cyberpunk2077/mods/8532) - 1495 endorsements
+- [Motoko Kusanagi Outfit Reworked - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7613) - 1451 endorsements
 - [Nova LUT Ultimate Graphics Reshade](https://www.nexusmods.com/cyberpunk2077/mods/11869) - 1418 endorsements
 - [Goodbye Green Tint - No More Green Filter](https://www.nexusmods.com/cyberpunk2077/mods/5146) - 1368 endorsements
 - [XRX Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7444) - 1358 endorsements
@@ -408,16 +410,16 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Breach Protocol Autosolver](https://www.nexusmods.com/cyberpunk2077/mods/3071) - 1253 endorsements
 - [True next-gen shadows](https://www.nexusmods.com/cyberpunk2077/mods/2651) - 1185 endorsements
 - [RenoDX - HDR Fix - Bloom - Vignette - Color Grade - Film Grain](https://www.nexusmods.com/cyberpunk2077/mods/13912) - 1183 endorsements
-- [No Crash Reporter](https://www.nexusmods.com/cyberpunk2077/mods/11421) - 1144 endorsements
-- [Cyberrunner - a Bladerunner like Reshade](https://www.nexusmods.com/cyberpunk2077/mods/138) - 1091 endorsements
+- [No Crash Reporter](https://www.nexusmods.com/cyberpunk2077/mods/11421) - 1146 endorsements
+- [Cyberrunner - a Bladerunner like Reshade](https://www.nexusmods.com/cyberpunk2077/mods/138) - 1092 endorsements
 - [High Quality Shortcut Icons](https://www.nexusmods.com/cyberpunk2077/mods/7) - 1085 endorsements
 - [V's Apartment (Modern)](https://www.nexusmods.com/cyberpunk2077/mods/3227) - 1078 endorsements
 - [Ada Wong Re4R Dress Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7949) - 1066 endorsements
 - [Female Corpo (New Game Plus)](https://www.nexusmods.com/cyberpunk2077/mods/456) - 1047 endorsements
-- [Tyger V Preset](https://www.nexusmods.com/cyberpunk2077/mods/3468) - 1038 endorsements
-- [Arasaka Jacket Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7896) - 1031 endorsements
+- [Tyger V Preset](https://www.nexusmods.com/cyberpunk2077/mods/3468) - 1040 endorsements
+- [Arasaka Jacket Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/7896) - 1032 endorsements
 - [My Ciri preset](https://www.nexusmods.com/cyberpunk2077/mods/1879) - 1030 endorsements
-- [KEYSUSPECT'S 4k Complexions (MALE)](https://www.nexusmods.com/cyberpunk2077/mods/2323) - 1025 endorsements
+- [KEYSUSPECT'S 4k Complexions (MALE)](https://www.nexusmods.com/cyberpunk2077/mods/2323) - 1026 endorsements
 - [Noclip Trainer](https://www.nexusmods.com/cyberpunk2077/mods/346) - 1022 endorsements
 - [Modular Accessory Collection - Gloves](https://www.nexusmods.com/cyberpunk2077/mods/3185) - 996 endorsements
 - [Better Acceleration for Keyboards](https://www.nexusmods.com/cyberpunk2077/mods/2711) - 993 endorsements
@@ -432,7 +434,7 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Megabyte - A Nomad V Preset](https://www.nexusmods.com/cyberpunk2077/mods/4766) - 812 endorsements
 - [Last V](https://www.nexusmods.com/cyberpunk2077/mods/1338) - 798 endorsements
 - [Driving First Person Camera Tweaks](https://www.nexusmods.com/cyberpunk2077/mods/13400) - 785 endorsements
-- [Advanced Driving Controls](https://www.nexusmods.com/cyberpunk2077/mods/13426) - 753 endorsements
+- [Advanced Driving Controls](https://www.nexusmods.com/cyberpunk2077/mods/13426) - 755 endorsements
 - [Hidden Gems Locations on Map](https://www.nexusmods.com/cyberpunk2077/mods/10896) - 752 endorsements
 - [Vea character preset](https://www.nexusmods.com/cyberpunk2077/mods/4455) - 733 endorsements
 - [Ultimate Natural Graphics for Nova LUT Pure and GITS](https://www.nexusmods.com/cyberpunk2077/mods/12267) - 733 endorsements
@@ -458,15 +460,19 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Remove traffic - FPS boost for CPU bottleneck](https://www.nexusmods.com/cyberpunk2077/mods/566) - 520 endorsements
 - [Save Anytime](https://www.nexusmods.com/cyberpunk2077/mods/610) - 519 endorsements
 - [How to - Remove Quest Mark from items - edit clothes - add more slots mods](https://www.nexusmods.com/cyberpunk2077/mods/594) - 498 endorsements
+- [Ultra Texture Remaster Repack](https://www.nexusmods.com/cyberpunk2077/mods/13822) - 497 endorsements
 - [More Options](https://www.nexusmods.com/cyberpunk2077/mods/23) - 490 endorsements
 - [Phantom Liberty Ready - End Game Save  -  Patch 2.01](https://www.nexusmods.com/cyberpunk2077/mods/598) - 484 endorsements
 - [AMD SMT Performance Patch](https://www.nexusmods.com/cyberpunk2077/mods/117) - 471 endorsements
 - [Misty Appearance Overhaul - Jackie's Photo Retexture](https://www.nexusmods.com/cyberpunk2077/mods/4512) - 471 endorsements
 - [Update clothing mods to max](https://www.nexusmods.com/cyberpunk2077/mods/1005) - 465 endorsements
-- [Male V and Judy romance scene save](https://www.nexusmods.com/cyberpunk2077/mods/1781) - 462 endorsements
+- [Male V and Judy romance scene save](https://www.nexusmods.com/cyberpunk2077/mods/1781) - 463 endorsements
+- [Cyberpunk 2077 Definitive Experience Reshade](https://www.nexusmods.com/cyberpunk2077/mods/564) - 463 endorsements
 - [Try To Finish Broken or Stuck Quests](https://www.nexusmods.com/cyberpunk2077/mods/740) - 455 endorsements
 - [ACT 1 MAX start - All Iconics - All Recipes - All Cyberwares and mods - All Vehicles - 72 Attribute points - 400 Perks (clean stats) - Mods Recipes - Max Eddies and Creds](https://www.nexusmods.com/cyberpunk2077/mods/499) - 442 endorsements
+- [2013 Teaser Reshade by Playable](https://www.nexusmods.com/cyberpunk2077/mods/3960) - 439 endorsements
 - [RadioExt THE CVLT](https://www.nexusmods.com/cyberpunk2077/mods/5486) - 435 endorsements
+- [Ultra Realistic Reshade (Pure - Colorful - Nova - Edge)](https://www.nexusmods.com/cyberpunk2077/mods/16776) - 434 endorsements
 - [Skip To Act 2 - Auspicious Beginning or Normal Start](https://www.nexusmods.com/cyberpunk2077/mods/311) - 431 endorsements
 - [xVASynth v3 - CPVA Synth](https://www.nexusmods.com/cyberpunk2077/mods/2162) - 428 endorsements
 - [Driver Sawedoffs (Redmod)](https://www.nexusmods.com/cyberpunk2077/mods/11199) - 416 endorsements
@@ -478,15 +484,16 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Level 50 at Start Saves](https://www.nexusmods.com/cyberpunk2077/mods/122) - 339 endorsements
 - [Additem Command Creator](https://www.nexusmods.com/cyberpunk2077/mods/554) - 339 endorsements
 - [Blade Runner Radio - RadioEXT](https://www.nexusmods.com/cyberpunk2077/mods/7175) - 336 endorsements
-- [SmartFrames - Art Collector](https://www.nexusmods.com/cyberpunk2077/mods/18337) - 330 endorsements
+- [Maequess Eden Luxury Apartment](https://www.nexusmods.com/cyberpunk2077/mods/3711) - 332 endorsements
+- [SmartFrames - Art Collector](https://www.nexusmods.com/cyberpunk2077/mods/18337) - 331 endorsements
 - [Cyberpunk 2077 All Achievements Saveset](https://www.nexusmods.com/cyberpunk2077/mods/6887) - 329 endorsements
 - [Scan Mode - Default to Data Tab](https://www.nexusmods.com/cyberpunk2077/mods/9715) - 313 endorsements
 - [Cyberpunk 2077 - High Quality Icons and Tiles](https://www.nexusmods.com/cyberpunk2077/mods/137) - 306 endorsements
-- [North Oak Mansion](https://www.nexusmods.com/cyberpunk2077/mods/11014) - 303 endorsements
+- [North Oak Mansion](https://www.nexusmods.com/cyberpunk2077/mods/11014) - 304 endorsements
 - [(OBSOLETE) CYB3RSN4K3's doghaus (Dogtown Apartment - AMM preset)](https://www.nexusmods.com/cyberpunk2077/mods/13634) - 302 endorsements
 - [CyberBreach](https://www.nexusmods.com/cyberpunk2077/mods/855) - 300 endorsements
 - [Better Gun Sounds](https://www.nexusmods.com/cyberpunk2077/mods/6090) - 296 endorsements
-- [AudioFix](https://www.nexusmods.com/cyberpunk2077/mods/3793) - 279 endorsements
+- [AudioFix](https://www.nexusmods.com/cyberpunk2077/mods/3793) - 280 endorsements
 - [Head Start and New Game Plus](https://www.nexusmods.com/cyberpunk2077/mods/736) - 269 endorsements
 - [Female V wardrobe](https://www.nexusmods.com/cyberpunk2077/mods/834) - 269 endorsements
 - [Cyberpunk Edgerunners - Dark HQ Main Menu Replacer](https://www.nexusmods.com/cyberpunk2077/mods/5350) - 262 endorsements
@@ -497,7 +504,7 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [NEW Simple Menu - Simplified Chinese Translation](https://www.nexusmods.com/cyberpunk2077/mods/9810) - 254 endorsements
 - [Male V - Judy Romance Ending - Cyberpunk 2077](https://www.nexusmods.com/cyberpunk2077/mods/519) - 244 endorsements
 - [SSE 4.2 fix (1.04 - 1.23)](https://www.nexusmods.com/cyberpunk2077/mods/353) - 241 endorsements
-- [Corpo Plaza Apartment Enhanced](https://www.nexusmods.com/cyberpunk2077/mods/8655) - 240 endorsements
+- [Corpo Plaza Apartment Enhanced](https://www.nexusmods.com/cyberpunk2077/mods/8655) - 241 endorsements
 - [Male Street Kid (New Game Plus)](https://www.nexusmods.com/cyberpunk2077/mods/481) - 239 endorsements
 - [CSGO AWP Sound replacer (RedMod)](https://www.nexusmods.com/cyberpunk2077/mods/5147) - 239 endorsements
 - [Nail Catalog](https://www.nexusmods.com/cyberpunk2077/mods/882) - 236 endorsements
@@ -505,180 +512,265 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [ORION UI - HUD Painter preset](https://www.nexusmods.com/cyberpunk2077/mods/21347) - 228 endorsements
 - [Native Settings UI Side Menu Add-on RU](https://www.nexusmods.com/cyberpunk2077/mods/16455) - 227 endorsements
 - [CP2077 Nexus Mods Declutter](https://www.nexusmods.com/cyberpunk2077/mods/465) - 226 endorsements
-- [Completion Spreadsheet and Checklist](https://www.nexusmods.com/cyberpunk2077/mods/4736) - 224 endorsements
+- [Completion Spreadsheet and Checklist](https://www.nexusmods.com/cyberpunk2077/mods/4736) - 225 endorsements
 - [Faster Crafting](https://www.nexusmods.com/cyberpunk2077/mods/155) - 222 endorsements
+- [Balatro Joker Card Locations](https://www.nexusmods.com/cyberpunk2077/mods/20069) - 219 endorsements
 - [Kiroshi Opticals - Crowd Scanner RU](https://www.nexusmods.com/cyberpunk2077/mods/2276) - 216 endorsements
 - [Call of Duty - IW-BO4 Gun Pack](https://www.nexusmods.com/cyberpunk2077/mods/17667) - 216 endorsements
-- [Radio Modding 101](https://www.nexusmods.com/cyberpunk2077/mods/3186) - 215 endorsements
-- [Disable all mods](https://www.nexusmods.com/cyberpunk2077/mods/11451) - 211 endorsements
-- [AVX_SSEfix](https://www.nexusmods.com/cyberpunk2077/mods/72) - 210 endorsements
-- [CP77 Tools Gui](https://www.nexusmods.com/cyberpunk2077/mods/404) - 202 endorsements
-- [108.8 FM I2D1 Synthetica - Synthwave Radio](https://www.nexusmods.com/cyberpunk2077/mods/6916) - 199 endorsements
-- [CP2077 Memory Regulator](https://www.nexusmods.com/cyberpunk2077/mods/14514) - 197 endorsements
-- ... and 16 more
+- ... and 23 more
 
 </details>
 
-<details><summary><b>212</b> - needs a mod that's outdated, excluded, adult-only or removed</summary>
+<details><summary><b>206</b> - needs a mod that's outdated, excluded, adult-only or removed</summary>
 
-- [Hyst Atelier Store - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/6015) - 10305 endorsements (needs removed/adult mod 5776)
-- [I Really Want To Stay At Your House - Judy](https://www.nexusmods.com/cyberpunk2077/mods/8753) - 9226 endorsements (needs removed/adult mod 23074)
-- [Nola Dreamer Virtual Boutique](https://www.nexusmods.com/cyberpunk2077/mods/5114) - 9074 endorsements (needs removed/adult mod 6529)
-- [I Really Want To Stay At Your House - Panam](https://www.nexusmods.com/cyberpunk2077/mods/8775) - 8755 endorsements (needs removed/adult mod 23074)
-- [Stealth Finishers (ZKV_Takedowns)](https://www.nexusmods.com/cyberpunk2077/mods/9360) - 8472 endorsements (needs Enable Finisher Ragdolls - script-outdated)
-- [Enhanced Weather V6](https://www.nexusmods.com/cyberpunk2077/mods/3901) - 7359 endorsements (needs removed/adult mod 10642)
-- [ANGEL Body - Full Vanilla Refit](https://www.nexusmods.com/cyberpunk2077/mods/15151) - 6581 endorsements (needs removed/adult mod 14896)
-- [Modular Military Combat Armor - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13212) - 6533 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Nova City 2 (Custom Weather and Lighting - Exposure Overhaul)](https://www.nexusmods.com/cyberpunk2077/mods/12490) - 5840 endorsements (needs Film Grain Fix - native-pre-2.5)
-- [Nola Dreamer and Aquelyras atelier](https://www.nexusmods.com/cyberpunk2077/mods/8704) - 5716 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [8ug Suit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/5997) - 5525 endorsements (needs Material and Texture Override - assets-outdated)
-- [Military Combat Boots - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/14781) - 5508 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Modular Military Pistol Holsters - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/18002) - 5385 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Adshield Atelier Store - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/8452) - 4885 endorsements (needs removed/adult mod 11753)
-- [E3 Smart Windows](https://www.nexusmods.com/cyberpunk2077/mods/7026) - 4663 endorsements (needs Stock Market and News System - script-outdated)
-- [Military Armored Ballistic Vest - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/14348) - 4658 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Natural Californian Lighting Mod](https://www.nexusmods.com/cyberpunk2077/mods/6737) - 4166 endorsements (needs removed/adult mod 12874)
-- [Modular Military Helmet - Ops-Core FAST - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13557) - 3966 endorsements (needs Interactive Accessories (Toggle Visors Goggles etc.) - script-outdated)
-- [Zenitex Modular Military Backpack - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/18152) - 3792 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Edgerunners Lucy NPC - Spawns in Night City plus AMM and Photomode AXL](https://www.nexusmods.com/cyberpunk2077/mods/9812) - 3762 endorsements (needs removed/adult mod 790)
-- [Military Accessories - Zenitex Combat Goggles - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/17049) - 3756 endorsements (needs Interactive Accessories (Toggle Visors Goggles etc.) - script-outdated)
-- [Porsche 911 GT3 RS](https://www.nexusmods.com/cyberpunk2077/mods/11180) - 3627 endorsements (needs Material and Texture Override - assets-outdated)
-- [raem's Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/14210) - 3519 endorsements (needs Dr Martens Boots - Fem Masc V (ArchiveXL) - script-outdated)
-- [Better Sleeves](https://www.nexusmods.com/cyberpunk2077/mods/10319) - 3475 endorsements (needs Render Plane Fix - Clothing (Sleeves) behind hands fix - script-outdated)
-- [EKT Asian Character Creator - FEMV ONLY](https://www.nexusmods.com/cyberpunk2077/mods/16930) - 3389 endorsements (needs removed/adult mod 7054)
-- [The Zenitex Military Store](https://www.nexusmods.com/cyberpunk2077/mods/21735) - 3351 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Nola Dreamer x Aquelyras - rockergirl outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/9602) - 3279 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [ACM - Appearance Creator Mod](https://www.nexusmods.com/cyberpunk2077/mods/10795) - 3177 endorsements (needs removed/adult mod 790)
-- [Zenitex Military Underwear - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/20394) - 3074 endorsements (needs Stash and Backpack Search - script-outdated)
-- [H10 Megabuilding Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/12681) - 2819 endorsements (needs Street Vendors - script-outdated)
-- [Nova City - Addons (Traffic and Population Density - Night Vision)](https://www.nexusmods.com/cyberpunk2077/mods/13429) - 2781 endorsements (needs Film Grain Fix - native-pre-2.5)
-- [Dodge Charger RT](https://www.nexusmods.com/cyberpunk2077/mods/13569) - 2745 endorsements (needs removed/adult mod 790)
-- [Zenitex Sleeveless Turtleneck - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/22082) - 2744 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Evelyn Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/6810) - 2565 endorsements (needs Material and Texture Override - assets-outdated)
-- [EKT Custom Character Creator - FEMV ONLY](https://www.nexusmods.com/cyberpunk2077/mods/12807) - 2487 endorsements (needs Heterochromia 4.0 - assets-outdated)
-- [Nola Dreamer and Aquelyras - punk shoes - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/8702) - 2485 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [I Really Want To Stay At Your House - River](https://www.nexusmods.com/cyberpunk2077/mods/8826) - 2421 endorsements (needs removed/adult mod 23074)
-- [FrameGen Ghosting 'Fix' for FSR 3.1 FG](https://www.nexusmods.com/cyberpunk2077/mods/13029) - 2320 endorsements (needs FSR3 Frame Gen for Cyberpunk 2077 (DLSS Enabler 2077 Edition) - native-pre-2.5)
-- [Nola Dreamer and Aquelyras - chic heels - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/8960) - 2240 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [- House of Vesna - Vesnace Lipstick Collection (Lipsticks Recolors)](https://www.nexusmods.com/cyberpunk2077/mods/7290) - 2222 endorsements (needs CC Fix - Cosmetic Corrections - assets-outdated)
-- [I Really Want To Stay At Your House - Kerry](https://www.nexusmods.com/cyberpunk2077/mods/8806) - 2167 endorsements (needs removed/adult mod 23074)
-- [Nola Dreamer x Aquelyras - combat outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/10115) - 2138 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [Bugatti Chiron SuperSport](https://www.nexusmods.com/cyberpunk2077/mods/11331) - 2123 endorsements (needs Material and Texture Override - assets-outdated)
-- [Neuralware - Chipware Expansion](https://www.nexusmods.com/cyberpunk2077/mods/19798) - 2103 endorsements (needs Bug Fix - Base Fists and Arm Cyberware Attack Speed Fix - script-outdated)
-- [Proxima's Apartment Emporium](https://www.nexusmods.com/cyberpunk2077/mods/9765) - 2057 endorsements (needs removed/adult mod 790)
-- [Bmw M4 CSL](https://www.nexusmods.com/cyberpunk2077/mods/10702) - 2001 endorsements (needs Material and Texture Override - assets-outdated)
-- [Cyber Drift 2.0](https://www.nexusmods.com/cyberpunk2077/mods/8306) - 1999 endorsements (needs Semi-automatic Transmission - script-outdated)
-- [Dynamic Downforce](https://www.nexusmods.com/cyberpunk2077/mods/12841) - 1988 endorsements (needs Semi-automatic Transmission - script-outdated)
+- [Hyst Atelier Store - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/6015) - 10319 endorsements (needs removed/adult mod 5776)
+- [I Really Want To Stay At Your House - Judy](https://www.nexusmods.com/cyberpunk2077/mods/8753) - 9244 endorsements (needs removed/adult mod 23074)
+- [Nola Dreamer Virtual Boutique](https://www.nexusmods.com/cyberpunk2077/mods/5114) - 9081 endorsements (needs removed/adult mod 6529)
+- [I Really Want To Stay At Your House - Panam](https://www.nexusmods.com/cyberpunk2077/mods/8775) - 8771 endorsements (needs removed/adult mod 23074)
+- [Stealth Finishers (ZKV_Takedowns)](https://www.nexusmods.com/cyberpunk2077/mods/9360) - 8485 endorsements (needs Enable Finisher Ragdolls - script-outdated)
+- [Enhanced Weather V6](https://www.nexusmods.com/cyberpunk2077/mods/3901) - 7361 endorsements (needs removed/adult mod 10642)
+- [ANGEL Body - Full Vanilla Refit](https://www.nexusmods.com/cyberpunk2077/mods/15151) - 6598 endorsements (needs removed/adult mod 14896)
+- [Modular Military Combat Armor - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13212) - 6540 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Nova City 2 (Custom Weather and Lighting - Exposure Overhaul)](https://www.nexusmods.com/cyberpunk2077/mods/12490) - 5861 endorsements (needs Film Grain Fix - native-pre-2.5)
+- [Nola Dreamer and Aquelyras atelier](https://www.nexusmods.com/cyberpunk2077/mods/8704) - 5725 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [8ug Suit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/5997) - 5530 endorsements (needs Material and Texture Override - assets-outdated)
+- [Military Combat Boots - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/14781) - 5516 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Modular Military Pistol Holsters - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/18002) - 5395 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Adshield Atelier Store - Virtual Atelier](https://www.nexusmods.com/cyberpunk2077/mods/8452) - 4891 endorsements (needs removed/adult mod 11753)
+- [E3 Smart Windows](https://www.nexusmods.com/cyberpunk2077/mods/7026) - 4669 endorsements (needs Stock Market and News System - script-outdated)
+- [Military Armored Ballistic Vest - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/14348) - 4666 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Natural Californian Lighting Mod](https://www.nexusmods.com/cyberpunk2077/mods/6737) - 4167 endorsements (needs removed/adult mod 12874)
+- [Modular Military Helmet - Ops-Core FAST - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13557) - 3971 endorsements (needs Interactive Accessories (Toggle Visors Goggles etc.) - script-outdated)
+- [Zenitex Modular Military Backpack - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/18152) - 3801 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Edgerunners Lucy NPC - Spawns in Night City plus AMM and Photomode AXL](https://www.nexusmods.com/cyberpunk2077/mods/9812) - 3773 endorsements (needs removed/adult mod 790)
+- [Military Accessories - Zenitex Combat Goggles - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/17049) - 3762 endorsements (needs Interactive Accessories (Toggle Visors Goggles etc.) - script-outdated)
+- [Porsche 911 GT3 RS](https://www.nexusmods.com/cyberpunk2077/mods/11180) - 3633 endorsements (needs Material and Texture Override - assets-outdated)
+- [raem's Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/14210) - 3526 endorsements (needs Dr Martens Boots - Fem Masc V (ArchiveXL) - script-outdated)
+- [Better Sleeves](https://www.nexusmods.com/cyberpunk2077/mods/10319) - 3482 endorsements (needs Render Plane Fix - Clothing (Sleeves) behind hands fix - script-outdated)
+- [EKT Asian Character Creator - FEMV ONLY](https://www.nexusmods.com/cyberpunk2077/mods/16930) - 3396 endorsements (needs removed/adult mod 7054)
+- [The Zenitex Military Store](https://www.nexusmods.com/cyberpunk2077/mods/21735) - 3359 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Nola Dreamer x Aquelyras - rockergirl outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/9602) - 3285 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [ACM - Appearance Creator Mod](https://www.nexusmods.com/cyberpunk2077/mods/10795) - 3185 endorsements (needs removed/adult mod 790)
+- [Zenitex Military Underwear - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/20394) - 3082 endorsements (needs Stash and Backpack Search - script-outdated)
+- [H10 Megabuilding Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/12681) - 2823 endorsements (needs H10 Apartment E3 Advertisements - world-pre-2.5)
+- [Nova City - Addons (Traffic and Population Density - Night Vision)](https://www.nexusmods.com/cyberpunk2077/mods/13429) - 2786 endorsements (needs Film Grain Fix - native-pre-2.5)
+- [Apartment Cats - Custom Cats](https://www.nexusmods.com/cyberpunk2077/mods/6837) - 2758 endorsements (needs Apartment Cats - The Glen - world-pre-2.5)
+- [Dodge Charger RT](https://www.nexusmods.com/cyberpunk2077/mods/13569) - 2748 endorsements (needs removed/adult mod 790)
+- [Zenitex Sleeveless Turtleneck - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/22082) - 2747 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Evelyn Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/6810) - 2567 endorsements (needs Material and Texture Override - assets-outdated)
+- [EKT Custom Character Creator - FEMV ONLY](https://www.nexusmods.com/cyberpunk2077/mods/12807) - 2493 endorsements (needs Heterochromia 4.0 - assets-outdated)
+- [Nola Dreamer and Aquelyras - punk shoes - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/8702) - 2489 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [I Really Want To Stay At Your House - River](https://www.nexusmods.com/cyberpunk2077/mods/8826) - 2422 endorsements (needs removed/adult mod 23074)
+- [FrameGen Ghosting 'Fix' for FSR 3.1 FG](https://www.nexusmods.com/cyberpunk2077/mods/13029) - 2321 endorsements (needs FSR3 Frame Gen for Cyberpunk 2077 (DLSS Enabler 2077 Edition) - native-pre-2.5)
+- [Nola Dreamer and Aquelyras - chic heels - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/8960) - 2241 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [- House of Vesna - Vesnace Lipstick Collection (Lipsticks Recolors)](https://www.nexusmods.com/cyberpunk2077/mods/7290) - 2224 endorsements (needs CC Fix - Cosmetic Corrections - assets-outdated)
+- [I Really Want To Stay At Your House - Kerry](https://www.nexusmods.com/cyberpunk2077/mods/8806) - 2168 endorsements (needs removed/adult mod 23074)
+- [Nola Dreamer x Aquelyras - combat outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/10115) - 2139 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [Bugatti Chiron SuperSport](https://www.nexusmods.com/cyberpunk2077/mods/11331) - 2124 endorsements (needs Material and Texture Override - assets-outdated)
+- [Neuralware - Chipware Expansion](https://www.nexusmods.com/cyberpunk2077/mods/19798) - 2106 endorsements (needs Bug Fix - Base Fists and Arm Cyberware Attack Speed Fix - script-outdated)
+- [Proxima's Apartment Emporium](https://www.nexusmods.com/cyberpunk2077/mods/9765) - 2059 endorsements (needs removed/adult mod 790)
+- [Bmw M4 CSL](https://www.nexusmods.com/cyberpunk2077/mods/10702) - 2003 endorsements (needs Material and Texture Override - assets-outdated)
+- [Cyber Drift 2.0](https://www.nexusmods.com/cyberpunk2077/mods/8306) - 2002 endorsements (needs Semi-automatic Transmission - script-outdated)
+- [Dynamic Downforce](https://www.nexusmods.com/cyberpunk2077/mods/12841) - 1991 endorsements (needs Semi-automatic Transmission - script-outdated)
 - [Panam Reimagined](https://www.nexusmods.com/cyberpunk2077/mods/10237) - 1917 endorsements (needs Panam scar and freckles - assets-outdated)
-- [Military Covert Shoes - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/23913) - 1898 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Playable Roulette - Gambling System](https://www.nexusmods.com/cyberpunk2077/mods/15450) - 1795 endorsements (needs removed/adult mod 790)
-- [Tottes Atelier Shop 2](https://www.nexusmods.com/cyberpunk2077/mods/18691) - 1765 endorsements (needs removed/adult mod 18685)
-- [Manavortex Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/12648) - 1733 endorsements (needs Barong Tagalog - Traditional Filipino shirt - ArchiveXL - script-outdated)
-- [VV0LFDEN - Virtual Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/6572) - 1697 endorsements (needs cybercmd - native-pre-2.5)
-- [Nola Dreamer's heart choker and garters - archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11685) - 1692 endorsements (needs Nola Dreamer's Barbed accessories - Archive XL - Both V - script-outdated)
-- [Project E3 - HUD (NO MORE REDMOD)](https://www.nexusmods.com/cyberpunk2077/mods/8800) - 1661 endorsements (needs removed/adult mod 13854)
+- [Military Covert Shoes - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/23913) - 1904 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Playable Roulette - Gambling System](https://www.nexusmods.com/cyberpunk2077/mods/15450) - 1797 endorsements (needs removed/adult mod 790)
+- [Tottes Atelier Shop 2](https://www.nexusmods.com/cyberpunk2077/mods/18691) - 1770 endorsements (needs removed/adult mod 18685)
+- [Manavortex Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/12648) - 1734 endorsements (needs Barong Tagalog - Traditional Filipino shirt - ArchiveXL - script-outdated)
+- [VV0LFDEN - Virtual Atelier Store](https://www.nexusmods.com/cyberpunk2077/mods/6572) - 1698 endorsements (needs cybercmd - native-pre-2.5)
+- [Nola Dreamer's heart choker and garters - archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11685) - 1695 endorsements (needs Nola Dreamer's Barbed accessories - Archive XL - Both V - script-outdated)
+- [Project E3 - HUD (NO MORE REDMOD)](https://www.nexusmods.com/cyberpunk2077/mods/8800) - 1663 endorsements (needs removed/adult mod 13854)
+- [Nola Dreamer's Accessories store](https://www.nexusmods.com/cyberpunk2077/mods/14299) - 1659 endorsements (needs Nola Dreamer's Barbed accessories - Archive XL - Both V - script-outdated)
 - [DBRV - EDGERUNNERS - Rebecca's Jacket and Underwear - Archive XL - Female V and Male V](https://www.nexusmods.com/cyberpunk2077/mods/5523) - 1657 endorsements (needs removed/adult mod 7054)
-- [Nola Dreamer's Accessories store](https://www.nexusmods.com/cyberpunk2077/mods/14299) - 1656 endorsements (needs Nola Dreamer's Barbed accessories - Archive XL - Both V - script-outdated)
 - [Chromazon Renewed](https://www.nexusmods.com/cyberpunk2077/mods/5472) - 1639 endorsements (needs SynthDose - More Drugs - script-outdated)
-- [Night City Traffic Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/25552) - 1513 endorsements (needs Law Enforcement Overhaul - script-outdated)
-- [Vendor Search](https://www.nexusmods.com/cyberpunk2077/mods/26188) - 1504 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Night City Traffic Overhaul](https://www.nexusmods.com/cyberpunk2077/mods/25552) - 1528 endorsements (needs Law Enforcement Overhaul - script-outdated)
+- [Vendor Search](https://www.nexusmods.com/cyberpunk2077/mods/26188) - 1512 endorsements (needs Stash and Backpack Search - script-outdated)
 - [AUDI RS6 AVANT QUATTRO](https://www.nexusmods.com/cyberpunk2077/mods/11920) - 1492 endorsements (needs removed/adult mod 790)
-- [Nola x Veegee - Vintage Outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11963) - 1441 endorsements (needs Nola x Veegee feminine store - script-outdated)
-- [Missing Persons Read Shard Add-On](https://www.nexusmods.com/cyberpunk2077/mods/9018) - 1432 endorsements (needs removed/adult mod 5058)
-- [Nissan Silvia S15](https://www.nexusmods.com/cyberpunk2077/mods/12848) - 1427 endorsements (needs removed/adult mod 790)
+- [Nola x Veegee - Vintage Outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11963) - 1442 endorsements (needs Nola x Veegee feminine store - script-outdated)
+- [Missing Persons Read Shard Add-On](https://www.nexusmods.com/cyberpunk2077/mods/9018) - 1435 endorsements (needs removed/adult mod 5058)
+- [Nissan Silvia S15](https://www.nexusmods.com/cyberpunk2077/mods/12848) - 1428 endorsements (needs removed/adult mod 790)
 - [Mazda MX-5 Miata](https://www.nexusmods.com/cyberpunk2077/mods/12314) - 1398 endorsements (needs Material and Texture Override - assets-outdated)
-- [Nola Dreamer x Aquelyras - Summer outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/12331) - 1361 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [Game Entity Examiner Tool - Plus Pseudo Quickhacking And More](https://www.nexusmods.com/cyberpunk2077/mods/14711) - 1302 endorsements (needs Make All Vehicles Unlockable - With TwinTone Fix - script-outdated)
-- [Nola Dreamer x Aquelyras - Cargo outfit - Both Vs - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/13323) - 1302 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [Kala's - Tattoos -  Body Textures - Face Complexions - Male V  - VTK](https://www.nexusmods.com/cyberpunk2077/mods/7414) - 1293 endorsements (needs removed/adult mod 6423)
-- [-KS- Atlas (a male player body mod)](https://www.nexusmods.com/cyberpunk2077/mods/8766) - 1271 endorsements (needs removed/adult mod 3783)
+- [Nola Dreamer x Aquelyras - Summer outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/12331) - 1362 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [Nola Dreamer x Aquelyras - Cargo outfit - Both Vs - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/13323) - 1307 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [Game Entity Examiner Tool - Plus Pseudo Quickhacking And More](https://www.nexusmods.com/cyberpunk2077/mods/14711) - 1303 endorsements (needs Make All Vehicles Unlockable - With TwinTone Fix - script-outdated)
+- [Kala's - Tattoos -  Body Textures - Face Complexions - Male V  - VTK](https://www.nexusmods.com/cyberpunk2077/mods/7414) - 1298 endorsements (needs removed/adult mod 6423)
+- [-KS- Atlas (a male player body mod)](https://www.nexusmods.com/cyberpunk2077/mods/8766) - 1274 endorsements (needs removed/adult mod 3783)
+- [Reinforcements - Gang Vs Gang](https://www.nexusmods.com/cyberpunk2077/mods/24243) - 1214 endorsements (needs Law Enforcement Overhaul - script-outdated)
 - [High Ponytail Hair](https://www.nexusmods.com/cyberpunk2077/mods/5908) - 1210 endorsements (needs UUH4V - 5 Mesh Edition - A Modder's Resource for App-Swapped Hair Unique To V - unknown-outdated)
-- [Reinforcements - Gang Vs Gang](https://www.nexusmods.com/cyberpunk2077/mods/24243) - 1205 endorsements (needs Law Enforcement Overhaul - script-outdated)
-- [More Alternate Clothes for Panam Enhanced Body and Vanilla Body](https://www.nexusmods.com/cyberpunk2077/mods/16687) - 1190 endorsements (needs removed/adult mod 4843)
-- [Nola Dreamer's Offset top with straps - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/14143) - 1178 endorsements (needs removed/adult mod 6529)
-- [Free Black Caliburn Red Interior and Exterior Reskin (1.6 compatible)](https://www.nexusmods.com/cyberpunk2077/mods/3157) - 1175 endorsements (needs Material and Texture Override - assets-outdated)
-- [-KS- ADONIS Male Body](https://www.nexusmods.com/cyberpunk2077/mods/4968) - 1174 endorsements (needs -KS- ADONIS Refits - assets-outdated)
-- [Nola Dreamer's Sport Leggings - archive XL](https://www.nexusmods.com/cyberpunk2077/mods/19220) - 1163 endorsements (needs removed/adult mod 6529)
-- [Nola Dreamer x Aquelyras - outfit NeoZima - fem V - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/13576) - 1162 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
-- [Realistic Complexion - III - for Universal Skin Tone - Head Textures - Face Details - 4K - 8K](https://www.nexusmods.com/cyberpunk2077/mods/19314) - 1160 endorsements (needs removed/adult mod 15426)
-- [Corset Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/20912) - 1150 endorsements (needs removed/adult mod 5776)
-- [Nola Dreamer's lazy outfit - archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11824) - 1140 endorsements (needs removed/adult mod 6529)
+- [More Alternate Clothes for Panam Enhanced Body and Vanilla Body](https://www.nexusmods.com/cyberpunk2077/mods/16687) - 1191 endorsements (needs removed/adult mod 4843)
+- [Nola Dreamer's Offset top with straps - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/14143) - 1179 endorsements (needs removed/adult mod 6529)
+- [Free Black Caliburn Red Interior and Exterior Reskin (1.6 compatible)](https://www.nexusmods.com/cyberpunk2077/mods/3157) - 1176 endorsements (needs Material and Texture Override - assets-outdated)
+- [-KS- ADONIS Male Body](https://www.nexusmods.com/cyberpunk2077/mods/4968) - 1175 endorsements (needs -KS- ADONIS Refits - assets-outdated)
+- [Nola Dreamer's Sport Leggings - archive XL](https://www.nexusmods.com/cyberpunk2077/mods/19220) - 1165 endorsements (needs removed/adult mod 6529)
+- [Nola Dreamer x Aquelyras - outfit NeoZima - fem V - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/13576) - 1163 endorsements (needs Nola Dreamer x Aquelyras - Swimwear Goth - Archive XL - script-outdated)
+- [Realistic Complexion - III - for Universal Skin Tone - Head Textures - Face Details - 4K - 8K](https://www.nexusmods.com/cyberpunk2077/mods/19314) - 1161 endorsements (needs removed/adult mod 15426)
+- [Corset Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/20912) - 1158 endorsements (needs removed/adult mod 5776)
+- [Nola Dreamer's lazy outfit - archive XL](https://www.nexusmods.com/cyberpunk2077/mods/11824) - 1142 endorsements (needs removed/adult mod 6529)
 - [The Assassins Of Night City - Pose Pack](https://www.nexusmods.com/cyberpunk2077/mods/11465) - 1127 endorsements (needs removed/adult mod 18837)
 - [Realistic Complexion - II - for Universal Skin Tone - Head Textures - Face Details - 4K - 8K](https://www.nexusmods.com/cyberpunk2077/mods/15634) - 1118 endorsements (needs removed/adult mod 15426)
-- [Hide Body Parts - Body Toggles - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/26627) - 1110 endorsements (needs Stash and Backpack Search - script-outdated)
-- [Secretary Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/19376) - 1084 endorsements (needs removed/adult mod 5776)
-- [Elegant Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/19723) - 1082 endorsements (needs removed/adult mod 5776)
-- [The Gangs of Night City](https://www.nexusmods.com/cyberpunk2077/mods/7233) - 1069 endorsements (needs removed/adult mod 7691)
-- [Playable Blackjack - Gambling System](https://www.nexusmods.com/cyberpunk2077/mods/19575) - 1068 endorsements (needs removed/adult mod 790)
-- [Messy ponies and buns - Fem V Hair pack](https://www.nexusmods.com/cyberpunk2077/mods/12395) - 1056 endorsements (needs PRC - New Piercings collection Vol.1 - Fem V - assets-outdated)
-- [Mazda RX7 FD (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/16537) - 1055 endorsements (needs XUtils - native-pre-2.5)
-- [Atomiic X Hyst atelier store](https://www.nexusmods.com/cyberpunk2077/mods/21893) - 1043 endorsements (needs Death blossom outfit - Archive XL - script-outdated)
-- [Short Tank Dress Outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/20417) - 1026 endorsements (needs removed/adult mod 5776)
+- [Hide Body Parts - Body Toggles - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/26627) - 1116 endorsements (needs Stash and Backpack Search - script-outdated)
+- [Elegant Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/19723) - 1089 endorsements (needs removed/adult mod 5776)
+- [Secretary Dress - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/19376) - 1088 endorsements (needs removed/adult mod 5776)
+- [The Gangs of Night City](https://www.nexusmods.com/cyberpunk2077/mods/7233) - 1071 endorsements (needs removed/adult mod 7691)
+- [Playable Blackjack - Gambling System](https://www.nexusmods.com/cyberpunk2077/mods/19575) - 1070 endorsements (needs removed/adult mod 790)
+- [Mazda RX7 FD (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/16537) - 1058 endorsements (needs XUtils - native-pre-2.5)
+- [Messy ponies and buns - Fem V Hair pack](https://www.nexusmods.com/cyberpunk2077/mods/12395) - 1058 endorsements (needs PRC - New Piercings collection Vol.1 - Fem V - assets-outdated)
+- [Atomiic X Hyst atelier store](https://www.nexusmods.com/cyberpunk2077/mods/21893) - 1046 endorsements (needs Death blossom outfit - Archive XL - script-outdated)
+- [Short Tank Dress Outfit - Archive XL](https://www.nexusmods.com/cyberpunk2077/mods/20417) - 1031 endorsements (needs removed/adult mod 5776)
 - [SOLO pose pack (F)](https://www.nexusmods.com/cyberpunk2077/mods/11398) - 1004 endorsements (needs removed/adult mod 18837)
-- [Jig Jig Unleashed - REVOLUTION](https://www.nexusmods.com/cyberpunk2077/mods/16580) - 996 endorsements (needs removed/adult mod 790)
-- [Minimap Widgets](https://www.nexusmods.com/cyberpunk2077/mods/17477) - 989 endorsements (needs removed/adult mod 13854)
-- [Ferrari 812 Competizione](https://www.nexusmods.com/cyberpunk2077/mods/11926) - 984 endorsements (needs Material and Texture Override - assets-outdated)
+- [Jig Jig Unleashed - REVOLUTION](https://www.nexusmods.com/cyberpunk2077/mods/16580) - 1003 endorsements (needs removed/adult mod 790)
+- [Minimap Widgets](https://www.nexusmods.com/cyberpunk2077/mods/17477) - 993 endorsements (needs removed/adult mod 13854)
+- [Ferrari 812 Competizione](https://www.nexusmods.com/cyberpunk2077/mods/11926) - 985 endorsements (needs Material and Texture Override - assets-outdated)
 - [Mitsubishi Starion ESI-R](https://www.nexusmods.com/cyberpunk2077/mods/11312) - 980 endorsements (needs removed/adult mod 790)
+- [Slope Traction Factor](https://www.nexusmods.com/cyberpunk2077/mods/18706) - 966 endorsements (needs True Grip - Slope Traction and Handbrake Handling Fix - script-outdated)
 - [Ziva Photoshoot Pose Pack - Photomode - AMM - UPDATED FOR PATCH 2.31](https://www.nexusmods.com/cyberpunk2077/mods/8463) - 965 endorsements (needs removed/adult mod 18837)
-- [Slope Traction Factor](https://www.nexusmods.com/cyberpunk2077/mods/18706) - 962 endorsements (needs True Grip - Slope Traction and Handbrake Handling Fix - script-outdated)
-- [Extra Berserks (ranged capable)](https://www.nexusmods.com/cyberpunk2077/mods/14236) - 937 endorsements (needs Berserk Unchained - script-outdated)
+- [Extra Berserks (ranged capable)](https://www.nexusmods.com/cyberpunk2077/mods/14236) - 938 endorsements (needs Berserk Unchained - script-outdated)
 - [PMU - Zwei Custom Poses - Rockergirl Set](https://www.nexusmods.com/cyberpunk2077/mods/7441) - 924 endorsements (needs removed/adult mod 790)
 - [Cyberpunk Edgerunner Rebecca's Tattoo Overlay](https://www.nexusmods.com/cyberpunk2077/mods/5328) - 895 endorsements (needs Skin Mixer - script-outdated)
-- [Lamborghini Miura SV WBK (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/18475) - 892 endorsements (needs XUtils - native-pre-2.5)
+- [Lamborghini Miura SV WBK (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/18475) - 894 endorsements (needs XUtils - native-pre-2.5)
 - [Lamborghini huracan Libertywalk](https://www.nexusmods.com/cyberpunk2077/mods/11877) - 886 endorsements (needs Material and Texture Override - assets-outdated)
 - [Better Feet for Masc V - Male Body Mod](https://www.nexusmods.com/cyberpunk2077/mods/8754) - 884 endorsements (needs removed/adult mod 3783)
-- [Nazare Short The Seat 2.1](https://www.nexusmods.com/cyberpunk2077/mods/7917) - 869 endorsements (needs Better Bike Overhaul 2.02 - script-outdated)
-- [Pacifica Typhoon Read Shard Add-On](https://www.nexusmods.com/cyberpunk2077/mods/12871) - 868 endorsements (needs removed/adult mod 12245)
-- [Eagul's Multicolored Hair Pack CCXL](https://www.nexusmods.com/cyberpunk2077/mods/21614) - 860 endorsements (needs Multicolored Hair CCXL - Core - Resources - script-outdated)
+- [Nazare Short The Seat 2.1](https://www.nexusmods.com/cyberpunk2077/mods/7917) - 870 endorsements (needs Better Bike Overhaul 2.02 - script-outdated)
+- [Pacifica Typhoon Read Shard Add-On](https://www.nexusmods.com/cyberpunk2077/mods/12871) - 869 endorsements (needs removed/adult mod 12245)
+- [Eagul's Multicolored Hair Pack CCXL](https://www.nexusmods.com/cyberpunk2077/mods/21614) - 863 endorsements (needs Multicolored Hair CCXL - Core - Resources - script-outdated)
 - [Cherry Blossom Blackwork Tattoo - KS and VTK](https://www.nexusmods.com/cyberpunk2077/mods/3510) - 857 endorsements (needs removed/adult mod 3783)
-- [Night City Enhanced and Expanded - NPCs](https://www.nexusmods.com/cyberpunk2077/mods/21114) - 854 endorsements (needs Street Vendors - script-outdated)
+- [Night City Enhanced and Expanded - NPCs](https://www.nexusmods.com/cyberpunk2077/mods/21114) - 854 endorsements (needs H10 Apartment E3 Advertisements - world-pre-2.5)
 - [Driver Combat Fixes](https://www.nexusmods.com/cyberpunk2077/mods/10741) - 834 endorsements (needs Drivable Sawed-Off Shotguns (Palica and Testera) - script-outdated)
-- [Realistic Complexion - PALE SKIN - for Universal Skin Tone - Head Textures - 4K](https://www.nexusmods.com/cyberpunk2077/mods/13673) - 820 endorsements (needs removed/adult mod 15426)
-- [Lamborghini Miura P400 SV (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/13508) - 805 endorsements (needs XUtils - native-pre-2.5)
+- [Realistic Complexion - PALE SKIN - for Universal Skin Tone - Head Textures - 4K](https://www.nexusmods.com/cyberpunk2077/mods/13673) - 821 endorsements (needs removed/adult mod 15426)
+- [Lamborghini Miura P400 SV (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/13508) - 806 endorsements (needs XUtils - native-pre-2.5)
 - [Yaiba Kusanagi color variations](https://www.nexusmods.com/cyberpunk2077/mods/9167) - 789 endorsements (needs Material and Texture Override - assets-outdated)
-- [Galena GT Widebody](https://www.nexusmods.com/cyberpunk2077/mods/22014) - 782 endorsements (needs Vehicle Speed Unlimiter - native-pre-2.5)
+- [Galena GT Widebody](https://www.nexusmods.com/cyberpunk2077/mods/22014) - 785 endorsements (needs Vehicle Speed Unlimiter - native-pre-2.5)
 - [Solo Pose Pack Vol.4 (F)](https://www.nexusmods.com/cyberpunk2077/mods/16443) - 737 endorsements (needs removed/adult mod 18837)
 - [Solo pose pack Vol.2 (F)](https://www.nexusmods.com/cyberpunk2077/mods/13562) - 704 endorsements (needs PMU - Nibbles Unlocked - script-outdated)
 - [Solo pose pack Vol 3 (F n M)](https://www.nexusmods.com/cyberpunk2077/mods/15264) - 688 endorsements (needs removed/adult mod 18837)
-- [CLUB 27 - Glen Apartment](https://www.nexusmods.com/cyberpunk2077/mods/13051) - 686 endorsements (needs Proxima's Prop Paradise - script-outdated)
-- [ChloeV2 - Female V Preset](https://www.nexusmods.com/cyberpunk2077/mods/13264) - 679 endorsements (needs removed/adult mod 11667)
+- [ChloeV2 - Female V Preset](https://www.nexusmods.com/cyberpunk2077/mods/13264) - 683 endorsements (needs removed/adult mod 11667)
 - [Grease Monkey - Mechanic AMM and World Builder Props](https://www.nexusmods.com/cyberpunk2077/mods/7826) - 679 endorsements (needs removed/adult mod 790)
 - [Badlands Life Vol 01 - Nomad AMM and World Builder Props](https://www.nexusmods.com/cyberpunk2077/mods/7248) - 678 endorsements (needs removed/adult mod 790)
 - [Mercedes Benz W124 500E](https://www.nexusmods.com/cyberpunk2077/mods/17198) - 640 endorsements (needs removed/adult mod 790)
-- [Genesis X Gran Berlinetta (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/21187) - 636 endorsements (needs No Crash Reporter - unknown-outdated)
-- [The Emry Project](https://www.nexusmods.com/cyberpunk2077/mods/17582) - 622 endorsements (needs removed/adult mod 12874)
-- [Devil Sword Vergil - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13388) - 621 endorsements (needs Barong Tagalog - Traditional Filipino shirt - ArchiveXL - script-outdated)
-- [Pontiac Firebird Trans AM GTA](https://www.nexusmods.com/cyberpunk2077/mods/16205) - 603 endorsements (needs removed/adult mod 790)
-- [Megabuilding H10 Ultimate Experience](https://www.nexusmods.com/cyberpunk2077/mods/20986) - 601 endorsements (needs Street Vendors - script-outdated)
-- [Tartarus - Custom Malorian 3516 (Blackwall)](https://www.nexusmods.com/cyberpunk2077/mods/16000) - 600 endorsements (needs Better Chimera Mods - script-outdated)
+- [Genesis X Gran Berlinetta (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/21187) - 637 endorsements (needs No Crash Reporter - unknown-outdated)
+- [The Emry Project](https://www.nexusmods.com/cyberpunk2077/mods/17582) - 623 endorsements (needs removed/adult mod 12874)
+- [Devil Sword Vergil - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/13388) - 622 endorsements (needs Barong Tagalog - Traditional Filipino shirt - ArchiveXL - script-outdated)
+- [Pontiac Firebird Trans AM GTA](https://www.nexusmods.com/cyberpunk2077/mods/16205) - 605 endorsements (needs removed/adult mod 790)
+- [Tartarus - Custom Malorian 3516 (Blackwall)](https://www.nexusmods.com/cyberpunk2077/mods/16000) - 602 endorsements (needs Better Chimera Mods - script-outdated)
 - [expanded citizens (Archive XL)](https://www.nexusmods.com/cyberpunk2077/mods/25765) - 591 endorsements (needs No More Duplicate NPCs - script-outdated)
-- [Lamborghini Countach WBK (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/19428) - 588 endorsements (needs XUtils - native-pre-2.5)
-- [7th Hell Bar Enhanced](https://www.nexusmods.com/cyberpunk2077/mods/22454) - 586 endorsements (needs Trash Removal - 7th Hell Club - unknown-outdated)
+- [Lamborghini Countach WBK (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/19428) - 590 endorsements (needs XUtils - native-pre-2.5)
 - [Solo Pose Pack Vol.5](https://www.nexusmods.com/cyberpunk2077/mods/17822) - 582 endorsements (needs removed/adult mod 18837)
-- [Lamborghini Countach LP5000 QV (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/19147) - 569 endorsements (needs XUtils - native-pre-2.5)
+- [CODE P0L4R1S - Female Pose Pack](https://www.nexusmods.com/cyberpunk2077/mods/27447) - 571 endorsements (needs removed/adult mod 18837)
+- [Lamborghini Countach LP5000 QV (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/19147) - 570 endorsements (needs XUtils - native-pre-2.5)
+- [Jaguar E Type (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/15238) - 569 endorsements (needs XUtils - native-pre-2.5)
 - [Duplicate and generic NPC randomizer](https://www.nexusmods.com/cyberpunk2077/mods/25762) - 568 endorsements (needs No More Duplicate NPCs - script-outdated)
-- [CODE P0L4R1S - Female Pose Pack](https://www.nexusmods.com/cyberpunk2077/mods/27447) - 568 endorsements (needs removed/adult mod 18837)
-- [Jaguar E Type (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/15238) - 567 endorsements (needs XUtils - native-pre-2.5)
 - [Solo Pose Pack Vol.6](https://www.nexusmods.com/cyberpunk2077/mods/19364) - 567 endorsements (needs removed/adult mod 18837)
 - [Skippy-chan](https://www.nexusmods.com/cyberpunk2077/mods/24593) - 562 endorsements (needs removed/adult mod 27667)
-- [Santo Serenity Residence](https://www.nexusmods.com/cyberpunk2077/mods/30483) - 561 endorsements (needs Halloween Fun Pack -AMM Props - script-outdated)
-- [Ripperdoc Vendor UI Enhancements - Great for Ripperdoc Cyberware Specializations Mod - Show Offered CW Products in Pin Tooltips on the World Map](https://www.nexusmods.com/cyberpunk2077/mods/23180) - 559 endorsements (needs Psycho Killer Reward - Restored - script-outdated)
-- [Porsche 911 Targa 4 GTS 2025 (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/25964) - 557 endorsements (needs XUtils - native-pre-2.5)
+- [Santo Serenity Residence](https://www.nexusmods.com/cyberpunk2077/mods/30483) - 562 endorsements (needs Halloween Fun Pack -AMM Props - script-outdated)
+- [Ripperdoc Vendor UI Enhancements - Great for Ripperdoc Cyberware Specializations Mod - Show Offered CW Products in Pin Tooltips on the World Map](https://www.nexusmods.com/cyberpunk2077/mods/23180) - 560 endorsements (needs Psycho Killer Reward - Restored - script-outdated)
+- [Porsche 911 Targa 4 GTS 2025 (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/25964) - 559 endorsements (needs XUtils - native-pre-2.5)
 - [Nilu 27 (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/20955) - 555 endorsements (needs No Crash Reporter - unknown-outdated)
 - [Stop spammers](https://www.nexusmods.com/cyberpunk2077/mods/3801) - 549 endorsements (needs cybercmd - native-pre-2.5)
+- [Night City Fleet Expansion](https://www.nexusmods.com/cyberpunk2077/mods/25965) - 544 endorsements (needs AutoFixer Customs - script-outdated)
 - [Volkswagen Super Beetle 1971 (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/20785) - 543 endorsements (needs No Crash Reporter - unknown-outdated)
-- [Night City Fleet Expansion](https://www.nexusmods.com/cyberpunk2077/mods/25965) - 542 endorsements (needs AutoFixer Customs - script-outdated)
-- [Lizzies Bar Enhanced ( with Apartment )](https://www.nexusmods.com/cyberpunk2077/mods/22714) - 542 endorsements (needs Trash Removal - Lizzie's Bar - unknown-outdated)
 - [BMW M4 CS 2018 (Garage)](https://www.nexusmods.com/cyberpunk2077/mods/21410) - 540 endorsements (needs No Crash Reporter - unknown-outdated)
 - [LOVE Couple Custom 05 Pose Pack](https://www.nexusmods.com/cyberpunk2077/mods/11185) - 536 endorsements (needs PMU - Nibbles Unlocked - script-outdated)
-- ... and 62 more
+- [EKT - Preem hair - WINGDEER hair - compatability patch](https://www.nexusmods.com/cyberpunk2077/mods/11285) - 531 endorsements (needs WINGDEER HAIR COLLECTION - assets-outdated)
+- [Interact with Lizzie's Bar](https://www.nexusmods.com/cyberpunk2077/mods/21842) - 531 endorsements (needs removed/adult mod 11077)
+- [IZAKAYA - Bar and Street Food Location](https://www.nexusmods.com/cyberpunk2077/mods/16192) - 530 endorsements (needs AMM Prop Pack - Wanna Hang - script-outdated)
+- ... and 56 more
 
 </details>
 
 <details><summary><b>2</b> - standalone program, not a game mod</summary>
 
-- [CPAH - Breach Protocol Autohacker](https://www.nexusmods.com/cyberpunk2077/mods/955) - 5293 endorsements
+- [CPAH - Breach Protocol Autohacker](https://www.nexusmods.com/cyberpunk2077/mods/955) - 5296 endorsements
 - [Cyberpunk 2077 AVX Fix (1.04)](https://www.nexusmods.com/cyberpunk2077/mods/82) - 314 endorsements
+
+</details>
+
+<details><summary><b>85</b> - edits map sectors and predates 2.5 (sector edits break, or crash, on new patches)</summary>
+
+- [GITS 3.X](https://www.nexusmods.com/cyberpunk2077/mods/9274) - 4793 endorsements
+- [Apartment Cats - The Glen](https://www.nexusmods.com/cyberpunk2077/mods/6276) - 4480 endorsements
+- [Apartment Cats - Japantown](https://www.nexusmods.com/cyberpunk2077/mods/6493) - 3996 endorsements
+- [Preem Fixes (PT Shadow Bug Fix and HD Textures)](https://www.nexusmods.com/cyberpunk2077/mods/15800) - 2444 endorsements
+- [H10 Apartment E3 Advertisements](https://www.nexusmods.com/cyberpunk2077/mods/11596) - 1715 endorsements
+- [3D World Map Fixed](https://www.nexusmods.com/cyberpunk2077/mods/26500) - 881 endorsements
+- [HQ Holo Travel](https://www.nexusmods.com/cyberpunk2077/mods/21149) - 808 endorsements
+- [More Occluders (Performance Improvement)](https://www.nexusmods.com/cyberpunk2077/mods/33136) - 781 endorsements
+- [Judy's Cone Lights No More](https://www.nexusmods.com/cyberpunk2077/mods/12893) - 738 endorsements
+- [More Smart Frames in V's Apartments](https://www.nexusmods.com/cyberpunk2077/mods/18384) - 686 endorsements
+- [CLUB 27 - Glen Apartment](https://www.nexusmods.com/cyberpunk2077/mods/13051) - 686 endorsements
+- [Winter in Night City](https://www.nexusmods.com/cyberpunk2077/mods/11894) - 627 endorsements
+- [Smart Frames Expand](https://www.nexusmods.com/cyberpunk2077/mods/18435) - 606 endorsements
+- [Megabuilding H10 Ultimate Experience](https://www.nexusmods.com/cyberpunk2077/mods/20986) - 605 endorsements
+- [7th Hell Bar Enhanced](https://www.nexusmods.com/cyberpunk2077/mods/22454) - 589 endorsements
+- [Lore Friendly Neon Signs](https://www.nexusmods.com/cyberpunk2077/mods/19469) - 584 endorsements
+- [Canyon Fixes](https://www.nexusmods.com/cyberpunk2077/mods/25918) - 562 endorsements
+- [Grammar of Night City](https://www.nexusmods.com/cyberpunk2077/mods/6776) - 561 endorsements
+- [Lizzies Bar Enhanced ( with Apartment )](https://www.nexusmods.com/cyberpunk2077/mods/22714) - 544 endorsements
+- [Pacifica Enhanced](https://www.nexusmods.com/cyberpunk2077/mods/21848) - 509 endorsements
+- [Arasaka Estate Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/13751) - 502 endorsements
+- [Dynamic Cherry Blossoms](https://www.nexusmods.com/cyberpunk2077/mods/16071) - 491 endorsements
+- [Lucy Apartment Remastered 2025](https://www.nexusmods.com/cyberpunk2077/mods/23239) - 488 endorsements
+- [Ghosts of Night City - Small Immersive Encounters](https://www.nexusmods.com/cyberpunk2077/mods/22321) - 482 endorsements
+- [Japantown North Penthouse - Player Apartment](https://www.nexusmods.com/cyberpunk2077/mods/26587) - 482 endorsements
+- [Viktor Vektors Garage ( Working Car Mods and Repair )](https://www.nexusmods.com/cyberpunk2077/mods/20793) - 462 endorsements
+- [SPC TV Screen (Silver Pixel Cloud Drive-In Theater)](https://www.nexusmods.com/cyberpunk2077/mods/14927) - 460 endorsements
+- [Combat Mission Poses Props](https://www.nexusmods.com/cyberpunk2077/mods/15259) - 452 endorsements
+- [OnShore - Home](https://www.nexusmods.com/cyberpunk2077/mods/22362) - 447 endorsements
+- [Echoes of Joy - Small Immersive Encounters](https://www.nexusmods.com/cyberpunk2077/mods/22717) - 435 endorsements
+- [Echos of Loss - Immersive Encounters](https://www.nexusmods.com/cyberpunk2077/mods/22378) - 426 endorsements
+- [People of Night City - Small Immersive Encounters](https://www.nexusmods.com/cyberpunk2077/mods/22424) - 411 endorsements
+- [V's H10 Garage - with Hidden Bunker](https://www.nexusmods.com/cyberpunk2077/mods/8542) - 408 endorsements
+- [Fusion Overkill MK5 - Cyberdeck](https://www.nexusmods.com/cyberpunk2077/mods/15850) - 405 endorsements
+- [DBRV Memorial - Goodbye to a friend](https://www.nexusmods.com/cyberpunk2077/mods/23820) - 405 endorsements
+- [Apartment H10 Cleaned - no trash no smoking (Discontinued)](https://www.nexusmods.com/cyberpunk2077/mods/10934) - 402 endorsements
+- [V's Mansion Entry - Redux](https://www.nexusmods.com/cyberpunk2077/mods/17184) - 401 endorsements
+- [E3 Open Police Station](https://www.nexusmods.com/cyberpunk2077/mods/21152) - 400 endorsements
+- [The Hollywood Cliffhanger Player Mansion](https://www.nexusmods.com/cyberpunk2077/mods/8108) - 393 endorsements
+- [Ghosts of Night City Pt 2 - Small Immersive Encounters](https://www.nexusmods.com/cyberpunk2077/mods/22600) - 391 endorsements
+- [A Gift For Jack - Columbarium](https://www.nexusmods.com/cyberpunk2077/mods/20952) - 389 endorsements
+- [CYBERPUNK 2077 UNOFFICIAL DLC 2](https://www.nexusmods.com/cyberpunk2077/mods/22745) - 387 endorsements
+- [V's Edgerunners Mansion Reloaded](https://www.nexusmods.com/cyberpunk2077/mods/26023) - 376 endorsements
+- [North Oak Exclusive Club And Casino Restored](https://www.nexusmods.com/cyberpunk2077/mods/15132) - 356 endorsements
+- [Casino Reforged - Phase 1 - Access areas and fixes](https://www.nexusmods.com/cyberpunk2077/mods/25430) - 356 endorsements
+- [Dark Matter Club ( with Apartment )](https://www.nexusmods.com/cyberpunk2077/mods/19905) - 354 endorsements
+- [Dogtown Hideout - ArchiveXL](https://www.nexusmods.com/cyberpunk2077/mods/12008) - 348 endorsements
+- [Rancho Coronado House DLC](https://www.nexusmods.com/cyberpunk2077/mods/18590) - 336 endorsements
+- [H10 Apartment Number](https://www.nexusmods.com/cyberpunk2077/mods/24555) - 333 endorsements
+- [Casino Reforged - Phase 2 - Access road and entrance](https://www.nexusmods.com/cyberpunk2077/mods/25556) - 323 endorsements
+- [Drive-In Theater ( Working Movie Screen )](https://www.nexusmods.com/cyberpunk2077/mods/19729) - 321 endorsements
+- [Judy's Lake House - Player Apartment](https://www.nexusmods.com/cyberpunk2077/mods/21549) - 317 endorsements
+- [H10 Enhanced](https://www.nexusmods.com/cyberpunk2077/mods/20892) - 315 endorsements
+- [Konpeki Plaza Expanded ( with Apartment )](https://www.nexusmods.com/cyberpunk2077/mods/20233) - 311 endorsements
+- [World Objects Removed](https://www.nexusmods.com/cyberpunk2077/mods/19615) - 303 endorsements
+- [Apartment Dropoff Points](https://www.nexusmods.com/cyberpunk2077/mods/22859) - 280 endorsements
+- [Better Buildings - Preview (2.31)](https://www.nexusmods.com/cyberpunk2077/mods/18822) - 268 endorsements
+- [Japantown Rooftop Mansion](https://www.nexusmods.com/cyberpunk2077/mods/22274) - 264 endorsements
+- [Outdoor V - Canyon Forest](https://www.nexusmods.com/cyberpunk2077/mods/27131) - 262 endorsements
+- [Locations Unlocked - Hammer - Half Year Montage - Zen BD locations - Firestarter](https://www.nexusmods.com/cyberpunk2077/mods/21879) - 247 endorsements
+- [Downtown Yacht](https://www.nexusmods.com/cyberpunk2077/mods/16046) - 238 endorsements
+- [Casino Reforged - Assets pack](https://www.nexusmods.com/cyberpunk2077/mods/26290) - 234 endorsements
+- [Immersive E3 NC Fixes and Improvements ( 2.5 Compatible )](https://www.nexusmods.com/cyberpunk2077/mods/28990) - 234 endorsements
+- [Megabuilding 8 Expanded ( with Apartments )](https://www.nexusmods.com/cyberpunk2077/mods/22164) - 232 endorsements
+- [Konpeki Plaza Unlocked](https://www.nexusmods.com/cyberpunk2077/mods/13180) - 232 endorsements
+- [Fast Travel To Spaceport](https://www.nexusmods.com/cyberpunk2077/mods/19610) - 231 endorsements
+- [More Interactions - The Glen](https://www.nexusmods.com/cyberpunk2077/mods/21571) - 230 endorsements
+- [Sheng Noods Ramenshop](https://www.nexusmods.com/cyberpunk2077/mods/25294) - 230 endorsements
+- [Afterlife Expanded ( with Apartment )](https://www.nexusmods.com/cyberpunk2077/mods/20983) - 228 endorsements
+- [Atlantis Club Expanded](https://www.nexusmods.com/cyberpunk2077/mods/19960) - 218 endorsements
+- [Judy's Cozier Apartment](https://www.nexusmods.com/cyberpunk2077/mods/23287) - 218 endorsements
+- [E3 Kabuki](https://www.nexusmods.com/cyberpunk2077/mods/13589) - 216 endorsements
+- [Arasaka Estate Mansion](https://www.nexusmods.com/cyberpunk2077/mods/19169) - 213 endorsements
+- [Black Sapphire Expanded](https://www.nexusmods.com/cyberpunk2077/mods/16390) - 207 endorsements
+- [Evelyn's Vigil - Columbarium](https://www.nexusmods.com/cyberpunk2077/mods/22301) - 203 endorsements
+- [Hayling - Home](https://www.nexusmods.com/cyberpunk2077/mods/26046) - 201 endorsements
+- [Japantown Greenery](https://www.nexusmods.com/cyberpunk2077/mods/22203) - 198 endorsements
+- [Dogtown Car Meet ( with Apartment )](https://www.nexusmods.com/cyberpunk2077/mods/16252) - 197 endorsements
+- [Pacifica Apartment](https://www.nexusmods.com/cyberpunk2077/mods/16045) - 196 endorsements
+- [Luxury Palm St. Apartment](https://www.nexusmods.com/cyberpunk2077/mods/24912) - 192 endorsements
+- [Rooftop Pool Party](https://www.nexusmods.com/cyberpunk2077/mods/22163) - 189 endorsements
+- [V's Santo Domingo Safehouse](https://www.nexusmods.com/cyberpunk2077/mods/24408) - 189 endorsements
+- [Brick Columbarium Fix](https://www.nexusmods.com/cyberpunk2077/mods/28692) - 184 endorsements
+- [Dogtown Airship ( with Apartment and NPC Party Below )](https://www.nexusmods.com/cyberpunk2077/mods/19363) - 182 endorsements
+- [Charterhill Rooftop Bar](https://www.nexusmods.com/cyberpunk2077/mods/16048) - 159 endorsements
 
 </details>
 
@@ -689,7 +781,7 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 - [Megabuildings enhanced](https://www.nexusmods.com/cyberpunk2077/mods/4924) - 1618 endorsements
 - [No Tell Motel - Expanded](https://www.nexusmods.com/cyberpunk2077/mods/4989) - 1264 endorsements
 - [Megabuildings Expanded And Enhanced - Completed](https://www.nexusmods.com/cyberpunk2077/mods/7355) - 863 endorsements
-- [(LEGACY) The DocWorks Multi-Pack - A Collection of High-Quality Vehicle Mods](https://www.nexusmods.com/cyberpunk2077/mods/3291) - 565 endorsements
+- [(LEGACY) The DocWorks Multi-Pack - A Collection of High-Quality Vehicle Mods](https://www.nexusmods.com/cyberpunk2077/mods/3291) - 567 endorsements
 - [Power Tech Icon Fix](https://www.nexusmods.com/cyberpunk2077/mods/4040) - 350 endorsements
 - [South Californian Badlands - DLC](https://www.nexusmods.com/cyberpunk2077/mods/5118) - 322 endorsements
 - [(OBSOLETE) Remove the Green Effect from Panam's Scene](https://www.nexusmods.com/cyberpunk2077/mods/2050) - 249 endorsements
@@ -700,7 +792,7 @@ Generated 2026-11-13 11:37 UTC by `tools/nexus/build_modpack.py` from the Nexus 
 
 <details><summary><b>3</b> - ships a file a more-endorsed mod already ships</summary>
 
-- [Computer Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/12520) - 3961 endorsements (overlaps Idle Anywhere)
+- [Computer Anywhere](https://www.nexusmods.com/cyberpunk2077/mods/12520) - 3968 endorsements (overlaps Idle Anywhere)
 - [V Cybernetic Voice (Cyberware Voice)](https://www.nexusmods.com/cyberpunk2077/mods/18813) - 217 endorsements (overlaps Immersive V Dialogue Expanded)
 - [AZERTY Fix And Disable Movements Binds For Dialog Selection 2.31](https://www.nexusmods.com/cyberpunk2077/mods/9335) - 184 endorsements (overlaps Disable Movement Keybinds For Dialogue Selection)
 

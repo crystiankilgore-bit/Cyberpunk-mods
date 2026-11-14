@@ -14,7 +14,7 @@
         "redscript"
       ],
       "author": "Bonaniki",
-      "endorsements": 58291,
+      "endorsements": 58340,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -41,7 +41,7 @@
         "tweakxl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 40121,
+      "endorsements": 40171,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -62,7 +62,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Deceptious",
-      "endorsements": 31895,
+      "endorsements": 31925,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -93,7 +93,7 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 30282,
+      "endorsements": 30312,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -117,7 +117,7 @@
         "codeware"
       ],
       "author": "psiberx",
-      "endorsements": 29216,
+      "endorsements": 29308,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -141,7 +141,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 28635,
+      "endorsements": 28664,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -160,7 +160,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Deceptious",
-      "endorsements": 27067,
+      "endorsements": 27116,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -172,7 +172,7 @@
       },
       "summary": "Core/framework mod file that allows for multiple quest type mods to use a single hook",
       "notes": "Required by 16 mod(s) in this pack.",
-      "autoNotes": "Required by 16 mod(s) in this pack."
+      "autoNotes": "Required by 15 mod(s) in this pack."
     },
     {
       "id": "let-there-be-flight",
@@ -189,7 +189,7 @@
         "archivexl"
       ],
       "author": "Jack Humbert",
-      "endorsements": 17810,
+      "endorsements": 17823,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -200,8 +200,7 @@
         "variants": 1
       },
       "summary": "Enables a configurable flight system for all vehicles with custom thruster models, visual & sound effects, and animations",
-      "notes": "Required by 1 mod(s) in this pack.",
-      "autoNotes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "romance-hangouts-enhanced",
@@ -214,7 +213,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 17073,
+      "endorsements": 17101,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -244,7 +243,7 @@
         "redscript"
       ],
       "author": "yakuzadeso",
-      "endorsements": 16952,
+      "endorsements": 16989,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -271,7 +270,7 @@
         "cet"
       ],
       "author": "RMK",
-      "endorsements": 16912,
+      "endorsements": 16927,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -297,7 +296,7 @@
         "native-settings-ui"
       ],
       "author": "Deceptious",
-      "endorsements": 16544,
+      "endorsements": 16557,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -322,7 +321,7 @@
         "cet"
       ],
       "author": "keanuWheeze",
-      "endorsements": 16379,
+      "endorsements": 16391,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -350,7 +349,7 @@
         "tweakxl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 13518,
+      "endorsements": 13525,
       "nexusCategory": "Crafting",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -372,7 +371,7 @@
         "cet"
       ],
       "author": "keanuWheeze and anygoodname",
-      "endorsements": 13185,
+      "endorsements": 13202,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -398,7 +397,7 @@
         "tweakxl"
       ],
       "author": "SilverEzredes",
-      "endorsements": 12821,
+      "endorsements": 12833,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -431,7 +430,7 @@
         "codeware"
       ],
       "author": "Deceptious",
-      "endorsements": 11779,
+      "endorsements": 11789,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -450,7 +449,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Katane",
-      "endorsements": 11189,
+      "endorsements": 11213,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -479,7 +478,7 @@
         "cet"
       ],
       "author": "RMK",
-      "endorsements": 11186,
+      "endorsements": 11195,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -503,7 +502,7 @@
         "mod-settings"
       ],
       "author": "Jack Humbert",
-      "endorsements": 10395,
+      "endorsements": 10405,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -529,7 +528,7 @@
         "cet"
       ],
       "author": "RMK",
-      "endorsements": 10010,
+      "endorsements": 10015,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -560,7 +559,7 @@
         "cet"
       ],
       "author": "keanuWheeze",
-      "endorsements": 9691,
+      "endorsements": 9700,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -578,7 +577,7 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "immersive-bartenders",
@@ -587,7 +586,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Deceptious",
-      "endorsements": 9568,
+      "endorsements": 9576,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -616,7 +615,7 @@
         "archivexl"
       ],
       "author": "Deceptious",
-      "endorsements": 9411,
+      "endorsements": 9424,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -649,7 +648,7 @@
         "cet"
       ],
       "author": "keanuWheeze",
-      "endorsements": 9110,
+      "endorsements": 9126,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -669,7 +668,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Deceptious",
-      "endorsements": 9000,
+      "endorsements": 9009,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -697,7 +696,7 @@
         "cet"
       ],
       "author": "keanuWheeze",
-      "endorsements": 8935,
+      "endorsements": 8939,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -728,7 +727,7 @@
         "cet"
       ],
       "author": "keanuWheeze",
-      "endorsements": 8577,
+      "endorsements": 8581,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -739,30 +738,6 @@
         "variants": 1
       },
       "summary": "Adds configurable zoom levels to scoped weapons, that can be cycled through."
-    },
-    {
-      "id": "lifepath-bonuses-and-gang-corp-traits",
-      "name": "Lifepath Bonuses and Gang-Corp Traits",
-      "nexusId": 2217,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "native-settings-ui",
-        "redscript",
-        "cet"
-      ],
-      "author": "RMK",
-      "endorsements": 8465,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 173305,
-        "name": "Lifepath Bonuses and Gang-Corp Traits",
-        "version": "4.3.4",
-        "uploaded": "2026-11-03",
-        "variants": 1
-      },
-      "summary": "Modifies every part of the damage system and some other elements to give gangs and corps more flavour and uniqueness. Also get benefits and penalties against gangs/corps based on your lifepath. Highly configurable with new menu!"
     },
     {
       "id": "native-interactions-framework",
@@ -778,7 +753,7 @@
         "redscript"
       ],
       "author": "keanuWheeze",
-      "endorsements": 8444,
+      "endorsements": 8481,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -790,7 +765,31 @@
       },
       "summary": "Framework that allows for the placement of interactions such as sitting, sleeping, drinking, showering and more.",
       "notes": "Needs DLC: Phantom Liberty. Required by 39 mod(s) in this pack.",
-      "autoNotes": "Needs DLC: Phantom Liberty. Required by 36 mod(s) in this pack."
+      "autoNotes": "Needs DLC: Phantom Liberty. Required by 28 mod(s) in this pack."
+    },
+    {
+      "id": "lifepath-bonuses-and-gang-corp-traits",
+      "name": "Lifepath Bonuses and Gang-Corp Traits",
+      "nexusId": 2217,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "native-settings-ui",
+        "redscript",
+        "cet"
+      ],
+      "author": "RMK",
+      "endorsements": 8467,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 173305,
+        "name": "Lifepath Bonuses and Gang-Corp Traits",
+        "version": "4.3.4",
+        "uploaded": "2026-11-03",
+        "variants": 1
+      },
+      "summary": "Modifies every part of the damage system and some other elements to give gangs and corps more flavour and uniqueness. Also get benefits and penalties against gangs/corps based on your lifepath. Highly configurable with new menu!"
     },
     {
       "id": "pet-your-cat",
@@ -799,7 +798,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Deceptious",
-      "endorsements": 8248,
+      "endorsements": 8258,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -831,7 +830,7 @@
         "mod-settings"
       ],
       "author": "not_alphanine",
-      "endorsements": 7155,
+      "endorsements": 7170,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -855,7 +854,7 @@
         "gone-away-better-partner-suspended-behaviour"
       ],
       "author": "Deceptious",
-      "endorsements": 6738,
+      "endorsements": 6753,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -884,7 +883,7 @@
         "audioware"
       ],
       "author": "The Cyberpunk THING Team and Friends",
-      "endorsements": 6356,
+      "endorsements": 6360,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -910,7 +909,7 @@
         "radial-menu-upgrade-for-idle-computer-tv-anywher"
       ],
       "author": "Deceptious",
-      "endorsements": 5839,
+      "endorsements": 5852,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -948,7 +947,7 @@
         "cet"
       ],
       "author": "RMK",
-      "endorsements": 5828,
+      "endorsements": 5843,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -968,7 +967,7 @@
       "priority": "recommended",
       "required": false,
       "author": "CyanideX",
-      "endorsements": 5806,
+      "endorsements": 5811,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -992,7 +991,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 5753,
+      "endorsements": 5768,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1041,6 +1040,31 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "deceptious-bug-fixes",
+      "name": "Deceptious Bug Fixes",
+      "nexusId": 18318,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "deceptious-quest-core",
+        "tweakxl"
+      ],
+      "author": "Deceptious",
+      "endorsements": 5537,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169948,
+        "name": "Deceptious Bug Fixes",
+        "version": "1.4.3",
+        "uploaded": "2026-10-28",
+        "variants": 1
+      },
+      "summary": "A collection of various, non-subjective, bug fixes. Merges a number of old bug fix mods into one archive for compatibility. Includes some new and improved fixes."
+    },
+    {
       "id": "responsive-npcs",
       "name": "Responsive NPCs",
       "nexusId": 14800,
@@ -1051,7 +1075,7 @@
         "mod-settings"
       ],
       "author": "MisterChedda",
-      "endorsements": 5526,
+      "endorsements": 5533,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1073,31 +1097,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "deceptious-bug-fixes",
-      "name": "Deceptious Bug Fixes",
-      "nexusId": 18318,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "deceptious-quest-core",
-        "tweakxl"
-      ],
-      "author": "Deceptious",
-      "endorsements": 5519,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 169948,
-        "name": "Deceptious Bug Fixes",
-        "version": "1.4.3",
-        "uploaded": "2026-10-28",
-        "variants": 1
-      },
-      "summary": "A collection of various, non-subjective, bug fixes. Merges a number of old bug fix mods into one archive for compatibility. Includes some new and improved fixes."
-    },
-    {
       "id": "immersive-rippers-dogtown",
       "name": "Immersive Rippers - Dogtown",
       "nexusId": 10255,
@@ -1108,7 +1107,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 5484,
+      "endorsements": 5491,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1138,7 +1137,7 @@
         "tweakxl"
       ],
       "author": "Dark Fortune Teller",
-      "endorsements": 5439,
+      "endorsements": 5455,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1163,7 +1162,7 @@
         "codeware"
       ],
       "author": "Deceptious",
-      "endorsements": 5420,
+      "endorsements": 5434,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1196,7 +1195,7 @@
         "tweakxl"
       ],
       "author": "RMK",
-      "endorsements": 5076,
+      "endorsements": 5079,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1211,37 +1210,6 @@
         "anyOf": [
           "r6/scripts/StatusBarBugFixes.reds",
           "r6/tweaks/status_bar_bug_fixes.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "smarter-scrapper",
-      "name": "Smarter Scrapper",
-      "nexusId": 2687,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "mod-settings",
-        "red4ext",
-        "redscript"
-      ],
-      "author": "DJ_Kovrik",
-      "endorsements": 4854,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 140448,
-        "name": "Smarter Scrapper",
-        "version": "2.3.6",
-        "uploaded": "2026-03-25",
-        "variants": 1
-      },
-      "summary": "Enables auto disassembling on pick up  for clothes, weapons, mods, grenades and healers depending on item quality (configurable)",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/smarterScrapper.reds"
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
@@ -1263,7 +1231,7 @@
         "red4ext"
       ],
       "author": "CybrDrake",
-      "endorsements": 4830,
+      "endorsements": 4895,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1276,6 +1244,37 @@
       "summary": "Explore Night City in an immersive third person perspective, without sacrificing the immersion of first-person elements.",
       "notes": "Needs DLC: Phantom Liberty.",
       "autoNotes": "Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "smarter-scrapper",
+      "name": "Smarter Scrapper",
+      "nexusId": 2687,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "author": "DJ_Kovrik",
+      "endorsements": 4856,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 140448,
+        "name": "Smarter Scrapper",
+        "version": "2.3.6",
+        "uploaded": "2026-03-25",
+        "variants": 1
+      },
+      "summary": "Enables auto disassembling on pick up  for clothes, weapons, mods, grenades and healers depending on item quality (configurable)",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/smarterScrapper.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "wannabe-edgerunner-a-simple-cyberpsychosis-mod",
@@ -1292,7 +1291,7 @@
         "codeware"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 4824,
+      "endorsements": 4826,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1317,7 +1316,7 @@
         "general-shadows-fixes"
       ],
       "author": "Deceptious",
-      "endorsements": 4804,
+      "endorsements": 4812,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1340,7 +1339,7 @@
         "redscript"
       ],
       "author": "yakuzadeso",
-      "endorsements": 4613,
+      "endorsements": 4620,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1365,7 +1364,7 @@
         "redscript"
       ],
       "author": "sosuinepsixuyu",
-      "endorsements": 4612,
+      "endorsements": 4617,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1402,7 +1401,7 @@
         "virtual-car-dealer"
       ],
       "author": "tidusmd",
-      "endorsements": 4432,
+      "endorsements": 4443,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1413,8 +1412,7 @@
         "variants": 1
       },
       "summary": "This mod introduces the ability to operate an AV and Helicopter. It adds a new layer of gameplay, allowing players to fly around Night City and use an auto-pilot feature for transportation. The AV can be purchased and summoned like any",
-      "notes": "Required by 2 mod(s) in this pack.",
-      "autoNotes": "Required by 3 mod(s) in this pack."
+      "notes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "better-armor-tooltip",
@@ -1428,7 +1426,7 @@
         "archivexl"
       ],
       "author": "RMK",
-      "endorsements": 4381,
+      "endorsements": 4388,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1464,7 +1462,7 @@
         "archivexl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 4261,
+      "endorsements": 4269,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1496,7 +1494,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 4235,
+      "endorsements": 4241,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1521,7 +1519,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Deceptious",
-      "endorsements": 4220,
+      "endorsements": 4226,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1552,7 +1550,7 @@
         "tweakxl"
       ],
       "author": "Deceptious",
-      "endorsements": 4108,
+      "endorsements": 4112,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1571,7 +1569,7 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "nci-addon-watson",
@@ -1583,7 +1581,7 @@
         "night-city-interactions-core"
       ],
       "author": "Deceptious",
-      "endorsements": 4095,
+      "endorsements": 4106,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1610,7 +1608,7 @@
         "night-city-interactions-core"
       ],
       "author": "Deceptious",
-      "endorsements": 4072,
+      "endorsements": 4079,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1633,7 +1631,7 @@
         "archivexl"
       ],
       "author": "Deceptious",
-      "endorsements": 4036,
+      "endorsements": 4054,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1664,7 +1662,7 @@
         "cet"
       ],
       "author": "anygoodname",
-      "endorsements": 4032,
+      "endorsements": 4041,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1686,7 +1684,7 @@
         "night-city-interactions-core"
       ],
       "author": "Deceptious",
-      "endorsements": 4014,
+      "endorsements": 4025,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1713,7 +1711,7 @@
         "night-city-interactions-core"
       ],
       "author": "Deceptious",
-      "endorsements": 3986,
+      "endorsements": 3996,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1729,8 +1727,7 @@
           "archive/pc/mod/#NCI_Westbrook.archive"
         ]
       },
-      "notes": "Required by 1 mod(s) in this pack.",
-      "autoNotes": "Required by 1 mod(s) in this pack."
+      "notes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "parking-spots-enhanced",
@@ -1744,7 +1741,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 3926,
+      "endorsements": 3938,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1771,7 +1768,7 @@
         "codeware"
       ],
       "author": "Seijax",
-      "endorsements": 3759,
+      "endorsements": 3765,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1804,7 +1801,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 3729,
+      "endorsements": 3739,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1840,7 +1837,7 @@
         "redscript"
       ],
       "author": "YG",
-      "endorsements": 3714,
+      "endorsements": 3720,
       "nexusCategory": "Scripts",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1862,7 +1859,7 @@
         "cet"
       ],
       "author": "yakuzadeso",
-      "endorsements": 3713,
+      "endorsements": 3719,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1893,7 +1890,7 @@
         "tweakxl"
       ],
       "author": "Deceptious",
-      "endorsements": 3634,
+      "endorsements": 3638,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -1912,7 +1909,7 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "mark-to-sell",
@@ -1926,7 +1923,7 @@
         "input-loader"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 3575,
+      "endorsements": 3579,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1974,6 +1971,32 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "they-will-remember",
+      "name": "They Will Remember",
+      "nexusId": 19747,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "equipment-ex",
+        "inventory-adjustments-hub",
+        "mod-settings",
+        "night-city-alive"
+      ],
+      "author": "Eris404",
+      "endorsements": 3523,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 176953,
+        "name": "They Will Remember",
+        "version": "3.0.1",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "Gangs overhaul. Reputation, reinforcements, retaliation, relationships and disguise systems: they will remember V! Outfox them and watch your back."
+    },
+    {
       "id": "zwei-custom-pmu-pose-packs-core",
       "name": "Zwei Custom PMU Pose Packs - Core",
       "nexusId": 7165,
@@ -1983,7 +2006,7 @@
         "photo-mode-unlocker-2-3-xl"
       ],
       "author": "Zwei",
-      "endorsements": 3509,
+      "endorsements": 3510,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2004,32 +2027,6 @@
       "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
-      "id": "they-will-remember",
-      "name": "They Will Remember",
-      "nexusId": 19747,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "equipment-ex",
-        "inventory-adjustments-hub",
-        "mod-settings",
-        "night-city-alive"
-      ],
-      "author": "Eris404",
-      "endorsements": 3504,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 176953,
-        "name": "They Will Remember",
-        "version": "3.0.1",
-        "uploaded": "2026-11-11",
-        "variants": 1
-      },
-      "summary": "Gangs overhaul. Reputation, reinforcements, retaliation, relationships and disguise systems: they will remember V! Outfox them and watch your back."
-    },
-    {
       "id": "immersive-fixers",
       "name": "Immersive Fixers",
       "nexusId": 15460,
@@ -2041,7 +2038,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 3484,
+      "endorsements": 3492,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2073,7 +2070,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 3341,
+      "endorsements": 3346,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2104,7 +2101,7 @@
         "tweakxl"
       ],
       "author": "icxrus",
-      "endorsements": 3300,
+      "endorsements": 3310,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2127,7 +2124,7 @@
         "redscript"
       ],
       "author": "Hyst",
-      "endorsements": 3276,
+      "endorsements": 3278,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2161,7 +2158,7 @@
         "tweakxl"
       ],
       "author": "Phoenicia",
-      "endorsements": 3244,
+      "endorsements": 3257,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2188,7 +2185,7 @@
         "cet"
       ],
       "author": "sosuinepsixuyu",
-      "endorsements": 3145,
+      "endorsements": 3154,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2219,7 +2216,7 @@
         "cet"
       ],
       "author": "JohnsonsStuff",
-      "endorsements": 3118,
+      "endorsements": 3122,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2244,7 +2241,7 @@
         "tweakxl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 3076,
+      "endorsements": 3084,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2267,7 +2264,7 @@
         "cet"
       ],
       "author": "keanuWheeze",
-      "endorsements": 3070,
+      "endorsements": 3074,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2328,7 +2325,7 @@
         "supressed-breakthrough"
       ],
       "author": "yakuzadeso",
-      "endorsements": 3016,
+      "endorsements": 3018,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2357,7 +2354,7 @@
         "deceptious-quest-core"
       ],
       "author": "Deceptious",
-      "endorsements": 2978,
+      "endorsements": 2979,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2389,7 +2386,7 @@
         "tweakxl"
       ],
       "author": "The guy posting it",
-      "endorsements": 2964,
+      "endorsements": 2971,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2411,7 +2408,7 @@
         "night-city-interactions-core"
       ],
       "author": "Deceptious",
-      "endorsements": 2877,
+      "endorsements": 2886,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2439,7 +2436,7 @@
         "native-settings-ui"
       ],
       "author": "TheArtificialEnhancer",
-      "endorsements": 2858,
+      "endorsements": 2861,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2465,7 +2462,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 2835,
+      "endorsements": 2842,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2494,7 +2491,7 @@
         "native-settings-ui"
       ],
       "author": "Seijax",
-      "endorsements": 2811,
+      "endorsements": 2813,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2515,34 +2512,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "new-lifepath-intro-fresh-start",
-      "name": "New Lifepath Intro - Fresh Start",
-      "nexusId": 18223,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "red4ext",
-        "tweakxl",
-        "redscript"
-      ],
-      "author": "Deceptious",
-      "endorsements": 2803,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 169951,
-        "name": "Fresh Start",
-        "version": "1.6.1",
-        "uploaded": "2026-10-28",
-        "variants": 1
-      },
-      "summary": "Adds a new lifepath and intro to the game, before the half year montage. V is both an ex-corpo and ex-nomad, returning to Night City.",
-      "notes": "Needs DLC: Phantom Liberty.",
-      "autoNotes": "Needs DLC: Phantom Liberty."
-    },
-    {
       "id": "streaming-bug-workaround",
       "name": "Streaming Bug Workaround",
       "nexusId": 22857,
@@ -2552,7 +2521,7 @@
         "cet"
       ],
       "author": "sosuinepsixuyu",
-      "endorsements": 2801,
+      "endorsements": 2809,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2572,13 +2541,41 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
+      "id": "new-lifepath-intro-fresh-start",
+      "name": "New Lifepath Intro - Fresh Start",
+      "nexusId": 18223,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "red4ext",
+        "tweakxl",
+        "redscript"
+      ],
+      "author": "Deceptious",
+      "endorsements": 2807,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 169951,
+        "name": "Fresh Start",
+        "version": "1.6.1",
+        "uploaded": "2026-10-28",
+        "variants": 1
+      },
+      "summary": "Adds a new lifepath and intro to the game, before the half year montage. V is both an ex-corpo and ex-nomad, returning to Night City.",
+      "notes": "Needs DLC: Phantom Liberty.",
+      "autoNotes": "Needs DLC: Phantom Liberty."
+    },
+    {
       "id": "wilson-s-range",
       "name": "Wilson's Range",
       "nexusId": 7367,
       "priority": "recommended",
       "required": false,
       "author": "Deceptious",
-      "endorsements": 2792,
+      "endorsements": 2798,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2596,41 +2593,6 @@
       }
     },
     {
-      "id": "apartment-cats-custom-cats",
-      "name": "Apartment Cats - Custom Cats",
-      "nexusId": 6837,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "apartment-cats-corpo-plaza",
-        "apartment-cats-japantown",
-        "apartment-cats-northside-motel",
-        "apartment-cats-the-glen",
-        "apartment-cats-dogtown"
-      ],
-      "author": "Deceptious - xBaebsae",
-      "endorsements": 2753,
-      "nexusCategory": "Gameplay",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 102908,
-        "name": "Apartment Cats Customs - Motel Apartment variants",
-        "version": "1.3.0",
-        "uploaded": "2025-02-28",
-        "variants": 6
-      },
-      "summary": "Adds variants for each of the Apartment Cats mods, fully individualised so each apartment cat can have a different look. 7 different looks available.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/#ApartmentCatsCustoms_Motel_Black.archive",
-          "archive/pc/mod/#ApartmentCatsCustoms_Motel_BlackAndWhite.archive",
-          "archive/pc/mod/#ApartmentCatsCustoms_Motel_GreyTiger.archive"
-        ]
-      },
-      "notes": "6 main-file variants on Nexus - pick one.",
-      "autoNotes": "6 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "apartment-cats-dogtown",
       "name": "Apartment Cats - Dogtown",
       "nexusId": 10325,
@@ -2642,7 +2604,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 2725,
+      "endorsements": 2731,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2661,7 +2623,7 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty. Required by 1 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
       "id": "say-something-damn-it",
@@ -2674,7 +2636,7 @@
         "archivexl"
       ],
       "author": "anygoodname",
-      "endorsements": 2646,
+      "endorsements": 2656,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2696,7 +2658,7 @@
         "cet"
       ],
       "author": "Jb",
-      "endorsements": 2589,
+      "endorsements": 2591,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2730,7 +2692,7 @@
         "native-settings-ui"
       ],
       "author": "ripperdoc",
-      "endorsements": 2511,
+      "endorsements": 2520,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2759,7 +2721,7 @@
         "tweakxl"
       ],
       "author": "Phoenicia",
-      "endorsements": 2503,
+      "endorsements": 2511,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2793,7 +2755,7 @@
         "deceptious-quest-core"
       ],
       "author": "Deceptious",
-      "endorsements": 2454,
+      "endorsements": 2469,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2822,7 +2784,7 @@
         "input-loader"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 2366,
+      "endorsements": 2372,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2848,7 +2810,7 @@
         "photo-mode-unlocker-2-3-xl"
       ],
       "author": "Zwei - Rev",
-      "endorsements": 2285,
+      "endorsements": 2289,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2881,7 +2843,7 @@
         "input-loader"
       ],
       "author": "nobo",
-      "endorsements": 2279,
+      "endorsements": 2284,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2904,7 +2866,7 @@
         "native-settings-ui"
       ],
       "author": "Darkcopse",
-      "endorsements": 2263,
+      "endorsements": 2264,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2924,35 +2886,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "preem-weaponsmith-2-0",
-      "name": "Preem Weaponsmith 2.0",
-      "nexusId": 9692,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "codeware",
-        "cet",
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "mod-settings"
-      ],
-      "author": "Appuator",
-      "endorsements": 2233,
-      "nexusCategory": "Crafting",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 177023,
-        "name": "PreemWeaponsmith",
-        "version": "2.7.0",
-        "uploaded": "2026-11-11",
-        "variants": 1
-      },
-      "summary": "Adds an interface to the crafting menu that allows you to change your guns to be smart guns, tech guns, and more.",
-      "notes": "Required by 2 mod(s) in this pack."
-    },
-    {
       "id": "virtual-atelier-delivery",
       "name": "Virtual Atelier Delivery",
       "nexusId": 21482,
@@ -2968,7 +2901,7 @@
         "virtual-atelier"
       ],
       "author": "DJ_Kovrik and e256",
-      "endorsements": 2225,
+      "endorsements": 2251,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -2990,6 +2923,35 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
+      "id": "preem-weaponsmith-2-0",
+      "name": "Preem Weaponsmith 2.0",
+      "nexusId": 9692,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "codeware",
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "mod-settings"
+      ],
+      "author": "Appuator",
+      "endorsements": 2238,
+      "nexusCategory": "Crafting",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177023,
+        "name": "PreemWeaponsmith",
+        "version": "2.7.0",
+        "uploaded": "2026-11-11",
+        "variants": 1
+      },
+      "summary": "Adds an interface to the crafting menu that allows you to change your guns to be smart guns, tech guns, and more.",
+      "notes": "Required by 2 mod(s) in this pack."
+    },
+    {
       "id": "the-passenger-feature-settings",
       "name": "The Passenger - Feature Settings",
       "nexusId": 18380,
@@ -2999,7 +2961,7 @@
         "native-settings-ui"
       ],
       "author": "Deceptious",
-      "endorsements": 2220,
+      "endorsements": 2225,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3026,7 +2988,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Katane",
-      "endorsements": 2213,
+      "endorsements": 2217,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3050,7 +3012,7 @@
         "night-city-interactions-core"
       ],
       "author": "Deceptious",
-      "endorsements": 2206,
+      "endorsements": 2215,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3081,7 +3043,7 @@
         "cet"
       ],
       "author": "RMK",
-      "endorsements": 2166,
+      "endorsements": 2172,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3109,7 +3071,7 @@
         "tweakxl"
       ],
       "author": "skyrayfox",
-      "endorsements": 2127,
+      "endorsements": 2138,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3142,7 +3104,7 @@
         "tweakxl"
       ],
       "author": "Deceptious",
-      "endorsements": 2090,
+      "endorsements": 2092,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3161,7 +3123,7 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "tv-anywhere",
@@ -3178,7 +3140,7 @@
         "radial-menu-upgrade-for-idle-computer-tv-anywher"
       ],
       "author": "Deceptious",
-      "endorsements": 2018,
+      "endorsements": 2021,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3197,7 +3159,7 @@
       "priority": "recommended",
       "required": false,
       "author": "sosuinepsixuyu",
-      "endorsements": 2017,
+      "endorsements": 2019,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3220,7 +3182,7 @@
         "redscript"
       ],
       "author": "Seijax",
-      "endorsements": 2013,
+      "endorsements": 2014,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3244,7 +3206,7 @@
         "redscript"
       ],
       "author": "Seijax",
-      "endorsements": 1970,
+      "endorsements": 1976,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3269,7 +3231,7 @@
         "mod-settings"
       ],
       "author": "RMK",
-      "endorsements": 1951,
+      "endorsements": 1958,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3288,7 +3250,7 @@
       "priority": "optional",
       "required": false,
       "author": "sosuinepsixuyu",
-      "endorsements": 1914,
+      "endorsements": 1921,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3311,7 +3273,7 @@
         "redscript"
       ],
       "author": "HJ and fitfondue",
-      "endorsements": 1899,
+      "endorsements": 1901,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3324,6 +3286,29 @@
       "summary": "PDO tries to make combat more reactive and satisfying. It aims to be compatible with other damage, balance or gameplay overhauls."
     },
     {
+      "id": "shift-dynamic-first-person-camera",
+      "name": "Shift (Dynamic First Person Camera)",
+      "nexusId": 22340,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "codeware"
+      ],
+      "author": "CyanideX",
+      "endorsements": 1900,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168897,
+        "name": "Shift",
+        "version": "1.14.0",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Shift is a feature-rich camera overhaul mod that lets you fully customize your vehicle, weapon, and other first person camera angles, FOV, shake, and responsiveness, bringing modern controls and dramatic effects to every gameplay moment."
+    },
+    {
       "id": "second-heart-fix",
       "name": "Second Heart Fix",
       "nexusId": 11100,
@@ -3334,7 +3319,7 @@
         "codeware"
       ],
       "author": "enowai",
-      "endorsements": 1892,
+      "endorsements": 1898,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3347,27 +3332,30 @@
       "summary": "Second Heart cyberware NPC reaction improvements."
     },
     {
-      "id": "shift-dynamic-first-person-camera",
-      "name": "Shift (Dynamic First Person Camera)",
-      "nexusId": 22340,
+      "id": "quest-trigger-fixes-2-5-supported",
+      "name": "Quest Trigger Fixes (2.5 Supported)",
+      "nexusId": 17980,
       "priority": "optional",
       "required": false,
       "dependsOn": [
+        "archivexl",
         "cet",
-        "codeware"
+        "red4ext"
       ],
-      "author": "CyanideX",
-      "endorsements": 1891,
+      "author": "Atticus",
+      "endorsements": 1875,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 168897,
-        "name": "Shift",
-        "version": "1.14.0",
-        "uploaded": "2026-10-26",
-        "variants": 1
+        "fileId": 169681,
+        "name": "QuestTriggerFixes 1.3 AIO",
+        "version": "1.3",
+        "uploaded": "2026-10-27",
+        "variants": 2
       },
-      "summary": "Shift is a feature-rich camera overhaul mod that lets you fully customize your vehicle, weapon, and other first person camera angles, FOV, shake, and responsiveness, bringing modern controls and dramatic effects to every gameplay moment."
+      "summary": "Continually updated fixes - Misty tarot reading, Panam sleep at camp anytime, Spellbound, KOLD MIRAGE & many more. See description for full list.",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "general-performance-improvements-ini-tweaks-upda",
@@ -3400,32 +3388,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "quest-trigger-fixes-2-5-supported",
-      "name": "Quest Trigger Fixes (2.5 Supported)",
-      "nexusId": 17980,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "red4ext"
-      ],
-      "author": "Atticus",
-      "endorsements": 1868,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 169681,
-        "name": "QuestTriggerFixes 1.3 AIO",
-        "version": "1.3",
-        "uploaded": "2026-10-27",
-        "variants": 2
-      },
-      "summary": "Continually updated fixes - Misty tarot reading, Panam sleep at camp anytime, Spellbound, KOLD MIRAGE & many more. See description for full list.",
-      "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
-    },
-    {
       "id": "inside-the-ncart-station-opening-metro-platform",
       "name": "Inside The NCART Station - Opening Metro Platform",
       "nexusId": 15212,
@@ -3437,7 +3399,7 @@
         "native-interactions-framework"
       ],
       "author": "tidusmd",
-      "endorsements": 1825,
+      "endorsements": 1830,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3466,7 +3428,7 @@
         "photo-mode-unlocker-2-3-xl"
       ],
       "author": "Zwei",
-      "endorsements": 1791,
+      "endorsements": 1792,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3497,7 +3459,7 @@
         "tweakxl"
       ],
       "author": "apart",
-      "endorsements": 1740,
+      "endorsements": 1744,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3557,7 +3519,7 @@
         "red4ext"
       ],
       "author": "Deceptious",
-      "endorsements": 1725,
+      "endorsements": 1730,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3582,7 +3544,7 @@
         "tweakxl"
       ],
       "author": "SilverEzredes",
-      "endorsements": 1696,
+      "endorsements": 1697,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3615,7 +3577,7 @@
         "redscript"
       ],
       "author": "Seijax",
-      "endorsements": 1668,
+      "endorsements": 1672,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3639,7 +3601,7 @@
         "codeware"
       ],
       "author": "dnbnhlp",
-      "endorsements": 1586,
+      "endorsements": 1597,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3650,6 +3612,34 @@
         "variants": 2
       },
       "summary": "Up to 8 mod slots on every weapon, iconics included, with more slots opening at every rarity. Class mods fit every slot, scope and muzzle stay as the game made them, and every setting changes live in Mod Settings.",
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
+    },
+    {
+      "id": "night-city-allies-immersive-companion-system",
+      "name": "Night City Allies - Immersive Companion System",
+      "nexusId": 27625,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "cet",
+        "mod-settings",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "Dray",
+      "endorsements": 1586,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175044,
+        "name": "Night City Allies - AIO",
+        "version": "1.6.12",
+        "uploaded": "2026-11-07",
+        "variants": 2
+      },
+      "summary": "Plug and play companion mod featuring many fun characters for combat, leveling, hangouts, you name it. :) Mod & Framework for lore characters aswell as custom NPV & AMM chars. Fully modular so you can configure your own experience ♪",
       "notes": "2 main-file variants on Nexus - pick one.",
       "autoNotes": "2 main-file variants on Nexus - pick one."
     },
@@ -3666,7 +3656,7 @@
         "input-loader"
       ],
       "author": "tidusmd",
-      "endorsements": 1572,
+      "endorsements": 1575,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3679,34 +3669,6 @@
       "summary": "Add a command to walk around inside the metro.",
       "notes": "Needs DLC: Phantom Liberty.",
       "autoNotes": "Needs DLC: Phantom Liberty."
-    },
-    {
-      "id": "night-city-allies-immersive-companion-system",
-      "name": "Night City Allies - Immersive Companion System",
-      "nexusId": 27625,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "cet",
-        "mod-settings",
-        "redscript",
-        "tweakxl"
-      ],
-      "author": "Dray",
-      "endorsements": 1568,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 175044,
-        "name": "Night City Allies - AIO",
-        "version": "1.6.12",
-        "uploaded": "2026-11-07",
-        "variants": 2
-      },
-      "summary": "Plug and play companion mod featuring many fun characters for combat, leveling, hangouts, you name it. :) Mod & Framework for lore characters aswell as custom NPV & AMM chars. Fully modular so you can configure your own experience ♪",
-      "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "random-netrunners",
@@ -3722,7 +3684,7 @@
         "archivexl"
       ],
       "author": "Seijax",
-      "endorsements": 1527,
+      "endorsements": 1530,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3781,7 +3743,7 @@
         "deceptious-quest-core"
       ],
       "author": "Deceptious",
-      "endorsements": 1461,
+      "endorsements": 1466,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3804,7 +3766,7 @@
         "native-settings-ui"
       ],
       "author": "Cosmin G",
-      "endorsements": 1423,
+      "endorsements": 1425,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3834,7 +3796,7 @@
         "tweakxl"
       ],
       "author": "RelaxItsOk",
-      "endorsements": 1413,
+      "endorsements": 1420,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3856,38 +3818,13 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
-      "id": "megingjord-hover-legs-cyberware",
-      "name": "Megingjord (hover legs cyberware)",
-      "nexusId": 12664,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "red4ext",
-        "redscript",
-        "tweakxl"
-      ],
-      "author": "Seijax",
-      "endorsements": 1401,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 172527,
-        "name": "Megingjord",
-        "version": "1.3.4",
-        "uploaded": "2026-11-02",
-        "variants": 1
-      },
-      "summary": "NEW ICONIC LEGS: bringing the hover functionality back, plus iconic effect tailored to better unleash your inner viking."
-    },
-    {
       "id": "expanded-dual-wielding",
       "name": "Expanded Dual Wielding",
       "nexusId": 35626,
       "priority": "optional",
       "required": false,
       "author": "JericoHellden",
-      "endorsements": 1391,
+      "endorsements": 1416,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3900,6 +3837,31 @@
       "summary": "Dual-wield many combinations with options like melee usage, independent triggers, damage penalty remover and more. Configure all settings in the NSUI mod menu."
     },
     {
+      "id": "megingjord-hover-legs-cyberware",
+      "name": "Megingjord (hover legs cyberware)",
+      "nexusId": 12664,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "Seijax",
+      "endorsements": 1404,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172527,
+        "name": "Megingjord",
+        "version": "1.3.4",
+        "uploaded": "2026-11-02",
+        "variants": 1
+      },
+      "summary": "NEW ICONIC LEGS: bringing the hover functionality back, plus iconic effect tailored to better unleash your inner viking."
+    },
+    {
       "id": "map-street-view",
       "name": "Map Street View",
       "nexusId": 9911,
@@ -3909,7 +3871,7 @@
         "redscript"
       ],
       "author": "Ghostlight",
-      "endorsements": 1345,
+      "endorsements": 1348,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3938,7 +3900,7 @@
         "cet"
       ],
       "author": "RollermineC",
-      "endorsements": 1340,
+      "endorsements": 1344,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3960,7 +3922,7 @@
         "redscript"
       ],
       "author": "JanuarySnow",
-      "endorsements": 1312,
+      "endorsements": 1313,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -3993,7 +3955,7 @@
         "tweakxl"
       ],
       "author": "Seijax",
-      "endorsements": 1295,
+      "endorsements": 1296,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4018,7 +3980,7 @@
         "redscript"
       ],
       "author": "MisterChedda",
-      "endorsements": 1283,
+      "endorsements": 1284,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4030,6 +3992,42 @@
       },
       "summary": "Adds nitrous to all vehicles with custom visual + sound effects and HUD support.",
       "notes": "Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "eviction-notice-story-driven-rent-system",
+      "name": "Eviction Notice - Story-Driven Rent System",
+      "nexusId": 23187,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "archivexl",
+        "tweakxl",
+        "codeware",
+        "mod-settings",
+        "red4ext"
+      ],
+      "author": "Dark Fortune Teller",
+      "endorsements": 1275,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 118345,
+        "name": "Eviction Notice",
+        "version": "1.0.3-for-2.3",
+        "uploaded": "2025-08-19",
+        "variants": 1
+      },
+      "summary": "Eviction Notice is a fully-featured apartment rent system with new characters to meet (via text) and lightweight quest content.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Eviction Notice Localization.archive",
+          "archive/pc/mod/Eviction Notice.archive",
+          "r6/scripts/Eviction Notice/Devices/ENApartmentScreenControllerOverrides.reds"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "the-kidnapping-of-panam",
@@ -4065,42 +4063,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
     },
     {
-      "id": "eviction-notice-story-driven-rent-system",
-      "name": "Eviction Notice - Story-Driven Rent System",
-      "nexusId": 23187,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "archivexl",
-        "tweakxl",
-        "codeware",
-        "mod-settings",
-        "red4ext"
-      ],
-      "author": "Dark Fortune Teller",
-      "endorsements": 1270,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 118345,
-        "name": "Eviction Notice",
-        "version": "1.0.3-for-2.3",
-        "uploaded": "2025-08-19",
-        "variants": 1
-      },
-      "summary": "Eviction Notice is a fully-featured apartment rent system with new characters to meet (via text) and lightweight quest content.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Eviction Notice Localization.archive",
-          "archive/pc/mod/Eviction Notice.archive",
-          "r6/scripts/Eviction Notice/Devices/ENApartmentScreenControllerOverrides.reds"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "weapon-damage-multipliers-previously-headshot-da",
       "name": "Weapon Damage Multipliers - previously Headshot Damage Multiplier",
       "nexusId": 4247,
@@ -4122,6 +4084,34 @@
         "variants": 1
       },
       "summary": "A simple mod that adds a menu option to increase the damage multipliers for headshots, weakspots, and crits."
+    },
+    {
+      "id": "adam-finlay-hidden-gem-quest-recovery",
+      "name": "Adam Finlay Hidden Gem Quest Recovery",
+      "nexusId": 22103,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl"
+      ],
+      "author": "anygoodname",
+      "endorsements": 1233,
+      "nexusCategory": "Gameplay",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 118996,
+        "name": "Adam Finlay Hidden Gem Quest Recovery v1.2.1",
+        "version": "1.2.1",
+        "uploaded": "2025-08-23",
+        "variants": 1
+      },
+      "summary": "Now you’ve got a second chance!",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/adam_finlay_hidden_gem_recovery.archive",
+          "archive/pc/mod/adam_finlay_hidden_gem_recovery.xl"
+        ]
+      }
     },
     {
       "id": "pmu-us-cracks-set",
@@ -4158,41 +4148,13 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "adam-finlay-hidden-gem-quest-recovery",
-      "name": "Adam Finlay Hidden Gem Quest Recovery",
-      "nexusId": 22103,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl"
-      ],
-      "author": "anygoodname",
-      "endorsements": 1226,
-      "nexusCategory": "Gameplay",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 118996,
-        "name": "Adam Finlay Hidden Gem Quest Recovery v1.2.1",
-        "version": "1.2.1",
-        "uploaded": "2025-08-23",
-        "variants": 1
-      },
-      "summary": "Now you’ve got a second chance!",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/adam_finlay_hidden_gem_recovery.archive",
-          "archive/pc/mod/adam_finlay_hidden_gem_recovery.xl"
-        ]
-      }
-    },
-    {
       "id": "ccxl-more-cyberware",
       "name": "CCXL - More Cyberware",
       "nexusId": 21935,
       "priority": "optional",
       "required": false,
       "author": "Zwei",
-      "endorsements": 1219,
+      "endorsements": 1221,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4205,6 +4167,33 @@
       "summary": "Adds an additional face cyberware category to the character creator via CCXL."
     },
     {
+      "id": "actual-blackwall-quickhacks",
+      "name": "Actual Blackwall Quickhacks",
+      "nexusId": 17755,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet",
+        "red4ext",
+        "tweakxl"
+      ],
+      "author": "yakuzadeso",
+      "endorsements": 1208,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177711,
+        "name": "ActualBlackwallQuickhacks",
+        "version": "1.0.1.1",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "New Quickhack shard that unlocks the Blackwall (single target) and the Blackwall (multitarget) quickhacks. The single target variant uploads to the target delivering lethal damage and the multitarget variant spreads to multiple enemies to",
+      "notes": "Also needs (off Nexus): Phantom Liberty DLC.",
+      "autoNotes": "Also needs (off Nexus): Phantom Liberty DLC."
+    },
+    {
       "id": "game-v2-0-patch-no-forced-weapon-on-carrying-bod",
       "name": "Game v2.0 patch - No Forced Weapon On Carrying Bodies",
       "nexusId": 9223,
@@ -4215,7 +4204,7 @@
         "redscript"
       ],
       "author": "anygoodname",
-      "endorsements": 1204,
+      "endorsements": 1207,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4236,7 +4225,7 @@
       "priority": "optional",
       "required": false,
       "author": "CrazySD",
-      "endorsements": 1199,
+      "endorsements": 1200,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4251,33 +4240,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Also needs (off Nexus): RedMod."
     },
     {
-      "id": "actual-blackwall-quickhacks",
-      "name": "Actual Blackwall Quickhacks",
-      "nexusId": 17755,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet",
-        "red4ext",
-        "tweakxl"
-      ],
-      "author": "yakuzadeso",
-      "endorsements": 1196,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 177647,
-        "name": "ActualBlackwallQuickhacks",
-        "version": "1.0.1.0",
-        "uploaded": "2026-11-12",
-        "variants": 1
-      },
-      "summary": "New Quickhack shard that unlocks the Blackwall (single target) and the Blackwall (multitarget) quickhacks. The single target variant uploads to the target delivering lethal damage and the multitarget variant spreads to multiple enemies to",
-      "notes": "Also needs (off Nexus): Phantom Liberty DLC.",
-      "autoNotes": "Also needs (off Nexus): Phantom Liberty DLC."
-    },
-    {
       "id": "no-more-tiers-unlocked-perk-tree-for-2-0-and-hig",
       "name": "No More Tiers - Unlocked Perk Tree for 2.0 and Higher",
       "nexusId": 9327,
@@ -4287,7 +4249,7 @@
         "tweakxl"
       ],
       "author": "TheArtificialEnhancer",
-      "endorsements": 1177,
+      "endorsements": 1179,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4320,7 +4282,7 @@
         "audioxl"
       ],
       "author": "elminister",
-      "endorsements": 1167,
+      "endorsements": 1171,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4352,7 +4314,7 @@
         "cet"
       ],
       "author": "anygoodname",
-      "endorsements": 1163,
+      "endorsements": 1167,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4384,7 +4346,7 @@
         "virtual-atelier"
       ],
       "author": "TiGames128",
-      "endorsements": 1162,
+      "endorsements": 1166,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4410,7 +4372,7 @@
         "red4ext"
       ],
       "author": "Seijax",
-      "endorsements": 1160,
+      "endorsements": 1163,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4437,7 +4399,7 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 1153,
+      "endorsements": 1156,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4460,7 +4422,7 @@
         "tweakxl"
       ],
       "author": "Seijax",
-      "endorsements": 1152,
+      "endorsements": 1155,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4493,7 +4455,7 @@
         "tweakxl"
       ],
       "author": "SilverEzredes",
-      "endorsements": 1124,
+      "endorsements": 1126,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4521,7 +4483,7 @@
       "priority": "optional",
       "required": false,
       "author": "S1nonim",
-      "endorsements": 1077,
+      "endorsements": 1083,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -4550,7 +4512,7 @@
         "tag-marker-atlas-fix"
       ],
       "author": "Shaydera",
-      "endorsements": 1074,
+      "endorsements": 1076,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4574,7 +4536,7 @@
         "cet"
       ],
       "author": "anygoodname",
-      "endorsements": 1044,
+      "endorsements": 1049,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4598,7 +4560,7 @@
         "tweakxl"
       ],
       "author": "TheFatherofPork",
-      "endorsements": 1039,
+      "endorsements": 1043,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4619,7 +4581,7 @@
       "priority": "optional",
       "required": false,
       "author": "anygoodname",
-      "endorsements": 1027,
+      "endorsements": 1031,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -4646,7 +4608,7 @@
         "tweakxl"
       ],
       "author": "TheArtificialEnhancer",
-      "endorsements": 1025,
+      "endorsements": 1026,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4678,7 +4640,7 @@
         "supressed-breakthrough"
       ],
       "author": "yakuzadeso",
-      "endorsements": 1011,
+      "endorsements": 1014,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4743,7 +4705,7 @@
         "tweakxl"
       ],
       "author": "BiasNil",
-      "endorsements": 989,
+      "endorsements": 991,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4756,6 +4718,53 @@
       "summary": "A Revamped of Custom Level Cap that (was lightweight) but now a big mod."
     },
     {
+      "id": "splat-physics-realistic-ragdoll-overhaul",
+      "name": "SPLAT Physics Realistic Ragdoll Overhaul",
+      "nexusId": 23539,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "cet",
+        "native-settings-ui"
+      ],
+      "author": "IceFire Modding",
+      "endorsements": 990,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 171129,
+        "name": "Splat Physics 12.0 Beta",
+        "version": "12.0.1",
+        "uploaded": "2026-10-30",
+        "variants": 1
+      },
+      "summary": "Custom ragdoll system with full control over impact, fall, and motion behavior for NPC, Vehicles, and explosions. Runtime profile switching, authored fall profiles, situational categories, chance balancing, release timing, and deep D6"
+    },
+    {
+      "id": "immersion-patch-minor-activities-quest-fixes",
+      "name": "Immersion Patch - Minor Activities Quest Fixes",
+      "nexusId": 27162,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "cet"
+      ],
+      "author": "anygoodname",
+      "endorsements": 990,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174937,
+        "name": "Minor Activities Quest Fixes",
+        "version": "1.15.1",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "Patches immersion-breaking bugs in Cyberpsycho sightings and NCPD scanner quests (Minor Activities)."
+    },
+    {
       "id": "live-a-little",
       "name": "Live A Little",
       "nexusId": 13271,
@@ -4766,7 +4775,7 @@
         "redscript"
       ],
       "author": "DeepBlueFrog",
-      "endorsements": 988,
+      "endorsements": 989,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4788,30 +4797,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
-      "id": "splat-physics-realistic-ragdoll-overhaul",
-      "name": "SPLAT Physics Realistic Ragdoll Overhaul",
-      "nexusId": 23539,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "cet",
-        "native-settings-ui"
-      ],
-      "author": "IceFire Modding",
-      "endorsements": 988,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 171129,
-        "name": "Splat Physics 12.0 Beta",
-        "version": "12.0.1",
-        "uploaded": "2026-10-30",
-        "variants": 1
-      },
-      "summary": "Custom ragdoll system with full control over impact, fall, and motion behavior for NPC, Vehicles, and explosions. Runtime profile switching, authored fall profiles, situational categories, chance balancing, release timing, and deep D6"
-    },
-    {
       "id": "bolt-shot-fx-reset-fix",
       "name": "Bolt Shot FX Reset Fix",
       "nexusId": 19036,
@@ -4821,7 +4806,7 @@
         "redscript"
       ],
       "author": "The guy posting it",
-      "endorsements": 984,
+      "endorsements": 989,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4834,29 +4819,6 @@
       "summary": "Fix for bolt shot resetting issues."
     },
     {
-      "id": "immersion-patch-minor-activities-quest-fixes",
-      "name": "Immersion Patch - Minor Activities Quest Fixes",
-      "nexusId": 27162,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "cet"
-      ],
-      "author": "anygoodname",
-      "endorsements": 984,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 174937,
-        "name": "Minor Activities Quest Fixes",
-        "version": "1.15.1",
-        "uploaded": "2026-11-07",
-        "variants": 1
-      },
-      "summary": "Patches immersion-breaking bugs in Cyberpsycho sightings and NCPD scanner quests (Minor Activities)."
-    },
-    {
       "id": "in-cold-blood-npc-execution-fix",
       "name": "In Cold Blood - NPC Execution Fix",
       "nexusId": 14880,
@@ -4866,7 +4828,7 @@
         "redscript"
       ],
       "author": "Demon9ne",
-      "endorsements": 983,
+      "endorsements": 985,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4892,7 +4854,7 @@
         "virtual-atelier"
       ],
       "author": "TiGames128",
-      "endorsements": 981,
+      "endorsements": 984,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4922,7 +4884,7 @@
         "codeware"
       ],
       "author": "anygoodname",
-      "endorsements": 972,
+      "endorsements": 975,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -4948,7 +4910,7 @@
       "priority": "optional",
       "required": false,
       "author": "TheFatherOfPuppets",
-      "endorsements": 957,
+      "endorsements": 958,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4972,7 +4934,7 @@
         "tweakxl"
       ],
       "author": "Dedra",
-      "endorsements": 951,
+      "endorsements": 953,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -4996,7 +4958,7 @@
         "redscript"
       ],
       "author": "Demon9ne",
-      "endorsements": 945,
+      "endorsements": 946,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5027,7 +4989,7 @@
         "redscript"
       ],
       "author": "Di Crash",
-      "endorsements": 938,
+      "endorsements": 942,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -5055,7 +5017,7 @@
         "0-engine"
       ],
       "author": "Hepero",
-      "endorsements": 936,
+      "endorsements": 937,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -5076,7 +5038,7 @@
       "priority": "optional",
       "required": false,
       "author": "angoodname",
-      "endorsements": 933,
+      "endorsements": 937,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -5105,7 +5067,7 @@
         "tweakxl"
       ],
       "author": "FlyingNanoPenguin",
-      "endorsements": 929,
+      "endorsements": 932,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5138,7 +5100,7 @@
         "tweakxl"
       ],
       "author": "Dedra",
-      "endorsements": 924,
+      "endorsements": 928,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -5162,7 +5124,7 @@
         "unified-mods-resources"
       ],
       "author": "TiGames128",
-      "endorsements": 915,
+      "endorsements": 916,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -5186,7 +5148,7 @@
         "redscript"
       ],
       "author": "Lain",
-      "endorsements": 907,
+      "endorsements": 911,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5218,7 +5180,7 @@
         "tweakxl"
       ],
       "author": "ABCdb111",
-      "endorsements": 904,
+      "endorsements": 905,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5250,7 +5212,7 @@
         "native-interactions-framework"
       ],
       "author": "unthinkthis and keanuwheeze",
-      "endorsements": 900,
+      "endorsements": 901,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -5278,7 +5240,7 @@
         "redscript"
       ],
       "author": "Sunlive",
-      "endorsements": 897,
+      "endorsements": 898,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5309,7 +5271,7 @@
         "cet"
       ],
       "author": "tidusmd",
-      "endorsements": 879,
+      "endorsements": 881,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5326,7 +5288,58 @@
         ]
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 2 mod(s) in this pack."
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
+    },
+    {
+      "id": "crowd-variety-restored",
+      "name": "Crowd Variety Restored",
+      "nexusId": 34908,
+      "priority": "optional",
+      "required": false,
+      "author": "dnbnhlp",
+      "endorsements": 878,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175897,
+        "name": "Crowd Variety Restored",
+        "version": "1.0.5",
+        "uploaded": "2026-11-09",
+        "variants": 1
+      },
+      "summary": "Brings back 2,200+ crowd looks CDPR made and never used. Most civilian types get more than double the looks, and look-alikes standing side by side get a different one."
+    },
+    {
+      "id": "bolt-shots-penetrate-cover",
+      "name": "Bolt Shots Penetrate Cover",
+      "nexusId": 20373,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "The guy posting it",
+      "endorsements": 871,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 133653,
+        "name": "Bolt Shots Penetrate Cover",
+        "version": "1.0.5",
+        "uploaded": "2026-01-23",
+        "variants": 1
+      },
+      "summary": "Bolt shots penetrate cover.",
+      "detect": {
+        "anyOf": [
+          "r6/scripts/Bolt Shot Penetrates Cover/bolt_penetration.reds",
+          "r6/tweaks/Bolt Shot Penetrates Cover/Kenshin_Bolt_Fix.yaml",
+          "r6/tweaks/Bolt Shot Penetrates Cover/Neko_Bolt_Fix.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
       "id": "pachinko-button-gambling-system",
@@ -5362,57 +5375,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "bolt-shots-penetrate-cover",
-      "name": "Bolt Shots Penetrate Cover",
-      "nexusId": 20373,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "tweakxl"
-      ],
-      "author": "The guy posting it",
-      "endorsements": 866,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 133653,
-        "name": "Bolt Shots Penetrate Cover",
-        "version": "1.0.5",
-        "uploaded": "2026-01-23",
-        "variants": 1
-      },
-      "summary": "Bolt shots penetrate cover.",
-      "detect": {
-        "anyOf": [
-          "r6/scripts/Bolt Shot Penetrates Cover/bolt_penetration.reds",
-          "r6/tweaks/Bolt Shot Penetrates Cover/Kenshin_Bolt_Fix.yaml",
-          "r6/tweaks/Bolt Shot Penetrates Cover/Neko_Bolt_Fix.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "crowd-variety-restored",
-      "name": "Crowd Variety Restored",
-      "nexusId": 34908,
-      "priority": "optional",
-      "required": false,
-      "author": "dnbnhlp",
-      "endorsements": 859,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 175897,
-        "name": "Crowd Variety Restored",
-        "version": "1.0.5",
-        "uploaded": "2026-11-09",
-        "variants": 1
-      },
-      "summary": "Brings back 2,200+ crowd looks CDPR made and never used. Most civilian types get more than double the looks, and look-alikes standing side by side get a different one."
-    },
-    {
       "id": "ncpd-and-maxtac-spawn-tweak-district-specific-po",
       "name": "NCPD and MaxTac Spawn Tweak (District specific police behavior)",
       "nexusId": 7467,
@@ -5424,7 +5386,7 @@
         "redscript"
       ],
       "author": "jack",
-      "endorsements": 844,
+      "endorsements": 847,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5456,7 +5418,7 @@
         "red4ext"
       ],
       "author": "Atticus",
-      "endorsements": 834,
+      "endorsements": 840,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -5472,6 +5434,61 @@
           "archive/pc/mod/SemimaruQuestRestartFix.archive"
         ]
       }
+    },
+    {
+      "id": "airdrops",
+      "name": "Airdrops",
+      "nexusId": 21836,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet"
+      ],
+      "author": "anygoodname",
+      "endorsements": 831,
+      "nexusCategory": "Gameplay",
+      "compat": "script-verify",
+      "mainFile": {
+        "fileId": 140676,
+        "name": "Airdrops",
+        "version": "1.3.0",
+        "uploaded": "2026-03-28",
+        "variants": 1
+      },
+      "summary": "Adds navigation, hidden gem airdrops hints, and DOA game bug fixes.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/Airdrops/init.lua"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
+      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
+    },
+    {
+      "id": "impact-kill-looting-fix",
+      "name": "Impact Kill Looting Fix",
+      "nexusId": 28099,
+      "priority": "optional",
+      "required": false,
+      "author": "Deceptious",
+      "endorsements": 831,
+      "nexusCategory": "Gameplay",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 139143,
+        "name": "Impact Kill Looting Fix Experimental (Car Bodies)",
+        "version": "1.0.0",
+        "uploaded": "2026-03-10",
+        "variants": 2
+      },
+      "summary": "Fixes the issue where killing an NPC by hitting them with a vehicle (and some other methods) would mean V can't loot their bodies.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/ImpactKillLootingFixExperimental.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack.",
+      "autoNotes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
     },
     {
       "id": "pmu-katana-set-masc-v",
@@ -5508,35 +5525,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "airdrops",
-      "name": "Airdrops",
-      "nexusId": 21836,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet"
-      ],
-      "author": "anygoodname",
-      "endorsements": 828,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 140676,
-        "name": "Airdrops",
-        "version": "1.3.0",
-        "uploaded": "2026-03-28",
-        "variants": 1
-      },
-      "summary": "Adds navigation, hidden gem airdrops hints, and DOA game bug fixes.",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/Airdrops/init.lua"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Needs DLC: Phantom Liberty."
-    },
-    {
       "id": "disable-movement-keybinds-for-dialogue-selection",
       "name": "Disable Movement Keybinds For Dialogue Selection",
       "nexusId": 9235,
@@ -5556,32 +5544,6 @@
       "summary": "Removes the movement keybinds from affecting the dialogue selection.",
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "impact-kill-looting-fix",
-      "name": "Impact Kill Looting Fix",
-      "nexusId": 28099,
-      "priority": "optional",
-      "required": false,
-      "author": "Deceptious",
-      "endorsements": 822,
-      "nexusCategory": "Gameplay",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 139143,
-        "name": "Impact Kill Looting Fix Experimental (Car Bodies)",
-        "version": "1.0.0",
-        "uploaded": "2026-03-10",
-        "variants": 2
-      },
-      "summary": "Fixes the issue where killing an NPC by hitting them with a vehicle (and some other methods) would mean V can't loot their bodies.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/ImpactKillLootingFixExperimental.archive"
-        ]
-      },
-      "notes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack.",
-      "autoNotes": "2 main-file variants on Nexus - pick one. Required by 1 mod(s) in this pack."
     },
     {
       "id": "pmu-alt-set-vol-2",
@@ -5706,7 +5668,7 @@
         "unlocked-attachments-cet"
       ],
       "author": "BigJon",
-      "endorsements": 723,
+      "endorsements": 724,
       "nexusCategory": "Gameplay",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -5724,6 +5686,30 @@
       },
       "notes": "Required by 3 mod(s) in this pack.",
       "autoNotes": "Required by 4 mod(s) in this pack."
+    },
+    {
+      "id": "toggle-sprint-while-scanning",
+      "name": "Toggle Sprint While Scanning",
+      "nexusId": 14646,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript"
+      ],
+      "author": "Lavallet aka Aqvilinus",
+      "endorsements": 566,
+      "nexusCategory": "Gameplay",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174378,
+        "name": "Toggle Sprint While Scanning",
+        "version": "1.1",
+        "uploaded": "2026-11-06",
+        "variants": 1
+      },
+      "summary": "The scanning no longer restricts you to walking  only mode. You can now run, sprint or walk like normal while scanning and have a full control over your movement speed.",
+      "notes": "Required by 1 mod(s) in this pack.",
+      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "legendary-upgrades",
@@ -5758,30 +5744,6 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "toggle-sprint-while-scanning",
-      "name": "Toggle Sprint While Scanning",
-      "nexusId": 14646,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript"
-      ],
-      "author": "Lavallet aka Aqvilinus",
-      "endorsements": 564,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 174378,
-        "name": "Toggle Sprint While Scanning",
-        "version": "1.1",
-        "uploaded": "2026-11-06",
-        "variants": 1
-      },
-      "summary": "The scanning no longer restricts you to walking  only mode. You can now run, sprint or walk like normal while scanning and have a full control over your movement speed.",
-      "notes": "Required by 1 mod(s) in this pack.",
-      "autoNotes": "Required by 1 mod(s) in this pack."
     },
     {
       "id": "soft-crafting",
@@ -5830,7 +5792,7 @@
         "codeware"
       ],
       "author": "The guy posting it",
-      "endorsements": 406,
+      "endorsements": 407,
       "nexusCategory": "Crafting",
       "compat": "script-verify",
       "mainFile": {
@@ -5863,7 +5825,7 @@
         "tweakxl"
       ],
       "author": "Deceptious",
-      "endorsements": 382,
+      "endorsements": 385,
       "nexusCategory": "Gameplay",
       "compat": "script-verify",
       "mainFile": {
@@ -5897,7 +5859,7 @@
         "virtual-atelier"
       ],
       "author": "AAbdii",
-      "endorsements": 372,
+      "endorsements": 374,
       "nexusCategory": "Scripts",
       "compat": "script-verify",
       "mainFile": {
@@ -5937,7 +5899,7 @@
         "audioxl"
       ],
       "author": "elminister",
-      "endorsements": 307,
+      "endorsements": 309,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -5967,7 +5929,7 @@
         "tweakxl"
       ],
       "author": "OGunblade",
-      "endorsements": 289,
+      "endorsements": 290,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -5980,65 +5942,6 @@
       "summary": "Game changing immersion. Increases tension in street shootouts and during high speed car chases.",
       "notes": "Required by 1 mod(s) in this pack.",
       "autoNotes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "private-yacht",
-      "name": "Private Yacht",
-      "nexusId": 21851,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "air-s-inertia-returns",
-        "archivexl",
-        "audioware",
-        "cet",
-        "native-settings-ui",
-        "redscript"
-      ],
-      "author": "tidusmd",
-      "endorsements": 281,
-      "nexusCategory": "Gameplay",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 171879,
-        "name": "Private Yacht",
-        "version": "1.1.0",
-        "uploaded": "2026-11-01",
-        "variants": 1
-      },
-      "summary": "Add your own Yacht to the Night city waters. Board the yacht, select your destination, and it will automatically take you to your destination.",
-      "notes": "Required by 1 mod(s) in this pack.",
-      "autoNotes": "Required by 1 mod(s) in this pack."
-    },
-    {
-      "id": "rich-drop-points",
-      "name": "Rich Drop Points",
-      "nexusId": 22924,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "tweakxl"
-      ],
-      "author": "JamesTheHacker",
-      "endorsements": 253,
-      "nexusCategory": "Gameplay",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 114917,
-        "name": "Core",
-        "version": "1.00",
-        "uploaded": "2025-07-24",
-        "variants": 1
-      },
-      "summary": "Drop points are 1000x richer.",
-      "detect": {
-        "anyOf": [
-          "r6/tweaks/RichDropPoints/Vendors.TierScaledBaseMoney_inline0.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. Required by 1 mod(s) in this pack."
     },
     {
       "id": "mute-openworld-devices",
@@ -6087,7 +5990,7 @@
         "cet"
       ],
       "author": "Finnick420",
-      "endorsements": 236,
+      "endorsements": 238,
       "nexusCategory": "Scripts",
       "compat": "script-verify",
       "mainFile": {
@@ -6114,7 +6017,7 @@
       "priority": "optional",
       "required": false,
       "author": "Gokuudo",
-      "endorsements": 186,
+      "endorsements": 188,
       "nexusCategory": "Scripts",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -6175,7 +6078,7 @@
         "reddata"
       ],
       "author": "YG",
-      "endorsements": 163,
+      "endorsements": 165,
       "nexusCategory": "Scripts",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -6205,7 +6108,7 @@
         "immersive-road-crossing-and-crashes"
       ],
       "author": "EloquentShadow",
-      "endorsements": 161,
+      "endorsements": 164,
       "nexusCategory": "Scripts",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -6229,7 +6132,7 @@
         "redscript"
       ],
       "author": "yakuzadeso",
-      "endorsements": 125,
+      "endorsements": 133,
       "nexusCategory": "Gameplay",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -6256,7 +6159,7 @@
         "radioext"
       ],
       "author": "Jackson69420Nice",
-      "endorsements": 18,
+      "endorsements": 19,
       "nexusCategory": "Scripts",
       "compat": "updated-for-2.5",
       "mainFile": {

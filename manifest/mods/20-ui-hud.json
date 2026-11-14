@@ -14,7 +14,7 @@
         "archivexl"
       ],
       "author": "Jack Humbert",
-      "endorsements": 89783,
+      "endorsements": 89936,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -44,7 +44,7 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 40107,
+      "endorsements": 40134,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -70,7 +70,7 @@
       "priority": "recommended",
       "required": false,
       "author": "Jelle Bakker",
-      "endorsements": 20132,
+      "endorsements": 20133,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -100,7 +100,7 @@
         "cet"
       ],
       "author": "rodikh",
-      "endorsements": 19163,
+      "endorsements": 19178,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -122,7 +122,7 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 16699,
+      "endorsements": 16716,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -146,7 +146,7 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 12258,
+      "endorsements": 12268,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -172,14 +172,14 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 12009,
+      "endorsements": 12033,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 169151,
+        "fileId": 177960,
         "name": "Limited HUD",
-        "version": "2.23.1",
-        "uploaded": "2026-10-27",
+        "version": "2.23.2",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Hides main HUD widgets by default and shows them only on certain events (configurable). Adds in-game widget toggle hotkeys and a bunch of optional files to tweak different HUD elements.",
@@ -198,7 +198,7 @@
         "codeware"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 8241,
+      "endorsements": 8242,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -227,7 +227,7 @@
         "redscript"
       ],
       "author": "RMK",
-      "endorsements": 7764,
+      "endorsements": 7769,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -259,7 +259,7 @@
         "red4ext"
       ],
       "author": "anygoodname",
-      "endorsements": 7728,
+      "endorsements": 7735,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -286,7 +286,7 @@
         "codeware"
       ],
       "author": "RMK",
-      "endorsements": 6303,
+      "endorsements": 6307,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -308,7 +308,7 @@
         "redscript"
       ],
       "author": "Angelore",
-      "endorsements": 5807,
+      "endorsements": 5808,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -338,14 +338,14 @@
         "tweakxl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 5745,
+      "endorsements": 5758,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 168862,
+        "fileId": 178118,
         "name": "No Camera Auto Centering - TPP",
-        "version": "1.0",
-        "uploaded": "2026-10-26",
+        "version": "1.1",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Disables camera auto centering while driving in TPP or FPP mode."
@@ -397,7 +397,7 @@
         "mod-settings"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 4614,
+      "endorsements": 4620,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -421,14 +421,14 @@
         "codeware"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 4144,
+      "endorsements": 4148,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
-        "fileId": 169294,
+        "fileId": 178117,
         "name": "Named Saves",
-        "version": "2.7.1",
-        "uploaded": "2026-10-27",
+        "version": "2.7.2",
+        "uploaded": "2026-11-13",
         "variants": 1
       },
       "summary": "Allows to add custom text notes for your manually created saved games."
@@ -446,7 +446,7 @@
         "archivexl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 3847,
+      "endorsements": 3849,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -466,6 +466,33 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "inventory-adjustments-hub",
+      "name": "Inventory Adjustments Hub",
+      "nexusId": 19632,
+      "priority": "recommended",
+      "required": false,
+      "dependsOn": [
+        "codeware",
+        "mod-settings",
+        "redscript",
+        "tweakxl"
+      ],
+      "author": "svarmod",
+      "endorsements": 3567,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172099,
+        "name": "Inventory Adjustments Hub 1.5",
+        "version": "1.5",
+        "uploaded": "2026-11-01",
+        "variants": 1
+      },
+      "summary": "This mod suggests a set of useful changes for inventory menu, display items, tooltips and other UI features. It's fully customizable.",
+      "notes": "Required by 2 mod(s) in this pack.",
+      "autoNotes": "Required by 2 mod(s) in this pack."
     },
     {
       "id": "monsteraider-atelier-store",
@@ -501,33 +528,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "inventory-adjustments-hub",
-      "name": "Inventory Adjustments Hub",
-      "nexusId": 19632,
-      "priority": "recommended",
-      "required": false,
-      "dependsOn": [
-        "codeware",
-        "mod-settings",
-        "redscript",
-        "tweakxl"
-      ],
-      "author": "svarmod",
-      "endorsements": 3554,
-      "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 172099,
-        "name": "Inventory Adjustments Hub 1.5",
-        "version": "1.5",
-        "uploaded": "2026-11-01",
-        "variants": 1
-      },
-      "summary": "This mod suggests a set of useful changes for inventory menu, display items, tooltips and other UI features. It's fully customizable.",
-      "notes": "Required by 2 mod(s) in this pack.",
-      "autoNotes": "Required by 2 mod(s) in this pack."
-    },
-    {
       "id": "hud-fixes-fix-disappearing-hud-element-and-quest",
       "name": "HUD Fixes - fix disappearing HUD element and quest dialogs",
       "nexusId": 4011,
@@ -537,7 +537,7 @@
         "cet"
       ],
       "author": "anygoodname",
-      "endorsements": 3136,
+      "endorsements": 3143,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -560,7 +560,7 @@
         "redscript"
       ],
       "author": "yellingintothevoid",
-      "endorsements": 2952,
+      "endorsements": 2955,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -591,7 +591,7 @@
         "redscript"
       ],
       "author": "DeepBlueFrog",
-      "endorsements": 2921,
+      "endorsements": 2923,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -623,7 +623,7 @@
         "codeware"
       ],
       "author": "Demon9ne",
-      "endorsements": 2723,
+      "endorsements": 2725,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -654,7 +654,7 @@
         "redscript"
       ],
       "author": "Joe Parker",
-      "endorsements": 2363,
+      "endorsements": 2364,
       "nexusCategory": "User Interface",
       "compat": "unknown",
       "mainFile": {
@@ -676,7 +676,7 @@
         "redscript"
       ],
       "author": "RMK",
-      "endorsements": 2288,
+      "endorsements": 2294,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -710,7 +710,7 @@
         "archivexl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 2214,
+      "endorsements": 2215,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -735,7 +735,7 @@
         "redscript"
       ],
       "author": "MONSTERaider",
-      "endorsements": 2196,
+      "endorsements": 2200,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -771,7 +771,7 @@
         "redscript"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 2115,
+      "endorsements": 2123,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -821,7 +821,7 @@
         "tweakxl"
       ],
       "author": "Demon9ne",
-      "endorsements": 2105,
+      "endorsements": 2109,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -850,7 +850,7 @@
         "redscript"
       ],
       "author": "Pacings",
-      "endorsements": 2060,
+      "endorsements": 2063,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -874,7 +874,7 @@
         "tweakxl"
       ],
       "author": "Deceptious",
-      "endorsements": 1689,
+      "endorsements": 1705,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -906,7 +906,7 @@
         "tweakxl"
       ],
       "author": "DJ_Kovrik",
-      "endorsements": 1663,
+      "endorsements": 1664,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -934,7 +934,7 @@
       "priority": "optional",
       "required": false,
       "author": "heero139",
-      "endorsements": 1586,
+      "endorsements": 1588,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -959,7 +959,7 @@
         "codeware"
       ],
       "author": "Sobakasu13602",
-      "endorsements": 1528,
+      "endorsements": 1533,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -981,7 +981,7 @@
         "virtual-atelier"
       ],
       "author": "DISCO",
-      "endorsements": 1500,
+      "endorsements": 1502,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1006,7 +1006,7 @@
       "priority": "optional",
       "required": false,
       "author": "heero139",
-      "endorsements": 1402,
+      "endorsements": 1403,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1028,7 +1028,7 @@
         "archivexl"
       ],
       "author": "Atticus",
-      "endorsements": 1363,
+      "endorsements": 1370,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1058,7 +1058,7 @@
         "archivexl"
       ],
       "author": "Atticus",
-      "endorsements": 1327,
+      "endorsements": 1328,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1082,7 +1082,7 @@
         "mod-settings"
       ],
       "author": "Scream81",
-      "endorsements": 1301,
+      "endorsements": 1304,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1114,7 +1114,7 @@
         "codeware"
       ],
       "author": "Woodie",
-      "endorsements": 1282,
+      "endorsements": 1287,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1139,7 +1139,7 @@
         "tweakxl"
       ],
       "author": "v1ld",
-      "endorsements": 1190,
+      "endorsements": 1193,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1172,7 +1172,7 @@
         "archivexl"
       ],
       "author": "The guy posting it",
-      "endorsements": 1159,
+      "endorsements": 1164,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1195,7 +1195,7 @@
         "redscript"
       ],
       "author": "v1ld",
-      "endorsements": 1146,
+      "endorsements": 1149,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1269,7 +1269,7 @@
       "priority": "optional",
       "required": false,
       "author": "Defyant",
-      "endorsements": 955,
+      "endorsements": 956,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1297,7 +1297,7 @@
         "codeware"
       ],
       "author": "anygoodname",
-      "endorsements": 950,
+      "endorsements": 956,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1328,7 +1328,7 @@
         "tweakxl"
       ],
       "author": "Seijax",
-      "endorsements": 888,
+      "endorsements": 890,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1358,7 +1358,7 @@
         "cet"
       ],
       "author": "anygoodname",
-      "endorsements": 861,
+      "endorsements": 863,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1378,30 +1378,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "compact-weapon-mod-slots-better-ui-for-extra-att",
-      "name": "Compact Weapon Mod Slots - Better UI for Extra Attachments",
-      "nexusId": 25032,
-      "priority": "optional",
-      "required": false,
-      "author": "Trendal",
-      "endorsements": 796,
-      "nexusCategory": "User Interface",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 124681,
-        "name": "Compact Weapon Mod Slots",
-        "version": "1.0.0",
-        "uploaded": "2025-10-15",
-        "variants": 1
-      },
-      "summary": "Rearranges weapon mod slots into 2 columns so that weapons with many attachments will still fit on the screen. Intended for players with mods that add additional weapon mod slots.",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/CompactWeaponModSlots.archive"
-        ]
-      }
-    },
-    {
       "id": "mod-configuration-menu",
       "name": "Mod Configuration Menu",
       "nexusId": 31640,
@@ -1416,7 +1392,7 @@
         "redscript-configuration-framework"
       ],
       "author": "Antrix",
-      "endorsements": 796,
+      "endorsements": 806,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1439,7 +1415,7 @@
         "redscript"
       ],
       "author": "Deceptious",
-      "endorsements": 793,
+      "endorsements": 799,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1459,13 +1435,37 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "compact-weapon-mod-slots-better-ui-for-extra-att",
+      "name": "Compact Weapon Mod Slots - Better UI for Extra Attachments",
+      "nexusId": 25032,
+      "priority": "optional",
+      "required": false,
+      "author": "Trendal",
+      "endorsements": 797,
+      "nexusCategory": "User Interface",
+      "compat": "assets-likely-ok",
+      "mainFile": {
+        "fileId": 124681,
+        "name": "Compact Weapon Mod Slots",
+        "version": "1.0.0",
+        "uploaded": "2025-10-15",
+        "variants": 1
+      },
+      "summary": "Rearranges weapon mod slots into 2 columns so that weapons with many attachments will still fit on the screen. Intended for players with mods that add additional weapon mod slots.",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/CompactWeaponModSlots.archive"
+        ]
+      }
+    },
+    {
       "id": "stats-bar-ui-fix",
       "name": "Stats Bar UI Fix",
       "nexusId": 24925,
       "priority": "optional",
       "required": false,
       "author": "Dark Fortune Teller",
-      "endorsements": 787,
+      "endorsements": 792,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1489,7 +1489,7 @@
       "priority": "optional",
       "required": false,
       "author": "Samuel4El",
-      "endorsements": 724,
+      "endorsements": 728,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1510,7 +1510,7 @@
       "priority": "optional",
       "required": false,
       "author": "TheArtificialEnhancer",
-      "endorsements": 722,
+      "endorsements": 724,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -1567,7 +1567,7 @@
         "codeware"
       ],
       "author": "Phoenicia",
-      "endorsements": 702,
+      "endorsements": 704,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1596,7 +1596,7 @@
         "redscript"
       ],
       "author": "Demon9ne",
-      "endorsements": 695,
+      "endorsements": 697,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1648,7 +1648,7 @@
         "ram-bar-fix"
       ],
       "author": "ctxrlsec",
-      "endorsements": 641,
+      "endorsements": 642,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1708,7 +1708,7 @@
         "tweakxl"
       ],
       "author": "ApoKrytia",
-      "endorsements": 606,
+      "endorsements": 611,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1789,7 +1789,7 @@
         "redscript"
       ],
       "author": "Tremox",
-      "endorsements": 548,
+      "endorsements": 551,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1807,6 +1807,30 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
+      "id": "readable-shards",
+      "name": "Readable Shards",
+      "nexusId": 31789,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "redscript",
+        "codeware",
+        "mod-settings"
+      ],
+      "author": "MisterChedda",
+      "endorsements": 549,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 168827,
+        "name": "Readable Shards",
+        "version": "5",
+        "uploaded": "2026-10-26",
+        "variants": 1
+      },
+      "summary": "Improves the readability of shards."
     },
     {
       "id": "4k-hand-cursor",
@@ -1831,30 +1855,6 @@
           "archive/pc/mod/4K Hand Cursor.archive"
         ]
       }
-    },
-    {
-      "id": "readable-shards",
-      "name": "Readable Shards",
-      "nexusId": 31789,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "redscript",
-        "codeware",
-        "mod-settings"
-      ],
-      "author": "MisterChedda",
-      "endorsements": 543,
-      "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 168827,
-        "name": "Readable Shards",
-        "version": "5",
-        "uploaded": "2026-10-26",
-        "variants": 1
-      },
-      "summary": "Improves the readability of shards."
     },
     {
       "id": "english-translation-fix-for-romance-between-judy",
@@ -1891,7 +1891,7 @@
       "priority": "optional",
       "required": false,
       "author": "zuckyy",
-      "endorsements": 522,
+      "endorsements": 525,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1918,7 +1918,7 @@
         "calendar"
       ],
       "author": "Scream81",
-      "endorsements": 516,
+      "endorsements": 517,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -1951,7 +1951,7 @@
         "codeware"
       ],
       "author": "Scream81",
-      "endorsements": 484,
+      "endorsements": 491,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -1973,7 +1973,7 @@
         "mod-settings"
       ],
       "author": "yushengweixie",
-      "endorsements": 479,
+      "endorsements": 480,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2013,6 +2013,33 @@
       "autoNotes": "2 main-file variants on Nexus - pick one. Needs DLC: Phantom Liberty."
     },
     {
+      "id": "contacts-redux-live-online-status-indicators-imp",
+      "name": "Contacts Redux - Live Online Status Indicators - Improved Contact List UI - Visible Avatars - Smart Sorting - Phone UI Overhaul",
+      "nexusId": 27146,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "archivexl",
+        "mod-settings",
+        "redscript",
+        "red4ext",
+        "codeware",
+        "input-loader"
+      ],
+      "author": "Xairron",
+      "endorsements": 440,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 175059,
+        "name": "Contacts Redux",
+        "version": "2.0.0",
+        "uploaded": "2026-11-07",
+        "variants": 1
+      },
+      "summary": "Tired of the tiny, static contact list? Contacts Redux brings V's phone to life with large avatars, dynamic status indicators, and smart sorting. Experience a cleaner, more reactive, and immersive communication interface."
+    },
+    {
       "id": "smaller-cyberware-slots-better-ui-for-more-cyber",
       "name": "Smaller Cyberware Slots - Better UI for More Cyberware Slots",
       "nexusId": 24409,
@@ -2044,33 +2071,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "contacts-redux-live-online-status-indicators-imp",
-      "name": "Contacts Redux - Live Online Status Indicators - Improved Contact List UI - Visible Avatars - Smart Sorting - Phone UI Overhaul",
-      "nexusId": 27146,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "archivexl",
-        "mod-settings",
-        "redscript",
-        "red4ext",
-        "codeware",
-        "input-loader"
-      ],
-      "author": "Xairron",
-      "endorsements": 434,
-      "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 175059,
-        "name": "Contacts Redux",
-        "version": "2.0.0",
-        "uploaded": "2026-11-07",
-        "variants": 1
-      },
-      "summary": "Tired of the tiny, static contact list? Contacts Redux brings V's phone to life with large avatars, dynamic status indicators, and smart sorting. Experience a cleaner, more reactive, and immersive communication interface."
-    },
-    {
       "id": "hud-and-ui-theme-selection-unlocker",
       "name": "HUD and UI Theme Selection Unlocker",
       "nexusId": 11336,
@@ -2080,7 +2080,7 @@
         "cet"
       ],
       "author": "TheArtificialEnhancer",
-      "endorsements": 426,
+      "endorsements": 428,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2096,6 +2096,28 @@
           "archive/pc/mod/!UnlockThemeSelection-PlusCustomThemes.archive"
         ]
       }
+    },
+    {
+      "id": "mod-settings-ru",
+      "name": "Mod Settings_RU",
+      "nexusId": 22173,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "mod-settings"
+      ],
+      "author": "8LOMU8",
+      "endorsements": 423,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 177217,
+        "name": "ModSettings_RU",
+        "version": "0.2.30",
+        "uploaded": "2026-11-12",
+        "variants": 1
+      },
+      "summary": "Russian translation of the \"Mod Settings\" mod"
     },
     {
       "id": "yet-another-hud-recolor",
@@ -2120,28 +2142,6 @@
       "summary": "Tweaked UI base colors.",
       "notes": "2 main-file variants on Nexus - pick one.",
       "autoNotes": "2 main-file variants on Nexus - pick one."
-    },
-    {
-      "id": "mod-settings-ru",
-      "name": "Mod Settings_RU",
-      "nexusId": 22173,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "mod-settings"
-      ],
-      "author": "8LOMU8",
-      "endorsements": 420,
-      "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 177217,
-        "name": "ModSettings_RU",
-        "version": "0.2.30",
-        "uploaded": "2026-11-12",
-        "variants": 1
-      },
-      "summary": "Russian translation of the \"Mod Settings\" mod"
     },
     {
       "id": "inventory-sorting-improved",
@@ -2173,39 +2173,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
-      "id": "enterable-interiors",
-      "name": "Enterable Interiors",
-      "nexusId": 13209,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "cet",
-        "tweakxl",
-        "redscript"
-      ],
-      "author": "Halliphax2",
-      "endorsements": 395,
-      "nexusCategory": "User Interface",
-      "compat": "script-verify",
-      "mainFile": {
-        "fileId": 163336,
-        "name": "Enterable Interiors 3.2",
-        "version": "3.2",
-        "uploaded": "2026-09-30",
-        "variants": 1
-      },
-      "summary": "Marks enterable interiors on the map, now using redscript for custom names and descriptions.",
-      "detect": {
-        "anyOf": [
-          "bin/x64/plugins/cyber_engine_tweaks/mods/UnlockDoors/init.lua",
-          "r6/scripts/EnterableInteriors/EnterableInteriors.reds",
-          "r6/tweaks/EnterableInteriors/EnterableInteriors.yaml"
-        ]
-      },
-      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
-      "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
       "id": "flatlined-exit",
       "name": "Flatlined Exit",
       "nexusId": 24400,
@@ -2215,7 +2182,7 @@
         "redscript"
       ],
       "author": "Demon9ne",
-      "endorsements": 393,
+      "endorsements": 397,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -2235,13 +2202,45 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
     },
     {
+      "id": "enterable-interiors",
+      "name": "Enterable Interiors",
+      "nexusId": 13209,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "cet",
+        "tweakxl",
+        "redscript"
+      ],
+      "author": "Halliphax2",
+      "endorsements": 396,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 178014,
+        "name": "Enterable Interiors 3.3",
+        "version": "3.3",
+        "uploaded": "2026-11-13",
+        "variants": 1
+      },
+      "summary": "Marks enterable interiors on the map, now using redscript for custom names and descriptions.",
+      "detect": {
+        "anyOf": [
+          "bin/x64/plugins/cyber_engine_tweaks/mods/UnlockDoors/init.lua",
+          "r6/scripts/EnterableInteriors/EnterableInteriors.reds",
+          "r6/tweaks/EnterableInteriors/EnterableInteriors.yaml"
+        ]
+      },
+      "notes": "Script mod last updated before 2.5 - usually fine, verify in-game."
+    },
+    {
       "id": "remove-mods-mod-io-menu-and-mod-verification-pop",
       "name": "Remove Mods (mod.io) Menu and Mod Verification popup",
       "nexusId": 35686,
       "priority": "optional",
       "required": false,
       "author": "Akiway",
-      "endorsements": 379,
+      "endorsements": 395,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2296,7 +2295,7 @@
         "redscript"
       ],
       "author": "Barfunkle999",
-      "endorsements": 367,
+      "endorsements": 370,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2315,7 +2314,7 @@
       "priority": "optional",
       "required": false,
       "author": "FleurYoupi",
-      "endorsements": 365,
+      "endorsements": 366,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2333,13 +2332,32 @@
       }
     },
     {
+      "id": "map-waypoint-bug-fixes",
+      "name": "Map Waypoint Bug Fixes",
+      "nexusId": 32175,
+      "priority": "optional",
+      "required": false,
+      "author": "Spuddeh",
+      "endorsements": 356,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 172349,
+        "name": "MapWaypointBugFixes",
+        "version": "1.1.1",
+        "uploaded": "2026-11-02",
+        "variants": 1
+      },
+      "summary": "Fixes three base-game bugs: waypoint markers that stay stuck on your HUD and minimap after the waypoint is gone, a world-map input leak that drops stray waypoints onto the map, and fast travel points and other map markers going missing"
+    },
+    {
       "id": "quest-widget-right-aligned",
       "name": "Quest Widget - Right Aligned",
       "nexusId": 17229,
       "priority": "optional",
       "required": false,
       "author": "Scream81",
-      "endorsements": 351,
+      "endorsements": 353,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2358,7 +2376,7 @@
       "priority": "optional",
       "required": false,
       "author": "ZHANG",
-      "endorsements": 350,
+      "endorsements": 351,
       "nexusCategory": "User Interface",
       "compat": "unknown",
       "mainFile": {
@@ -2371,23 +2389,33 @@
       "summary": "修复所有基于 CET 的、带有 简体中文/繁体中文 汉化文件的功能菜单类模组或个人汉化过的覆盖式安装文件，在游戏模组菜单中出现“???”或缺字的问题，通过修改字体配置为支持完整 简体中文 / 繁体中文 字符集的字体文件，让界面文字完整显示Font Patch for Chin"
     },
     {
-      "id": "map-waypoint-bug-fixes",
-      "name": "Map Waypoint Bug Fixes",
-      "nexusId": 32175,
+      "id": "crosshair-simple-redone",
+      "name": "Crosshair simple redone",
+      "nexusId": 13424,
       "priority": "optional",
       "required": false,
-      "author": "Spuddeh",
-      "endorsements": 350,
+      "dependsOn": [
+        "limited-hud"
+      ],
+      "author": "Murdoc13",
+      "endorsements": 348,
       "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
+      "compat": "assets-likely-ok",
       "mainFile": {
-        "fileId": 172349,
-        "name": "MapWaypointBugFixes",
-        "version": "1.1.1",
-        "uploaded": "2026-11-02",
-        "variants": 1
+        "fileId": 70600,
+        "name": "Crosshair simple dot only",
+        "version": "1.0",
+        "uploaded": "2024-03-03",
+        "variants": 2
       },
-      "summary": "Fixes three base-game bugs: waypoint markers that stay stuck on your HUD and minimap after the waypoint is gone, a world-map input leak that drops stray waypoints onto the map, and fast travel points and other map markers going missing"
+      "summary": "Changes crosshair_simple.inkwidget to looks more like FPS crosshair",
+      "detect": {
+        "anyOf": [
+          "archive/pc/mod/Crosshair_simple.archive"
+        ]
+      },
+      "notes": "2 main-file variants on Nexus - pick one.",
+      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "zioqs-zoom-instead-of-quickhack-select",
@@ -2425,7 +2453,7 @@
         "input-loader"
       ],
       "author": "r457 and gh057",
-      "endorsements": 346,
+      "endorsements": 347,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -2445,35 +2473,6 @@
       },
       "notes": "Script mod last updated before 2.5 - usually fine, verify in-game.",
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game."
-    },
-    {
-      "id": "crosshair-simple-redone",
-      "name": "Crosshair simple redone",
-      "nexusId": 13424,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "limited-hud"
-      ],
-      "author": "Murdoc13",
-      "endorsements": 345,
-      "nexusCategory": "User Interface",
-      "compat": "assets-likely-ok",
-      "mainFile": {
-        "fileId": 70600,
-        "name": "Crosshair simple dot only",
-        "version": "1.0",
-        "uploaded": "2024-03-03",
-        "variants": 2
-      },
-      "summary": "Changes crosshair_simple.inkwidget to looks more like FPS crosshair",
-      "detect": {
-        "anyOf": [
-          "archive/pc/mod/Crosshair_simple.archive"
-        ]
-      },
-      "notes": "2 main-file variants on Nexus - pick one.",
-      "autoNotes": "2 main-file variants on Nexus - pick one."
     },
     {
       "id": "now-playing-display",
@@ -2513,7 +2512,7 @@
       "priority": "optional",
       "required": false,
       "author": "popnlocke",
-      "endorsements": 312,
+      "endorsements": 314,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -2540,7 +2539,7 @@
         "hud-painter"
       ],
       "author": "Vequa",
-      "endorsements": 297,
+      "endorsements": 298,
       "nexusCategory": "User Interface",
       "compat": "unknown",
       "mainFile": {
@@ -2570,7 +2569,7 @@
         "redscript-configuration-framework"
       ],
       "author": "Q",
-      "endorsements": 296,
+      "endorsements": 297,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2589,7 +2588,7 @@
       "priority": "optional",
       "required": false,
       "author": "Alsh",
-      "endorsements": 284,
+      "endorsements": 285,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2617,7 +2616,7 @@
         "archivexl"
       ],
       "author": "nolvalir",
-      "endorsements": 279,
+      "endorsements": 280,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -2794,7 +2793,7 @@
         "redlogger"
       ],
       "author": "Spuddeh",
-      "endorsements": 254,
+      "endorsements": 256,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -2824,7 +2823,7 @@
         "codeware"
       ],
       "author": "pointdotpoint",
-      "endorsements": 250,
+      "endorsements": 252,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -2856,7 +2855,7 @@
         "tweakxl"
       ],
       "author": "Emperia",
-      "endorsements": 245,
+      "endorsements": 247,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2878,7 +2877,7 @@
         "cet"
       ],
       "author": "RetchERezzed",
-      "endorsements": 245,
+      "endorsements": 247,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2927,7 +2926,7 @@
         "redscript"
       ],
       "author": "Sekers",
-      "endorsements": 236,
+      "endorsements": 238,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -2976,7 +2975,7 @@
         "hud-painter"
       ],
       "author": "Aether",
-      "endorsements": 223,
+      "endorsements": 225,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3003,7 +3002,7 @@
         "cet"
       ],
       "author": "EmreHQ",
-      "endorsements": 218,
+      "endorsements": 220,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -3032,7 +3031,7 @@
         "redscript"
       ],
       "author": "Atticus",
-      "endorsements": 209,
+      "endorsements": 210,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -3058,7 +3057,7 @@
       "priority": "optional",
       "required": false,
       "author": "pointdotpoint",
-      "endorsements": 201,
+      "endorsements": 209,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3107,7 +3106,7 @@
         "redscript"
       ],
       "author": "Scream81",
-      "endorsements": 194,
+      "endorsements": 196,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -3133,7 +3132,7 @@
       "priority": "optional",
       "required": false,
       "author": "BlackRevell",
-      "endorsements": 194,
+      "endorsements": 196,
       "nexusCategory": "User Interface",
       "compat": "assets-likely-ok",
       "mainFile": {
@@ -3165,7 +3164,7 @@
         "input-loader"
       ],
       "author": "Sirrus233",
-      "endorsements": 192,
+      "endorsements": 193,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3242,7 +3241,7 @@
       "priority": "optional",
       "required": false,
       "author": "dnbnhlp",
-      "endorsements": 174,
+      "endorsements": 175,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {
@@ -3253,6 +3252,31 @@
         "variants": 1
       },
       "summary": "Take full control and fix some vanilla issues with your inventory preview: add 12-step zoom, rotation, tilt, preview doll on sub screens, fix input leak on preview doll, cursor jump to center screen."
+    },
+    {
+      "id": "i-really-want-to-be-with-you-romance-dialogue-hi",
+      "name": "I really want to be with you - Romance Dialogue Highlighter",
+      "nexusId": 36711,
+      "priority": "optional",
+      "required": false,
+      "dependsOn": [
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "mod-settings"
+      ],
+      "author": "Xairron",
+      "endorsements": 175,
+      "nexusCategory": "User Interface",
+      "compat": "updated-for-2.5",
+      "mainFile": {
+        "fileId": 174139,
+        "name": "I Realy Want To Be With You",
+        "version": "1.2.0",
+        "uploaded": "2026-11-05",
+        "variants": 1
+      },
+      "summary": "Romance choices for Panam, Judy, Kerry, River and Rogue get a color and a heart, so you never miss the right line."
     },
     {
       "id": "clean-scanner-for-project-e3-hud",
@@ -3335,31 +3359,6 @@
       "autoNotes": "Script mod last updated before 2.5 - usually fine, verify in-game. 2 main-file variants on Nexus - pick one."
     },
     {
-      "id": "i-really-want-to-be-with-you-romance-dialogue-hi",
-      "name": "I really want to be with you - Romance Dialogue Highlighter",
-      "nexusId": 36711,
-      "priority": "optional",
-      "required": false,
-      "dependsOn": [
-        "red4ext",
-        "redscript",
-        "tweakxl",
-        "mod-settings"
-      ],
-      "author": "Xairron",
-      "endorsements": 164,
-      "nexusCategory": "User Interface",
-      "compat": "updated-for-2.5",
-      "mainFile": {
-        "fileId": 174139,
-        "name": "I Realy Want To Be With You",
-        "version": "1.2.0",
-        "uploaded": "2026-11-05",
-        "variants": 1
-      },
-      "summary": "Romance choices for Panam, Judy, Kerry, River and Rogue get a color and a heart, so you never miss the right line."
-    },
-    {
       "id": "untrack-map-pins",
       "name": "Untrack Map Pins",
       "nexusId": 28875,
@@ -3369,7 +3368,7 @@
         "redscript"
       ],
       "author": "nolvalir",
-      "endorsements": 163,
+      "endorsements": 166,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -3428,7 +3427,7 @@
         "native-settings-ui"
       ],
       "author": "EmreHQ",
-      "endorsements": 157,
+      "endorsements": 160,
       "nexusCategory": "User Interface",
       "compat": "script-verify",
       "mainFile": {
@@ -3486,7 +3485,7 @@
       "priority": "optional",
       "required": false,
       "author": "Shaydera",
-      "endorsements": 31,
+      "endorsements": 32,
       "nexusCategory": "User Interface",
       "compat": "updated-for-2.5",
       "mainFile": {

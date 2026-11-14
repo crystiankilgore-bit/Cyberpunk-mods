@@ -35,6 +35,7 @@ Read **[docs/INSTALL-GUIDE.md](docs/INSTALL-GUIDE.md)** before installing. It co
 | `manifest/modpack.json` | Pack settings: target version, expected exe version, category files |
 | `manifest/mods/*.json` | The mods, one file per category. Each entry has the Nexus id, the pinned main file, requirements (`dependsOn`), detect paths, and a 2.5 compatibility rating |
 | `manifest/mods/99-personal.json` | **Yours.** Add mods by hand here; the builder never touches it |
+| `DISABLE-THESE-MODS.txt` | Mods removed from the pack since you may have installed them: disable these in Vortex |
 | `manifest/REPORT.md` | Build summary: counts, compatibility breakdown, and every mod left out and why |
 | `tools/nexus/build_modpack.py` | Regenerates the manifest from Nexus (top-endorsed per category, requirements, conflicts) |
 | `tools/nexus/modpack-config.json` | How many mods per category, compatibility cutoffs, exclusions |
