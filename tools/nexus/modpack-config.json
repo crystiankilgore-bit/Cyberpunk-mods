@@ -14,14 +14,22 @@
     9243,
     12874,
     13485,
-    16256
+    16256,
+    17760,
+    19792,
+    21252,
+    25770
   ],
   "excludeModIdsNotes": {
     "13485": "4x Vending Machine Framework: world-sector edits fail on 2.5 (ArchiveXL: node count mismatch). Seen in user logs 2026-11-13.",
     "16256": "4x Magazine Framework: world-sector edits fail on 2.5 (ArchiveXL: node count mismatch). Seen in user logs 2026-11-13.",
     "12874": "Dogtown Location Visuals Nulled: world-sector edits fail on 2.5 (node type mismatch). Mods requiring it are dropped too.",
     "9243": "Fast Travel from anywhere to everywhere - REDmod: pre-2.5 REDmod duplicate of the redscript version (9241); broke Vortex's REDmod deploy with 'script compilation failed' (user report 2026-11-13).",
-    "1889": "Limited Fast Travel: does the opposite of Fast Travel from anywhere (9241); don't run both."
+    "1889": "Limited Fast Travel: does the opposite of Fast Travel from anywhere (9241); don't run both.",
+    "19792": "H10 Elevator Expanded: crashes the game on 2.5 while ArchiveXL patches sector exterior_-6_4_0_2 (4 of 5 sessions in user logs 2026-11-13).",
+    "17760": "E3 2018 Roads: sector edits rejected on 2.5 (node type/count mismatch), crashed in the same load.",
+    "25770": "Night City Flooded: NCFloodedPacificaPools.xl sector edit rejected on 2.5 (node count mismatch).",
+    "21252": "H10 street fix (Road_fix_V2): targets a sector that no longer exists on 2.5."
   },
   "excludeNamePatterns": [
     "(?i)\\bsave ?(file|game)s?\\b",

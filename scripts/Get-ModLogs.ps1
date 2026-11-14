@@ -84,7 +84,7 @@ $sessionStart = ($files | Where-Object { $_.Group -in 'RED4ext', 'Cyber Engine T
 if ($sessionStart) { $sessionStart = $sessionStart.AddMinutes(-30) }
 
 $errorPattern = '(?i)\b(error|fatal|exception|crash(ed)?|failed|failure|cannot|can''t|unable to|not found|missing|incompatible|mismatch)\b'
-$ignorePattern = '(?i)(0 errors?|no errors|errors?: 0|without errors)'
+$ignorePattern = '(?i)(0 errors?|no errors|errors?: 0|without errors|no (\w+ )?errors? (reported|found))'
 # Lines a logger explicitly marked as info/debug/trace are never errors, whatever words they contain.
 $infoLevelPattern = '(?i)^\s*(\[[^\]]*\]\s*)*\[\s*(info|debug|trace|verbose)\s*[\]-]|^\s*\[(INFO|DEBUG|TRACE)\b'
 # Lines a logger explicitly marked as a problem.

@@ -266,7 +266,10 @@ def classify(paths: list[str]) -> dict:
             kinds.add("redscript")
         elif low.startswith("r6/tweaks/"):
             kinds.add("tweak")
-        elif low.endswith((".archive", ".xl")):
+        elif low.endswith(".xl"):
+            kinds.add("archive")
+            kinds.add("xl")
+        elif low.endswith(".archive"):
             kinds.add("archive")
         elif low.startswith("mods/"):
             kinds.add("redmod")
@@ -305,12 +308,21 @@ def detect_paths(paths: list[str]) -> list[str]:
     return out
 
 
-def compat_of(main: dict | None, kinds: list[str], cfg: dict) -> str:
+# Nexus categories where an .xl file usually means world-sector edits (moved/added map objects).
+# Sector edits are tied to the exact game build: on a newer patch ArchiveXL rejects them, and some crash
+# the game while a sector streams in (seen with H10 Elevator Expanded on 2.5).
+WORLD_CATEGORIES = {"Locations", "Apartment", "Add-On Apartment", "Visuals and Graphics",
+                    "Props and Decorations", "Adverts", "Miscellaneous", "Utilities"}
+
+
+def compat_of(main: dict | None, kinds: list[str], cfg: dict, category: str = "") -> str:
     if not main:
         return "unknown"
     day = main["uploaded"]
     if day >= cfg["patch25Date"]:
         return "updated-for-2.5"
+    if "xl" in kinds and category in WORLD_CATEGORIES:
+        return "world-pre-2.5"
     if set(kinds) & {"red4ext-plugin", "native"}:
         return "native-pre-2.5"
     if set(kinds) & {"redscript", "cet", "tweak", "redmod", "config"}:
@@ -435,7 +447,7 @@ def main() -> int:
             paths = sorted({p for p in (normalize(x) for x in raw) if p})
             m["_paths"] = paths
             m["_kinds"] = classify(paths)["kinds"]
-            m["_compat"] = compat_of(m["_main"], m["_kinds"], cfg)
+            m["_compat"] = compat_of(m["_main"], m["_kinds"], cfg, (m.get("modCategory") or {}).get("name", ""))
 
     enrich(candidates)
 
@@ -463,7 +475,7 @@ def main() -> int:
         enrich({d: pool[d] for d in need if d in pool})
 
     # ---- 4. greedy selection, most endorsed first, with file-conflict checks
-    skip_compat = {"script-outdated", "assets-outdated", "unknown-outdated", "external-tool"}
+    skip_compat = {"script-outdated", "assets-outdated", "unknown-outdated", "external-tool", "world-pre-2.5"}
     if cfg.get("excludeOutdatedNative", True):
         skip_compat.add("native-pre-2.5")
 
@@ -735,6 +747,7 @@ def write_report(picked, skipped, compat_count, by_file, titles, cfg, pool):
         "native-pre-2.5": "DLL plugin not updated since 2.5",
         "script-outdated": f"script mod not updated since {cfg['scriptCutoff']}",
         "assets-outdated": f"asset mod not updated since {cfg['assetCutoff']}",
+        "world-pre-2.5": "edits map sectors and predates 2.5 (sector edits break, or crash, on new patches)",
         "no-main-file": "no downloadable main file",
         "bad-requirement": "needs a mod that's outdated, excluded, adult-only or removed",
         "duplicate-variant": "another Nexus page of the same mod (e.g. REDmod vs redscript) is newer",
